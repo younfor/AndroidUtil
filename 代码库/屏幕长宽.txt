@@ -1,0 +1,5 @@
+//µ÷ÓÃÆÁÄ»¿í¶È
+DisplayMetrics dm = new DisplayMetrics();
+((Activity)ct).getWindowManager().getDefaultDisplay().getMetrics(dm);
+
+dm.widthPixels

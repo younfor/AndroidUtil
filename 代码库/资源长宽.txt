@@ -1,0 +1,4 @@
+//µ÷ÓÃÍ¼Æ¬¿í¶È
+Drawable d = context.getResources().getDrawable(R.drawable.btn_bg01);
+OFFSET_WIDTH = d.getIntrinsicWidth() / 2;
+OFFSET_HEIGHT = d.getIntrinsicHeight() / 2;

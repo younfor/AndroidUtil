@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	<com.example.t1_1.DeletableEditText
+        android:id="@+id/user_name_input"
+        android:layout_width="200dip"
+        android:layout_height="48dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/selector_edittext_account"
+        android:drawableLeft="@drawable/user_account"
+        android:drawableRight="@drawable/user_delete"
+        android:ems="10"
+        android:hint="请输入帐号名"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </com.example.t1_1.DeletableEditText>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="200dip"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/user_name_input"
+        android:background="@drawable/selector_logout"
+        android:text="Shake"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
