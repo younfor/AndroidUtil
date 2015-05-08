@@ -1,0 +1,58 @@
+start to reg
+start to seat
+seat/ 
+button: 5555 2000 8000 
+small blind: 3333 2000 8000 
+big blind: 4444 2000 8000 
+8888 2000 8000 
+1111 2000 8000 
+6666 2000 8000 
+7777 2000 8000 
+2222 2000 8000 
+/seat 
+blind/ 
+3333: 50 
+4444: 100 
+/blind 
+hold/ 
+HEARTS 10 
+DIAMONDS 9 
+/hold 
+inquire/ 
+7777 2000 8000 0 fold 
+6666 2000 8000 0 fold 
+1111 2000 8000 0 fold 
+8888 2000 8000 0 fold 
+4444 1900 8000 100 blind 
+3333 1950 8000 50 blind 
+total pot: 150 
+/inquire 
+pot-win/ 
+/pot-win 
+start to seat
+seat/ 
+button: 3333 1950 8000 
+small blind: 4444 1900 8000 
+big blind: 8888 2000 8000 
+1111 2000 8000 
+6666 2000 8000 
+7777 2000 8000 
+2222 2000 8000 
+5555 2000 8000 
+/seat 
+blind/ 
+4444: 50 
+8888: 100 
+/blind 
+hold/ 
+SPADES 6 
+DIAMONDS K 
+/hold 
+inquire/ 
+7777 2000 8000 0 fold 
+6666 2000 8000 0 fold 
+1111 2000 8000 0 fold 
+8888 1900 8000 100 blind 
+4444 1850 8000 50 blind 
+total pot: 150 
+/inquire 
