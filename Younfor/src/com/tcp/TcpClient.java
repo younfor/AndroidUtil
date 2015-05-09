@@ -18,7 +18,7 @@ public class TcpClient {
 		InputStream in=null;
 		BufferedReader read=null;
 		OutputStream out=null;
-		Game game=new Game(args[4],"younfor"+args[4]);
+		Game game=new Game(args[4],"younfor");
 		try {
 			socket=new Socket(args[0],Integer.parseInt(args[1]),InetAddress.getByName(args[2]),Integer.parseInt(args[3]));
 			in=socket.getInputStream();
@@ -30,8 +30,20 @@ public class TcpClient {
 			game.start(read,out);
 		} catch (IOException e) {
 			System.out.println("over");
-			socket.close();
+			if(in!=null)
+				in.close();
+			if(out!=null)
+				out.close();
+			if(socket!=null)
+				socket.close();
 			e.printStackTrace();
+		}finally{
+			if(in!=null)
+				in.close();
+			if(out!=null)
+				out.close();
+			if(socket!=null)
+				socket.close();
 		}
 	}
 }

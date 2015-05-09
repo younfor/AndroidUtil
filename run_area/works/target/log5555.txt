@@ -1,14 +1,342 @@
 start to reg
 start to seat
-button 6666,2000,8000
-small 3333,2000,8000
+button 3333,2000,8000
+small 1111,2000,8000
 big 2222,2000,8000
-normal  7777,2000,8000
-normal  4444,2000,8000
+normal  6666,2000,8000
 normal  8888,2000,8000
-normal  1111,2000,8000
 normal  5555,2000,8000
+normal  4444,2000,8000
+normal  7777,2000,8000
 start to blind
-3333small blind:50
+1111is small blind:50
 2222big blind:100
 get hold
+flop card: 23-3
+flop card: 20-10
+get inquire
+get player8888 2000 8000 0 35
+get player6666 1900 8000 100 32
+get player2222 1900 8000 100 30
+get player1111 1950 8000 50 30
+get total250
+action num: 2
+action: raise 0 
+
+get inquire
+get player8888 2000 8000 0 35
+get player6666 0 8000 2000 34
+get player2222 1900 8000 100 35
+get player1111 1500 8000 500 33
+get player3333 1600 8000 400 33
+get player7777 1700 8000 300 32
+get player4444 1700 8000 300 33
+get player5555 1800 8000 200 33
+get total3800
+action num: 0
+action: check 
+
+get flop
+flop card: 21-7
+flop card: 20-6
+flop card: 20-4
+get turn
+turn card: 22-3
+get river
+river card: 21-4
+get showdown
+common/ 
+SPADES 7 
+HEARTS 6 
+HEARTS 4 
+CLUBS 3 
+SPADES 4 
+/common 
+1: 1111 HEARTS 7 SPADES 9 TWO_PAIR 
+4: 6666 DIAMONDS 9 SPADES J ONE_PAIR 
+2: 5555 DIAMONDS 3 HEARTS 10 TWO_PAIR 
+3: 4444 DIAMONDS A CLUBS K ONE_PAIR 
+get pot-win
+1111: 8800 
+start to seat
+button 1111,8800,8000
+small 2222,1900,8000
+big 6666,2000,6000
+normal  8888,2000,8000
+normal  5555,2000,6000
+normal  4444,2000,6000
+normal  7777,1700,8000
+normal  3333,1600,8000
+start to blind
+2222is small blind:50
+6666big blind:100
+get hold
+flop card: 23-8
+flop card: 21-14
+get inquire
+get player8888 2000 8000 0 35
+get player6666 1900 6000 100 30
+get player2222 1850 8000 50 30
+get total150
+action num: 1
+action: call 
+
+get inquire
+get player8888 2000 8000 0 35
+get player6666 0 6000 2000 34
+get player2222 1850 8000 50 35
+get player1111 8800 8000 0 35
+get player3333 0 8000 1600 34
+get player7777 1700 8000 0 35
+get player4444 0 6000 2000 34
+get player5555 1900 6000 100 32
+get total5750
+action num: 3
+action: all_in 
+
+get flop
+flop card: 21-7
+flop card: 20-6
+flop card: 20-4
+get turn
+turn card: 22-3
+get river
+river card: 21-4
+get showdown
+common/ 
+SPADES 7 
+HEARTS 6 
+HEARTS 4 
+CLUBS 3 
+SPADES 4 
+/common 
+3: 6666 SPADES K HEARTS A ONE_PAIR 
+4: 5555 DIAMONDS 8 SPADES A ONE_PAIR 
+2: 4444 DIAMONDS 3 HEARTS 10 TWO_PAIR 
+1: 3333 HEARTS 8 CLUBS 6 TWO_PAIR 
+get pot-win
+3333: 6450 
+4444: 1200 
+start to seat
+button 2222,1850,8000
+small 6666,2000,4000
+big 8888,2000,8000
+normal  5555,2000,4000
+normal  4444,1200,6000
+normal  7777,1700,8000
+normal  3333,6450,8000
+normal  1111,8800,8000
+start to blind
+6666is small blind:50
+8888big blind:100
+get hold
+flop card: 23-9
+flop card: 21-11
+get inquire
+get player8888 1900 8000 100 30
+get player6666 1950 4000 50 30
+get total150
+action num: 3
+action: all_in 
+
+get flop
+flop card: 21-7
+flop card: 20-6
+flop card: 20-4
+get turn
+turn card: 22-3
+get river
+river card: 21-4
+get showdown
+common/ 
+SPADES 7 
+HEARTS 6 
+HEARTS 4 
+CLUBS 3 
+SPADES 4 
+/common 
+1: 6666 HEARTS 7 SPADES 9 TWO_PAIR 
+3: 8888 SPADES K HEARTS A ONE_PAIR 
+6: 5555 DIAMONDS 9 SPADES J ONE_PAIR 
+4: 4444 DIAMONDS 8 SPADES A ONE_PAIR 
+2: 7777 DIAMONDS 3 HEARTS 10 TWO_PAIR 
+3: 3333 DIAMONDS A CLUBS K ONE_PAIR 
+5: 2222 SPADES Q CLUBS 9 ONE_PAIR 
+get pot-win
+6666: 12750 
+3333: 1900 
+start to seat
+button 6666,12750,4000
+small 8888,2000,6000
+big 5555,2000,2000
+normal  4444,2000,4000
+normal  7777,2000,6000
+normal  3333,4450,8000
+normal  1111,8800,8000
+normal  2222,2000,6000
+start to blind
+8888is small blind:50
+5555big blind:100
+get hold
+flop card: 21-13
+flop card: 20-14
+get inquire
+get player8888 1700 6000 300 32
+get player6666 12450 4000 300 32
+get player2222 1700 6000 300 32
+get player1111 8500 8000 300 33
+get player3333 4450 8000 0 35
+get player7777 1800 6000 200 33
+get player4444 1900 4000 100 32
+get player5555 1900 2000 100 30
+get total1600
+action num: 0
+action: check 
+
+get inquire
+get player8888 0 6000 2000 34
+get player6666 3950 4000 8800 32
+get player2222 0 6000 2000 34
+get player1111 0 8000 8800 34
+get player3333 4450 8000 0 35
+get player7777 0 6000 2000 34
+get player4444 0 4000 2000 34
+get player5555 1700 2000 300 32
+get total25900
+action num: 1
+action: call 
+
+get flop
+flop card: 21-7
+flop card: 20-6
+flop card: 20-4
+get turn
+turn card: 22-3
+get river
+river card: 21-4
+get showdown
+common/ 
+SPADES 7 
+HEARTS 6 
+HEARTS 4 
+CLUBS 3 
+SPADES 4 
+/common 
+1: 8888 HEARTS 7 SPADES 9 TWO_PAIR 
+3: 5555 SPADES K HEARTS A ONE_PAIR 
+6: 4444 DIAMONDS 9 SPADES J ONE_PAIR 
+4: 7777 DIAMONDS 8 SPADES A ONE_PAIR 
+3: 1111 DIAMONDS A CLUBS K ONE_PAIR 
+2: 2222 HEARTS 8 CLUBS 6 TWO_PAIR 
+5: 6666 SPADES Q CLUBS 9 ONE_PAIR 
+get pot-win
+8888: 14000 
+1111: 13600 
+start to seat
+button 8888,14000,6000
+small 5555,2000,0
+big 4444,2000,2000
+normal  7777,2000,4000
+normal  3333,4450,8000
+normal  1111,13600,8000
+normal  2222,2000,4000
+normal  6666,3950,4000
+start to blind
+5555is small blind:50
+4444big blind:100
+get hold
+flop card: 20-7
+flop card: 21-9
+get inquire
+get player8888 14000 6000 0 35
+get player6666 0 4000 3950 34
+get player2222 0 4000 2000 34
+get player1111 0 8000 13600 34
+get player3333 550 8000 3900 33
+get player7777 0 4000 2000 34
+get player4444 1900 2000 100 30
+get player5555 1950 0 50 30
+get total25600
+action num: 3
+action: all_in 
+
+get flop
+flop card: 21-7
+flop card: 20-6
+flop card: 20-4
+get turn
+turn card: 22-3
+get river
+river card: 21-4
+get showdown
+common/ 
+SPADES 7 
+HEARTS 6 
+HEARTS 4 
+CLUBS 3 
+SPADES 4 
+/common 
+1: 5555 HEARTS 7 SPADES 9 TWO_PAIR 
+4: 4444 SPADES K HEARTS A ONE_PAIR 
+6: 7777 DIAMONDS 9 SPADES J ONE_PAIR 
+5: 3333 DIAMONDS 8 SPADES A ONE_PAIR 
+3: 1111 DIAMONDS 3 HEARTS 10 TWO_PAIR 
+4: 2222 DIAMONDS A CLUBS K ONE_PAIR 
+2: 6666 HEARTS 8 CLUBS 6 TWO_PAIR 
+get pot-win
+5555: 14000 
+6666: 5850 
+1111: 10150 
+start to seat
+button 5555,14000,0
+small 4444,2000,0
+big 7777,2000,2000
+normal  3333,2000,6000
+normal  1111,10150,8000
+normal  2222,2000,2000
+normal  6666,5850,4000
+normal  8888,14000,6000
+start to blind
+4444is small blind:50
+7777big blind:100
+get hold
+flop card: 21-12
+flop card: 22-9
+get inquire
+get player8888 13800 6000 200 32
+get player6666 5650 4000 200 33
+get player2222 1900 2000 100 32
+get player1111 10050 8000 100 32
+get player3333 2000 6000 0 35
+get player7777 1900 2000 100 30
+get player4444 1950 0 50 30
+get total750
+action num: 3
+action: all_in 
+
+get flop
+flop card: 21-7
+flop card: 20-6
+flop card: 20-4
+get turn
+turn card: 22-3
+get river
+river card: 21-4
+get showdown
+common/ 
+SPADES 7 
+HEARTS 6 
+HEARTS 4 
+CLUBS 3 
+SPADES 4 
+/common 
+1: 4444 HEARTS 7 SPADES 9 TWO_PAIR 
+4: 7777 SPADES K HEARTS A ONE_PAIR 
+3: 2222 DIAMONDS 3 HEARTS 10 TWO_PAIR 
+4: 6666 DIAMONDS A CLUBS K ONE_PAIR 
+2: 8888 HEARTS 8 CLUBS 6 TWO_PAIR 
+5: 5555 SPADES Q CLUBS 9 ONE_PAIR 
+get pot-win
+4444: 12100 
+8888: 27850 
+game over

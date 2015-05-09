@@ -2,21 +2,37 @@ package com.game;
 
 public class Player {
 	public String pid;
-	public int bet;
+	public int jetton;
 	public int gold;
+	public int bet;
 	public int type;  //button smallblind bigblind
+	public int lastaction;
 	boolean isAlive=true;
+	
+	public int getBet() {
+		return bet;
+	}
+	public void setBet(int bet) {
+		this.bet = bet;
+	}
+	public int getLastaction() {
+		return lastaction;
+	}
+	public void setLastaction(int lastaction) {
+		this.lastaction = lastaction;
+	}
 	public String getPid() {
 		return pid;
 	}
 	public void setPid(String pid) {
 		this.pid = pid;
 	}
-	public int getBet() {
-		return bet;
+
+	public int getJetton() {
+		return jetton;
 	}
-	public void setBet(int bet) {
-		this.bet = bet;
+	public void setJetton(int jetton) {
+		this.jetton = jetton;
 	}
 	public int getGold() {
 		return gold;
@@ -31,10 +47,10 @@ public class Player {
 		this.type = type;
 	}
 	
-	public Player(String pid, int bet, int gold, int type) {
+	public Player(String pid, int jetton, int gold, int type) {
 		super();
 		this.pid = pid;
-		this.bet = bet;
+		this.jetton = jetton;
 		this.gold = gold;
 		this.type = type;
 	}
