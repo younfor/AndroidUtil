@@ -8,35 +8,34 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import com.ai.PokerAI;
+import com.ai.PokerLib;
 import com.game.Card;
 import com.game.Player;
 import com.game.State;
 import com.util.Log;
 
 public class Game {
-	String pid,pname;
-	int bigblindbet,smallblindbet,totalpot;
-	List<Player>  players=new ArrayList<Player>();
-	Card hand[]=new Card[2];
-	Card host[]=new Card[5];
-	int currentState=-1;
+	
 	State state=new State();
 	public Game(String id,String name)
 	{
-		pid=id;
-		pname=name;
+		state.pid=id;
+		state.pname=name;
 	}
 	public void reg(OutputStream out) throws IOException
 	{
-		String cmd="reg: "+pid+" "+pname+" \n";
+		String cmd="reg: "+state.pid+" "+state.pname+" \n";
 		out.write(cmd.getBytes());
 		out.flush();
-		Log.getIns(pid).log("start to reg");
+		Log.getIns(state.pid).log("start to reg");
 	}
-	public void start(BufferedReader in,OutputStream out) throws IOException
+	public void start(BufferedReader in,OutputStream out) 
 	{
+		try{
 		
 		String s=null;
+		PokerLib.init();
 		while((s=in.readLine())!=null)
 		{
 			if(s.startsWith("game-over"))
@@ -46,7 +45,7 @@ public class Game {
 				 */
 				in.close();
 				out.close();
-				Log.getIns(pid).log("game over");
+				Log.getIns(state.pid).log("game over");
 				break;
 			}
 			else if(s.startsWith("seat"))
@@ -63,40 +62,47 @@ public class Game {
 				4444 2000 8000 
 				/seat
 				 **/
-				players.clear();
-				Log.getIns(pid).log("start to seat");
+				state.clear();
+				Log.getIns(state.pid).log("start to seat");
 				s=in.readLine();
 				while(!s.startsWith("/seat"))
 				{
+					Player player=null;
 					if(s.startsWith("button"))
 					{
 						String []data=s.split(" ");
-						players.add(new Player(data[1],Integer.parseInt(data[2]),Integer.parseInt(data[3]),State.button));
-						Log.getIns(pid).log("button "+data[1]+","+data[2]+","+data[3]);
+						player=new Player(data[1],Integer.parseInt(data[2]),Integer.parseInt(data[3]),State.button);
+						state.players.add(player);
+						Log.getIns(state.pid).log("button "+data[1]+","+data[2]+","+data[3]);
 					}
 					else if(s.startsWith("small"))
 					{
 						String []data=s.split(" ");
-						players.add(new Player(data[2],Integer.parseInt(data[3]),Integer.parseInt(data[4]),State.smallblind));
-						Log.getIns(pid).log("small "+data[2]+","+data[3]+","+data[4]);
+						player=new Player(data[2],Integer.parseInt(data[3]),Integer.parseInt(data[4]),State.smallblind);
+						state.players.add(player);
+						Log.getIns(state.pid).log("small "+data[2]+","+data[3]+","+data[4]);
 					}
 					else if(s.startsWith("big"))
 					{
 						String []data=s.split(" ");
-						players.add(new Player(data[2],Integer.parseInt(data[3]),Integer.parseInt(data[4]),State.bigblind));
-						Log.getIns(pid).log("big "+data[2]+","+data[3]+","+data[4]);
+						player=new Player(data[2],Integer.parseInt(data[3]),Integer.parseInt(data[4]),State.bigblind);
+						state.players.add(player);
+						Log.getIns(state.pid).log("big "+data[2]+","+data[3]+","+data[4]);
 					}else
 					{
 						String []data=s.split(" ");
-						players.add(new Player(data[0],Integer.parseInt(data[1]),Integer.parseInt(data[2]),State.normal));
-						Log.getIns(pid).log("normal  "+data[0]+","+data[1]+","+data[2]);
+						player=new Player(data[0],Integer.parseInt(data[1]),Integer.parseInt(data[2]),State.normal);
+						state.players.add(player);
+						Log.getIns(state.pid).log("normal  "+data[0]+","+data[1]+","+data[2]);
 					}
+					if(player.getPid().equals(state.pid))
+						state.setJetton(player.getJetton());
 					s=in.readLine();
 				}
 			}
 			else if(s.startsWith("blind"))
 			{
-				Log.getIns(pid).log("start to blind");
+				Log.getIns(state.pid).log("start to blind");
 				s=in.readLine();
 				while(!s.startsWith("/blind"))
 				{
@@ -111,20 +117,20 @@ public class Game {
 					Player temp=findById(data[0]);
 					if(temp.getType()==State.smallblind)
 					{
-						Log.getIns(pid).log(temp.getPid()+"is small blind:"+data[1]);
-						smallblindbet=Integer.parseInt(data[1]);
+						Log.getIns(state.pid).log(temp.getPid()+" is small blind:"+data[1]);
+						state.smallblindbet=Integer.parseInt(data[1]);
 					}
 					else if (temp.getType()==State.bigblind)
 					{
-						Log.getIns(pid).log(temp.getPid()+"big blind:"+data[1]);
-						bigblindbet=Integer.parseInt(data[1]);
+						Log.getIns(state.pid).log(temp.getPid()+" is big blind:"+data[1]);
+						state.bigblindbet=Integer.parseInt(data[1]);
 					}
 					s=in.readLine();
 				}
 			}else if(s.startsWith("hold"))
 			{
-				Log.getIns(pid).log("get hold");
-				currentState=State.baseState;
+				Log.getIns(state.pid).log("get hold");
+				state.currentState=State.baseState;
 				s=in.readLine();
 				int i=0;
 				while(!s.startsWith("/hold") && (i<2))
@@ -136,15 +142,17 @@ public class Game {
 					/hold 
 					 */
 					String data[]=s.split(" ");
-					hand[i]=new Card(State.getColor(data[0]),State.getPoint(data[1]) );
-					Log.getIns(pid).log("flop card: "+hand[i].getColor()+"-"+hand[i].getPoint());
+					state.handcard[i]=new Card(data[0],data[1]);
+					Log.getIns(state.pid).log("base card: "+state.handcard[i].getColor()+"-"+state.handcard[i].getPoint());
 					i++;
-					
 					s=in.readLine();
 				}
+				Log.getIns(state.pid).log("value:"+state.handcard[0].getValue()+state.handcard[1].getValue());
+				state.setHand(state.handcard[0].getValue(), state.handcard[1].getValue());
+				Log.getIns(state.pid).log("base card: "+state.getHand()[0]+","+state.getHand()[1]);
 			}else if(s.startsWith("inquire"))
 			{
-				Log.getIns(pid).log("get inquire");
+				Log.getIns(state.pid).log("get inquire");
 				s=in.readLine();
 				while(!s.startsWith("/inquire"))
 				{
@@ -163,15 +171,21 @@ public class Game {
 					String data[]=s.split(" ");
 					if(data[0].startsWith("total"))
 					{
-						Log.getIns(pid).log("get total"+data[2]);
-						totalpot=Integer.parseInt(data[2]);
+						Log.getIns(state.pid).log("get total"+data[2]);
+						state.totalpot=Integer.parseInt(data[2]);
 					}else{
 						Player p=findById(data[0]);
 						p.setJetton(Integer.parseInt(data[1]));
 						p.setGold(Integer.parseInt(data[2]));
 						p.setBet(Integer.parseInt(data[3]));
 						p.setLastaction(State.getAction(data[4]));
-						Log.getIns(pid).log("get player"+p.getPid()+" "+p.getJetton()+" "+p.getGold()+" "+p.getBet()+" "+p.getLastaction());
+						if(p.getPid().equals(state.pid))
+						{
+							//self
+							state.setJetton(p.getJetton());
+							state.setBet(p.getBet());
+						}
+						Log.getIns(state.pid).log("get player"+p.getPid()+" "+p.getJetton()+" "+p.getGold()+" "+p.getBet()+" "+p.getLastaction());
 					}
 					s=in.readLine();
 				}
@@ -179,19 +193,35 @@ public class Game {
 				/*
 				 check | call | raise num | all_in | fold eol
 				 */
-				
-				String action[]={"check","call","raise 0","all_in","fold"};
-				Random r=new Random();
-				int num=Math.abs(r.nextInt())%5;
-				Log.getIns(pid).log("action num: "+num);
-				String ans=action[num]+" \n";
-				Log.getIns(pid).log("action: "+ans);
-				out.write(ans.getBytes());
+				//String action[]={"check","call","raise 0","all_in","fold"};
+				//Random r=new Random();
+				//int num=Math.abs(r.nextInt())%5;
+				//Log.getIns(pid).log("action num: "+num);
+				int len=0;
+				if(state.currentState==State.baseState)
+					len=0;
+				else if(state.currentState==State.flopState)
+					len=3;
+				else if(state.currentState==State.turnState)
+					len=4;
+				else if(state.currentState==State.riverState)
+					len=5;
+				state.setComm(len);
+				int ans=PokerAI.getBestAction(state, 250);
+				String action="fold";
+				if(ans==State.fold)
+					action="fold";
+				else if(ans==State.call)
+					action="check";
+				else if(ans==State.raise)
+					action="raise "+State.raisebet;
+				Log.getIns(state.pid).log("action: "+action);
+				out.write(action.getBytes());
 				out.flush();
 			}else if(s.startsWith("flop"))
 			{
-				Log.getIns(pid).log("get flop");
-				currentState=State.flopState;
+				Log.getIns(state.pid).log("get flop");
+				state.currentState=State.flopState;
 				s=in.readLine();
 				int i=0;
 				while(!s.startsWith("/flop"))
@@ -204,16 +234,16 @@ public class Game {
 					/flop eol
 					 */
 					String data[]=s.split(" ");
-					host[i]=new Card(State.getColor(data[0]),State.getPoint(data[1]) );
-					Log.getIns(pid).log("flop card: "+host[i].getColor()+"-"+host[i].getPoint());
+					state.hostcard[i]=new Card(data[0],data[1]);
+					Log.getIns(state.pid).log("flop card: "+state.hostcard[i].getColor()+"-"+state.hostcard[i].getPoint());
 					s=in.readLine();
 					i++;
 				}
 			}
 			else if(s.startsWith("turn"))
 			{
-				Log.getIns(pid).log("get turn");
-				currentState=State.turnState;
+				Log.getIns(state.pid).log("get turn");
+				state.currentState=State.turnState;
 				s=in.readLine();
 				int i=3;
 				while(!s.startsWith("/turn"))
@@ -224,16 +254,16 @@ public class Game {
 					/turn eol
 					 */
 					String data[]=s.split(" ");
-					host[i]=new Card(State.getColor(data[0]),State.getPoint(data[1]) );
-					Log.getIns(pid).log("turn card: "+host[i].getColor()+"-"+host[i].getPoint());
+					state.hostcard[i]=new Card(data[0],data[1]);
+					Log.getIns(state.pid).log("turn card: "+state.hostcard[i].getColor()+"-"+state.hostcard[i].getPoint());
 					s=in.readLine();
 					i++;
 				}
 			}
 			else if(s.startsWith("river"))
 			{
-				Log.getIns(pid).log("get river");
-				currentState=State.riverState;
+				Log.getIns(state.pid).log("get river");
+				state.currentState=State.riverState;
 				s=in.readLine();
 				int i=4;
 				while(!s.startsWith("/river"))
@@ -244,15 +274,15 @@ public class Game {
 					/river eol
 					 */
 					String data[]=s.split(" ");
-					host[i]=new Card(State.getColor(data[0]),State.getPoint(data[1]) );
-					Log.getIns(pid).log("river card: "+host[i].getColor()+"-"+host[i].getPoint());
+					state.hostcard[i]=new Card(data[0],data[1]);
+					Log.getIns(state.pid).log("river card: "+state.hostcard[i].getColor()+"-"+state.hostcard[i].getPoint());
 					s=in.readLine();
 					i++;
 				}
 			}
 			else if(s.startsWith("showdown"))
 			{
-				Log.getIns(pid).log("get showdown");
+				Log.getIns(state.pid).log("get showdown");
 				s=in.readLine();
 				while(!s.startsWith("/showdown"))
 				{
@@ -264,13 +294,13 @@ public class Game {
 					(rank: pid color point color point nut_hand eol)2-8
 					/showdown eol
 					 */
-					Log.getIns(pid).log(s);
+					Log.getIns(state.pid).log(s);
 					s=in.readLine();
 				}
 			}
 			else if(s.startsWith("pot-win"))
 			{
-				Log.getIns(pid).log("get pot-win");
+				Log.getIns(state.pid).log("get pot-win");
 				s=in.readLine();
 				while(!s.startsWith("/pot-win"))
 				{
@@ -279,19 +309,27 @@ public class Game {
 					(pid: num eol)0-8
 					/pot-win eol
 					 */
-					Log.getIns(pid).log(s);
+					Log.getIns(state.pid).log(s);
 					s=in.readLine();
 				}
 			}
 		}
-		
+		}catch(Exception e)
+		{
+			try {
+				Log.getIns(state.pid).log(e.getMessage());
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+		}
 	}
 	public Player findById(String id)
 	{
-		for(int i=0;i<players.size();i++)
+		for(int i=0;i<state.players.size();i++)
 		{
-			if(players.get(i).getPid().equals(id))
-				return players.get(i);
+			if(state.players.get(i).getPid().equals(id))
+				return state.players.get(i);
 		}
 		return null;
 	}

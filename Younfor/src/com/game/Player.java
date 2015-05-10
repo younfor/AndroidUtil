@@ -57,7 +57,10 @@ public class Player {
 
 	
 	public boolean isAlive() {
-		return isAlive;
+		if(lastaction!=State.fold)
+			return true;
+		else
+			return false;
 	}
 	public void setAlive(boolean isAlive) {
 		this.isAlive = isAlive;
