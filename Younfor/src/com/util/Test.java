@@ -1,6 +1,6 @@
 package com.util;
 
-import com.ai.PokerLib;
+import com.ai.simplebot.PokerLib;
 
 public class Test {
 	/*

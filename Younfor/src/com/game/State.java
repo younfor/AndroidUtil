@@ -7,7 +7,7 @@ import java.util.List;
 public class State {
 	public final static int button=10,smallblind=11,bigblind=12,normal=13;
 	public final static int blind=30,check=31,call=32,raise=33,all_in=34,fold=35;
-	public final static int baseState=40,flopState=41,turnState=41,riverState=42;
+	public final static int baseState=40,flopState=41,turnState=42,riverState=43;
 
 	public static int getAction(String s)
 	{
@@ -36,20 +36,23 @@ public class State {
 	private int[] hand;//
 	private int[] comm;//
 	private int jetton,bet;//
-	public static int raisebet; //show action raise
+	public static int raisebet=0; //show action raise
 	public List<Player>  players=new ArrayList<Player>();//
+	//preflop
+	public int raisenum=0;
 	public void clear()
 	{
-		bigblindbet=-1;
-		smallblindbet=-1;
+		bigblindbet=0;
+		smallblindbet=0;
 		handcard=new Card[2];
 		hostcard=new Card[5];
-		totalpot=-1;
+		totalpot=0;
 		hand=null;
 		comm=null;
+		raisenum=0;
 		jetton=0;
 		bet=0;
-		raisebet=-1;
+		raisebet=0;
 		players.clear();
 	}
 	public int getBet() {

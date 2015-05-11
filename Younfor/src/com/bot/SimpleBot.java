@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.*;
 
-import com.ai.MCT;
+import com.ai.simplebot.MCT;
 import com.bot.Bot;
 import com.game.Player;
 import com.game.State;

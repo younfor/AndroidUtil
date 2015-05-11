@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.OutputStream;
 
-import com.ai.PokerLib;
+import com.ai.simplebot.PokerLib;
 import com.bot.Bot;
 import com.bot.CallBot;
 import com.bot.CleverBot;
@@ -167,6 +167,7 @@ public class Game {
 			{
 				Log.getIns(state.pid).log("get inquire");
 				s=in.readLine();
+				int lastbet=0;
 				while(!s.startsWith("/inquire"))
 				{
 					/*
@@ -192,11 +193,17 @@ public class Game {
 						p.setGold(Integer.parseInt(data[2]));
 						p.setBet(Integer.parseInt(data[3]));
 						p.setLastaction(State.getAction(data[4]));
+						if(p.getLastaction()==State.raise)
+							state.raisenum++;
+						if(lastbet==0)
+						{
+							lastbet++;
+							state.setBet(p.getBet());
+						}
 						if(p.getPid().equals(state.pid))
 						{
 							//self
 							state.setJetton(p.getJetton());
-							state.setBet(p.getBet());
 						}
 						Log.getIns(state.pid).log("get player"+p.getPid()+" "+p.getJetton()+" "+p.getGold()+" "+p.getBet()+" "+p.getLastaction());
 					}
@@ -235,6 +242,7 @@ public class Game {
 			{
 				Log.getIns(state.pid).log("get flop");
 				state.currentState=State.flopState;
+				state.raisenum=0;
 				s=in.readLine();
 				int i=0;
 				while(!s.startsWith("/flop"))
@@ -257,6 +265,7 @@ public class Game {
 			{
 				Log.getIns(state.pid).log("get turn");
 				state.currentState=State.turnState;
+				state.raisenum=0;
 				s=in.readLine();
 				int i=3;
 				while(!s.startsWith("/turn"))
@@ -277,6 +286,7 @@ public class Game {
 			{
 				Log.getIns(state.pid).log("get river");
 				state.currentState=State.riverState;
+				state.raisenum=0;
 				s=in.readLine();
 				int i=4;
 				while(!s.startsWith("/river"))
