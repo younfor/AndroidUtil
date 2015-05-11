@@ -2,14 +2,13 @@ package com.tcp;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.OutputStream;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
 
-import com.ai.PokerAI;
 import com.ai.PokerLib;
+import com.bot.Bot;
+import com.bot.CallBot;
+import com.bot.RandomBot;
+import com.bot.SimpleBot;
 import com.game.Card;
 import com.game.Player;
 import com.game.State;
@@ -18,10 +17,18 @@ import com.util.Log;
 public class Game {
 	
 	State state=new State();
+	Bot bot=new SimpleBot();
 	public Game(String id,String name)
 	{
 		state.pid=id;
 		state.pname=name;
+		if(name.equals("simplebot"))
+			bot=new SimpleBot();
+		else if(name.equals("randombot"))
+			bot=new RandomBot();
+		else if(name.equals("callbot"))
+			bot=new CallBot();
+		
 	}
 	public void reg(OutputStream out) throws IOException
 	{
@@ -207,7 +214,7 @@ public class Game {
 				else if(state.currentState==State.riverState)
 					len=5;
 				state.setComm(len);
-				int ans=PokerAI.getBestAction(state, 250);
+				int ans=bot.getBestAction(state, 250);
 				String action="fold";
 				if(ans==State.fold)
 					action="fold";

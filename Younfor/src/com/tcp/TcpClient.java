@@ -18,7 +18,8 @@ public class TcpClient {
 		InputStream in=null;
 		BufferedReader read=null;
 		OutputStream out=null;
-		Game game=new Game(args[4],"younfor");
+		//change must be!
+		Game game=new Game(args[4],args[5]);
 		try {
 			socket=new Socket(args[0],Integer.parseInt(args[1]),InetAddress.getByName(args[2]),Integer.parseInt(args[3]));
 			in=socket.getInputStream();
