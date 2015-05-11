@@ -65,6 +65,7 @@ nohup ./simple 127.0.0.1 6000 127.0.0.4 6004 4444 0</dev/null 1>/dev/null 2>/dev
 nohup ./raisecall 127.0.0.1 6000 127.0.0.5 6005 5555 0</dev/null 1>/dev/null 2>/dev/null &
 nohup ./call 127.0.0.1 6000 127.0.0.6 6006 6666 0</dev/null 1>/dev/null 2>/dev/null &
 nohup ./clever 127.0.0.1 6000 127.0.0.7 6007 7777 0</dev/null 1>/dev/null 2>/dev/null &
+#./clever 127.0.0.1 6000 127.0.0.7 6007 7777
 nohup ./call 127.0.0.1 6000 127.0.0.8 6008 8888 0</dev/null 1>/dev/null 2>/dev/null &
  
 popd >/dev/null
