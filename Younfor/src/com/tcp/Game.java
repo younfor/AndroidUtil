@@ -7,6 +7,8 @@ import java.io.OutputStream;
 import com.ai.PokerLib;
 import com.bot.Bot;
 import com.bot.CallBot;
+import com.bot.CleverBot;
+import com.bot.RaiseCallBot;
 import com.bot.RandomBot;
 import com.bot.SimpleBot;
 import com.game.Card;
@@ -28,6 +30,10 @@ public class Game {
 			bot=new RandomBot();
 		else if(name.equals("callbot"))
 			bot=new CallBot();
+		else if(name.equals("cleverbot"))
+			bot=new CleverBot();
+		else if(name.equals("raisecallbot"))
+			bot=new RaiseCallBot();
 		
 	}
 	public void reg(OutputStream out) throws IOException

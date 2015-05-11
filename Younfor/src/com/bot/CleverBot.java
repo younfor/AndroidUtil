@@ -12,7 +12,7 @@ import com.game.Player;
 import com.game.State;
 import com.util.Log;
 
-public class SimpleBot implements Bot{
+public class CleverBot implements Bot{
     public static int CORES = 2;
     public int getBestAction (State state, long timeMS) {
     	try{
@@ -51,10 +51,23 @@ public class SimpleBot implements Bot{
         List<Player> players = state.players;
         int activePlayers = 0;
         int highWager = 0;
+        int maxGold=0;
+        Player maxplayer=null;
+        boolean isMaxGold=false;
         for (Player p : players) {
             if (p.isAlive())
                 activePlayers ++;
+            if(p.getGold()+p.getJetton()>maxGold)
+            {
+            	maxGold=p.getGold()+p.getJetton();
+            	maxplayer=p;
+            }
             highWager = Math.max(p.getBet(), highWager);
+        }
+        if(maxplayer.getGold()==maxGold)
+        {
+        	Log.getIns(state.pid).log("max gold :"+maxGold+"\n");
+        	isMaxGold=true;
         }
         activePlayers--;
         int activeIncludingSelf = activePlayers + 1;
@@ -85,7 +98,7 @@ public class SimpleBot implements Bot{
         else {
             //System.out.printf("  Raise %d\n", wager - prevWager);
         	State.raisebet=(wager - prevWager);
-        	if((new Random()).nextDouble()>1.0/activePlayers)
+        	if((new Random()).nextDouble()>1.0/activePlayers || isMaxGold)
         		return State.raise;
         	else
         		return State.call;
