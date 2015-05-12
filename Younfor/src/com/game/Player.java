@@ -7,6 +7,7 @@ public class Player {
 	public int bet;
 	public int type;  //button smallblind bigblind
 	public int lastaction;
+	public int[] actions=new int[4];
 	boolean isAlive=true;
 	
 	public int getBet() {

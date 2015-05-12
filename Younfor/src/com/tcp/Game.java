@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.OutputStream;
 
+import com.ai.simplebot.Bys;
 import com.ai.simplebot.PokerLib;
 import com.bot.Bot;
 import com.bot.CallBot;
@@ -193,6 +194,13 @@ public class Game {
 						p.setGold(Integer.parseInt(data[2]));
 						p.setBet(Integer.parseInt(data[3]));
 						p.setLastaction(State.getAction(data[4]));
+						//bys
+						if(p.getLastaction()==State.fold)
+							p.actions[state.currentState-State.baseState]=Bys.fold;//flod 0 call 1 raise 2
+						else if(p.getLastaction()==State.raise)
+							p.actions[state.currentState-State.baseState]=Bys.raise;
+						else
+							p.actions[state.currentState-State.baseState]=Bys.call;
 						if(p.getLastaction()==State.raise)
 							state.raisenum++;
 						if(lastbet==0)
@@ -307,7 +315,7 @@ public class Game {
 			{
 				Log.getIns(state.pid).log("get showdown");
 				s=in.readLine();
-				while(!s.startsWith("/showdown"))
+				if(s.startsWith("common"))
 				{
 					/*
 					showdown/ eol
@@ -316,9 +324,41 @@ public class Game {
 					/common eol
 					(rank: pid color point color point nut_hand eol)2-8
 					/showdown eol
+					 	showdown/ 
+						common/ 
+						SPADES 2 
+						HEARTS 9 
+						CLUBS J 
+						DIAMONDS 10 
+						SPADES K 
+						/common 
+						1: 8888 SPADES Q DIAMONDS J STRAIGHT 
+						2: 6666 HEARTS 7 DIAMONDS 4 HIGH_CARD 
+						1: 5555 HEARTS 8 DIAMONDS Q STRAIGHT 
+						/showdown 
 					 */
-					Log.getIns(state.pid).log(s);
+					//bys
+					while(!s.startsWith("/common"))
+						s=in.readLine();
 					s=in.readLine();
+					while(!s.startsWith("/showdown"))
+					{
+						Log.getIns(state.pid).log(s);
+						String data[]=s.split(" ");
+						String id=data[0].substring(2);
+						if(!state.bys.containsKey(id))
+						{
+							Log.getIns(state.pid).log("create bys: "+id);
+							state.bys.put(id, new Bys());
+						}
+						Log.getIns(state.pid).log("create bys: rank "+state.findRank(data[5]));
+						state.bys.get(id).addBys(findById(id).actions, state.findRank(data[5]));
+						int a[]=state.bys.get(id).getBys(new int[]{Bys.call});
+						for(int i=0;i<a.length;i++)
+							Log.getIns(state.pid).log("bys num: " +a[i]);
+						s=in.readLine();
+					}
+					
 				}
 			}
 			else if(s.startsWith("pot-win"))
@@ -356,4 +396,5 @@ public class Game {
 		}
 		return null;
 	}
+	
 }

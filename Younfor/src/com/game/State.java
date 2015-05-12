@@ -2,7 +2,11 @@ package com.game;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+
+import com.ai.simplebot.Bys;
 
 public class State {
 	public final static int button=10,smallblind=11,bigblind=12,normal=13;
@@ -38,7 +42,9 @@ public class State {
 	private int jetton,bet;//
 	public static int raisebet=0; //show action raise
 	public List<Player>  players=new ArrayList<Player>();//
-	//preflop
+	//bys- save to game over !!!!!!!!
+	public Map<String,Bys> bys=new HashMap<String, Bys>();
+	//public Map<String,Integer[]> actions=new HashMap<String, Integer[]>();
 	public int raisenum=0;
 	public void clear()
 	{
@@ -99,5 +105,25 @@ public class State {
 		for(int i=0;i<n;i++)
 			comm[i]=hostcard[i].getValue();
 	}
-	
+	public int findRank(String s)
+	{
+		if(s.equals("STRAIGHT_FLUSH"))
+			return 1;
+		else if(s.equals("FOUR_OF_A_KIND"))
+			return 2;
+		else if(s.equals("FULL_HOUSE"))
+			return 3;
+		else if(s.equals("FLUSH"))
+			return 4;
+		else if(s.equals("STRAIGHT"))
+			return 5;
+		else if(s.equals("THREE_OF_A_KIND"))
+			return 6;
+		else if(s.equals("TWO_PAIR"))
+			return 7;
+		else if(s.equals("ONE_PAIR"))
+			return 8;
+		else
+			return 9;
+	}
 }

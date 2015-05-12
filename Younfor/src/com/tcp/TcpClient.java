@@ -29,6 +29,8 @@ public class TcpClient {
 			game.reg(out);
 			//game round
 			game.start(read,out);
+			//finish
+			socket.close();
 		} catch (IOException e) {
 			System.out.println("over");
 			if(in!=null)
