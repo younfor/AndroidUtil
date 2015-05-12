@@ -195,23 +195,24 @@ public class Game {
 						p.setBet(Integer.parseInt(data[3]));
 						p.setLastaction(State.getAction(data[4]));
 						//bys
-						if(p.getLastaction()==State.fold)
-							p.actions[state.currentState-State.baseState]=Bys.fold;//flod 0 call 1 raise 2
-						else if(p.getLastaction()==State.raise)
-							p.actions[state.currentState-State.baseState]=Bys.raise;
-						else
-							p.actions[state.currentState-State.baseState]=Bys.call;
+						//if(p.getLastaction()==State.fold)
+						//	p.actions[state.currentState-State.baseState]=Bys.fold;//flod 0 call 1 raise 2
+						//else if(p.getLastaction()==State.raise)
+						//	p.actions[state.currentState-State.baseState]=Bys.raise;
+						//else
+						//	p.actions[state.currentState-State.baseState]=Bys.call;
 						if(p.getLastaction()==State.raise)
 							state.raisenum++;
 						if(lastbet==0)
 						{
 							lastbet++;
-							state.setBet(p.getBet());
+							state.setToCall(p.getBet());
 						}
 						if(p.getPid().equals(state.pid))
 						{
 							//self
 							state.setJetton(p.getJetton());
+							state.setPrebet(p.getBet());
 						}
 						Log.getIns(state.pid).log("get player"+p.getPid()+" "+p.getJetton()+" "+p.getGold()+" "+p.getBet()+" "+p.getLastaction());
 					}
@@ -346,16 +347,16 @@ public class Game {
 						Log.getIns(state.pid).log(s);
 						String data[]=s.split(" ");
 						String id=data[0].substring(2);
-						if(!state.bys.containsKey(id))
-						{
-							Log.getIns(state.pid).log("create bys: "+id);
-							state.bys.put(id, new Bys());
-						}
-						Log.getIns(state.pid).log("create bys: rank "+state.findRank(data[5]));
-						state.bys.get(id).addBys(findById(id).actions, state.findRank(data[5]));
-						int a[]=state.bys.get(id).getBys(new int[]{Bys.call});
-						for(int i=0;i<a.length;i++)
-							Log.getIns(state.pid).log("bys num: " +a[i]);
+						//if(!state.bys.containsKey(id))
+						//{
+						//	Log.getIns(state.pid).log("create bys: "+id);
+						//	state.bys.put(id, new Bys());
+						//}
+						//Log.getIns(state.pid).log("create bys: rank "+state.findRank(data[5]));
+						//state.bys.get(id).addBys(findById(id).actions, state.findRank(data[5]));
+						//int a[]=state.bys.get(id).getBys(new int[]{Bys.call});
+						//for(int i=0;i<a.length;i++)
+						//	Log.getIns(state.pid).log("bys num: " +a[i]);
 						s=in.readLine();
 					}
 					

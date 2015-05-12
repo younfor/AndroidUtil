@@ -62,7 +62,7 @@ public class SimpleBot implements Bot{
         int maxW = (int) (state.getJetton() / 1.8);
         int prevWager = 0;
         try {
-            prevWager = state.getBet();
+            prevWager = state.getPrebet();
         } catch (Exception e) {
             prevWager = 0;
         }

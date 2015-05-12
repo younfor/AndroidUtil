@@ -55,7 +55,7 @@ public class CleverBot implements Bot{
     }
     private int preFlopAction() throws IOException {
         
-		double toCall = state.getBet();
+		double toCall = state.getToCall();
 		// play all pocket-pairs      
 		if (c1.getRank() == c2.getRank()) {
 			if ((c1.getRank() >= Card.TEN || c1.getRank() == Card.TWO) 
@@ -130,7 +130,7 @@ public class CleverBot implements Bot{
 		int np = state.getNonFolded();
 
 		// amount to call
-		double toCall = state.getBet();
+		double toCall = state.getToCall();
 
 		// bet/pot odds
 		double PO = toCall / (double) (state.totalpot + toCall);
@@ -191,7 +191,7 @@ public class CleverBot implements Bot{
 	 * @return
 	 */
 	private int betOrRaisePot() {
-		double toCall = state.getBet();
+		double toCall = state.getToCall();
 		if (toCall> 0) {
 			if (state.getJetton() > toCall) {
 				int  wantedRaiseAmount = (int)((state.totalpot + toCall) / 3.0 * 2);

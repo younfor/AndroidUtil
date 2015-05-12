@@ -39,7 +39,7 @@ public class State {
 	public int currentState=-1;//
 	private int[] hand;//
 	private int[] comm;//
-	private int jetton,bet;//
+	private int jetton,bet,prebet;//
 	public static int raisebet=0; //show action raise
 	public List<Player>  players=new ArrayList<Player>();//
 	//bys- save to game over !!!!!!!!
@@ -58,13 +58,23 @@ public class State {
 		raisenum=0;
 		jetton=0;
 		bet=0;
+		prebet=0;
 		raisebet=0;
 		players.clear();
 	}
-	public int getBet() {
+	
+	public int getPrebet() {
+		return prebet;
+	}
+
+	public void setPrebet(int prebet) {
+		this.prebet = prebet;
+	}
+
+	public int getToCall() {
 		return bet;
 	}
-	public void setBet(int bet) {
+	public void setToCall(int bet) {
 		this.bet = bet;
 	}
 	public int getJetton()
