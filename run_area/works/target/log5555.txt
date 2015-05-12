@@ -13771,3 +13771,10081 @@ get inquire
 get player4444 12173 8000 50 30
 get total50
 action: raise 0
+get flop
+flop card: HEARTS-5
+flop card: CLUBS-10
+flop card: HEARTS-K
+get inquire
+get player4444 12073 8000 150 31
+get player5555 55551 4000 150 33
+get total300
+action: check
+get turn
+turn card: HEARTS-A
+get inquire
+get player4444 12073 8000 150 31
+get player5555 55551 4000 150 31
+get total300
+action: check
+get river
+river card: DIAMONDS-9
+get inquire
+get player4444 12073 8000 150 31
+get player5555 55551 4000 150 31
+get total300
+action: check
+get showdown
+common/ 
+HEARTS 5 
+CLUBS 10 
+HEARTS K 
+HEARTS A 
+DIAMONDS 9 
+/common 
+1: 4444 HEARTS Q CLUBS K ONE_PAIR 
+2: 5555 CLUBS Q CLUBS 6 HIGH_CARD 
+get pot-win
+4444: 300 
+start to seat
+button 4444,12373,8000
+small 5555,55551,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-A
+base card: HEARTS-3
+value:268442665139523
+base card: 268442665,139523
+get inquire
+get player4444 12323 8000 50 32
+get player5555 55501 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: CLUBS-K
+flop card: SPADES-4
+flop card: HEARTS-A
+get inquire
+get player4444 12223 8000 150 32
+get player5555 55401 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: SPADES-8
+get inquire
+get player4444 12123 8000 250 32
+get player5555 55301 4000 250 33
+get total500
+action: check
+get river
+river card: DIAMONDS-4
+get inquire
+get player4444 12123 8000 250 31
+get player5555 55301 4000 250 31
+get total500
+action: raise 0
+get showdown
+common/ 
+CLUBS K 
+SPADES 4 
+HEARTS A 
+SPADES 8 
+DIAMONDS 4 
+/common 
+1: 5555 SPADES A HEARTS 3 TWO_PAIR 
+2: 4444 SPADES 7 SPADES 2 ONE_PAIR 
+get pot-win
+5555: 700 
+start to seat
+button 5555,55901,4000
+small 4444,12023,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-7
+base card: SPADES-5
+value:2131213529159
+base card: 2131213,529159
+get inquire
+get player4444 11973 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: CLUBS-6
+flop card: SPADES-2
+flop card: CLUBS-J
+get inquire
+get player4444 11873 8000 150 31
+get player5555 55751 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: HEARTS-Q
+get inquire
+get player4444 11773 8000 250 31
+get player5555 55651 4000 250 33
+get total500
+action: check
+get river
+river card: DIAMONDS-6
+get inquire
+get player4444 11773 8000 250 31
+get player5555 55651 4000 250 31
+get total500
+action: raise 0
+get showdown
+common/ 
+CLUBS 6 
+SPADES 2 
+CLUBS J 
+HEARTS Q 
+DIAMONDS 6 
+/common 
+1: 4444 SPADES 6 HEARTS 2 FULL_HOUSE 
+2: 5555 CLUBS 7 SPADES 5 ONE_PAIR 
+get pot-win
+4444: 700 
+start to seat
+button 4444,12373,8000
+small 5555,55551,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-9
+base card: CLUBS-5
+value:8394515557831
+base card: 8394515,557831
+get inquire
+get player4444 12323 8000 50 32
+get player5555 55501 4000 50 30
+get total100
+action: check
+get flop
+flop card: SPADES-A
+flop card: DIAMONDS-K
+flop card: CLUBS-4
+get inquire
+get player4444 12323 8000 50 32
+get player5555 55501 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: HEARTS-8
+get inquire
+get player4444 12223 8000 150 32
+get player5555 55401 4000 150 33
+get total300
+action: check
+get river
+river card: SPADES-8
+get inquire
+get player4444 12223 8000 150 31
+get player5555 55401 4000 150 31
+get total300
+action: check
+get showdown
+common/ 
+SPADES A 
+DIAMONDS K 
+CLUBS 4 
+HEARTS 8 
+SPADES 8 
+/common 
+2: 5555 SPADES 9 CLUBS 5 ONE_PAIR 
+1: 4444 CLUBS J DIAMONDS 5 ONE_PAIR 
+get pot-win
+4444: 300 
+start to seat
+button 5555,55401,4000
+small 4444,12523,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-3
+base card: CLUBS-A
+value:147715268471337
+base card: 147715,268471337
+get inquire
+get player4444 12473 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: HEARTS-9
+flop card: DIAMONDS-5
+flop card: DIAMONDS-6
+get inquire
+get player4444 12373 8000 150 31
+get player5555 55251 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: HEARTS-6
+get inquire
+get player4444 12273 8000 250 31
+get player5555 55151 4000 250 33
+get total500
+action: raise 0
+get river
+river card: SPADES-J
+get inquire
+get player4444 12173 8000 350 31
+get player5555 55051 4000 350 33
+get total700
+action: raise 0
+get showdown
+common/ 
+HEARTS 9 
+DIAMONDS 5 
+DIAMONDS 6 
+HEARTS 6 
+SPADES J 
+/common 
+1: 4444 HEARTS A HEARTS 7 ONE_PAIR 
+1: 5555 DIAMONDS 3 CLUBS A ONE_PAIR 
+get pot-win
+4444: 450 
+5555: 450 
+start to seat
+button 4444,12523,8000
+small 5555,55401,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-8
+base card: CLUBS-6
+value:41999531082379
+base card: 4199953,1082379
+get inquire
+get player4444 12473 8000 50 32
+get player5555 55351 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: DIAMONDS-J
+flop card: CLUBS-3
+flop card: HEARTS-7
+get inquire
+get player4444 12373 8000 150 32
+get player5555 55251 4000 150 33
+get total300
+action: check
+get turn
+turn card: DIAMONDS-8
+get inquire
+get player4444 12373 8000 150 31
+get player5555 55251 4000 150 31
+get total300
+action: check
+get river
+river card: DIAMONDS-2
+get inquire
+get player4444 12373 8000 150 31
+get player5555 55251 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+DIAMONDS J 
+CLUBS 3 
+HEARTS 7 
+DIAMONDS 8 
+DIAMONDS 2 
+/common 
+1: 5555 SPADES 8 CLUBS 6 ONE_PAIR 
+2: 4444 SPADES 5 SPADES 3 ONE_PAIR 
+get pot-win
+5555: 500 
+start to seat
+button 5555,55651,4000
+small 4444,12273,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: HEARTS-5
+base card: CLUBS-K
+value:533255134253349
+base card: 533255,134253349
+get inquire
+get player4444 12223 8000 50 30
+get total50
+action: check
+get flop
+flop card: HEARTS-A
+flop card: SPADES-3
+flop card: DIAMONDS-9
+get inquire
+get player4444 12223 8000 50 31
+get player5555 55601 4000 50 32
+get total100
+action: check
+get turn
+turn card: DIAMONDS-7
+get inquire
+get player4444 12223 8000 50 31
+get player5555 55601 4000 50 31
+get total100
+action: raise 0
+get river
+river card: HEARTS-9
+get inquire
+get player4444 12123 8000 150 31
+get player5555 55501 4000 150 33
+get total300
+action: check
+get showdown
+common/ 
+HEARTS A 
+SPADES 3 
+DIAMONDS 9 
+DIAMONDS 7 
+HEARTS 9 
+/common 
+1: 4444 SPADES 4 DIAMONDS K ONE_PAIR 
+1: 5555 HEARTS 5 CLUBS K ONE_PAIR 
+get pot-win
+4444: 150 
+5555: 150 
+start to seat
+button 4444,12273,8000
+small 5555,55651,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-5
+base card: DIAMONDS-K
+value:529159134236965
+base card: 529159,134236965
+get inquire
+get player4444 12223 8000 50 32
+get player5555 55601 4000 50 30
+get total100
+action: check
+get flop
+flop card: HEARTS-3
+flop card: SPADES-6
+flop card: DIAMONDS-3
+get inquire
+get player4444 12223 8000 50 32
+get player5555 55601 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: SPADES-Q
+get inquire
+get player4444 12123 8000 150 32
+get player5555 55501 4000 150 33
+get total300
+action: raise 0
+get river
+river card: CLUBS-K
+get inquire
+get player4444 12023 8000 250 32
+get player5555 55401 4000 250 33
+get total500
+action: check
+get showdown
+common/ 
+HEARTS 3 
+SPADES 6 
+DIAMONDS 3 
+SPADES Q 
+CLUBS K 
+/common 
+1: 5555 SPADES 5 DIAMONDS K TWO_PAIR 
+2: 4444 DIAMONDS 6 SPADES A TWO_PAIR 
+get pot-win
+5555: 500 
+start to seat
+button 5555,55901,4000
+small 4444,12023,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-7
+base card: CLUBS-K
+value:2102541134253349
+base card: 2102541,134253349
+get inquire
+get player4444 11973 8000 50 30
+get total50
+action: check
+get flop
+flop card: HEARTS-9
+flop card: DIAMONDS-2
+flop card: HEARTS-J
+get inquire
+get player4444 11973 8000 50 31
+get player5555 55851 4000 50 32
+get total100
+action: raise 0
+get turn
+turn card: DIAMONDS-8
+get inquire
+get player4444 11873 8000 150 31
+get player5555 55751 4000 150 33
+get total300
+action: raise 0
+get river
+river card: SPADES-5
+get inquire
+get player4444 11773 8000 250 31
+get player5555 55651 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+HEARTS 9 
+DIAMONDS 2 
+HEARTS J 
+DIAMONDS 8 
+SPADES 5 
+/common 
+2: 4444 CLUBS Q HEARTS 4 HIGH_CARD 
+1: 5555 SPADES 7 CLUBS K HIGH_CARD 
+get pot-win
+5555: 700 
+start to seat
+button 4444,11673,8000
+small 5555,56251,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-2
+base card: SPADES-3
+value:98306135427
+base card: 98306,135427
+get inquire
+get player4444 11623 8000 50 32
+get player5555 56201 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: CLUBS-K
+flop card: CLUBS-5
+flop card: CLUBS-4
+get inquire
+get player4444 11523 8000 150 32
+get player5555 56101 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: DIAMONDS-9
+get inquire
+get player4444 11423 8000 250 32
+get player5555 56001 4000 250 33
+get total500
+action: check
+get river
+river card: DIAMONDS-K
+get inquire
+get player4444 11423 8000 250 31
+get player5555 56001 4000 250 31
+get total500
+action: raise 0
+get showdown
+common/ 
+CLUBS K 
+CLUBS 5 
+CLUBS 4 
+DIAMONDS 9 
+DIAMONDS K 
+/common 
+2: 5555 CLUBS 2 SPADES 3 ONE_PAIR 
+1: 4444 HEARTS 2 DIAMONDS 8 ONE_PAIR 
+get pot-win
+4444: 700 
+start to seat
+button 5555,55901,4000
+small 4444,12023,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: HEARTS-K
+base card: SPADES-Q
+value:13422877367115551
+base card: 134228773,67115551
+get inquire
+get player4444 11973 8000 50 30
+get total50
+action: check
+get flop
+flop card: DIAMONDS-Q
+flop card: HEARTS-A
+flop card: SPADES-J
+get inquire
+get player4444 11973 8000 50 31
+get player5555 55851 4000 50 32
+get total100
+action: raise 0
+get turn
+turn card: CLUBS-3
+get inquire
+get player4444 11873 8000 150 31
+get player5555 55751 4000 150 33
+get total300
+action: check
+get river
+river card: CLUBS-10
+get inquire
+get player4444 11873 8000 150 31
+get player5555 55751 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+DIAMONDS Q 
+HEARTS A 
+SPADES J 
+CLUBS 3 
+CLUBS 10 
+/common 
+2: 4444 SPADES 10 CLUBS 2 ONE_PAIR 
+1: 5555 HEARTS K SPADES Q STRAIGHT 
+get pot-win
+5555: 500 
+start to seat
+button 4444,11773,8000
+small 5555,56151,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-4
+base card: DIAMONDS-J
+value:27904533573149
+base card: 279045,33573149
+get inquire
+get player4444 11723 8000 50 32
+get player5555 56101 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: HEARTS-5
+flop card: CLUBS-K
+flop card: DIAMONDS-5
+get inquire
+get player4444 11623 8000 150 32
+get player5555 56001 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: CLUBS-5
+get inquire
+get player4444 11523 8000 250 32
+get player5555 55901 4000 250 33
+get total500
+action: check
+get river
+river card: DIAMONDS-A
+get inquire
+get player4444 11523 8000 250 31
+get player5555 55901 4000 250 31
+get total500
+action: check
+get showdown
+common/ 
+HEARTS 5 
+CLUBS K 
+DIAMONDS 5 
+CLUBS 5 
+DIAMONDS A 
+/common 
+1: 5555 DIAMONDS 4 DIAMONDS J THREE_OF_A_KIND 
+1: 4444 SPADES 2 SPADES J THREE_OF_A_KIND 
+get pot-win
+5555: 250 
+4444: 250 
+start to seat
+button 5555,56151,4000
+small 4444,11773,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: HEARTS-4
+base card: CLUBS-8
+value:2708534228625
+base card: 270853,4228625
+get inquire
+get player4444 11723 8000 50 30
+get total50
+action: check
+get flop
+flop card: HEARTS-Q
+flop card: CLUBS-4
+flop card: CLUBS-2
+get inquire
+get player4444 11723 8000 50 31
+get player5555 56101 4000 50 32
+get total100
+action: raise 0
+get turn
+turn card: DIAMONDS-9
+get inquire
+get player4444 11623 8000 150 31
+get player5555 56001 4000 150 33
+get total300
+action: raise 0
+get river
+river card: SPADES-6
+get inquire
+get player4444 11523 8000 250 31
+get player5555 55901 4000 250 33
+get total500
+action: check
+get showdown
+common/ 
+HEARTS Q 
+CLUBS 4 
+CLUBS 2 
+DIAMONDS 9 
+SPADES 6 
+/common 
+2: 4444 DIAMONDS 7 DIAMONDS K HIGH_CARD 
+1: 5555 HEARTS 4 CLUBS 8 ONE_PAIR 
+get pot-win
+5555: 500 
+start to seat
+button 4444,11523,8000
+small 5555,56401,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-5
+base card: SPADES-A
+value:541447268442665
+base card: 541447,268442665
+get inquire
+get player4444 11473 8000 50 32
+get player5555 56351 4000 50 30
+get total100
+action: check
+get flop
+flop card: DIAMONDS-4
+flop card: SPADES-Q
+flop card: DIAMONDS-2
+get inquire
+get player4444 11473 8000 50 32
+get player5555 56351 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: DIAMONDS-K
+get inquire
+get player4444 11373 8000 150 32
+get player5555 56251 4000 150 33
+get total300
+action: raise 0
+get river
+river card: HEARTS-K
+get inquire
+get player4444 11273 8000 250 32
+get player5555 56151 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+DIAMONDS 4 
+SPADES Q 
+DIAMONDS 2 
+DIAMONDS K 
+HEARTS K 
+/common 
+2: 5555 DIAMONDS 5 SPADES A ONE_PAIR 
+1: 4444 SPADES J SPADES 2 TWO_PAIR 
+get pot-win
+4444: 700 
+start to seat
+button 5555,56051,4000
+small 4444,11873,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-K
+base card: SPADES-Q
+value:13423696567115551
+base card: 134236965,67115551
+get inquire
+get player4444 11823 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: SPADES-A
+flop card: DIAMONDS-5
+flop card: HEARTS-A
+get inquire
+get player4444 11723 8000 150 31
+get player5555 55901 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: DIAMONDS-J
+get inquire
+get player4444 11623 8000 250 31
+get player5555 55801 4000 250 33
+get total500
+action: check
+get river
+river card: HEARTS-K
+get inquire
+get player4444 11623 8000 250 31
+get player5555 55801 4000 250 31
+get total500
+action: raise 0
+get showdown
+common/ 
+SPADES A 
+DIAMONDS 5 
+HEARTS A 
+DIAMONDS J 
+HEARTS K 
+/common 
+2: 4444 DIAMONDS Q DIAMONDS 3 ONE_PAIR 
+1: 5555 DIAMONDS K SPADES Q TWO_PAIR 
+get pot-win
+5555: 700 
+start to seat
+button 4444,11523,8000
+small 5555,56401,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-4
+base card: DIAMONDS-7
+value:2954292114829
+base card: 295429,2114829
+get inquire
+get player4444 11473 8000 50 32
+get player5555 56351 4000 50 30
+get total100
+action: check
+get flop
+flop card: DIAMONDS-J
+flop card: CLUBS-10
+flop card: DIAMONDS-Q
+get inquire
+get player4444 11473 8000 50 32
+get player5555 56351 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: SPADES-J
+get inquire
+get player4444 11373 8000 150 32
+get player5555 56251 4000 150 33
+get total300
+action: check
+get river
+river card: CLUBS-5
+get inquire
+get player4444 11373 8000 150 31
+get player5555 56251 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+DIAMONDS J 
+CLUBS 10 
+DIAMONDS Q 
+SPADES J 
+CLUBS 5 
+/common 
+1: 5555 CLUBS 4 DIAMONDS 7 ONE_PAIR 
+2: 4444 SPADES 3 SPADES 4 ONE_PAIR 
+get pot-win
+5555: 500 
+start to seat
+button 5555,56651,4000
+small 4444,11273,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-K
+base card: HEARTS-6
+value:1342246771057803
+base card: 134224677,1057803
+get inquire
+get player4444 11223 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: HEARTS-9
+flop card: DIAMONDS-3
+flop card: HEARTS-10
+get inquire
+get player4444 11123 8000 150 31
+get player5555 56501 4000 150 33
+get total300
+action: check
+get turn
+turn card: DIAMONDS-A
+get inquire
+get player4444 11123 8000 150 31
+get player5555 56501 4000 150 31
+get total300
+action: check
+get river
+river card: DIAMONDS-K
+get inquire
+get player4444 11123 8000 150 31
+get player5555 56501 4000 150 31
+get total300
+action: check
+get showdown
+common/ 
+HEARTS 9 
+DIAMONDS 3 
+HEARTS 10 
+DIAMONDS A 
+DIAMONDS K 
+/common 
+2: 4444 HEARTS Q SPADES 3 ONE_PAIR 
+1: 5555 SPADES K HEARTS 6 ONE_PAIR 
+get pot-win
+5555: 300 
+start to seat
+button 4444,11123,8000
+small 5555,56801,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-3
+base card: SPADES-10
+value:14771516783383
+base card: 147715,16783383
+get inquire
+get player4444 11073 8000 50 32
+get player5555 56751 4000 50 30
+get total100
+action: check
+get flop
+flop card: SPADES-9
+flop card: CLUBS-J
+flop card: SPADES-2
+get inquire
+get player4444 11073 8000 50 32
+get player5555 56751 4000 50 31
+get total100
+action: check
+get turn
+turn card: SPADES-8
+get inquire
+get player4444 11073 8000 50 31
+get player5555 56751 4000 50 31
+get total100
+action: check
+get river
+river card: CLUBS-6
+get inquire
+get player4444 11073 8000 50 31
+get player5555 56751 4000 50 31
+get total100
+action: raise 0
+get showdown
+common/ 
+SPADES 9 
+CLUBS J 
+SPADES 2 
+SPADES 8 
+CLUBS 6 
+/common 
+2: 5555 DIAMONDS 3 SPADES 10 HIGH_CARD 
+1: 4444 DIAMONDS 6 HEARTS A ONE_PAIR 
+get pot-win
+4444: 300 
+start to seat
+button 5555,56651,4000
+small 4444,11273,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-7
+base card: HEARTS-Q
+value:211482967119647
+base card: 2114829,67119647
+get inquire
+get player4444 11223 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: HEARTS-K
+flop card: HEARTS-J
+flop card: CLUBS-Q
+get inquire
+get player4444 11123 8000 150 31
+get player5555 56501 4000 150 33
+get total300
+action: check
+get turn
+turn card: SPADES-3
+get inquire
+get player4444 11123 8000 150 31
+get player5555 56501 4000 150 31
+get total300
+action: check
+get river
+river card: HEARTS-10
+get inquire
+get player4444 11123 8000 150 31
+get player5555 56501 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+HEARTS K 
+HEARTS J 
+CLUBS Q 
+SPADES 3 
+HEARTS 10 
+/common 
+1: 4444 CLUBS 7 SPADES 9 STRAIGHT 
+2: 5555 DIAMONDS 7 HEARTS Q ONE_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 4444,11523,8000
+small 5555,56401,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: HEARTS-3
+base card: HEARTS-J
+value:13952333564957
+base card: 139523,33564957
+get inquire
+get player4444 11473 8000 50 32
+get player5555 56351 4000 50 30
+get total100
+action: check
+get flop
+flop card: HEARTS-6
+flop card: DIAMONDS-K
+flop card: CLUBS-5
+get inquire
+get player4444 11473 8000 50 32
+get player5555 56351 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: DIAMONDS-10
+get inquire
+get player4444 11373 8000 150 32
+get player5555 56251 4000 150 33
+get total300
+action: check
+get river
+river card: HEARTS-K
+get inquire
+get player4444 11373 8000 150 31
+get player5555 56251 4000 150 31
+get total300
+action: check
+get showdown
+common/ 
+HEARTS 6 
+DIAMONDS K 
+CLUBS 5 
+DIAMONDS 10 
+HEARTS K 
+/common 
+2: 5555 HEARTS 3 HEARTS J ONE_PAIR 
+1: 4444 DIAMONDS 9 DIAMONDS 5 TWO_PAIR 
+get pot-win
+4444: 300 
+start to seat
+button 5555,56251,4000
+small 4444,11673,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-7
+base card: HEARTS-10
+value:213121316787479
+base card: 2131213,16787479
+get inquire
+get player4444 11623 8000 50 30
+get total50
+action: check
+get flop
+flop card: CLUBS-5
+flop card: SPADES-3
+flop card: HEARTS-7
+get inquire
+get player4444 11623 8000 50 31
+get player5555 56201 4000 50 32
+get total100
+action: check
+get turn
+turn card: CLUBS-K
+get inquire
+get player4444 11623 8000 50 31
+get player5555 56201 4000 50 31
+get total100
+action: raise 0
+get river
+river card: CLUBS-2
+get inquire
+get player4444 11523 8000 150 31
+get player5555 56101 4000 150 33
+get total300
+action: check
+get showdown
+common/ 
+CLUBS 5 
+SPADES 3 
+HEARTS 7 
+CLUBS K 
+CLUBS 2 
+/common 
+2: 4444 SPADES A CLUBS 9 HIGH_CARD 
+1: 5555 CLUBS 7 HEARTS 10 ONE_PAIR 
+get pot-win
+5555: 300 
+start to seat
+button 4444,11523,8000
+small 5555,56401,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-Q
+base card: CLUBS-10
+value:6714422316812055
+base card: 67144223,16812055
+get inquire
+get player4444 11473 8000 50 32
+get player5555 56351 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: CLUBS-K
+flop card: SPADES-7
+flop card: HEARTS-3
+get inquire
+get player4444 11373 8000 150 32
+get player5555 56251 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: HEARTS-7
+get inquire
+get player4444 11273 8000 250 32
+get player5555 56151 4000 250 33
+get total500
+action: raise 0
+get river
+river card: SPADES-3
+get inquire
+get player4444 11173 8000 350 32
+get player5555 56051 4000 350 33
+get total700
+action: check
+get showdown
+common/ 
+CLUBS K 
+SPADES 7 
+HEARTS 3 
+HEARTS 7 
+SPADES 3 
+/common 
+2: 5555 CLUBS Q CLUBS 10 TWO_PAIR 
+1: 4444 CLUBS 8 HEARTS A TWO_PAIR 
+get pot-win
+4444: 700 
+start to seat
+button 5555,56051,4000
+small 4444,11873,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-J
+base card: DIAMONDS-5
+value:33560861541447
+base card: 33560861,541447
+get inquire
+get player4444 11823 8000 50 30
+get total50
+action: check
+get flop
+flop card: CLUBS-10
+flop card: SPADES-6
+flop card: HEARTS-4
+get inquire
+get player4444 11823 8000 50 31
+get player5555 56001 4000 50 32
+get total100
+action: check
+get turn
+turn card: SPADES-4
+get inquire
+get player4444 11823 8000 50 31
+get player5555 56001 4000 50 31
+get total100
+action: check
+get river
+river card: HEARTS-8
+get inquire
+get player4444 11823 8000 50 31
+get player5555 56001 4000 50 31
+get total100
+action: check
+get showdown
+common/ 
+CLUBS 10 
+SPADES 6 
+HEARTS 4 
+SPADES 4 
+HEARTS 8 
+/common 
+1: 4444 DIAMONDS 4 CLUBS 5 THREE_OF_A_KIND 
+2: 5555 SPADES J DIAMONDS 5 ONE_PAIR 
+get pot-win
+4444: 100 
+start to seat
+button 4444,11923,8000
+small 5555,56001,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-9
+base card: DIAMONDS-7
+value:84231872114829
+base card: 8423187,2114829
+get inquire
+get player4444 11873 8000 50 32
+get player5555 55951 4000 50 30
+get total100
+action: check
+get flop
+flop card: SPADES-A
+flop card: HEARTS-9
+flop card: DIAMONDS-J
+get inquire
+get player4444 11873 8000 50 32
+get player5555 55951 4000 50 31
+get total100
+action: check
+get turn
+turn card: CLUBS-Q
+get inquire
+get player4444 11873 8000 50 31
+get player5555 55951 4000 50 31
+get total100
+action: raise 0
+get river
+river card: HEARTS-A
+get inquire
+get player4444 11773 8000 150 32
+get player5555 55851 4000 150 33
+get total300
+action: check
+get showdown
+common/ 
+SPADES A 
+HEARTS 9 
+DIAMONDS J 
+CLUBS Q 
+HEARTS A 
+/common 
+1: 5555 CLUBS 9 DIAMONDS 7 TWO_PAIR 
+2: 4444 HEARTS K HEARTS 2 ONE_PAIR 
+get pot-win
+5555: 300 
+start to seat
+button 5555,56151,4000
+small 4444,11773,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-2
+base card: SPADES-3
+value:98306135427
+base card: 98306,135427
+get inquire
+get player4444 11723 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: DIAMONDS-3
+flop card: HEARTS-10
+flop card: CLUBS-10
+get inquire
+get player4444 11623 8000 150 31
+get player5555 56001 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: CLUBS-6
+get inquire
+get player4444 11523 8000 250 31
+get player5555 55901 4000 250 33
+get total500
+action: raise 0
+get river
+river card: HEARTS-Q
+get inquire
+get player4444 11423 8000 350 31
+get player5555 55801 4000 350 33
+get total700
+action: check
+get showdown
+common/ 
+DIAMONDS 3 
+HEARTS 10 
+CLUBS 10 
+CLUBS 6 
+HEARTS Q 
+/common 
+1: 4444 HEARTS 3 CLUBS 4 TWO_PAIR 
+1: 5555 CLUBS 2 SPADES 3 TWO_PAIR 
+get pot-win
+4444: 350 
+5555: 350 
+start to seat
+button 4444,11773,8000
+small 5555,56151,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: HEARTS-5
+base card: SPADES-3
+value:533255135427
+base card: 533255,135427
+get inquire
+get player4444 11723 8000 50 32
+get player5555 56101 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: HEARTS-7
+flop card: HEARTS-10
+flop card: DIAMONDS-K
+get inquire
+get player4444 11623 8000 150 32
+get player5555 56001 4000 150 33
+get total300
+action: check
+get turn
+turn card: SPADES-9
+get inquire
+get player4444 11623 8000 150 31
+get player5555 56001 4000 150 31
+get total300
+action: raise 0
+get river
+river card: CLUBS-3
+get inquire
+get player4444 11523 8000 250 32
+get player5555 55901 4000 250 33
+get total500
+action: check
+get showdown
+common/ 
+HEARTS 7 
+HEARTS 10 
+DIAMONDS K 
+SPADES 9 
+CLUBS 3 
+/common 
+2: 5555 HEARTS 5 SPADES 3 ONE_PAIR 
+1: 4444 SPADES 4 CLUBS K ONE_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 5555,55901,4000
+small 4444,12023,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-7
+base card: DIAMONDS-2
+value:210254181922
+base card: 2102541,81922
+get inquire
+get player4444 11973 8000 50 30
+get total50
+action: check
+get flop
+flop card: CLUBS-A
+flop card: SPADES-J
+flop card: HEARTS-K
+get inquire
+get player4444 11973 8000 50 31
+get player5555 55851 4000 50 32
+get total100
+action: check
+get turn
+turn card: DIAMONDS-5
+get inquire
+get player4444 11973 8000 50 31
+get player5555 55851 4000 50 31
+get total100
+action: raise 0
+get river
+river card: DIAMONDS-J
+get inquire
+get player4444 11873 8000 150 31
+get player5555 55751 4000 150 33
+get total300
+action: raise 0
+get showdown
+common/ 
+CLUBS A 
+SPADES J 
+HEARTS K 
+DIAMONDS 5 
+DIAMONDS J 
+/common 
+1: 4444 DIAMONDS 9 CLUBS Q ONE_PAIR 
+2: 5555 SPADES 7 DIAMONDS 2 ONE_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 4444,12273,8000
+small 5555,55651,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-9
+base card: CLUBS-5
+value:8394515557831
+base card: 8394515,557831
+get inquire
+get player4444 12223 8000 50 32
+get player5555 55601 4000 50 30
+get total100
+action: check
+get flop
+flop card: CLUBS-7
+flop card: SPADES-Q
+flop card: CLUBS-4
+get inquire
+get player4444 12223 8000 50 32
+get player5555 55601 4000 50 31
+get total100
+action: check
+get turn
+turn card: HEARTS-Q
+get inquire
+get player4444 12223 8000 50 31
+get player5555 55601 4000 50 31
+get total100
+action: raise 0
+get river
+river card: SPADES-4
+get inquire
+get player4444 12123 8000 150 32
+get player5555 55501 4000 150 33
+get total300
+action: raise 0
+get showdown
+common/ 
+CLUBS 7 
+SPADES Q 
+CLUBS 4 
+HEARTS Q 
+SPADES 4 
+/common 
+1: 5555 SPADES 9 CLUBS 5 TWO_PAIR 
+1: 4444 HEARTS 9 HEARTS 2 TWO_PAIR 
+get pot-win
+5555: 250 
+4444: 250 
+start to seat
+button 5555,55651,4000
+small 4444,12273,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-3
+base card: CLUBS-2
+value:16409998306
+base card: 164099,98306
+get inquire
+get player4444 12223 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: HEARTS-9
+flop card: SPADES-8
+flop card: DIAMONDS-K
+get inquire
+get player4444 12123 8000 150 31
+get player5555 55501 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: DIAMONDS-6
+get inquire
+get player4444 12023 8000 250 31
+get player5555 55401 4000 250 33
+get total500
+action: raise 0
+get river
+river card: HEARTS-J
+get inquire
+get player4444 11923 8000 350 31
+get player5555 55301 4000 350 33
+get total700
+action: raise 0
+get showdown
+common/ 
+HEARTS 9 
+SPADES 8 
+DIAMONDS K 
+DIAMONDS 6 
+HEARTS J 
+/common 
+1: 4444 CLUBS 8 CLUBS K TWO_PAIR 
+2: 5555 CLUBS 3 CLUBS 2 HIGH_CARD 
+get pot-win
+4444: 900 
+start to seat
+button 4444,12723,8000
+small 5555,55201,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-2
+base card: SPADES-A
+value:98306268442665
+base card: 98306,268442665
+get inquire
+get player4444 12673 8000 50 32
+get player5555 55151 4000 50 30
+get total100
+action: check
+get flop
+flop card: SPADES-2
+flop card: HEARTS-7
+flop card: CLUBS-8
+get inquire
+get player4444 12673 8000 50 32
+get player5555 55151 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: HEARTS-2
+get inquire
+get player4444 12573 8000 150 32
+get player5555 55051 4000 150 33
+get total300
+action: raise 0
+get river
+river card: SPADES-5
+get inquire
+get player4444 12473 8000 250 32
+get player5555 54951 4000 250 33
+get total500
+action: check
+get showdown
+common/ 
+SPADES 2 
+HEARTS 7 
+CLUBS 8 
+HEARTS 2 
+SPADES 5 
+/common 
+1: 5555 CLUBS 2 SPADES A THREE_OF_A_KIND 
+2: 4444 DIAMONDS 10 DIAMONDS K ONE_PAIR 
+get pot-win
+5555: 500 
+start to seat
+button 5555,55451,4000
+small 4444,12473,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-3
+base card: HEARTS-8
+value:1640994204049
+base card: 164099,4204049
+get inquire
+get player4444 12423 8000 50 30
+get total50
+action: check
+get flop
+flop card: DIAMONDS-8
+flop card: DIAMONDS-9
+flop card: DIAMONDS-2
+get inquire
+get player4444 12423 8000 50 31
+get player5555 55401 4000 50 32
+get total100
+action: raise 0
+get turn
+turn card: HEARTS-6
+get inquire
+get player4444 12323 8000 150 31
+get player5555 55301 4000 150 33
+get total300
+action: raise 0
+get river
+river card: CLUBS-Q
+get inquire
+get player4444 12223 8000 250 31
+get player5555 55201 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+DIAMONDS 8 
+DIAMONDS 9 
+DIAMONDS 2 
+HEARTS 6 
+CLUBS Q 
+/common 
+2: 4444 CLUBS 4 DIAMONDS 7 HIGH_CARD 
+1: 5555 CLUBS 3 HEARTS 8 ONE_PAIR 
+get pot-win
+5555: 700 
+start to seat
+button 4444,12123,8000
+small 5555,55801,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-J
+base card: HEARTS-7
+value:335895332106637
+base card: 33589533,2106637
+get inquire
+get player4444 12073 8000 50 32
+get player5555 55751 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: CLUBS-8
+flop card: HEARTS-2
+flop card: CLUBS-K
+get inquire
+get player4444 11973 8000 150 32
+get player5555 55651 4000 150 33
+get total300
+action: check
+get turn
+turn card: CLUBS-9
+get inquire
+get player4444 11973 8000 150 31
+get player5555 55651 4000 150 31
+get total300
+action: check
+get river
+river card: SPADES-7
+get inquire
+get player4444 11973 8000 150 31
+get player5555 55651 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+CLUBS 8 
+HEARTS 2 
+CLUBS K 
+CLUBS 9 
+SPADES 7 
+/common 
+2: 5555 CLUBS J HEARTS 7 ONE_PAIR 
+1: 4444 CLUBS 5 SPADES 9 ONE_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 5555,55551,4000
+small 4444,12373,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-4
+base card: SPADES-7
+value:2954292102541
+base card: 295429,2102541
+get inquire
+get player4444 12323 8000 50 30
+get total50
+action: check
+get flop
+flop card: HEARTS-8
+flop card: CLUBS-A
+flop card: CLUBS-5
+get inquire
+get player4444 12323 8000 50 31
+get player5555 55501 4000 50 32
+get total100
+action: check
+get turn
+turn card: DIAMONDS-8
+get inquire
+get player4444 12323 8000 50 31
+get player5555 55501 4000 50 31
+get total100
+action: check
+get river
+river card: DIAMONDS-5
+get inquire
+get player4444 12323 8000 50 31
+get player5555 55501 4000 50 31
+get total100
+action: check
+get showdown
+common/ 
+HEARTS 8 
+CLUBS A 
+CLUBS 5 
+DIAMONDS 8 
+DIAMONDS 5 
+/common 
+1: 4444 HEARTS 3 SPADES K TWO_PAIR 
+1: 5555 CLUBS 4 SPADES 7 TWO_PAIR 
+get pot-win
+4444: 50 
+5555: 50 
+start to seat
+button 4444,12373,8000
+small 5555,55551,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-9
+base card: DIAMONDS-J
+value:839451533573149
+base card: 8394515,33573149
+get inquire
+get player4444 12323 8000 50 32
+get player5555 55501 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: HEARTS-6
+flop card: DIAMONDS-5
+flop card: HEARTS-A
+get inquire
+get player4444 12223 8000 150 32
+get player5555 55401 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: SPADES-6
+get inquire
+get player4444 12123 8000 250 32
+get player5555 55301 4000 250 33
+get total500
+action: raise 0
+get river
+river card: CLUBS-A
+get inquire
+get player4444 12023 8000 350 32
+get player5555 55201 4000 350 33
+get total700
+action: check
+get showdown
+common/ 
+HEARTS 6 
+DIAMONDS 5 
+HEARTS A 
+SPADES 6 
+CLUBS A 
+/common 
+1: 5555 SPADES 9 DIAMONDS J TWO_PAIR 
+2: 4444 HEARTS 9 CLUBS 10 TWO_PAIR 
+get pot-win
+5555: 700 
+start to seat
+button 5555,55901,4000
+small 4444,12023,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-5
+base card: SPADES-K
+value:541447134224677
+base card: 541447,134224677
+get inquire
+get player4444 11973 8000 50 30
+get total50
+action: check
+get flop
+flop card: DIAMONDS-A
+flop card: CLUBS-A
+flop card: SPADES-4
+get inquire
+get player4444 11973 8000 50 31
+get player5555 55851 4000 50 32
+get total100
+action: raise 0
+get turn
+turn card: HEARTS-A
+get inquire
+get player4444 11873 8000 150 31
+get player5555 55751 4000 150 33
+get total300
+action: check
+get river
+river card: HEARTS-K
+get inquire
+get player4444 11873 8000 150 31
+get player5555 55751 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+DIAMONDS A 
+CLUBS A 
+SPADES 4 
+HEARTS A 
+HEARTS K 
+/common 
+2: 4444 DIAMONDS 6 SPADES 3 THREE_OF_A_KIND 
+1: 5555 DIAMONDS 5 SPADES K FULL_HOUSE 
+get pot-win
+5555: 500 
+start to seat
+button 4444,11773,8000
+small 5555,56151,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-2
+base card: CLUBS-6
+value:819221082379
+base card: 81922,1082379
+get inquire
+get player4444 11723 8000 50 32
+get player5555 56101 4000 50 30
+get total100
+action: check
+get flop
+flop card: SPADES-8
+flop card: HEARTS-3
+flop card: SPADES-J
+get inquire
+get player4444 11723 8000 50 32
+get player5555 56101 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: HEARTS-6
+get inquire
+get player4444 11623 8000 150 32
+get player5555 56001 4000 150 33
+get total300
+action: check
+get river
+river card: HEARTS-K
+get inquire
+get player4444 11623 8000 150 31
+get player5555 56001 4000 150 31
+get total300
+action: check
+get showdown
+common/ 
+SPADES 8 
+HEARTS 3 
+SPADES J 
+HEARTS 6 
+HEARTS K 
+/common 
+1: 5555 DIAMONDS 2 CLUBS 6 ONE_PAIR 
+2: 4444 CLUBS 10 DIAMONDS 9 HIGH_CARD 
+get pot-win
+5555: 300 
+start to seat
+button 5555,56301,4000
+small 4444,11623,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-5
+base card: SPADES-Q
+value:54144767115551
+base card: 541447,67115551
+get inquire
+get player4444 11573 8000 50 30
+get total50
+action: check
+get flop
+flop card: CLUBS-3
+flop card: DIAMONDS-7
+flop card: DIAMONDS-4
+get inquire
+get player4444 11573 8000 50 31
+get player5555 56251 4000 50 32
+get total100
+action: raise 0
+get turn
+turn card: SPADES-10
+get inquire
+get player4444 11473 8000 150 31
+get player5555 56151 4000 150 33
+get total300
+action: check
+get river
+river card: DIAMONDS-10
+get inquire
+get player4444 11473 8000 150 31
+get player5555 56151 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+CLUBS 3 
+DIAMONDS 7 
+DIAMONDS 4 
+SPADES 10 
+DIAMONDS 10 
+/common 
+1: 4444 CLUBS 7 DIAMONDS 6 TWO_PAIR 
+2: 5555 DIAMONDS 5 SPADES Q ONE_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 4444,11873,8000
+small 5555,56051,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-5
+base card: HEARTS-K
+value:557831134228773
+base card: 557831,134228773
+get inquire
+get player4444 11823 8000 50 32
+get player5555 56001 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: CLUBS-J
+flop card: DIAMONDS-6
+flop card: SPADES-6
+get inquire
+get player4444 11723 8000 150 32
+get player5555 55901 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: CLUBS-9
+get inquire
+get player4444 11623 8000 250 32
+get player5555 55801 4000 250 33
+get total500
+action: check
+get river
+river card: SPADES-8
+get inquire
+get player4444 11623 8000 250 31
+get player5555 55801 4000 250 31
+get total500
+action: check
+get showdown
+common/ 
+CLUBS J 
+DIAMONDS 6 
+SPADES 6 
+CLUBS 9 
+SPADES 8 
+/common 
+2: 5555 CLUBS 5 HEARTS K ONE_PAIR 
+1: 4444 HEARTS 8 DIAMONDS 2 TWO_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 5555,55801,4000
+small 4444,12123,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-A
+base card: DIAMONDS-9
+value:2684549538406803
+base card: 268454953,8406803
+get inquire
+get player4444 12073 8000 50 30
+get total50
+action: check
+get flop
+flop card: CLUBS-10
+flop card: CLUBS-J
+flop card: SPADES-5
+get inquire
+get player4444 12073 8000 50 31
+get player5555 55751 4000 50 32
+get total100
+action: check
+get turn
+turn card: SPADES-2
+get inquire
+get player4444 12073 8000 50 31
+get player5555 55751 4000 50 31
+get total100
+action: check
+get river
+river card: DIAMONDS-7
+get inquire
+get player4444 12073 8000 50 31
+get player5555 55751 4000 50 31
+get total100
+action: check
+get showdown
+common/ 
+CLUBS 10 
+CLUBS J 
+SPADES 5 
+SPADES 2 
+DIAMONDS 7 
+/common 
+2: 4444 SPADES Q HEARTS 6 HIGH_CARD 
+1: 5555 DIAMONDS A DIAMONDS 9 HIGH_CARD 
+get pot-win
+5555: 100 
+start to seat
+button 4444,12073,8000
+small 5555,55851,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-2
+base card: DIAMONDS-A
+value:81922268454953
+base card: 81922,268454953
+get inquire
+get player4444 12023 8000 50 32
+get player5555 55801 4000 50 30
+get total100
+action: check
+get flop
+flop card: HEARTS-5
+flop card: SPADES-9
+flop card: DIAMONDS-4
+get inquire
+get player4444 12023 8000 50 32
+get player5555 55801 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: SPADES-10
+get inquire
+get player4444 11923 8000 150 32
+get player5555 55701 4000 150 33
+get total300
+action: check
+get river
+river card: CLUBS-Q
+get inquire
+get player4444 11923 8000 150 31
+get player5555 55701 4000 150 31
+get total300
+action: check
+get showdown
+common/ 
+HEARTS 5 
+SPADES 9 
+DIAMONDS 4 
+SPADES 10 
+CLUBS Q 
+/common 
+2: 5555 DIAMONDS 2 DIAMONDS A HIGH_CARD 
+1: 4444 DIAMONDS 5 CLUBS 5 THREE_OF_A_KIND 
+get pot-win
+4444: 300 
+start to seat
+button 5555,55701,4000
+small 4444,12223,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-8
+base card: CLUBS-9
+value:41999538423187
+base card: 4199953,8423187
+get inquire
+get player4444 12173 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: CLUBS-J
+flop card: CLUBS-A
+flop card: CLUBS-6
+get inquire
+get player4444 12073 8000 150 31
+get player5555 55551 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: SPADES-3
+get inquire
+get player4444 11973 8000 250 31
+get player5555 55451 4000 250 33
+get total500
+action: raise 0
+get river
+river card: DIAMONDS-10
+get inquire
+get player4444 11873 8000 350 31
+get player5555 55351 4000 350 33
+get total700
+action: raise 0
+get showdown
+common/ 
+CLUBS J 
+CLUBS A 
+CLUBS 6 
+SPADES 3 
+DIAMONDS 10 
+/common 
+1: 4444 HEARTS K CLUBS 7 HIGH_CARD 
+2: 5555 SPADES 8 CLUBS 9 HIGH_CARD 
+get pot-win
+4444: 900 
+start to seat
+button 4444,12673,8000
+small 5555,55251,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-Q
+base card: HEARTS-6
+value:671442231057803
+base card: 67144223,1057803
+get inquire
+get player4444 12623 8000 50 32
+get player5555 55201 4000 50 30
+get total100
+action: check
+get flop
+flop card: HEARTS-K
+flop card: CLUBS-J
+flop card: SPADES-6
+get inquire
+get player4444 12623 8000 50 32
+get player5555 55201 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: DIAMONDS-6
+get inquire
+get player4444 12523 8000 150 32
+get player5555 55101 4000 150 33
+get total300
+action: raise 0
+get river
+river card: HEARTS-5
+get inquire
+get player4444 12423 8000 250 32
+get player5555 55001 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+HEARTS K 
+CLUBS J 
+SPADES 6 
+DIAMONDS 6 
+HEARTS 5 
+/common 
+1: 5555 CLUBS Q HEARTS 6 THREE_OF_A_KIND 
+2: 4444 SPADES A HEARTS 4 ONE_PAIR 
+get pot-win
+5555: 700 
+start to seat
+button 5555,55601,4000
+small 4444,12323,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-J
+base card: HEARTS-8
+value:335731494204049
+base card: 33573149,4204049
+get inquire
+get player4444 12273 8000 50 30
+get total50
+action: check
+get flop
+flop card: HEARTS-9
+flop card: CLUBS-7
+flop card: CLUBS-5
+get inquire
+get player4444 12273 8000 50 31
+get player5555 55551 4000 50 32
+get total100
+action: check
+get turn
+turn card: HEARTS-K
+get inquire
+get player4444 12273 8000 50 31
+get player5555 55551 4000 50 31
+get total100
+action: raise 0
+get river
+river card: CLUBS-10
+get inquire
+get player4444 12173 8000 150 31
+get player5555 55451 4000 150 33
+get total300
+action: check
+get showdown
+common/ 
+HEARTS 9 
+CLUBS 7 
+CLUBS 5 
+HEARTS K 
+CLUBS 10 
+/common 
+1: 4444 CLUBS K CLUBS 3 FLUSH 
+2: 5555 DIAMONDS J HEARTS 8 STRAIGHT 
+get pot-win
+4444: 300 
+start to seat
+button 4444,12473,8000
+small 5555,55451,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: HEARTS-Q
+base card: DIAMONDS-J
+value:6711964733573149
+base card: 67119647,33573149
+get inquire
+get player4444 12423 8000 50 32
+get player5555 55401 4000 50 30
+get total100
+action: check
+get flop
+flop card: DIAMONDS-6
+flop card: SPADES-K
+flop card: CLUBS-J
+get inquire
+get player4444 12423 8000 50 32
+get player5555 55401 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: SPADES-3
+get inquire
+get player4444 12323 8000 150 32
+get player5555 55301 4000 150 33
+get total300
+action: check
+get river
+river card: HEARTS-3
+get inquire
+get player4444 12323 8000 150 31
+get player5555 55301 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+DIAMONDS 6 
+SPADES K 
+CLUBS J 
+SPADES 3 
+HEARTS 3 
+/common 
+1: 5555 HEARTS Q DIAMONDS J TWO_PAIR 
+2: 4444 HEARTS 7 DIAMONDS Q ONE_PAIR 
+get pot-win
+5555: 500 
+start to seat
+button 5555,55701,4000
+small 4444,12223,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-10
+base card: HEARTS-A
+value:16795671268446761
+base card: 16795671,268446761
+get inquire
+get player4444 12173 8000 50 30
+get total50
+action: check
+get flop
+flop card: HEARTS-6
+flop card: CLUBS-J
+flop card: DIAMONDS-3
+get inquire
+get player4444 12173 8000 50 31
+get player5555 55651 4000 50 32
+get total100
+action: check
+get turn
+turn card: SPADES-8
+get inquire
+get player4444 12173 8000 50 31
+get player5555 55651 4000 50 31
+get total100
+action: check
+get river
+river card: HEARTS-7
+get inquire
+get player4444 12173 8000 50 31
+get player5555 55651 4000 50 31
+get total100
+action: check
+get showdown
+common/ 
+HEARTS 6 
+CLUBS J 
+DIAMONDS 3 
+SPADES 8 
+HEARTS 7 
+/common 
+1: 4444 HEARTS 8 HEARTS K ONE_PAIR 
+2: 5555 DIAMONDS 10 HEARTS A HIGH_CARD 
+get pot-win
+4444: 100 
+start to seat
+button 4444,12273,8000
+small 5555,55651,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: HEARTS-Q
+base card: CLUBS-4
+value:67119647295429
+base card: 67119647,295429
+get inquire
+get player4444 12223 8000 50 32
+get player5555 55601 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: SPADES-A
+flop card: SPADES-4
+flop card: HEARTS-2
+get inquire
+get player4444 12123 8000 150 32
+get player5555 55501 4000 150 33
+get total300
+action: check
+get turn
+turn card: DIAMONDS-K
+get inquire
+get player4444 12123 8000 150 31
+get player5555 55501 4000 150 31
+get total300
+action: raise 0
+get river
+river card: CLUBS-A
+get inquire
+get player4444 12023 8000 250 32
+get player5555 55401 4000 250 33
+get total500
+action: check
+get showdown
+common/ 
+SPADES A 
+SPADES 4 
+HEARTS 2 
+DIAMONDS K 
+CLUBS A 
+/common 
+1: 5555 HEARTS Q CLUBS 4 TWO_PAIR 
+2: 4444 DIAMONDS 8 CLUBS 5 ONE_PAIR 
+get pot-win
+5555: 500 
+start to seat
+button 5555,55901,4000
+small 4444,12023,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-7
+base card: SPADES-5
+value:2102541529159
+base card: 2102541,529159
+get inquire
+get player4444 11973 8000 50 30
+get total50
+action: check
+get flop
+flop card: HEARTS-K
+flop card: CLUBS-Q
+flop card: HEARTS-3
+get inquire
+get player4444 11973 8000 50 31
+get player5555 55851 4000 50 32
+get total100
+action: raise 0
+get turn
+turn card: DIAMONDS-Q
+get inquire
+get player4444 11873 8000 150 31
+get player5555 55751 4000 150 33
+get total300
+action: check
+get river
+river card: CLUBS-9
+get inquire
+get player4444 11873 8000 150 31
+get player5555 55751 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+HEARTS K 
+CLUBS Q 
+HEARTS 3 
+DIAMONDS Q 
+CLUBS 9 
+/common 
+1: 4444 DIAMONDS 6 SPADES K TWO_PAIR 
+2: 5555 SPADES 7 SPADES 5 ONE_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 4444,12273,8000
+small 5555,55651,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-A
+base card: HEARTS-6
+value:2684713371057803
+base card: 268471337,1057803
+get inquire
+get player4444 12223 8000 50 32
+get player5555 55601 4000 50 30
+get total100
+action: check
+get flop
+flop card: DIAMONDS-3
+flop card: CLUBS-8
+flop card: SPADES-2
+get inquire
+get player4444 12223 8000 50 32
+get player5555 55601 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: CLUBS-K
+get inquire
+get player4444 12123 8000 150 32
+get player5555 55501 4000 150 33
+get total300
+action: check
+get river
+river card: CLUBS-2
+get inquire
+get player4444 12123 8000 150 31
+get player5555 55501 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+DIAMONDS 3 
+CLUBS 8 
+SPADES 2 
+CLUBS K 
+CLUBS 2 
+/common 
+1: 5555 CLUBS A HEARTS 6 ONE_PAIR 
+2: 4444 SPADES J HEARTS 10 ONE_PAIR 
+get pot-win
+5555: 500 
+start to seat
+button 5555,55901,4000
+small 4444,12023,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-J
+base card: CLUBS-8
+value:335895334228625
+base card: 33589533,4228625
+get inquire
+get player4444 11973 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: SPADES-K
+flop card: HEARTS-7
+flop card: CLUBS-2
+get inquire
+get player4444 11873 8000 150 31
+get player5555 55751 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: DIAMONDS-9
+get inquire
+get player4444 11773 8000 250 31
+get player5555 55651 4000 250 33
+get total500
+action: check
+get river
+river card: HEARTS-K
+get inquire
+get player4444 11773 8000 250 31
+get player5555 55651 4000 250 31
+get total500
+action: check
+get showdown
+common/ 
+SPADES K 
+HEARTS 7 
+CLUBS 2 
+DIAMONDS 9 
+HEARTS K 
+/common 
+1: 4444 HEARTS 9 CLUBS 6 TWO_PAIR 
+2: 5555 CLUBS J CLUBS 8 ONE_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 4444,12273,8000
+small 5555,55651,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-8
+base card: HEARTS-A
+value:4228625268446761
+base card: 4228625,268446761
+get inquire
+get player4444 12223 8000 50 32
+get player5555 55601 4000 50 30
+get total100
+action: check
+get flop
+flop card: SPADES-10
+flop card: CLUBS-3
+flop card: SPADES-3
+get inquire
+get player4444 12223 8000 50 32
+get player5555 55601 4000 50 31
+get total100
+action: check
+get turn
+turn card: SPADES-6
+get inquire
+get player4444 12223 8000 50 31
+get player5555 55601 4000 50 31
+get total100
+action: check
+get river
+river card: DIAMONDS-10
+get inquire
+get player4444 12223 8000 50 31
+get player5555 55601 4000 50 31
+get total100
+action: check
+get showdown
+common/ 
+SPADES 10 
+CLUBS 3 
+SPADES 3 
+SPADES 6 
+DIAMONDS 10 
+/common 
+1: 5555 CLUBS 8 HEARTS A TWO_PAIR 
+2: 4444 SPADES 2 HEARTS 7 TWO_PAIR 
+get pot-win
+5555: 100 
+start to seat
+button 5555,55701,4000
+small 4444,12223,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: HEARTS-10
+base card: CLUBS-J
+value:1678747933589533
+base card: 16787479,33589533
+get inquire
+get player4444 12173 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: HEARTS-5
+flop card: HEARTS-4
+flop card: DIAMONDS-J
+get inquire
+get player4444 12073 8000 150 31
+get player5555 55551 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: DIAMONDS-K
+get inquire
+get player4444 11973 8000 250 31
+get player5555 55451 4000 250 33
+get total500
+action: check
+get river
+river card: CLUBS-Q
+get inquire
+get player4444 11973 8000 250 31
+get player5555 55451 4000 250 31
+get total500
+action: raise 0
+get showdown
+common/ 
+HEARTS 5 
+HEARTS 4 
+DIAMONDS J 
+DIAMONDS K 
+CLUBS Q 
+/common 
+2: 4444 CLUBS 6 HEARTS A HIGH_CARD 
+1: 5555 HEARTS 10 CLUBS J ONE_PAIR 
+get pot-win
+5555: 700 
+start to seat
+button 4444,11873,8000
+small 5555,56051,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-4
+base card: HEARTS-J
+value:26675733564957
+base card: 266757,33564957
+get inquire
+get player4444 11823 8000 50 32
+get player5555 56001 4000 50 30
+get total100
+action: check
+get flop
+flop card: SPADES-J
+flop card: DIAMONDS-A
+flop card: DIAMONDS-K
+get inquire
+get player4444 11823 8000 50 32
+get player5555 56001 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: SPADES-10
+get inquire
+get player4444 11723 8000 150 32
+get player5555 55901 4000 150 33
+get total300
+action: check
+get river
+river card: HEARTS-6
+get inquire
+get player4444 11723 8000 150 31
+get player5555 55901 4000 150 31
+get total300
+action: check
+get showdown
+common/ 
+SPADES J 
+DIAMONDS A 
+DIAMONDS K 
+SPADES 10 
+HEARTS 6 
+/common 
+1: 5555 SPADES 4 HEARTS J ONE_PAIR 
+2: 4444 HEARTS 10 HEARTS 8 ONE_PAIR 
+get pot-win
+5555: 300 
+start to seat
+button 5555,56201,4000
+small 4444,11723,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-6
+base card: SPADES-7
+value:10537072102541
+base card: 1053707,2102541
+get inquire
+get player4444 11673 8000 50 30
+get total50
+action: check
+get flop
+flop card: HEARTS-6
+flop card: DIAMONDS-K
+flop card: DIAMONDS-6
+get inquire
+get player4444 11673 8000 50 31
+get player5555 56151 4000 50 32
+get total100
+action: raise 0
+get turn
+turn card: DIAMONDS-A
+get inquire
+get player4444 11573 8000 150 31
+get player5555 56051 4000 150 33
+get total300
+action: raise 0
+get river
+river card: SPADES-9
+get inquire
+get player4444 11473 8000 250 31
+get player5555 55951 4000 250 33
+get total500
+action: check
+get showdown
+common/ 
+HEARTS 6 
+DIAMONDS K 
+DIAMONDS 6 
+DIAMONDS A 
+SPADES 9 
+/common 
+2: 4444 HEARTS 8 CLUBS 10 ONE_PAIR 
+1: 5555 SPADES 6 SPADES 7 THREE_OF_A_KIND 
+get pot-win
+5555: 500 
+start to seat
+button 4444,11473,8000
+small 5555,56451,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-Q
+base card: HEARTS-Q
+value:6712783967119647
+base card: 67127839,67119647
+get inquire
+get player4444 11423 8000 50 32
+get player5555 56401 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: SPADES-10
+flop card: DIAMONDS-7
+flop card: SPADES-6
+get inquire
+get player4444 11323 8000 150 32
+get player5555 56301 4000 150 33
+get total300
+action: check
+get turn
+turn card: SPADES-2
+get inquire
+get player4444 11323 8000 150 31
+get player5555 56301 4000 150 31
+get total300
+action: raise 0
+get river
+river card: CLUBS-Q
+get inquire
+get player4444 11223 8000 250 32
+get player5555 56201 4000 250 33
+get total500
+action: check
+get showdown
+common/ 
+SPADES 10 
+DIAMONDS 7 
+SPADES 6 
+SPADES 2 
+CLUBS Q 
+/common 
+1: 5555 DIAMONDS Q HEARTS Q THREE_OF_A_KIND 
+2: 4444 HEARTS 10 SPADES K ONE_PAIR 
+get pot-win
+5555: 500 
+start to seat
+button 5555,56701,4000
+small 4444,11223,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-5
+base card: HEARTS-J
+value:54144733564957
+base card: 541447,33564957
+get inquire
+get player4444 11173 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: SPADES-3
+flop card: HEARTS-A
+flop card: HEARTS-3
+get inquire
+get player4444 11073 8000 150 31
+get player5555 56551 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: SPADES-5
+get inquire
+get player4444 10973 8000 250 31
+get player5555 56451 4000 250 33
+get total500
+action: check
+get river
+river card: DIAMONDS-A
+get inquire
+get player4444 10973 8000 250 31
+get player5555 56451 4000 250 31
+get total500
+action: check
+get showdown
+common/ 
+SPADES 3 
+HEARTS A 
+HEARTS 3 
+SPADES 5 
+DIAMONDS A 
+/common 
+1: 4444 DIAMONDS 3 DIAMONDS Q FULL_HOUSE 
+2: 5555 DIAMONDS 5 HEARTS J TWO_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 4444,11473,8000
+small 5555,56451,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-6
+base card: CLUBS-J
+value:108237933589533
+base card: 1082379,33589533
+get inquire
+get player4444 11423 8000 50 32
+get player5555 56401 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: CLUBS-9
+flop card: DIAMONDS-5
+flop card: DIAMONDS-Q
+get inquire
+get player4444 11323 8000 150 32
+get player5555 56301 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: SPADES-9
+get inquire
+get player4444 11223 8000 250 32
+get player5555 56201 4000 250 33
+get total500
+action: check
+get river
+river card: HEARTS-Q
+get inquire
+get player4444 11223 8000 250 31
+get player5555 56201 4000 250 31
+get total500
+action: check
+get showdown
+common/ 
+CLUBS 9 
+DIAMONDS 5 
+DIAMONDS Q 
+SPADES 9 
+HEARTS Q 
+/common 
+2: 5555 CLUBS 6 CLUBS J TWO_PAIR 
+1: 4444 SPADES Q CLUBS 7 FULL_HOUSE 
+get pot-win
+4444: 500 
+start to seat
+button 5555,56201,4000
+small 4444,11723,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-A
+base card: SPADES-3
+value:268454953135427
+base card: 268454953,135427
+get inquire
+get player4444 11673 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: HEARTS-2
+flop card: CLUBS-8
+flop card: CLUBS-J
+get inquire
+get player4444 11573 8000 150 31
+get player5555 56051 4000 150 33
+get total300
+action: check
+get turn
+turn card: SPADES-8
+get inquire
+get player4444 11573 8000 150 31
+get player5555 56051 4000 150 31
+get total300
+action: raise 0
+get river
+river card: DIAMONDS-3
+get inquire
+get player4444 11473 8000 250 31
+get player5555 55951 4000 250 33
+get total500
+action: check
+get showdown
+common/ 
+HEARTS 2 
+CLUBS 8 
+CLUBS J 
+SPADES 8 
+DIAMONDS 3 
+/common 
+1: 4444 DIAMONDS 10 HEARTS J TWO_PAIR 
+2: 5555 DIAMONDS A SPADES 3 TWO_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 4444,11973,8000
+small 5555,55951,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-K
+base card: HEARTS-2
+value:13425334973730
+base card: 134253349,73730
+get inquire
+get player4444 11923 8000 50 32
+get player5555 55901 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: HEARTS-4
+flop card: HEARTS-K
+flop card: CLUBS-5
+get inquire
+get player4444 11823 8000 150 32
+get player5555 55801 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: HEARTS-Q
+get inquire
+get player4444 11723 8000 250 32
+get player5555 55701 4000 250 33
+get total500
+action: raise 0
+get river
+river card: DIAMONDS-3
+get inquire
+get player4444 11623 8000 350 32
+get player5555 55601 4000 350 33
+get total700
+action: raise 0
+get showdown
+common/ 
+HEARTS 4 
+HEARTS K 
+CLUBS 5 
+HEARTS Q 
+DIAMONDS 3 
+/common 
+1: 5555 CLUBS K HEARTS 2 ONE_PAIR 
+2: 4444 DIAMONDS 10 SPADES 7 HIGH_CARD 
+get pot-win
+5555: 900 
+start to seat
+button 5555,56401,4000
+small 4444,11523,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-6
+base card: HEARTS-7
+value:10537072106637
+base card: 1053707,2106637
+get inquire
+get player4444 11473 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: SPADES-4
+flop card: DIAMONDS-A
+flop card: SPADES-2
+get inquire
+get player4444 11373 8000 150 31
+get player5555 56251 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: HEARTS-8
+get inquire
+get player4444 11273 8000 250 31
+get player5555 56151 4000 250 33
+get total500
+action: raise 0
+get river
+river card: CLUBS-6
+get inquire
+get player4444 11173 8000 350 31
+get player5555 56051 4000 350 33
+get total700
+action: raise 0
+get showdown
+common/ 
+SPADES 4 
+DIAMONDS A 
+SPADES 2 
+HEARTS 8 
+CLUBS 6 
+/common 
+1: 4444 SPADES K HEARTS 6 ONE_PAIR 
+2: 5555 SPADES 6 HEARTS 7 ONE_PAIR 
+get pot-win
+4444: 900 
+start to seat
+button 4444,11973,8000
+small 5555,55951,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-7
+base card: CLUBS-9
+value:21312138423187
+base card: 2131213,8423187
+get inquire
+get player4444 11923 8000 50 32
+get player5555 55901 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: CLUBS-J
+flop card: HEARTS-9
+flop card: DIAMONDS-A
+get inquire
+get player4444 11823 8000 150 32
+get player5555 55801 4000 150 33
+get total300
+action: check
+get turn
+turn card: HEARTS-A
+get inquire
+get player4444 11823 8000 150 31
+get player5555 55801 4000 150 31
+get total300
+action: raise 0
+get river
+river card: HEARTS-4
+get inquire
+get player4444 11723 8000 250 32
+get player5555 55701 4000 250 33
+get total500
+action: check
+get showdown
+common/ 
+CLUBS J 
+HEARTS 9 
+DIAMONDS A 
+HEARTS A 
+HEARTS 4 
+/common 
+1: 5555 CLUBS 7 CLUBS 9 TWO_PAIR 
+2: 4444 DIAMONDS Q CLUBS K ONE_PAIR 
+get pot-win
+5555: 500 
+start to seat
+button 5555,56201,4000
+small 4444,11723,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-9
+base card: DIAMONDS-J
+value:839451533573149
+base card: 8394515,33573149
+get inquire
+get player4444 11673 8000 50 30
+get total50
+action: check
+get flop
+flop card: SPADES-3
+flop card: HEARTS-6
+flop card: CLUBS-10
+get inquire
+get player4444 11673 8000 50 31
+get player5555 56151 4000 50 32
+get total100
+action: check
+get turn
+turn card: CLUBS-3
+get inquire
+get player4444 11673 8000 50 31
+get player5555 56151 4000 50 31
+get total100
+action: check
+get river
+river card: HEARTS-4
+get inquire
+get player4444 11673 8000 50 31
+get player5555 56151 4000 50 31
+get total100
+action: check
+get showdown
+common/ 
+SPADES 3 
+HEARTS 6 
+CLUBS 10 
+CLUBS 3 
+HEARTS 4 
+/common 
+2: 4444 HEARTS 2 CLUBS 7 ONE_PAIR 
+1: 5555 SPADES 9 DIAMONDS J ONE_PAIR 
+get pot-win
+5555: 100 
+start to seat
+button 4444,11673,8000
+small 5555,56251,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-6
+base card: DIAMONDS-10
+value:105370716795671
+base card: 1053707,16795671
+get inquire
+get player4444 11623 8000 50 32
+get player5555 56201 4000 50 30
+get total100
+action: check
+get flop
+flop card: CLUBS-4
+flop card: DIAMONDS-4
+flop card: DIAMONDS-6
+get inquire
+get player4444 11623 8000 50 32
+get player5555 56201 4000 50 31
+get total100
+action: check
+get turn
+turn card: SPADES-Q
+get inquire
+get player4444 11623 8000 50 31
+get player5555 56201 4000 50 31
+get total100
+action: check
+get river
+river card: SPADES-K
+get inquire
+get player4444 11623 8000 50 31
+get player5555 56201 4000 50 31
+get total100
+action: raise 0
+get showdown
+common/ 
+CLUBS 4 
+DIAMONDS 4 
+DIAMONDS 6 
+SPADES Q 
+SPADES K 
+/common 
+1: 5555 SPADES 6 DIAMONDS 10 TWO_PAIR 
+2: 4444 DIAMONDS A CLUBS 9 ONE_PAIR 
+get pot-win
+5555: 300 
+start to seat
+button 5555,56401,4000
+small 4444,11523,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-Q
+base card: HEARTS-9
+value:671278398398611
+base card: 67127839,8398611
+get inquire
+get player4444 11473 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: CLUBS-A
+flop card: HEARTS-3
+flop card: DIAMONDS-A
+get inquire
+get player4444 11373 8000 150 31
+get player5555 56251 4000 150 33
+get total300
+action: check
+get turn
+turn card: DIAMONDS-J
+get inquire
+get player4444 11373 8000 150 31
+get player5555 56251 4000 150 31
+get total300
+action: check
+get river
+river card: HEARTS-2
+get inquire
+get player4444 11373 8000 150 31
+get player5555 56251 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+CLUBS A 
+HEARTS 3 
+DIAMONDS A 
+DIAMONDS J 
+HEARTS 2 
+/common 
+1: 4444 SPADES 4 SPADES K ONE_PAIR 
+2: 5555 DIAMONDS Q HEARTS 9 ONE_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 4444,11773,8000
+small 5555,56151,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: HEARTS-5
+base card: HEARTS-A
+value:533255268446761
+base card: 533255,268446761
+get inquire
+get player4444 11723 8000 50 32
+get player5555 56101 4000 50 30
+get total100
+action: check
+get flop
+flop card: DIAMONDS-6
+flop card: SPADES-9
+flop card: HEARTS-3
+get inquire
+get player4444 11723 8000 50 32
+get player5555 56101 4000 50 31
+get total100
+action: check
+get turn
+turn card: CLUBS-6
+get inquire
+get player4444 11723 8000 50 31
+get player5555 56101 4000 50 31
+get total100
+action: raise 0
+get river
+river card: DIAMONDS-7
+get inquire
+get player4444 11623 8000 150 32
+get player5555 56001 4000 150 33
+get total300
+action: raise 0
+get showdown
+common/ 
+DIAMONDS 6 
+SPADES 9 
+HEARTS 3 
+CLUBS 6 
+DIAMONDS 7 
+/common 
+2: 5555 HEARTS 5 HEARTS A ONE_PAIR 
+1: 4444 DIAMONDS K SPADES 3 TWO_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 5555,55901,4000
+small 4444,12023,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-4
+base card: HEARTS-8
+value:2790454204049
+base card: 279045,4204049
+get inquire
+get player4444 11973 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: CLUBS-2
+flop card: CLUBS-7
+flop card: CLUBS-Q
+get inquire
+get player4444 11873 8000 150 31
+get player5555 55751 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: DIAMONDS-A
+get inquire
+get player4444 11773 8000 250 31
+get player5555 55651 4000 250 33
+get total500
+action: check
+get river
+river card: SPADES-8
+get inquire
+get player4444 11773 8000 250 31
+get player5555 55651 4000 250 31
+get total500
+action: raise 0
+get showdown
+common/ 
+CLUBS 2 
+CLUBS 7 
+CLUBS Q 
+DIAMONDS A 
+SPADES 8 
+/common 
+2: 4444 HEARTS J SPADES 7 ONE_PAIR 
+1: 5555 DIAMONDS 4 HEARTS 8 ONE_PAIR 
+get pot-win
+5555: 700 
+start to seat
+button 4444,11673,8000
+small 5555,56251,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-10
+base card: CLUBS-3
+value:16783383164099
+base card: 16783383,164099
+get inquire
+get player4444 11623 8000 50 32
+get player5555 56201 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: DIAMONDS-K
+flop card: CLUBS-9
+flop card: HEARTS-8
+get inquire
+get player4444 11523 8000 150 32
+get player5555 56101 4000 150 33
+get total300
+action: check
+get turn
+turn card: SPADES-7
+get inquire
+get player4444 11523 8000 150 31
+get player5555 56101 4000 150 31
+get total300
+action: raise 0
+get river
+river card: SPADES-J
+get inquire
+get player4444 11423 8000 250 32
+get player5555 56001 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+DIAMONDS K 
+CLUBS 9 
+HEARTS 8 
+SPADES 7 
+SPADES J 
+/common 
+1: 5555 SPADES 10 CLUBS 3 STRAIGHT 
+2: 4444 DIAMONDS 6 SPADES 6 ONE_PAIR 
+get pot-win
+5555: 700 
+start to seat
+button 5555,56601,4000
+small 4444,11323,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-3
+base card: DIAMONDS-2
+value:14771581922
+base card: 147715,81922
+get inquire
+get player4444 11273 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: DIAMONDS-10
+flop card: SPADES-2
+flop card: SPADES-3
+get inquire
+get player4444 11173 8000 150 31
+get player5555 56451 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: CLUBS-A
+get inquire
+get player4444 11073 8000 250 31
+get player5555 56351 4000 250 33
+get total500
+action: raise 0
+get river
+river card: HEARTS-J
+get inquire
+get player4444 10973 8000 350 31
+get player5555 56251 4000 350 33
+get total700
+action: check
+get showdown
+common/ 
+DIAMONDS 10 
+SPADES 2 
+SPADES 3 
+CLUBS A 
+HEARTS J 
+/common 
+2: 4444 CLUBS 3 DIAMONDS 8 ONE_PAIR 
+1: 5555 DIAMONDS 3 DIAMONDS 2 TWO_PAIR 
+get pot-win
+5555: 700 
+start to seat
+button 4444,10973,8000
+small 5555,56951,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-8
+base card: HEARTS-6
+value:42122411057803
+base card: 4212241,1057803
+get inquire
+get player4444 10923 8000 50 32
+get player5555 56901 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: CLUBS-9
+flop card: SPADES-3
+flop card: CLUBS-K
+get inquire
+get player4444 10823 8000 150 32
+get player5555 56801 4000 150 33
+get total300
+action: check
+get turn
+turn card: HEARTS-2
+get inquire
+get player4444 10823 8000 150 31
+get player5555 56801 4000 150 31
+get total300
+action: raise 0
+get river
+river card: DIAMONDS-3
+get inquire
+get player4444 10723 8000 250 32
+get player5555 56701 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+CLUBS 9 
+SPADES 3 
+CLUBS K 
+HEARTS 2 
+DIAMONDS 3 
+/common 
+2: 5555 DIAMONDS 8 HEARTS 6 ONE_PAIR 
+1: 4444 HEARTS J DIAMONDS K TWO_PAIR 
+get pot-win
+4444: 700 
+start to seat
+button 5555,56601,4000
+small 4444,11323,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-3
+base card: CLUBS-8
+value:1640994228625
+base card: 164099,4228625
+get inquire
+get player4444 11273 8000 50 30
+get total50
+action: check
+get flop
+flop card: HEARTS-3
+flop card: DIAMONDS-K
+flop card: CLUBS-6
+get inquire
+get player4444 11273 8000 50 31
+get player5555 56551 4000 50 32
+get total100
+action: raise 0
+get turn
+turn card: HEARTS-A
+get inquire
+get player4444 11173 8000 150 31
+get player5555 56451 4000 150 33
+get total300
+action: check
+get river
+river card: CLUBS-7
+get inquire
+get player4444 11173 8000 150 31
+get player5555 56451 4000 150 31
+get total300
+action: check
+get showdown
+common/ 
+HEARTS 3 
+DIAMONDS K 
+CLUBS 6 
+HEARTS A 
+CLUBS 7 
+/common 
+1: 4444 SPADES 2 SPADES 6 ONE_PAIR 
+2: 5555 CLUBS 3 CLUBS 8 ONE_PAIR 
+get pot-win
+4444: 300 
+start to seat
+button 4444,11473,8000
+small 5555,56451,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-Q
+base card: HEARTS-A
+value:67127839268446761
+base card: 67127839,268446761
+get inquire
+get player4444 11423 8000 50 32
+get player5555 56401 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: CLUBS-Q
+flop card: DIAMONDS-K
+flop card: SPADES-6
+get inquire
+get player4444 11323 8000 150 32
+get player5555 56301 4000 150 33
+get total300
+action: check
+get turn
+turn card: HEARTS-5
+get inquire
+get player4444 11323 8000 150 31
+get player5555 56301 4000 150 31
+get total300
+action: check
+get river
+river card: DIAMONDS-7
+get inquire
+get player4444 11323 8000 150 31
+get player5555 56301 4000 150 31
+get total300
+action: check
+get showdown
+common/ 
+CLUBS Q 
+DIAMONDS K 
+SPADES 6 
+HEARTS 5 
+DIAMONDS 7 
+/common 
+1: 5555 DIAMONDS Q HEARTS A ONE_PAIR 
+2: 4444 DIAMONDS 10 HEARTS 2 HIGH_CARD 
+get pot-win
+5555: 300 
+start to seat
+button 5555,56601,4000
+small 4444,11323,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-K
+base card: DIAMONDS-2
+value:13422467781922
+base card: 134224677,81922
+get inquire
+get player4444 11273 8000 50 30
+get total50
+action: check
+get flop
+flop card: HEARTS-6
+flop card: CLUBS-2
+flop card: SPADES-4
+get inquire
+get player4444 11273 8000 50 31
+get player5555 56551 4000 50 32
+get total100
+action: check
+get turn
+turn card: DIAMONDS-10
+get inquire
+get player4444 11273 8000 50 31
+get player5555 56551 4000 50 31
+get total100
+action: check
+get river
+river card: CLUBS-J
+get inquire
+get player4444 11273 8000 50 31
+get player5555 56551 4000 50 31
+get total100
+action: raise 0
+get showdown
+common/ 
+HEARTS 6 
+CLUBS 2 
+SPADES 4 
+DIAMONDS 10 
+CLUBS J 
+/common 
+2: 4444 CLUBS 8 SPADES 5 HIGH_CARD 
+1: 5555 SPADES K DIAMONDS 2 ONE_PAIR 
+get pot-win
+5555: 300 
+start to seat
+button 4444,11173,8000
+small 5555,56751,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-8
+base card: HEARTS-J
+value:419995333564957
+base card: 4199953,33564957
+get inquire
+get player4444 11123 8000 50 32
+get player5555 56701 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: HEARTS-Q
+flop card: CLUBS-10
+flop card: SPADES-10
+get inquire
+get player4444 11023 8000 150 32
+get player5555 56601 4000 150 33
+get total300
+action: check
+get turn
+turn card: CLUBS-6
+get inquire
+get player4444 11023 8000 150 31
+get player5555 56601 4000 150 31
+get total300
+action: check
+get river
+river card: SPADES-5
+get inquire
+get player4444 11023 8000 150 31
+get player5555 56601 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+HEARTS Q 
+CLUBS 10 
+SPADES 10 
+CLUBS 6 
+SPADES 5 
+/common 
+2: 5555 SPADES 8 HEARTS J ONE_PAIR 
+1: 4444 DIAMONDS K CLUBS 2 ONE_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 5555,56501,4000
+small 4444,11423,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-6
+base card: SPADES-3
+value:1082379135427
+base card: 1082379,135427
+get inquire
+get player4444 11373 8000 50 30
+get total50
+action: check
+get flop
+flop card: CLUBS-5
+flop card: DIAMONDS-8
+flop card: SPADES-9
+get inquire
+get player4444 11373 8000 50 31
+get player5555 56451 4000 50 32
+get total100
+action: raise 0
+get turn
+turn card: DIAMONDS-3
+get inquire
+get player4444 11273 8000 150 31
+get player5555 56351 4000 150 33
+get total300
+action: check
+get river
+river card: SPADES-6
+get inquire
+get player4444 11273 8000 150 31
+get player5555 56351 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+CLUBS 5 
+DIAMONDS 8 
+SPADES 9 
+DIAMONDS 3 
+SPADES 6 
+/common 
+2: 4444 SPADES 10 DIAMONDS 9 ONE_PAIR 
+1: 5555 CLUBS 6 SPADES 3 TWO_PAIR 
+get pot-win
+5555: 500 
+start to seat
+button 4444,11173,8000
+small 5555,56751,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-9
+base card: HEARTS-6
+value:84231871057803
+base card: 8423187,1057803
+get inquire
+get player4444 11123 8000 50 32
+get player5555 56701 4000 50 30
+get total100
+action: check
+get flop
+flop card: SPADES-7
+flop card: CLUBS-K
+flop card: DIAMONDS-Q
+get inquire
+get player4444 11123 8000 50 32
+get player5555 56701 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: HEARTS-K
+get inquire
+get player4444 11023 8000 150 32
+get player5555 56601 4000 150 33
+get total300
+action: raise 0
+get river
+river card: SPADES-4
+get inquire
+get player4444 10923 8000 250 32
+get player5555 56501 4000 250 33
+get total500
+action: check
+get showdown
+common/ 
+SPADES 7 
+CLUBS K 
+DIAMONDS Q 
+HEARTS K 
+SPADES 4 
+/common 
+2: 5555 CLUBS 9 HEARTS 6 ONE_PAIR 
+1: 4444 HEARTS 5 SPADES Q TWO_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 5555,56501,4000
+small 4444,11423,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-A
+base card: CLUBS-7
+value:2684549532131213
+base card: 268454953,2131213
+get inquire
+get player4444 11373 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: CLUBS-A
+flop card: DIAMONDS-K
+flop card: DIAMONDS-9
+get inquire
+get player4444 11273 8000 150 31
+get player5555 56351 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: SPADES-9
+get inquire
+get player4444 11173 8000 250 31
+get player5555 56251 4000 250 33
+get total500
+action: check
+get river
+river card: DIAMONDS-8
+get inquire
+get player4444 11173 8000 250 31
+get player5555 56251 4000 250 31
+get total500
+action: check
+get showdown
+common/ 
+CLUBS A 
+DIAMONDS K 
+DIAMONDS 9 
+SPADES 9 
+DIAMONDS 8 
+/common 
+2: 4444 SPADES 8 SPADES Q TWO_PAIR 
+1: 5555 DIAMONDS A CLUBS 7 TWO_PAIR 
+get pot-win
+5555: 500 
+start to seat
+button 4444,11173,8000
+small 5555,56751,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: HEARTS-8
+base card: HEARTS-10
+value:420404916787479
+base card: 4204049,16787479
+get inquire
+get player4444 11123 8000 50 32
+get player5555 56701 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: CLUBS-4
+flop card: SPADES-2
+flop card: HEARTS-7
+get inquire
+get player4444 11023 8000 150 32
+get player5555 56601 4000 150 33
+get total300
+action: check
+get turn
+turn card: CLUBS-3
+get inquire
+get player4444 11023 8000 150 31
+get player5555 56601 4000 150 31
+get total300
+action: raise 0
+get river
+river card: DIAMONDS-4
+get inquire
+get player4444 10923 8000 250 32
+get player5555 56501 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+CLUBS 4 
+SPADES 2 
+HEARTS 7 
+CLUBS 3 
+DIAMONDS 4 
+/common 
+2: 5555 HEARTS 8 HEARTS 10 ONE_PAIR 
+1: 4444 HEARTS 6 CLUBS 5 STRAIGHT 
+get pot-win
+4444: 700 
+start to seat
+button 5555,56401,4000
+small 4444,11523,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: HEARTS-A
+base card: CLUBS-K
+value:268446761134253349
+base card: 268446761,134253349
+get inquire
+get player4444 11473 8000 50 30
+get total50
+action: check
+get flop
+flop card: SPADES-5
+flop card: CLUBS-4
+flop card: CLUBS-5
+get inquire
+get player4444 11473 8000 50 31
+get player5555 56351 4000 50 32
+get total100
+action: raise 0
+get turn
+turn card: CLUBS-8
+get inquire
+get player4444 11373 8000 150 31
+get player5555 56251 4000 150 33
+get total300
+action: raise 0
+get river
+river card: HEARTS-10
+get inquire
+get player4444 11273 8000 250 31
+get player5555 56151 4000 250 33
+get total500
+action: check
+get showdown
+common/ 
+SPADES 5 
+CLUBS 4 
+CLUBS 5 
+CLUBS 8 
+HEARTS 10 
+/common 
+2: 4444 SPADES 9 DIAMONDS Q ONE_PAIR 
+1: 5555 HEARTS A CLUBS K ONE_PAIR 
+get pot-win
+5555: 500 
+start to seat
+button 4444,11273,8000
+small 5555,56651,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-5
+base card: SPADES-9
+value:5414478394515
+base card: 541447,8394515
+get inquire
+get player4444 11223 8000 50 32
+get player5555 56601 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: SPADES-5
+flop card: HEARTS-Q
+flop card: CLUBS-4
+get inquire
+get player4444 11123 8000 150 32
+get player5555 56501 4000 150 33
+get total300
+action: check
+get turn
+turn card: HEARTS-J
+get inquire
+get player4444 11123 8000 150 31
+get player5555 56501 4000 150 31
+get total300
+action: raise 0
+get river
+river card: CLUBS-A
+get inquire
+get player4444 11023 8000 250 32
+get player5555 56401 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+SPADES 5 
+HEARTS Q 
+CLUBS 4 
+HEARTS J 
+CLUBS A 
+/common 
+1: 5555 DIAMONDS 5 SPADES 9 ONE_PAIR 
+2: 4444 HEARTS 9 HEARTS 4 ONE_PAIR 
+get pot-win
+5555: 700 
+start to seat
+button 5555,57001,4000
+small 4444,10923,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-3
+base card: DIAMONDS-5
+value:135427541447
+base card: 135427,541447
+get inquire
+get player4444 10873 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: DIAMONDS-7
+flop card: SPADES-8
+flop card: HEARTS-5
+get inquire
+get player4444 10773 8000 150 31
+get player5555 56851 4000 150 33
+get total300
+action: check
+get turn
+turn card: DIAMONDS-K
+get inquire
+get player4444 10773 8000 150 31
+get player5555 56851 4000 150 31
+get total300
+action: raise 0
+get river
+river card: HEARTS-3
+get inquire
+get player4444 10673 8000 250 31
+get player5555 56751 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+DIAMONDS 7 
+SPADES 8 
+HEARTS 5 
+DIAMONDS K 
+HEARTS 3 
+/common 
+2: 4444 CLUBS 5 DIAMONDS 9 ONE_PAIR 
+1: 5555 SPADES 3 DIAMONDS 5 TWO_PAIR 
+get pot-win
+5555: 700 
+start to seat
+button 4444,10573,8000
+small 5555,57351,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-2
+base card: SPADES-3
+value:69634135427
+base card: 69634,135427
+get inquire
+get player4444 10523 8000 50 32
+get player5555 57301 4000 50 30
+get total100
+action: check
+get flop
+flop card: DIAMONDS-6
+flop card: CLUBS-9
+flop card: SPADES-10
+get inquire
+get player4444 10523 8000 50 32
+get player5555 57301 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: DIAMONDS-2
+get inquire
+get player4444 10423 8000 150 32
+get player5555 57201 4000 150 33
+get total300
+action: check
+get river
+river card: HEARTS-K
+get inquire
+get player4444 10423 8000 150 31
+get player5555 57201 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+DIAMONDS 6 
+CLUBS 9 
+SPADES 10 
+DIAMONDS 2 
+HEARTS K 
+/common 
+1: 5555 SPADES 2 SPADES 3 ONE_PAIR 
+2: 4444 DIAMONDS 3 SPADES A HIGH_CARD 
+get pot-win
+5555: 500 
+start to seat
+button 5555,57601,4000
+small 4444,10323,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-9
+base card: CLUBS-3
+value:8406803164099
+base card: 8406803,164099
+get inquire
+get player4444 10273 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: CLUBS-6
+flop card: SPADES-3
+flop card: DIAMONDS-Q
+get inquire
+get player4444 10173 8000 150 31
+get player5555 57451 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: CLUBS-9
+get inquire
+get player4444 10073 8000 250 31
+get player5555 57351 4000 250 33
+get total500
+action: check
+get river
+river card: SPADES-J
+get inquire
+get player4444 10073 8000 250 31
+get player5555 57351 4000 250 31
+get total500
+action: raise 0
+get showdown
+common/ 
+CLUBS 6 
+SPADES 3 
+DIAMONDS Q 
+CLUBS 9 
+SPADES J 
+/common 
+2: 4444 HEARTS K HEARTS A HIGH_CARD 
+1: 5555 DIAMONDS 9 CLUBS 3 TWO_PAIR 
+get pot-win
+5555: 700 
+start to seat
+button 4444,9973,8000
+small 5555,57951,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: HEARTS-6
+base card: HEARTS-2
+value:105780373730
+base card: 1057803,73730
+get inquire
+get player4444 9923 8000 50 32
+get player5555 57901 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: SPADES-7
+flop card: SPADES-8
+flop card: CLUBS-J
+get inquire
+get player4444 9823 8000 150 32
+get player5555 57801 4000 150 33
+get total300
+action: check
+get turn
+turn card: SPADES-10
+get inquire
+get player4444 9823 8000 150 31
+get player5555 57801 4000 150 31
+get total300
+action: check
+get river
+river card: HEARTS-8
+get inquire
+get player4444 9823 8000 150 31
+get player5555 57801 4000 150 31
+get total300
+action: check
+get showdown
+common/ 
+SPADES 7 
+SPADES 8 
+CLUBS J 
+SPADES 10 
+HEARTS 8 
+/common 
+1: 5555 HEARTS 6 HEARTS 2 ONE_PAIR 
+1: 4444 HEARTS 5 HEARTS 4 ONE_PAIR 
+get pot-win
+5555: 150 
+4444: 150 
+start to seat
+button 5555,57951,4000
+small 4444,9973,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-K
+base card: CLUBS-4
+value:134236965295429
+base card: 134236965,295429
+get inquire
+get player4444 9923 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: SPADES-A
+flop card: DIAMONDS-4
+flop card: HEARTS-2
+get inquire
+get player4444 9823 8000 150 31
+get player5555 57801 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: HEARTS-8
+get inquire
+get player4444 9723 8000 250 31
+get player5555 57701 4000 250 33
+get total500
+action: raise 0
+get river
+river card: HEARTS-9
+get inquire
+get player4444 9623 8000 350 31
+get player5555 57601 4000 350 33
+get total700
+action: check
+get showdown
+common/ 
+SPADES A 
+DIAMONDS 4 
+HEARTS 2 
+HEARTS 8 
+HEARTS 9 
+/common 
+1: 4444 CLUBS 3 SPADES 9 ONE_PAIR 
+2: 5555 DIAMONDS K CLUBS 4 ONE_PAIR 
+get pot-win
+4444: 700 
+start to seat
+button 4444,10323,8000
+small 5555,57601,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-5
+base card: CLUBS-J
+value:52915933589533
+base card: 529159,33589533
+get inquire
+get player4444 10273 8000 50 32
+get player5555 57551 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: DIAMONDS-8
+flop card: DIAMONDS-7
+flop card: HEARTS-3
+get inquire
+get player4444 10173 8000 150 32
+get player5555 57451 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: SPADES-6
+get inquire
+get player4444 10073 8000 250 32
+get player5555 57351 4000 250 33
+get total500
+action: check
+get river
+river card: CLUBS-6
+get inquire
+get player4444 10073 8000 250 31
+get player5555 57351 4000 250 31
+get total500
+action: check
+get showdown
+common/ 
+DIAMONDS 8 
+DIAMONDS 7 
+HEARTS 3 
+SPADES 6 
+CLUBS 6 
+/common 
+2: 5555 SPADES 5 CLUBS J ONE_PAIR 
+1: 4444 SPADES Q DIAMONDS K ONE_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 5555,57351,4000
+small 4444,10573,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-5
+base card: DIAMONDS-J
+value:55783133573149
+base card: 557831,33573149
+get inquire
+get player4444 10523 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: DIAMONDS-8
+flop card: CLUBS-K
+flop card: DIAMONDS-3
+get inquire
+get player4444 10423 8000 150 31
+get player5555 57201 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: SPADES-5
+get inquire
+get player4444 10323 8000 250 31
+get player5555 57101 4000 250 33
+get total500
+action: check
+get river
+river card: DIAMONDS-2
+get inquire
+get player4444 10323 8000 250 31
+get player5555 57101 4000 250 31
+get total500
+action: raise 0
+get showdown
+common/ 
+DIAMONDS 8 
+CLUBS K 
+DIAMONDS 3 
+SPADES 5 
+DIAMONDS 2 
+/common 
+1: 4444 DIAMONDS 6 SPADES 6 ONE_PAIR 
+2: 5555 CLUBS 5 DIAMONDS J ONE_PAIR 
+get pot-win
+4444: 700 
+start to seat
+button 4444,10923,8000
+small 5555,57001,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-9
+base card: HEARTS-5
+value:8406803533255
+base card: 8406803,533255
+get inquire
+get player4444 10873 8000 50 32
+get player5555 56951 4000 50 30
+get total100
+action: check
+get flop
+flop card: CLUBS-7
+flop card: SPADES-J
+flop card: HEARTS-A
+get inquire
+get player4444 10873 8000 50 32
+get player5555 56951 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: DIAMONDS-8
+get inquire
+get player4444 10773 8000 150 32
+get player5555 56851 4000 150 33
+get total300
+action: raise 0
+get river
+river card: SPADES-K
+get inquire
+get player4444 10673 8000 250 32
+get player5555 56751 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+CLUBS 7 
+SPADES J 
+HEARTS A 
+DIAMONDS 8 
+SPADES K 
+/common 
+2: 5555 DIAMONDS 9 HEARTS 5 HIGH_CARD 
+1: 4444 DIAMONDS 4 SPADES 7 ONE_PAIR 
+get pot-win
+4444: 700 
+start to seat
+button 5555,56651,4000
+small 4444,11273,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-2
+base card: HEARTS-4
+value:81922270853
+base card: 81922,270853
+get inquire
+get player4444 11223 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: SPADES-9
+flop card: SPADES-4
+flop card: SPADES-10
+get inquire
+get player4444 11123 8000 150 31
+get player5555 56501 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: HEARTS-J
+get inquire
+get player4444 11023 8000 250 31
+get player5555 56401 4000 250 33
+get total500
+action: check
+get river
+river card: DIAMONDS-4
+get inquire
+get player4444 11023 8000 250 31
+get player5555 56401 4000 250 31
+get total500
+action: check
+get showdown
+common/ 
+SPADES 9 
+SPADES 4 
+SPADES 10 
+HEARTS J 
+DIAMONDS 4 
+/common 
+2: 4444 CLUBS 8 CLUBS 10 TWO_PAIR 
+1: 5555 DIAMONDS 2 HEARTS 4 THREE_OF_A_KIND 
+get pot-win
+5555: 500 
+start to seat
+button 4444,11023,8000
+small 5555,56901,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-8
+base card: CLUBS-3
+value:4212241164099
+base card: 4212241,164099
+get inquire
+get player4444 10973 8000 50 32
+get player5555 56851 4000 50 30
+get total100
+action: check
+get flop
+flop card: HEARTS-8
+flop card: DIAMONDS-5
+flop card: DIAMONDS-A
+get inquire
+get player4444 10973 8000 50 32
+get player5555 56851 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: CLUBS-9
+get inquire
+get player4444 10873 8000 150 32
+get player5555 56751 4000 150 33
+get total300
+action: check
+get river
+river card: DIAMONDS-4
+get inquire
+get player4444 10873 8000 150 31
+get player5555 56751 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+HEARTS 8 
+DIAMONDS 5 
+DIAMONDS A 
+CLUBS 9 
+DIAMONDS 4 
+/common 
+2: 5555 DIAMONDS 8 CLUBS 3 ONE_PAIR 
+1: 4444 HEARTS 3 HEARTS 2 STRAIGHT 
+get pot-win
+4444: 500 
+start to seat
+button 5555,56651,4000
+small 4444,11273,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-8
+base card: CLUBS-K
+value:4212241134253349
+base card: 4212241,134253349
+get inquire
+get player4444 11223 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: DIAMONDS-7
+flop card: DIAMONDS-6
+flop card: HEARTS-2
+get inquire
+get player4444 11123 8000 150 31
+get player5555 56501 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: CLUBS-10
+get inquire
+get player4444 11023 8000 250 31
+get player5555 56401 4000 250 33
+get total500
+action: check
+get river
+river card: SPADES-A
+get inquire
+get player4444 11023 8000 250 31
+get player5555 56401 4000 250 31
+get total500
+action: raise 0
+get showdown
+common/ 
+DIAMONDS 7 
+DIAMONDS 6 
+HEARTS 2 
+CLUBS 10 
+SPADES A 
+/common 
+1: 4444 HEARTS 5 SPADES 5 ONE_PAIR 
+2: 5555 DIAMONDS 8 CLUBS K HIGH_CARD 
+get pot-win
+4444: 700 
+start to seat
+button 4444,11623,8000
+small 5555,56301,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-4
+base card: CLUBS-K
+value:266757134253349
+base card: 266757,134253349
+get inquire
+get player4444 11573 8000 50 32
+get player5555 56251 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: CLUBS-J
+flop card: HEARTS-10
+flop card: SPADES-6
+get inquire
+get player4444 11473 8000 150 32
+get player5555 56151 4000 150 33
+get total300
+action: check
+get turn
+turn card: DIAMONDS-3
+get inquire
+get player4444 11473 8000 150 31
+get player5555 56151 4000 150 31
+get total300
+action: raise 0
+get river
+river card: DIAMONDS-A
+get inquire
+get player4444 11373 8000 250 32
+get player5555 56051 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+CLUBS J 
+HEARTS 10 
+SPADES 6 
+DIAMONDS 3 
+DIAMONDS A 
+/common 
+1: 5555 SPADES 4 CLUBS K HIGH_CARD 
+1: 4444 SPADES 2 HEARTS K HIGH_CARD 
+get pot-win
+5555: 350 
+4444: 350 
+start to seat
+button 5555,56301,4000
+small 4444,11623,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-K
+base card: CLUBS-9
+value:1342369658423187
+base card: 134236965,8423187
+get inquire
+get player4444 11573 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: DIAMONDS-9
+flop card: DIAMONDS-A
+flop card: DIAMONDS-Q
+get inquire
+get player4444 11473 8000 150 31
+get player5555 56151 4000 150 33
+get total300
+action: check
+get turn
+turn card: HEARTS-5
+get inquire
+get player4444 11473 8000 150 31
+get player5555 56151 4000 150 31
+get total300
+action: raise 0
+get river
+river card: HEARTS-8
+get inquire
+get player4444 11373 8000 250 31
+get player5555 56051 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+DIAMONDS 9 
+DIAMONDS A 
+DIAMONDS Q 
+HEARTS 5 
+HEARTS 8 
+/common 
+1: 4444 DIAMONDS 6 DIAMONDS 7 FLUSH 
+2: 5555 DIAMONDS K CLUBS 9 ONE_PAIR 
+get pot-win
+4444: 700 
+start to seat
+button 4444,11973,8000
+small 5555,55951,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-Q
+base card: CLUBS-K
+value:67115551134253349
+base card: 67115551,134253349
+get inquire
+get player4444 11923 8000 50 32
+get player5555 55901 4000 50 30
+get total100
+action: check
+get flop
+flop card: CLUBS-J
+flop card: SPADES-2
+flop card: CLUBS-7
+get inquire
+get player4444 11923 8000 50 32
+get player5555 55901 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: HEARTS-8
+get inquire
+get player4444 11823 8000 150 32
+get player5555 55801 4000 150 33
+get total300
+action: raise 0
+get river
+river card: DIAMONDS-10
+get inquire
+get player4444 11723 8000 250 32
+get player5555 55701 4000 250 33
+get total500
+action: check
+get showdown
+common/ 
+CLUBS J 
+SPADES 2 
+CLUBS 7 
+HEARTS 8 
+DIAMONDS 10 
+/common 
+2: 5555 SPADES Q CLUBS K HIGH_CARD 
+1: 4444 HEARTS 10 DIAMONDS 5 ONE_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 5555,55701,4000
+small 4444,12223,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-K
+base card: CLUBS-3
+value:134253349164099
+base card: 134253349,164099
+get inquire
+get player4444 12173 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: HEARTS-6
+flop card: CLUBS-7
+flop card: CLUBS-2
+get inquire
+get player4444 12073 8000 150 31
+get player5555 55551 4000 150 33
+get total300
+action: check
+get turn
+turn card: HEARTS-7
+get inquire
+get player4444 12073 8000 150 31
+get player5555 55551 4000 150 31
+get total300
+action: check
+get river
+river card: DIAMONDS-7
+get inquire
+get player4444 12073 8000 150 31
+get player5555 55551 4000 150 31
+get total300
+action: check
+get showdown
+common/ 
+HEARTS 6 
+CLUBS 7 
+CLUBS 2 
+HEARTS 7 
+DIAMONDS 7 
+/common 
+1: 4444 SPADES 9 DIAMONDS K THREE_OF_A_KIND 
+2: 5555 CLUBS K CLUBS 3 THREE_OF_A_KIND 
+get pot-win
+4444: 300 
+start to seat
+button 4444,12373,8000
+small 5555,55551,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-7
+base card: HEARTS-A
+value:2102541268446761
+base card: 2102541,268446761
+get inquire
+get player4444 12323 8000 50 32
+get player5555 55501 4000 50 30
+get total100
+action: check
+get flop
+flop card: CLUBS-A
+flop card: CLUBS-Q
+flop card: DIAMONDS-7
+get inquire
+get player4444 12323 8000 50 32
+get player5555 55501 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: SPADES-J
+get inquire
+get player4444 12223 8000 150 32
+get player5555 55401 4000 150 33
+get total300
+action: check
+get river
+river card: DIAMONDS-3
+get inquire
+get player4444 12223 8000 150 31
+get player5555 55401 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+CLUBS A 
+CLUBS Q 
+DIAMONDS 7 
+SPADES J 
+DIAMONDS 3 
+/common 
+1: 5555 SPADES 7 HEARTS A TWO_PAIR 
+2: 4444 DIAMONDS K CLUBS 5 HIGH_CARD 
+get pot-win
+5555: 500 
+start to seat
+button 5555,55801,4000
+small 4444,12123,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-2
+base card: HEARTS-7
+value:983062106637
+base card: 98306,2106637
+get inquire
+get player4444 12073 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: CLUBS-A
+flop card: HEARTS-5
+flop card: SPADES-5
+get inquire
+get player4444 11973 8000 150 31
+get player5555 55651 4000 150 33
+get total300
+action: check
+get turn
+turn card: CLUBS-7
+get inquire
+get player4444 11973 8000 150 31
+get player5555 55651 4000 150 31
+get total300
+action: raise 0
+get river
+river card: SPADES-7
+get inquire
+get player4444 11873 8000 250 31
+get player5555 55551 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+CLUBS A 
+HEARTS 5 
+SPADES 5 
+CLUBS 7 
+SPADES 7 
+/common 
+2: 4444 SPADES 8 DIAMONDS Q TWO_PAIR 
+1: 5555 CLUBS 2 HEARTS 7 FULL_HOUSE 
+get pot-win
+5555: 700 
+start to seat
+button 4444,11773,8000
+small 5555,56151,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-K
+base card: DIAMONDS-9
+value:1342533498406803
+base card: 134253349,8406803
+get inquire
+get player4444 11723 8000 50 32
+get player5555 56101 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: DIAMONDS-6
+flop card: HEARTS-A
+flop card: SPADES-10
+get inquire
+get player4444 11623 8000 150 32
+get player5555 56001 4000 150 33
+get total300
+action: check
+get turn
+turn card: HEARTS-3
+get inquire
+get player4444 11623 8000 150 31
+get player5555 56001 4000 150 31
+get total300
+action: check
+get river
+river card: DIAMONDS-10
+get inquire
+get player4444 11623 8000 150 31
+get player5555 56001 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+DIAMONDS 6 
+HEARTS A 
+SPADES 10 
+HEARTS 3 
+DIAMONDS 10 
+/common 
+1: 5555 CLUBS K DIAMONDS 9 ONE_PAIR 
+2: 4444 DIAMONDS J CLUBS 4 ONE_PAIR 
+get pot-win
+5555: 500 
+start to seat
+button 5555,56401,4000
+small 4444,11523,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-J
+base card: DIAMONDS-3
+value:33589533147715
+base card: 33589533,147715
+get inquire
+get player4444 11473 8000 50 30
+get total50
+action: check
+get flop
+flop card: DIAMONDS-J
+flop card: CLUBS-10
+flop card: CLUBS-3
+get inquire
+get player4444 11473 8000 50 31
+get player5555 56351 4000 50 32
+get total100
+action: check
+get turn
+turn card: SPADES-3
+get inquire
+get player4444 11473 8000 50 31
+get player5555 56351 4000 50 31
+get total100
+action: raise 0
+get river
+river card: DIAMONDS-5
+get inquire
+get player4444 11373 8000 150 31
+get player5555 56251 4000 150 33
+get total300
+action: check
+get showdown
+common/ 
+DIAMONDS J 
+CLUBS 10 
+CLUBS 3 
+SPADES 3 
+DIAMONDS 5 
+/common 
+2: 4444 DIAMONDS 4 DIAMONDS A ONE_PAIR 
+1: 5555 CLUBS J DIAMONDS 3 FULL_HOUSE 
+get pot-win
+5555: 300 
+start to seat
+button 4444,11373,8000
+small 5555,56551,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-J
+base card: HEARTS-K
+value:33573149134228773
+base card: 33573149,134228773
+get inquire
+get player4444 11323 8000 50 32
+get player5555 56501 4000 50 30
+get total100
+action: check
+get flop
+flop card: DIAMONDS-K
+flop card: SPADES-6
+flop card: CLUBS-J
+get inquire
+get player4444 11323 8000 50 32
+get player5555 56501 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: DIAMONDS-2
+get inquire
+get player4444 11223 8000 150 32
+get player5555 56401 4000 150 33
+get total300
+action: raise 0
+get river
+river card: HEARTS-2
+get inquire
+get player4444 11123 8000 250 32
+get player5555 56301 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+DIAMONDS K 
+SPADES 6 
+CLUBS J 
+DIAMONDS 2 
+HEARTS 2 
+/common 
+1: 5555 DIAMONDS J HEARTS K TWO_PAIR 
+2: 4444 SPADES Q HEARTS 3 ONE_PAIR 
+get pot-win
+5555: 700 
+start to seat
+button 5555,56901,4000
+small 4444,11023,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-7
+base card: CLUBS-9
+value:21025418423187
+base card: 2102541,8423187
+get inquire
+get player4444 10973 8000 50 30
+get total50
+action: check
+get flop
+flop card: CLUBS-4
+flop card: HEARTS-8
+flop card: DIAMONDS-9
+get inquire
+get player4444 10973 8000 50 31
+get player5555 56851 4000 50 32
+get total100
+action: check
+get turn
+turn card: DIAMONDS-2
+get inquire
+get player4444 10973 8000 50 31
+get player5555 56851 4000 50 31
+get total100
+action: check
+get river
+river card: CLUBS-6
+get inquire
+get player4444 10973 8000 50 31
+get player5555 56851 4000 50 31
+get total100
+action: raise 0
+get showdown
+common/ 
+CLUBS 4 
+HEARTS 8 
+DIAMONDS 9 
+DIAMONDS 2 
+CLUBS 6 
+/common 
+2: 4444 CLUBS 7 CLUBS J HIGH_CARD 
+1: 5555 SPADES 7 CLUBS 9 ONE_PAIR 
+get pot-win
+5555: 300 
+start to seat
+button 4444,10873,8000
+small 5555,57051,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: HEARTS-3
+base card: CLUBS-9
+value:1395238423187
+base card: 139523,8423187
+get inquire
+get player4444 10823 8000 50 32
+get player5555 57001 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: SPADES-K
+flop card: HEARTS-4
+flop card: SPADES-5
+get inquire
+get player4444 10723 8000 150 32
+get player5555 56901 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: HEARTS-Q
+get inquire
+get player4444 10623 8000 250 32
+get player5555 56801 4000 250 33
+get total500
+action: raise 0
+get river
+river card: CLUBS-5
+get inquire
+get player4444 10523 8000 350 32
+get player5555 56701 4000 350 33
+get total700
+action: check
+get showdown
+common/ 
+SPADES K 
+HEARTS 4 
+SPADES 5 
+HEARTS Q 
+CLUBS 5 
+/common 
+1: 5555 HEARTS 3 CLUBS 9 ONE_PAIR 
+1: 4444 CLUBS 8 DIAMONDS 9 ONE_PAIR 
+get pot-win
+5555: 350 
+4444: 350 
+start to seat
+button 5555,57051,4000
+small 4444,10873,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-Q
+base card: HEARTS-7
+value:671278392106637
+base card: 67127839,2106637
+get inquire
+get player4444 10823 8000 50 30
+get total50
+action: check
+get flop
+flop card: DIAMONDS-A
+flop card: DIAMONDS-J
+flop card: DIAMONDS-4
+get inquire
+get player4444 10823 8000 50 31
+get player5555 57001 4000 50 32
+get total100
+action: raise 0
+get turn
+turn card: SPADES-Q
+get inquire
+get player4444 10723 8000 150 31
+get player5555 56901 4000 150 33
+get total300
+action: raise 0
+get river
+river card: HEARTS-9
+get inquire
+get player4444 10623 8000 250 31
+get player5555 56801 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+DIAMONDS A 
+DIAMONDS J 
+DIAMONDS 4 
+SPADES Q 
+HEARTS 9 
+/common 
+2: 4444 HEARTS 3 DIAMONDS K HIGH_CARD 
+1: 5555 DIAMONDS Q HEARTS 7 ONE_PAIR 
+get pot-win
+5555: 700 
+start to seat
+button 4444,10523,8000
+small 5555,57401,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-Q
+base card: SPADES-J
+value:6712783933560861
+base card: 67127839,33560861
+get inquire
+get player4444 10473 8000 50 32
+get player5555 57351 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: HEARTS-4
+flop card: CLUBS-K
+flop card: CLUBS-A
+get inquire
+get player4444 10373 8000 150 32
+get player5555 57251 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: CLUBS-5
+get inquire
+get player4444 10273 8000 250 32
+get player5555 57151 4000 250 33
+get total500
+action: raise 0
+get river
+river card: SPADES-7
+get inquire
+get player4444 10173 8000 350 32
+get player5555 57051 4000 350 33
+get total700
+action: check
+get showdown
+common/ 
+HEARTS 4 
+CLUBS K 
+CLUBS A 
+CLUBS 5 
+SPADES 7 
+/common 
+2: 5555 DIAMONDS Q SPADES J HIGH_CARD 
+1: 4444 SPADES 8 HEARTS K ONE_PAIR 
+get pot-win
+4444: 700 
+start to seat
+button 5555,57051,4000
+small 4444,10873,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-10
+base card: SPADES-4
+value:16783383266757
+base card: 16783383,266757
+get inquire
+get player4444 10823 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: HEARTS-2
+flop card: CLUBS-Q
+flop card: DIAMONDS-8
+get inquire
+get player4444 10723 8000 150 31
+get player5555 56901 4000 150 33
+get total300
+action: check
+get turn
+turn card: DIAMONDS-J
+get inquire
+get player4444 10723 8000 150 31
+get player5555 56901 4000 150 31
+get total300
+action: check
+get river
+river card: SPADES-J
+get inquire
+get player4444 10723 8000 150 31
+get player5555 56901 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+HEARTS 2 
+CLUBS Q 
+DIAMONDS 8 
+DIAMONDS J 
+SPADES J 
+/common 
+1: 4444 HEARTS A CLUBS 7 ONE_PAIR 
+2: 5555 SPADES 10 SPADES 4 ONE_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 4444,11123,8000
+small 5555,56801,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-3
+base card: HEARTS-6
+value:1354271057803
+base card: 135427,1057803
+get inquire
+get player4444 11073 8000 50 32
+get player5555 56751 4000 50 30
+get total100
+action: check
+get flop
+flop card: CLUBS-3
+flop card: HEARTS-J
+flop card: DIAMONDS-3
+get inquire
+get player4444 11073 8000 50 32
+get player5555 56751 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: HEARTS-8
+get inquire
+get player4444 10973 8000 150 32
+get player5555 56651 4000 150 33
+get total300
+action: check
+get river
+river card: DIAMONDS-9
+get inquire
+get player4444 10973 8000 150 31
+get player5555 56651 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+CLUBS 3 
+HEARTS J 
+DIAMONDS 3 
+HEARTS 8 
+DIAMONDS 9 
+/common 
+1: 5555 SPADES 3 HEARTS 6 THREE_OF_A_KIND 
+2: 4444 SPADES 2 DIAMONDS 7 ONE_PAIR 
+get pot-win
+5555: 500 
+start to seat
+button 5555,57051,4000
+small 4444,10873,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-5
+base card: SPADES-10
+value:54144716783383
+base card: 541447,16783383
+get inquire
+get player4444 10823 8000 50 30
+get total50
+action: check
+get flop
+flop card: CLUBS-6
+flop card: HEARTS-4
+flop card: CLUBS-5
+get inquire
+get player4444 10823 8000 50 31
+get player5555 57001 4000 50 32
+get total100
+action: check
+get turn
+turn card: DIAMONDS-2
+get inquire
+get player4444 10823 8000 50 31
+get player5555 57001 4000 50 31
+get total100
+action: raise 0
+get river
+river card: CLUBS-2
+get inquire
+get player4444 10723 8000 150 31
+get player5555 56901 4000 150 33
+get total300
+action: raise 0
+get showdown
+common/ 
+CLUBS 6 
+HEARTS 4 
+CLUBS 5 
+DIAMONDS 2 
+CLUBS 2 
+/common 
+2: 4444 DIAMONDS Q HEARTS 10 ONE_PAIR 
+1: 5555 DIAMONDS 5 SPADES 10 TWO_PAIR 
+get pot-win
+5555: 500 
+start to seat
+button 4444,10623,8000
+small 5555,57301,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-Q
+base card: DIAMONDS-7
+value:671278392114829
+base card: 67127839,2114829
+get inquire
+get player4444 10573 8000 50 32
+get player5555 57251 4000 50 30
+get total100
+action: check
+get flop
+flop card: DIAMONDS-5
+flop card: HEARTS-6
+flop card: HEARTS-8
+get inquire
+get player4444 10573 8000 50 32
+get player5555 57251 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: HEARTS-J
+get inquire
+get player4444 10473 8000 150 32
+get player5555 57151 4000 150 33
+get total300
+action: check
+get river
+river card: CLUBS-10
+get inquire
+get player4444 10473 8000 150 31
+get player5555 57151 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+DIAMONDS 5 
+HEARTS 6 
+HEARTS 8 
+HEARTS J 
+CLUBS 10 
+/common 
+2: 5555 DIAMONDS Q DIAMONDS 7 HIGH_CARD 
+1: 4444 CLUBS K CLUBS A HIGH_CARD 
+get pot-win
+4444: 500 
+start to seat
+button 5555,57051,4000
+small 4444,10873,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-8
+base card: CLUBS-K
+value:4228625134253349
+base card: 4228625,134253349
+get inquire
+get player4444 10823 8000 50 30
+get total50
+action: check
+get flop
+flop card: CLUBS-J
+flop card: CLUBS-10
+flop card: CLUBS-Q
+get inquire
+get player4444 10823 8000 50 31
+get player5555 57001 4000 50 32
+get total100
+action: raise 0
+get turn
+turn card: SPADES-3
+get inquire
+get player4444 10723 8000 150 31
+get player5555 56901 4000 150 33
+get total300
+action: check
+get river
+river card: CLUBS-9
+get inquire
+get player4444 10723 8000 150 31
+get player5555 56901 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+CLUBS J 
+CLUBS 10 
+CLUBS Q 
+SPADES 3 
+CLUBS 9 
+/common 
+2: 4444 SPADES 6 HEARTS J ONE_PAIR 
+1: 5555 CLUBS 8 CLUBS K STRAIGHT_FLUSH 
+get pot-win
+5555: 500 
+start to seat
+button 4444,10623,8000
+small 5555,57301,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-7
+base card: SPADES-3
+value:2102541135427
+base card: 2102541,135427
+get inquire
+get player4444 10573 8000 50 32
+get player5555 57251 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: DIAMONDS-Q
+flop card: CLUBS-7
+flop card: HEARTS-J
+get inquire
+get player4444 10473 8000 150 32
+get player5555 57151 4000 150 33
+get total300
+action: check
+get turn
+turn card: HEARTS-7
+get inquire
+get player4444 10473 8000 150 31
+get player5555 57151 4000 150 31
+get total300
+action: raise 0
+get river
+river card: SPADES-5
+get inquire
+get player4444 10373 8000 250 32
+get player5555 57051 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+DIAMONDS Q 
+CLUBS 7 
+HEARTS J 
+HEARTS 7 
+SPADES 5 
+/common 
+1: 5555 SPADES 7 SPADES 3 THREE_OF_A_KIND 
+2: 4444 HEARTS 2 CLUBS 6 ONE_PAIR 
+get pot-win
+5555: 700 
+start to seat
+button 5555,57651,4000
+small 4444,10273,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: HEARTS-9
+base card: HEARTS-10
+value:839861116787479
+base card: 8398611,16787479
+get inquire
+get player4444 10223 8000 50 30
+get total50
+action: check
+get flop
+flop card: SPADES-3
+flop card: SPADES-5
+flop card: DIAMONDS-K
+get inquire
+get player4444 10223 8000 50 31
+get player5555 57601 4000 50 32
+get total100
+action: check
+get turn
+turn card: CLUBS-9
+get inquire
+get player4444 10223 8000 50 31
+get player5555 57601 4000 50 31
+get total100
+action: check
+get river
+river card: SPADES-4
+get inquire
+get player4444 10223 8000 50 31
+get player5555 57601 4000 50 31
+get total100
+action: raise 0
+get showdown
+common/ 
+SPADES 3 
+SPADES 5 
+DIAMONDS K 
+CLUBS 9 
+SPADES 4 
+/common 
+2: 4444 CLUBS 3 DIAMONDS J ONE_PAIR 
+1: 5555 HEARTS 9 HEARTS 10 ONE_PAIR 
+get pot-win
+5555: 300 
+start to seat
+button 4444,10123,8000
+small 5555,57801,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-3
+base card: HEARTS-5
+value:164099533255
+base card: 164099,533255
+get inquire
+get player4444 10073 8000 50 32
+get player5555 57751 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: DIAMONDS-2
+flop card: SPADES-3
+flop card: HEARTS-2
+get inquire
+get player4444 9973 8000 150 32
+get player5555 57651 4000 150 33
+get total300
+action: check
+get turn
+turn card: DIAMONDS-7
+get inquire
+get player4444 9973 8000 150 31
+get player5555 57651 4000 150 31
+get total300
+action: check
+get river
+river card: DIAMONDS-4
+get inquire
+get player4444 9973 8000 150 31
+get player5555 57651 4000 150 31
+get total300
+action: check
+get showdown
+common/ 
+DIAMONDS 2 
+SPADES 3 
+HEARTS 2 
+DIAMONDS 7 
+DIAMONDS 4 
+/common 
+1: 5555 CLUBS 3 HEARTS 5 TWO_PAIR 
+2: 4444 SPADES 10 HEARTS 6 ONE_PAIR 
+get pot-win
+5555: 300 
+start to seat
+button 5555,57951,4000
+small 4444,9973,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: HEARTS-Q
+base card: DIAMONDS-6
+value:671196471065995
+base card: 67119647,1065995
+get inquire
+get player4444 9923 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: HEARTS-7
+flop card: SPADES-Q
+flop card: HEARTS-10
+get inquire
+get player4444 9823 8000 150 31
+get player5555 57801 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: DIAMONDS-9
+get inquire
+get player4444 9723 8000 250 31
+get player5555 57701 4000 250 33
+get total500
+action: check
+get river
+river card: SPADES-K
+get inquire
+get player4444 9723 8000 250 31
+get player5555 57701 4000 250 31
+get total500
+action: raise 0
+get showdown
+common/ 
+HEARTS 7 
+SPADES Q 
+HEARTS 10 
+DIAMONDS 9 
+SPADES K 
+/common 
+2: 4444 CLUBS 5 CLUBS 6 HIGH_CARD 
+1: 5555 HEARTS Q DIAMONDS 6 ONE_PAIR 
+get pot-win
+5555: 700 
+start to seat
+button 4444,9623,8000
+small 5555,58301,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-J
+base card: HEARTS-3
+value:33560861139523
+base card: 33560861,139523
+get inquire
+get player4444 9573 8000 50 32
+get player5555 58251 4000 50 30
+get total100
+action: check
+get flop
+flop card: DIAMONDS-Q
+flop card: CLUBS-7
+flop card: DIAMONDS-5
+get inquire
+get player4444 9573 8000 50 32
+get player5555 58251 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: HEARTS-7
+get inquire
+get player4444 9473 8000 150 32
+get player5555 58151 4000 150 33
+get total300
+action: raise 0
+get river
+river card: SPADES-K
+get inquire
+get player4444 9373 8000 250 32
+get player5555 58051 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+DIAMONDS Q 
+CLUBS 7 
+DIAMONDS 5 
+HEARTS 7 
+SPADES K 
+/common 
+1: 5555 SPADES J HEARTS 3 ONE_PAIR 
+2: 4444 CLUBS 3 HEARTS 10 ONE_PAIR 
+get pot-win
+5555: 700 
+start to seat
+button 5555,58651,4000
+small 4444,9273,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-Q
+base card: DIAMONDS-A
+value:67115551268454953
+base card: 67115551,268454953
+get inquire
+get player4444 9223 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: CLUBS-6
+flop card: CLUBS-J
+flop card: DIAMONDS-4
+get inquire
+get player4444 9123 8000 150 31
+get player5555 58501 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: HEARTS-7
+get inquire
+get player4444 9023 8000 250 31
+get player5555 58401 4000 250 33
+get total500
+action: check
+get river
+river card: CLUBS-2
+get inquire
+get player4444 9023 8000 250 31
+get player5555 58401 4000 250 31
+get total500
+action: raise 0
+get showdown
+common/ 
+CLUBS 6 
+CLUBS J 
+DIAMONDS 4 
+HEARTS 7 
+CLUBS 2 
+/common 
+1: 4444 HEARTS J DIAMONDS 2 TWO_PAIR 
+2: 5555 SPADES Q DIAMONDS A HIGH_CARD 
+get pot-win
+4444: 700 
+start to seat
+button 4444,9623,8000
+small 5555,58301,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-Q
+base card: HEARTS-7
+value:671155512106637
+base card: 67115551,2106637
+get inquire
+get player4444 9573 8000 50 32
+get player5555 58251 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: DIAMONDS-8
+flop card: CLUBS-2
+flop card: SPADES-7
+get inquire
+get player4444 9473 8000 150 32
+get player5555 58151 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: DIAMONDS-4
+get inquire
+get player4444 9373 8000 250 32
+get player5555 58051 4000 250 33
+get total500
+action: check
+get river
+river card: CLUBS-10
+get inquire
+get player4444 9373 8000 250 31
+get player5555 58051 4000 250 31
+get total500
+action: check
+get showdown
+common/ 
+DIAMONDS 8 
+CLUBS 2 
+SPADES 7 
+DIAMONDS 4 
+CLUBS 10 
+/common 
+2: 5555 SPADES Q HEARTS 7 ONE_PAIR 
+1: 4444 HEARTS 8 CLUBS J ONE_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 5555,58051,4000
+small 4444,9873,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: HEARTS-4
+base card: SPADES-9
+value:2708538394515
+base card: 270853,8394515
+get inquire
+get player4444 9823 8000 50 30
+get total50
+action: check
+get flop
+flop card: CLUBS-7
+flop card: DIAMONDS-J
+flop card: DIAMONDS-3
+get inquire
+get player4444 9823 8000 50 31
+get player5555 58001 4000 50 32
+get total100
+action: raise 0
+get turn
+turn card: CLUBS-J
+get inquire
+get player4444 9723 8000 150 31
+get player5555 57901 4000 150 33
+get total300
+action: check
+get river
+river card: SPADES-6
+get inquire
+get player4444 9723 8000 150 31
+get player5555 57901 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+CLUBS 7 
+DIAMONDS J 
+DIAMONDS 3 
+CLUBS J 
+SPADES 6 
+/common 
+1: 4444 CLUBS A HEARTS 10 ONE_PAIR 
+2: 5555 HEARTS 4 SPADES 9 ONE_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 4444,10123,8000
+small 5555,57801,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-2
+base card: SPADES-A
+value:69634268442665
+base card: 69634,268442665
+get inquire
+get player4444 10073 8000 50 32
+get player5555 57751 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: DIAMONDS-9
+flop card: SPADES-5
+flop card: SPADES-8
+get inquire
+get player4444 9973 8000 150 32
+get player5555 57651 4000 150 33
+get total300
+action: check
+get turn
+turn card: SPADES-6
+get inquire
+get player4444 9973 8000 150 31
+get player5555 57651 4000 150 31
+get total300
+action: raise 0
+get river
+river card: DIAMONDS-5
+get inquire
+get player4444 9873 8000 250 32
+get player5555 57551 4000 250 33
+get total500
+action: check
+get showdown
+common/ 
+DIAMONDS 9 
+SPADES 5 
+SPADES 8 
+SPADES 6 
+DIAMONDS 5 
+/common 
+1: 5555 SPADES 2 SPADES A FLUSH 
+2: 4444 HEARTS 5 SPADES 3 THREE_OF_A_KIND 
+get pot-win
+5555: 500 
+start to seat
+button 5555,58051,4000
+small 4444,9873,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: HEARTS-2
+base card: CLUBS-8
+value:737304228625
+base card: 73730,4228625
+get inquire
+get player4444 9823 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: HEARTS-K
+flop card: CLUBS-K
+flop card: SPADES-7
+get inquire
+get player4444 9723 8000 150 31
+get player5555 57901 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: SPADES-9
+get inquire
+get player4444 9623 8000 250 31
+get player5555 57801 4000 250 33
+get total500
+action: check
+get river
+river card: SPADES-4
+get inquire
+get player4444 9623 8000 250 31
+get player5555 57801 4000 250 31
+get total500
+action: check
+get showdown
+common/ 
+HEARTS K 
+CLUBS K 
+SPADES 7 
+SPADES 9 
+SPADES 4 
+/common 
+1: 4444 SPADES 8 HEARTS 6 ONE_PAIR 
+1: 5555 HEARTS 2 CLUBS 8 ONE_PAIR 
+get pot-win
+4444: 250 
+5555: 250 
+start to seat
+button 4444,9873,8000
+small 5555,58051,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-A
+base card: DIAMONDS-10
+value:26845495316795671
+base card: 268454953,16795671
+get inquire
+get player4444 9823 8000 50 32
+get player5555 58001 4000 50 30
+get total100
+action: check
+get flop
+flop card: DIAMONDS-9
+flop card: CLUBS-2
+flop card: CLUBS-K
+get inquire
+get player4444 9823 8000 50 32
+get player5555 58001 4000 50 31
+get total100
+action: check
+get turn
+turn card: DIAMONDS-4
+get inquire
+get player4444 9823 8000 50 31
+get player5555 58001 4000 50 31
+get total100
+action: raise 0
+get river
+river card: CLUBS-Q
+get inquire
+get player4444 9723 8000 150 32
+get player5555 57901 4000 150 33
+get total300
+action: check
+get showdown
+common/ 
+DIAMONDS 9 
+CLUBS 2 
+CLUBS K 
+DIAMONDS 4 
+CLUBS Q 
+/common 
+1: 5555 DIAMONDS A DIAMONDS 10 HIGH_CARD 
+2: 4444 CLUBS 10 DIAMONDS 8 HIGH_CARD 
+get pot-win
+5555: 300 
+start to seat
+button 5555,58201,4000
+small 4444,9723,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: HEARTS-3
+base card: DIAMONDS-7
+value:1395232114829
+base card: 139523,2114829
+get inquire
+get player4444 9673 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: HEARTS-A
+flop card: SPADES-J
+flop card: SPADES-9
+get inquire
+get player4444 9573 8000 150 31
+get player5555 58051 4000 150 33
+get total300
+action: check
+get turn
+turn card: DIAMONDS-4
+get inquire
+get player4444 9573 8000 150 31
+get player5555 58051 4000 150 31
+get total300
+action: raise 0
+get river
+river card: CLUBS-9
+get inquire
+get player4444 9473 8000 250 31
+get player5555 57951 4000 250 33
+get total500
+action: check
+get showdown
+common/ 
+HEARTS A 
+SPADES J 
+SPADES 9 
+DIAMONDS 4 
+CLUBS 9 
+/common 
+1: 4444 SPADES 6 DIAMONDS 10 ONE_PAIR 
+2: 5555 HEARTS 3 DIAMONDS 7 ONE_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 4444,9973,8000
+small 5555,57951,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: HEARTS-4
+base card: SPADES-A
+value:270853268442665
+base card: 270853,268442665
+get inquire
+get player4444 9923 8000 50 32
+get player5555 57901 4000 50 30
+get total100
+action: check
+get flop
+flop card: HEARTS-9
+flop card: SPADES-10
+flop card: DIAMONDS-6
+get inquire
+get player4444 9923 8000 50 32
+get player5555 57901 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: DIAMONDS-4
+get inquire
+get player4444 9823 8000 150 32
+get player5555 57801 4000 150 33
+get total300
+action: check
+get river
+river card: HEARTS-10
+get inquire
+get player4444 9823 8000 150 31
+get player5555 57801 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+HEARTS 9 
+SPADES 10 
+DIAMONDS 6 
+DIAMONDS 4 
+HEARTS 10 
+/common 
+2: 5555 HEARTS 4 SPADES A TWO_PAIR 
+1: 4444 DIAMONDS 9 SPADES K TWO_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 5555,57701,4000
+small 4444,10223,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-K
+base card: DIAMONDS-K
+value:134253349134236965
+base card: 134253349,134236965
+get inquire
+get player4444 10173 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: SPADES-6
+flop card: SPADES-3
+flop card: CLUBS-10
+get inquire
+get player4444 10073 8000 150 31
+get player5555 57551 4000 150 33
+get total300
+action: check
+get turn
+turn card: SPADES-Q
+get inquire
+get player4444 10073 8000 150 31
+get player5555 57551 4000 150 31
+get total300
+action: raise 0
+get river
+river card: DIAMONDS-9
+get inquire
+get player4444 9973 8000 250 31
+get player5555 57451 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+SPADES 6 
+SPADES 3 
+CLUBS 10 
+SPADES Q 
+DIAMONDS 9 
+/common 
+2: 4444 DIAMONDS 6 SPADES J ONE_PAIR 
+1: 5555 CLUBS K DIAMONDS K ONE_PAIR 
+get pot-win
+5555: 700 
+start to seat
+button 4444,9873,8000
+small 5555,58051,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-A
+base card: DIAMONDS-6
+value:2684426651065995
+base card: 268442665,1065995
+get inquire
+get player4444 9823 8000 50 32
+get player5555 58001 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: HEARTS-4
+flop card: DIAMONDS-K
+flop card: HEARTS-3
+get inquire
+get player4444 9723 8000 150 32
+get player5555 57901 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: SPADES-6
+get inquire
+get player4444 9623 8000 250 32
+get player5555 57801 4000 250 33
+get total500
+action: check
+get river
+river card: CLUBS-6
+get inquire
+get player4444 9623 8000 250 31
+get player5555 57801 4000 250 31
+get total500
+action: raise 0
+get showdown
+common/ 
+HEARTS 4 
+DIAMONDS K 
+HEARTS 3 
+SPADES 6 
+CLUBS 6 
+/common 
+1: 5555 SPADES A DIAMONDS 6 THREE_OF_A_KIND 
+2: 4444 CLUBS 2 CLUBS 9 ONE_PAIR 
+get pot-win
+5555: 700 
+start to seat
+button 5555,58401,4000
+small 4444,9523,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-8
+base card: CLUBS-6
+value:42286251082379
+base card: 4228625,1082379
+get inquire
+get player4444 9473 8000 50 30
+get total50
+action: check
+get flop
+flop card: DIAMONDS-5
+flop card: HEARTS-A
+flop card: DIAMONDS-10
+get inquire
+get player4444 9473 8000 50 31
+get player5555 58351 4000 50 32
+get total100
+action: raise 0
+get turn
+turn card: HEARTS-10
+get inquire
+get player4444 9373 8000 150 31
+get player5555 58251 4000 150 33
+get total300
+action: raise 0
+get river
+river card: CLUBS-K
+get inquire
+get player4444 9273 8000 250 31
+get player5555 58151 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+DIAMONDS 5 
+HEARTS A 
+DIAMONDS 10 
+HEARTS 10 
+CLUBS K 
+/common 
+1: 4444 HEARTS 3 CLUBS 3 TWO_PAIR 
+2: 5555 CLUBS 8 CLUBS 6 ONE_PAIR 
+get pot-win
+4444: 700 
+start to seat
+button 4444,9873,8000
+small 5555,58051,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: HEARTS-3
+base card: DIAMONDS-7
+value:1395232114829
+base card: 139523,2114829
+get inquire
+get player4444 9823 8000 50 32
+get player5555 58001 4000 50 30
+get total100
+action: check
+get flop
+flop card: DIAMONDS-4
+flop card: CLUBS-5
+flop card: DIAMONDS-3
+get inquire
+get player4444 9823 8000 50 32
+get player5555 58001 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: CLUBS-9
+get inquire
+get player4444 9723 8000 150 32
+get player5555 57901 4000 150 33
+get total300
+action: raise 0
+get river
+river card: SPADES-6
+get inquire
+get player4444 9623 8000 250 32
+get player5555 57801 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+DIAMONDS 4 
+CLUBS 5 
+DIAMONDS 3 
+CLUBS 9 
+SPADES 6 
+/common 
+1: 5555 HEARTS 3 DIAMONDS 7 STRAIGHT 
+1: 4444 DIAMONDS J HEARTS 7 STRAIGHT 
+get pot-win
+5555: 350 
+4444: 350 
+start to seat
+button 5555,58051,4000
+small 4444,9873,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-8
+base card: CLUBS-Q
+value:422862567144223
+base card: 4228625,67144223
+get inquire
+get player4444 9823 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: HEARTS-7
+flop card: SPADES-5
+flop card: SPADES-7
+get inquire
+get player4444 9723 8000 150 31
+get player5555 57901 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: DIAMONDS-3
+get inquire
+get player4444 9623 8000 250 31
+get player5555 57801 4000 250 33
+get total500
+action: check
+get river
+river card: HEARTS-3
+get inquire
+get player4444 9623 8000 250 31
+get player5555 57801 4000 250 31
+get total500
+action: raise 0
+get showdown
+common/ 
+HEARTS 7 
+SPADES 5 
+SPADES 7 
+DIAMONDS 3 
+HEARTS 3 
+/common 
+1: 4444 CLUBS 2 HEARTS A TWO_PAIR 
+2: 5555 CLUBS 8 CLUBS Q TWO_PAIR 
+get pot-win
+4444: 700 
+start to seat
+button 4444,10223,8000
+small 5555,57701,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-K
+base card: DIAMONDS-4
+value:134236965279045
+base card: 134236965,279045
+get inquire
+get player4444 10173 8000 50 32
+get player5555 57651 4000 50 30
+get total100
+action: check
+get flop
+flop card: CLUBS-6
+flop card: DIAMONDS-8
+flop card: CLUBS-8
+get inquire
+get player4444 10173 8000 50 32
+get player5555 57651 4000 50 31
+get total100
+action: check
+get turn
+turn card: DIAMONDS-J
+get inquire
+get player4444 10173 8000 50 31
+get player5555 57651 4000 50 31
+get total100
+action: check
+get river
+river card: SPADES-3
+get inquire
+get player4444 10173 8000 50 31
+get player5555 57651 4000 50 31
+get total100
+action: raise 0
+get showdown
+common/ 
+CLUBS 6 
+DIAMONDS 8 
+CLUBS 8 
+DIAMONDS J 
+SPADES 3 
+/common 
+2: 5555 DIAMONDS K DIAMONDS 4 ONE_PAIR 
+1: 4444 CLUBS 10 HEARTS 10 TWO_PAIR 
+get pot-win
+4444: 300 
+start to seat
+button 5555,57551,4000
+small 4444,10373,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-2
+base card: DIAMONDS-A
+value:81922268454953
+base card: 81922,268454953
+get inquire
+get player4444 10323 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: HEARTS-A
+flop card: DIAMONDS-K
+flop card: HEARTS-9
+get inquire
+get player4444 10223 8000 150 31
+get player5555 57401 4000 150 33
+get total300
+action: check
+get turn
+turn card: SPADES-2
+get inquire
+get player4444 10223 8000 150 31
+get player5555 57401 4000 150 31
+get total300
+action: raise 0
+get river
+river card: CLUBS-3
+get inquire
+get player4444 10123 8000 250 31
+get player5555 57301 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+HEARTS A 
+DIAMONDS K 
+HEARTS 9 
+SPADES 2 
+CLUBS 3 
+/common 
+2: 4444 DIAMONDS 9 HEARTS 4 ONE_PAIR 
+1: 5555 DIAMONDS 2 DIAMONDS A TWO_PAIR 
+get pot-win
+5555: 700 
+start to seat
+button 4444,10023,8000
+small 5555,57901,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-3
+base card: SPADES-4
+value:147715266757
+base card: 147715,266757
+get inquire
+get player4444 9973 8000 50 32
+get player5555 57851 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: DIAMONDS-Q
+flop card: SPADES-J
+flop card: CLUBS-9
+get inquire
+get player4444 9873 8000 150 32
+get player5555 57751 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: DIAMONDS-2
+get inquire
+get player4444 9773 8000 250 32
+get player5555 57651 4000 250 33
+get total500
+action: raise 0
+get river
+river card: SPADES-10
+get inquire
+get player4444 9673 8000 350 32
+get player5555 57551 4000 350 33
+get total700
+action: raise 0
+get showdown
+common/ 
+DIAMONDS Q 
+SPADES J 
+CLUBS 9 
+DIAMONDS 2 
+SPADES 10 
+/common 
+2: 5555 DIAMONDS 3 SPADES 4 HIGH_CARD 
+1: 4444 CLUBS 2 DIAMONDS 9 TWO_PAIR 
+get pot-win
+4444: 900 
+start to seat
+button 5555,57451,4000
+small 4444,10473,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-A
+base card: CLUBS-K
+value:268454953134253349
+base card: 268454953,134253349
+get inquire
+get player4444 10423 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: CLUBS-Q
+flop card: HEARTS-7
+flop card: CLUBS-3
+get inquire
+get player4444 10323 8000 150 31
+get player5555 57301 4000 150 33
+get total300
+action: check
+get turn
+turn card: DIAMONDS-9
+get inquire
+get player4444 10323 8000 150 31
+get player5555 57301 4000 150 31
+get total300
+action: raise 0
+get river
+river card: DIAMONDS-7
+get inquire
+get player4444 10223 8000 250 31
+get player5555 57201 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+CLUBS Q 
+HEARTS 7 
+CLUBS 3 
+DIAMONDS 9 
+DIAMONDS 7 
+/common 
+1: 4444 SPADES Q CLUBS 2 TWO_PAIR 
+2: 5555 DIAMONDS A CLUBS K ONE_PAIR 
+get pot-win
+4444: 700 
+start to seat
+button 4444,10823,8000
+small 5555,57101,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-4
+base card: HEARTS-2
+value:26675773730
+base card: 266757,73730
+get inquire
+get player4444 10773 8000 50 32
+get player5555 57051 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: DIAMONDS-2
+flop card: SPADES-6
+flop card: DIAMONDS-K
+get inquire
+get player4444 10673 8000 150 32
+get player5555 56951 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: CLUBS-6
+get inquire
+get player4444 10573 8000 250 32
+get player5555 56851 4000 250 33
+get total500
+action: raise 0
+get river
+river card: DIAMONDS-A
+get inquire
+get player4444 10473 8000 350 32
+get player5555 56751 4000 350 33
+get total700
+action: raise 0
+get showdown
+common/ 
+DIAMONDS 2 
+SPADES 6 
+DIAMONDS K 
+CLUBS 6 
+DIAMONDS A 
+/common 
+2: 5555 SPADES 4 HEARTS 2 TWO_PAIR 
+1: 4444 HEARTS A CLUBS A FULL_HOUSE 
+get pot-win
+4444: 900 
+start to seat
+button 5555,56651,4000
+small 4444,11273,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-10
+base card: CLUBS-2
+value:1681205598306
+base card: 16812055,98306
+get inquire
+get player4444 11223 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: CLUBS-3
+flop card: DIAMONDS-9
+flop card: CLUBS-Q
+get inquire
+get player4444 11123 8000 150 31
+get player5555 56501 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: HEARTS-Q
+get inquire
+get player4444 11023 8000 250 31
+get player5555 56401 4000 250 33
+get total500
+action: check
+get river
+river card: CLUBS-5
+get inquire
+get player4444 11023 8000 250 31
+get player5555 56401 4000 250 31
+get total500
+action: raise 0
+get showdown
+common/ 
+CLUBS 3 
+DIAMONDS 9 
+CLUBS Q 
+HEARTS Q 
+CLUBS 5 
+/common 
+2: 4444 DIAMONDS 4 SPADES 2 ONE_PAIR 
+1: 5555 CLUBS 10 CLUBS 2 FLUSH 
+get pot-win
+5555: 700 
+start to seat
+button 4444,10923,8000
+small 5555,57001,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-2
+base card: DIAMONDS-6
+value:819221065995
+base card: 81922,1065995
+get inquire
+get player4444 10873 8000 50 32
+get player5555 56951 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: CLUBS-K
+flop card: SPADES-K
+flop card: CLUBS-10
+get inquire
+get player4444 10773 8000 150 32
+get player5555 56851 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: SPADES-7
+get inquire
+get player4444 10673 8000 250 32
+get player5555 56751 4000 250 33
+get total500
+action: check
+get river
+river card: SPADES-5
+get inquire
+get player4444 10673 8000 250 31
+get player5555 56751 4000 250 31
+get total500
+action: raise 0
+get showdown
+common/ 
+CLUBS K 
+SPADES K 
+CLUBS 10 
+SPADES 7 
+SPADES 5 
+/common 
+2: 5555 DIAMONDS 2 DIAMONDS 6 ONE_PAIR 
+1: 4444 DIAMONDS 9 HEARTS 4 ONE_PAIR 
+get pot-win
+4444: 700 
+start to seat
+button 5555,56651,4000
+small 4444,11273,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: HEARTS-A
+base card: HEARTS-7
+value:2684467612106637
+base card: 268446761,2106637
+get inquire
+get player4444 11223 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: SPADES-9
+flop card: SPADES-K
+flop card: CLUBS-9
+get inquire
+get player4444 11123 8000 150 31
+get player5555 56501 4000 150 33
+get total300
+action: check
+get turn
+turn card: DIAMONDS-2
+get inquire
+get player4444 11123 8000 150 31
+get player5555 56501 4000 150 31
+get total300
+action: check
+get river
+river card: DIAMONDS-3
+get inquire
+get player4444 11123 8000 150 31
+get player5555 56501 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+SPADES 9 
+SPADES K 
+CLUBS 9 
+DIAMONDS 2 
+DIAMONDS 3 
+/common 
+1: 4444 HEARTS K DIAMONDS 9 FULL_HOUSE 
+2: 5555 HEARTS A HEARTS 7 ONE_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 4444,11523,8000
+small 5555,56401,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-4
+base card: DIAMONDS-K
+value:295429134236965
+base card: 295429,134236965
+get inquire
+get player4444 11473 8000 50 32
+get player5555 56351 4000 50 30
+get total100
+action: check
+get flop
+flop card: SPADES-3
+flop card: CLUBS-3
+flop card: SPADES-6
+get inquire
+get player4444 11473 8000 50 32
+get player5555 56351 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: HEARTS-10
+get inquire
+get player4444 11373 8000 150 32
+get player5555 56251 4000 150 33
+get total300
+action: check
+get river
+river card: HEARTS-2
+get inquire
+get player4444 11373 8000 150 31
+get player5555 56251 4000 150 31
+get total300
+action: check
+get showdown
+common/ 
+SPADES 3 
+CLUBS 3 
+SPADES 6 
+HEARTS 10 
+HEARTS 2 
+/common 
+2: 5555 CLUBS 4 DIAMONDS K ONE_PAIR 
+1: 4444 CLUBS Q SPADES 2 TWO_PAIR 
+get pot-win
+4444: 300 
+start to seat
+button 5555,56251,4000
+small 4444,11673,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-6
+base card: CLUBS-4
+value:1065995295429
+base card: 1065995,295429
+get inquire
+get player4444 11623 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: SPADES-Q
+flop card: HEARTS-7
+flop card: HEARTS-K
+get inquire
+get player4444 11523 8000 150 31
+get player5555 56101 4000 150 33
+get total300
+action: check
+get turn
+turn card: SPADES-J
+get inquire
+get player4444 11523 8000 150 31
+get player5555 56101 4000 150 31
+get total300
+action: check
+get river
+river card: SPADES-K
+get inquire
+get player4444 11523 8000 150 31
+get player5555 56101 4000 150 31
+get total300
+action: check
+get showdown
+common/ 
+SPADES Q 
+HEARTS 7 
+HEARTS K 
+SPADES J 
+SPADES K 
+/common 
+1: 4444 HEARTS 4 CLUBS 7 TWO_PAIR 
+2: 5555 DIAMONDS 6 CLUBS 4 ONE_PAIR 
+get pot-win
+4444: 300 
+start to seat
+button 4444,11823,8000
+small 5555,56101,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-A
+base card: CLUBS-2
+value:26845495398306
+base card: 268454953,98306
+get inquire
+get player4444 11773 8000 50 32
+get player5555 56051 4000 50 30
+get total100
+action: check
+get flop
+flop card: CLUBS-5
+flop card: SPADES-7
+flop card: CLUBS-10
+get inquire
+get player4444 11773 8000 50 32
+get player5555 56051 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: DIAMONDS-8
+get inquire
+get player4444 11673 8000 150 32
+get player5555 55951 4000 150 33
+get total300
+action: raise 0
+get river
+river card: HEARTS-7
+get inquire
+get player4444 11573 8000 250 32
+get player5555 55851 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+CLUBS 5 
+SPADES 7 
+CLUBS 10 
+DIAMONDS 8 
+HEARTS 7 
+/common 
+2: 5555 DIAMONDS A CLUBS 2 ONE_PAIR 
+1: 4444 DIAMONDS 2 CLUBS 7 THREE_OF_A_KIND 
+get pot-win
+4444: 700 
+start to seat
+button 5555,55751,4000
+small 4444,12173,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-9
+base card: DIAMONDS-A
+value:8423187268454953
+base card: 8423187,268454953
+get inquire
+get player4444 12123 8000 50 30
+get total50
+action: check
+get flop
+flop card: DIAMONDS-Q
+flop card: HEARTS-7
+flop card: HEARTS-K
+get inquire
+get player4444 12123 8000 50 31
+get player5555 55701 4000 50 32
+get total100
+action: raise 0
+get turn
+turn card: CLUBS-5
+get inquire
+get player4444 12023 8000 150 31
+get player5555 55601 4000 150 33
+get total300
+action: raise 0
+get river
+river card: CLUBS-Q
+get inquire
+get player4444 11923 8000 250 31
+get player5555 55501 4000 250 33
+get total500
+action: check
+get showdown
+common/ 
+DIAMONDS Q 
+HEARTS 7 
+HEARTS K 
+CLUBS 5 
+CLUBS Q 
+/common 
+2: 4444 DIAMONDS 3 SPADES 2 ONE_PAIR 
+1: 5555 CLUBS 9 DIAMONDS A ONE_PAIR 
+get pot-win
+5555: 500 
+start to seat
+button 4444,11923,8000
+small 5555,56001,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-9
+base card: SPADES-8
+value:84231874199953
+base card: 8423187,4199953
+get inquire
+get player4444 11873 8000 50 32
+get player5555 55951 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: DIAMONDS-3
+flop card: CLUBS-J
+flop card: HEARTS-2
+get inquire
+get player4444 11773 8000 150 32
+get player5555 55851 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: CLUBS-Q
+get inquire
+get player4444 11673 8000 250 32
+get player5555 55751 4000 250 33
+get total500
+action: check
+get river
+river card: HEARTS-Q
+get inquire
+get player4444 11673 8000 250 31
+get player5555 55751 4000 250 31
+get total500
+action: raise 0
+get showdown
+common/ 
+DIAMONDS 3 
+CLUBS J 
+HEARTS 2 
+CLUBS Q 
+HEARTS Q 
+/common 
+2: 5555 CLUBS 9 SPADES 8 ONE_PAIR 
+1: 4444 SPADES 10 CLUBS 8 ONE_PAIR 
+get pot-win
+4444: 700 
+start to seat
+button 5555,55651,4000
+small 4444,12273,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-7
+base card: HEARTS-A
+value:2102541268446761
+base card: 2102541,268446761
+get inquire
+get player4444 12223 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: DIAMONDS-7
+flop card: DIAMONDS-5
+flop card: HEARTS-8
+get inquire
+get player4444 12123 8000 150 31
+get player5555 55501 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: CLUBS-8
+get inquire
+get player4444 12023 8000 250 31
+get player5555 55401 4000 250 33
+get total500
+action: check
+get river
+river card: HEARTS-J
+get inquire
+get player4444 12023 8000 250 31
+get player5555 55401 4000 250 31
+get total500
+action: check
+get showdown
+common/ 
+DIAMONDS 7 
+DIAMONDS 5 
+HEARTS 8 
+CLUBS 8 
+HEARTS J 
+/common 
+1: 4444 SPADES 8 DIAMONDS 4 THREE_OF_A_KIND 
+2: 5555 SPADES 7 HEARTS A TWO_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 4444,12523,8000
+small 5555,55401,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-Q
+base card: DIAMONDS-5
+value:67127839541447
+base card: 67127839,541447
+get inquire
+get player4444 12473 8000 50 32
+get player5555 55351 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: HEARTS-10
+flop card: SPADES-2
+flop card: SPADES-J
+get inquire
+get player4444 12373 8000 150 32
+get player5555 55251 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: SPADES-7
+get inquire
+get player4444 12273 8000 250 32
+get player5555 55151 4000 250 33
+get total500
+action: check
+get river
+river card: CLUBS-A
+get inquire
+get player4444 12273 8000 250 31
+get player5555 55151 4000 250 31
+get total500
+action: raise 0
+get showdown
+common/ 
+HEARTS 10 
+SPADES 2 
+SPADES J 
+SPADES 7 
+CLUBS A 
+/common 
+2: 5555 DIAMONDS Q DIAMONDS 5 HIGH_CARD 
+1: 4444 SPADES 9 DIAMONDS 8 STRAIGHT 
+get pot-win
+4444: 700 
+start to seat
+button 5555,55051,4000
+small 4444,12873,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-Q
+base card: HEARTS-4
+value:67144223270853
+base card: 67144223,270853
+get inquire
+get player4444 12823 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: DIAMONDS-9
+flop card: SPADES-4
+flop card: HEARTS-5
+get inquire
+get player4444 12723 8000 150 31
+get player5555 54901 4000 150 33
+get total300
+action: check
+get turn
+turn card: DIAMONDS-3
+get inquire
+get player4444 12723 8000 150 31
+get player5555 54901 4000 150 31
+get total300
+action: check
+get river
+river card: SPADES-7
+get inquire
+get player4444 12723 8000 150 31
+get player5555 54901 4000 150 31
+get total300
+action: check
+get showdown
+common/ 
+DIAMONDS 9 
+SPADES 4 
+HEARTS 5 
+DIAMONDS 3 
+SPADES 7 
+/common 
+1: 4444 DIAMONDS 6 DIAMONDS 10 STRAIGHT 
+2: 5555 CLUBS Q HEARTS 4 ONE_PAIR 
+get pot-win
+4444: 300 
+start to seat
+button 4444,13023,8000
+small 5555,54901,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-A
+base card: HEARTS-2
+value:26844266573730
+base card: 268442665,73730
+get inquire
+get player4444 12973 8000 50 32
+get player5555 54851 4000 50 30
+get total100
+action: check
+get flop
+flop card: DIAMONDS-K
+flop card: CLUBS-9
+flop card: HEARTS-9
+get inquire
+get player4444 12973 8000 50 32
+get player5555 54851 4000 50 31
+get total100
+action: check
+get turn
+turn card: HEARTS-A
+get inquire
+get player4444 12973 8000 50 31
+get player5555 54851 4000 50 31
+get total100
+action: check
+get river
+river card: CLUBS-K
+get inquire
+get player4444 12973 8000 50 31
+get player5555 54851 4000 50 31
+get total100
+action: raise 0
+get showdown
+common/ 
+DIAMONDS K 
+CLUBS 9 
+HEARTS 9 
+HEARTS A 
+CLUBS K 
+/common 
+2: 5555 SPADES A HEARTS 2 TWO_PAIR 
+1: 4444 SPADES 9 SPADES 7 FULL_HOUSE 
+get pot-win
+4444: 300 
+start to seat
+button 5555,54751,4000
+small 4444,13173,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-6
+base card: CLUBS-A
+value:1053707268471337
+base card: 1053707,268471337
+get inquire
+get player4444 13123 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: CLUBS-6
+flop card: HEARTS-10
+flop card: CLUBS-K
+get inquire
+get player4444 13023 8000 150 31
+get player5555 54601 4000 150 33
+get total300
+action: check
+get turn
+turn card: HEARTS-J
+get inquire
+get player4444 13023 8000 150 31
+get player5555 54601 4000 150 31
+get total300
+action: raise 0
+get river
+river card: HEARTS-4
+get inquire
+get player4444 12923 8000 250 31
+get player5555 54501 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+CLUBS 6 
+HEARTS 10 
+CLUBS K 
+HEARTS J 
+HEARTS 4 
+/common 
+1: 4444 SPADES J CLUBS 2 ONE_PAIR 
+2: 5555 SPADES 6 CLUBS A ONE_PAIR 
+get pot-win
+4444: 700 
+start to seat
+button 4444,13523,8000
+small 5555,54401,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-10
+base card: SPADES-4
+value:16795671266757
+base card: 16795671,266757
+get inquire
+get player4444 13473 8000 50 32
+get player5555 54351 4000 50 30
+get total100
+action: check
+get flop
+flop card: HEARTS-7
+flop card: CLUBS-A
+flop card: HEARTS-K
+get inquire
+get player4444 13473 8000 50 32
+get player5555 54351 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: DIAMONDS-2
+get inquire
+get player4444 13373 8000 150 32
+get player5555 54251 4000 150 33
+get total300
+action: raise 0
+get river
+river card: HEARTS-2
+get inquire
+get player4444 13273 8000 250 32
+get player5555 54151 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+HEARTS 7 
+CLUBS A 
+HEARTS K 
+DIAMONDS 2 
+HEARTS 2 
+/common 
+2: 5555 DIAMONDS 10 SPADES 4 ONE_PAIR 
+1: 4444 HEARTS Q HEARTS J FLUSH 
+get pot-win
+4444: 700 
+start to seat
+button 5555,54051,4000
+small 4444,13873,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-8
+base card: SPADES-6
+value:42286251053707
+base card: 4228625,1053707
+get inquire
+get player4444 13823 8000 50 30
+get total50
+action: check
+get flop
+flop card: DIAMONDS-10
+flop card: DIAMONDS-4
+flop card: DIAMONDS-6
+get inquire
+get player4444 13823 8000 50 31
+get player5555 54001 4000 50 32
+get total100
+action: check
+get turn
+turn card: CLUBS-7
+get inquire
+get player4444 13823 8000 50 31
+get player5555 54001 4000 50 31
+get total100
+action: raise 0
+get river
+river card: DIAMONDS-K
+get inquire
+get player4444 13723 8000 150 31
+get player5555 53901 4000 150 33
+get total300
+action: raise 0
+get showdown
+common/ 
+DIAMONDS 10 
+DIAMONDS 4 
+DIAMONDS 6 
+CLUBS 7 
+DIAMONDS K 
+/common 
+2: 4444 CLUBS 6 HEARTS 2 ONE_PAIR 
+1: 5555 CLUBS 8 SPADES 6 ONE_PAIR 
+get pot-win
+5555: 500 
+start to seat
+button 4444,13623,8000
+small 5555,54301,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: HEARTS-8
+base card: SPADES-J
+value:420404933560861
+base card: 4204049,33560861
+get inquire
+get player4444 13573 8000 50 32
+get player5555 54251 4000 50 30
+get total100
+action: check
+get flop
+flop card: HEARTS-J
+flop card: CLUBS-A
+flop card: SPADES-A
+get inquire
+get player4444 13573 8000 50 32
+get player5555 54251 4000 50 31
+get total100
+action: check
+get turn
+turn card: DIAMONDS-8
+get inquire
+get player4444 13573 8000 50 31
+get player5555 54251 4000 50 31
+get total100
+action: check
+get river
+river card: SPADES-7
+get inquire
+get player4444 13573 8000 50 31
+get player5555 54251 4000 50 31
+get total100
+action: check
+get showdown
+common/ 
+HEARTS J 
+CLUBS A 
+SPADES A 
+DIAMONDS 8 
+SPADES 7 
+/common 
+1: 5555 HEARTS 8 SPADES J TWO_PAIR 
+2: 4444 CLUBS 10 HEARTS 10 TWO_PAIR 
+get pot-win
+5555: 100 
+start to seat
+button 5555,54351,4000
+small 4444,13573,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-8
+base card: HEARTS-J
+value:419995333564957
+base card: 4199953,33564957
+get inquire
+get player4444 13523 8000 50 30
+get total50
+action: check
+get flop
+flop card: HEARTS-2
+flop card: HEARTS-8
+flop card: SPADES-9
+get inquire
+get player4444 13523 8000 50 31
+get player5555 54301 4000 50 32
+get total100
+action: check
+get turn
+turn card: SPADES-J
+get inquire
+get player4444 13523 8000 50 31
+get player5555 54301 4000 50 31
+get total100
+action: check
+get river
+river card: DIAMONDS-9
+get inquire
+get player4444 13523 8000 50 31
+get player5555 54301 4000 50 31
+get total100
+action: raise 0
+get showdown
+common/ 
+HEARTS 2 
+HEARTS 8 
+SPADES 9 
+SPADES J 
+DIAMONDS 9 
+/common 
+2: 4444 DIAMONDS K HEARTS 3 ONE_PAIR 
+1: 5555 SPADES 8 HEARTS J TWO_PAIR 
+get pot-win
+5555: 300 
+start to seat
+button 4444,13423,8000
+small 5555,54501,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-6
+base card: HEARTS-2
+value:105370773730
+base card: 1053707,73730
+get inquire
+get player4444 13373 8000 50 32
+get player5555 54451 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: DIAMONDS-9
+flop card: CLUBS-7
+flop card: SPADES-10
+get inquire
+get player4444 13273 8000 150 32
+get player5555 54351 4000 150 33
+get total300
+action: check
+get turn
+turn card: CLUBS-6
+get inquire
+get player4444 13273 8000 150 31
+get player5555 54351 4000 150 31
+get total300
+action: raise 0
+get river
+river card: DIAMONDS-4
+get inquire
+get player4444 13173 8000 250 32
+get player5555 54251 4000 250 33
+get total500
+action: check
+get showdown
+common/ 
+DIAMONDS 9 
+CLUBS 7 
+SPADES 10 
+CLUBS 6 
+DIAMONDS 4 
+/common 
+1: 5555 SPADES 6 HEARTS 2 ONE_PAIR 
+2: 4444 DIAMONDS Q SPADES 3 HIGH_CARD 
+get pot-win
+5555: 500 
+start to seat
+button 5555,54751,4000
+small 4444,13173,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-Q
+base card: SPADES-4
+value:67115551266757
+base card: 67115551,266757
+get inquire
+get player4444 13123 8000 50 30
+get total50
+action: check
+get flop
+flop card: CLUBS-Q
+flop card: SPADES-5
+flop card: DIAMONDS-2
+get inquire
+get player4444 13123 8000 50 31
+get player5555 54701 4000 50 32
+get total100
+action: check
+get turn
+turn card: SPADES-9
+get inquire
+get player4444 13123 8000 50 31
+get player5555 54701 4000 50 31
+get total100
+action: check
+get river
+river card: CLUBS-3
+get inquire
+get player4444 13123 8000 50 31
+get player5555 54701 4000 50 31
+get total100
+action: check
+get showdown
+common/ 
+CLUBS Q 
+SPADES 5 
+DIAMONDS 2 
+SPADES 9 
+CLUBS 3 
+/common 
+2: 4444 CLUBS 10 SPADES K HIGH_CARD 
+1: 5555 SPADES Q SPADES 4 ONE_PAIR 
+get pot-win
+5555: 100 
+start to seat
+button 4444,13123,8000
+small 5555,54801,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-6
+base card: CLUBS-7
+value:10537072131213
+base card: 1053707,2131213
+get inquire
+get player4444 13073 8000 50 32
+get player5555 54751 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: CLUBS-9
+flop card: DIAMONDS-A
+flop card: DIAMONDS-4
+get inquire
+get player4444 12973 8000 150 32
+get player5555 54651 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: DIAMONDS-Q
+get inquire
+get player4444 12873 8000 250 32
+get player5555 54551 4000 250 33
+get total500
+action: raise 0
+get river
+river card: HEARTS-3
+get inquire
+get player4444 12773 8000 350 32
+get player5555 54451 4000 350 33
+get total700
+action: raise 0
+get showdown
+common/ 
+CLUBS 9 
+DIAMONDS A 
+DIAMONDS 4 
+DIAMONDS Q 
+HEARTS 3 
+/common 
+2: 5555 SPADES 6 CLUBS 7 HIGH_CARD 
+1: 4444 HEARTS 4 SPADES 7 ONE_PAIR 
+get pot-win
+4444: 900 
+start to seat
+button 5555,54351,4000
+small 4444,13573,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: HEARTS-5
+base card: HEARTS-A
+value:533255268446761
+base card: 533255,268446761
+get inquire
+get player4444 13523 8000 50 30
+get total50
+action: check
+get flop
+flop card: HEARTS-3
+flop card: CLUBS-Q
+flop card: DIAMONDS-3
+get inquire
+get player4444 13523 8000 50 31
+get player5555 54301 4000 50 32
+get total100
+action: raise 0
+get turn
+turn card: CLUBS-5
+get inquire
+get player4444 13423 8000 150 31
+get player5555 54201 4000 150 33
+get total300
+action: check
+get river
+river card: DIAMONDS-Q
+get inquire
+get player4444 13423 8000 150 31
+get player5555 54201 4000 150 31
+get total300
+action: check
+get showdown
+common/ 
+HEARTS 3 
+CLUBS Q 
+DIAMONDS 3 
+CLUBS 5 
+DIAMONDS Q 
+/common 
+2: 4444 SPADES J CLUBS 6 TWO_PAIR 
+1: 5555 HEARTS 5 HEARTS A TWO_PAIR 
+get pot-win
+5555: 300 
+start to seat
+button 4444,13423,8000
+small 5555,54501,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: HEARTS-4
+base card: DIAMONDS-10
+value:27085316795671
+base card: 270853,16795671
+get inquire
+get player4444 13373 8000 50 32
+get player5555 54451 4000 50 30
+get total100
+action: check
+get flop
+flop card: DIAMONDS-5
+flop card: DIAMONDS-K
+flop card: HEARTS-2
+get inquire
+get player4444 13373 8000 50 32
+get player5555 54451 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: DIAMONDS-8
+get inquire
+get player4444 13273 8000 150 32
+get player5555 54351 4000 150 33
+get total300
+action: check
+get river
+river card: HEARTS-9
+get inquire
+get player4444 13273 8000 150 31
+get player5555 54351 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+DIAMONDS 5 
+DIAMONDS K 
+HEARTS 2 
+DIAMONDS 8 
+HEARTS 9 
+/common 
+2: 5555 HEARTS 4 DIAMONDS 10 HIGH_CARD 
+1: 4444 CLUBS 8 SPADES K TWO_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 5555,54251,4000
+small 4444,13673,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-5
+base card: HEARTS-A
+value:541447268446761
+base card: 541447,268446761
+get inquire
+get player4444 13623 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: SPADES-J
+flop card: HEARTS-6
+flop card: DIAMONDS-A
+get inquire
+get player4444 13523 8000 150 31
+get player5555 54101 4000 150 33
+get total300
+action: check
+get turn
+turn card: SPADES-A
+get inquire
+get player4444 13523 8000 150 31
+get player5555 54101 4000 150 31
+get total300
+action: raise 0
+get river
+river card: SPADES-4
+get inquire
+get player4444 13423 8000 250 31
+get player5555 54001 4000 250 33
+get total500
+action: check
+get showdown
+common/ 
+SPADES J 
+HEARTS 6 
+DIAMONDS A 
+SPADES A 
+SPADES 4 
+/common 
+2: 4444 HEARTS J CLUBS Q TWO_PAIR 
+1: 5555 DIAMONDS 5 HEARTS A THREE_OF_A_KIND 
+get pot-win
+5555: 500 
+start to seat
+button 4444,13423,8000
+small 5555,54501,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-A
+base card: HEARTS-9
+value:2684713378398611
+base card: 268471337,8398611
+get inquire
+get player4444 13373 8000 50 32
+get player5555 54451 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: HEARTS-7
+flop card: SPADES-10
+flop card: SPADES-7
+get inquire
+get player4444 13273 8000 150 32
+get player5555 54351 4000 150 33
+get total300
+action: check
+get turn
+turn card: SPADES-J
+get inquire
+get player4444 13273 8000 150 31
+get player5555 54351 4000 150 31
+get total300
+action: raise 0
+get river
+river card: DIAMONDS-K
+get inquire
+get player4444 13173 8000 250 32
+get player5555 54251 4000 250 33
+get total500
+action: check
+get showdown
+common/ 
+HEARTS 7 
+SPADES 10 
+SPADES 7 
+SPADES J 
+DIAMONDS K 
+/common 
+1: 5555 CLUBS A HEARTS 9 ONE_PAIR 
+2: 4444 DIAMONDS 3 HEARTS 2 ONE_PAIR 
+get pot-win
+5555: 500 
+start to seat
+button 5555,54751,4000
+small 4444,13173,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-6
+base card: DIAMONDS-8
+value:10537074212241
+base card: 1053707,4212241
+get inquire
+get player4444 13123 8000 50 30
+get total50
+action: check
+get flop
+flop card: HEARTS-7
+flop card: HEARTS-J
+flop card: SPADES-A
+get inquire
+get player4444 13123 8000 50 31
+get player5555 54701 4000 50 32
+get total100
+action: raise 0
+get turn
+turn card: SPADES-5
+get inquire
+get player4444 13023 8000 150 31
+get player5555 54601 4000 150 33
+get total300
+action: check
+get river
+river card: SPADES-K
+get inquire
+get player4444 13023 8000 150 31
+get player5555 54601 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+HEARTS 7 
+HEARTS J 
+SPADES A 
+SPADES 5 
+SPADES K 
+/common 
+1: 4444 HEARTS 4 SPADES 7 ONE_PAIR 
+2: 5555 SPADES 6 DIAMONDS 8 HIGH_CARD 
+get pot-win
+4444: 500 
+start to seat
+button 4444,13423,8000
+small 5555,54501,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-10
+base card: DIAMONDS-5
+value:16795671541447
+base card: 16795671,541447
+get inquire
+get player4444 13373 8000 50 32
+get player5555 54451 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: SPADES-2
+flop card: SPADES-6
+flop card: SPADES-8
+get inquire
+get player4444 13273 8000 150 32
+get player5555 54351 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: HEARTS-Q
+get inquire
+get player4444 13173 8000 250 32
+get player5555 54251 4000 250 33
+get total500
+action: check
+get river
+river card: HEARTS-2
+get inquire
+get player4444 13173 8000 250 31
+get player5555 54251 4000 250 31
+get total500
+action: raise 0
+get showdown
+common/ 
+SPADES 2 
+SPADES 6 
+SPADES 8 
+HEARTS Q 
+HEARTS 2 
+/common 
+2: 5555 DIAMONDS 10 DIAMONDS 5 ONE_PAIR 
+1: 4444 HEARTS 4 DIAMONDS K ONE_PAIR 
+get pot-win
+4444: 700 
+start to seat
+button 5555,54151,4000
+small 4444,13773,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-5
+base card: SPADES-6
+value:5291591053707
+base card: 529159,1053707
+get inquire
+get player4444 13723 8000 50 30
+get total50
+action: check
+get flop
+flop card: DIAMONDS-6
+flop card: HEARTS-8
+flop card: HEARTS-K
+get inquire
+get player4444 13723 8000 50 31
+get player5555 54101 4000 50 32
+get total100
+action: raise 0
+get turn
+turn card: CLUBS-Q
+get inquire
+get player4444 13623 8000 150 31
+get player5555 54001 4000 150 33
+get total300
+action: check
+get river
+river card: HEARTS-A
+get inquire
+get player4444 13623 8000 150 31
+get player5555 54001 4000 150 31
+get total300
+action: check
+get showdown
+common/ 
+DIAMONDS 6 
+HEARTS 8 
+HEARTS K 
+CLUBS Q 
+HEARTS A 
+/common 
+1: 4444 DIAMONDS 10 DIAMONDS Q ONE_PAIR 
+2: 5555 SPADES 5 SPADES 6 ONE_PAIR 
+get pot-win
+4444: 300 
+start to seat
+button 4444,13923,8000
+small 5555,54001,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-10
+base card: HEARTS-5
+value:16812055533255
+base card: 16812055,533255
+get inquire
+get player4444 13873 8000 50 32
+get player5555 53951 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: HEARTS-7
+flop card: HEARTS-Q
+flop card: DIAMONDS-K
+get inquire
+get player4444 13773 8000 150 32
+get player5555 53851 4000 150 33
+get total300
+action: check
+get turn
+turn card: HEARTS-J
+get inquire
+get player4444 13773 8000 150 31
+get player5555 53851 4000 150 31
+get total300
+action: check
+get river
+river card: SPADES-2
+get inquire
+get player4444 13773 8000 150 31
+get player5555 53851 4000 150 31
+get total300
+action: check
+get showdown
+common/ 
+HEARTS 7 
+HEARTS Q 
+DIAMONDS K 
+HEARTS J 
+SPADES 2 
+/common 
+2: 5555 CLUBS 10 HEARTS 5 HIGH_CARD 
+1: 4444 SPADES K SPADES 9 ONE_PAIR 
+get pot-win
+4444: 300 
+start to seat
+button 5555,53851,4000
+small 4444,14073,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-6
+base card: DIAMONDS-7
+value:10823792114829
+base card: 1082379,2114829
+get inquire
+get player4444 14023 8000 50 30
+get total50
+action: check
+get flop
+flop card: SPADES-3
+flop card: SPADES-5
+flop card: HEARTS-10
+get inquire
+get player4444 14023 8000 50 31
+get player5555 53801 4000 50 32
+get total100
+action: check
+get turn
+turn card: DIAMONDS-8
+get inquire
+get player4444 14023 8000 50 31
+get player5555 53801 4000 50 31
+get total100
+action: check
+get river
+river card: HEARTS-J
+get inquire
+get player4444 14023 8000 50 31
+get player5555 53801 4000 50 31
+get total100
+action: check
+get showdown
+common/ 
+SPADES 3 
+SPADES 5 
+HEARTS 10 
+DIAMONDS 8 
+HEARTS J 
+/common 
+2: 4444 SPADES 7 CLUBS 4 HIGH_CARD 
+1: 5555 CLUBS 6 DIAMONDS 7 HIGH_CARD 
+get pot-win
+5555: 100 
+start to seat
+button 4444,14023,8000
+small 5555,53901,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-6
+base card: HEARTS-8
+value:10823794204049
+base card: 1082379,4204049
+get inquire
+get player4444 13973 8000 50 32
+get player5555 53851 4000 50 30
+get total100
+action: check
+get flop
+flop card: SPADES-5
+flop card: CLUBS-5
+flop card: CLUBS-3
+get inquire
+get player4444 13973 8000 50 32
+get player5555 53851 4000 50 31
+get total100
+action: check
+get turn
+turn card: CLUBS-K
+get inquire
+get player4444 13973 8000 50 31
+get player5555 53851 4000 50 31
+get total100
+action: check
+get river
+river card: HEARTS-K
+get inquire
+get player4444 13973 8000 50 31
+get player5555 53851 4000 50 31
+get total100
+action: raise 0
+get showdown
+common/ 
+SPADES 5 
+CLUBS 5 
+CLUBS 3 
+CLUBS K 
+HEARTS K 
+/common 
+2: 5555 CLUBS 6 HEARTS 8 TWO_PAIR 
+1: 4444 SPADES 2 SPADES 9 TWO_PAIR 
+get pot-win
+4444: 300 
+start to seat
+button 5555,53751,4000
+small 4444,14173,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-2
+base card: SPADES-4
+value:81922266757
+base card: 81922,266757
+get inquire
+get player4444 14123 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: CLUBS-8
+flop card: DIAMONDS-Q
+flop card: SPADES-A
+get inquire
+get player4444 14023 8000 150 31
+get player5555 53601 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: SPADES-8
+get inquire
+get player4444 13923 8000 250 31
+get player5555 53501 4000 250 33
+get total500
+action: raise 0
+get river
+river card: SPADES-3
+get inquire
+get player4444 13823 8000 350 31
+get player5555 53401 4000 350 33
+get total700
+action: raise 0
+get showdown
+common/ 
+CLUBS 8 
+DIAMONDS Q 
+SPADES A 
+SPADES 8 
+SPADES 3 
+/common 
+1: 4444 HEARTS K HEARTS Q TWO_PAIR 
+2: 5555 DIAMONDS 2 SPADES 4 ONE_PAIR 
+get pot-win
+4444: 900 
+start to seat
+button 4444,14623,8000
+small 5555,53301,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-3
+base card: DIAMONDS-10
+value:13542716795671
+base card: 135427,16795671
+get inquire
+get player4444 14573 8000 50 32
+get player5555 53251 4000 50 30
+get total100
+action: check
+get flop
+flop card: SPADES-8
+flop card: DIAMONDS-A
+flop card: CLUBS-9
+get inquire
+get player4444 14573 8000 50 32
+get player5555 53251 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: CLUBS-2
+get inquire
+get player4444 14473 8000 150 32
+get player5555 53151 4000 150 33
+get total300
+action: raise 0
+get river
+river card: SPADES-K
+get inquire
+get player4444 14373 8000 250 32
+get player5555 53051 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+SPADES 8 
+DIAMONDS A 
+CLUBS 9 
+CLUBS 2 
+SPADES K 
+/common 
+2: 5555 SPADES 3 DIAMONDS 10 HIGH_CARD 
+1: 4444 DIAMONDS J SPADES J ONE_PAIR 
+get pot-win
+4444: 700 
+start to seat
+button 5555,52951,4000
+small 4444,14973,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-K
+base card: DIAMONDS-2
+value:13425334981922
+base card: 134253349,81922
+get inquire
+get player4444 14923 8000 50 30
+get total50
+action: check
+get flop
+flop card: CLUBS-9
+flop card: SPADES-9
+flop card: HEARTS-Q
+get inquire
+get player4444 14923 8000 50 31
+get player5555 52901 4000 50 32
+get total100
+action: check
+get turn
+turn card: CLUBS-8
+get inquire
+get player4444 14923 8000 50 31
+get player5555 52901 4000 50 31
+get total100
+action: check
+get river
+river card: DIAMONDS-9
+get inquire
+get player4444 14923 8000 50 31
+get player5555 52901 4000 50 31
+get total100
+action: check
+get showdown
+common/ 
+CLUBS 9 
+SPADES 9 
+HEARTS Q 
+CLUBS 8 
+DIAMONDS 9 
+/common 
+2: 4444 HEARTS 4 SPADES 3 THREE_OF_A_KIND 
+1: 5555 CLUBS K DIAMONDS 2 THREE_OF_A_KIND 
+get pot-win
+5555: 100 
+start to seat
+button 4444,14923,8000
+small 5555,53001,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: HEARTS-A
+base card: DIAMONDS-Q
+value:26844676167127839
+base card: 268446761,67127839
+get inquire
+get player4444 14873 8000 50 32
+get player5555 52951 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: DIAMONDS-A
+flop card: DIAMONDS-7
+flop card: HEARTS-3
+get inquire
+get player4444 14773 8000 150 32
+get player5555 52851 4000 150 33
+get total300
+action: check
+get turn
+turn card: SPADES-6
+get inquire
+get player4444 14773 8000 150 31
+get player5555 52851 4000 150 31
+get total300
+action: check
+get river
+river card: CLUBS-10
+get inquire
+get player4444 14773 8000 150 31
+get player5555 52851 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+DIAMONDS A 
+DIAMONDS 7 
+HEARTS 3 
+SPADES 6 
+CLUBS 10 
+/common 
+1: 5555 HEARTS A DIAMONDS Q ONE_PAIR 
+2: 4444 CLUBS 4 DIAMONDS K HIGH_CARD 
+get pot-win
+5555: 500 
+start to seat
+button 5555,53251,4000
+small 4444,14673,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: HEARTS-7
+base card: CLUBS-K
+value:2106637134253349
+base card: 2106637,134253349
+get inquire
+get player4444 14623 8000 50 30
+get total50
+action: check
+get flop
+flop card: HEARTS-3
+flop card: SPADES-3
+flop card: CLUBS-7
+get inquire
+get player4444 14623 8000 50 31
+get player5555 53201 4000 50 32
+get total100
+action: check
+get turn
+turn card: DIAMONDS-10
+get inquire
+get player4444 14623 8000 50 31
+get player5555 53201 4000 50 31
+get total100
+action: check
+get river
+river card: HEARTS-K
+get inquire
+get player4444 14623 8000 50 31
+get player5555 53201 4000 50 31
+get total100
+action: raise 0
+get showdown
+common/ 
+HEARTS 3 
+SPADES 3 
+CLUBS 7 
+DIAMONDS 10 
+HEARTS K 
+/common 
+1: 4444 CLUBS 3 HEARTS 2 THREE_OF_A_KIND 
+2: 5555 HEARTS 7 CLUBS K TWO_PAIR 
+get pot-win
+4444: 300 
+start to seat
+button 4444,14823,8000
+small 5555,53101,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-Q
+base card: HEARTS-8
+value:671155514204049
+base card: 67115551,4204049
+get inquire
+get player4444 14773 8000 50 32
+get player5555 53051 4000 50 30
+get total100
+action: check
+get flop
+flop card: CLUBS-K
+flop card: CLUBS-9
+flop card: DIAMONDS-9
+get inquire
+get player4444 14773 8000 50 32
+get player5555 53051 4000 50 31
+get total100
+action: check
+get turn
+turn card: HEARTS-Q
+get inquire
+get player4444 14773 8000 50 31
+get player5555 53051 4000 50 31
+get total100
+action: check
+get river
+river card: SPADES-A
+get inquire
+get player4444 14773 8000 50 31
+get player5555 53051 4000 50 31
+get total100
+action: check
+get showdown
+common/ 
+CLUBS K 
+CLUBS 9 
+DIAMONDS 9 
+HEARTS Q 
+SPADES A 
+/common 
+2: 5555 SPADES Q HEARTS 8 TWO_PAIR 
+1: 4444 SPADES 7 DIAMONDS K TWO_PAIR 
+get pot-win
+4444: 100 
+start to seat
+button 5555,53051,4000
+small 4444,14873,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-6
+base card: DIAMONDS-4
+value:1053707279045
+base card: 1053707,279045
+get inquire
+get player4444 14823 8000 50 30
+get total50
+action: check
+get flop
+flop card: CLUBS-3
+flop card: CLUBS-4
+flop card: CLUBS-2
+get inquire
+get player4444 14823 8000 50 31
+get player5555 53001 4000 50 32
+get total100
+action: raise 0
+get turn
+turn card: CLUBS-Q
+get inquire
+get player4444 14723 8000 150 31
+get player5555 52901 4000 150 33
+get total300
+action: raise 0
+get river
+river card: SPADES-4
+get inquire
+get player4444 14623 8000 250 31
+get player5555 52801 4000 250 33
+get total500
+action: check
+get showdown
+common/ 
+CLUBS 3 
+CLUBS 4 
+CLUBS 2 
+CLUBS Q 
+SPADES 4 
+/common 
+2: 4444 HEARTS Q SPADES 5 TWO_PAIR 
+1: 5555 SPADES 6 DIAMONDS 4 THREE_OF_A_KIND 
+get pot-win
+5555: 500 
+start to seat
+button 4444,14623,8000
+small 5555,53301,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-Q
+base card: HEARTS-10
+value:6712783916787479
+base card: 67127839,16787479
+get inquire
+get player4444 14573 8000 50 32
+get player5555 53251 4000 50 30
+get total100
+action: check
+get flop
+flop card: SPADES-6
+flop card: SPADES-2
+flop card: CLUBS-5
+get inquire
+get player4444 14573 8000 50 32
+get player5555 53251 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: CLUBS-9
+get inquire
+get player4444 14473 8000 150 32
+get player5555 53151 4000 150 33
+get total300
+action: raise 0
+get river
+river card: DIAMONDS-6
+get inquire
+get player4444 14373 8000 250 32
+get player5555 53051 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+SPADES 6 
+SPADES 2 
+CLUBS 5 
+CLUBS 9 
+DIAMONDS 6 
+/common 
+2: 5555 DIAMONDS Q HEARTS 10 ONE_PAIR 
+1: 4444 SPADES K SPADES 10 ONE_PAIR 
+get pot-win
+4444: 700 
+start to seat
+button 5555,52951,4000
+small 4444,14973,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-Q
+base card: SPADES-6
+value:671442231053707
+base card: 67144223,1053707
+get inquire
+get player4444 14923 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: HEARTS-5
+flop card: SPADES-A
+flop card: SPADES-9
+get inquire
+get player4444 14823 8000 150 31
+get player5555 52801 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: SPADES-3
+get inquire
+get player4444 14723 8000 250 31
+get player5555 52701 4000 250 33
+get total500
+action: raise 0
+get river
+river card: HEARTS-10
+get inquire
+get player4444 14623 8000 350 31
+get player5555 52601 4000 350 33
+get total700
+action: raise 0
+get showdown
+common/ 
+HEARTS 5 
+SPADES A 
+SPADES 9 
+SPADES 3 
+HEARTS 10 
+/common 
+1: 4444 DIAMONDS 2 CLUBS K HIGH_CARD 
+2: 5555 CLUBS Q SPADES 6 HIGH_CARD 
+get pot-win
+4444: 900 
+start to seat
+button 4444,15423,8000
+small 5555,52501,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-10
+base card: HEARTS-6
+value:168120551057803
+base card: 16812055,1057803
+get inquire
+get player4444 15373 8000 50 32
+get player5555 52451 4000 50 30
+get total100
+action: check
+get flop
+flop card: HEARTS-A
+flop card: SPADES-10
+flop card: CLUBS-7
+get inquire
+get player4444 15373 8000 50 32
+get player5555 52451 4000 50 31
+get total100
+action: check
+get turn
+turn card: CLUBS-K
+get inquire
+get player4444 15373 8000 50 31
+get player5555 52451 4000 50 31
+get total100
+action: raise 0
+get river
+river card: DIAMONDS-K
+get inquire
+get player4444 15273 8000 150 32
+get player5555 52351 4000 150 33
+get total300
+action: check
+get showdown
+common/ 
+HEARTS A 
+SPADES 10 
+CLUBS 7 
+CLUBS K 
+DIAMONDS K 
+/common 
+1: 5555 CLUBS 10 HEARTS 6 TWO_PAIR 
+2: 4444 HEARTS 2 SPADES J ONE_PAIR 
+get pot-win
+5555: 300 
+start to seat
+button 5555,52651,4000
+small 4444,15273,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: HEARTS-2
+base card: CLUBS-9
+value:737308423187
+base card: 73730,8423187
+get inquire
+get player4444 15223 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: CLUBS-4
+flop card: DIAMONDS-2
+flop card: DIAMONDS-4
+get inquire
+get player4444 15123 8000 150 31
+get player5555 52501 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: SPADES-5
+get inquire
+get player4444 15023 8000 250 31
+get player5555 52401 4000 250 33
+get total500
+action: check
+get river
+river card: DIAMONDS-6
+get inquire
+get player4444 15023 8000 250 31
+get player5555 52401 4000 250 31
+get total500
+action: check
+get showdown
+common/ 
+CLUBS 4 
+DIAMONDS 2 
+DIAMONDS 4 
+SPADES 5 
+DIAMONDS 6 
+/common 
+1: 4444 DIAMONDS J SPADES 3 STRAIGHT 
+2: 5555 HEARTS 2 CLUBS 9 TWO_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 4444,15523,8000
+small 5555,52401,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-7
+base card: DIAMONDS-10
+value:213121316795671
+base card: 2131213,16795671
+get inquire
+get player4444 15473 8000 50 32
+get player5555 52351 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: SPADES-5
+flop card: CLUBS-K
+flop card: CLUBS-9
+get inquire
+get player4444 15373 8000 150 32
+get player5555 52251 4000 150 33
+get total300
+action: check
+get turn
+turn card: HEARTS-7
+get inquire
+get player4444 15373 8000 150 31
+get player5555 52251 4000 150 31
+get total300
+action: check
+get river
+river card: CLUBS-Q
+get inquire
+get player4444 15373 8000 150 31
+get player5555 52251 4000 150 31
+get total300
+action: check
+get showdown
+common/ 
+SPADES 5 
+CLUBS K 
+CLUBS 9 
+HEARTS 7 
+CLUBS Q 
+/common 
+2: 5555 CLUBS 7 DIAMONDS 10 ONE_PAIR 
+1: 4444 HEARTS 9 CLUBS 6 ONE_PAIR 
+get pot-win
+4444: 300 
+start to seat
+button 5555,52251,4000
+small 4444,15673,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-2
+base card: CLUBS-8
+value:983064228625
+base card: 98306,4228625
+get inquire
+get player4444 15623 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: DIAMONDS-J
+flop card: SPADES-8
+flop card: SPADES-Q
+get inquire
+get player4444 15523 8000 150 31
+get player5555 52101 4000 150 33
+get total300
+action: check
+get turn
+turn card: DIAMONDS-9
+get inquire
+get player4444 15523 8000 150 31
+get player5555 52101 4000 150 31
+get total300
+action: check
+get river
+river card: DIAMONDS-3
+get inquire
+get player4444 15523 8000 150 31
+get player5555 52101 4000 150 31
+get total300
+action: check
+get showdown
+common/ 
+DIAMONDS J 
+SPADES 8 
+SPADES Q 
+DIAMONDS 9 
+DIAMONDS 3 
+/common 
+1: 4444 HEARTS 10 HEARTS 9 STRAIGHT 
+2: 5555 CLUBS 2 CLUBS 8 ONE_PAIR 
+get pot-win
+4444: 300 
+start to seat
+button 4444,15823,8000
+small 5555,52101,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-7
+base card: CLUBS-K
+value:2114829134253349
+base card: 2114829,134253349
+get inquire
+get player4444 15773 8000 50 32
+get player5555 52051 4000 50 30
+get total100
+action: check
+get flop
+flop card: SPADES-5
+flop card: HEARTS-7
+flop card: CLUBS-9
+get inquire
+get player4444 15773 8000 50 32
+get player5555 52051 4000 50 31
+get total100
+action: check
+get turn
+turn card: CLUBS-8
+get inquire
+get player4444 15773 8000 50 31
+get player5555 52051 4000 50 31
+get total100
+action: raise 0
+get river
+river card: SPADES-2
+get inquire
+get player4444 15673 8000 150 32
+get player5555 51951 4000 150 33
+get total300
+action: raise 0
+get showdown
+common/ 
+SPADES 5 
+HEARTS 7 
+CLUBS 9 
+CLUBS 8 
+SPADES 2 
+/common 
+2: 5555 DIAMONDS 7 CLUBS K ONE_PAIR 
+1: 4444 CLUBS A HEARTS A ONE_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 5555,51851,4000
+small 4444,16073,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-10
+base card: SPADES-4
+value:16783383266757
+base card: 16783383,266757
+get inquire
+get player4444 16023 8000 50 30
+get total50
+action: check
+get flop
+flop card: SPADES-J
+flop card: CLUBS-3
+flop card: CLUBS-A
+get inquire
+get player4444 16023 8000 50 31
+get player5555 51801 4000 50 32
+get total100
+action: check
+get turn
+turn card: HEARTS-5
+get inquire
+get player4444 16023 8000 50 31
+get player5555 51801 4000 50 31
+get total100
+action: raise 0
+get river
+river card: DIAMONDS-2
+get inquire
+get player4444 15923 8000 150 31
+get player5555 51701 4000 150 33
+get total300
+action: raise 0
+get showdown
+common/ 
+SPADES J 
+CLUBS 3 
+CLUBS A 
+HEARTS 5 
+DIAMONDS 2 
+/common 
+2: 4444 SPADES 8 HEARTS 6 HIGH_CARD 
+1: 5555 SPADES 10 SPADES 4 STRAIGHT 
+get pot-win
+5555: 500 
+start to seat
+button 4444,15823,8000
+small 5555,52101,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-9
+base card: CLUBS-Q
+value:842318767144223
+base card: 8423187,67144223
+get inquire
+get player4444 15773 8000 50 32
+get player5555 52051 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: HEARTS-A
+flop card: CLUBS-J
+flop card: DIAMONDS-5
+get inquire
+get player4444 15673 8000 150 32
+get player5555 51951 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: DIAMONDS-7
+get inquire
+get player4444 15573 8000 250 32
+get player5555 51851 4000 250 33
+get total500
+action: check
+get river
+river card: HEARTS-8
+get inquire
+get player4444 15573 8000 250 31
+get player5555 51851 4000 250 31
+get total500
+action: check
+get showdown
+common/ 
+HEARTS A 
+CLUBS J 
+DIAMONDS 5 
+DIAMONDS 7 
+HEARTS 8 
+/common 
+2: 5555 CLUBS 9 CLUBS Q HIGH_CARD 
+1: 4444 SPADES 4 DIAMONDS A ONE_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 5555,51851,4000
+small 4444,16073,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-K
+base card: SPADES-A
+value:134236965268442665
+base card: 134236965,268442665
+get inquire
+get player4444 16023 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: SPADES-3
+flop card: DIAMONDS-2
+flop card: SPADES-7
+get inquire
+get player4444 15923 8000 150 31
+get player5555 51701 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: CLUBS-K
+get inquire
+get player4444 15823 8000 250 31
+get player5555 51601 4000 250 33
+get total500
+action: raise 0
+get river
+river card: DIAMONDS-3
+get inquire
+get player4444 15723 8000 350 31
+get player5555 51501 4000 350 33
+get total700
+action: check
+get showdown
+common/ 
+SPADES 3 
+DIAMONDS 2 
+SPADES 7 
+CLUBS K 
+DIAMONDS 3 
+/common 
+2: 4444 DIAMONDS 9 HEARTS 8 ONE_PAIR 
+1: 5555 DIAMONDS K SPADES A TWO_PAIR 
+get pot-win
+5555: 700 
+start to seat
+button 4444,15723,8000
+small 5555,52201,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-8
+base card: CLUBS-A
+value:4228625268471337
+base card: 4228625,268471337
+get inquire
+get player4444 15673 8000 50 32
+get player5555 52151 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: HEARTS-6
+flop card: DIAMONDS-10
+flop card: DIAMONDS-9
+get inquire
+get player4444 15573 8000 150 32
+get player5555 52051 4000 150 33
+get total300
+action: check
+get turn
+turn card: DIAMONDS-A
+get inquire
+get player4444 15573 8000 150 31
+get player5555 52051 4000 150 31
+get total300
+action: check
+get river
+river card: HEARTS-5
+get inquire
+get player4444 15573 8000 150 31
+get player5555 52051 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+HEARTS 6 
+DIAMONDS 10 
+DIAMONDS 9 
+DIAMONDS A 
+HEARTS 5 
+/common 
+1: 5555 CLUBS 8 CLUBS A ONE_PAIR 
+2: 4444 SPADES 3 HEARTS Q HIGH_CARD 
+get pot-win
+5555: 500 
+start to seat
+button 5555,52451,4000
+small 4444,15473,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: HEARTS-7
+base card: CLUBS-K
+value:2106637134253349
+base card: 2106637,134253349
+get inquire
+get player4444 15423 8000 50 30
+get total50
+action: check
+get flop
+flop card: HEARTS-3
+flop card: CLUBS-10
+flop card: SPADES-4
+get inquire
+get player4444 15423 8000 50 31
+get player5555 52401 4000 50 32
+get total100
+action: check
+get turn
+turn card: CLUBS-4
+get inquire
+get player4444 15423 8000 50 31
+get player5555 52401 4000 50 31
+get total100
+action: check
+get river
+river card: HEARTS-Q
+get inquire
+get player4444 15423 8000 50 31
+get player5555 52401 4000 50 31
+get total100
+action: check
+get showdown
+common/ 
+HEARTS 3 
+CLUBS 10 
+SPADES 4 
+CLUBS 4 
+HEARTS Q 
+/common 
+1: 4444 HEARTS 9 SPADES Q TWO_PAIR 
+2: 5555 HEARTS 7 CLUBS K ONE_PAIR 
+get pot-win
+4444: 100 
+start to seat
+button 4444,15523,8000
+small 5555,52401,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-J
+base card: HEARTS-4
+value:33560861270853
+base card: 33560861,270853
+get inquire
+get player4444 15473 8000 50 32
+get player5555 52351 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: HEARTS-K
+flop card: SPADES-7
+flop card: CLUBS-5
+get inquire
+get player4444 15373 8000 150 32
+get player5555 52251 4000 150 33
+get total300
+action: check
+get turn
+turn card: CLUBS-7
+get inquire
+get player4444 15373 8000 150 31
+get player5555 52251 4000 150 31
+get total300
+action: raise 0
+get river
+river card: HEARTS-9
+get inquire
+get player4444 15273 8000 250 32
+get player5555 52151 4000 250 33
+get total500
+action: check
+get showdown
+common/ 
+HEARTS K 
+SPADES 7 
+CLUBS 5 
+CLUBS 7 
+HEARTS 9 
+/common 
+2: 5555 SPADES J HEARTS 4 ONE_PAIR 
+1: 4444 SPADES 6 HEARTS 7 THREE_OF_A_KIND 
+get pot-win
+4444: 500 
+start to seat
+button 5555,52151,4000
+small 4444,15773,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: HEARTS-K
+base card: CLUBS-J
+value:13422877333589533
+base card: 134228773,33589533
+get inquire
+get player4444 15723 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: CLUBS-9
+flop card: HEARTS-4
+flop card: CLUBS-6
+get inquire
+get player4444 15623 8000 150 31
+get player5555 52001 4000 150 33
+get total300
+action: check
+get turn
+turn card: HEARTS-2
+get inquire
+get player4444 15623 8000 150 31
+get player5555 52001 4000 150 31
+get total300
+action: check
+get river
+river card: SPADES-7
+get inquire
+get player4444 15623 8000 150 31
+get player5555 52001 4000 150 31
+get total300
+action: check
+get showdown
+common/ 
+CLUBS 9 
+HEARTS 4 
+CLUBS 6 
+HEARTS 2 
+SPADES 7 
+/common 
+1: 4444 HEARTS J DIAMONDS 9 ONE_PAIR 
+2: 5555 HEARTS K CLUBS J HIGH_CARD 
+get pot-win
+4444: 300 
+start to seat
+button 4444,15923,8000
+small 5555,52001,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-6
+base card: DIAMONDS-10
+value:106599516795671
+base card: 1065995,16795671
+get inquire
+get player4444 15873 8000 50 32
+get player5555 51951 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: HEARTS-10
+flop card: DIAMONDS-J
+flop card: DIAMONDS-7
+get inquire
+get player4444 15773 8000 150 32
+get player5555 51851 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: SPADES-2
+get inquire
+get player4444 15673 8000 250 32
+get player5555 51751 4000 250 33
+get total500
+action: raise 0
+get river
+river card: HEARTS-9
+get inquire
+get player4444 15573 8000 350 32
+get player5555 51651 4000 350 33
+get total700
+action: check
+get showdown
+common/ 
+HEARTS 10 
+DIAMONDS J 
+DIAMONDS 7 
+SPADES 2 
+HEARTS 9 
+/common 
+2: 5555 DIAMONDS 6 DIAMONDS 10 ONE_PAIR 
+1: 4444 SPADES K HEARTS J ONE_PAIR 
+get pot-win
+4444: 700 
+start to seat
+button 5555,51651,4000
+small 4444,16273,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-5
+base card: CLUBS-3
+value:541447164099
+base card: 541447,164099
+get inquire
+get player4444 16223 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: DIAMONDS-J
+flop card: SPADES-4
+flop card: SPADES-A
+get inquire
+get player4444 16123 8000 150 31
+get player5555 51501 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: CLUBS-5
+get inquire
+get player4444 16023 8000 250 31
+get player5555 51401 4000 250 33
+get total500
+action: raise 0
+get river
+river card: HEARTS-7
+get inquire
+get player4444 15923 8000 350 31
+get player5555 51301 4000 350 33
+get total700
+action: raise 0
+get showdown
+common/ 
+DIAMONDS J 
+SPADES 4 
+SPADES A 
+CLUBS 5 
+HEARTS 7 
+/common 
+1: 4444 DIAMONDS 6 HEARTS 5 ONE_PAIR 
+1: 5555 DIAMONDS 5 CLUBS 3 ONE_PAIR 
+get pot-win
+4444: 450 
+5555: 450 
+start to seat
+button 4444,16273,8000
+small 5555,51651,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-5
+base card: CLUBS-8
+value:5414474228625
+base card: 541447,4228625
+get inquire
+get player4444 16223 8000 50 32
+get player5555 51601 4000 50 30
+get total100
+action: check
+get flop
+flop card: SPADES-J
+flop card: DIAMONDS-10
+flop card: HEARTS-2
+get inquire
+get player4444 16223 8000 50 32
+get player5555 51601 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: SPADES-K
+get inquire
+get player4444 16123 8000 150 32
+get player5555 51501 4000 150 33
+get total300
+action: raise 0
+get river
+river card: CLUBS-4
+get inquire
+get player4444 16023 8000 250 32
+get player5555 51401 4000 250 33
+get total500
+action: check
+get showdown
+common/ 
+SPADES J 
+DIAMONDS 10 
+HEARTS 2 
+SPADES K 
+CLUBS 4 
+/common 
+2: 5555 DIAMONDS 5 CLUBS 8 HIGH_CARD 
+1: 4444 DIAMONDS 2 CLUBS K TWO_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 5555,51401,4000
+small 4444,16523,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-5
+base card: DIAMONDS-J
+value:54144733573149
+base card: 541447,33573149
+get inquire
+get player4444 16473 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: SPADES-8
+flop card: HEARTS-6
+flop card: HEARTS-J
+get inquire
+get player4444 16373 8000 150 31
+get player5555 51251 4000 150 33
+get total300
+action: check
+get turn
+turn card: SPADES-K
+get inquire
+get player4444 16373 8000 150 31
+get player5555 51251 4000 150 31
+get total300
+action: raise 0
+get river
+river card: DIAMONDS-9
+get inquire
+get player4444 16273 8000 250 31
+get player5555 51151 4000 250 33
+get total500
+action: check
+get showdown
+common/ 
+SPADES 8 
+HEARTS 6 
+HEARTS J 
+SPADES K 
+DIAMONDS 9 
+/common 
+2: 4444 HEARTS 2 SPADES 3 HIGH_CARD 
+1: 5555 DIAMONDS 5 DIAMONDS J ONE_PAIR 
+get pot-win
+5555: 500 
+start to seat
+button 4444,16273,8000
+small 5555,51651,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-7
+base card: HEARTS-4
+value:2131213270853
+base card: 2131213,270853
+get inquire
+get player4444 16223 8000 50 32
+get player5555 51601 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: CLUBS-2
+flop card: CLUBS-A
+flop card: CLUBS-5
+get inquire
+get player4444 16123 8000 150 32
+get player5555 51501 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: DIAMONDS-2
+get inquire
+get player4444 16023 8000 250 32
+get player5555 51401 4000 250 33
+get total500
+action: raise 0
+get river
+river card: DIAMONDS-7
+get inquire
+get player4444 15923 8000 350 32
+get player5555 51301 4000 350 33
+get total700
+action: raise 0
+get showdown
+common/ 
+CLUBS 2 
+CLUBS A 
+CLUBS 5 
+DIAMONDS 2 
+DIAMONDS 7 
+/common 
+1: 5555 CLUBS 7 HEARTS 4 TWO_PAIR 
+2: 4444 HEARTS 3 CLUBS Q ONE_PAIR 
+get pot-win
+5555: 900 
+start to seat
+button 5555,52101,4000
+small 4444,15823,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-K
+base card: SPADES-5
+value:134224677529159
+base card: 134224677,529159
+get inquire
+get player4444 15773 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: DIAMONDS-4
+flop card: SPADES-4
+flop card: CLUBS-K
+get inquire
+get player4444 15673 8000 150 31
+get player5555 51951 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: CLUBS-10
+get inquire
+get player4444 15573 8000 250 31
+get player5555 51851 4000 250 33
+get total500
+action: check
+get river
+river card: HEARTS-A
+get inquire
+get player4444 15573 8000 250 31
+get player5555 51851 4000 250 31
+get total500
+action: check
+get showdown
+common/ 
+DIAMONDS 4 
+SPADES 4 
+CLUBS K 
+CLUBS 10 
+HEARTS A 
+/common 
+2: 4444 DIAMONDS 7 CLUBS 8 ONE_PAIR 
+1: 5555 SPADES K SPADES 5 TWO_PAIR 
+get pot-win
+5555: 500 
+start to seat
+button 4444,15573,8000
+small 5555,52351,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-J
+base card: SPADES-6
+value:335731491053707
+base card: 33573149,1053707
+get inquire
+get player4444 15523 8000 50 32
+get player5555 52301 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: DIAMONDS-Q
+flop card: SPADES-3
+flop card: DIAMONDS-10
+get inquire
+get player4444 15423 8000 150 32
+get player5555 52201 4000 150 33
+get total300
+action: check
+get turn
+turn card: CLUBS-Q
+get inquire
+get player4444 15423 8000 150 31
+get player5555 52201 4000 150 31
+get total300
+action: check
+get river
+river card: CLUBS-3
+get inquire
+get player4444 15423 8000 150 31
+get player5555 52201 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+DIAMONDS Q 
+SPADES 3 
+DIAMONDS 10 
+CLUBS Q 
+CLUBS 3 
+/common 
+2: 5555 DIAMONDS J SPADES 6 TWO_PAIR 
+1: 4444 HEARTS 9 CLUBS A TWO_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 5555,52101,4000
+small 4444,15823,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-3
+base card: DIAMONDS-A
+value:135427268454953
+base card: 135427,268454953
+get inquire
+get player4444 15773 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: SPADES-7
+flop card: CLUBS-A
+flop card: SPADES-K
+get inquire
+get player4444 15673 8000 150 31
+get player5555 51951 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: SPADES-J
+get inquire
+get player4444 15573 8000 250 31
+get player5555 51851 4000 250 33
+get total500
+action: check
+get river
+river card: HEARTS-J
+get inquire
+get player4444 15573 8000 250 31
+get player5555 51851 4000 250 31
+get total500
+action: raise 0
+get showdown
+common/ 
+SPADES 7 
+CLUBS A 
+SPADES K 
+SPADES J 
+HEARTS J 
+/common 
+1: 4444 DIAMONDS 10 SPADES A TWO_PAIR 
+1: 5555 SPADES 3 DIAMONDS A TWO_PAIR 
+get pot-win
+4444: 350 
+5555: 350 
+start to seat
+button 4444,15823,8000
+small 5555,52101,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-6
+base card: DIAMONDS-4
+value:1082379279045
+base card: 1082379,279045
+get inquire
+get player4444 15773 8000 50 32
+get player5555 52051 4000 50 30
+get total100
+action: check
+get flop
+flop card: HEARTS-9
+flop card: HEARTS-10
+flop card: CLUBS-A
+get inquire
+get player4444 15773 8000 50 32
+get player5555 52051 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: DIAMONDS-K
+get inquire
+get player4444 15673 8000 150 32
+get player5555 51951 4000 150 33
+get total300
+action: check
+get river
+river card: DIAMONDS-9
+get inquire
+get player4444 15673 8000 150 31
+get player5555 51951 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+HEARTS 9 
+HEARTS 10 
+CLUBS A 
+DIAMONDS K 
+DIAMONDS 9 
+/common 
+2: 5555 CLUBS 6 DIAMONDS 4 ONE_PAIR 
+1: 4444 CLUBS 5 DIAMONDS A TWO_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 5555,51851,4000
+small 4444,16073,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: SPADES-Q
+base card: DIAMONDS-K
+value:67115551134236965
+base card: 67115551,134236965
+get inquire
+get player4444 16023 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: HEARTS-9
+flop card: SPADES-10
+flop card: DIAMONDS-J
+get inquire
+get player4444 15923 8000 150 31
+get player5555 51701 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: CLUBS-Q
+get inquire
+get player4444 15823 8000 250 31
+get player5555 51601 4000 250 33
+get total500
+action: raise 0
+get river
+river card: HEARTS-5
+get inquire
+get player4444 15723 8000 350 31
+get player5555 51501 4000 350 33
+get total700
+action: raise 0
+get showdown
+common/ 
+HEARTS 9 
+SPADES 10 
+DIAMONDS J 
+CLUBS Q 
+HEARTS 5 
+/common 
+2: 4444 CLUBS A DIAMONDS 10 ONE_PAIR 
+1: 5555 SPADES Q DIAMONDS K STRAIGHT 
+get pot-win
+5555: 900 
+start to seat
+button 4444,15623,8000
+small 5555,52301,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: CLUBS-K
+base card: SPADES-A
+value:134253349268442665
+base card: 134253349,268442665
+get inquire
+get player4444 15573 8000 50 32
+get player5555 52251 4000 50 30
+get total100
+action: check
+get flop
+flop card: DIAMONDS-2
+flop card: DIAMONDS-9
+flop card: CLUBS-4
+get inquire
+get player4444 15573 8000 50 32
+get player5555 52251 4000 50 31
+get total100
+action: check
+get turn
+turn card: SPADES-6
+get inquire
+get player4444 15573 8000 50 31
+get player5555 52251 4000 50 31
+get total100
+action: raise 0
+get river
+river card: CLUBS-6
+get inquire
+get player4444 15473 8000 150 32
+get player5555 52151 4000 150 33
+get total300
+action: check
+get showdown
+common/ 
+DIAMONDS 2 
+DIAMONDS 9 
+CLUBS 4 
+SPADES 6 
+CLUBS 6 
+/common 
+2: 5555 CLUBS K SPADES A ONE_PAIR 
+1: 4444 DIAMONDS 6 SPADES 4 FULL_HOUSE 
+get pot-win
+4444: 300 
+start to seat
+button 5555,52151,4000
+small 4444,15773,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-K
+base card: SPADES-2
+value:13425334969634
+base card: 134253349,69634
+get inquire
+get player4444 15723 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: SPADES-10
+flop card: CLUBS-7
+flop card: DIAMONDS-6
+get inquire
+get player4444 15623 8000 150 31
+get player5555 52001 4000 150 33
+get total300
+action: check
+get turn
+turn card: HEARTS-3
+get inquire
+get player4444 15623 8000 150 31
+get player5555 52001 4000 150 31
+get total300
+action: check
+get river
+river card: HEARTS-8
+get inquire
+get player4444 15623 8000 150 31
+get player5555 52001 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+SPADES 10 
+CLUBS 7 
+DIAMONDS 6 
+HEARTS 3 
+HEARTS 8 
+/common 
+2: 4444 CLUBS 5 DIAMONDS J HIGH_CARD 
+1: 5555 CLUBS K SPADES 2 HIGH_CARD 
+get pot-win
+5555: 500 
+start to seat
+button 4444,15523,8000
+small 5555,52401,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: HEARTS-9
+base card: CLUBS-4
+value:8398611295429
+base card: 8398611,295429
+get inquire
+get player4444 15473 8000 50 32
+get player5555 52351 4000 50 30
+get total100
+action: check
+get flop
+flop card: SPADES-7
+flop card: DIAMONDS-5
+flop card: CLUBS-5
+get inquire
+get player4444 15473 8000 50 32
+get player5555 52351 4000 50 31
+get total100
+action: check
+get turn
+turn card: HEARTS-Q
+get inquire
+get player4444 15473 8000 50 31
+get player5555 52351 4000 50 31
+get total100
+action: check
+get river
+river card: CLUBS-2
+get inquire
+get player4444 15473 8000 50 31
+get player5555 52351 4000 50 31
+get total100
+action: raise 0
+get showdown
+common/ 
+SPADES 7 
+DIAMONDS 5 
+CLUBS 5 
+HEARTS Q 
+CLUBS 2 
+/common 
+2: 5555 HEARTS 9 CLUBS 4 ONE_PAIR 
+1: 4444 DIAMONDS 2 CLUBS 9 TWO_PAIR 
+get pot-win
+4444: 300 
+start to seat
+button 5555,52251,4000
+small 4444,15673,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: HEARTS-K
+base card: DIAMONDS-K
+value:134228773134236965
+base card: 134228773,134236965
+get inquire
+get player4444 15623 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: HEARTS-3
+flop card: SPADES-10
+flop card: CLUBS-4
+get inquire
+get player4444 15523 8000 150 31
+get player5555 52101 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: DIAMONDS-9
+get inquire
+get player4444 15423 8000 250 31
+get player5555 52001 4000 250 33
+get total500
+action: check
+get river
+river card: HEARTS-6
+get inquire
+get player4444 15423 8000 250 31
+get player5555 52001 4000 250 31
+get total500
+action: raise 0
+get showdown
+common/ 
+HEARTS 3 
+SPADES 10 
+CLUBS 4 
+DIAMONDS 9 
+HEARTS 6 
+/common 
+2: 4444 DIAMONDS 8 HEARTS A HIGH_CARD 
+1: 5555 HEARTS K DIAMONDS K ONE_PAIR 
+get pot-win
+5555: 700 
+start to seat
+button 4444,15323,8000
+small 5555,52601,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: SPADES-7
+base card: DIAMONDS-A
+value:2102541268454953
+base card: 2102541,268454953
+get inquire
+get player4444 15273 8000 50 32
+get player5555 52551 4000 50 30
+get total100
+action: check
+get flop
+flop card: CLUBS-5
+flop card: CLUBS-K
+flop card: HEARTS-8
+get inquire
+get player4444 15273 8000 50 32
+get player5555 52551 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: SPADES-A
+get inquire
+get player4444 15173 8000 150 32
+get player5555 52451 4000 150 33
+get total300
+action: check
+get river
+river card: CLUBS-Q
+get inquire
+get player4444 15173 8000 150 31
+get player5555 52451 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+CLUBS 5 
+CLUBS K 
+HEARTS 8 
+SPADES A 
+CLUBS Q 
+/common 
+1: 5555 SPADES 7 DIAMONDS A ONE_PAIR 
+2: 4444 CLUBS 3 DIAMONDS 10 HIGH_CARD 
+get pot-win
+5555: 500 
+start to seat
+button 5555,52851,4000
+small 4444,15073,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-7
+base card: CLUBS-8
+value:21312134228625
+base card: 2131213,4228625
+get inquire
+get player4444 15023 8000 50 30
+get total50
+action: check
+get flop
+flop card: DIAMONDS-5
+flop card: SPADES-6
+flop card: HEARTS-5
+get inquire
+get player4444 15023 8000 50 31
+get player5555 52801 4000 50 32
+get total100
+action: raise 0
+get turn
+turn card: CLUBS-9
+get inquire
+get player4444 14923 8000 150 31
+get player5555 52701 4000 150 33
+get total300
+action: raise 0
+get river
+river card: SPADES-K
+get inquire
+get player4444 14823 8000 250 31
+get player5555 52601 4000 250 33
+get total500
+action: raise 0
+get showdown
+common/ 
+DIAMONDS 5 
+SPADES 6 
+HEARTS 5 
+CLUBS 9 
+SPADES K 
+/common 
+2: 4444 SPADES 8 CLUBS J ONE_PAIR 
+1: 5555 CLUBS 7 CLUBS 8 STRAIGHT 
+get pot-win
+5555: 700 
+start to seat
+button 4444,14723,8000
+small 5555,53201,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: HEARTS-3
+base card: CLUBS-3
+value:139523164099
+base card: 139523,164099
+get inquire
+get player4444 14673 8000 50 32
+get player5555 53151 4000 50 30
+get total100
+action: check
+get flop
+flop card: SPADES-Q
+flop card: CLUBS-A
+flop card: SPADES-J
+get inquire
+get player4444 14673 8000 50 32
+get player5555 53151 4000 50 31
+get total100
+action: check
+get turn
+turn card: CLUBS-4
+get inquire
+get player4444 14673 8000 50 31
+get player5555 53151 4000 50 31
+get total100
+action: raise 0
+get river
+river card: SPADES-4
+get inquire
+get player4444 14573 8000 150 32
+get player5555 53051 4000 150 33
+get total300
+action: raise 0
+get showdown
+common/ 
+SPADES Q 
+CLUBS A 
+SPADES J 
+CLUBS 4 
+SPADES 4 
+/common 
+2: 5555 HEARTS 3 CLUBS 3 TWO_PAIR 
+1: 4444 DIAMONDS J CLUBS 5 TWO_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 5555,52951,4000
+small 4444,14973,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-2
+base card: CLUBS-8
+value:983064228625
+base card: 98306,4228625
+get inquire
+get player4444 14923 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: SPADES-7
+flop card: SPADES-3
+flop card: HEARTS-4
+get inquire
+get player4444 14823 8000 150 31
+get player5555 52801 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: CLUBS-7
+get inquire
+get player4444 14723 8000 250 31
+get player5555 52701 4000 250 33
+get total500
+action: check
+get river
+river card: CLUBS-A
+get inquire
+get player4444 14723 8000 250 31
+get player5555 52701 4000 250 31
+get total500
+action: check
+get showdown
+common/ 
+SPADES 7 
+SPADES 3 
+HEARTS 4 
+CLUBS 7 
+CLUBS A 
+/common 
+1: 4444 CLUBS Q CLUBS K ONE_PAIR 
+2: 5555 CLUBS 2 CLUBS 8 ONE_PAIR 
+get pot-win
+4444: 500 
+start to seat
+button 4444,15223,8000
+small 5555,52701,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: HEARTS-A
+base card: CLUBS-K
+value:268446761134253349
+base card: 268446761,134253349
+get inquire
+get player4444 15173 8000 50 32
+get player5555 52651 4000 50 30
+get total100
+action: check
+get flop
+flop card: DIAMONDS-Q
+flop card: SPADES-4
+flop card: DIAMONDS-3
+get inquire
+get player4444 15173 8000 50 32
+get player5555 52651 4000 50 31
+get total100
+action: raise 0
+get turn
+turn card: HEARTS-Q
+get inquire
+get player4444 15073 8000 150 32
+get player5555 52551 4000 150 33
+get total300
+action: check
+get river
+river card: SPADES-K
+get inquire
+get player4444 15073 8000 150 31
+get player5555 52551 4000 150 31
+get total300
+action: check
+get showdown
+common/ 
+DIAMONDS Q 
+SPADES 4 
+DIAMONDS 3 
+HEARTS Q 
+SPADES K 
+/common 
+1: 5555 HEARTS A CLUBS K TWO_PAIR 
+2: 4444 CLUBS A HEARTS 8 ONE_PAIR 
+get pot-win
+5555: 300 
+start to seat
+button 5555,52851,4000
+small 4444,15073,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: CLUBS-J
+base card: SPADES-4
+value:33589533266757
+base card: 33589533,266757
+get inquire
+get player4444 15023 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: SPADES-5
+flop card: SPADES-2
+flop card: CLUBS-3
+get inquire
+get player4444 14923 8000 150 31
+get player5555 52701 4000 150 33
+get total300
+action: check
+get turn
+turn card: CLUBS-7
+get inquire
+get player4444 14923 8000 150 31
+get player5555 52701 4000 150 31
+get total300
+action: check
+get river
+river card: DIAMONDS-10
+get inquire
+get player4444 14923 8000 150 31
+get player5555 52701 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+SPADES 5 
+SPADES 2 
+CLUBS 3 
+CLUBS 7 
+DIAMONDS 10 
+/common 
+1: 4444 CLUBS 2 DIAMONDS 2 THREE_OF_A_KIND 
+2: 5555 CLUBS J SPADES 4 HIGH_CARD 
+get pot-win
+4444: 500 
+start to seat
+button 4444,15323,8000
+small 5555,52601,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: HEARTS-7
+base card: DIAMONDS-3
+value:2106637147715
+base card: 2106637,147715
+get inquire
+get player4444 15273 8000 50 32
+get player5555 52551 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: HEARTS-8
+flop card: CLUBS-6
+flop card: CLUBS-4
+get inquire
+get player4444 15173 8000 150 32
+get player5555 52451 4000 150 33
+get total300
+action: check
+get turn
+turn card: HEARTS-3
+get inquire
+get player4444 15173 8000 150 31
+get player5555 52451 4000 150 31
+get total300
+action: check
+get river
+river card: SPADES-4
+get inquire
+get player4444 15173 8000 150 31
+get player5555 52451 4000 150 31
+get total300
+action: raise 0
+get showdown
+common/ 
+HEARTS 8 
+CLUBS 6 
+CLUBS 4 
+HEARTS 3 
+SPADES 4 
+/common 
+1: 5555 HEARTS 7 DIAMONDS 3 TWO_PAIR 
+2: 4444 CLUBS A DIAMONDS 5 ONE_PAIR 
+get pot-win
+5555: 500 
+start to seat
+button 5555,52851,4000
+small 4444,15073,8000
+start to blind
+4444 is small blind:50
+get hold
+base card: DIAMONDS-6
+base card: DIAMONDS-8
+value:10659954212241
+base card: 1065995,4212241
+get inquire
+get player4444 15023 8000 50 30
+get total50
+action: raise 0
+get flop
+flop card: CLUBS-K
+flop card: SPADES-9
+flop card: HEARTS-K
+get inquire
+get player4444 14923 8000 150 31
+get player5555 52701 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: CLUBS-5
+get inquire
+get player4444 14823 8000 250 31
+get player5555 52601 4000 250 33
+get total500
+action: raise 0
+get river
+river card: CLUBS-10
+get inquire
+get player4444 14723 8000 350 31
+get player5555 52501 4000 350 33
+get total700
+action: raise 0
+get showdown
+common/ 
+CLUBS K 
+SPADES 9 
+HEARTS K 
+CLUBS 5 
+CLUBS 10 
+/common 
+1: 4444 SPADES J DIAMONDS 10 TWO_PAIR 
+2: 5555 DIAMONDS 6 DIAMONDS 8 ONE_PAIR 
+get pot-win
+4444: 900 
+start to seat
+button 4444,15523,8000
+small 5555,52401,4000
+start to blind
+5555 is small blind:50
+get hold
+base card: DIAMONDS-J
+base card: CLUBS-8
+value:335731494228625
+base card: 33573149,4228625
+get inquire
+get player4444 15473 8000 50 32
+get player5555 52351 4000 50 30
+get total100
+action: raise 0
+get flop
+flop card: HEARTS-7
+flop card: HEARTS-4
+flop card: HEARTS-2
+get inquire
+get player4444 15373 8000 150 32
+get player5555 52251 4000 150 33
+get total300
+action: raise 0
+get turn
+turn card: CLUBS-Q
+get inquire
+get player4444 15273 8000 250 32
+get player5555 52151 4000 250 33
+get total500
+action: raise 0
