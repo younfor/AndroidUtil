@@ -11,9 +11,9 @@ import com.ai.simplebot.Bys;
 
 public class State {
 	public final static int button=10,smallblind=11,bigblind=12,normal=13;
-	public final static int blind=30,check=31,call=32,raise=33,all_in=34,fold=35;
+	public final static int blind=30,check=31,call=32,raise=33,all_in=34,fold=35,no=36;
 	public final static int baseState=40,flopState=41,turnState=42,riverState=43;
-
+	
 	public static int getAction(String s)
 	{
 		if(s.equals("blind"))
@@ -33,6 +33,7 @@ public class State {
 	}
 	
 	//AI
+	public static int handnum=0;
 	public String pid,pname;//
 	public boolean isFold=false;
 	public int bigblindbet,smallblindbet,totalpot;//

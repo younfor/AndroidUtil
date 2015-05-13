@@ -17,6 +17,8 @@ public class Bys {
 			total+=num[i];
 			up+=num[i]*i;
 		}
+		if(total==0)
+			return 0;
 		return up/total;
 	}
 	public int[] getBys(int ac[])

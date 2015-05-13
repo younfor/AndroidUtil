@@ -77,7 +77,9 @@ public class Game {
 				/seat
 				 **/
 				state.clear();
-				Log.getIns(state.pid).log("start to seat");
+				State.handnum++;
+				
+				Log.getIns(state.pid).log("start to seat "+State.handnum);
 				s=in.readLine();
 				while(!s.startsWith("/seat"))
 				{
@@ -168,7 +170,6 @@ public class Game {
 			{
 				Log.getIns(state.pid).log("get inquire");
 				s=in.readLine();
-				int lastbet=0;
 				while(!s.startsWith("/inquire"))
 				{
 					/*
@@ -204,9 +205,8 @@ public class Game {
 						Log.getIns(state.pid).log("set "+p.getPid()+" bys actions "+(state.currentState-State.baseState)+":"+p.actions[state.currentState-State.baseState]);
 						if(p.getLastaction()==State.raise)
 							state.raisenum++;
-						if(lastbet==0)
+						if(p.getBet()>state.getToCall())
 						{
-							lastbet++;
 							state.setToCall(p.getBet());
 						}
 						if(p.getPid().equals(state.pid))
