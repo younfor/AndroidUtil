@@ -21261,3 +21261,1075 @@ get flop
 flop card: DIAMONDS-K
 flop card: HEARTS-7
 flop card: HEARTS-10
+get turn
+turn card: SPADES-2
+get river
+river card: CLUBS-6
+get showdown
+2: 6666 DIAMONDS 4 HEARTS A HIGH_CARD 
+prepare bys: 6666
+create bys: rank 9
+bys rank[0]:0
+bys rank[1]:0
+bys rank[2]:0
+bys rank[3]:2
+bys rank[4]:5
+bys rank[5]:2
+bys rank[6]:2
+bys rank[7]:14
+bys rank[8]:26
+bys rank[9]:9
+1: 4444 CLUBS A DIAMONDS A ONE_PAIR 
+prepare bys: 4444
+create bys: rank 8
+bys rank[0]:0
+bys rank[1]:0
+bys rank[2]:0
+bys rank[3]:2
+bys rank[4]:4
+bys rank[5]:3
+bys rank[6]:5
+bys rank[7]:16
+bys rank[8]:45
+bys rank[9]:8
+get pot-win
+4444: 200 
+start to seat
+button 6666,10342,4109
+small 4444,51850,8000
+big 7777,1496,4036
+start to blind
+4444 is small blind:50
+7777 is big blind:100
+get hold
+base card: SPADES-A
+base card: CLUBS-5
+value:268442665557831
+base card: 268442665,557831
+get inquire
+set 4444 bys actions 0:1
+get player4444 51750 8000 100 32
+set 6666 bys actions 0:0
+get player6666 10342 4109 0 35
+set 7777 bys actions 0:1
+get player7777 1396 4036 100 30
+get total200
+clever bot
+myrank [1] 17
+myrank [2] 95
+myrank [3] 1748
+myrank [4] 1527
+myrank [5] 3407
+myrank [6] 3454
+myrank [7] 17601
+myrank [8] 34999
+myrank [9] 14958
+  activeIncludingSelf 2 wager -137 maxWager 775 prevWager 100 prob 0.43860955319674155
+
+action: check
+get flop
+flop card: DIAMONDS-Q
+flop card: HEARTS-A
+flop card: CLUBS-2
+get inquire
+set 4444 bys actions 1:1
+get player4444 51750 8000 100 31
+set 6666 bys actions 1:0
+get player6666 10342 4109 0 35
+set 7777 bys actions 1:1
+get player7777 1396 4036 100 31
+get total200
+clever bot
+myrank [1] 17
+myrank [2] 175
+myrank [3] 3635
+myrank [4] 1527
+myrank [5] 4516
+myrank [6] 8415
+myrank [7] 45765
+myrank [8] 73714
+myrank [9] 14958
+  activeIncludingSelf 2 wager 512 maxWager 775 prevWager 100 prob 0.7294296115882579
+
+myprobval:7.432714343709486
+val4444:7.60377358490566
+val7777:7.574074074074074
+action: check
+get turn
+turn card: DIAMONDS-7
+get inquire
+set 4444 bys actions 2:1
+get player4444 51750 8000 100 31
+set 6666 bys actions 2:0
+get player6666 10342 4109 0 35
+set 7777 bys actions 2:1
+get player7777 1396 4036 100 31
+get total200
+clever bot
+myrank [1] 17
+myrank [2] 175
+myrank [3] 3635
+myrank [4] 1527
+myrank [5] 4516
+myrank [6] 11738
+myrank [7] 66007
+myrank [8] 127260
+myrank [9] 14958
+  activeIncludingSelf 2 wager 518 maxWager 775 prevWager 100 prob 0.7320990904560178
+
+myprobval:7.506054396017978
+val4444:7.596153846153846
+val7777:7.574074074074074
+action: check
+get river
+river card: CLUBS-9
+get inquire
+set 4444 bys actions 3:1
+get player4444 51750 8000 100 31
+set 6666 bys actions 3:0
+get player6666 10342 4109 0 35
+set 7777 bys actions 3:1
+get player7777 1396 4036 100 31
+get total200
+clever bot
+myrank [1] 17
+myrank [2] 175
+myrank [3] 3635
+myrank [4] 1527
+myrank [5] 4516
+myrank [6] 11738
+myrank [7] 66007
+myrank [8] 217279
+myrank [9] 14958
+  activeIncludingSelf 2 wager 530 maxWager 775 prevWager 100 prob 0.7375216135564319
+
+myprobval:7.6450702199767395
+val4444:7.607843137254902
+val7777:7.574074074074074
+action: check
+get showdown
+2: 4444 HEARTS 3 DIAMONDS J HIGH_CARD 
+prepare bys: 4444
+create bys: rank 9
+bys rank[0]:0
+bys rank[1]:0
+bys rank[2]:0
+bys rank[3]:2
+bys rank[4]:4
+bys rank[5]:3
+bys rank[6]:5
+bys rank[7]:16
+bys rank[8]:45
+bys rank[9]:9
+1: 7777 SPADES A CLUBS 5 ONE_PAIR 
+prepare bys: 7777
+create bys: rank 8
+bys rank[0]:0
+bys rank[1]:0
+bys rank[2]:0
+bys rank[3]:0
+bys rank[4]:2
+bys rank[5]:2
+bys rank[6]:1
+bys rank[7]:13
+bys rank[8]:31
+bys rank[9]:6
+get pot-win
+7777: 200 
+start to seat
+button 4444,51750,8000
+small 7777,1596,4036
+big 6666,10342,4109
+start to blind
+7777 is small blind:50
+6666 is big blind:100
+get hold
+base card: CLUBS-8
+base card: DIAMONDS-A
+value:4228625268454953
+base card: 4228625,268454953
+get inquire
+set 4444 bys actions 0:2
+get player4444 46381 8000 5369 33
+set 6666 bys actions 0:1
+get player6666 10242 4109 100 30
+set 7777 bys actions 0:1
+get player7777 1546 4036 50 30
+get total5519
+clever bot
+myrank [1] 14
+myrank [2] 88
+myrank [3] 1474
+myrank [4] 1186
+myrank [5] 1866
+myrank [6] 2712
+myrank [7] 14348
+myrank [8] 28716
+myrank [9] 12204
+  activeIncludingSelf 3 wager 59 maxWager 858 prevWager 50 prob 0.36523814559386975
+
+action: fold
+get pot-win
+4444: 5519 
+start to seat
+button 7777,1546,4036
+small 6666,10242,4109
+big 4444,51900,8000
+start to blind
+6666 is small blind:50
+4444 is big blind:100
+get hold
+base card: CLUBS-10
+base card: CLUBS-K
+value:16812055134253349
+base card: 16812055,134253349
+get inquire
+set 4444 bys actions 0:1
+get player4444 51800 8000 100 30
+set 6666 bys actions 0:1
+get player6666 10192 4109 50 30
+get total150
+clever bot
+myrank [1] 65
+myrank [2] 74
+myrank [3] 1400
+myrank [4] 4117
+myrank [5] 3495
+myrank [6] 2629
+myrank [7] 13834
+myrank [8] 26769
+myrank [9] 10734
+  activeIncludingSelf 3 wager 155 maxWager 858 prevWager 0 prob 0.4169920200638395
+
+myprobval:7.315398387122328
+val6666:7.25
+val4444:7.380952380952381
+action: check
+get inquire
+set 4444 bys actions 0:2
+get player4444 46569 8000 5331 33
+set 6666 bys actions 0:2
+get player6666 9802 4109 440 33
+set 7777 bys actions 0:1
+get player7777 1446 4036 100 32
+get total5871
+clever bot
+myrank [1] 129
+myrank [2] 151
+myrank [3] 2698
+myrank [4] 7911
+myrank [5] 6689
+myrank [6] 5259
+myrank [7] 27143
+myrank [8] 52054
+myrank [9] 21061
+  activeIncludingSelf 3 wager 144 maxWager 803 prevWager 100 prob 0.4163520460358056
+
+action: fold
+get pot-win
+4444: 5871 
+start to seat
+button 6666,9802,4109
+small 4444,52440,8000
+big 7777,1446,4036
+start to blind
+4444 is small blind:50
+7777 is big blind:100
+get hold
+base card: HEARTS-Q
+base card: HEARTS-9
+value:671196478398611
+base card: 67119647,8398611
+get inquire
+set 4444 bys actions 0:2
+get player4444 36770 8000 15670 33
+set 6666 bys actions 0:1
+get player6666 9702 4109 100 32
+set 7777 bys actions 0:1
+get player7777 1346 4036 100 30
+get total15870
+clever bot
+myrank [1] 59
+myrank [2] 85
+myrank [3] 1428
+myrank [4] 4083
+myrank [5] 3373
+myrank [6] 2760
+myrank [7] 13923
+myrank [8] 26779
+myrank [9] 10765
+  activeIncludingSelf 3 wager 80 maxWager 747 prevWager 100 prob 0.3829924628450106
+
+action: fold
+get pot-win
+4444: 15870 
+start to seat
+button 4444,52640,8000
+small 7777,1346,4036
+big 6666,9702,4109
+start to blind
+7777 is small blind:50
+6666 is big blind:100
+get hold
+base card: DIAMONDS-10
+base card: HEARTS-A
+value:16795671268446761
+base card: 16795671,268446761
+get inquire
+set 4444 bys actions 0:2
+get player4444 52329 8000 311 33
+set 6666 bys actions 0:1
+get player6666 9602 4109 100 30
+set 7777 bys actions 0:1
+get player7777 1296 4036 50 30
+get total461
+clever bot
+myrank [1] 8
+myrank [2] 86
+myrank [3] 1455
+myrank [4] 1244
+myrank [5] 2805
+myrank [6] 2908
+myrank [7] 14277
+myrank [8] 28562
+myrank [9] 12063
+  activeIncludingSelf 3 wager 107 maxWager 720 prevWager 50 prob 0.402312952582942
+
+action: check
+get flop
+flop card: SPADES-J
+flop card: HEARTS-3
+flop card: HEARTS-4
+get inquire
+set 4444 bys actions 1:2
+get player4444 52329 8000 311 33
+set 6666 bys actions 1:1
+get player6666 9391 4109 311 32
+set 7777 bys actions 1:1
+get player7777 1035 4036 311 32
+get total933
+clever bot
+myrank [1] 77
+myrank [2] 86
+myrank [3] 1455
+myrank [4] 3836
+myrank [5] 4531
+myrank [6] 3801
+myrank [7] 19468
+myrank [8] 58889
+myrank [9] 34865
+  activeIncludingSelf 3 wager -84 maxWager 575 prevWager 311 prob 0.26556955602536997
+
+action: check
+get turn
+turn card: SPADES-K
+get inquire
+set 4444 bys actions 2:1
+get player4444 52329 8000 311 31
+set 6666 bys actions 2:1
+get player6666 9391 4109 311 31
+set 7777 bys actions 2:1
+get player7777 1035 4036 311 31
+get total933
+clever bot
+myrank [1] 77
+myrank [2] 86
+myrank [3] 1455
+myrank [4] 3836
+myrank [5] 9333
+myrank [6] 3801
+myrank [7] 19468
+myrank [8] 80422
+myrank [9] 63538
+  activeIncludingSelf 3 wager -142 maxWager 575 prevWager 311 prob 0.2184802374301676
+
+action: check
+get river
+river card: SPADES-2
+get inquire
+set 4444 bys actions 3:1
+get player4444 52329 8000 311 31
+set 6666 bys actions 3:1
+get player6666 9391 4109 311 31
+set 7777 bys actions 3:1
+get player7777 1035 4036 311 31
+get total933
+clever bot
+myrank [1] 77
+myrank [2] 86
+myrank [3] 1455
+myrank [4] 3836
+myrank [5] 9333
+myrank [6] 3801
+myrank [7] 19468
+myrank [8] 80422
+myrank [9] 143221
+  activeIncludingSelf 3 wager -329 maxWager 575 prevWager 311 prob 0.06824987350921576
+
+action: check
+get showdown
+1: 7777 DIAMONDS 10 HEARTS A HIGH_CARD 
+prepare bys: 7777
+create bys: rank 9
+bys rank[0]:0
+bys rank[1]:0
+bys rank[2]:0
+bys rank[3]:0
+bys rank[4]:2
+bys rank[5]:2
+bys rank[6]:1
+bys rank[7]:13
+bys rank[8]:31
+bys rank[9]:7
+2: 6666 HEARTS Q DIAMONDS 7 HIGH_CARD 
+prepare bys: 6666
+create bys: rank 9
+bys rank[0]:0
+bys rank[1]:0
+bys rank[2]:0
+bys rank[3]:2
+bys rank[4]:5
+bys rank[5]:2
+bys rank[6]:2
+bys rank[7]:14
+bys rank[8]:26
+bys rank[9]:10
+3: 4444 DIAMONDS Q DIAMONDS 6 HIGH_CARD 
+prepare bys: 4444
+create bys: rank 9
+bys rank[0]:0
+bys rank[1]:0
+bys rank[2]:0
+bys rank[3]:2
+bys rank[4]:4
+bys rank[5]:3
+bys rank[6]:5
+bys rank[7]:16
+bys rank[8]:45
+bys rank[9]:9
+get pot-win
+7777: 933 
+start to seat
+button 7777,1968,4036
+small 6666,9391,4109
+big 4444,52329,8000
+start to blind
+6666 is small blind:50
+4444 is big blind:100
+get hold
+base card: SPADES-A
+base card: CLUBS-10
+value:26844266516812055
+base card: 268442665,16812055
+get inquire
+set 4444 bys actions 0:1
+get player4444 52229 8000 100 30
+set 6666 bys actions 0:1
+get player6666 9341 4109 50 30
+get total150
+clever bot
+myrank [1] 4
+myrank [2] 77
+myrank [3] 1361
+myrank [4] 1195
+myrank [5] 2863
+myrank [6] 2845
+myrank [7] 14540
+myrank [8] 28639
+myrank [9] 12160
+  activeIncludingSelf 3 wager 156 maxWager 1093 prevWager 0 prob 0.39956317058468954
+
+myprobval:7.5488034671188995
+val6666:7.278688524590164
+val4444:7.380952380952381
+action: raise 156
+get flop
+flop card: CLUBS-A
+flop card: DIAMONDS-8
+flop card: SPADES-7
+get inquire
+set 4444 bys actions 1:1
+get player4444 52073 8000 256 31
+set 6666 bys actions 1:1
+get player6666 9135 4109 256 31
+set 7777 bys actions 1:2
+get player7777 1712 4036 256 33
+get total768
+clever bot
+myrank [1] 4
+myrank [2] 137
+myrank [3] 2870
+myrank [4] 1195
+myrank [5] 4584
+myrank [6] 6925
+myrank [7] 37137
+myrank [8] 58902
+myrank [9] 12160
+  activeIncludingSelf 3 wager 633 maxWager 951 prevWager 256 prob 0.6418098345003183
+
+myprobval:7.41444066045806
+val7777:NaN
+val6666:7.3076923076923075
+val4444:7.62962962962963
+action: check
+get turn
+turn card: DIAMONDS-7
+get inquire
+set 4444 bys actions 2:2
+get player4444 23400 8000 28929 33
+set 6666 bys actions 2:1
+get player6666 9135 4109 256 31
+set 7777 bys actions 2:1
+get player7777 1712 4036 256 31
+get total29441
+clever bot
+myrank [1] 4
+myrank [2] 137
+myrank [3] 7044
+myrank [4] 1195
+myrank [5] 4584
+myrank [6] 6925
+myrank [7] 81825
+myrank [8] 58902
+myrank [9] 12160
+  activeIncludingSelf 3 wager 554 maxWager 951 prevWager 256 prob 0.6032886095836606
+
+action: fold
+get pot-win
+4444: 29441 
+start to seat
+button 6666,9135,4109
+small 4444,52841,8000
+big 7777,1712,4036
+start to blind
+4444 is small blind:50
+7777 is big blind:100
+get hold
+base card: CLUBS-5
+base card: HEARTS-Q
+value:55783167119647
+base card: 557831,67119647
+get inquire
+set 4444 bys actions 0:0
+get player4444 52791 8000 50 35
+set 6666 bys actions 0:2
+get player6666 8873 4109 262 33
+set 7777 bys actions 0:1
+get player7777 1612 4036 100 30
+get total412
+clever bot
+myrank [1] 13
+myrank [2] 121
+myrank [3] 1815
+myrank [4] 1539
+myrank [5] 2761
+myrank [6] 3489
+myrank [7] 17582
+myrank [8] 35204
+myrank [9] 14932
+  activeIncludingSelf 2 wager -314 maxWager 895 prevWager 100 prob 0.37799864998761457
+
+action: check
+get flop
+flop card: HEARTS-2
+flop card: CLUBS-6
+flop card: SPADES-3
+get inquire
+set 4444 bys actions 1:0
+get player4444 52791 8000 50 35
+set 6666 bys actions 1:2
+get player6666 8873 4109 262 33
+set 7777 bys actions 1:1
+get player7777 1450 4036 262 32
+get total574
+clever bot
+myrank [1] 13
+myrank [2] 121
+myrank [3] 1815
+myrank [4] 1539
+myrank [5] 13650
+myrank [6] 4398
+myrank [7] 23195
+myrank [8] 63718
+myrank [9] 35551
+  activeIncludingSelf 2 wager -454 maxWager 805 prevWager 262 prob 0.3041833020366893
+
+action: check
+get turn
+turn card: SPADES-2
+get inquire
+set 4444 bys actions 2:0
+get player4444 52791 8000 50 35
+set 6666 bys actions 2:1
+get player6666 8873 4109 262 31
+set 7777 bys actions 2:1
+get player7777 1450 4036 262 31
+get total574
+clever bot
+myrank [1] 13
+myrank [2] 121
+myrank [3] 1815
+myrank [4] 1539
+myrank [5] 19518
+myrank [6] 7296
+myrank [7] 41213
+myrank [8] 105303
+myrank [9] 35551
+  activeIncludingSelf 2 wager -656 maxWager 805 prevWager 262 prob 0.21692931276297336
+
+action: check
+get river
+river card: DIAMONDS-J
+get inquire
+set 4444 bys actions 3:0
+get player4444 52791 8000 50 35
+set 6666 bys actions 3:1
+get player6666 8873 4109 262 31
+set 7777 bys actions 3:1
+get player7777 1450 4036 262 31
+get total574
+clever bot
+myrank [1] 13
+myrank [2] 121
+myrank [3] 1815
+myrank [4] 1539
+myrank [5] 19518
+myrank [6] 7296
+myrank [7] 41213
+myrank [8] 160955
+myrank [9] 35551
+  activeIncludingSelf 2 wager -966 maxWager 805 prevWager 262 prob 0.08329185044796693
+
+action: check
+get showdown
+2: 7777 CLUBS 5 HEARTS Q ONE_PAIR 
+prepare bys: 7777
+create bys: rank 8
+bys rank[0]:0
+bys rank[1]:0
+bys rank[2]:0
+bys rank[3]:0
+bys rank[4]:2
+bys rank[5]:2
+bys rank[6]:1
+bys rank[7]:13
+bys rank[8]:32
+bys rank[9]:7
+1: 6666 CLUBS J HEARTS 9 TWO_PAIR 
+prepare bys: 6666
+create bys: rank 7
+bys rank[0]:0
+bys rank[1]:0
+bys rank[2]:0
+bys rank[3]:2
+bys rank[4]:5
+bys rank[5]:2
+bys rank[6]:2
+bys rank[7]:14
+bys rank[8]:26
+bys rank[9]:10
+get pot-win
+6666: 574 
+start to seat
+button 4444,52791,8000
+small 7777,1450,4036
+big 6666,9447,4109
+start to blind
+7777 is small blind:50
+6666 is big blind:100
+get hold
+base card: DIAMONDS-J
+base card: SPADES-K
+value:33573149134224677
+base card: 33573149,134224677
+get inquire
+set 4444 bys actions 0:0
+get player4444 52791 8000 0 35
+set 6666 bys actions 0:1
+get player6666 9347 4109 100 30
+set 7777 bys actions 0:1
+get player7777 1400 4036 50 30
+get total150
+clever bot
+myrank [1] 10
+myrank [2] 85
+myrank [3] 1663
+myrank [4] 1473
+myrank [5] 4277
+myrank [6] 3359
+myrank [7] 17471
+myrank [8] 34867
+myrank [9] 14679
+  activeIncludingSelf 2 wager -34 maxWager 777 prevWager 50 prob 0.4844595293827769
+
+action: check
+get flop
+flop card: CLUBS-6
+flop card: SPADES-9
+flop card: CLUBS-3
+get inquire
+set 4444 bys actions 1:0
+get player4444 52791 8000 0 35
+set 6666 bys actions 1:1
+get player6666 9347 4109 100 31
+set 7777 bys actions 1:1
+get player7777 1350 4036 100 32
+get total200
+clever bot
+myrank [1] 10
+myrank [2] 85
+myrank [3] 1663
+myrank [4] 1473
+myrank [5] 5503
+myrank [6] 4534
+myrank [7] 24337
+myrank [8] 74079
+myrank [9] 47032
+  activeIncludingSelf 2 wager -461 maxWager 750 prevWager 100 prob 0.28643083323428026
+
+action: check
+get turn
+turn card: CLUBS-Q
+get inquire
+set 4444 bys actions 2:0
+get player4444 52791 8000 0 35
+set 6666 bys actions 2:1
+get player6666 9347 4109 100 31
+set 7777 bys actions 2:1
+get player7777 1350 4036 100 31
+get total200
+clever bot
+myrank [1] 10
+myrank [2] 85
+myrank [3] 1663
+myrank [4] 1473
+myrank [5] 12949
+myrank [6] 4534
+myrank [7] 24337
+myrank [8] 107359
+myrank [9] 90986
+  activeIncludingSelf 2 wager -583 maxWager 750 prevWager 100 prob 0.2296691078109058
+
+action: check
+get river
+river card: SPADES-2
+get inquire
+set 4444 bys actions 3:0
+get player4444 52791 8000 0 35
+set 6666 bys actions 3:1
+get player6666 9347 4109 100 31
+set 7777 bys actions 3:1
+get player7777 1350 4036 100 31
+get total200
+clever bot
+myrank [1] 10
+myrank [2] 85
+myrank [3] 1663
+myrank [4] 1473
+myrank [5] 12949
+myrank [6] 4534
+myrank [7] 24337
+myrank [8] 107359
+myrank [9] 187136
+  activeIncludingSelf 2 wager -871 maxWager 750 prevWager 100 prob 0.09664108426517572
+
+action: check
+get showdown
+1: 7777 DIAMONDS J SPADES K HIGH_CARD 
+prepare bys: 7777
+create bys: rank 9
+bys rank[0]:0
+bys rank[1]:0
+bys rank[2]:0
+bys rank[3]:0
+bys rank[4]:2
+bys rank[5]:2
+bys rank[6]:1
+bys rank[7]:13
+bys rank[8]:32
+bys rank[9]:8
+2: 6666 HEARTS 8 CLUBS 5 HIGH_CARD 
+prepare bys: 6666
+create bys: rank 9
+bys rank[0]:0
+bys rank[1]:0
+bys rank[2]:0
+bys rank[3]:2
+bys rank[4]:5
+bys rank[5]:2
+bys rank[6]:2
+bys rank[7]:14
+bys rank[8]:26
+bys rank[9]:11
+get pot-win
+7777: 200 
+start to seat
+button 7777,1550,4036
+small 6666,9347,4109
+big 4444,52791,8000
+start to blind
+6666 is small blind:50
+4444 is big blind:100
+get hold
+base card: CLUBS-5
+base card: CLUBS-J
+value:55783133589533
+base card: 557831,33589533
+get inquire
+set 4444 bys actions 0:1
+get player4444 52691 8000 100 30
+set 6666 bys actions 0:1
+get player6666 9297 4109 50 30
+get total150
+clever bot
+myrank [1] 13
+myrank [2] 90
+myrank [3] 1357
+myrank [4] 4203
+myrank [5] 2308
+myrank [6] 2700
+myrank [7] 14096
+myrank [8] 27202
+myrank [9] 11226
+  activeIncludingSelf 3 wager -33 maxWager 861 prevWager 0 prob 0.3150908442150015
+
+action: fold
+get flop
+flop card: HEARTS-3
+flop card: SPADES-A
+flop card: CLUBS-9
+get turn
+turn card: DIAMONDS-8
+get river
+river card: CLUBS-Q
+get showdown
+1: 6666 CLUBS 4 DIAMONDS K HIGH_CARD 
+prepare bys: 6666
+create bys: rank 9
+bys rank[0]:0
+bys rank[1]:0
+bys rank[2]:0
+bys rank[3]:2
+bys rank[4]:5
+bys rank[5]:2
+bys rank[6]:2
+bys rank[7]:14
+bys rank[8]:26
+bys rank[9]:12
+2: 4444 DIAMONDS J CLUBS 2 HIGH_CARD 
+prepare bys: 4444
+create bys: rank 9
+bys rank[0]:0
+bys rank[1]:0
+bys rank[2]:0
+bys rank[3]:2
+bys rank[4]:4
+bys rank[5]:3
+bys rank[6]:5
+bys rank[7]:16
+bys rank[8]:45
+bys rank[9]:10
+get pot-win
+6666: 200 
+start to seat
+button 6666,9447,4109
+small 4444,52691,8000
+big 7777,1550,4036
+start to blind
+4444 is small blind:50
+7777 is big blind:100
+get hold
+base card: HEARTS-3
+base card: HEARTS-2
+value:13952373730
+base card: 139523,73730
+get inquire
+set 4444 bys actions 0:1
+get player4444 52591 8000 100 32
+set 6666 bys actions 0:0
+get player6666 9447 4109 0 35
+set 7777 bys actions 0:1
+get player7777 1450 4036 100 30
+get total200
+clever bot
+myrank [1] 61
+myrank [2] 70
+myrank [3] 1526
+myrank [4] 4242
+myrank [5] 3082
+myrank [6] 2840
+myrank [7] 14813
+myrank [8] 28061
+myrank [9] 11646
+  activeIncludingSelf 2 wager -430 maxWager 805 prevWager 100 prob 0.31431223604281167
+
+action: check
+get flop
+flop card: HEARTS-A
+flop card: CLUBS-5
+flop card: CLUBS-Q
+get inquire
+set 4444 bys actions 1:1
+get player4444 52591 8000 100 31
+set 6666 bys actions 1:0
+get player6666 9447 4109 0 35
+set 7777 bys actions 1:1
+get player7777 1450 4036 100 31
+get total200
+clever bot
+myrank [1] 130
+myrank [2] 70
+myrank [3] 1526
+myrank [4] 7319
+myrank [5] 15043
+myrank [6] 3908
+myrank [7] 21092
+myrank [8] 59802
+myrank [9] 33724
+  activeIncludingSelf 2 wager -526 maxWager 805 prevWager 100 prob 0.27323465694898214
+
+action: check
+get turn
+turn card: CLUBS-A
+get inquire
+set 4444 bys actions 2:1
+get player4444 52591 8000 100 31
+set 6666 bys actions 2:0
+get player6666 9447 4109 0 35
+set 7777 bys actions 2:1
+get player7777 1450 4036 100 31
+get total200
+clever bot
+myrank [1] 130
+myrank [2] 70
+myrank [3] 1526
+myrank [4] 7319
+myrank [5] 21136
+myrank [6] 6980
+myrank [7] 39506
+myrank [8] 102438
+myrank [9] 33724
+  activeIncludingSelf 2 wager -838 maxWager 805 prevWager 100 prob 0.13863812320721214
+
+action: check
+get river
+river card: CLUBS-10
+get inquire
+set 4444 bys actions 3:1
+get player4444 52591 8000 100 31
+set 6666 bys actions 3:0
+get player6666 9447 4109 0 35
+set 7777 bys actions 3:1
+get player7777 1450 4036 100 31
+get total200
+clever bot
+myrank [1] 130
+myrank [2] 70
+myrank [3] 1526
+myrank [4] 7319
+myrank [5] 21136
+myrank [6] 6980
+myrank [7] 39506
+myrank [8] 179290
+myrank [9] 33724
+  activeIncludingSelf 2 wager -1065 maxWager 805 prevWager 100 prob 0.040815217391304344
+
+action: check
+get showdown
+1: 4444 SPADES 7 CLUBS 6 FLUSH 
+prepare bys: 4444
+create bys: rank 4
+bys rank[0]:0
+bys rank[1]:0
+bys rank[2]:0
+bys rank[3]:2
+bys rank[4]:5
+bys rank[5]:3
+bys rank[6]:5
+bys rank[7]:16
+bys rank[8]:45
+bys rank[9]:10
+2: 7777 HEARTS 3 HEARTS 2 ONE_PAIR 
+prepare bys: 7777
+create bys: rank 8
+bys rank[0]:0
+bys rank[1]:0
+bys rank[2]:0
+bys rank[3]:0
+bys rank[4]:2
+bys rank[5]:2
+bys rank[6]:1
+bys rank[7]:13
+bys rank[8]:33
+bys rank[9]:8
+get pot-win
+4444: 200 
+start to seat
+button 4444,52791,8000
+small 7777,1450,4036
+big 6666,9447,4109
+start to blind
+7777 is small blind:50
+6666 is big blind:100
+get hold
+base card: CLUBS-J
+base card: SPADES-3
+value:33589533135427
+base card: 33589533,135427
+get inquire
+set 4444 bys actions 0:2
+get player4444 45718 8000 7073 33
+set 6666 bys actions 0:1
+get player6666 9347 4109 100 30
+set 7777 bys actions 0:1
+get player7777 1400 4036 50 30
+get total7223
+clever bot
+myrank [1] 6
+myrank [2] 80
+myrank [3] 1395
+myrank [4] 1254
+myrank [5] 1923
+myrank [6] 2737
+myrank [7] 14212
+myrank [8] 28703
+myrank [9] 12206
+  activeIncludingSelf 3 wager -108 maxWager 777 prevWager 50 prob 0.26899024127862303
+
+action: fold
+get pot-win
+4444: 7223 
+start to seat
+button 7777,1400,4036
+small 6666,9347,4109
+big 4444,52941,8000
+start to blind
+6666 is small blind:50
+4444 is big blind:100
+get hold
+base card: SPADES-K
+base card: HEARTS-A
+value:134224677268446761
+base card: 134224677,268446761
+get inquire
+set 4444 bys actions 0:1
+get player4444 52841 8000 100 30
+set 6666 bys actions 0:1
+get player6666 9297 4109 50 30
+get total150
+clever bot
+myrank [1] 6
+myrank [2] 82
+myrank [3] 1369
+myrank [4] 1228
+myrank [5] 2154
+myrank [6] 2737
+myrank [7] 13997
+myrank [8] 28388
+myrank [9] 12260
+  activeIncludingSelf 3 wager 180 maxWager 777 prevWager 0 prob 0.44083657407407406
+
+myprobval:7.5827132318670545
+val6666:7.333333333333333
+val4444:7.3604651162790695
+action: raise 180

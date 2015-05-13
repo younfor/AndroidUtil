@@ -41544,4 +41544,1526 @@ total pot: 1516
 /inquire 
 recv from player 7777: fold
 flop/ 
-D
+DIAMONDS K 
+DIAMONDS 6 
+DIAMONDS 2 
+/flop 
+
+---flop round bet---
+valid player: 3, all in player: 0, fold player: 1
+send inquire msg to player 7777 
+inquire/ 
+4444 50234 8000 708 call 
+6666 10442 4109 708 raise 
+7777 1496 4036 100 fold 
+total pot: 1516 
+/inquire 
+send inquire msg to player 6666 
+inquire/ 
+7777 1496 4036 100 fold 
+4444 50234 8000 708 call 
+6666 10442 4109 708 raise 
+total pot: 1516 
+/inquire 
+recv from player 6666: check
+send inquire msg to player 4444 
+inquire/ 
+6666 10442 4109 708 check 
+7777 1496 4036 100 fold 
+4444 50234 8000 708 call 
+total pot: 1516 
+/inquire 
+recv from player 4444: check
+turn/ 
+SPADES 2 
+/turn 
+
+---turn round bet---
+valid player: 3, all in player: 0, fold player: 1
+send inquire msg to player 7777 
+inquire/ 
+4444 50234 8000 708 check 
+6666 10442 4109 708 check 
+7777 1496 4036 100 fold 
+total pot: 1516 
+/inquire 
+send inquire msg to player 6666 
+inquire/ 
+7777 1496 4036 100 fold 
+4444 50234 8000 708 check 
+6666 10442 4109 708 check 
+total pot: 1516 
+/inquire 
+recv from player 6666: check
+send inquire msg to player 4444 
+inquire/ 
+6666 10442 4109 708 check 
+7777 1496 4036 100 fold 
+4444 50234 8000 708 check 
+total pot: 1516 
+/inquire 
+recv from player 4444: check
+river/ 
+SPADES 3 
+/river 
+
+---river round bet---
+valid player: 3, all in player: 0, fold player: 1
+send inquire msg to player 7777 
+inquire/ 
+4444 50234 8000 708 check 
+6666 10442 4109 708 check 
+7777 1496 4036 100 fold 
+total pot: 1516 
+/inquire 
+send inquire msg to player 6666 
+inquire/ 
+7777 1496 4036 100 fold 
+4444 50234 8000 708 check 
+6666 10442 4109 708 check 
+total pot: 1516 
+/inquire 
+recv from player 6666: check
+send inquire msg to player 4444 
+inquire/ 
+6666 10442 4109 708 check 
+7777 1496 4036 100 fold 
+4444 50234 8000 708 check 
+total pot: 1516 
+/inquire 
+recv from player 4444: check
+
+---show down---
+showdown/ 
+common/ 
+DIAMONDS K 
+DIAMONDS 6 
+DIAMONDS 2 
+SPADES 2 
+SPADES 3 
+/common 
+2: 6666 DIAMONDS Q HEARTS J ONE_PAIR 
+1: 4444 CLUBS K CLUBS A TWO_PAIR 
+/showdown 
+
+---Allocate pot---
+pot-win/ 
+4444: 1516 
+/pot-win 
+it is player 7777's turn to be button
+
+-----185 Hand-----
+
+----- clean player data in socket -----
+seat/ 
+button: 7777 1496 4036 
+small blind: 6666 10442 4109 
+big blind: 4444 51750 8000 
+/seat 
+blind/ 
+6666: 50 
+4444: 100 
+/blind 
+player 6666:hold/ 
+DIAMONDS 4 
+HEARTS A 
+/hold 
+player 4444:hold/ 
+CLUBS A 
+DIAMONDS A 
+/hold 
+player 7777:hold/ 
+CLUBS Q 
+DIAMONDS 9 
+/hold 
+
+---pre flop round bet---
+valid player: 3, all in player: 0, fold player: 0
+send inquire msg to player 7777 
+inquire/ 
+4444 51650 8000 100 blind 
+6666 10392 4109 50 blind 
+total pot: 150 
+/inquire 
+recv from player 7777: fold
+send inquire msg to player 6666 
+inquire/ 
+7777 1496 4036 0 fold 
+4444 51650 8000 100 blind 
+6666 10392 4109 50 blind 
+total pot: 150 
+/inquire 
+recv from player 6666: check
+send inquire msg to player 4444 
+inquire/ 
+6666 10342 4109 100 call 
+7777 1496 4036 0 fold 
+4444 51650 8000 100 blind 
+total pot: 200 
+/inquire 
+recv from player 4444: check
+flop/ 
+DIAMONDS K 
+HEARTS 7 
+HEARTS 10 
+/flop 
+
+---flop round bet---
+valid player: 3, all in player: 0, fold player: 1
+send inquire msg to player 6666 
+inquire/ 
+7777 1496 4036 0 fold 
+4444 51650 8000 100 check 
+6666 10342 4109 100 call 
+total pot: 200 
+/inquire 
+recv from player 6666: check
+send inquire msg to player 4444 
+inquire/ 
+6666 10342 4109 100 check 
+7777 1496 4036 0 fold 
+4444 51650 8000 100 check 
+total pot: 200 
+/inquire 
+recv from player 4444: check
+turn/ 
+SPADES 2 
+/turn 
+
+---turn round bet---
+valid player: 3, all in player: 0, fold player: 1
+send inquire msg to player 6666 
+inquire/ 
+7777 1496 4036 0 fold 
+4444 51650 8000 100 check 
+6666 10342 4109 100 check 
+total pot: 200 
+/inquire 
+recv from player 6666: check
+send inquire msg to player 4444 
+inquire/ 
+6666 10342 4109 100 check 
+7777 1496 4036 0 fold 
+4444 51650 8000 100 check 
+total pot: 200 
+/inquire 
+recv from player 4444: check
+river/ 
+CLUBS 6 
+/river 
+
+---river round bet---
+valid player: 3, all in player: 0, fold player: 1
+send inquire msg to player 6666 
+inquire/ 
+7777 1496 4036 0 fold 
+4444 51650 8000 100 check 
+6666 10342 4109 100 check 
+total pot: 200 
+/inquire 
+recv from player 6666: check
+send inquire msg to player 4444 
+inquire/ 
+6666 10342 4109 100 check 
+7777 1496 4036 0 fold 
+4444 51650 8000 100 check 
+total pot: 200 
+/inquire 
+recv from player 4444: check
+
+---show down---
+showdown/ 
+common/ 
+DIAMONDS K 
+HEARTS 7 
+HEARTS 10 
+SPADES 2 
+CLUBS 6 
+/common 
+2: 6666 DIAMONDS 4 HEARTS A HIGH_CARD 
+1: 4444 CLUBS A DIAMONDS A ONE_PAIR 
+/showdown 
+
+---Allocate pot---
+pot-win/ 
+4444: 200 
+/pot-win 
+it is player 6666's turn to be button
+
+-----186 Hand-----
+
+----- clean player data in socket -----
+seat/ 
+button: 6666 10342 4109 
+small blind: 4444 51850 8000 
+big blind: 7777 1496 4036 
+/seat 
+blind/ 
+4444: 50 
+7777: 100 
+/blind 
+player 4444:hold/ 
+HEARTS 3 
+DIAMONDS J 
+/hold 
+player 7777:hold/ 
+SPADES A 
+CLUBS 5 
+/hold 
+player 6666:hold/ 
+HEARTS 4 
+SPADES 8 
+/hold 
+
+---pre flop round bet---
+valid player: 3, all in player: 0, fold player: 0
+send inquire msg to player 6666 
+inquire/ 
+7777 1396 4036 100 blind 
+4444 51800 8000 50 blind 
+total pot: 150 
+/inquire 
+recv from player 6666: fold
+send inquire msg to player 4444 
+inquire/ 
+6666 10342 4109 0 fold 
+7777 1396 4036 100 blind 
+4444 51800 8000 50 blind 
+total pot: 150 
+/inquire 
+recv from player 4444: check
+send inquire msg to player 7777 
+inquire/ 
+4444 51750 8000 100 call 
+6666 10342 4109 0 fold 
+7777 1396 4036 100 blind 
+total pot: 200 
+/inquire 
+recv from player 7777: check
+flop/ 
+DIAMONDS Q 
+HEARTS A 
+CLUBS 2 
+/flop 
+
+---flop round bet---
+valid player: 3, all in player: 0, fold player: 1
+send inquire msg to player 4444 
+inquire/ 
+6666 10342 4109 0 fold 
+7777 1396 4036 100 check 
+4444 51750 8000 100 call 
+total pot: 200 
+/inquire 
+recv from player 4444: check
+send inquire msg to player 7777 
+inquire/ 
+4444 51750 8000 100 check 
+6666 10342 4109 0 fold 
+7777 1396 4036 100 check 
+total pot: 200 
+/inquire 
+recv from player 7777: check
+turn/ 
+DIAMONDS 7 
+/turn 
+
+---turn round bet---
+valid player: 3, all in player: 0, fold player: 1
+send inquire msg to player 4444 
+inquire/ 
+6666 10342 4109 0 fold 
+7777 1396 4036 100 check 
+4444 51750 8000 100 check 
+total pot: 200 
+/inquire 
+recv from player 4444: check
+send inquire msg to player 7777 
+inquire/ 
+4444 51750 8000 100 check 
+6666 10342 4109 0 fold 
+7777 1396 4036 100 check 
+total pot: 200 
+/inquire 
+recv from player 7777: check
+river/ 
+CLUBS 9 
+/river 
+
+---river round bet---
+valid player: 3, all in player: 0, fold player: 1
+send inquire msg to player 4444 
+inquire/ 
+6666 10342 4109 0 fold 
+7777 1396 4036 100 check 
+4444 51750 8000 100 check 
+total pot: 200 
+/inquire 
+recv from player 4444: check
+send inquire msg to player 7777 
+inquire/ 
+4444 51750 8000 100 check 
+6666 10342 4109 0 fold 
+7777 1396 4036 100 check 
+total pot: 200 
+/inquire 
+recv from player 7777: check
+
+---show down---
+showdown/ 
+common/ 
+DIAMONDS Q 
+HEARTS A 
+CLUBS 2 
+DIAMONDS 7 
+CLUBS 9 
+/common 
+2: 4444 HEARTS 3 DIAMONDS J HIGH_CARD 
+1: 7777 SPADES A CLUBS 5 ONE_PAIR 
+/showdown 
+
+---Allocate pot---
+pot-win/ 
+7777: 200 
+/pot-win 
+it is player 4444's turn to be button
+
+-----187 Hand-----
+
+----- clean player data in socket -----
+seat/ 
+button: 4444 51750 8000 
+small blind: 7777 1596 4036 
+big blind: 6666 10342 4109 
+/seat 
+blind/ 
+7777: 50 
+6666: 100 
+/blind 
+player 7777:hold/ 
+CLUBS 8 
+DIAMONDS A 
+/hold 
+player 6666:hold/ 
+CLUBS A 
+SPADES J 
+/hold 
+player 4444:hold/ 
+CLUBS 10 
+CLUBS K 
+/hold 
+
+---pre flop round bet---
+valid player: 3, all in player: 0, fold player: 0
+send inquire msg to player 4444 
+inquire/ 
+6666 10242 4109 100 blind 
+7777 1546 4036 50 blind 
+total pot: 150 
+/inquire 
+recv from player 4444: raise 5269
+send inquire msg to player 7777 
+inquire/ 
+4444 46381 8000 5369 raise 
+6666 10242 4109 100 blind 
+7777 1546 4036 50 blind 
+total pot: 5519 
+/inquire 
+recv from player 7777: fold
+send inquire msg to player 6666 
+inquire/ 
+7777 1546 4036 50 fold 
+4444 46381 8000 5369 raise 
+6666 10242 4109 100 blind 
+total pot: 5519 
+/inquire 
+recv from player 6666: fold
+
+---flop round bet---
+valid player: 3, all in player: 0, fold player: 2
+
+---turn round bet---
+valid player: 3, all in player: 0, fold player: 2
+
+---river round bet---
+valid player: 3, all in player: 0, fold player: 2
+
+--- 1 players not fold, don't need show down---
+
+---Allocate pot---
+Only player at seat 7 not fold, win all the pot 5519
+pot-win/ 
+4444: 5519 
+/pot-win 
+it is player 7777's turn to be button
+
+-----188 Hand-----
+
+----- clean player data in socket -----
+seat/ 
+button: 7777 1546 4036 
+small blind: 6666 10242 4109 
+big blind: 4444 51900 8000 
+/seat 
+blind/ 
+6666: 50 
+4444: 100 
+/blind 
+player 6666:hold/ 
+CLUBS 8 
+DIAMONDS A 
+/hold 
+player 4444:hold/ 
+CLUBS A 
+SPADES J 
+/hold 
+player 7777:hold/ 
+CLUBS 10 
+CLUBS K 
+/hold 
+
+---pre flop round bet---
+valid player: 3, all in player: 0, fold player: 0
+send inquire msg to player 7777 
+inquire/ 
+4444 51800 8000 100 blind 
+6666 10192 4109 50 blind 
+total pot: 150 
+/inquire 
+recv from player 7777: check
+send inquire msg to player 6666 
+inquire/ 
+7777 1446 4036 100 call 
+4444 51800 8000 100 blind 
+6666 10192 4109 50 blind 
+total pot: 250 
+/inquire 
+recv from player 6666: raise 340
+send inquire msg to player 4444 
+inquire/ 
+6666 9802 4109 440 raise 
+7777 1446 4036 100 call 
+4444 51800 8000 100 blind 
+total pot: 640 
+/inquire 
+recv from player 4444: raise 4891
+send inquire msg to player 7777 
+inquire/ 
+4444 46569 8000 5331 raise 
+6666 9802 4109 440 raise 
+7777 1446 4036 100 call 
+total pot: 5871 
+/inquire 
+recv from player 7777: fold
+send inquire msg to player 6666 
+inquire/ 
+7777 1446 4036 100 fold 
+4444 46569 8000 5331 raise 
+6666 9802 4109 440 raise 
+total pot: 5871 
+/inquire 
+recv from player 6666: fold
+
+---flop round bet---
+valid player: 3, all in player: 0, fold player: 2
+
+---turn round bet---
+valid player: 3, all in player: 0, fold player: 2
+
+---river round bet---
+valid player: 3, all in player: 0, fold player: 2
+
+--- 1 players not fold, don't need show down---
+
+---Allocate pot---
+Only player at seat 1 not fold, win all the pot 5871
+pot-win/ 
+4444: 5871 
+/pot-win 
+it is player 6666's turn to be button
+
+-----189 Hand-----
+
+----- clean player data in socket -----
+seat/ 
+button: 6666 9802 4109 
+small blind: 4444 52440 8000 
+big blind: 7777 1446 4036 
+/seat 
+blind/ 
+4444: 50 
+7777: 100 
+/blind 
+player 4444:hold/ 
+CLUBS Q 
+DIAMONDS Q 
+/hold 
+player 7777:hold/ 
+HEARTS Q 
+HEARTS 9 
+/hold 
+player 6666:hold/ 
+CLUBS 8 
+SPADES 8 
+/hold 
+
+---pre flop round bet---
+valid player: 3, all in player: 0, fold player: 0
+send inquire msg to player 6666 
+inquire/ 
+7777 1346 4036 100 blind 
+4444 52390 8000 50 blind 
+total pot: 150 
+/inquire 
+recv from player 6666: check
+send inquire msg to player 4444 
+inquire/ 
+6666 9702 4109 100 call 
+7777 1346 4036 100 blind 
+4444 52390 8000 50 blind 
+total pot: 250 
+/inquire 
+recv from player 4444: raise 15570
+send inquire msg to player 7777 
+inquire/ 
+4444 36770 8000 15670 raise 
+6666 9702 4109 100 call 
+7777 1346 4036 100 blind 
+total pot: 15870 
+/inquire 
+recv from player 7777: fold
+send inquire msg to player 6666 
+inquire/ 
+7777 1346 4036 100 fold 
+4444 36770 8000 15670 raise 
+6666 9702 4109 100 call 
+total pot: 15870 
+/inquire 
+recv from player 6666: fold
+
+---flop round bet---
+valid player: 3, all in player: 0, fold player: 2
+
+---turn round bet---
+valid player: 3, all in player: 0, fold player: 2
+
+---river round bet---
+valid player: 3, all in player: 0, fold player: 2
+
+--- 1 players not fold, don't need show down---
+
+---Allocate pot---
+Only player at seat 0 not fold, win all the pot 15870
+pot-win/ 
+4444: 15870 
+/pot-win 
+it is player 4444's turn to be button
+
+-----190 Hand-----
+
+----- clean player data in socket -----
+seat/ 
+button: 4444 52640 8000 
+small blind: 7777 1346 4036 
+big blind: 6666 9702 4109 
+/seat 
+blind/ 
+7777: 50 
+6666: 100 
+/blind 
+player 7777:hold/ 
+DIAMONDS 10 
+HEARTS A 
+/hold 
+player 6666:hold/ 
+HEARTS Q 
+DIAMONDS 7 
+/hold 
+player 4444:hold/ 
+DIAMONDS Q 
+DIAMONDS 6 
+/hold 
+
+---pre flop round bet---
+valid player: 3, all in player: 0, fold player: 0
+send inquire msg to player 4444 
+inquire/ 
+6666 9602 4109 100 blind 
+7777 1296 4036 50 blind 
+total pot: 150 
+/inquire 
+recv from player 4444: raise 211
+send inquire msg to player 7777 
+inquire/ 
+4444 52329 8000 311 raise 
+6666 9602 4109 100 blind 
+7777 1296 4036 50 blind 
+total pot: 461 
+/inquire 
+recv from player 7777: check
+send inquire msg to player 6666 
+inquire/ 
+7777 1035 4036 311 call 
+4444 52329 8000 311 raise 
+6666 9602 4109 100 blind 
+total pot: 722 
+/inquire 
+recv from player 6666: check
+flop/ 
+SPADES J 
+HEARTS 3 
+HEARTS 4 
+/flop 
+
+---flop round bet---
+valid player: 3, all in player: 0, fold player: 0
+send inquire msg to player 7777 
+inquire/ 
+4444 52329 8000 311 raise 
+6666 9391 4109 311 call 
+7777 1035 4036 311 call 
+total pot: 933 
+/inquire 
+recv from player 7777: check
+send inquire msg to player 6666 
+inquire/ 
+7777 1035 4036 311 check 
+4444 52329 8000 311 raise 
+6666 9391 4109 311 call 
+total pot: 933 
+/inquire 
+recv from player 6666: check
+send inquire msg to player 4444 
+inquire/ 
+6666 9391 4109 311 check 
+7777 1035 4036 311 check 
+4444 52329 8000 311 raise 
+total pot: 933 
+/inquire 
+recv from player 4444: check
+turn/ 
+SPADES K 
+/turn 
+
+---turn round bet---
+valid player: 3, all in player: 0, fold player: 0
+send inquire msg to player 7777 
+inquire/ 
+4444 52329 8000 311 check 
+6666 9391 4109 311 check 
+7777 1035 4036 311 check 
+total pot: 933 
+/inquire 
+recv from player 7777: check
+send inquire msg to player 6666 
+inquire/ 
+7777 1035 4036 311 check 
+4444 52329 8000 311 check 
+6666 9391 4109 311 check 
+total pot: 933 
+/inquire 
+recv from player 6666: check
+send inquire msg to player 4444 
+inquire/ 
+6666 9391 4109 311 check 
+7777 1035 4036 311 check 
+4444 52329 8000 311 check 
+total pot: 933 
+/inquire 
+recv from player 4444: check
+river/ 
+SPADES 2 
+/river 
+
+---river round bet---
+valid player: 3, all in player: 0, fold player: 0
+send inquire msg to player 7777 
+inquire/ 
+4444 52329 8000 311 check 
+6666 9391 4109 311 check 
+7777 1035 4036 311 check 
+total pot: 933 
+/inquire 
+recv from player 7777: check
+send inquire msg to player 6666 
+inquire/ 
+7777 1035 4036 311 check 
+4444 52329 8000 311 check 
+6666 9391 4109 311 check 
+total pot: 933 
+/inquire 
+recv from player 6666: check
+send inquire msg to player 4444 
+inquire/ 
+6666 9391 4109 311 check 
+7777 1035 4036 311 check 
+4444 52329 8000 311 check 
+total pot: 933 
+/inquire 
+recv from player 4444: check
+
+---show down---
+showdown/ 
+common/ 
+SPADES J 
+HEARTS 3 
+HEARTS 4 
+SPADES K 
+SPADES 2 
+/common 
+1: 7777 DIAMONDS 10 HEARTS A HIGH_CARD 
+2: 6666 HEARTS Q DIAMONDS 7 HIGH_CARD 
+3: 4444 DIAMONDS Q DIAMONDS 6 HIGH_CARD 
+/showdown 
+
+---Allocate pot---
+pot-win/ 
+7777: 933 
+/pot-win 
+it is player 7777's turn to be button
+
+-----191 Hand-----
+
+----- clean player data in socket -----
+seat/ 
+button: 7777 1968 4036 
+small blind: 6666 9391 4109 
+big blind: 4444 52329 8000 
+/seat 
+blind/ 
+6666: 50 
+4444: 100 
+/blind 
+player 6666:hold/ 
+SPADES 9 
+CLUBS J 
+/hold 
+player 4444:hold/ 
+SPADES 5 
+HEARTS 7 
+/hold 
+player 7777:hold/ 
+SPADES A 
+CLUBS 10 
+/hold 
+
+---pre flop round bet---
+valid player: 3, all in player: 0, fold player: 0
+send inquire msg to player 7777 
+inquire/ 
+4444 52229 8000 100 blind 
+6666 9341 4109 50 blind 
+total pot: 150 
+/inquire 
+recv from player 7777: raise 156
+send inquire msg to player 6666 
+inquire/ 
+7777 1712 4036 256 raise 
+4444 52229 8000 100 blind 
+6666 9341 4109 50 blind 
+total pot: 406 
+/inquire 
+recv from player 6666: check
+send inquire msg to player 4444 
+inquire/ 
+6666 9135 4109 256 call 
+7777 1712 4036 256 raise 
+4444 52229 8000 100 blind 
+total pot: 612 
+/inquire 
+recv from player 4444: check
+flop/ 
+CLUBS A 
+DIAMONDS 8 
+SPADES 7 
+/flop 
+
+---flop round bet---
+valid player: 3, all in player: 0, fold player: 0
+send inquire msg to player 6666 
+inquire/ 
+7777 1712 4036 256 raise 
+4444 52073 8000 256 call 
+6666 9135 4109 256 call 
+total pot: 768 
+/inquire 
+recv from player 6666: check
+send inquire msg to player 4444 
+inquire/ 
+6666 9135 4109 256 check 
+7777 1712 4036 256 raise 
+4444 52073 8000 256 call 
+total pot: 768 
+/inquire 
+recv from player 4444: check
+send inquire msg to player 7777 
+inquire/ 
+4444 52073 8000 256 check 
+6666 9135 4109 256 check 
+7777 1712 4036 256 raise 
+total pot: 768 
+/inquire 
+recv from player 7777: check
+turn/ 
+DIAMONDS 7 
+/turn 
+
+---turn round bet---
+valid player: 3, all in player: 0, fold player: 0
+send inquire msg to player 6666 
+inquire/ 
+7777 1712 4036 256 check 
+4444 52073 8000 256 check 
+6666 9135 4109 256 check 
+total pot: 768 
+/inquire 
+recv from player 6666: check
+send inquire msg to player 4444 
+inquire/ 
+6666 9135 4109 256 check 
+7777 1712 4036 256 check 
+4444 52073 8000 256 check 
+total pot: 768 
+/inquire 
+recv from player 4444: raise 28673
+send inquire msg to player 7777 
+inquire/ 
+4444 23400 8000 28929 raise 
+6666 9135 4109 256 check 
+7777 1712 4036 256 check 
+total pot: 29441 
+/inquire 
+recv from player 7777: fold
+send inquire msg to player 6666 
+inquire/ 
+7777 1712 4036 256 fold 
+4444 23400 8000 28929 raise 
+6666 9135 4109 256 check 
+total pot: 29441 
+/inquire 
+recv from player 6666: fold
+
+---river round bet---
+valid player: 3, all in player: 0, fold player: 2
+
+--- 1 players not fold, don't need show down---
+
+---Allocate pot---
+Only player at seat 1 not fold, win all the pot 29441
+pot-win/ 
+4444: 29441 
+/pot-win 
+it is player 6666's turn to be button
+
+-----192 Hand-----
+
+----- clean player data in socket -----
+seat/ 
+button: 6666 9135 4109 
+small blind: 4444 52841 8000 
+big blind: 7777 1712 4036 
+/seat 
+blind/ 
+4444: 50 
+7777: 100 
+/blind 
+player 4444:hold/ 
+CLUBS 4 
+SPADES 8 
+/hold 
+player 7777:hold/ 
+CLUBS 5 
+HEARTS Q 
+/hold 
+player 6666:hold/ 
+CLUBS J 
+HEARTS 9 
+/hold 
+
+---pre flop round bet---
+valid player: 3, all in player: 0, fold player: 0
+send inquire msg to player 6666 
+inquire/ 
+7777 1612 4036 100 blind 
+4444 52791 8000 50 blind 
+total pot: 150 
+/inquire 
+recv from player 6666: raise 162
+send inquire msg to player 4444 
+inquire/ 
+6666 8873 4109 262 raise 
+7777 1612 4036 100 blind 
+4444 52791 8000 50 blind 
+total pot: 412 
+/inquire 
+recv from player 4444: fold
+send inquire msg to player 7777 
+inquire/ 
+4444 52791 8000 50 fold 
+6666 8873 4109 262 raise 
+7777 1612 4036 100 blind 
+total pot: 412 
+/inquire 
+recv from player 7777: check
+flop/ 
+HEARTS 2 
+CLUBS 6 
+SPADES 3 
+/flop 
+
+---flop round bet---
+valid player: 3, all in player: 0, fold player: 1
+send inquire msg to player 4444 
+inquire/ 
+6666 8873 4109 262 raise 
+7777 1450 4036 262 call 
+4444 52791 8000 50 fold 
+total pot: 574 
+/inquire 
+send inquire msg to player 7777 
+inquire/ 
+4444 52791 8000 50 fold 
+6666 8873 4109 262 raise 
+7777 1450 4036 262 call 
+total pot: 574 
+/inquire 
+recv from player 7777: check
+send inquire msg to player 6666 
+inquire/ 
+7777 1450 4036 262 check 
+4444 52791 8000 50 fold 
+6666 8873 4109 262 raise 
+total pot: 574 
+/inquire 
+recv from player 6666: check
+turn/ 
+SPADES 2 
+/turn 
+
+---turn round bet---
+valid player: 3, all in player: 0, fold player: 1
+send inquire msg to player 4444 
+inquire/ 
+6666 8873 4109 262 check 
+7777 1450 4036 262 check 
+4444 52791 8000 50 fold 
+total pot: 574 
+/inquire 
+send inquire msg to player 7777 
+inquire/ 
+4444 52791 8000 50 fold 
+6666 8873 4109 262 check 
+7777 1450 4036 262 check 
+total pot: 574 
+/inquire 
+recv from player 7777: check
+send inquire msg to player 6666 
+inquire/ 
+7777 1450 4036 262 check 
+4444 52791 8000 50 fold 
+6666 8873 4109 262 check 
+total pot: 574 
+/inquire 
+recv from player 6666: check
+river/ 
+DIAMONDS J 
+/river 
+
+---river round bet---
+valid player: 3, all in player: 0, fold player: 1
+send inquire msg to player 4444 
+inquire/ 
+6666 8873 4109 262 check 
+7777 1450 4036 262 check 
+4444 52791 8000 50 fold 
+total pot: 574 
+/inquire 
+send inquire msg to player 7777 
+inquire/ 
+4444 52791 8000 50 fold 
+6666 8873 4109 262 check 
+7777 1450 4036 262 check 
+total pot: 574 
+/inquire 
+recv from player 7777: check
+send inquire msg to player 6666 
+inquire/ 
+7777 1450 4036 262 check 
+4444 52791 8000 50 fold 
+6666 8873 4109 262 check 
+total pot: 574 
+/inquire 
+recv from player 6666: check
+
+---show down---
+showdown/ 
+common/ 
+HEARTS 2 
+CLUBS 6 
+SPADES 3 
+SPADES 2 
+DIAMONDS J 
+/common 
+2: 7777 CLUBS 5 HEARTS Q ONE_PAIR 
+1: 6666 CLUBS J HEARTS 9 TWO_PAIR 
+/showdown 
+
+---Allocate pot---
+pot-win/ 
+6666: 574 
+/pot-win 
+it is player 4444's turn to be button
+
+-----193 Hand-----
+
+----- clean player data in socket -----
+seat/ 
+button: 4444 52791 8000 
+small blind: 7777 1450 4036 
+big blind: 6666 9447 4109 
+/seat 
+blind/ 
+7777: 50 
+6666: 100 
+/blind 
+player 7777:hold/ 
+DIAMONDS J 
+SPADES K 
+/hold 
+player 6666:hold/ 
+HEARTS 8 
+CLUBS 5 
+/hold 
+player 4444:hold/ 
+HEARTS 3 
+HEARTS 6 
+/hold 
+
+---pre flop round bet---
+valid player: 3, all in player: 0, fold player: 0
+send inquire msg to player 4444 
+inquire/ 
+6666 9347 4109 100 blind 
+7777 1400 4036 50 blind 
+total pot: 150 
+/inquire 
+recv from player 4444: fold
+send inquire msg to player 7777 
+inquire/ 
+4444 52791 8000 0 fold 
+6666 9347 4109 100 blind 
+7777 1400 4036 50 blind 
+total pot: 150 
+/inquire 
+recv from player 7777: check
+send inquire msg to player 6666 
+inquire/ 
+7777 1350 4036 100 call 
+4444 52791 8000 0 fold 
+6666 9347 4109 100 blind 
+total pot: 200 
+/inquire 
+recv from player 6666: check
+flop/ 
+CLUBS 6 
+SPADES 9 
+CLUBS 3 
+/flop 
+
+---flop round bet---
+valid player: 3, all in player: 0, fold player: 1
+send inquire msg to player 7777 
+inquire/ 
+4444 52791 8000 0 fold 
+6666 9347 4109 100 check 
+7777 1350 4036 100 call 
+total pot: 200 
+/inquire 
+recv from player 7777: check
+send inquire msg to player 6666 
+inquire/ 
+7777 1350 4036 100 check 
+4444 52791 8000 0 fold 
+6666 9347 4109 100 check 
+total pot: 200 
+/inquire 
+recv from player 6666: check
+turn/ 
+CLUBS Q 
+/turn 
+
+---turn round bet---
+valid player: 3, all in player: 0, fold player: 1
+send inquire msg to player 7777 
+inquire/ 
+4444 52791 8000 0 fold 
+6666 9347 4109 100 check 
+7777 1350 4036 100 check 
+total pot: 200 
+/inquire 
+recv from player 7777: check
+send inquire msg to player 6666 
+inquire/ 
+7777 1350 4036 100 check 
+4444 52791 8000 0 fold 
+6666 9347 4109 100 check 
+total pot: 200 
+/inquire 
+recv from player 6666: check
+river/ 
+SPADES 2 
+/river 
+
+---river round bet---
+valid player: 3, all in player: 0, fold player: 1
+send inquire msg to player 7777 
+inquire/ 
+4444 52791 8000 0 fold 
+6666 9347 4109 100 check 
+7777 1350 4036 100 check 
+total pot: 200 
+/inquire 
+recv from player 7777: check
+send inquire msg to player 6666 
+inquire/ 
+7777 1350 4036 100 check 
+4444 52791 8000 0 fold 
+6666 9347 4109 100 check 
+total pot: 200 
+/inquire 
+recv from player 6666: check
+
+---show down---
+showdown/ 
+common/ 
+CLUBS 6 
+SPADES 9 
+CLUBS 3 
+CLUBS Q 
+SPADES 2 
+/common 
+1: 7777 DIAMONDS J SPADES K HIGH_CARD 
+2: 6666 HEARTS 8 CLUBS 5 HIGH_CARD 
+/showdown 
+
+---Allocate pot---
+pot-win/ 
+7777: 200 
+/pot-win 
+it is player 7777's turn to be button
+
+-----194 Hand-----
+
+----- clean player data in socket -----
+seat/ 
+button: 7777 1550 4036 
+small blind: 6666 9347 4109 
+big blind: 4444 52791 8000 
+/seat 
+blind/ 
+6666: 50 
+4444: 100 
+/blind 
+player 6666:hold/ 
+CLUBS 4 
+DIAMONDS K 
+/hold 
+player 4444:hold/ 
+DIAMONDS J 
+CLUBS 2 
+/hold 
+player 7777:hold/ 
+CLUBS 5 
+CLUBS J 
+/hold 
+
+---pre flop round bet---
+valid player: 3, all in player: 0, fold player: 0
+send inquire msg to player 7777 
+inquire/ 
+4444 52691 8000 100 blind 
+6666 9297 4109 50 blind 
+total pot: 150 
+/inquire 
+recv from player 7777: fold
+send inquire msg to player 6666 
+inquire/ 
+7777 1550 4036 0 fold 
+4444 52691 8000 100 blind 
+6666 9297 4109 50 blind 
+total pot: 150 
+/inquire 
+recv from player 6666: check
+send inquire msg to player 4444 
+inquire/ 
+6666 9247 4109 100 call 
+7777 1550 4036 0 fold 
+4444 52691 8000 100 blind 
+total pot: 200 
+/inquire 
+recv from player 4444: check
+flop/ 
+HEARTS 3 
+SPADES A 
+CLUBS 9 
+/flop 
+
+---flop round bet---
+valid player: 3, all in player: 0, fold player: 1
+send inquire msg to player 6666 
+inquire/ 
+7777 1550 4036 0 fold 
+4444 52691 8000 100 check 
+6666 9247 4109 100 call 
+total pot: 200 
+/inquire 
+recv from player 6666: check
+send inquire msg to player 4444 
+inquire/ 
+6666 9247 4109 100 check 
+7777 1550 4036 0 fold 
+4444 52691 8000 100 check 
+total pot: 200 
+/inquire 
+recv from player 4444: check
+turn/ 
+DIAMONDS 8 
+/turn 
+
+---turn round bet---
+valid player: 3, all in player: 0, fold player: 1
+send inquire msg to player 6666 
+inquire/ 
+7777 1550 4036 0 fold 
+4444 52691 8000 100 check 
+6666 9247 4109 100 check 
+total pot: 200 
+/inquire 
+recv from player 6666: check
+send inquire msg to player 4444 
+inquire/ 
+6666 9247 4109 100 check 
+7777 1550 4036 0 fold 
+4444 52691 8000 100 check 
+total pot: 200 
+/inquire 
+recv from player 4444: check
+river/ 
+CLUBS Q 
+/river 
+
+---river round bet---
+valid player: 3, all in player: 0, fold player: 1
+send inquire msg to player 6666 
+inquire/ 
+7777 1550 4036 0 fold 
+4444 52691 8000 100 check 
+6666 9247 4109 100 check 
+total pot: 200 
+/inquire 
+recv from player 6666: check
+send inquire msg to player 4444 
+inquire/ 
+6666 9247 4109 100 check 
+7777 1550 4036 0 fold 
+4444 52691 8000 100 check 
+total pot: 200 
+/inquire 
+recv from player 4444: check
+
+---show down---
+showdown/ 
+common/ 
+HEARTS 3 
+SPADES A 
+CLUBS 9 
+DIAMONDS 8 
+CLUBS Q 
+/common 
+1: 6666 CLUBS 4 DIAMONDS K HIGH_CARD 
+2: 4444 DIAMONDS J CLUBS 2 HIGH_CARD 
+/showdown 
+
+---Allocate pot---
+pot-win/ 
+6666: 200 
+/pot-win 
+it is player 6666's turn to be button
+
+-----195 Hand-----
+
+----- clean player data in socket -----
+seat/ 
+button: 6666 9447 4109 
+small blind: 4444 52691 8000 
+big blind: 7777 1550 4036 
+/seat 
+blind/ 
+4444: 50 
+7777: 100 
+/blind 
+player 4444:hold/ 
+SPADES 7 
+CLUBS 6 
+/hold 
+player 7777:hold/ 
+HEARTS 3 
+HEARTS 2 
+/hold 
+player 6666:hold/ 
+DIAMONDS 10 
+CLUBS 4 
+/hold 
+
+---pre flop round bet---
+valid player: 3, all in player: 0, fold player: 0
+send inquire msg to player 6666 
+inquire/ 
+7777 1450 4036 100 blind 
+4444 52641 8000 50 blind 
+total pot: 150 
+/inquire 
+recv from player 6666: fold
+send inquire msg to player 4444 
+inquire/ 
+6666 9447 4109 0 fold 
+7777 1450 4036 100 blind 
+4444 52641 8000 50 blind 
+total pot: 150 
+/inquire 
+recv from player 4444: check
+send inquire msg to player 7777 
+inquire/ 
+4444 52591 8000 100 call 
+6666 9447 4109 0 fold 
+7777 1450 4036 100 blind 
+total pot: 200 
+/inquire 
+recv from player 7777: check
+flop/ 
+HEARTS A 
+CLUBS 5 
+CLUBS Q 
+/flop 
+
+---flop round bet---
+valid player: 3, all in player: 0, fold player: 1
+send inquire msg to player 4444 
+inquire/ 
+6666 9447 4109 0 fold 
+7777 1450 4036 100 check 
+4444 52591 8000 100 call 
+total pot: 200 
+/inquire 
+recv from player 4444: check
+send inquire msg to player 7777 
+inquire/ 
+4444 52591 8000 100 check 
+6666 9447 4109 0 fold 
+7777 1450 4036 100 check 
+total pot: 200 
+/inquire 
+recv from player 7777: check
+turn/ 
+CLUBS A 
+/turn 
+
+---turn round bet---
+valid player: 3, all in player: 0, fold player: 1
+send inquire msg to player 4444 
+inquire/ 
+6666 9447 4109 0 fold 
+7777 1450 4036 100 check 
+4444 52591 8000 100 check 
+total pot: 200 
+/inquire 
+recv from player 4444: check
+send inquire msg to player 7777 
+inquire/ 
+4444 52591 8000 100 check 
+6666 9447 4109 0 fold 
+7777 1450 4036 100 check 
+total pot: 200 
+/inquire 
+recv from player 7777: check
+river/ 
+CLUBS 10 
+/river 
+
+---river round bet---
+valid player: 3, all in player: 0, fold player: 1
+send inquire msg to player 4444 
+inquire/ 
+6666 9447 4109 0 fold 
+7777 1450 4036 100 check 
+4444 52591 8000 100 check 
+total pot: 200 
+/inquire 
+recv from player 4444: check
+send inquire msg to player 7777 
+inquire/ 
+4444 52591 8000 100 check 
+6666 9447 4109 0 fold 
+7777 1450 4036 100 check 
+total pot: 200 
+/inquire 
+recv from player 7777: check
+
+---show down---
+showdown/ 
+common/ 
+HEARTS A 
+CLUBS 5 
+CLUBS Q 
+CLUBS A 
+CLUBS 10 
+/common 
+1: 4444 SPADES 7 CLUBS 6 FLUSH 
+2: 7777 HEARTS 3 HEARTS 2 ONE_PAIR 
+/showdown 
+
+---Allocate pot---
+pot-win/ 
+4444: 200 
+/pot-win 
+it is player 4444's turn to be button
+
+-----196 Hand-----
+
+----- clean player data in socket -----
+seat/ 
+button: 4444 52791 8000 
+small blind: 7777 1450 4036 
+big blind: 6666 9447 4109 
+/seat 
+blind/ 
+7777: 50 
+6666: 100 
+/blind 
+player 7777:hold/ 
+CLUBS J 
+SPADES 3 
+/hold 
+player 6666:hold/ 
+SPADES A 
+DIAMONDS J 
+/hold 
+player 4444:hold/ 
+SPADES K 
+HEARTS A 
+/hold 
+
+---pre flop round bet---
+valid player: 3, all in player: 0, fold player: 0
+send inquire msg to player 4444 
+inquire/ 
+6666 9347 4109 100 blind 
+7777 1400 4036 50 blind 
+total pot: 150 
+/inquire 
+recv from player 4444: raise 6973
+send inquire msg to player 7777 
+inquire/ 
+4444 45718 8000 7073 raise 
+6666 9347 4109 100 blind 
+7

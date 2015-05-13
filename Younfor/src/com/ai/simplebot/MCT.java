@@ -1,6 +1,10 @@
 package com.ai.simplebot;
 
+import java.io.IOException;
 import java.util.concurrent.atomic.*;
+
+import com.game.State;
+import com.util.Log;
 
 public class MCT implements Runnable {
     private final int [] hand;
@@ -13,7 +17,7 @@ public class MCT implements Runnable {
     private final AtomicInteger total;
     private final int [] curDeck;
     public MCT (int [] hand, int numOther, int [] partialCommunity,
-                             long stop, AtomicInteger won, AtomicInteger total) {
+                             long stop, AtomicInteger won, AtomicInteger total) throws IOException {
         this.hand = hand.clone();
         this.community = new int[7];
         this.numCommunity = partialCommunity.length;
@@ -27,7 +31,7 @@ public class MCT implements Runnable {
         this.total = total;
         this.curDeck = new int[52];
     }
-    public boolean tryReplace () {
+    public boolean tryReplace () throws IOException {
 
         if (Math.random() < 0.04)
             return true;
@@ -89,7 +93,10 @@ public class MCT implements Runnable {
             //System.out.print(" " + PokerLib.cardToString(community[j]));
         //System.out.println();
         int myVal = PokerLib.eval_7hand(community);
-        //System.out.println(myVal);
+        //Log.getIns("7777").log("clever bot:"+State.ranknum[0].intValue());
+        State.ranknum[PokerLib.hand_rank(myVal)].getAndIncrement();
+        
+       // System.out.println(myVal);
 
         // Return true if win
         if (myVal < bestVal) {
@@ -106,8 +113,13 @@ public class MCT implements Runnable {
                     return;
             }
             total.getAndIncrement();
-            if (tryReplace())
-                won.getAndIncrement();
+            try {
+				if (tryReplace())
+				    won.getAndIncrement();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
         }
     }
 }

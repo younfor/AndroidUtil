@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.atomic.AtomicInteger;
 
 import com.ai.simplebot.Bys;
 
@@ -33,6 +34,7 @@ public class State {
 	
 	//AI
 	public String pid,pname;//
+	public boolean isFold=false;
 	public int bigblindbet,smallblindbet,totalpot;//
 	public Card handcard[]=new Card[2];//
 	public Card hostcard[]=new Card[5];//
@@ -44,10 +46,25 @@ public class State {
 	public List<Player>  players=new ArrayList<Player>();//
 	//bys- save to game over !!!!!!!!
 	public Map<String,Bys> bys=new HashMap<String, Bys>();
+	// bys prob
+    public static AtomicInteger [] ranknum=new AtomicInteger[10];
+    public double getMyVal()
+    {
+		double total=0,up=0;
+		for(int i=1;i<10;i++)
+		{
+			total+=State.ranknum[i].doubleValue();
+			up+=State.ranknum[i].doubleValue()*i;
+		}
+		return up/total;
+    }
 	//public Map<String,Integer[]> actions=new HashMap<String, Integer[]>();
 	public int raisenum=0;
 	public void clear()
 	{
+		State.ranknum=new AtomicInteger[10];
+		for(int i=0;i<10;i++)
+			State.ranknum[i]=new AtomicInteger();
 		bigblindbet=0;
 		smallblindbet=0;
 		handcard=new Card[2];
@@ -55,6 +72,7 @@ public class State {
 		totalpot=0;
 		hand=null;
 		comm=null;
+		isFold=false;
 		raisenum=0;
 		jetton=0;
 		bet=0;

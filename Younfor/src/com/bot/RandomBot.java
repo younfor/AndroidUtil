@@ -8,10 +8,10 @@ public class RandomBot implements Bot{
 
 	@Override
 	public int getBestAction(State state, long timeMS) {
-		int action[]={State.all_in,State.call,State.check,State.fold,State.raise};
+		int action[]={State.call,State.check,State.fold};
 		State.raisebet=0;
 		Random r=new Random();
-		return action[r.nextInt(5)];
+		return action[r.nextInt(3)];
 	}
 	/*
 	public static void main(String args[])

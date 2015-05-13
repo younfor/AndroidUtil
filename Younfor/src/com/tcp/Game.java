@@ -195,12 +195,13 @@ public class Game {
 						p.setBet(Integer.parseInt(data[3]));
 						p.setLastaction(State.getAction(data[4]));
 						//bys
-						//if(p.getLastaction()==State.fold)
-						//	p.actions[state.currentState-State.baseState]=Bys.fold;//flod 0 call 1 raise 2
-						//else if(p.getLastaction()==State.raise)
-						//	p.actions[state.currentState-State.baseState]=Bys.raise;
-						//else
-						//	p.actions[state.currentState-State.baseState]=Bys.call;
+						if(p.getLastaction()==State.fold)
+							p.actions[state.currentState-State.baseState]=Bys.fold;//flod 0 call 1 raise 2
+						else if(p.getLastaction()==State.raise)
+							p.actions[state.currentState-State.baseState]=Bys.raise;
+						else
+							p.actions[state.currentState-State.baseState]=Bys.call;
+						Log.getIns(state.pid).log("set "+p.getPid()+" bys actions "+(state.currentState-State.baseState)+":"+p.actions[state.currentState-State.baseState]);
 						if(p.getLastaction()==State.raise)
 							state.raisenum++;
 						if(lastbet==0)
@@ -213,6 +214,8 @@ public class Game {
 							//self
 							state.setJetton(p.getJetton());
 							state.setPrebet(p.getBet());
+							if(p.getLastaction()==State.all_in ||p.getLastaction()==State.fold)
+								state.isFold=true;
 						}
 						Log.getIns(state.pid).log("get player"+p.getPid()+" "+p.getJetton()+" "+p.getGold()+" "+p.getBet()+" "+p.getLastaction());
 					}
@@ -226,27 +229,30 @@ public class Game {
 				//Random r=new Random();
 				//int num=Math.abs(r.nextInt())%5;
 				//Log.getIns(pid).log("action num: "+num);
-				int len=0;
-				if(state.currentState==State.baseState)
-					len=0;
-				else if(state.currentState==State.flopState)
-					len=3;
-				else if(state.currentState==State.turnState)
-					len=4;
-				else if(state.currentState==State.riverState)
-					len=5;
-				state.setComm(len);
-				int ans=bot.getBestAction(state, 250);
-				String action="fold";
-				if(ans==State.fold)
-					action="fold";
-				else if(ans==State.call)
-					action="check";
-				else if(ans==State.raise)
-					action="raise "+State.raisebet;
-				Log.getIns(state.pid).log("action: "+action);
-				out.write(action.getBytes());
-				out.flush();
+				if(!state.isFold)
+				{
+					int len=0;
+					if(state.currentState==State.baseState)
+						len=0;
+					else if(state.currentState==State.flopState)
+						len=3;
+					else if(state.currentState==State.turnState)
+						len=4;
+					else if(state.currentState==State.riverState)
+						len=5;
+					state.setComm(len);
+					int ans=bot.getBestAction(state, 250);
+					String action="fold";
+					if(ans==State.fold)
+						action="fold";
+					else if(ans==State.call)
+						action="check";
+					else if(ans==State.raise)
+						action="raise "+State.raisebet;
+					Log.getIns(state.pid).log("action: "+action);
+					out.write(action.getBytes());
+					out.flush();
+				}
 			}else if(s.startsWith("flop"))
 			{
 				Log.getIns(state.pid).log("get flop");
@@ -346,17 +352,18 @@ public class Game {
 					{
 						Log.getIns(state.pid).log(s);
 						String data[]=s.split(" ");
-						String id=data[0].substring(2);
-						//if(!state.bys.containsKey(id))
-						//{
-						//	Log.getIns(state.pid).log("create bys: "+id);
-						//	state.bys.put(id, new Bys());
-						//}
-						//Log.getIns(state.pid).log("create bys: rank "+state.findRank(data[5]));
-						//state.bys.get(id).addBys(findById(id).actions, state.findRank(data[5]));
-						//int a[]=state.bys.get(id).getBys(new int[]{Bys.call});
-						//for(int i=0;i<a.length;i++)
-						//	Log.getIns(state.pid).log("bys num: " +a[i]);
+						String id=data[1];
+						Log.getIns(state.pid).log("prepare bys: "+id);
+						if(!state.bys.containsKey(id))
+						{
+							Log.getIns(state.pid).log("create bys: "+id);
+							state.bys.put(id, new Bys());
+						}
+						Log.getIns(state.pid).log("create bys: rank "+state.findRank(data[6]));
+						state.bys.get(id).addBys(findById(id).actions, state.findRank(data[6]));
+						int a[]=state.bys.get(id).getBys(new int[]{Bys.call});
+						for(int i=0;i<a.length;i++)
+							Log.getIns(state.pid).log("bys rank["+i+"]:" +a[i]);
 						s=in.readLine();
 					}
 					

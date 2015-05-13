@@ -8,9 +8,20 @@ public class Bys {
 	{
 		p[ac[0]][ac[1]][ac[2]][ac[3]][ranklevel]++;
 	}
+	public double getVal(int ac[])
+	{
+		int num[]=getBys(ac);
+		double total=0,up=0;
+		for(int i=1;i<10;i++)
+		{
+			total+=num[i];
+			up+=num[i]*i;
+		}
+		return up/total;
+	}
 	public int[] getBys(int ac[])
 	{
-		// 计算 p(r=1|A0=1,A1=1)
+		// count p(r=1|A0=1,A1=1)
 				int ans[]=new int[10];
 				int i[]=new int[5];
 				for(i[0]=0;i[0]<3;i[0]++)
