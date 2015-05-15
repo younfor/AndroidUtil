@@ -1,0 +1,1 @@
+java -cp test/ Player $1 $2 $3 $4 $5
