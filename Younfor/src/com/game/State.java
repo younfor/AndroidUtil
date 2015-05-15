@@ -44,6 +44,9 @@ public class State {
 	private int[] comm;//
 	private int jetton,bet,prebet,initjetton;//
 	public static int raisebet=0; //show action raise
+	public int myraisenum=0;
+	//public Map<String,Integer[]> actions=new HashMap<String, Integer[]>();
+	public int raisenum=0;
 	public List<Player>  players=new ArrayList<Player>();//
 	//bys- save to game over !!!!!!!!
 	public Map<String,Bys> bys=new HashMap<String, Bys>();
@@ -59,8 +62,7 @@ public class State {
 		}
 		return up/total;
     }
-	//public Map<String,Integer[]> actions=new HashMap<String, Integer[]>();
-	public int raisenum=0;
+	
 	public void clear()
 	{
 		State.ranknum=new AtomicInteger[10];
@@ -75,6 +77,7 @@ public class State {
 		comm=null;
 		isFold=false;
 		raisenum=0;
+		myraisenum=0;
 		jetton=0;
 		bet=0;
 		prebet=0;

@@ -201,7 +201,7 @@ public class Game {
 						//bys
 						if(p.getLastaction()==State.fold)
 							p.actions[state.currentState-State.baseState]=Bys.fold;//flod 0 call 1 raise 2
-						else if(p.getLastaction()==State.raise)
+						else if(p.getLastaction()==State.raise||p.getLastaction()==State.all_in)
 							p.actions[state.currentState-State.baseState]=Bys.raise;
 						else
 							p.actions[state.currentState-State.baseState]=Bys.call;
@@ -215,6 +215,8 @@ public class Game {
 						if(p.getPid().equals(state.pid))
 						{
 							//self
+							if(p.getLastaction()==State.raise)
+								state.myraisenum++;
 							state.setJetton(p.getJetton());
 							state.setPrebet(p.getBet());
 							if(p.getLastaction()==State.all_in ||p.getLastaction()==State.fold)
@@ -245,7 +247,7 @@ public class Game {
 						len=5;
 					state.setComm(len);
 					long times=System.currentTimeMillis();
-					int ans=bot.getBestAction(state, 250);
+					int ans=bot.getBestAction(state, 200);
 					debug("timeout: "+(System.currentTimeMillis()-times));
 					String action="fold";
 					if(ans==State.fold)
@@ -264,6 +266,7 @@ public class Game {
 				debug("get flop");
 				state.currentState=State.flopState;
 				state.raisenum=0;
+				state.myraisenum=0;
 				s=in.readLine();
 				int i=0;
 				while(!s.startsWith("/flop"))
@@ -287,6 +290,7 @@ public class Game {
 				debug("get turn");
 				state.currentState=State.turnState;
 				state.raisenum=0;
+				state.myraisenum=0;
 				s=in.readLine();
 				int i=3;
 				while(!s.startsWith("/turn"))
@@ -308,6 +312,7 @@ public class Game {
 				debug("get river");
 				state.currentState=State.riverState;
 				state.raisenum=0;
+				state.myraisenum=0;
 				s=in.readLine();
 				int i=4;
 				while(!s.startsWith("/river"))

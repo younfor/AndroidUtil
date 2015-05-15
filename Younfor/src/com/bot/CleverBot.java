@@ -157,7 +157,7 @@ public class CleverBot implements Bot{
 	        double deficit = 1.0 - prob;
 	        prob += deficit * add;
 	       // System.out.printf("Ran %d simulations\n", total.intValue());
-	        //Log.getIns(state.pid).log("time: "+won.doubleValue()+","+total.doubleValue());
+	        Log.getIns(state.pid).log("time: "+won.doubleValue()+","+total.doubleValue());
 	        // Evaluate other players & calculate move
 	        List<Player> players = state.players;
 	        int activePlayers = 0;
@@ -199,7 +199,8 @@ public class CleverBot implements Bot{
 	            }
 	        }
 	        else {
-	        	State.raisebet=Math.min(tocall - prebet,5*state.totalpot);
+	        	State.raisebet=Math.min(tocall - prebet,state.totalpot);
+	        	State.raisebet=Math.min(State.raisebet,15*state.bigblindbet);
 	        	//bys
 	        	Log.getIns(state.pid).log("myprobval:"+state.getMyVal());
 	        	double myval=state.getMyVal();
@@ -225,7 +226,8 @@ public class CleverBot implements Bot{
 	                }
 	            }
 	        	Log.getIns(state.pid).log("myval:ave  "+myval+":"+(aveval/base));
-	        	if(myval<aveval/base)
+	        	debug("myraisenum: "+state.myraisenum);
+	        	if(myval<aveval/base &&(state.myraisenum<2||State.raisebet<10*state.bigblindbet))
 	        		return State.raise;
 	        	else
 	        		return State.call;
