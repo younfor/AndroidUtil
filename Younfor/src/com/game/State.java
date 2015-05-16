@@ -48,6 +48,7 @@ public class State {
 	public int myraisenum=0;
 	//public Map<String,Integer[]> actions=new HashMap<String, Integer[]>();
 	public int raisenum=0;
+	public int seatplayer=0;
 	public int myloc=0;
 	public List<Player>  players=new ArrayList<Player>();//
 	//bys- save to game over !!!!!!!!
@@ -71,6 +72,7 @@ public class State {
 		for(int i=0;i<10;i++)
 			State.ranknum[i]=new AtomicInteger();
 		bigblindbet=0;
+		seatplayer=0;
 		smallblindbet=0;
 		handcard=new Card[2];
 		hostcard=new Card[5];

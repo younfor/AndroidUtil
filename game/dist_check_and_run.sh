@@ -57,6 +57,10 @@ echo "start your program"
 pushd . >/dev/null
 cd works/target
 killall gametest1 >/dev/null 2>&1
+killall simple >/dev/null 2>&1
+killall random >/dev/null 2>&1
+killall clever >/dev/null 2>&1
+killall call >/dev/null 2>&1
 for i in 1
 do
   nohup ./random 127.0.0.1 6000 127.0.0.$i 600$i $i$i$i$i 0</dev/null 1>/dev/null 2>/dev/null &

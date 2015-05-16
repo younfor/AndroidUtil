@@ -78,13 +78,14 @@ public class Game {
 				 **/
 				state.clear();
 				State.handnum++;
-				
+				state.seatplayer=0;
 				debug("start to seat "+State.handnum);
 				s=in.readLine();
 				int loc=0;
 				while(!s.startsWith("/seat"))
 				{
 					Player player=null;
+					state.seatplayer++;
 					if(s.startsWith("button"))
 					{
 						String []data=s.split(" ");

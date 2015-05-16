@@ -44,7 +44,7 @@ public class CleverBot implements Bot{
     	//preflop
     	if(state.currentState==State.baseState)
     	{
-    		if(activeplayer>3)
+    		if(state.seatplayer>3)
     		{
 	    		//EP
 	    		if((action=getEP())!=State.no)
@@ -129,7 +129,8 @@ public class CleverBot implements Bot{
     			{
     				if(state.raisenum>1)
     					return State.call;
-    				State.raisebet=State.bigblind;
+    				State.raisebet=Math.min(state.totalpot, 3*state.bigblindbet);
+    				State.raisebet=Math.min(state.getJetton()/3, State.raisebet);
     				debug("UR raise");
     				return State.raise;
     			}else
@@ -184,7 +185,8 @@ public class CleverBot implements Bot{
     			}
     			if(Math.random()>0.2)
     			{
-    				State.raisebet=(int)(State.bigblind*1.5);
+    				State.raisebet=Math.min(state.totalpot, 5*state.bigblindbet);
+    				State.raisebet=Math.min(state.getJetton()/3, State.raisebet);
     				debug("UR raise");
     				return State.raise;
     			}else
@@ -226,7 +228,8 @@ public class CleverBot implements Bot{
     		{
     			if(state.raisenum==0||Math.random()>0.15)
     			{
-    				State.raisebet=State.bigblind*2;
+    				State.raisebet=Math.min(state.totalpot, 2*state.bigblindbet);
+    				State.raisebet=Math.min(state.getJetton()/3, State.raisebet);
     				debug("UR raise");
     				return State.raise;
     			}else if(state.raisenum>1&&(isSmallPair()||isAsuit()))
@@ -244,7 +247,7 @@ public class CleverBot implements Bot{
     		{
     					if(activeplayer<3)
     					{
-    						State.raisebet=State.bigblind;
+    						State.raisebet=state.bigblindbet;
     						debug("UR raise");
     						return State.raise;
     					}
