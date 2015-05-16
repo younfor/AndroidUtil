@@ -6,6 +6,8 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.*;
 
+import javax.swing.text.StyleContext.SmallAttributeSet;
+
 import com.ai.Bys;
 import com.ai.MCT;
 import com.bot.Bot;
@@ -15,11 +17,12 @@ import com.game.State;
 import com.util.Log;
 
 public class CleverBot implements Bot{
-    public static int CORES = 2;
+    public static int CORES = 4;
     State state;
     Card handcard[];
     long time;
     Player me=null;
+    int activeplayer=0;
     public int getBestAction (State state, long time) {
     	
     	this.state=state;
@@ -27,42 +30,326 @@ public class CleverBot implements Bot{
     	this.handcard=state.handcard;
     	int action=State.no;
     	int prePlayerActon=State.no;
+    	activeplayer=0;
     	for (Player p : state.players) 
     	{
            if(p.getLastaction()!=State.fold&&prePlayerActon==State.no)
         	   prePlayerActon=p.getLastaction();
            if(p.getPid().equals(state.pid))
            		me=p;
+           if((!p.getPid().equals(state.pid))&&p.isAlive())
+        	   activeplayer++;
         }
-    	//prelop
+    	debug("active player: "+activeplayer);
+    	//preflop
     	if(state.currentState==State.baseState)
     	{
-    		//junk
-        	if((action=delJunk())!=State.no) 
-        		return action;
-        	//good pair
-        	if((action=raiseGood())!=State.no)
-        		return action;
-        	//avoid unlimit raise
-        	if(state.raisenum<3&&state.getToCall()<3*state.bigblindbet)
-        	{
-        		debug("raisenum:"+state.raisenum+",tocall:"+state.getToCall());
-        		if(handcard[0].getRank()>13&&isSameSuit())
-        		{
-        			State.raisebet=state.getToCall();
-        			return State.raise;
-        		}
-        		return State.call;
-        	}
-        	debug("raisenum:"+state.raisenum+",tocall:"+state.getToCall());
+    		if(activeplayer>3)
+    		{
+	    		//EP
+	    		if((action=getEP())!=State.no)
+	    			return action;
+	    		//MP
+	    		if((action=getMP())!=State.no)
+	    			return action;
+	    		//LP
+	    		if((action=getLP())!=State.no)
+	    			return action;
+	    		//BL
+	    		if((action=getBL())!=State.no)
+	    			return action;
+    		}else
+    		{
+	    		//junk
+	        	if((action=delJunk())!=State.no) 
+	        		return action;
+	        	//good pair
+	        	if((action=raiseGood())!=State.no)
+	        		return action;
+	        	//avoid unlimit raise
+	        	if(state.raisenum<3&&state.getToCall()<10*state.bigblindbet)
+	        	{
+	        		debug("raisenum:"+state.raisenum+",tocall:"+state.getToCall());
+	        		if(handcard[0].getRank()>13&&isSameSuit())
+	        		{
+	        			State.raisebet=state.getToCall();
+	        			debug("3 people raise");
+	        			return State.raise;
+	        		}
+	        		debug("3 people call");
+	        		return State.call;
+	        	}
+	  
+    		}
+        	debug("er fold");
         	return State.fold;
     	}
-    	
     	return getAction();
+    }
+    public int getBL()
+    {
+    	if(state.myloc==State.bigblind||state.myloc==State.smallblind)
+		{
+    		debug("big or small blind");
+    		if(state.myloc==State.bigblind &&state.raisenum==0)
+    		{
+    			debug("bl check");
+    			return State.check;
+    		}
+    		if(state.myloc==State.bigblind&&isBigAK()&&isBigPair()&&isBigsuit())
+    		{
+    			debug("bl call");
+    			return State.call;
+    		}
+    		if(state.myloc==State.smallblind&&isBigAK()&&isBigPair()&&isBigsuit())
+    		{
+    			debug("bl raise");
+    			State.raisebet=state.bigblindbet;
+    			return State.raise;
+    		}
+    		if(state.myloc==State.smallblind&&Math.random()<0.15)
+    		{
+    			debug("fake raise");
+    			State.raisebet=state.bigblindbet;
+    			return State.raise;
+    		}
+    		return State.fold;
+		}
+    	return State.no;
+    }
+    public int getEP()
+    {
+    	if(state.myloc==State.EP)
+		{
+    		debug("EP");
+    		//UR:    AA-QQ AK 
+    		if(isBigPair()||isBigAK())
+    		{
+    			if(Math.random()>0.2)
+    			{
+    				if(state.raisenum>1)
+    					return State.call;
+    				State.raisebet=State.bigblind;
+    				debug("UR raise");
+    				return State.raise;
+    			}else
+    			{
+    				debug("UR call");
+    				return State.call;
+    			}
+    		}
+    		//UL: JJ-22 AQ,J-suit QJ-54-suit, A-suit
+    		if(isSmallPair()||(isMidPair())||isBigsuit()||(isAsuit())||(isStraight()&&isSameSuit()))
+    		{
+    					if(state.raisenum>0&&bothlower(8))
+    					{
+    						debug("UL fold");
+    						return State.fold;
+    					}
+    					if(Math.random()>0.2)
+    					{
+    						debug("UL call");
+    						return State.call;
+    					}
+    					else
+    					{
+    						debug("UL fold");
+    						return State.fold;
+    					}
+    		}
+    		//UF QT-53,43
+    		if(is2Straight())
+    		{
+    			debug("UF 2 straight");
+    			if(Math.random()>0.9)
+    				return State.call;
+    			return State.fold;
+    		}
+    		return State.fold;
+		}
+    	return State.no;
+    }
+    public int getMP()
+    {
+    	if(state.myloc==State.MP)
+		{
+    		debug("MP");
+    		//UR:    AA-QQ AK 
+    		if(isBigPair()||isBigAK()||isMidPair()||(isBigsuit()))
+    		{
+    			if(state.raisenum>1)
+    			{
+    				debug("UR call");
+    				return State.call;
+    			}
+    			if(Math.random()>0.2)
+    			{
+    				State.raisebet=(int)(State.bigblind*1.5);
+    				debug("UR raise");
+    				return State.raise;
+    			}else
+    			{
+    				debug("UR call");
+    				return State.call;
+    			}
+    		}
+    		//UL:  TJ-54-suit, A-suit
+    		if((isStraight()&&isSameSuit())||isSmallPair()||is2Straight()||isAsuit())
+    		{
+    					if(state.raisenum>0&&is2Straight())
+    					{
+    						debug("UL fold");
+    						return State.fold;
+    					}
+    					if(state.raisenum>1&&bothlower(8))
+    					{
+    						debug("UL fold");
+    						return State.fold;
+    					}
+    					if(Math.random()>0.2)
+    					{
+    						debug("UL call");
+    						return State.call;
+    					}
+    		}
+    		return State.fold;
+		}
+    	return State.no;
+    }
+    public int getLP()
+    {
+    	if(state.myloc==State.LP)
+		{
+    		debug("LP");
+    		//UR:    AA-QQ AK 
+    		if(isBigPair()||isBigAK()||isSmallPair()||isMidPair()||(isBigsuit())||isAsuit())
+    		{
+    			if(state.raisenum==0||Math.random()>0.15)
+    			{
+    				State.raisebet=State.bigblind*2;
+    				debug("UR raise");
+    				return State.raise;
+    			}else if(state.raisenum>1&&(isSmallPair()||isAsuit()))
+    			{
+    				debug("UR fold");
+    				return State.fold;
+    			}else
+    			{
+    				debug("UR call");
+    				return State.call;
+    			}
+    		}
+    		//UL:  TJ-54-suit, A-suit
+    		if((isStraight()&&isSameSuit())||is2Straight()||isAsuit())
+    		{
+    					if(activeplayer<3)
+    					{
+    						State.raisebet=State.bigblind;
+    						debug("UR raise");
+    						return State.raise;
+    					}
+    					if(activeplayer>=3&&state.raisenum>0&&bothlower(8))
+    					{
+    						debug("UL fold");
+    						return State.fold;
+    					}
+    					if(Math.random()>0.75)
+    					{
+    						debug("UL call");
+    						return State.call;
+    					}
+    		}
+    		return State.fold;
+		}
+    	return State.no;
+    }
+    public boolean is2Straight()
+    {
+    	if(Math.abs(handcard[0].getRank()-handcard[1].getRank())==2&&isSameSuit())
+    		return true;
+    	return false;
+    }
+    public boolean isBigAK()
+    {
+    	if(bothhigher(12))
+    	{
+    		debug("big AK");
+    		return true;
+    	}
+    	return false;
+    }
+    public boolean isAsuit()
+    {
+    	if(isSameSuit()&&higher(13))
+    	{
+    		debug("A suit");
+    		return true;
+    	}
+    	return false;
+    }
+    public boolean isBigsuit()
+    {
+    	if(isSameSuit()&&bothhigher(10))
+    	{
+    		debug("big suit");
+    		return true;
+    	}
+    	return false;
+    }
+    public boolean higher(int i)
+    {
+    	if(handcard[0].getRank()>i ||handcard[1].getRank()>i)
+    		return true;
+    	return false;
+    }
+    public boolean lower(int i)
+    {
+    	if(handcard[0].getRank()<i ||handcard[1].getRank()<i)
+    		return true;
+    	return false;
+    }
+    public boolean bothlower(int i)
+    {
+    	if(handcard[0].getRank()<i &&handcard[1].getRank()<i)
+    		return true;
+    	return false;
+    }
+    public boolean bothhigher(int i)
+    {
+    	if(handcard[0].getRank()>i &&handcard[1].getRank()>i)
+    		return true;
+    	return false;
+    }
+    public boolean isBigPair()
+    {
+    	if( isSameRank()&&handcard[0].getRank()>=12)
+    	{
+    			debug("big pair");
+    			return true;
+    	}
+    	return false;
+    }
+    public boolean isMidPair()
+    {
+    	if( isSameRank()&&handcard[0].getRank()>=7)
+    	{	
+    		debug("mid pair");
+			return true;
+    	}
+    	return false;
+    }
+    public boolean isSmallPair()
+    {
+    	if( isSameRank()&&handcard[0].getRank()<7)
+    	{
+    		debug("small pair");
+			return true;
+    	}
+    	return false;
     }
     public int raiseGood()
     {
-    	if(handcard[0].getRank()>9&&isSameRank())
+    	if(handcard[0].getRank()>9&&isSameRank()&&state.raisenum<3)
     	{
     		debug("raise good pair");
     			State.raisebet=0;
@@ -92,6 +379,11 @@ public class CleverBot implements Bot{
     			{
     				debug("samesuit call");
     				return State.call;
+    			}
+    			if(state.getToCall()==state.getPrebet())
+    			{
+    				debug("call==prebet,check");
+    				return State.check;
     			}
     			return State.fold;
     		}
@@ -199,8 +491,8 @@ public class CleverBot implements Bot{
 	            }
 	        }
 	        else {
-	        	State.raisebet=Math.min(tocall - prebet,state.totalpot);
-	        	State.raisebet=Math.min(State.raisebet,15*state.bigblindbet);
+	        	State.raisebet=Math.min(tocall - prebet,5*state.totalpot);
+	        	State.raisebet=Math.min(State.raisebet,20*state.bigblindbet);
 	        	//bys
 	        	Log.getIns(state.pid).log("myprobval:"+state.getMyVal());
 	        	double myval=state.getMyVal();
@@ -227,7 +519,7 @@ public class CleverBot implements Bot{
 	            }
 	        	Log.getIns(state.pid).log("myval:ave  "+myval+":"+(aveval/base));
 	        	debug("myraisenum: "+state.myraisenum);
-	        	if(myval<aveval/base &&(state.myraisenum<2||State.raisebet<10*state.bigblindbet))
+	        	if(myval<aveval/base &&(state.myraisenum<3))
 	        		return State.raise;
 	        	else
 	        		return State.call;
