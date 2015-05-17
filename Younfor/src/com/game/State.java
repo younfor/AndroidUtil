@@ -44,6 +44,7 @@ public class State {
 	private int[] hand;//
 	private int[] comm;//
 	private int jetton,bet,prebet,initjetton;//
+	public int initGold=0;
 	public static int raisebet=0; //show action raise
 	public int myraisenum=0;
 	//public Map<String,Integer[]> actions=new HashMap<String, Integer[]>();
@@ -78,6 +79,7 @@ public class State {
 		hostcard=new Card[5];
 		totalpot=0;
 		hand=null;
+		initGold=0;
 		comm=null;
 		isFold=false;
 		raisenum=0;

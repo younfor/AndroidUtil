@@ -76,6 +76,7 @@ public class Game {
 				4444 2000 8000 
 				/seat
 				 **/
+				
 				state.clear();
 				State.handnum++;
 				state.seatplayer=0;
@@ -91,6 +92,8 @@ public class Game {
 						String []data=s.split(" ");
 						player=new Player(data[1],Integer.parseInt(data[2]),Integer.parseInt(data[3]),State.button);
 						state.players.add(player);
+						if(state.initGold==0)
+							state.initGold=Integer.parseInt(data[3]);
 						debug("button "+data[1]+","+data[2]+","+data[3]);
 					}
 					else if(s.startsWith("small"))
@@ -116,13 +119,13 @@ public class Game {
 					}
 					if(player.getPid().equals(state.pid))
 					{
-						if(loc==2||loc==1)
+						if(loc==3||loc==2||loc==1)
 							state.myloc=State.EP;
-						else if(loc==3||loc==4||loc==5)
+						else if(loc==4||loc==5)
 							state.myloc=State.MP;
-						if(player.getType()==State.button)
+						if(player.getType()==State.button||player.getType()==State.smallblind)
 							state.myloc=State.LP;
-						if(player.getType()==State.bigblind||player.getType()==State.smallblind)
+						if(player.getType()==State.bigblind)
 							state.myloc=player.getType();
 						state.setInitjetton(player.getJetton());
 						state.setJetton(player.getJetton());
