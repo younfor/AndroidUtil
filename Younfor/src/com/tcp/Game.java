@@ -177,7 +177,7 @@ public class Game {
 					i++;
 					s=in.readLine();
 				}
-				debug("value:"+state.handcard[0].getValue()+state.handcard[1].getValue());
+				//debug("value:"+state.handcard[0].getValue()+state.handcard[1].getValue());
 				state.setHand(state.handcard[0].getValue(), state.handcard[1].getValue());
 				debug("base card: "+state.getHand()[0]+","+state.getHand()[1]);
 			}else if(s.startsWith("inquire"))
@@ -210,13 +210,14 @@ public class Game {
 						p.setBet(Integer.parseInt(data[3]));
 						p.setLastaction(State.getAction(data[4]));
 						//bys
-						if(p.getLastaction()==State.fold)
+						int oldbys=p.actions[state.currentState-State.baseState];
+						if(p.getLastaction()==State.fold&&oldbys<Bys.fold)
 							p.actions[state.currentState-State.baseState]=Bys.fold;//flod 0 call 1 raise 2
-						else if(p.getLastaction()==State.raise||p.getLastaction()==State.all_in)
+						else if(oldbys<Bys.raise&&(p.getLastaction()==State.raise||p.getLastaction()==State.all_in))
 							p.actions[state.currentState-State.baseState]=Bys.raise;
-						else
+						else if(oldbys<Bys.call)
 							p.actions[state.currentState-State.baseState]=Bys.call;
-						debug("set "+p.getPid()+" bys actions "+(state.currentState-State.baseState)+":"+p.actions[state.currentState-State.baseState]);
+						//debug("set "+p.getPid()+" bys actions "+(state.currentState-State.baseState)+":"+p.actions[state.currentState-State.baseState]);
 						if(p.getLastaction()==State.raise)
 							state.raisenum++;
 						if(p.getBet()>state.getToCall())
@@ -264,6 +265,8 @@ public class Game {
 					if(ans==State.fold)
 						action="fold";
 					else if(ans==State.call)
+						action="call";
+					else if(ans==State.check)
 						action="check";
 					else if(ans==State.raise)
 						action="raise "+State.raisebet;
@@ -375,17 +378,17 @@ public class Game {
 						debug(s);
 						String data[]=s.split(" ");
 						String id=data[1];
-						debug("prepare bys: "+id);
+						//debug("prepare bys: "+id);
 						if(!state.bys.containsKey(id))
 						{
-							debug("create bys: "+id);
+							//debug("create bys: "+id);
 							state.bys.put(id, new Bys());
 						}
-						debug("create bys: rank "+state.findRank(data[6]));
+						//debug("create bys: rank "+state.findRank(data[6]));
 						state.bys.get(id).addBys(findById(id).actions, state.findRank(data[6]));
-						int a[]=state.bys.get(id).getBys(new int[]{Bys.call});
-						for(int i=0;i<a.length;i++)
-							debug("bys rank["+i+"]:" +a[i]);
+						//int a[]=state.bys.get(id).getBys(new int[]{Bys.call});
+						//for(int i=0;i<a.length;i++)
+						//	debug("bys rank["+i+"]:" +a[i]);
 						s=in.readLine();
 					}
 					

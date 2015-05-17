@@ -44,8 +44,6 @@ public class CleverBot implements Bot{
     	//preflop
     	if(state.currentState==State.baseState)
     	{
-    		if(state.seatplayer>3)
-    		{
 	    		//EP
 	    		if((action=getEP())!=State.no)
 	    			return action;
@@ -58,8 +56,10 @@ public class CleverBot implements Bot{
 	    		//BL
 	    		if((action=getBL())!=State.no)
 	    			return action;
-    		}else
-    		{
+	    		//fold
+	    		if(state.seatplayer>5)
+	        		return State.fold;
+	    		
 	    		//junk
 	        	if((action=delJunk())!=State.no) 
 	        		return action;
@@ -79,8 +79,6 @@ public class CleverBot implements Bot{
 	        		debug("3 people call");
 	        		return State.call;
 	        	}
-	  
-    		}
         	debug("er fold");
         	return State.fold;
     	}
@@ -88,33 +86,42 @@ public class CleverBot implements Bot{
     }
     public int getBL()
     {
-    	if(state.myloc==State.bigblind||state.myloc==State.smallblind)
+    	if(state.myloc==State.smallblind)
 		{
     		debug("big or small blind");
-    		if(state.myloc==State.bigblind &&state.raisenum==0)
+    		if(level1())
     		{
-    			debug("bl check");
-    			return State.check;
-    		}
-    		if(state.myloc==State.bigblind&&isBigAK()&&isBigPair()&&isBigsuit())
-    		{
-    			debug("bl call");
-    			return State.call;
-    		}
-    		if(state.myloc==State.smallblind&&isBigAK()&&isBigPair()&&isBigsuit())
-    		{
-    			debug("bl raise");
-    			State.raisebet=state.bigblindbet;
+    			State.raisebet=5*state.bigblindbet;
     			return State.raise;
     		}
-    		if(state.myloc==State.smallblind&&Math.random()<0.15)
+    		if(level2())
     		{
-    			debug("fake raise");
-    			State.raisebet=state.bigblindbet;
+    			State.raisebet=4*state.bigblindbet;
     			return State.raise;
     		}
-    		return State.fold;
+    		if(level3())
+    		{
+    			State.raisebet=3*state.bigblindbet;
+    			return State.raise;
+    		}
+    		if(state.seatplayer<7&&level4())
+    		{
+    			debug("small playerseat  level 4");
+    			State.raisebet=2*state.bigblindbet;
+    			return State.raise;
+    		}
+    		if(activeplayer<2&&level4()&&Math.random()>0.6)
+    		{
+    			debug("small active raise level 4");
+    			State.raisebet=state.bigblindbet;
+    			return State.raise;
+    		}	
 		}
+    	if(state.myloc==State.bigblind)
+    	{
+    		if(state.raisenum==0)
+    			return State.check;
+    	}
     	return State.no;
     }
     public int getEP()
@@ -122,51 +129,21 @@ public class CleverBot implements Bot{
     	if(state.myloc==State.EP)
 		{
     		debug("EP");
-    		//UR:    AA-QQ AK 
-    		if(isBigPair()||isBigAK())
+    		if(level1())
     		{
-    			if(Math.random()>0.2)
-    			{
-    				if(state.raisenum>1)
-    					return State.call;
-    				State.raisebet=Math.min(state.totalpot, 3*state.bigblindbet);
-    				State.raisebet=Math.min(state.getJetton()/3, State.raisebet);
-    				debug("UR raise");
-    				return State.raise;
-    			}else
-    			{
-    				debug("UR call");
-    				return State.call;
-    			}
+    			State.raisebet=6*state.bigblindbet;
+    			return State.raise;
     		}
-    		//UL: JJ-22 AQ,J-suit QJ-54-suit, A-suit
-    		if(isSmallPair()||(isMidPair())||isBigsuit()||(isAsuit())||(isStraight()&&isSameSuit()))
+    		if(level2())
     		{
-    					if(state.raisenum>0&&bothlower(8))
-    					{
-    						debug("UL fold");
-    						return State.fold;
-    					}
-    					if(Math.random()>0.2)
-    					{
-    						debug("UL call");
-    						return State.call;
-    					}
-    					else
-    					{
-    						debug("UL fold");
-    						return State.fold;
-    					}
+    			State.raisebet=4*state.bigblindbet;
+    			return State.raise;
     		}
-    		//UF QT-53,43
-    		if(is2Straight())
+    		if(level3())
     		{
-    			debug("UF 2 straight");
-    			if(Math.random()>0.9)
-    				return State.call;
-    			return State.fold;
+    			State.raisebet=2*state.bigblindbet;
+    			return State.raise;
     		}
-    		return State.fold;
 		}
     	return State.no;
     }
@@ -175,46 +152,21 @@ public class CleverBot implements Bot{
     	if(state.myloc==State.MP)
 		{
     		debug("MP");
-    		//UR:    AA-QQ AK 
-    		if(isBigPair()||isBigAK()||isMidPair()||(isBigsuit()))
+    		if(level1())
     		{
-    			if(state.raisenum>1)
-    			{
-    				debug("UR call");
-    				return State.call;
-    			}
-    			if(Math.random()>0.2)
-    			{
-    				State.raisebet=Math.min(state.totalpot, 5*state.bigblindbet);
-    				State.raisebet=Math.min(state.getJetton()/3, State.raisebet);
-    				debug("UR raise");
-    				return State.raise;
-    			}else
-    			{
-    				debug("UR call");
-    				return State.call;
-    			}
+    			State.raisebet=6*state.bigblindbet;
+    			return State.raise;
     		}
-    		//UL:  TJ-54-suit, A-suit
-    		if((isStraight()&&isSameSuit())||isSmallPair()||is2Straight()||isAsuit())
+    		if(level2())
     		{
-    					if(state.raisenum>0&&is2Straight())
-    					{
-    						debug("UL fold");
-    						return State.fold;
-    					}
-    					if(state.raisenum>1&&bothlower(8))
-    					{
-    						debug("UL fold");
-    						return State.fold;
-    					}
-    					if(Math.random()>0.2)
-    					{
-    						debug("UL call");
-    						return State.call;
-    					}
+    			State.raisebet=5*state.bigblindbet;
+    			return State.raise;
     		}
-    		return State.fold;
+    		if(level3())
+    		{
+    			State.raisebet=3*state.bigblindbet;
+    			return State.raise;
+    		}
 		}
     	return State.no;
     }
@@ -222,47 +174,33 @@ public class CleverBot implements Bot{
     {
     	if(state.myloc==State.LP)
 		{
-    		debug("LP");
-    		//UR:    AA-QQ AK 
-    		if(isBigPair()||isBigAK()||isSmallPair()||isMidPair()||(isBigsuit())||isAsuit())
+    		if(level1())
     		{
-    			if(state.raisenum==0||Math.random()>0.15)
-    			{
-    				State.raisebet=Math.min(state.totalpot, 2*state.bigblindbet);
-    				State.raisebet=Math.min(state.getJetton()/3, State.raisebet);
-    				debug("UR raise");
-    				return State.raise;
-    			}else if(state.raisenum>1&&(isSmallPair()||isAsuit()))
-    			{
-    				debug("UR fold");
-    				return State.fold;
-    			}else
-    			{
-    				debug("UR call");
-    				return State.call;
-    			}
+    			State.raisebet=6*state.bigblindbet;
+    			return State.raise;
     		}
-    		//UL:  TJ-54-suit, A-suit
-    		if((isStraight()&&isSameSuit())||is2Straight()||isAsuit())
+    		if(level2())
     		{
-    					if(activeplayer<3)
-    					{
-    						State.raisebet=state.bigblindbet;
-    						debug("UR raise");
-    						return State.raise;
-    					}
-    					if(activeplayer>=3&&state.raisenum>0&&bothlower(8))
-    					{
-    						debug("UL fold");
-    						return State.fold;
-    					}
-    					if(Math.random()>0.75)
-    					{
-    						debug("UL call");
-    						return State.call;
-    					}
+    			State.raisebet=4*state.bigblindbet;
+    			return State.raise;
     		}
-    		return State.fold;
+    		if(level3())
+    		{
+    			State.raisebet=3*state.bigblindbet;
+    			return State.raise;
+    		}
+    		if(state.seatplayer<7&&level4())
+    		{
+    			debug("small playerseat  level 4");
+    			State.raisebet=2*state.bigblindbet;
+    			return State.raise;
+    		}
+    		if(activeplayer<2&&level4())
+    		{
+    			debug("small active raise level 4");
+    			State.raisebet=state.bigblindbet;
+    			return State.raise;
+    		}	
 		}
     	return State.no;
     }
@@ -272,11 +210,119 @@ public class CleverBot implements Bot{
     		return true;
     	return false;
     }
+    public boolean isBigAsuit()
+    {
+    	if(isSameSuit()&&bothhigher(11)&&higher(13))
+    	{
+    		debug("big Asuit");
+    		return true;
+    	}
+    	return false;
+    }
+    public boolean level1()
+    {
+    	if(isBigPair()||isBigAsuit())
+    	{
+    		debug("level 1");
+    		return true;
+    	}
+    	return false;
+    }
+    public boolean level2()
+    {
+    	if(isMidPair()||isMidAsuit()||isBigAK())
+    	{
+    		debug("level 2");
+    		return true;
+    	}
+    	return false;
+    }
+    public boolean level3()
+    {
+    	if(isMidSuit())
+    	{
+    		debug("level 3");
+    		return true;
+    	}
+    	return false;
+    }
+    public boolean level4()
+    {
+    	if(isSameSuit())
+    	{
+    		if(is(14,8)||is(12,10)||is(14,9)||is(11,10))
+    		{
+    			debug("level 4");
+    			return true;
+    		}
+    	}
+    	if(is(13,12)||is(8,8)||is(14,10)||is(14,11))
+    	{
+    		debug("level 4");
+    		return true;
+    	}
+    	return false;
+    }
+    public boolean level5()
+    {
+    	if(is(7,7)||is(13,11)||is(12,11)||is(13,10)||is(12,10))
+    	{
+    		debug("level 5");
+    		return true;
+    	}
+    	if(isSameSuit())
+    	{
+    		if(higher(13)||is(12,9)||is(11,10)||is(11,9)||is(10,9)||is(13,9))
+    		{
+    			debug("level 5");
+    			return true;
+    		}
+    	}
+    	return false;
+    }
+    public boolean is(int a,int b)
+    {
+    	if(handcard[0].getRank()==a&&handcard[1].getRank()==b)
+    		return true;
+    	if(handcard[1].getRank()==a&&handcard[0].getRank()==b)
+    		return true;
+    	return false;
+    }
+    public boolean isMidSuit()
+    {
+    	if(isSameSuit())
+    	{
+    		//QJs KJs KTs
+    		if(bothhigher(10))
+    		{
+    			debug("mid suit");
+    			return true;
+    		}
+    		if(bothhigher(9)&&higher(12))
+    		{
+    			debug("mid suit");
+    			return true;
+    		}
+    	}
+    	if(isSameRank()&&higher(8))
+    	{
+    		debug("mid suit");
+    		return true;
+    	}
+    	return false;
+    }
     public boolean isBigAK()
     {
-    	if(bothhigher(12))
+    	//AK AQ
+    	if(bothhigher(11)&&higher(13))
     	{
     		debug("big AK");
+    		return true;
+    	}
+    	//KQs
+    	if(bothhigher(11)&&isSameSuit())
+    	{
+    		debug("big KQs");
     		return true;
     	}
     	return false;
@@ -332,9 +378,18 @@ public class CleverBot implements Bot{
     	}
     	return false;
     }
+    public boolean isMidAsuit()
+    {
+    	if(isSameSuit()&&bothhigher(9)&&higher(13))
+    	{
+    		debug("mid Asuit");
+    		return true;
+    	}
+    	return false;
+    }
     public boolean isMidPair()
     {
-    	if( isSameRank()&&handcard[0].getRank()>=7)
+    	if( isSameRank()&&handcard[0].getRank()>10)
     	{	
     		debug("mid pair");
 			return true;
@@ -343,7 +398,7 @@ public class CleverBot implements Bot{
     }
     public boolean isSmallPair()
     {
-    	if( isSameRank()&&handcard[0].getRank()<7)
+    	if( isSameRank()&&handcard[0].getRank()<8)
     	{
     		debug("small pair");
 			return true;
@@ -443,11 +498,11 @@ public class CleverBot implements Bot{
 	        	Log.getIns(state.pid).log("myrank ["+i+"] "+State.ranknum[i].intValue());
 	        double add = 0.065;
 	        if (comm.length >= 5)
-	            add = 0.001;
-	        else if (comm.length >= 4)
 	            add = 0.0011;
+	        else if (comm.length >= 4)
+	            add = 0.0013;
 	        else if (comm.length >= 3)
-	            add = 0.024;
+	            add = 0.025;
 	        double prob = won.doubleValue() / total.doubleValue();
 	        double deficit = 1.0 - prob;
 	        prob += deficit * add;
@@ -476,27 +531,7 @@ public class CleverBot implements Bot{
 	        if (tocall > maxbet)
 	            tocall = maxbet;
 	         Log.getIns(state.pid).log("  activeIncludingSelf "+activeIncludingSelf+" tocall "+tocall+" maxbet "+maxbet+" prebet "+prebet+" prob "+prob+"\n");
-	        if (tocall < hightocall) {
-	            if (state.getInitjetton() < hightocall)
-	                hightocall = state.getInitjetton() - 1;
-	            double prob1=prob * Math.log(((double) state.getInitjetton() + ((double) activePlayers * hightocall)) / state.getInitjetton());
-	            double prob2=(1 - prob) * Math.log((state.getInitjetton() - hightocall) / ((double) state.getInitjetton()));
-	            double prob3= Math.log(((double) state.getInitjetton() - prebet)/state.getInitjetton());
-	            debug("count :"+(prob1+prob2)+"   "+prob3);
-	            if ( prob1+ prob2 >=prob3) {
-	            	{
-	            		debug("stupid call:"+(prob1+prob2)+"   "+prob3);
-	            		return State.call;
-	            	}
-	            }
-	            else {
-	                return State.fold;
-	            }
-	        }
-	        else {
-	        	State.raisebet=Math.min(tocall - prebet,5*state.totalpot);
-	        	State.raisebet=Math.min(State.raisebet,20*state.bigblindbet);
-	        	//bys
+	       //bys
 	        	Log.getIns(state.pid).log("myprobval:"+state.getMyVal());
 	        	double myval=state.getMyVal();
 	        	double aveval=0,base=0;
@@ -520,6 +555,32 @@ public class CleverBot implements Bot{
 	                	}
 	                }
 	            }
+	         if (tocall < hightocall) {
+	            if (state.getInitjetton() < hightocall)
+	                hightocall = state.getInitjetton() - 1;
+	            double prob1=prob * Math.log(((double) state.getInitjetton() + ((double) activePlayers * hightocall)) / state.getInitjetton());
+	            double prob2=(1 - prob) * Math.log((state.getInitjetton() - hightocall) / ((double) state.getInitjetton()));
+	            double prob3= Math.log(((double) state.getInitjetton() - prebet)/state.getInitjetton());
+	            debug("count :"+(prob1+prob2)+"   "+prob3);
+	            debug("base:"+base+",averval/base:"+(aveval/base));
+;	            if(base==0)
+	            	return State.call;
+	            if ( prob1+ prob2 >=prob3&&myval<aveval/base) {
+	            	{
+	            		debug("stupid call:"+(prob1+prob2)+"   "+prob3);
+	            		return State.call;
+	            	}
+	            }
+	            else {
+	            	debug("shaby check");
+	                return State.check;
+	            }
+	        }
+	        else {
+	        	State.raisebet=Math.min(tocall - prebet,5*state.totalpot);
+	        	State.raisebet=Math.min(State.raisebet,30*state.bigblindbet);
+	        	if(base==0)
+	        		return State.raise;
 	        	Log.getIns(state.pid).log("myval:ave  "+myval+":"+(aveval/base));
 	        	debug("myraisenum: "+state.myraisenum);
 	        	if(myval<aveval/base &&(state.myraisenum<3))
