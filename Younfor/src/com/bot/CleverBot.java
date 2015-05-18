@@ -97,7 +97,7 @@ public class CleverBot implements Bot{
     			State.raisebet=2*state.bigblindbet;
     			return State.raise;
     		}
-    		if(state.raisenum==0)
+    		if(state.raisenum==0&&level4())
     			return State.check;
 		}
     	return State.no;
@@ -473,6 +473,12 @@ public class CleverBot implements Bot{
 	                		Log.getIns(state.pid).log("val"+p.getPid()+":"+oppoval);
 	                		if(oppoval>0&&oppoval<10)
 	                		{
+	                			/*
+	                			if(myval-oppoval>2)
+	                			{
+	                				debug("fold myval:oppoval:"+myval+","+oppoval);
+	                				return State.fold;
+	                			}*/
 	                			aveval+=oppoval;
 	                			base++;
 	                		}
@@ -486,7 +492,7 @@ public class CleverBot implements Bot{
 	            double prob2=(1 - prob) * Math.log((state.getInitjetton() - hightocall) / ((double) state.getInitjetton()));
 	            double prob3= Math.log(((double) state.getInitjetton() - prebet)/state.getInitjetton());
 	            debug("count :"+(prob1+prob2)+"   "+prob3);
-	            debug("base:"+base+",averval/base:"+(aveval/base));
+	           
 	            if ( prob1+ prob2 >=prob3) 
 	            {
 	            	{
@@ -506,7 +512,7 @@ public class CleverBot implements Bot{
 	        		State.raisebet=2*state.bigblindbet;
 	        		return State.raise;
 	        	}
-	        	Log.getIns(state.pid).log("myval:ave  "+myval+":"+(aveval/base));
+	        	debug("myval:ave  "+myval+":"+(aveval/base));
 	        	debug("myraisenum: "+state.myraisenum);
 	        	if(myval>aveval/base+1)
 	        	{
@@ -523,6 +529,7 @@ public class CleverBot implements Bot{
 	        }
 	    	}catch(Exception e)
 	    	{
+	    		debug("exception fold");
 	    		return State.fold;
 	    	}
 	    }
