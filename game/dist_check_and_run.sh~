@@ -63,7 +63,7 @@ killall clever >/dev/null 2>&1
 killall call >/dev/null 2>&1
 for i in 1
 do
-  nohup ./random 127.0.0.1 6000 127.0.0.$i 600$i $i$i$i$i 0</dev/null 1>/dev/null 2>/dev/null &
+  nohup ./simple 127.0.0.1 6000 127.0.0.$i 600$i $i$i$i$i 0</dev/null 1>/dev/null 2>/dev/null &
   #./game 127.0.0.1 6000 127.0.0.$i 600$i $i$i$i$i
 done
 nohup ./simple 127.0.0.1 6000 127.0.0.2 6002 2222 0</dev/null 1>/dev/null 2>/dev/null &

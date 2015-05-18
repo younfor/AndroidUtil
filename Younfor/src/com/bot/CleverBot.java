@@ -97,9 +97,9 @@ public class CleverBot implements Bot{
     			State.raisebet=2*state.bigblindbet;
     			return State.raise;
     		}
+    		if(state.raisenum==0)
+    			return State.check;
 		}
-    	if(state.raisenum==0)
-			return State.check;
     	return State.no;
     }
     public int getEP()
@@ -109,22 +109,22 @@ public class CleverBot implements Bot{
     		debug("EP");
     		if(level1())
     		{
-    			State.raisebet=6*state.bigblindbet;
+    			State.raisebet=3*state.bigblindbet;
     			return State.raise;
     		}
     		if(level2())
     		{
-    			State.raisebet=4*state.bigblindbet;
+    			State.raisebet=2*state.bigblindbet;
     			return State.raise;
     		}
     		if(level3())
     		{
-    			State.raisebet=3*state.bigblindbet;
+    			State.raisebet=state.bigblindbet;
     			return State.raise;
     		}
     		if(level4())
     		{
-    			State.raisebet=2*state.bigblindbet;
+    			State.raisebet=state.bigblindbet;
     			return State.raise;
     		}
     		if(state.seatplayer<4&&level5())
@@ -172,6 +172,7 @@ public class CleverBot implements Bot{
     {
     	if(state.myloc==State.LP)
 		{
+    		debug("LP");
     		if(level1())
     		{
     			State.raisebet=6*state.bigblindbet;
@@ -502,11 +503,16 @@ public class CleverBot implements Bot{
 	        	State.raisebet=tocall - prebet;
 	        	if(base==0)
 	        	{
-	        		State.raisebet=3*state.bigblindbet;
+	        		State.raisebet=2*state.bigblindbet;
 	        		return State.raise;
 	        	}
 	        	Log.getIns(state.pid).log("myval:ave  "+myval+":"+(aveval/base));
 	        	debug("myraisenum: "+state.myraisenum);
+	        	if(myval>aveval/base+1)
+	        	{
+	        		debug("val is small fold");
+	        		return State.fold;
+	        	}
 	        	if(myval<aveval/base &&(state.myraisenum<3))
 	        	{
 	        		State.raisebet=6*state.bigblindbet;

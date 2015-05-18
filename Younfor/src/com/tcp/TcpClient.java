@@ -22,6 +22,7 @@ public class TcpClient {
 		Game game=new Game(args[4],args[5]);
 		try {
 			socket=new Socket(args[0],Integer.parseInt(args[1]),InetAddress.getByName(args[2]),Integer.parseInt(args[3]));
+			socket.setReuseAddress(true);
 			in=socket.getInputStream();
 			read=new BufferedReader(new InputStreamReader(in));
 			out=socket.getOutputStream();
