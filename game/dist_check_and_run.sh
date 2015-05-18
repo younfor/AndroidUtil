@@ -59,6 +59,7 @@ cd works/target
 killall gametest1 >/dev/null 2>&1
 killall simple >/dev/null 2>&1
 killall random >/dev/null 2>&1
+killall youn >/dev/null 2>&1
 killall clever >/dev/null 2>&1
 killall call >/dev/null 2>&1
 for i in 1
@@ -67,7 +68,8 @@ do
   #./game 127.0.0.1 6000 127.0.0.$i 600$i $i$i$i$i
 done
 nohup ./simple 127.0.0.1 6000 127.0.0.2 6002 2222 0</dev/null 1>/dev/null 2>/dev/null &
-nohup ./gametest1 127.0.0.1 6000 127.0.0.3 6003 3333 0</dev/null 1>/dev/null 2>/dev/null &
+nohup ./simple 127.0.0.1 6000 127.0.0.3 6003 3333 0</dev/null 1>/dev/null 2>/dev/null &
+#nohup ./gametest1 127.0.0.1 6000 127.0.0.3 6003 3333 0</dev/null 1>/dev/null 2>/dev/null &
 nohup ./simple 127.0.0.1 6000 127.0.0.4 6004 4444 0</dev/null 1>/dev/null 2>/dev/null &
 nohup ./youn 127.0.0.1 6000 127.0.0.5 6005 5555 0</dev/null 1>/dev/null 2>/dev/null &
 nohup ./simple 127.0.0.1 6000 127.0.0.6 6006 6666 0</dev/null 1>/dev/null 2>/dev/null &
