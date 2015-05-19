@@ -1,1 +1,1 @@
-java -jar bin.jar $1 $2 $3 $4 $5 simplebot
+java -jar bin.jar $1 $2 $3 $4 $5 cleverbot

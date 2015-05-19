@@ -1,4930 +1,461 @@
 start to reg
 start to seat 1
-button 7777,2000,8000
-small 5555,2000,8000
-big 3333,2000,8000
-normal  2222,2000,8000
+button 6666,2000,8000
+small 1111,2000,8000
+big 2222,2000,8000
+normal  3333,2000,8000
+normal  7777,2000,8000
 normal  4444,2000,8000
 normal  8888,2000,8000
-normal  1111,2000,8000
-normal  6666,2000,8000
+normal  5555,2000,8000
 start to blind
-5555 is small blind:50
-3333 is big blind:100
+1111 is small blind:50
+2222 is big blind:100
 get hold
-base card: HEARTS-6
-base card: SPADES-J
-base card: 1057803,33560861
+base card: DIAMONDS-7
+base card: HEARTS-9
 get inquire
-get player1111 1751 8000 249 32
-get player8888 1751 8000 249 33
+get player5555 1900 8000 100 32
+get player8888 1900 8000 100 32
 get player4444 1900 8000 100 32
-get player2222 1900 8000 100 32
-get player3333 1900 8000 100 30
-get player5555 1950 8000 50 30
-get total848
-time: 1768.0,15970.0
-  activeIncludingSelf 8 wager 79 maxWager 1111 prevWager 0 prob 0.1685115842204133
+get player7777 2000 8000 0 35
+get player3333 2000 8000 0 35
+get player2222 1900 8000 100 30
+get player1111 1950 8000 50 30
+get total450
+time: 2809.0,17970.0
+  activeIncludingSelf 6 wager 85 maxWager 1111 prevWager 0 prob 0.21115553700612133
 
-timeout: 205
-action: fold 
+timeout: 204
+action: call 
+
+get inquire
+get player5555 1900 8000 100 35
+get player8888 1751 8000 249 32
+get player4444 1751 8000 249 32
+get player7777 2000 8000 0 35
+get player3333 2000 8000 0 35
+get player2222 1751 8000 249 32
+get player1111 1751 8000 249 33
+get player6666 1900 8000 100 32
+get total1196
+time: 7103.0,40060.0
+  activeIncludingSelf 5 wager 58 maxWager 1055 prevWager 100 prob 0.23078394907638541
+
+timeout: 200
+action: call 
 
 get flop
-flop card: HEARTS-J
-flop card: SPADES-5
-flop card: DIAMONDS-6
+flop card: DIAMONDS-5
+flop card: SPADES-Q
+flop card: SPADES-K
+get inquire
+get player5555 1900 8000 100 35
+get player8888 1751 8000 249 31
+get player4444 1751 8000 249 31
+get player7777 2000 8000 0 35
+get player3333 2000 8000 0 35
+get player2222 1751 8000 249 31
+get player1111 1751 8000 249 31
+get player6666 1751 8000 249 32
+get total1345
+time: 1559.0,21180.0
+  activeIncludingSelf 5 wager -180 maxWager 972 prevWager 249 prob 0.09676699716713881
+
+timeout: 200
+action: call 
+
 get turn
-turn card: DIAMONDS-A
+turn card: HEARTS-10
+get inquire
+get player5555 1900 8000 100 35
+get player8888 1751 8000 249 31
+get player4444 1751 8000 249 31
+get player7777 2000 8000 0 35
+get player3333 2000 8000 0 35
+get player2222 1751 8000 249 31
+get player1111 1751 8000 249 31
+get player6666 1751 8000 249 31
+get total1345
+time: 1940.0,33710.0
+  activeIncludingSelf 5 wager -232 maxWager 972 prevWager 249 prob 0.0669741916345298
+
+timeout: 200
+action: call 
+
 get river
-river card: HEARTS-9
-get notify
-get player1111 1354 8000 646 31
-get player8888 1751 8000 249 35
+river card: DIAMONDS-9
+get inquire
+get player5555 1900 8000 100 35
+get player8888 1366 8000 634 32
 get player4444 1751 8000 249 35
-get player2222 1354 8000 646 31
-get player3333 1900 8000 100 35
-get player5555 1950 8000 50 35
 get player7777 2000 8000 0 35
-get player6666 2000 8000 0 35
-get total1940
+get player3333 2000 8000 0 35
+get player2222 1751 8000 249 35
+get player1111 1366 8000 634 33
+get player6666 1751 8000 249 31
+get total2115
+time: 6085.0,54970.0
+  activeIncludingSelf 3 wager -465 maxWager 972 prevWager 249 prob 0.11158604693469164
+
+timeout: 200
+action: fold 
+
+get notify
+get player5555 1900 8000 100 35
+get player8888 1366 8000 634 32
+get player4444 1751 8000 249 35
+get player7777 2000 8000 0 35
+get player3333 2000 8000 0 35
+get player2222 1751 8000 249 35
+get player1111 1366 8000 634 33
+get player6666 1751 8000 249 35
+get total2115
 get showdown
-1: 2222 CLUBS A CLUBS Q ONE_PAIR 
-1: 1111 SPADES A DIAMONDS Q ONE_PAIR 
+1: 1111 HEARTS J CLUBS Q STRAIGHT 
+2: 8888 DIAMONDS K CLUBS 2 ONE_PAIR 
 get pot-win
-2222: 970 
-1111: 970 
+1111: 2115 
 start to seat 2
-button 5555,1950,8000
-small 3333,1900,8000
-big 2222,2324,8000
+button 1111,3481,8000
+small 2222,1751,8000
+big 3333,2000,8000
+normal  7777,2000,8000
 normal  4444,1751,8000
-normal  8888,1751,8000
-normal  1111,2324,8000
-normal  6666,2000,8000
-normal  7777,2000,8000
+normal  8888,1366,8000
+normal  5555,1900,8000
+normal  6666,1751,8000
 start to blind
-3333 is small blind:50
-2222 is big blind:100
+2222 is small blind:50
+3333 is big blind:100
 get hold
-base card: HEARTS-10
-base card: CLUBS-8
-base card: 16787479,4228625
+base card: CLUBS-K
+base card: HEARTS-8
 get inquire
-get player1111 2324 8000 0 35
-get player8888 1489 8000 262 33
+get player5555 1900 8000 0 35
+get player8888 1109 8000 257 33
 get player4444 1651 8000 100 32
-get player2222 2224 8000 100 30
-get player3333 1850 8000 50 30
-get total512
-time: 3742.0,24360.0
-  activeIncludingSelf 7 wager 122 maxWager 1111 prevWager 0 prob 0.2086276683087028
+get player7777 2000 8000 0 35
+get player3333 1900 8000 100 30
+get player2222 1701 8000 50 30
+get total507
+time: 6374.0,37060.0
+  activeIncludingSelf 6 wager 99 maxWager 972 prevWager 0 prob 0.2258119266055046
 
 timeout: 200
 action: call 
 
 get flop
-flop card: CLUBS-4
 flop card: CLUBS-7
-flop card: SPADES-J
+flop card: CLUBS-8
+flop card: DIAMONDS-K
 get inquire
-get player1111 2324 8000 0 35
-get player8888 1389 8000 362 33
-get player4444 1489 8000 262 31
-get player2222 2062 8000 262 31
-get player3333 1850 8000 50 35
-get player5555 1688 8000 262 32
+get player5555 1900 8000 0 35
+get player8888 1009 8000 357 32
+get player4444 1394 8000 357 32
 get player7777 2000 8000 0 35
-get player6666 1738 8000 262 32
-get total1460
-time: 5381.0,26100.0
-  activeIncludingSelf 5 wager 45 maxWager 965 prevWager 262 prob 0.22601436781609194
-
-timeout: 201
-action: call 
-
-get inquire
-get player1111 2324 8000 0 35
-get player8888 1200 8000 551 32
-get player4444 1489 8000 262 35
-get player2222 1773 8000 551 32
-get player3333 1850 8000 50 35
-get player5555 1399 8000 551 33
-get player7777 2000 8000 0 35
-get player6666 1638 8000 362 32
-get total2327
-time: 10950.0,47460.0
-  activeIncludingSelf 4 wager 0 maxWager 910 prevWager 362 prob 0.24995259165613148
+get player3333 1643 8000 357 32
+get player2222 1394 8000 357 33
+get player1111 3224 8000 257 32
+get player6666 1494 8000 257 32
+get total1942
+time: 22639.0,37550.0
+  activeIncludingSelf 6 wager 639 maxWager 830 prevWager 257 prob 0.6128302263648469
 
 timeout: 200
-action: call 
+action: raise 382 
 
 get turn
-turn card: DIAMONDS-8
+turn card: DIAMONDS-2
 get inquire
-get player1111 2324 8000 0 35
-get player8888 1200 8000 551 31
-get player4444 1489 8000 262 35
-get player2222 1773 8000 551 31
-get player3333 1850 8000 50 35
-get player5555 1399 8000 551 33
+get player5555 1900 8000 0 35
+get player8888 627 8000 739 35
+get player4444 1394 8000 357 35
 get player7777 2000 8000 0 35
-get player6666 1449 8000 551 32
-get total2516
-time: 15097.0,52660.0
-  activeIncludingSelf 4 wager 67 maxWager 805 prevWager 551 prob 0.293821306494493
-
-timeout: 201
-action: call 
-
-get inquire
-get player1111 2324 8000 0 35
-get player8888 1011 8000 740 32
-get player4444 1489 8000 262 35
-get player2222 1584 8000 740 32
-get player3333 1850 8000 50 35
-get player5555 1210 8000 740 33
-get player7777 2000 8000 0 35
-get player6666 1449 8000 551 31
-get total3083
-time: 15042.0,51630.0
-  activeIncludingSelf 4 wager 74 maxWager 805 prevWager 551 prob 0.29842882045322483
+get player3333 1643 8000 357 35
+get player2222 1012 8000 739 31
+get player1111 3224 8000 257 35
+get player6666 1012 8000 739 33
+get total3188
+time: 66240.0,74960.0
+  activeIncludingSelf 2 wager 562 maxWager 562 prevWager 739 prob 0.8848345784418357
 
 timeout: 201
 action: call 
 
 get river
-river card: CLUBS-9
+river card: SPADES-8
 get inquire
-get player1111 2324 8000 0 35
-get player8888 1011 8000 740 31
-get player4444 1489 8000 262 35
-get player2222 1584 8000 740 31
-get player3333 1850 8000 50 35
-get player5555 1210 8000 740 33
+get player5555 1900 8000 0 35
+get player8888 627 8000 739 35
+get player4444 1394 8000 357 35
 get player7777 2000 8000 0 35
-get player6666 1260 8000 740 32
-get total3272
-time: 34374.0,60920.0
-  activeIncludingSelf 4 wager 422 maxWager 700 prevWager 740 prob 0.5646839461588968
+get player3333 1643 8000 357 35
+get player2222 1012 8000 739 31
+get player1111 3224 8000 257 35
+get player6666 1012 8000 739 31
+get total3188
+time: 68415.0,68720.0
+  activeIncludingSelf 2 wager 562 maxWager 562 prevWager 739 prob 0.9955661379511059
 
-timeout: 200
+timeout: 201
 action: call 
 
 get notify
-get player1111 2324 8000 0 35
-get player8888 1011 8000 740 31
-get player4444 1489 8000 262 35
-get player2222 1584 8000 740 31
-get player3333 1850 8000 50 35
-get player5555 1210 8000 740 31
+get player5555 1900 8000 0 35
+get player8888 627 8000 739 35
+get player4444 1394 8000 357 35
 get player7777 2000 8000 0 35
-get player6666 1260 8000 740 31
-get total3272
+get player3333 1643 8000 357 35
+get player2222 1012 8000 739 31
+get player1111 3224 8000 257 35
+get player6666 1012 8000 739 31
+get total3188
 get showdown
-3: 2222 HEARTS 5 SPADES 8 ONE_PAIR 
-1: 8888 DIAMONDS 10 CLUBS J STRAIGHT 
-1: 6666 HEARTS 10 CLUBS 8 STRAIGHT 
-2: 5555 CLUBS Q HEARTS J ONE_PAIR 
+2: 2222 CLUBS 5 CLUBS A ONE_PAIR 
+1: 6666 CLUBS K HEARTS 8 FULL_HOUSE 
 get pot-win
-8888: 1636 
-6666: 1636 
+6666: 3188 
 start to seat 3
-button 3333,1850,8000
-small 2222,1584,8000
-big 4444,1489,8000
-normal  8888,2647,8000
-normal  1111,2324,8000
-normal  6666,2896,8000
-normal  7777,2000,8000
-normal  5555,1210,8000
-start to blind
-2222 is small blind:50
-4444 is big blind:100
-get hold
-base card: DIAMONDS-4
-base card: HEARTS-10
-base card: 279045,16787479
-get inquire
-get player1111 2098 8000 226 32
-get player8888 2421 8000 226 33
-get player4444 1389 8000 100 30
-get player2222 1534 8000 50 30
-get total602
-time: 2661.0,27100.0
-  activeIncludingSelf 8 wager 84 maxWager 1608 prevWager 0 prob 0.15680940959409595
-
-timeout: 200
-action: fold 
-
-get flop
-flop card: CLUBS-2
-flop card: DIAMONDS-J
-flop card: SPADES-6
-get notify
-get player1111 1798 8000 526 31
-get player8888 2121 8000 526 31
-get player4444 1389 8000 100 35
-get player2222 1534 8000 50 35
-get player3333 1850 8000 0 35
-get player5555 1210 8000 0 35
-get player7777 1474 8000 526 33
-get player6666 2896 8000 0 35
-get total1728
-get turn
-turn card: SPADES-7
-get notify
-get player1111 1598 8000 726 31
-get player8888 1921 8000 726 31
-get player4444 1389 8000 100 35
-get player2222 1534 8000 50 35
-get player3333 1850 8000 0 35
-get player5555 1210 8000 0 35
-get player7777 1274 8000 726 33
-get player6666 2896 8000 0 35
-get total2328
-get river
-river card: CLUBS-A
-get notify
-get player1111 1598 8000 726 35
-get player8888 1721 8000 926 31
-get player4444 1389 8000 100 35
-get player2222 1534 8000 50 35
-get player3333 1850 8000 0 35
-get player5555 1210 8000 0 35
-get player7777 1074 8000 926 33
-get player6666 2896 8000 0 35
-get total2728
-get notify
-get player1111 1598 8000 726 35
-get player8888 1721 8000 926 35
-get player4444 1389 8000 100 35
-get player2222 1534 8000 50 35
-get player3333 1850 8000 0 35
-get player5555 1210 8000 0 35
-get player7777 874 8000 1126 33
-get player6666 2896 8000 0 35
-get total2928
-get pot-win
-7777: 2928 
-start to seat 4
-button 2222,1534,8000
-small 4444,1389,8000
-big 8888,1721,8000
-normal  1111,1598,8000
-normal  6666,2896,8000
-normal  7777,3802,8000
-normal  5555,1210,8000
-normal  3333,1850,8000
-start to blind
-4444 is small blind:50
-8888 is big blind:100
-get hold
-base card: DIAMONDS-7
-base card: HEARTS-8
-base card: 2114829,4204049
-get inquire
-get player1111 1598 8000 0 35
-get player8888 1621 8000 100 30
-get player4444 1339 8000 50 30
-get total150
-time: 4682.0,33530.0
-  activeIncludingSelf 7 wager 142 maxWager 1608 prevWager 0 prob 0.19555979719654043
-
-timeout: 200
-action: raise 142 
-
-get flop
-flop card: SPADES-Q
-flop card: DIAMONDS-5
-flop card: HEARTS-10
-get inquire
-get player1111 1598 8000 0 35
-get player8888 1479 8000 242 31
-get player4444 1339 8000 50 35
-get player2222 1534 8000 0 35
-get player3333 1850 8000 0 35
-get player5555 1210 8000 0 35
-get player7777 3802 8000 0 35
-get player6666 2654 8000 242 33
-get total534
-time: 12722.0,74220.0
-  activeIncludingSelf 2 wager -1307 maxWager 1474 prevWager 242 prob 0.19212409054163299
-
-timeout: 200
-action: call 
-
-get turn
-turn card: CLUBS-8
-get inquire
-get player1111 1598 8000 0 35
-get player8888 1479 8000 242 31
-get player4444 1339 8000 50 35
-get player2222 1534 8000 0 35
-get player3333 1850 8000 0 35
-get player5555 1210 8000 0 35
-get player7777 3802 8000 0 35
-get player6666 2654 8000 242 31
-get total534
-time: 29890.0,72830.0
-  activeIncludingSelf 2 wager -355 maxWager 1474 prevWager 242 prob 0.41630372099409585
-
-timeout: 200
-action: call 
-
-get river
-river card: HEARTS-A
-get inquire
-get player1111 1598 8000 0 35
-get player8888 1479 8000 242 31
-get player4444 1339 8000 50 35
-get player2222 1534 8000 0 35
-get player3333 1850 8000 0 35
-get player5555 1210 8000 0 35
-get player7777 3802 8000 0 35
-get player6666 2654 8000 242 31
-get total534
-time: 27501.0,91380.0
-  activeIncludingSelf 2 wager -842 maxWager 1474 prevWager 242 prob 0.3016511162179908
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 1598 8000 0 35
-get player8888 1479 8000 242 31
-get player4444 1339 8000 50 35
-get player2222 1534 8000 0 35
-get player3333 1850 8000 0 35
-get player5555 1210 8000 0 35
-get player7777 3802 8000 0 35
-get player6666 2654 8000 242 31
-get total534
-get showdown
-1: 8888 CLUBS A SPADES 6 ONE_PAIR 
-2: 6666 DIAMONDS 7 HEARTS 8 ONE_PAIR 
-get pot-win
-8888: 534 
-start to seat 5
-button 4444,1339,8000
-small 8888,2013,8000
-big 1111,1598,8000
-normal  6666,2654,8000
-normal  7777,3802,8000
-normal  5555,1210,8000
-normal  3333,1850,8000
-normal  2222,1534,8000
-start to blind
-8888 is small blind:50
-1111 is big blind:100
-get hold
-base card: SPADES-8
-base card: SPADES-7
-base card: 4199953,2102541
-get inquire
-get player1111 1498 8000 100 30
-get player8888 1963 8000 50 30
-get total150
-time: 4921.0,29700.0
-  activeIncludingSelf 8 wager 230 maxWager 1474 prevWager 0 prob 0.21992037037037038
-
-timeout: 200
-action: raise 230 
-
-get flop
-flop card: CLUBS-7
-flop card: CLUBS-8
-flop card: DIAMONDS-K
-get inquire
-get player1111 1077 8000 521 33
-get player8888 1683 8000 330 31
-get player4444 1339 8000 0 35
-get player2222 1534 8000 0 35
-get player3333 1850 8000 0 35
-get player5555 880 8000 330 32
-get player7777 3802 8000 0 35
-get player6666 2324 8000 330 33
-get total1511
-time: 26063.0,47850.0
-  activeIncludingSelf 4 wager 758 maxWager 1291 prevWager 330 prob 0.5560642633228841
-
-timeout: 200
-action: raise 428 
-
-get turn
-turn card: HEARTS-A
-get inquire
-get player1111 649 8000 949 35
-get player8888 1064 8000 949 31
-get player4444 1339 8000 0 35
-get player2222 1534 8000 0 35
-get player3333 1850 8000 0 35
-get player5555 880 8000 330 35
-get player7777 3802 8000 0 35
-get player6666 1705 8000 949 33
-get total3177
-time: 55550.0,71520.0
-  activeIncludingSelf 2 wager 760 maxWager 947 prevWager 949 prob 0.7789387583892617
-
-timeout: 200
-action: call 
-
-get river
-river card: SPADES-5
-get inquire
-get player1111 649 8000 949 35
-get player8888 1064 8000 949 31
-get player4444 1339 8000 0 35
-get player2222 1534 8000 0 35
-get player3333 1850 8000 0 35
-get player5555 880 8000 330 35
-get player7777 3802 8000 0 35
-get player6666 1705 8000 949 31
-get total3177
-time: 72365.0,88290.0
-  activeIncludingSelf 2 wager 872 maxWager 947 prevWager 949 prob 0.819808868501529
-
-timeout: 201
-action: call 
-
-get notify
-get player1111 649 8000 949 35
-get player8888 1064 8000 949 31
-get player4444 1339 8000 0 35
-get player2222 1534 8000 0 35
-get player3333 1850 8000 0 35
-get player5555 880 8000 330 35
-get player7777 3802 8000 0 35
-get player6666 1705 8000 949 31
-get total3177
-get showdown
-2: 8888 SPADES 10 SPADES K ONE_PAIR 
-1: 6666 SPADES 8 SPADES 7 TWO_PAIR 
-get pot-win
-6666: 3177 
-start to seat 6
-button 8888,1064,8000
-small 1111,649,8000
-big 6666,4882,8000
-normal  7777,3802,8000
-normal  5555,880,8000
-normal  3333,1850,8000
-normal  2222,1534,8000
-normal  4444,1339,8000
-start to blind
-1111 is small blind:50
-6666 is big blind:100
-get hold
-base card: DIAMONDS-8
-base card: DIAMONDS-Q
-base card: 4212241,67127839
-get inquire
-get player1111 599 8000 50 35
-get player8888 1064 8000 0 35
-get player4444 1339 8000 0 35
-get player2222 1329 8000 205 33
-get player3333 1850 8000 0 35
-get player5555 780 8000 100 32
-get player7777 3802 8000 0 35
-get player6666 4782 8000 100 30
-get total455
-time: 18963.0,59040.0
-  activeIncludingSelf 3 wager 183 maxWager 2656 prevWager 100 prob 0.365311737804878
-
-timeout: 200
-action: call 
-
-get flop
-flop card: CLUBS-9
-flop card: HEARTS-7
-flop card: DIAMONDS-3
-get inquire
-get player1111 599 8000 50 35
-get player8888 1064 8000 0 35
-get player4444 1339 8000 0 35
-get player2222 1329 8000 205 33
-get player3333 1850 8000 0 35
-get player5555 675 8000 205 32
-get player7777 3802 8000 0 35
-get player6666 4677 8000 205 32
-get total665
-time: 12513.0,59260.0
-  activeIncludingSelf 3 wager -575 maxWager 2598 prevWager 205 prob 0.23087537968275396
-
-timeout: 201
-action: call 
-
-get inquire
-get player1111 599 8000 50 35
-get player8888 1064 8000 0 35
-get player4444 1339 8000 0 35
-get player2222 1204 8000 330 32
-get player3333 1850 8000 0 35
-get player5555 550 8000 330 33
-get player7777 3802 8000 0 35
-get player6666 4677 8000 205 31
-get total915
-time: 12919.0,60710.0
-  activeIncludingSelf 3 wager -566 maxWager 2598 prevWager 205 prob 0.23247858672376873
-
-timeout: 200
-action: call 
-
-get turn
-turn card: SPADES-3
-get inquire
-get player1111 599 8000 50 35
-get player8888 1064 8000 0 35
-get player4444 1339 8000 0 35
-get player2222 1204 8000 330 32
-get player3333 1850 8000 0 35
-get player5555 550 8000 330 33
-get player7777 3802 8000 0 35
-get player6666 4552 8000 330 32
-get total1040
-time: 5355.0,50090.0
-  activeIncludingSelf 3 wager -1188 maxWager 2528 prevWager 330 prob 0.11583849071670993
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 599 8000 50 35
-get player8888 1064 8000 0 35
-get player4444 1339 8000 0 35
-get player2222 1079 8000 455 32
-get player3333 1850 8000 0 35
-get player5555 425 8000 455 33
-get player7777 3802 8000 0 35
-get player6666 4552 8000 330 31
-get total1290
-time: 5309.0,49420.0
-  activeIncludingSelf 3 wager -1185 maxWager 2528 prevWager 330 prob 0.11635188182921895
-
-timeout: 200
-action: call 
-
-get river
-river card: HEARTS-9
-get inquire
-get player1111 599 8000 50 35
-get player8888 1064 8000 0 35
-get player4444 1339 8000 0 35
-get player2222 1079 8000 455 32
-get player3333 1850 8000 0 35
-get player5555 425 8000 455 33
-get player7777 3802 8000 0 35
-get player6666 4427 8000 455 32
-get total1415
-time: 3533.0,47690.0
-  activeIncludingSelf 3 wager -1372 maxWager 2459 prevWager 455 prob 0.07500853428391696
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 599 8000 50 35
-get player8888 1064 8000 0 35
-get player4444 1339 8000 0 35
-get player2222 954 8000 580 32
-get player3333 1850 8000 0 35
-get player5555 300 8000 580 33
-get player7777 3802 8000 0 35
-get player6666 4427 8000 455 31
-get total1665
-time: 3695.0,48620.0
-  activeIncludingSelf 3 wager -1362 maxWager 2459 prevWager 455 prob 0.07692153434800494
-
-timeout: 200
-action: fold 
-
-get notify
-get player1111 599 8000 50 35
-get player8888 1064 8000 0 35
-get player4444 1339 8000 0 35
-get player2222 954 8000 580 32
-get player3333 1850 8000 0 35
-get player5555 300 8000 580 33
-get player7777 3802 8000 0 35
-get player6666 4427 8000 455 35
-get total1665
-get showdown
-1: 5555 CLUBS 5 CLUBS 7 TWO_PAIR 
-2: 2222 CLUBS 4 HEARTS 4 TWO_PAIR 
-get pot-win
-5555: 1665 
-start to seat 7
-button 1111,599,8000
-small 6666,4427,8000
-big 7777,3802,8000
-normal  5555,1965,8000
-normal  3333,1850,8000
-normal  2222,954,8000
-normal  4444,1339,8000
-normal  8888,1064,8000
-start to blind
-6666 is small blind:50
-7777 is big blind:100
-get hold
-base card: CLUBS-7
-base card: DIAMONDS-2
-base card: 2131213,81922
-get inquire
-get player1111 599 8000 0 35
-get player8888 1064 8000 0 35
-get player4444 1339 8000 0 35
-get player2222 675 8000 279 33
-get player3333 1850 8000 0 35
-get player5555 1965 8000 0 35
-get player7777 3702 8000 100 30
-get player6666 4377 8000 50 30
-get total429
-time: 9808.0,57550.0
-  activeIncludingSelf 3 wager -572 maxWager 2431 prevWager 50 prob 0.224348045178106
-
-timeout: 200
-action: fold 
-
-get notify
-get player1111 599 8000 0 35
-get player8888 1064 8000 0 35
-get player4444 1339 8000 0 35
-get player2222 675 8000 279 33
-get player3333 1850 8000 0 35
-get player5555 1965 8000 0 35
-get player7777 3702 8000 100 35
-get player6666 4377 8000 50 35
-get total429
-get pot-win
-2222: 429 
-start to seat 8
-button 6666,4377,8000
-small 7777,3702,8000
-big 5555,1965,8000
-normal  3333,1850,8000
-normal  2222,1104,8000
-normal  4444,1339,8000
-normal  8888,1064,8000
-normal  1111,599,8000
-start to blind
-7777 is small blind:50
-5555 is big blind:100
-get hold
-base card: DIAMONDS-8
-base card: CLUBS-A
-base card: 4212241,268471337
-get inquire
-get player1111 599 8000 0 35
-get player8888 964 8000 100 32
-get player4444 1239 8000 100 32
-get player2222 1004 8000 100 32
-get player3333 1850 8000 0 35
-get player5555 1865 8000 100 30
-get player7777 3652 8000 50 30
-get total450
-time: 7055.0,37650.0
-  activeIncludingSelf 6 wager 308 maxWager 2431 prevWager 0 prob 0.2402038512616202
-
-timeout: 200
-action: raise 308 
-
-get flop
-flop card: SPADES-2
-flop card: CLUBS-J
-flop card: SPADES-K
-get inquire
-get player1111 599 8000 0 35
-get player8888 964 8000 100 35
-get player4444 931 8000 408 31
-get player2222 1004 8000 100 35
-get player3333 1850 8000 0 35
-get player5555 1865 8000 100 35
-get player7777 3652 8000 50 35
-get player6666 3969 8000 408 33
-get total1166
-time: 21122.0,75650.0
-  activeIncludingSelf 2 wager -1287 maxWager 2205 prevWager 408 prob 0.29722670191672174
-
-timeout: 200
-action: call 
-
-get turn
-turn card: DIAMONDS-7
-get inquire
-get player1111 599 8000 0 35
-get player8888 964 8000 100 35
-get player4444 931 8000 408 31
-get player2222 1004 8000 100 35
-get player3333 1850 8000 0 35
-get player5555 1865 8000 100 35
-get player7777 3652 8000 50 35
-get player6666 3969 8000 408 31
-get total1166
-time: 17808.0,77610.0
-  activeIncludingSelf 2 wager -1669 maxWager 2205 prevWager 408 prob 0.23716041747197525
-
-timeout: 200
-action: call 
-
-get river
-river card: HEARTS-8
-get inquire
-get player1111 599 8000 0 35
-get player8888 964 8000 100 35
-get player4444 931 8000 408 31
-get player2222 1004 8000 100 35
-get player3333 1850 8000 0 35
-get player5555 1865 8000 100 35
-get player7777 3652 8000 50 35
-get player6666 3969 8000 408 31
-get total1166
-time: 42937.0,90520.0
-  activeIncludingSelf 2 wager -159 maxWager 2205 prevWager 408 prob 0.47486282589482987
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 599 8000 0 35
-get player8888 964 8000 100 35
-get player4444 931 8000 408 31
-get player2222 1004 8000 100 35
-get player3333 1850 8000 0 35
-get player5555 1865 8000 100 35
-get player7777 3652 8000 50 35
-get player6666 3969 8000 408 31
-get total1166
-get showdown
-2: 4444 HEARTS A SPADES 7 ONE_PAIR 
-1: 6666 DIAMONDS 8 CLUBS A ONE_PAIR 
-get pot-win
-6666: 1166 
-start to seat 9
-button 7777,3652,8000
-small 5555,1865,8000
-big 3333,1850,8000
-normal  2222,1004,8000
-normal  4444,931,8000
-normal  8888,964,8000
-normal  1111,599,8000
-normal  6666,5135,8000
-start to blind
-5555 is small blind:50
-3333 is big blind:100
-get hold
-base card: HEARTS-10
-base card: HEARTS-K
-base card: 16787479,134228773
-get inquire
-get player1111 599 8000 0 35
-get player8888 964 8000 0 35
-get player4444 931 8000 0 35
-get player2222 1004 8000 0 35
-get player3333 1750 8000 100 30
-get player5555 1815 8000 50 30
-get total150
-time: 15209.0,47140.0
-  activeIncludingSelf 4 wager 639 maxWager 2852 prevWager 0 prob 0.36666344929995753
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 599 8000 0 35
-get player8888 964 8000 0 35
-get player4444 931 8000 0 35
-get player2222 1004 8000 0 35
-get player3333 1150 8000 700 33
-get player5555 1815 8000 50 35
-get player7777 3652 8000 0 35
-get player6666 5035 8000 100 32
-get total850
-time: 30616.0,64830.0
-  activeIncludingSelf 2 wager 52 maxWager 2797 prevWager 100 prob 0.5065542187258985
-
-timeout: 200
-action: call 
-
-get flop
-flop card: DIAMONDS-7
-flop card: HEARTS-6
-flop card: HEARTS-5
-get inquire
-get player1111 599 8000 0 35
-get player8888 964 8000 0 35
-get player4444 931 8000 0 35
-get player2222 1004 8000 0 35
-get player3333 1150 8000 700 31
-get player5555 1815 8000 50 35
-get player7777 3652 8000 0 35
-get player6666 4435 8000 700 32
-get total1450
-time: 37712.0,75340.0
-  activeIncludingSelf 2 wager 92 maxWager 2463 prevWager 700 prob 0.5130435359702682
-
-timeout: 200
-action: call 
-
-get turn
-turn card: CLUBS-10
-get inquire
-get player1111 599 8000 0 35
-get player8888 964 8000 0 35
-get player4444 931 8000 0 35
-get player2222 1004 8000 0 35
-get player3333 1150 8000 700 31
-get player5555 1815 8000 50 35
-get player7777 3652 8000 0 35
-get player6666 4435 8000 700 31
-get total1450
-time: 48274.0,72650.0
-  activeIncludingSelf 2 wager 1190 maxWager 2463 prevWager 700 prob 0.6678287680660702
-
-timeout: 200
-action: call 
-
-get river
-river card: SPADES-A
-get inquire
-get player1111 599 8000 0 35
-get player8888 964 8000 0 35
-get player4444 931 8000 0 35
-get player2222 1004 8000 0 35
-get player3333 550 8000 1300 33
-get player5555 1815 8000 50 35
-get player7777 3652 8000 0 35
-get player6666 4435 8000 700 31
-get total2050
-time: 50543.0,88410.0
-  activeIncludingSelf 2 wager 511 maxWager 2463 prevWager 700 prob 0.5721170342721411
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 599 8000 0 35
-get player8888 964 8000 0 35
-get player4444 931 8000 0 35
-get player2222 1004 8000 0 35
-get player3333 550 8000 1300 33
-get player5555 1815 8000 50 35
-get player7777 3652 8000 0 35
-get player6666 3835 8000 1300 32
-get total2650
-get showdown
-1: 3333 DIAMONDS J CLUBS A ONE_PAIR 
-2: 6666 HEARTS 10 HEARTS K ONE_PAIR 
-get pot-win
-3333: 2650 
-start to seat 10
-button 5555,1815,8000
-small 3333,3200,8000
-big 2222,1004,8000
-normal  4444,931,8000
-normal  8888,964,8000
-normal  1111,599,8000
-normal  6666,3835,8000
-normal  7777,3652,8000
+button 2222,1012,8000
+small 3333,1643,8000
+big 7777,2000,8000
+normal  4444,1394,8000
+normal  8888,627,8000
+normal  5555,1900,8000
+normal  6666,4200,8000
+normal  1111,3224,8000
 start to blind
 3333 is small blind:50
-2222 is big blind:100
-get hold
-base card: HEARTS-8
-base card: SPADES-9
-base card: 4204049,8394515
-get inquire
-get player1111 499 8000 100 32
-get player8888 864 8000 100 32
-get player4444 831 8000 100 32
-get player2222 904 8000 100 30
-get player3333 3150 8000 50 30
-get total450
-time: 4019.0,30160.0
-  activeIncludingSelf 8 wager 226 maxWager 2130 prevWager 0 prob 0.1895943302387268
-
-timeout: 200
-action: raise 226 
-
-get flop
-flop card: DIAMONDS-2
-flop card: SPADES-10
-flop card: CLUBS-6
-get inquire
-get player1111 499 8000 100 35
-get player8888 638 8000 326 31
-get player4444 831 8000 100 35
-get player2222 678 8000 326 31
-get player3333 3150 8000 50 35
-get player5555 1489 8000 326 32
-get player7777 3652 8000 0 35
-get player6666 3509 8000 326 33
-get total1554
-time: 12230.0,51360.0
-  activeIncludingSelf 4 wager 26 maxWager 1949 prevWager 326 prob 0.257169976635514
-
-timeout: 200
-action: call 
-
-get turn
-turn card: SPADES-J
-get inquire
-get player1111 499 8000 100 35
-get player8888 538 8000 426 33
-get player4444 831 8000 100 35
-get player2222 678 8000 326 31
-get player3333 3150 8000 50 35
-get player5555 1489 8000 326 35
-get player7777 3652 8000 0 35
-get player6666 3509 8000 326 31
-get total1654
-time: 14710.0,65870.0
-  activeIncludingSelf 3 wager -430 maxWager 1949 prevWager 326 prob 0.23108547138302718
-
-timeout: 200
-action: call 
-
-get river
-river card: DIAMONDS-9
-get inquire
-get player1111 499 8000 100 35
-get player8888 538 8000 426 31
-get player4444 831 8000 100 35
-get player2222 578 8000 426 31
-get player3333 3150 8000 50 35
-get player5555 1489 8000 326 35
-get player7777 3652 8000 0 35
-get player6666 3409 8000 426 32
-get total1854
-time: 14497.0,54200.0
-  activeIncludingSelf 3 wager -266 maxWager 1893 prevWager 426 prob 0.268204852398524
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 499 8000 100 35
-get player8888 538 8000 426 31
-get player4444 831 8000 100 35
-get player2222 578 8000 426 31
-get player3333 3150 8000 50 35
-get player5555 1489 8000 326 35
-get player7777 3652 8000 0 35
-get player6666 3409 8000 426 31
-get total1854
-get showdown
-3: 2222 SPADES A SPADES 7 HIGH_CARD 
-1: 8888 CLUBS 10 DIAMONDS J TWO_PAIR 
-2: 6666 HEARTS 8 SPADES 9 ONE_PAIR 
-get pot-win
-8888: 1854 
-start to seat 11
-button 3333,3150,8000
-small 2222,578,8000
-big 4444,831,8000
-normal  8888,2392,8000
-normal  1111,499,8000
-normal  6666,3409,8000
-normal  7777,3652,8000
-normal  5555,1489,8000
-start to blind
-2222 is small blind:50
-4444 is big blind:100
-get hold
-base card: SPADES-9
-base card: CLUBS-10
-base card: 8394515,16812055
-get inquire
-get player1111 499 8000 0 35
-get player8888 2292 8000 100 32
-get player4444 731 8000 100 30
-get player2222 528 8000 50 30
-get total250
-time: 5527.0,33430.0
-  activeIncludingSelf 7 wager 244 maxWager 1893 prevWager 0 prob 0.21958405623691296
-
-timeout: 200
-action: raise 244 
-
-get flop
-flop card: CLUBS-K
-flop card: HEARTS-6
-flop card: DIAMONDS-A
-get inquire
-get player1111 499 8000 0 35
-get player8888 2048 8000 344 31
-get player4444 731 8000 100 35
-get player2222 528 8000 50 35
-get player3333 3150 8000 0 35
-get player5555 1489 8000 0 35
-get player7777 3652 8000 0 35
-get player6666 3065 8000 344 33
-get total838
-time: 12294.0,59440.0
-  activeIncludingSelf 2 wager -1340 maxWager 1702 prevWager 344 prob 0.22665965679676986
-
-timeout: 200
-action: call 
-
-get turn
-turn card: HEARTS-4
-get inquire
-get player1111 499 8000 0 35
-get player8888 2048 8000 344 31
-get player4444 731 8000 100 35
-get player2222 528 8000 50 35
-get player3333 3150 8000 0 35
-get player5555 1489 8000 0 35
-get player7777 3652 8000 0 35
-get player6666 3065 8000 344 31
-get total838
-time: 10805.0,79840.0
-  activeIncludingSelf 2 wager -1745 maxWager 1702 prevWager 344 prob 0.1439798346693387
-
-timeout: 200
-action: call 
-
-get river
-river card: SPADES-K
-get inquire
-get player1111 499 8000 0 35
-get player8888 2048 8000 344 31
-get player4444 731 8000 100 35
-get player2222 528 8000 50 35
-get player3333 3150 8000 0 35
-get player5555 1489 8000 0 35
-get player7777 3652 8000 0 35
-get player6666 3065 8000 344 31
-get total838
-time: 8154.0,73250.0
-  activeIncludingSelf 2 wager -1901 maxWager 1702 prevWager 344 prob 0.11220608873720136
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 499 8000 0 35
-get player8888 2048 8000 344 31
-get player4444 731 8000 100 35
-get player2222 528 8000 50 35
-get player3333 3150 8000 0 35
-get player5555 1489 8000 0 35
-get player7777 3652 8000 0 35
-get player6666 3065 8000 344 31
-get total838
-get showdown
-1: 8888 DIAMONDS 2 DIAMONDS Q ONE_PAIR 
-2: 6666 SPADES 9 CLUBS 10 ONE_PAIR 
-get pot-win
-8888: 838 
-start to seat 12
-button 2222,528,8000
-small 4444,731,8000
-big 8888,2886,8000
-normal  1111,499,8000
-normal  6666,3065,8000
-normal  7777,3652,8000
-normal  5555,1489,8000
-normal  3333,3150,8000
-start to blind
-4444 is small blind:50
-8888 is big blind:100
-get hold
-base card: HEARTS-6
-base card: HEARTS-Q
-base card: 1057803,67119647
-get inquire
-get player1111 399 8000 100 32
-get player8888 2786 8000 100 30
-get player4444 681 8000 50 30
-get total250
-time: 4651.0,30070.0
-  activeIncludingSelf 8 wager 237 maxWager 1702 prevWager 0 prob 0.209618722979714
-
-timeout: 200
-action: raise 237 
-
-get flop
-flop card: SPADES-9
-flop card: SPADES-Q
-flop card: CLUBS-2
-get inquire
-get player1111 399 8000 100 35
-get player8888 2549 8000 337 31
-get player4444 681 8000 50 35
-get player2222 528 8000 0 35
-get player3333 3150 8000 0 35
-get player5555 1489 8000 0 35
-get player7777 3652 8000 0 35
-get player6666 2728 8000 337 33
-get total824
-time: 42929.0,68550.0
-  activeIncludingSelf 2 wager 591 maxWager 1515 prevWager 337 prob 0.6355875273522975
-
-timeout: 200
-action: call 
-
-get turn
-turn card: HEARTS-A
-get inquire
-get player1111 399 8000 100 35
-get player8888 2549 8000 337 31
-get player4444 681 8000 50 35
-get player2222 528 8000 0 35
-get player3333 3150 8000 0 35
-get player5555 1489 8000 0 35
-get player7777 3652 8000 0 35
-get player6666 2728 8000 337 31
-get total824
-time: 43300.0,73990.0
-  activeIncludingSelf 2 wager 390 maxWager 1515 prevWager 337 prob 0.5893620759562103
-
-timeout: 200
-action: call 
-
-get river
-river card: SPADES-J
-get inquire
-get player1111 399 8000 100 35
-get player8888 2549 8000 337 31
-get player4444 681 8000 50 35
-get player2222 528 8000 0 35
-get player3333 3150 8000 0 35
-get player5555 1489 8000 0 35
-get player7777 3652 8000 0 35
-get player6666 2728 8000 337 31
-get total824
-time: 42126.0,84730.0
-  activeIncludingSelf 2 wager -10 maxWager 1515 prevWager 337 prob 0.497682096069869
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 399 8000 100 35
-get player8888 2549 8000 337 31
-get player4444 681 8000 50 35
-get player2222 528 8000 0 35
-get player3333 3150 8000 0 35
-get player5555 1489 8000 0 35
-get player7777 3652 8000 0 35
-get player6666 2728 8000 337 31
-get total824
-get showdown
-2: 8888 DIAMONDS 7 SPADES 6 HIGH_CARD 
-1: 6666 HEARTS 6 HEARTS Q ONE_PAIR 
-get pot-win
-6666: 824 
-start to seat 13
-button 4444,681,8000
-small 8888,2549,8000
-big 1111,399,8000
-normal  6666,3552,8000
-normal  7777,3652,8000
-normal  5555,1489,8000
-normal  3333,3150,8000
-normal  2222,528,8000
-start to blind
-8888 is small blind:50
-1111 is big blind:100
-get hold
-base card: SPADES-6
-base card: CLUBS-Q
-base card: 1053707,67144223
-get inquire
-get player1111 299 8000 100 30
-get player8888 2499 8000 50 30
-get total150
-time: 3250.0,28880.0
-  activeIncludingSelf 8 wager 146 maxWager 1973 prevWager 0 prob 0.17021987534626037
-
-timeout: 200
-action: raise 146 
-
-get inquire
-get player1111 299 8000 100 35
-get player8888 2499 8000 50 35
-get player4444 681 8000 0 35
-get player2222 528 8000 0 35
-get player3333 2304 8000 846 33
-get player5555 1243 8000 246 32
-get player7777 3652 8000 0 35
-get player6666 3306 8000 246 33
-get total1488
-time: 14969.0,58310.0
-  activeIncludingSelf 3 wager -112 maxWager 1836 prevWager 246 prob 0.3050276967930029
-
-timeout: 202
-action: fold 
-
-get notify
-get player1111 299 8000 100 35
-get player8888 2499 8000 50 35
-get player4444 681 8000 0 35
-get player2222 528 8000 0 35
-get player3333 2304 8000 846 33
-get player5555 1243 8000 246 35
-get player7777 3652 8000 0 35
-get player6666 3306 8000 246 35
-get total1488
-get pot-win
-3333: 1488 
-start to seat 14
-button 8888,2499,8000
-small 1111,299,8000
-big 6666,3306,8000
-normal  7777,3652,8000
-normal  5555,1243,8000
-normal  3333,3792,8000
-normal  2222,528,8000
-normal  4444,681,8000
-start to blind
-1111 is small blind:50
-6666 is big blind:100
-get hold
-base card: SPADES-2
-base card: CLUBS-2
-base card: 69634,98306
-get inquire
-get player1111 199 8000 100 32
-get player8888 2499 8000 0 35
-get player4444 681 8000 0 35
-get player2222 528 8000 0 35
-get player3333 3792 8000 0 35
-get player5555 1243 8000 0 35
-get player7777 3652 8000 0 35
-get player6666 3206 8000 100 30
-get total200
-time: 23354.0,69380.0
-  activeIncludingSelf 2 wager -616 maxWager 1781 prevWager 100 prob 0.3797303257422889
-
-timeout: 200
-action: call 
-
-get flop
-flop card: SPADES-10
-flop card: CLUBS-J
-flop card: HEARTS-10
-get inquire
-get player1111 199 8000 100 31
-get player8888 2499 8000 0 35
-get player4444 681 8000 0 35
-get player2222 528 8000 0 35
-get player3333 3792 8000 0 35
-get player5555 1243 8000 0 35
-get player7777 3652 8000 0 35
-get player6666 3206 8000 100 31
-get total200
-time: 15223.0,53340.0
-  activeIncludingSelf 2 wager -1009 maxWager 1781 prevWager 100 prob 0.3032606861642295
-
-timeout: 200
-action: call 
-
-get turn
-turn card: HEARTS-J
-get inquire
-get player1111 199 8000 100 31
-get player8888 2499 8000 0 35
-get player4444 681 8000 0 35
-get player2222 528 8000 0 35
-get player3333 3792 8000 0 35
-get player5555 1243 8000 0 35
-get player7777 3652 8000 0 35
-get player6666 3206 8000 100 31
-get total200
-time: 4940.0,40000.0
-  activeIncludingSelf 2 wager -1886 maxWager 1781 prevWager 100 prob 0.132265
-
-timeout: 200
-action: call 
-
-get river
-river card: CLUBS-Q
-get inquire
-get player1111 199 8000 100 31
-get player8888 2499 8000 0 35
-get player4444 681 8000 0 35
-get player2222 528 8000 0 35
-get player3333 3792 8000 0 35
-get player5555 1243 8000 0 35
-get player7777 3652 8000 0 35
-get player6666 3206 8000 100 31
-get total200
-time: 6155.0,64200.0
-  activeIncludingSelf 2 wager -2068 maxWager 1781 prevWager 100 prob 0.09677640186915888
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 199 8000 100 31
-get player8888 2499 8000 0 35
-get player4444 681 8000 0 35
-get player2222 528 8000 0 35
-get player3333 3792 8000 0 35
-get player5555 1243 8000 0 35
-get player7777 3652 8000 0 35
-get player6666 3206 8000 100 31
-get total200
-get showdown
-1: 1111 SPADES A HEARTS A TWO_PAIR 
-2: 6666 SPADES 2 CLUBS 2 TWO_PAIR 
-get pot-win
-1111: 200 
-start to seat 15
-button 1111,399,8000
-small 6666,3206,8000
-big 7777,3652,8000
-normal  5555,1243,8000
-normal  3333,3792,8000
-normal  2222,528,8000
-normal  4444,681,8000
-normal  8888,2499,8000
-start to blind
-6666 is small blind:50
 7777 is big blind:100
-get hold
-base card: DIAMONDS-3
-base card: CLUBS-7
-base card: 147715,2131213
-get inquire
-get player1111 399 8000 0 35
-get player8888 2499 8000 0 35
-get player4444 581 8000 100 32
-get player2222 528 8000 0 35
-get player3333 3792 8000 0 35
-get player5555 1243 8000 0 35
-get player7777 3552 8000 100 30
-get player6666 3156 8000 50 30
-get total250
-time: 11229.0,58880.0
-  activeIncludingSelf 3 wager -340 maxWager 1753 prevWager 50 prob 0.24331377377717392
-
-timeout: 200
-action: call 
-
-get flop
-flop card: HEARTS-9
-flop card: CLUBS-5
-flop card: SPADES-9
-get inquire
-get player1111 399 8000 0 35
-get player8888 2499 8000 0 35
-get player4444 581 8000 100 32
-get player2222 528 8000 0 35
-get player3333 3792 8000 0 35
-get player5555 1243 8000 0 35
-get player7777 3552 8000 100 31
-get player6666 3106 8000 100 32
-get total300
-time: 5827.0,47690.0
-  activeIncludingSelf 3 wager -705 maxWager 1725 prevWager 100 prob 0.14413032082197524
-
-timeout: 200
-action: call 
-
-get turn
-turn card: HEARTS-J
-get inquire
-get player1111 399 8000 0 35
-get player8888 2499 8000 0 35
-get player4444 581 8000 100 31
-get player2222 528 8000 0 35
-get player3333 3792 8000 0 35
-get player5555 1243 8000 0 35
-get player7777 3552 8000 100 31
-get player6666 3106 8000 100 31
-get total300
-time: 3384.0,51230.0
-  activeIncludingSelf 3 wager -961 maxWager 1725 prevWager 100 prob 0.07539449541284404
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 399 8000 0 35
-get player8888 2499 8000 0 35
-get player4444 359 8000 322 33
-get player2222 528 8000 0 35
-get player3333 3792 8000 0 35
-get player5555 1243 8000 0 35
-get player7777 3552 8000 100 31
-get player6666 3106 8000 100 31
-get total522
-time: 3430.0,51610.0
-  activeIncludingSelf 3 wager -959 maxWager 1725 prevWager 100 prob 0.07579538849060259
-
-timeout: 200
-action: fold 
-
-get notify
-get player1111 399 8000 0 35
-get player8888 2499 8000 0 35
-get player4444 359 8000 322 33
-get player2222 528 8000 0 35
-get player3333 3792 8000 0 35
-get player5555 1243 8000 0 35
-get player7777 3552 8000 100 35
-get player6666 3106 8000 100 35
-get total522
-get pot-win
-4444: 522 
-start to seat 16
-button 6666,3106,8000
-small 7777,3552,8000
-big 5555,1243,8000
-normal  3333,3792,8000
-normal  2222,528,8000
-normal  4444,881,8000
-normal  8888,2499,8000
-normal  1111,399,8000
-start to blind
-7777 is small blind:50
-5555 is big blind:100
-get hold
-base card: SPADES-J
-base card: HEARTS-7
-base card: 33560861,2106637
-get inquire
-get player1111 399 8000 0 35
-get player8888 2499 8000 0 35
-get player4444 881 8000 0 35
-get player2222 528 8000 0 35
-get player3333 3792 8000 0 35
-get player5555 1143 8000 100 30
-get player7777 3502 8000 50 30
-get total150
-time: 12463.0,47880.0
-  activeIncludingSelf 3 wager -93 maxWager 1725 prevWager 0 prob 0.30837729741019215
-
-timeout: 200
-action: fold 
-
-get notify
-get player1111 399 8000 0 35
-get player8888 2499 8000 0 35
-get player4444 881 8000 0 35
-get player2222 528 8000 0 35
-get player3333 3792 8000 0 35
-get player5555 1143 8000 100 35
-get player7777 3252 8000 300 33
-get player6666 3106 8000 0 35
-get total400
-get pot-win
-7777: 400 
-start to seat 17
-button 7777,3652,8000
-small 5555,1143,8000
-big 3333,3792,8000
-normal  2222,528,8000
-normal  4444,881,8000
-normal  8888,2499,8000
-normal  1111,399,8000
-normal  6666,3106,8000
-start to blind
-5555 is small blind:50
-3333 is big blind:100
-get hold
-base card: DIAMONDS-3
-base card: CLUBS-Q
-base card: 147715,67144223
-get inquire
-get player1111 399 8000 0 35
-get player8888 2288 8000 211 32
-get player4444 670 8000 211 33
-get player2222 428 8000 100 32
-get player3333 3692 8000 100 30
-get player5555 1093 8000 50 30
-get total672
-time: 4040.0,33450.0
-  activeIncludingSelf 7 wager 101 maxWager 1725 prevWager 0 prob 0.1779267563527653
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 399 8000 0 35
-get player8888 2147 8000 352 32
-get player4444 529 8000 352 32
-get player2222 428 8000 100 35
-get player3333 3692 8000 100 35
-get player5555 791 8000 352 33
-get player7777 3652 8000 0 35
-get player6666 2895 8000 211 32
-get total1467
-time: 7457.0,40020.0
-  activeIncludingSelf 4 wager -33 maxWager 1608 prevWager 211 prob 0.23922026486756623
-
-timeout: 200
-action: call 
-
-get flop
-flop card: HEARTS-3
-flop card: HEARTS-A
-flop card: HEARTS-7
-get inquire
-get player1111 399 8000 0 35
-get player8888 2147 8000 352 31
-get player4444 529 8000 352 31
-get player2222 428 8000 100 35
-get player3333 3692 8000 100 35
-get player5555 791 8000 352 31
-get player7777 3652 8000 0 35
-get player6666 2754 8000 352 32
-get total1608
-time: 5649.0,37340.0
-  activeIncludingSelf 4 wager -227 maxWager 1530 prevWager 352 prob 0.17250334761649705
-
-timeout: 201
-action: call 
-
-get turn
-turn card: CLUBS-7
-get inquire
-get player1111 399 8000 0 35
-get player8888 2147 8000 352 31
-get player4444 529 8000 352 31
-get player2222 428 8000 100 35
-get player3333 3692 8000 100 35
-get player5555 791 8000 352 31
-get player7777 3652 8000 0 35
-get player6666 2754 8000 352 31
-get total1608
-time: 5266.0,40960.0
-  activeIncludingSelf 4 wager -331 maxWager 1530 prevWager 352 prob 0.13727880859375
-
-timeout: 200
-action: call 
-
-get river
-river card: HEARTS-10
-get inquire
-get player1111 399 8000 0 35
-get player8888 2147 8000 352 31
-get player4444 529 8000 352 31
-get player2222 428 8000 100 35
-get player3333 3692 8000 100 35
-get player5555 791 8000 352 35
-get player7777 3652 8000 0 35
-get player6666 2754 8000 352 31
-get total1608
-time: 3558.0,54250.0
-  activeIncludingSelf 3 wager -881 maxWager 1530 prevWager 352 prob 0.06651966820276498
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 399 8000 0 35
-get player8888 2147 8000 352 31
-get player4444 529 8000 352 31
-get player2222 428 8000 100 35
-get player3333 3692 8000 100 35
-get player5555 791 8000 352 35
-get player7777 3652 8000 0 35
-get player6666 2754 8000 352 31
-get total1608
-get showdown
-1: 4444 HEARTS J HEARTS Q FLUSH 
-2: 8888 DIAMONDS 7 DIAMONDS 5 THREE_OF_A_KIND 
-3: 6666 DIAMONDS 3 CLUBS Q TWO_PAIR 
-get pot-win
-4444: 1608 
-start to seat 18
-button 5555,791,8000
-small 3333,3692,8000
-big 2222,428,8000
-normal  4444,2137,8000
-normal  8888,2147,8000
-normal  1111,399,8000
-normal  6666,2754,8000
-normal  7777,3652,8000
-start to blind
-3333 is small blind:50
-2222 is big blind:100
-get hold
-base card: SPADES-5
-base card: DIAMONDS-K
-base card: 529159,134236965
-get inquire
-get player1111 399 8000 0 35
-get player8888 1769 8000 378 33
-get player4444 2037 8000 100 32
-get player2222 328 8000 100 30
-get player3333 3642 8000 50 30
-get total628
-time: 4472.0,33870.0
-  activeIncludingSelf 7 wager 117 maxWager 1530 prevWager 0 prob 0.18845202243873635
-
-timeout: 200
-action: fold 
-
-get notify
-get player1111 399 8000 0 35
-get player8888 1769 8000 378 33
-get player4444 2037 8000 100 35
-get player2222 328 8000 100 35
-get player3333 3642 8000 50 35
-get player5555 791 8000 0 35
-get player7777 3652 8000 0 35
-get player6666 2754 8000 0 35
-get total628
-get pot-win
-8888: 628 
-start to seat 19
-button 3333,3642,8000
-small 2222,328,8000
-big 4444,2037,8000
-normal  8888,2397,8000
-normal  1111,399,8000
-normal  6666,2754,8000
-normal  7777,3652,8000
-normal  5555,791,8000
-start to blind
-2222 is small blind:50
-4444 is big blind:100
-get hold
-base card: DIAMONDS-6
-base card: HEARTS-Q
-base card: 1065995,67119647
-get inquire
-get player1111 399 8000 0 35
-get player8888 2174 8000 223 33
-get player4444 1937 8000 100 30
-get player2222 278 8000 50 30
-get total373
-time: 3224.0,26040.0
-  activeIncludingSelf 7 wager 97 maxWager 1530 prevWager 0 prob 0.18076190476190476
-
-timeout: 200
-action: call 
-
-get flop
-flop card: CLUBS-J
-flop card: HEARTS-5
-flop card: SPADES-8
-get inquire
-get player1111 399 8000 0 35
-get player8888 2174 8000 223 31
-get player4444 1814 8000 223 31
-get player2222 278 8000 50 35
-get player3333 3642 8000 0 35
-get player5555 568 8000 223 32
-get player7777 3652 8000 0 35
-get player6666 2531 8000 223 32
-get total942
-time: 4603.0,39280.0
-  activeIncludingSelf 4 wager -298 maxWager 1406 prevWager 223 prob 0.1392547097759674
-
-timeout: 200
-action: call 
-
-get turn
-turn card: SPADES-3
-get inquire
-get player1111 399 8000 0 35
-get player8888 2174 8000 223 31
-get player4444 1814 8000 223 31
-get player2222 278 8000 50 35
-get player3333 3642 8000 0 35
-get player5555 568 8000 223 35
-get player7777 3652 8000 0 35
-get player6666 2531 8000 223 31
-get total942
-time: 6280.0,66140.0
-  activeIncludingSelf 3 wager -696 maxWager 1406 prevWager 223 prob 0.10400060477774418
-
-timeout: 200
-action: call 
-
-get river
-river card: CLUBS-3
-get inquire
-get player1111 399 8000 0 35
-get player8888 2174 8000 223 31
-get player4444 1814 8000 223 31
-get player2222 278 8000 50 35
-get player3333 3642 8000 0 35
-get player5555 568 8000 223 35
-get player7777 3652 8000 0 35
-get player6666 2531 8000 223 31
-get total942
-time: 2074.0,42940.0
-  activeIncludingSelf 3 wager -862 maxWager 1406 prevWager 223 prob 0.04925165346995808
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 399 8000 0 35
-get player8888 2174 8000 223 31
-get player4444 1814 8000 223 31
-get player2222 278 8000 50 35
-get player3333 3642 8000 0 35
-get player5555 568 8000 223 35
-get player7777 3652 8000 0 35
-get player6666 2531 8000 223 31
-get total942
-get showdown
-1: 4444 CLUBS 4 HEARTS A ONE_PAIR 
-3: 8888 CLUBS 6 SPADES 7 ONE_PAIR 
-2: 6666 DIAMONDS 6 HEARTS Q ONE_PAIR 
-get pot-win
-4444: 942 
-start to seat 20
-button 2222,278,8000
-small 4444,2756,8000
-big 8888,2174,8000
-normal  1111,399,8000
-normal  6666,2531,8000
-normal  7777,3652,8000
-normal  5555,568,8000
-normal  3333,3642,8000
-start to blind
-4444 is small blind:50
-8888 is big blind:100
-get hold
-base card: CLUBS-A
-base card: CLUBS-7
-base card: 268471337,2131213
-get inquire
-get player1111 195 8000 204 33
-get player8888 2074 8000 100 30
-get player4444 2706 8000 50 30
-get total354
-time: 5324.0,30100.0
-  activeIncludingSelf 8 wager 243 maxWager 1406 prevWager 0 prob 0.23038006644518272
-
-timeout: 200
-action: raise 243 
-
-get flop
-flop card: CLUBS-5
-flop card: DIAMONDS-5
-flop card: SPADES-J
-get inquire
-get player1111 195 8000 204 35
-get player8888 1727 8000 447 31
-get player4444 2309 8000 447 31
-get player2222 278 8000 0 35
-get player3333 3642 8000 0 35
-get player5555 568 8000 0 35
-get player7777 3652 8000 0 35
-get player6666 2084 8000 447 33
-get total1545
-time: 12612.0,50260.0
-  activeIncludingSelf 3 wager -159 maxWager 1157 prevWager 447 prob 0.26966175885395943
-
-timeout: 200
-action: call 
-
-get turn
-turn card: CLUBS-10
-get inquire
-get player1111 195 8000 204 35
-get player8888 1727 8000 447 31
-get player4444 2309 8000 447 31
-get player2222 278 8000 0 35
-get player3333 3642 8000 0 35
-get player5555 568 8000 0 35
-get player7777 3652 8000 0 35
-get player6666 2084 8000 447 31
-get total1545
-time: 16674.0,52850.0
-  activeIncludingSelf 3 wager -27 maxWager 1157 prevWager 447 prob 0.32234172185430465
-
-timeout: 200
-action: call 
-
-get river
-river card: CLUBS-6
-get inquire
-get player1111 195 8000 204 35
-get player8888 1727 8000 447 31
-get player4444 2309 8000 447 31
-get player2222 278 8000 0 35
-get player3333 3642 8000 0 35
-get player5555 568 8000 0 35
-get player7777 3652 8000 0 35
-get player6666 2084 8000 447 31
-get total1545
-time: 54107.0,58940.0
-  activeIncludingSelf 3 wager 1157 maxWager 1157 prevWager 447 prob 0.9180833559552086
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 195 8000 204 35
-get player8888 1727 8000 447 31
-get player4444 2309 8000 447 31
-get player2222 278 8000 0 35
-get player3333 3642 8000 0 35
-get player5555 568 8000 0 35
-get player7777 3652 8000 0 35
-get player6666 2084 8000 447 31
-get total1545
-get showdown
-3: 4444 SPADES A SPADES 9 ONE_PAIR 
-2: 8888 SPADES 8 HEARTS 8 TWO_PAIR 
-1: 6666 CLUBS A CLUBS 7 FLUSH 
-get pot-win
-6666: 1545 
-start to seat 21
-button 4444,2309,8000
-small 8888,1727,8000
-big 1111,195,8000
-normal  6666,3629,8000
-normal  7777,3652,8000
-normal  5555,568,8000
-normal  3333,3642,8000
-normal  2222,278,8000
-start to blind
-8888 is small blind:50
-1111 is big blind:100
-get hold
-base card: CLUBS-5
-base card: HEARTS-2
-base card: 557831,73730
-get inquire
-get player1111 95 8000 100 30
-get player8888 1677 8000 50 30
-get total150
-time: 2656.0,27220.0
-  activeIncludingSelf 8 wager 103 maxWager 2016 prevWager 0 prob 0.1562329169728141
-
-timeout: 200
-action: raise 103 
-
-get notify
-get player1111 95 8000 100 35
-get player8888 1677 8000 50 35
-get player4444 2309 8000 0 35
-get player2222 278 8000 0 35
-get player3333 3642 8000 0 35
-get player5555 568 8000 0 35
-get player7777 3652 8000 0 35
-get player6666 3426 8000 203 33
-get total353
-get pot-win
-6666: 353 
-start to seat 22
-button 8888,1677,8000
-small 1111,2000,6095
-big 6666,3779,8000
-normal  7777,3652,8000
-normal  5555,568,8000
-normal  3333,3642,8000
-normal  2222,278,8000
-normal  4444,2309,8000
-start to blind
-1111 is small blind:50
-6666 is big blind:100
-get hold
-base card: SPADES-K
-base card: HEARTS-4
-base card: 134224677,270853
-get inquire
-get player1111 1950 6095 50 35
-get player8888 1677 8000 0 35
-get player4444 2109 8000 200 32
-get player2222 278 8000 0 35
-get player3333 3642 8000 0 35
-get player5555 568 8000 0 35
-get player7777 3452 8000 200 33
-get player6666 3679 8000 100 30
-get total550
-time: 14881.0,56990.0
-  activeIncludingSelf 3 wager -106 maxWager 2043 prevWager 100 prob 0.3091434462186348
-
-timeout: 200
-action: call 
-
-get flop
-flop card: DIAMONDS-10
-flop card: DIAMONDS-2
-flop card: HEARTS-3
-get inquire
-get player1111 1950 6095 50 35
-get player8888 1677 8000 0 35
-get player4444 2109 8000 200 32
-get player2222 278 8000 0 35
-get player3333 3642 8000 0 35
-get player5555 568 8000 0 35
-get player7777 3452 8000 200 33
-get player6666 3579 8000 200 32
-get total650
-time: 9518.0,60760.0
-  activeIncludingSelf 3 wager -668 maxWager 1988 prevWager 200 prob 0.17773288347597105
-
-timeout: 200
-action: call 
-
-get turn
-turn card: HEARTS-8
-get inquire
-get player1111 1950 6095 50 35
-get player8888 1677 8000 0 35
-get player4444 2109 8000 200 31
-get player2222 278 8000 0 35
-get player3333 3642 8000 0 35
-get player5555 568 8000 0 35
-get player7777 3452 8000 200 31
-get player6666 3579 8000 200 31
-get total650
-time: 5272.0,52700.0
-  activeIncludingSelf 3 wager -963 maxWager 1988 prevWager 200 prob 0.10903757115749525
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 1950 6095 50 35
-get player8888 1677 8000 0 35
-get player4444 2009 8000 300 33
-get player2222 278 8000 0 35
-get player3333 3642 8000 0 35
-get player5555 568 8000 0 35
-get player7777 3452 8000 200 31
-get player6666 3579 8000 200 31
-get total750
-time: 4907.0,50130.0
-  activeIncludingSelf 3 wager -972 maxWager 1988 prevWager 200 prob 0.10690664272890485
-
-timeout: 200
-action: fold 
-
-get river
-river card: DIAMONDS-J
-get notify
-get player1111 1950 6095 50 35
-get player8888 1677 8000 0 35
-get player4444 2009 8000 300 33
-get player2222 278 8000 0 35
-get player3333 3642 8000 0 35
-get player5555 568 8000 0 35
-get player7777 3352 8000 300 32
-get player6666 3579 8000 200 35
-get total850
-get notify
-get player1111 1950 6095 50 35
-get player8888 1677 8000 0 35
-get player4444 1809 8000 500 32
-get player2222 278 8000 0 35
-get player3333 3642 8000 0 35
-get player5555 568 8000 0 35
-get player7777 3152 8000 500 33
-get player6666 3579 8000 200 35
-get total1250
-get showdown
-1: 7777 SPADES J SPADES Q ONE_PAIR 
-2: 4444 DIAMONDS 8 HEARTS Q ONE_PAIR 
-get pot-win
-7777: 1250 
-start to seat 23
-button 1111,1950,6095
-small 6666,3579,8000
-big 7777,4402,8000
-normal  5555,568,8000
-normal  3333,3642,8000
-normal  2222,278,8000
-normal  4444,1809,8000
-normal  8888,1677,8000
-start to blind
-6666 is small blind:50
-7777 is big blind:100
-get hold
-base card: HEARTS-J
-base card: DIAMONDS-8
-base card: 33564957,4212241
-get inquire
-get player1111 1950 6095 0 35
-get player8888 1677 8000 0 35
-get player4444 1809 8000 0 35
-get player2222 278 8000 0 35
-get player3333 3642 8000 0 35
-get player5555 468 8000 100 32
-get player7777 4302 8000 100 30
-get player6666 3529 8000 50 30
-get total250
-time: 14918.0,53500.0
-  activeIncludingSelf 3 wager -32 maxWager 1960 prevWager 50 prob 0.3257164485981308
-
-timeout: 200
-action: call 
-
-get flop
-flop card: HEARTS-K
-flop card: HEARTS-10
-flop card: SPADES-10
-get inquire
-get player1111 1950 6095 0 35
-get player8888 1677 8000 0 35
-get player4444 1809 8000 0 35
-get player2222 278 8000 0 35
-get player3333 3642 8000 0 35
-get player5555 468 8000 100 32
-get player7777 4302 8000 100 35
-get player6666 3479 8000 100 32
-get total300
-time: 13182.0,50290.0
-  activeIncludingSelf 2 wager -1221 maxWager 1932 prevWager 100 prob 0.2805667130642275
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 1950 6095 0 35
-get player8888 1677 8000 0 35
-get player4444 1809 8000 0 35
-get player2222 278 8000 0 35
-get player3333 3642 8000 0 35
-get player5555 362 8000 206 33
-get player7777 4302 8000 100 35
-get player6666 3479 8000 100 31
-get total406
-time: 15107.0,58040.0
-  activeIncludingSelf 2 wager -1231 maxWager 1932 prevWager 100 prob 0.27877885940730535
-
-timeout: 200
-action: call 
-
-get turn
-turn card: SPADES-K
-get inquire
-get player1111 1950 6095 0 35
-get player8888 1677 8000 0 35
-get player4444 1809 8000 0 35
-get player2222 278 8000 0 35
-get player3333 3642 8000 0 35
-get player5555 362 8000 206 33
-get player7777 4302 8000 100 35
-get player6666 3373 8000 206 32
-get total512
-time: 14022.0,57540.0
-  activeIncludingSelf 2 wager -1342 maxWager 1873 prevWager 206 prob 0.2512544316996872
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 1950 6095 0 35
-get player8888 1677 8000 0 35
-get player4444 1809 8000 0 35
-get player2222 278 8000 0 35
-get player3333 3642 8000 0 35
-get player5555 256 8000 312 33
-get player7777 4302 8000 100 35
-get player6666 3373 8000 206 31
-get total618
-time: 13487.0,55740.0
-  activeIncludingSelf 2 wager -1351 maxWager 1873 prevWager 206 prob 0.24954305705059204
-
-timeout: 200
-action: call 
-
-get river
-river card: SPADES-4
-get inquire
-get player1111 1950 6095 0 35
-get player8888 1677 8000 0 35
-get player4444 1809 8000 0 35
-get player2222 278 8000 0 35
-get player3333 3642 8000 0 35
-get player5555 256 8000 312 33
-get player7777 4302 8000 100 35
-get player6666 3267 8000 312 32
-get total724
-time: 14211.0,63160.0
-  activeIncludingSelf 2 wager -1433 maxWager 1815 prevWager 312 prob 0.225775
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 1950 6095 0 35
-get player8888 1677 8000 0 35
-get player4444 1809 8000 0 35
-get player2222 278 8000 0 35
-get player3333 3642 8000 0 35
-get player5555 0 8000 568 34
-get player7777 4302 8000 100 35
-get player6666 3267 8000 312 31
-get total980
-time: 14855.0,67550.0
-  activeIncludingSelf 2 wager -1460 maxWager 1815 prevWager 312 prob 0.22069126572908956
-
-timeout: 200
-action: fold 
-
-get notify
-get player1111 1950 6095 0 35
-get player8888 1677 8000 0 35
-get player4444 1809 8000 0 35
-get player2222 278 8000 0 35
-get player3333 3642 8000 0 35
-get player5555 0 8000 568 34
-get player7777 4302 8000 100 35
-get player6666 3267 8000 312 35
-get total980
-get pot-win
-5555: 980 
-start to seat 24
-button 6666,3267,8000
-small 7777,4302,8000
-big 5555,980,8000
-normal  3333,3642,8000
-normal  2222,278,8000
-normal  4444,1809,8000
-normal  8888,1677,8000
-normal  1111,1950,6095
-start to blind
-7777 is small blind:50
-5555 is big blind:100
-get hold
-base card: DIAMONDS-7
-base card: CLUBS-3
-base card: 2114829,164099
-get inquire
-get player1111 1950 6095 0 35
-get player8888 1577 8000 100 32
-get player4444 1709 8000 100 32
-get player2222 278 8000 0 35
-get player3333 3642 8000 0 35
-get player5555 880 8000 100 30
-get player7777 4252 8000 50 30
-get total350
-time: 4292.0,33070.0
-  activeIncludingSelf 5 wager -44 maxWager 1815 prevWager 0 prob 0.18634925914726336
-
-timeout: 200
-action: fold 
-
-get flop
-flop card: DIAMONDS-Q
-flop card: CLUBS-10
-flop card: DIAMONDS-8
-get turn
-turn card: HEARTS-Q
-get river
-river card: CLUBS-6
-get notify
-get player1111 1950 6095 0 35
-get player8888 1577 8000 100 35
-get player4444 1447 8000 362 35
-get player2222 278 8000 0 35
-get player3333 3642 8000 0 35
-get player5555 0 8000 980 34
-get player7777 4252 8000 50 35
-get player6666 3267 8000 0 35
-get total1492
-get pot-win
-5555: 1492 
-start to seat 25
-button 7777,4252,8000
-small 5555,1492,8000
-big 3333,3642,8000
-normal  2222,278,8000
-normal  4444,1447,8000
-normal  8888,1577,8000
-normal  1111,1950,6095
-normal  6666,3267,8000
-start to blind
-5555 is small blind:50
-3333 is big blind:100
 get hold
 base card: DIAMONDS-9
-base card: HEARTS-10
-base card: 8406803,16787479
+base card: HEARTS-6
 get inquire
-get player1111 1746 6095 204 32
-get player8888 1373 8000 204 33
-get player4444 1447 8000 0 35
-get player2222 278 8000 0 35
-get player3333 3542 8000 100 30
-get player5555 1442 8000 50 30
-get total558
-time: 6094.0,33160.0
-  activeIncludingSelf 6 wager 220 maxWager 1815 prevWager 0 prob 0.23683021712907118
+get player5555 1900 8000 0 35
+get player8888 527 8000 100 32
+get player4444 1294 8000 100 32
+get player7777 1900 8000 100 30
+get player3333 1593 8000 50 30
+get total350
+time: 4220.0,32970.0
+  activeIncludingSelf 7 wager 163 maxWager 2333 prevWager 0 prob 0.18467546254170458
 
 timeout: 200
-action: raise 220 
+action: raise 163 
+
+get inquire
+get player5555 1900 8000 0 35
+get player8888 527 8000 100 35
+get player4444 1294 8000 100 35
+get player7777 1900 8000 100 35
+get player3333 1004 8000 639 32
+get player2222 1012 8000 0 35
+get player1111 2585 8000 639 33
+get player6666 3937 8000 263 33
+get total1841
+time: 13788.0,58240.0
+  activeIncludingSelf 3 wager -221 maxWager 2187 prevWager 263 prob 0.28635611263736266
+
+timeout: 200
+action: call 
 
 get flop
 flop card: DIAMONDS-2
-flop card: SPADES-Q
-flop card: HEARTS-7
+flop card: CLUBS-5
+flop card: SPADES-7
 get inquire
-get player1111 1103 6095 847 33
-get player8888 1153 8000 424 31
-get player4444 1447 8000 0 35
-get player2222 278 8000 0 35
-get player3333 3542 8000 100 35
-get player5555 1442 8000 50 35
-get player7777 4252 8000 0 35
-get player6666 2843 8000 424 33
-get total1845
-time: 7735.0,43940.0
-  activeIncludingSelf 3 wager -466 maxWager 1579 prevWager 424 prob 0.1966346153846154
-
-timeout: 200
-action: fold 
-
-get notify
-get player1111 1103 6095 847 33
-get player8888 1153 8000 424 35
-get player4444 1447 8000 0 35
-get player2222 278 8000 0 35
-get player3333 3542 8000 100 35
-get player5555 1442 8000 50 35
-get player7777 4252 8000 0 35
-get player6666 2843 8000 424 35
-get total1845
-get pot-win
-1111: 1845 
-start to seat 26
-button 5555,1442,8000
-small 3333,3542,8000
-big 2222,278,8000
-normal  4444,1447,8000
-normal  8888,1153,8000
-normal  1111,2948,6095
-normal  6666,2843,8000
-normal  7777,4252,8000
-start to blind
-3333 is small blind:50
-2222 is big blind:100
-get hold
-base card: SPADES-10
-base card: HEARTS-5
-base card: 16783383,533255
-get inquire
-get player1111 2747 6095 201 32
-get player8888 1153 8000 0 35
-get player4444 1246 8000 201 33
-get player2222 178 8000 100 30
-get player3333 3492 8000 50 30
-get total552
-time: 3487.0,32240.0
-  activeIncludingSelf 7 wager 61 maxWager 1579 prevWager 0 prob 0.16612732630272953
-
-timeout: 200
-action: fold 
-
-get flop
-flop card: HEARTS-A
-flop card: SPADES-Q
-flop card: DIAMONDS-K
-get notify
-get player1111 2747 6095 201 31
-get player8888 1153 8000 0 35
-get player4444 1246 8000 201 31
-get player2222 178 8000 100 35
-get player3333 3341 8000 201 31
-get player5555 1241 8000 201 32
-get player7777 4252 8000 0 35
-get player6666 2843 8000 0 35
-get total904
-get turn
-turn card: SPADES-5
-get notify
-get player1111 2636 6095 312 32
-get player8888 1153 8000 0 35
-get player4444 1135 8000 312 33
-get player2222 178 8000 100 35
-get player3333 3341 8000 201 31
-get player5555 1241 8000 201 31
-get player7777 4252 8000 0 35
-get player6666 2843 8000 0 35
-get total1126
-get river
-river card: DIAMONDS-9
-get notify
-get player1111 2536 6095 412 32
-get player8888 1153 8000 0 35
-get player4444 1035 8000 412 33
-get player2222 178 8000 100 35
-get player3333 3341 8000 201 35
-get player5555 1130 8000 312 32
-get player7777 4252 8000 0 35
-get player6666 2843 8000 0 35
-get total1437
-get notify
-get player1111 1506 6095 1442 32
-get player8888 1153 8000 0 35
-get player4444 1035 8000 412 35
-get player2222 178 8000 100 35
-get player3333 3341 8000 201 35
-get player5555 0 8000 1442 34
-get player7777 4252 8000 0 35
-get player6666 2843 8000 0 35
-get total3597
-get showdown
-2: 1111 CLUBS K SPADES 3 ONE_PAIR 
-1: 5555 CLUBS 9 SPADES 9 THREE_OF_A_KIND 
-get pot-win
-5555: 3597 
-start to seat 27
-button 3333,3341,8000
-small 2222,178,8000
-big 4444,1035,8000
-normal  8888,1153,8000
-normal  1111,1506,6095
-normal  6666,2843,8000
-normal  7777,4252,8000
-normal  5555,3597,8000
-start to blind
-2222 is small blind:50
-4444 is big blind:100
-get hold
-base card: CLUBS-10
-base card: SPADES-6
-base card: 16812055,1053707
-get inquire
-get player1111 1406 6095 100 32
-get player8888 1053 8000 100 32
-get player4444 935 8000 100 30
-get player2222 128 8000 50 30
-get total350
-time: 2683.0,24530.0
-  activeIncludingSelf 8 wager 109 maxWager 1579 prevWager 0 prob 0.16726681614349775
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 1406 6095 100 35
-get player8888 1053 8000 100 35
-get player4444 935 8000 100 35
-get player2222 128 8000 50 35
-get player3333 3341 8000 0 35
-get player5555 3597 8000 0 35
-get player7777 3652 8000 600 33
-get player6666 2743 8000 100 32
-get total1050
-time: 21783.0,68760.0
-  activeIncludingSelf 2 wager -609 maxWager 1523 prevWager 100 prob 0.36120571553228625
-
-timeout: 200
-action: fold 
-
-get notify
-get player1111 1406 6095 100 35
-get player8888 1053 8000 100 35
-get player4444 935 8000 100 35
-get player2222 128 8000 50 35
-get player3333 3341 8000 0 35
-get player5555 3597 8000 0 35
-get player7777 3652 8000 600 33
-get player6666 2743 8000 100 35
-get total1050
-get pot-win
-7777: 1050 
-start to seat 28
-button 2222,128,8000
-small 4444,935,8000
-big 8888,1053,8000
-normal  1111,1406,6095
-normal  6666,2743,8000
-normal  7777,4702,8000
-normal  5555,3597,8000
-normal  3333,3341,8000
-start to blind
-4444 is small blind:50
-8888 is big blind:100
-get hold
-base card: CLUBS-4
-base card: SPADES-5
-base card: 295429,529159
-get inquire
-get player1111 1203 6095 203 33
-get player8888 953 8000 100 30
-get player4444 885 8000 50 30
-get total353
-time: 3455.0,29870.0
-  activeIncludingSelf 8 wager 120 maxWager 1523 prevWager 0 prob 0.17314948108470038
-
-timeout: 200
-action: call 
-
-get flop
-flop card: CLUBS-Q
-flop card: HEARTS-2
-flop card: DIAMONDS-K
-get inquire
-get player1111 1087 6095 319 33
-get player8888 850 8000 203 31
-get player4444 732 8000 203 31
-get player2222 128 8000 0 35
-get player3333 3341 8000 0 35
-get player5555 3394 8000 203 32
-get player7777 4702 8000 0 35
-get player6666 2540 8000 203 32
-get total1131
-time: 2669.0,32740.0
-  activeIncludingSelf 5 wager -242 maxWager 1411 prevWager 203 prob 0.10448304825901039
-
-timeout: 200
-action: call 
-
-get turn
-turn card: CLUBS-3
-get inquire
-get player1111 987 6095 419 33
-get player8888 734 8000 319 31
-get player4444 616 8000 319 31
-get player2222 128 8000 0 35
-get player3333 3341 8000 0 35
-get player5555 3394 8000 203 35
-get player7777 4702 8000 0 35
-get player6666 2424 8000 319 32
-get total1579
-time: 11410.0,56110.0
-  activeIncludingSelf 4 wager -100 maxWager 1346 prevWager 319 prob 0.21131705578328283
-
-timeout: 200
-action: call 
-
-get river
-river card: CLUBS-8
-get inquire
-get player1111 987 6095 419 31
-get player8888 634 8000 419 31
-get player4444 516 8000 419 31
-get player2222 128 8000 0 35
-get player3333 3341 8000 0 35
-get player5555 3394 8000 203 35
-get player7777 4702 8000 0 35
-get player6666 2324 8000 419 32
-get total1879
-time: 2507.0,61430.0
-  activeIncludingSelf 4 wager -516 maxWager 1291 prevWager 419 prob 0.041769868142601335
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 987 6095 419 31
-get player8888 634 8000 419 31
-get player4444 516 8000 419 31
-get player2222 128 8000 0 35
-get player3333 3341 8000 0 35
-get player5555 3394 8000 203 35
-get player7777 4702 8000 0 35
-get player6666 2324 8000 419 31
-get total1879
-get showdown
-2: 4444 SPADES 6 DIAMONDS Q ONE_PAIR 
-3: 8888 CLUBS J DIAMONDS 9 HIGH_CARD 
-1: 1111 HEARTS 9 SPADES K ONE_PAIR 
-4: 6666 CLUBS 4 SPADES 5 HIGH_CARD 
-get pot-win
-1111: 1879 
-start to seat 29
-button 4444,516,8000
-small 8888,634,8000
-big 1111,2866,6095
-normal  6666,2324,8000
-normal  7777,4702,8000
-normal  5555,3394,8000
-normal  3333,3341,8000
-normal  2222,128,8000
-start to blind
-8888 is small blind:50
-1111 is big blind:100
-get hold
-base card: SPADES-10
-base card: HEARTS-8
-base card: 16783383,4204049
-get inquire
-get player1111 2766 6095 100 30
-get player8888 584 8000 50 30
-get total150
-time: 3781.0,27720.0
-  activeIncludingSelf 8 wager 143 maxWager 1291 prevWager 0 prob 0.19253373015873015
-
-timeout: 200
-action: raise 143 
-
-get flop
-flop card: DIAMONDS-6
-flop card: DIAMONDS-J
-flop card: DIAMONDS-9
-get inquire
-get player1111 2623 6095 243 31
-get player8888 584 8000 50 35
-get player4444 516 8000 0 35
-get player2222 128 8000 0 35
-get player3333 3341 8000 0 35
-get player5555 3151 8000 243 32
-get player7777 4702 8000 0 35
-get player6666 2081 8000 243 33
-get total779
-time: 10676.0,45270.0
-  activeIncludingSelf 3 wager -195 maxWager 1156 prevWager 243 prob 0.25493373094764743
-
-timeout: 200
-action: call 
-
-get turn
-turn card: HEARTS-2
-get inquire
-get player1111 2623 6095 243 31
-get player8888 584 8000 50 35
-get player4444 516 8000 0 35
-get player2222 128 8000 0 35
-get player3333 3341 8000 0 35
-get player5555 3151 8000 243 35
-get player7777 4702 8000 0 35
-get player6666 2081 8000 243 31
-get total779
-time: 15906.0,71320.0
-  activeIncludingSelf 2 wager -896 maxWager 1156 prevWager 243 prob 0.23079276500280424
-
-timeout: 200
-action: call 
-
-get river
-river card: CLUBS-Q
-get inquire
-get player1111 2623 6095 243 31
-get player8888 584 8000 50 35
-get player4444 516 8000 0 35
-get player2222 128 8000 0 35
-get player3333 3341 8000 0 35
-get player5555 3151 8000 243 35
-get player7777 4702 8000 0 35
-get player6666 2081 8000 243 31
-get total779
-time: 87667.0,99120.0
-  activeIncludingSelf 2 wager 1156 maxWager 1156 prevWager 243 prob 0.8845687348668281
+get player5555 1900 8000 0 35
+get player8888 527 8000 100 35
+get player4444 1294 8000 100 35
+get player7777 1900 8000 100 35
+get player3333 404 8000 1239 33
+get player2222 1012 8000 0 35
+get player1111 2585 8000 639 33
+get player6666 3561 8000 639 32
+get total2817
+time: 16032.0,61400.0
+  activeIncludingSelf 3 wager -229 maxWager 1978 prevWager 639 prob 0.2795798045602606
 
 timeout: 201
 action: call 
 
-get notify
-get player1111 2623 6095 243 31
-get player8888 584 8000 50 35
-get player4444 516 8000 0 35
-get player2222 128 8000 0 35
-get player3333 3341 8000 0 35
-get player5555 3151 8000 243 35
-get player7777 4702 8000 0 35
-get player6666 2081 8000 243 31
-get total779
-get showdown
-2: 1111 SPADES 5 CLUBS 2 ONE_PAIR 
-1: 6666 SPADES 10 HEARTS 8 STRAIGHT 
-get pot-win
-6666: 779 
-start to seat 30
-button 8888,584,8000
-small 1111,2623,6095
-big 6666,2860,8000
-normal  7777,4702,8000
-normal  5555,3151,8000
-normal  3333,3341,8000
-normal  2222,128,8000
-normal  4444,516,8000
-start to blind
-1111 is small blind:50
-6666 is big blind:100
-get hold
-base card: HEARTS-7
-base card: CLUBS-4
-base card: 2106637,295429
-get inquire
-get player1111 2523 6095 100 32
-get player8888 584 8000 0 35
-get player4444 516 8000 0 35
-get player2222 128 8000 0 35
-get player3333 3341 8000 0 35
-get player5555 3051 8000 100 32
-get player7777 4702 8000 0 35
-get player6666 2760 8000 100 30
-get total300
-time: 11275.0,54620.0
-  activeIncludingSelf 3 wager -249 maxWager 1533 prevWager 100 prob 0.25800851336506775
-
-timeout: 200
-action: call 
-
-get flop
-flop card: SPADES-8
-flop card: DIAMONDS-Q
-flop card: DIAMONDS-6
-get inquire
-get player1111 2523 6095 100 31
-get player8888 584 8000 0 35
-get player4444 516 8000 0 35
-get player2222 128 8000 0 35
-get player3333 3341 8000 0 35
-get player5555 3051 8000 100 32
-get player7777 4702 8000 0 35
-get player6666 2760 8000 100 31
-get total300
-time: 11407.0,60610.0
-  activeIncludingSelf 3 wager -413 maxWager 1533 prevWager 100 prob 0.20849818511796733
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 2523 6095 100 35
-get player8888 584 8000 0 35
-get player4444 516 8000 0 35
-get player2222 128 8000 0 35
-get player3333 3341 8000 0 35
-get player5555 2790 8000 361 33
-get player7777 4702 8000 0 35
-get player6666 2760 8000 100 31
-get total561
-time: 17771.0,75610.0
-  activeIncludingSelf 2 wager -1085 maxWager 1533 prevWager 100 prob 0.25415917206718686
-
-timeout: 200
-action: fold 
-
-get notify
-get player1111 2523 6095 100 35
-get player8888 584 8000 0 35
-get player4444 516 8000 0 35
-get player2222 128 8000 0 35
-get player3333 3341 8000 0 35
-get player5555 2790 8000 361 33
-get player7777 4702 8000 0 35
-get player6666 2760 8000 100 35
-get total561
-get pot-win
-5555: 561 
-start to seat 31
-button 1111,2523,6095
-small 6666,2760,8000
-big 7777,4702,8000
-normal  5555,3351,8000
-normal  3333,3341,8000
-normal  2222,128,8000
-normal  4444,516,8000
-normal  8888,584,8000
-start to blind
-6666 is small blind:50
-7777 is big blind:100
-get hold
-base card: SPADES-8
-base card: HEARTS-7
-base card: 4199953,2106637
-get inquire
-get player1111 2523 6095 0 35
-get player8888 584 8000 0 35
-get player4444 516 8000 0 35
-get player2222 128 8000 0 35
-get player3333 3341 8000 0 35
-get player5555 3351 8000 0 35
-get player7777 4602 8000 100 30
-get player6666 2710 8000 50 30
-get total150
-time: 18324.0,55770.0
-  activeIncludingSelf 2 wager -554 maxWager 1505 prevWager 50 prob 0.372207100591716
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 2523 6095 0 35
-get player8888 584 8000 0 35
-get player4444 516 8000 0 35
-get player2222 128 8000 0 35
-get player3333 3341 8000 0 35
-get player5555 3351 8000 0 35
-get player7777 4602 8000 100 35
-get player6666 2660 8000 100 32
-get total200
-get pot-win
-6666: 200 
-start to seat 32
-button 6666,2860,8000
-small 7777,4602,8000
-big 5555,3351,8000
-normal  3333,3341,8000
-normal  2222,128,8000
-normal  4444,516,8000
-normal  8888,584,8000
-normal  1111,2523,6095
-start to blind
-7777 is small blind:50
-5555 is big blind:100
-get hold
-base card: HEARTS-2
-base card: SPADES-3
-base card: 73730,135427
-get inquire
-get player1111 2423 6095 100 32
-get player8888 484 8000 100 32
-get player4444 516 8000 0 35
-get player2222 128 8000 0 35
-get player3333 3341 8000 0 35
-get player5555 3251 8000 100 30
-get player7777 4552 8000 50 30
-get total350
-time: 4303.0,35550.0
-  activeIncludingSelf 5 wager -62 maxWager 1588 prevWager 0 prob 0.17817313642756683
-
-timeout: 200
-action: fold 
-
-get flop
-flop card: CLUBS-3
-flop card: DIAMONDS-2
-flop card: DIAMONDS-9
 get turn
-turn card: SPADES-5
-get river
-river card: CLUBS-K
-get notify
-get player1111 2423 6095 100 31
-get player8888 484 8000 100 31
-get player4444 516 8000 0 35
-get player2222 128 8000 0 35
-get player3333 3341 8000 0 35
-get player5555 3251 8000 100 35
-get player7777 4552 8000 50 35
-get player6666 2860 8000 0 35
-get total350
-get showdown
-1: 8888 DIAMONDS A DIAMONDS J HIGH_CARD 
-2: 1111 HEARTS 7 DIAMONDS Q HIGH_CARD 
-get pot-win
-8888: 350 
-start to seat 33
-button 7777,4552,8000
-small 5555,3251,8000
-big 3333,3341,8000
-normal  2222,128,8000
-normal  4444,516,8000
-normal  8888,834,8000
-normal  1111,2423,6095
-normal  6666,2860,8000
-start to blind
-5555 is small blind:50
-3333 is big blind:100
-get hold
-base card: CLUBS-6
-base card: DIAMONDS-9
-base card: 1082379,8406803
+turn card: DIAMONDS-6
 get inquire
-get player1111 2423 6095 0 35
-get player8888 834 8000 0 35
-get player4444 516 8000 0 35
-get player2222 128 8000 0 35
-get player3333 3241 8000 100 30
-get player5555 3201 8000 50 30
-get total150
-time: 6957.0,36220.0
-  activeIncludingSelf 4 wager -16 maxWager 1588 prevWager 0 prob 0.2445912479293208
-
-timeout: 200
-action: fold 
-
-get notify
-get player1111 2423 6095 0 35
-get player8888 834 8000 0 35
-get player4444 516 8000 0 35
-get player2222 128 8000 0 35
-get player3333 3241 8000 100 31
-get player5555 3201 8000 50 35
-get player7777 4552 8000 0 35
-get player6666 2860 8000 0 35
-get total150
-get pot-win
-3333: 150 
-start to seat 34
-button 5555,3201,8000
-small 3333,3391,8000
-big 2222,128,8000
-normal  4444,516,8000
-normal  8888,834,8000
-normal  1111,2423,6095
-normal  6666,2860,8000
-normal  7777,4552,8000
-start to blind
-3333 is small blind:50
-2222 is big blind:100
-get hold
-base card: SPADES-J
-base card: DIAMONDS-4
-base card: 33560861,279045
-get inquire
-get player1111 1760 6095 663 33
-get player8888 734 8000 100 32
-get player4444 516 8000 0 35
-get player2222 28 8000 100 30
-get player3333 3341 8000 50 30
-get total913
-time: 2946.0,26030.0
-  activeIncludingSelf 7 wager 74 maxWager 1588 prevWager 0 prob 0.17082059162504803
-
-timeout: 200
-action: fold 
-
-get flop
-flop card: HEARTS-10
-flop card: CLUBS-5
-flop card: HEARTS-6
-get notify
-get player1111 1760 6095 663 31
-get player8888 734 8000 100 35
-get player4444 516 8000 0 35
-get player2222 28 8000 100 35
-get player3333 3341 8000 50 35
-get player5555 2538 8000 663 32
-get player7777 4552 8000 0 35
-get player6666 2860 8000 0 35
-get total1576
-get turn
-turn card: HEARTS-5
-get notify
-get player1111 1760 6095 663 31
-get player8888 734 8000 100 35
-get player4444 516 8000 0 35
-get player2222 28 8000 100 35
-get player3333 3341 8000 50 35
-get player5555 2538 8000 663 31
-get player7777 4552 8000 0 35
-get player6666 2860 8000 0 35
-get total1576
-get river
-river card: DIAMONDS-6
-get notify
-get player1111 1760 6095 663 31
-get player8888 734 8000 100 35
-get player4444 516 8000 0 35
-get player2222 28 8000 100 35
-get player3333 3341 8000 50 35
-get player5555 2538 8000 663 31
-get player7777 4552 8000 0 35
-get player6666 2860 8000 0 35
-get total1576
-get notify
-get player1111 1760 6095 663 31
-get player8888 734 8000 100 35
-get player4444 516 8000 0 35
-get player2222 28 8000 100 35
-get player3333 3341 8000 50 35
-get player5555 2538 8000 663 31
-get player7777 4552 8000 0 35
-get player6666 2860 8000 0 35
-get total1576
-get showdown
-1: 1111 HEARTS K SPADES K TWO_PAIR 
-2: 5555 SPADES Q CLUBS A TWO_PAIR 
-get pot-win
-1111: 1576 
-start to seat 35
-button 3333,3341,8000
-small 2222,2000,6028
-big 4444,516,8000
-normal  8888,734,8000
-normal  1111,3336,6095
-normal  6666,2860,8000
-normal  7777,4552,8000
-normal  5555,2538,8000
-start to blind
-2222 is small blind:50
-4444 is big blind:100
-get hold
-base card: CLUBS-4
-base card: SPADES-A
-base card: 295429,268442665
-get inquire
-get player1111 2937 6095 399 33
-get player8888 634 8000 100 32
-get player4444 416 8000 100 30
-get player2222 1950 6028 50 30
-get total649
-time: 4042.0,30190.0
-  activeIncludingSelf 8 wager 170 maxWager 1588 prevWager 0 prob 0.1901828420006625
+get player5555 1900 8000 0 35
+get player8888 527 8000 100 35
+get player4444 1294 8000 100 35
+get player7777 1900 8000 100 35
+get player3333 0 8000 1643 34
+get player2222 1012 8000 0 35
+get player1111 2585 8000 639 35
+get player6666 2961 8000 1239 32
+get total3821
+time: 35505.0,77270.0
+  activeIncludingSelf 2 wager -166 maxWager 1645 prevWager 1239 prob 0.46489776109745046
 
 timeout: 200
 action: call 
 
-get flop
-flop card: SPADES-9
-flop card: SPADES-K
-flop card: CLUBS-9
-get inquire
-get player1111 2937 6095 399 31
-get player8888 634 8000 100 35
-get player4444 416 8000 100 35
-get player2222 1601 6028 399 31
-get player3333 3341 8000 0 35
-get player5555 2139 8000 399 32
-get player7777 4552 8000 0 35
-get player6666 2461 8000 399 32
-get total1796
-time: 5604.0,30360.0
-  activeIncludingSelf 4 wager -118 maxWager 1367 prevWager 399 prob 0.2049703557312253
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 2713 6095 623 32
-get player8888 634 8000 100 35
-get player4444 416 8000 100 35
-get player2222 1377 6028 623 32
-get player3333 3341 8000 0 35
-get player5555 1915 8000 623 33
-get player7777 4552 8000 0 35
-get player6666 2461 8000 399 31
-get total2468
-time: 7616.0,40830.0
-  activeIncludingSelf 4 wager -113 maxWager 1367 prevWager 399 prob 0.20686627479794267
-
-timeout: 200
-action: call 
-
-get turn
-turn card: DIAMONDS-8
-get inquire
-get player1111 2713 6095 623 31
-get player8888 634 8000 100 35
-get player4444 416 8000 100 35
-get player2222 1377 6028 623 31
-get player3333 3341 8000 0 35
-get player5555 1915 8000 623 33
-get player7777 4552 8000 0 35
-get player6666 2237 8000 623 32
-get total2692
-time: 4636.0,39490.0
-  activeIncludingSelf 4 wager -295 maxWager 1242 prevWager 623 prob 0.12622284122562674
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 2489 6095 847 32
-get player8888 634 8000 100 35
-get player4444 416 8000 100 35
-get player2222 1153 6028 847 32
-get player3333 3341 8000 0 35
-get player5555 1691 8000 847 33
-get player7777 4552 8000 0 35
-get player6666 2237 8000 623 31
-get total3364
-time: 5085.0,43000.0
-  activeIncludingSelf 4 wager -293 maxWager 1242 prevWager 623 prob 0.12707325581395348
-
-timeout: 200
-action: call 
-
-get river
-river card: HEARTS-8
-get inquire
-get player1111 2389 6095 947 33
-get player8888 634 8000 100 35
-get player4444 416 8000 100 35
-get player2222 1153 6028 847 31
-get player3333 3341 8000 0 35
-get player5555 1691 8000 847 33
-get player7777 4552 8000 0 35
-get player6666 2013 8000 847 32
-get total3688
-time: 5194.0,34120.0
-  activeIncludingSelf 4 wager -208 maxWager 1118 prevWager 847 prob 0.15307520515826495
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 2389 6095 947 35
-get player8888 634 8000 100 35
-get player4444 416 8000 100 35
-get player2222 0 6028 2000 34
-get player3333 3341 8000 0 35
-get player5555 0 8000 2538 34
-get player7777 4552 8000 0 35
-get player6666 1913 8000 947 32
-get total6632
-time: 12797.0,52070.0
-  activeIncludingSelf 3 wager -199 maxWager 1062 prevWager 947 prob 0.24651955060495487
-
-timeout: 200
-action: fold 
-
-get notify
-get player1111 2389 6095 947 35
-get player8888 634 8000 100 35
-get player4444 416 8000 100 35
-get player2222 0 6028 2000 34
-get player3333 3341 8000 0 35
-get player5555 0 8000 2538 34
-get player7777 4552 8000 0 35
-get player6666 1913 8000 947 35
-get total6632
-get showdown
-1: 2222 HEARTS 9 DIAMONDS J FULL_HOUSE 
-2: 5555 DIAMONDS K SPADES 10 TWO_PAIR 
-get pot-win
-2222: 6094 
-5555: 538 
-start to seat 36
-button 2222,6094,6028
-small 4444,416,8000
-big 8888,634,8000
-normal  1111,2389,6095
-normal  6666,1913,8000
-normal  7777,4552,8000
-normal  5555,538,8000
-normal  3333,3341,8000
-start to blind
-4444 is small blind:50
-8888 is big blind:100
-get hold
-base card: DIAMONDS-Q
-base card: DIAMONDS-J
-base card: 67127839,33573149
-get inquire
-get player1111 2111 6095 278 33
-get player8888 534 8000 100 30
-get player4444 366 8000 50 30
-get total428
-time: 6266.0,30260.0
-  activeIncludingSelf 8 wager 233 maxWager 1062 prevWager 0 prob 0.25861235955056183
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 1507 6095 882 32
-get player8888 534 8000 100 35
-get player4444 366 8000 50 35
-get player2222 5212 6028 882 33
-get player3333 3341 8000 0 35
-get player5555 260 8000 278 32
-get player7777 4552 8000 0 35
-get player6666 1635 8000 278 32
-get total2470
-time: 14594.0,44970.0
-  activeIncludingSelf 4 wager 206 maxWager 908 prevWager 278 prob 0.3684331776740049
-
-timeout: 200
-action: call 
-
-get flop
-flop card: HEARTS-Q
-flop card: CLUBS-8
-flop card: SPADES-4
-get inquire
-get player1111 1507 6095 882 31
-get player8888 534 8000 100 35
-get player4444 366 8000 50 35
-get player2222 5212 6028 882 33
-get player3333 3341 8000 0 35
-get player5555 0 8000 538 34
-get player7777 4552 8000 0 35
-get player6666 1031 8000 882 32
-get total3334
-time: 24137.0,48020.0
-  activeIncludingSelf 4 wager 291 maxWager 572 prevWager 882 prob 0.5150786130778843
-
-timeout: 200
-action: call 
-
-get turn
-turn card: HEARTS-7
-get inquire
-get player1111 1507 6095 882 31
-get player8888 534 8000 100 35
-get player4444 366 8000 50 35
-get player2222 5212 6028 882 31
-get player3333 3341 8000 0 35
-get player5555 0 8000 538 34
-get player7777 4552 8000 0 35
-get player6666 1031 8000 882 31
-get total3334
-time: 23612.0,50940.0
-  activeIncludingSelf 4 wager 240 maxWager 572 prevWager 882 prob 0.4688904593639576
-
-timeout: 200
-action: call 
-
-get river
-river card: CLUBS-2
-get inquire
-get player1111 1507 6095 882 31
-get player8888 534 8000 100 35
-get player4444 366 8000 50 35
-get player2222 5212 6028 882 31
-get player3333 3341 8000 0 35
-get player5555 0 8000 538 34
-get player7777 4552 8000 0 35
-get player6666 1031 8000 882 31
-get total3334
-time: 34171.0,62200.0
-  activeIncludingSelf 4 wager 329 maxWager 572 prevWager 882 prob 0.5498236173633441
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 1507 6095 882 31
-get player8888 534 8000 100 35
-get player4444 366 8000 50 35
-get player2222 5212 6028 882 31
-get player3333 3341 8000 0 35
-get player5555 0 8000 538 34
-get player7777 4552 8000 0 35
-get player6666 1031 8000 882 31
-get total3334
-get showdown
-3: 1111 SPADES 10 CLUBS 9 HIGH_CARD 
-2: 6666 DIAMONDS Q DIAMONDS J ONE_PAIR 
-1: 5555 HEARTS 8 DIAMONDS 8 THREE_OF_A_KIND 
-3: 2222 HEARTS 10 HEARTS 9 HIGH_CARD 
-get pot-win
-5555: 2302 
-6666: 1032 
-start to seat 37
-button 4444,366,8000
-small 8888,534,8000
-big 1111,1507,6095
-normal  6666,2063,8000
-normal  7777,4552,8000
-normal  5555,2302,8000
-normal  3333,3341,8000
-normal  2222,5212,6028
-start to blind
-8888 is small blind:50
-1111 is big blind:100
-get hold
-base card: DIAMONDS-Q
-base card: HEARTS-4
-base card: 67127839,270853
-get inquire
-get player1111 1407 6095 100 30
-get player8888 484 8000 50 30
-get total150
-time: 3269.0,30030.0
-  activeIncludingSelf 8 wager 78 maxWager 1146 prevWager 0 prob 0.16678205128205129
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 1407 6095 100 35
-get player8888 484 8000 50 35
-get player4444 366 8000 0 35
-get player2222 4698 6028 514 33
-get player3333 3341 8000 0 35
-get player5555 2302 8000 0 35
-get player7777 4552 8000 0 35
-get player6666 1963 8000 100 32
-get total764
-time: 22787.0,69510.0
-  activeIncludingSelf 2 wager -403 maxWager 1090 prevWager 100 prob 0.37151481801179687
-
-timeout: 200
-action: fold 
-
-get notify
-get player1111 1407 6095 100 35
-get player8888 484 8000 50 35
-get player4444 366 8000 0 35
-get player2222 4698 6028 514 33
-get player3333 3341 8000 0 35
-get player5555 2302 8000 0 35
-get player7777 4552 8000 0 35
-get player6666 1963 8000 100 35
-get total764
-get pot-win
-2222: 764 
-start to seat 38
-button 8888,484,8000
-small 1111,1407,6095
-big 6666,1963,8000
-normal  7777,4552,8000
-normal  5555,2302,8000
-normal  3333,3341,8000
-normal  2222,5462,6028
-normal  4444,366,8000
-start to blind
-1111 is small blind:50
-6666 is big blind:100
-get hold
-base card: SPADES-J
-base card: SPADES-8
-base card: 33560861,4199953
-get inquire
-get player1111 1357 6095 50 35
-get player8888 484 8000 0 35
-get player4444 366 8000 0 35
-get player2222 5004 6028 458 33
-get player3333 3341 8000 0 35
-get player5555 2302 8000 0 35
-get player7777 4552 8000 0 35
-get player6666 1863 8000 100 30
-get total608
-time: 27108.0,68200.0
-  activeIncludingSelf 2 wager -188 maxWager 1035 prevWager 100 prob 0.436641935483871
-
-timeout: 200
-action: fold 
-
-get notify
-get player1111 1357 6095 50 35
-get player8888 484 8000 0 35
-get player4444 366 8000 0 35
-get player2222 5004 6028 458 33
-get player3333 3341 8000 0 35
-get player5555 2302 8000 0 35
-get player7777 4552 8000 0 35
-get player6666 1863 8000 100 35
-get total608
-get pot-win
-2222: 608 
-start to seat 39
-button 1111,1357,6095
-small 6666,1863,8000
-big 7777,4552,8000
-normal  5555,2302,8000
-normal  3333,3341,8000
-normal  2222,5612,6028
-normal  4444,366,8000
-normal  8888,484,8000
-start to blind
-6666 is small blind:50
-7777 is big blind:100
-get hold
-base card: SPADES-A
-base card: DIAMONDS-6
-base card: 268442665,1065995
-get inquire
-get player1111 1357 6095 0 35
-get player8888 484 8000 0 35
-get player4444 366 8000 0 35
-get player2222 5105 6028 507 33
-get player3333 3341 8000 0 35
-get player5555 2302 8000 0 35
-get player7777 4452 8000 100 30
-get player6666 1813 8000 50 30
-get total657
-time: 15782.0,53290.0
-  activeIncludingSelf 3 wager 18 maxWager 1007 prevWager 50 prob 0.34190317132670295
-
-timeout: 200
-action: fold 
-
-get notify
-get player1111 1357 6095 0 35
-get player8888 484 8000 0 35
-get player4444 366 8000 0 35
-get player2222 5105 6028 507 33
-get player3333 3341 8000 0 35
-get player5555 2302 8000 0 35
-get player7777 4452 8000 100 35
-get player6666 1813 8000 50 35
-get total657
-get pot-win
-2222: 657 
-start to seat 40
-button 6666,1813,8000
-small 7777,4452,8000
-big 5555,2302,8000
-normal  3333,3341,8000
-normal  2222,5762,6028
-normal  4444,366,8000
-normal  8888,484,8000
-normal  1111,1357,6095
-start to blind
-7777 is small blind:50
-5555 is big blind:100
-get hold
-base card: SPADES-10
-base card: DIAMONDS-Q
-base card: 16783383,67127839
-get inquire
-get player1111 1357 6095 0 35
-get player8888 484 8000 0 35
-get player4444 366 8000 0 35
-get player2222 5304 6028 458 33
-get player3333 3341 8000 0 35
-get player5555 2202 8000 100 30
-get player7777 4402 8000 50 30
-get total608
-time: 9992.0,35730.0
-  activeIncludingSelf 4 wager 147 maxWager 1007 prevWager 0 prob 0.3264755107752589
-
-timeout: 200
-action: fold 
-
-get flop
-flop card: HEARTS-10
-flop card: CLUBS-6
-flop card: DIAMONDS-3
-get turn
-turn card: CLUBS-10
-get river
-river card: CLUBS-8
-get notify
-get player1111 1357 6095 0 35
-get player8888 484 8000 0 35
-get player4444 366 8000 0 35
-get player2222 4946 6028 816 31
-get player3333 3341 8000 0 35
-get player5555 1486 8000 816 35
-get player7777 4402 8000 50 35
-get player6666 1813 8000 0 35
-get total1682
-get pot-win
-2222: 1682 
-start to seat 41
-button 7777,4402,8000
-small 5555,1486,8000
-big 3333,3341,8000
-normal  2222,6628,6028
-normal  4444,366,8000
-normal  8888,484,8000
-normal  1111,1357,6095
-normal  6666,1813,8000
-start to blind
-5555 is small blind:50
-3333 is big blind:100
-get hold
-base card: HEARTS-6
-base card: HEARTS-K
-base card: 1057803,134228773
-get inquire
-get player1111 1357 6095 0 35
-get player8888 484 8000 0 35
-get player4444 366 8000 0 35
-get player2222 6275 6028 353 33
-get player3333 3241 8000 100 30
-get player5555 1436 8000 50 30
-get total503
-time: 7523.0,34240.0
-  activeIncludingSelf 5 wager 127 maxWager 1007 prevWager 0 prob 0.2704323890186916
-
-timeout: 200
-action: fold 
-
-get flop
-flop card: DIAMONDS-10
-flop card: CLUBS-3
-flop card: DIAMONDS-9
-get turn
-turn card: SPADES-3
-get river
-river card: SPADES-K
-get notify
-get player1111 1357 6095 0 35
-get player8888 484 8000 0 35
-get player4444 366 8000 0 35
-get player2222 6275 6028 353 31
-get player3333 2988 8000 353 31
-get player5555 1133 8000 353 35
-get player7777 4402 8000 0 35
-get player6666 1813 8000 0 35
-get total1059
-get showdown
-1: 3333 SPADES J CLUBS 10 TWO_PAIR 
-2: 2222 HEARTS Q DIAMONDS 4 ONE_PAIR 
-get pot-win
-3333: 1059 
-start to seat 42
-button 5555,1133,8000
-small 3333,4047,8000
-big 2222,6275,6028
-normal  4444,366,8000
-normal  8888,484,8000
-normal  1111,1357,6095
-normal  6666,1813,8000
-normal  7777,4402,8000
-start to blind
-3333 is small blind:50
-2222 is big blind:100
-get hold
-base card: CLUBS-J
-base card: SPADES-2
-base card: 33589533,69634
-get inquire
-get player1111 1357 6095 0 35
-get player8888 384 8000 100 32
-get player4444 266 8000 100 32
-get player2222 6175 6028 100 30
-get player3333 3997 8000 50 30
-get total350
-time: 3350.0,30690.0
-  activeIncludingSelf 7 wager 40 maxWager 1007 prevWager 0 prob 0.16706093189964158
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 1357 6095 0 35
-get player8888 384 8000 100 35
-get player4444 266 8000 100 35
-get player2222 6175 6028 100 35
-get player3333 3347 8000 700 33
-get player5555 1033 8000 100 32
-get player7777 4402 8000 0 35
-get player6666 1713 8000 100 32
-get total1200
-time: 9108.0,43080.0
-  activeIncludingSelf 3 wager -145 maxWager 951 prevWager 100 prob 0.2626782729805014
-
-timeout: 200
-action: fold 
-
-get flop
-flop card: CLUBS-6
-flop card: CLUBS-7
-flop card: CLUBS-9
-get notify
-get player1111 1357 6095 0 35
-get player8888 384 8000 100 35
-get player4444 266 8000 100 35
-get player2222 6175 6028 100 35
-get player3333 3047 8000 1000 33
-get player5555 433 8000 700 32
-get player7777 4402 8000 0 35
-get player6666 1713 8000 100 35
-get total2100
-get turn
-turn card: CLUBS-4
 get river
 river card: DIAMONDS-5
 get notify
-get player1111 1357 6095 0 35
-get player8888 384 8000 100 35
-get player4444 266 8000 100 35
-get player2222 6175 6028 100 35
-get player3333 2314 8000 1733 33
-get player5555 0 8000 1133 34
-get player7777 4402 8000 0 35
-get player6666 1713 8000 100 35
-get total3266
+get player5555 1900 8000 0 35
+get player8888 527 8000 100 35
+get player4444 1294 8000 100 35
+get player7777 1900 8000 100 35
+get player3333 0 8000 1643 34
+get player2222 1012 8000 0 35
+get player1111 2585 8000 639 35
+get player6666 2557 8000 1643 32
+get total4225
 get showdown
-2: 3333 HEARTS J DIAMONDS 7 ONE_PAIR 
-1: 5555 CLUBS 5 CLUBS A FLUSH 
+1: 3333 SPADES A HEARTS A TWO_PAIR 
+2: 6666 DIAMONDS 9 HEARTS 6 TWO_PAIR 
 get pot-win
-5555: 2666 
-3333: 600 
-start to seat 43
-button 3333,2914,8000
-small 2222,6175,6028
-big 4444,266,8000
-normal  8888,384,8000
-normal  1111,1357,6095
-normal  6666,1713,8000
-normal  7777,4402,8000
-normal  5555,2666,8000
-start to blind
-2222 is small blind:50
-4444 is big blind:100
-get hold
-base card: HEARTS-A
-base card: DIAMONDS-Q
-base card: 268446761,67127839
-get inquire
-get player1111 1118 6095 239 33
-get player8888 384 8000 0 35
-get player4444 166 8000 100 30
-get player2222 6125 6028 50 30
-get total389
-time: 7260.0,32490.0
-  activeIncludingSelf 7 wager 209 maxWager 951 prevWager 0 prob 0.27392890120036933
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 1118 6095 239 35
-get player8888 384 8000 0 35
-get player4444 166 8000 100 35
-get player2222 5053 6028 1122 33
-get player3333 2914 8000 0 35
-get player5555 2666 8000 0 35
-get player7777 4402 8000 0 35
-get player6666 1474 8000 239 32
-get total1700
-time: 34139.0,70070.0
-  activeIncludingSelf 2 wager 48 maxWager 818 prevWager 239 prob 0.5205439560439561
-
-timeout: 200
-action: fold 
-
-get notify
-get player1111 1118 6095 239 35
-get player8888 384 8000 0 35
-get player4444 166 8000 100 35
-get player2222 5053 6028 1122 33
-get player3333 2914 8000 0 35
-get player5555 2666 8000 0 35
-get player7777 4402 8000 0 35
-get player6666 1474 8000 239 35
-get total1700
-get pot-win
-2222: 1700 
-start to seat 44
-button 2222,6753,6028
-small 4444,166,8000
-big 8888,384,8000
-normal  1111,1118,6095
-normal  6666,1474,8000
-normal  7777,4402,8000
-normal  5555,2666,8000
-normal  3333,2914,8000
-start to blind
-4444 is small blind:50
-8888 is big blind:100
-get hold
-base card: DIAMONDS-6
-base card: CLUBS-3
-base card: 1065995,164099
-get inquire
-get player1111 1018 6095 100 32
-get player8888 284 8000 100 30
-get player4444 116 8000 50 30
-get total250
-time: 3028.0,29700.0
-  activeIncludingSelf 8 wager 47 maxWager 818 prevWager 0 prob 0.16032592592592593
-
-timeout: 200
-action: call 
-
-get flop
-flop card: HEARTS-A
-flop card: SPADES-10
-flop card: DIAMONDS-4
-get inquire
-get player1111 1018 6095 100 31
-get player8888 284 8000 100 31
-get player4444 116 8000 50 35
-get player2222 6653 6028 100 32
-get player3333 2914 8000 0 35
-get player5555 2666 8000 0 35
-get player7777 4402 8000 0 35
-get player6666 1374 8000 100 32
-get total450
-time: 4470.0,50800.0
-  activeIncludingSelf 4 wager -204 maxWager 763 prevWager 100 prob 0.11079232283464566
-
-timeout: 200
-action: call 
-
-get turn
-turn card: SPADES-8
-get inquire
-get player1111 1018 6095 100 31
-get player8888 284 8000 100 31
-get player4444 116 8000 50 35
-get player2222 6653 6028 100 31
-get player3333 2914 8000 0 35
-get player5555 2666 8000 0 35
-get player7777 4402 8000 0 35
-get player6666 1374 8000 100 31
-get total450
-time: 1801.0,40310.0
-  activeIncludingSelf 4 wager -286 maxWager 763 prevWager 100 prob 0.05423195236913917
-
-timeout: 203
-action: call 
-
-get river
-river card: CLUBS-J
-get inquire
-get player1111 1018 6095 100 31
-get player8888 284 8000 100 31
-get player4444 116 8000 50 35
-get player2222 6653 6028 100 31
-get player3333 2914 8000 0 35
-get player5555 2666 8000 0 35
-get player7777 4402 8000 0 35
-get player6666 1374 8000 100 31
-get total450
-time: 2594.0,65730.0
-  activeIncludingSelf 4 wager -307 maxWager 763 prevWager 100 prob 0.040425011410314925
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 1018 6095 100 31
-get player8888 284 8000 100 31
-get player4444 116 8000 50 35
-get player2222 6653 6028 100 31
-get player3333 2914 8000 0 35
-get player5555 2666 8000 0 35
-get player7777 4402 8000 0 35
-get player6666 1374 8000 100 31
-get total450
-get showdown
-3: 8888 HEARTS 3 SPADES 6 HIGH_CARD 
-1: 1111 HEARTS 4 HEARTS 6 ONE_PAIR 
-3: 6666 DIAMONDS 6 CLUBS 3 HIGH_CARD 
-2: 2222 CLUBS 7 CLUBS 2 HIGH_CARD 
-get pot-win
-1111: 450 
-start to seat 45
-button 4444,116,8000
-small 8888,284,8000
-big 1111,1468,6095
-normal  6666,1374,8000
-normal  7777,4402,8000
-normal  5555,2666,8000
-normal  3333,2914,8000
-normal  2222,6653,6028
-start to blind
-8888 is small blind:50
-1111 is big blind:100
-get hold
-base card: DIAMONDS-Q
-base card: SPADES-4
-base card: 67127839,266757
-get inquire
-get player1111 1368 6095 100 30
-get player8888 234 8000 50 30
-get total150
-time: 3139.0,29960.0
-  activeIncludingSelf 8 wager 47 maxWager 763 prevWager 0 prob 0.1629627837116155
-
-timeout: 200
-action: call 
-
-get flop
-flop card: HEARTS-4
-flop card: DIAMONDS-2
-flop card: HEARTS-5
-get inquire
-get player1111 1368 6095 100 31
-get player8888 184 8000 100 31
-get player4444 116 8000 0 35
-get player2222 6653 6028 0 35
-get player3333 2914 8000 0 35
-get player5555 2666 8000 0 35
-get player7777 4402 8000 0 35
-get player6666 1274 8000 100 32
-get total300
-time: 14193.0,55410.0
-  activeIncludingSelf 3 wager -89 maxWager 707 prevWager 100 prob 0.2747414726583649
-
-timeout: 200
-action: call 
-
-get turn
-turn card: HEARTS-K
-get inquire
-get player1111 1368 6095 100 31
-get player8888 184 8000 100 31
-get player4444 116 8000 0 35
-get player2222 6653 6028 0 35
-get player3333 2914 8000 0 35
-get player5555 2666 8000 0 35
-get player7777 4402 8000 0 35
-get player6666 1274 8000 100 31
-get total300
-time: 11170.0,60400.0
-  activeIncludingSelf 3 wager -214 maxWager 707 prevWager 100 prob 0.19308443708609274
-
-timeout: 200
-action: call 
-
-get river
-river card: SPADES-7
-get inquire
-get player1111 1368 6095 100 31
-get player8888 184 8000 100 31
-get player4444 116 8000 0 35
-get player2222 6653 6028 0 35
-get player3333 2914 8000 0 35
-get player5555 2666 8000 0 35
-get player7777 4402 8000 0 35
-get player6666 1274 8000 100 31
-get total300
-time: 10317.0,71740.0
-  activeIncludingSelf 3 wager -288 maxWager 707 prevWager 100 prob 0.14466717312517424
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 1368 6095 100 31
-get player8888 184 8000 100 31
-get player4444 116 8000 0 35
-get player2222 6653 6028 0 35
-get player3333 2914 8000 0 35
-get player5555 2666 8000 0 35
-get player7777 4402 8000 0 35
-get player6666 1274 8000 100 31
-get total300
-get showdown
-3: 8888 SPADES Q CLUBS J HIGH_CARD 
-1: 1111 SPADES 6 CLUBS 7 ONE_PAIR 
-2: 6666 DIAMONDS Q SPADES 4 ONE_PAIR 
-get pot-win
-1111: 300 
-start to seat 46
-button 8888,184,8000
-small 1111,1668,6095
-big 6666,1274,8000
-normal  7777,4402,8000
-normal  5555,2666,8000
-normal  3333,2914,8000
-normal  2222,6653,6028
-normal  4444,116,8000
-start to blind
-1111 is small blind:50
-6666 is big blind:100
-get hold
-base card: SPADES-9
-base card: CLUBS-8
-base card: 8394515,4228625
-get inquire
-get player1111 1618 6095 50 35
-get player8888 184 8000 0 35
-get player4444 116 8000 0 35
-get player2222 6017 6028 636 33
-get player3333 2914 8000 0 35
-get player5555 2666 8000 0 35
-get player7777 4402 8000 0 35
-get player6666 1174 8000 100 30
-get total786
-time: 18924.0,54010.0
-  activeIncludingSelf 2 wager -201 maxWager 652 prevWager 100 prob 0.39260488798370674
-
-timeout: 200
-action: fold 
-
-get notify
-get player1111 1618 6095 50 35
-get player8888 184 8000 0 35
-get player4444 116 8000 0 35
-get player2222 6017 6028 636 33
-get player3333 2914 8000 0 35
-get player5555 2666 8000 0 35
-get player7777 4402 8000 0 35
-get player6666 1174 8000 100 35
-get total786
-get pot-win
-2222: 786 
-start to seat 47
-button 1111,1618,6095
-small 6666,1174,8000
-big 7777,4402,8000
-normal  5555,2666,8000
-normal  3333,2914,8000
-normal  2222,6803,6028
-normal  4444,116,8000
-normal  8888,184,8000
-start to blind
-6666 is small blind:50
-7777 is big blind:100
-get hold
-base card: DIAMONDS-J
-base card: HEARTS-J
-base card: 33573149,33564957
-get inquire
-get player1111 1618 6095 0 35
-get player8888 184 8000 0 35
-get player4444 116 8000 0 35
-get player2222 6430 6028 373 33
-get player3333 2914 8000 0 35
-get player5555 2666 8000 0 35
-get player7777 4302 8000 100 30
-get player6666 1124 8000 50 30
-get total523
-time: 27528.0,54090.0
-  activeIncludingSelf 3 wager 279 maxWager 624 prevWager 50 prob 0.5408491403216861
-
-timeout: 200
-action: call 
-
-get flop
-flop card: HEARTS-9
-flop card: DIAMONDS-9
-flop card: SPADES-J
-get inquire
-get player1111 1618 6095 0 35
-get player8888 184 8000 0 35
-get player4444 116 8000 0 35
-get player2222 6430 6028 373 33
-get player3333 2914 8000 0 35
-get player5555 2666 8000 0 35
-get player7777 4302 8000 100 35
-get player6666 801 8000 373 32
-get total846
-time: 58505.0,59410.0
-  activeIncludingSelf 2 wager 445 maxWager 445 prevWager 373 prob 0.9851477024070022
-
-timeout: 200
-action: call 
-
-get turn
-turn card: DIAMONDS-10
-get inquire
-get player1111 1618 6095 0 35
-get player8888 184 8000 0 35
-get player4444 116 8000 0 35
-get player2222 6430 6028 373 31
-get player3333 2914 8000 0 35
-get player5555 2666 8000 0 35
-get player7777 4302 8000 100 35
-get player6666 801 8000 373 31
-get total846
-time: 60031.0,60420.0
-  activeIncludingSelf 2 wager 445 maxWager 445 prevWager 373 prob 0.9936261171797418
-
-timeout: 200
-action: call 
-
-get river
-river card: CLUBS-Q
-get inquire
-get player1111 1618 6095 0 35
-get player8888 184 8000 0 35
-get player4444 116 8000 0 35
-get player2222 6430 6028 373 31
-get player3333 2914 8000 0 35
-get player5555 2666 8000 0 35
-get player7777 4302 8000 100 35
-get player6666 801 8000 373 31
-get total846
-time: 58937.0,59420.0
-  activeIncludingSelf 2 wager 445 maxWager 445 prevWager 373 prob 0.9918795523392797
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 1618 6095 0 35
-get player8888 184 8000 0 35
-get player4444 116 8000 0 35
-get player2222 6430 6028 373 31
-get player3333 2914 8000 0 35
-get player5555 2666 8000 0 35
-get player7777 4302 8000 100 35
-get player6666 801 8000 373 31
-get total846
-get showdown
-1: 6666 DIAMONDS J HEARTS J FULL_HOUSE 
-2: 2222 CLUBS 9 CLUBS 3 THREE_OF_A_KIND 
-get pot-win
-6666: 846 
-start to seat 48
-button 6666,1647,8000
-small 7777,4302,8000
-big 5555,2666,8000
-normal  3333,2914,8000
-normal  2222,6430,6028
-normal  4444,116,8000
-normal  8888,184,8000
-normal  1111,1618,6095
+3333: 4225 
+start to seat 4
+button 3333,4225,8000
+small 7777,1900,8000
+big 4444,1294,8000
+normal  8888,527,8000
+normal  5555,1900,8000
+normal  6666,2557,8000
+normal  1111,2585,8000
+normal  2222,1012,8000
 start to blind
 7777 is small blind:50
-5555 is big blind:100
-get hold
-base card: SPADES-2
-base card: HEARTS-4
-base card: 69634,270853
-get inquire
-get player1111 1618 6095 0 35
-get player8888 184 8000 0 35
-get player4444 116 8000 0 35
-get player2222 6152 6028 278 33
-get player3333 2914 8000 0 35
-get player5555 2566 8000 100 30
-get player7777 4252 8000 50 30
-get total428
-time: 7087.0,48180.0
-  activeIncludingSelf 4 wager -83 maxWager 915 prevWager 0 prob 0.20253310502283103
-
-timeout: 200
-action: fold 
-
-get flop
-flop card: SPADES-8
-flop card: CLUBS-3
-flop card: DIAMONDS-4
-get turn
-turn card: CLUBS-5
-get river
-river card: CLUBS-4
-get notify
-get player1111 1618 6095 0 35
-get player8888 184 8000 0 35
-get player4444 116 8000 0 35
-get player2222 3764 6028 2666 32
-get player3333 2914 8000 0 35
-get player5555 0 8000 2666 34
-get player7777 4252 8000 50 35
-get player6666 1647 8000 0 35
-get total5382
-get showdown
-2: 5555 HEARTS J SPADES J TWO_PAIR 
-1: 2222 HEARTS 7 SPADES 4 THREE_OF_A_KIND 
-get pot-win
-2222: 5382 
-start to seat 49
-button 7777,4252,8000
-small 5555,2000,6000
-big 3333,2914,8000
-normal  2222,9146,6028
-normal  4444,116,8000
-normal  8888,184,8000
-normal  1111,1618,6095
-normal  6666,1647,8000
-start to blind
-5555 is small blind:50
-3333 is big blind:100
-get hold
-base card: SPADES-J
-base card: CLUBS-10
-base card: 33560861,16812055
-get inquire
-get player1111 1289 6095 329 32
-get player8888 184 8000 0 35
-get player4444 116 8000 0 35
-get player2222 8817 6028 329 33
-get player3333 2814 8000 100 30
-get player5555 1950 6000 50 30
-get total808
-time: 7960.0,37510.0
-  activeIncludingSelf 6 wager 152 maxWager 915 prevWager 0 prob 0.26341642228739004
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 1289 6095 329 35
-get player8888 184 8000 0 35
-get player4444 116 8000 0 35
-get player2222 8217 6028 929 32
-get player3333 1985 8000 929 33
-get player5555 1671 6000 329 32
-get player7777 4252 8000 0 35
-get player6666 1318 8000 329 32
-get total2845
-time: 12616.0,45740.0
-  activeIncludingSelf 4 wager 102 maxWager 732 prevWager 329 prob 0.3228915609969392
-
-timeout: 200
-action: fold 
-
-get flop
-flop card: HEARTS-7
-flop card: SPADES-9
-flop card: DIAMONDS-J
-get turn
-turn card: CLUBS-6
-get river
-river card: SPADES-3
-get notify
-get player1111 1289 6095 329 35
-get player8888 184 8000 0 35
-get player4444 116 8000 0 35
-get player2222 8217 6028 929 31
-get player3333 1985 8000 929 31
-get player5555 1071 6000 929 35
-get player7777 4252 8000 0 35
-get player6666 1318 8000 329 35
-get total3445
-get showdown
-2: 3333 SPADES A CLUBS J ONE_PAIR 
-1: 2222 HEARTS 3 CLUBS 7 TWO_PAIR 
-get pot-win
-2222: 3445 
-start to seat 50
-button 5555,1071,6000
-small 3333,1985,8000
-big 2222,11662,6028
-normal  4444,116,8000
-normal  8888,184,8000
-normal  1111,1289,6095
-normal  6666,1318,8000
-normal  7777,4252,8000
-start to blind
-3333 is small blind:50
-2222 is big blind:100
-get hold
-base card: CLUBS-5
-base card: DIAMONDS-5
-base card: 557831,541447
-get inquire
-get player1111 1189 6095 100 32
-get player8888 184 8000 0 35
-get player4444 116 8000 0 35
-get player2222 11562 6028 100 30
-get player3333 1935 8000 50 30
-get total250
-time: 6832.0,35460.0
-  activeIncludingSelf 6 wager 99 maxWager 732 prevWager 0 prob 0.2451443880428652
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 1189 6095 100 35
-get player8888 184 8000 0 35
-get player4444 116 8000 0 35
-get player2222 9834 6028 1828 33
-get player3333 1935 8000 50 35
-get player5555 853 6000 218 33
-get player7777 4252 8000 0 35
-get player6666 1218 8000 100 32
-get total2296
-time: 16280.0,51830.0
-  activeIncludingSelf 3 wager 37 maxWager 676 prevWager 100 prob 0.3586870538298283
-
-timeout: 200
-action: fold 
-
-get flop
-flop card: HEARTS-J
-flop card: HEARTS-Q
-flop card: DIAMONDS-8
-get turn
-turn card: HEARTS-8
-get river
-river card: CLUBS-4
-get notify
-get player1111 1189 6095 100 35
-get player8888 184 8000 0 35
-get player4444 116 8000 0 35
-get player2222 9834 6028 1828 33
-get player3333 1935 8000 50 35
-get player5555 0 6000 1071 34
-get player7777 4252 8000 0 35
-get player6666 1218 8000 100 35
-get total3149
-get showdown
-1: 2222 DIAMONDS Q DIAMONDS K TWO_PAIR 
-2: 5555 SPADES A SPADES K ONE_PAIR 
-get pot-win
-2222: 3149 
-start to seat 51
-button 3333,1935,8000
-small 2222,12983,6028
-big 4444,116,8000
-normal  8888,184,8000
-normal  1111,1189,6095
-normal  6666,1218,8000
-normal  7777,4252,8000
-normal  5555,2000,4000
-start to blind
-2222 is small blind:50
 4444 is big blind:100
 get hold
 base card: HEARTS-9
-base card: HEARTS-4
-base card: 8398611,270853
+base card: SPADES-5
 get inquire
-get player1111 1189 6095 0 35
-get player8888 184 8000 0 35
-get player4444 16 8000 100 30
-get player2222 12933 6028 50 30
-get total150
-time: 5737.0,36450.0
-  activeIncludingSelf 6 wager 53 maxWager 676 prevWager 0 prob 0.2121631001371742
+get player5555 1800 8000 100 32
+get player8888 427 8000 100 32
+get player4444 1194 8000 100 30
+get player7777 1850 8000 50 30
+get total350
+time: 3047.0,30000.0
+  activeIncludingSelf 8 wager 81 maxWager 1420 prevWager 0 prob 0.15996483333333333
+
+timeout: 200
+action: call 
+
+get inquire
+get player5555 1584 8000 316 32
+get player8888 427 8000 100 35
+get player4444 978 8000 316 32
+get player7777 1850 8000 50 35
+get player3333 4225 8000 0 35
+get player2222 1012 8000 0 35
+get player1111 2269 8000 316 33
+get player6666 2457 8000 100 32
+get total1198
+time: 8572.0,49520.0
+  activeIncludingSelf 4 wager -60 maxWager 1365 prevWager 100 prob 0.22685016155088855
 
 timeout: 200
 action: call 
 
 get flop
-flop card: HEARTS-2
-flop card: HEARTS-K
-flop card: CLUBS-Q
+flop card: DIAMONDS-4
+flop card: DIAMONDS-J
+flop card: HEARTS-6
 get inquire
-get player1111 1189 6095 0 35
-get player8888 184 8000 0 35
-get player4444 16 8000 100 35
-get player2222 12883 6028 100 31
-get player3333 1935 8000 0 35
-get player5555 2000 4000 0 35
-get player7777 4252 8000 0 35
-get player6666 1118 8000 100 32
-get total300
-time: 29359.0,68550.0
-  activeIncludingSelf 2 wager -102 maxWager 621 prevWager 100 prob 0.44257877461706785
+get player5555 1398 8000 502 33
+get player8888 427 8000 100 35
+get player4444 978 8000 316 31
+get player7777 1850 8000 50 35
+get player3333 4225 8000 0 35
+get player2222 1012 8000 0 35
+get player1111 2269 8000 316 33
+get player6666 2241 8000 316 32
+get total1600
+time: 5014.0,51190.0
+  activeIncludingSelf 4 wager -309 maxWager 1245 prevWager 316 prob 0.12050009767532721
 
-timeout: 200
-action: call 
+timeout: 201
+action: fold 
 
 get turn
-turn card: DIAMONDS-J
-get inquire
-get player1111 1189 6095 0 35
-get player8888 184 8000 0 35
-get player4444 16 8000 100 35
-get player2222 12883 6028 100 31
-get player3333 1935 8000 0 35
-get player5555 2000 4000 0 35
-get player7777 4252 8000 0 35
-get player6666 1118 8000 100 31
-get total300
-time: 25063.0,83310.0
-  activeIncludingSelf 2 wager -343 maxWager 621 prevWager 100 prob 0.3078318329132157
-
-timeout: 200
-action: call 
-
-get river
-river card: HEARTS-8
-get inquire
-get player1111 1189 6095 0 35
-get player8888 184 8000 0 35
-get player4444 16 8000 100 35
-get player2222 12883 6028 100 31
-get player3333 1935 8000 0 35
-get player5555 2000 4000 0 35
-get player7777 4252 8000 0 35
-get player6666 1118 8000 100 31
-get total300
-time: 81185.0,84770.0
-  activeIncludingSelf 2 wager 621 maxWager 621 prevWager 100 prob 0.9577513861035744
-
-timeout: 200
-action: call 
-
+turn card: CLUBS-4
 get notify
-get player1111 1189 6095 0 35
-get player8888 184 8000 0 35
-get player4444 16 8000 100 35
-get player2222 12883 6028 100 31
-get player3333 1935 8000 0 35
-get player5555 2000 4000 0 35
-get player7777 4252 8000 0 35
-get player6666 1118 8000 100 31
-get total300
-get showdown
-2: 2222 SPADES 4 DIAMONDS 10 HIGH_CARD 
-1: 6666 HEARTS 9 HEARTS 4 FLUSH 
+get player5555 1212 8000 688 33
+get player8888 427 8000 100 35
+get player4444 792 8000 502 31
+get player7777 1850 8000 50 35
+get player3333 4225 8000 0 35
+get player2222 1012 8000 0 35
+get player1111 2083 8000 502 32
+get player6666 2241 8000 316 35
+get total2158
+get river
+river card: SPADES-8
+get notify
+get player5555 0 8000 1900 34
+get player8888 427 8000 100 35
+get player4444 606 8000 688 35
+get player7777 1850 8000 50 35
+get player3333 4225 8000 0 35
+get player2222 1012 8000 0 35
+get player1111 1897 8000 688 32
+get player6666 2241 8000 316 35
+get total3742
+get notify
+get player5555 0 8000 1900 34
+get player8888 427 8000 100 35
+get player4444 606 8000 688 35
+get player7777 1850 8000 50 35
+get player3333 4225 8000 0 35
+get player2222 1012 8000 0 35
+get player1111 1897 8000 688 35
+get player6666 2241 8000 316 35
+get total3742
 get pot-win
-6666: 300 
-start to seat 52
-button 2222,12883,6028
-small 4444,2000,6016
-big 8888,184,8000
-normal  1111,1189,6095
-normal  6666,1418,8000
-normal  7777,4252,8000
-normal  5555,2000,4000
-normal  3333,1935,8000
+5555: 3742 
+start to seat 5
+button 7777,1850,8000
+small 4444,606,8000
+big 8888,427,8000
+normal  5555,3742,8000
+normal  6666,2241,8000
+normal  1111,1897,8000
+normal  2222,1012,8000
+normal  3333,4225,8000
 start to blind
 4444 is small blind:50
 8888 is big blind:100
 get hold
-base card: CLUBS-8
-base card: HEARTS-3
-base card: 4228625,139523
+base card: HEARTS-5
+base card: CLUBS-10
 get inquire
-get player1111 1089 6095 100 32
-get player8888 84 8000 100 30
-get player4444 1950 6016 50 30
-get total250
-time: 2502.0,27800.0
-  activeIncludingSelf 8 wager 31 maxWager 787 prevWager 0 prob 0.14915
-
-timeout: 200
-action: fold 
-
-get notify
-get player1111 1089 6095 100 35
-get player8888 84 8000 100 35
-get player4444 1950 6016 50 35
-get player2222 12168 6028 715 33
-get player3333 1935 8000 0 35
-get player5555 2000 4000 0 35
-get player7777 4252 8000 0 35
-get player6666 1418 8000 0 35
-get total965
-get pot-win
-2222: 965 
-start to seat 53
-button 4444,1950,6016
-small 8888,2000,6084
-big 1111,1089,6095
-normal  6666,1418,8000
-normal  7777,4252,8000
-normal  5555,2000,4000
-normal  3333,1935,8000
-normal  2222,13133,6028
-start to blind
-8888 is small blind:50
-1111 is big blind:100
-get hold
-base card: SPADES-8
-base card: DIAMONDS-8
-base card: 4199953,4212241
-get inquire
-get player1111 989 6095 100 30
-get player8888 1950 6084 50 30
+get player5555 3742 8000 0 35
+get player8888 327 8000 100 30
+get player4444 556 8000 50 30
 get total150
-time: 5256.0,27430.0
-  activeIncludingSelf 8 wager 154 maxWager 787 prevWager 0 prob 0.24416004374772146
+time: 3615.0,32430.0
+  activeIncludingSelf 7 wager 55 maxWager 1245 prevWager 0 prob 0.16922525439407957
 
-timeout: 200
-action: raise 154 
-
-get inquire
-get player1111 989 6095 100 35
-get player8888 1950 6084 50 35
-get player4444 1950 6016 0 35
-get player2222 12499 6028 634 33
-get player3333 1935 8000 0 35
-get player5555 1746 4000 254 32
-get player7777 4252 8000 0 35
-get player6666 1164 8000 254 33
-get total1292
-time: 16688.0,41410.0
-  activeIncludingSelf 3 wager 151 maxWager 646 prevWager 254 prob 0.4417998068099493
-
-timeout: 200
+timeout: 201
 action: call 
-
-get flop
-flop card: HEARTS-A
-flop card: SPADES-3
-flop card: DIAMONDS-J
-get inquire
-get player1111 989 6095 100 35
-get player8888 1950 6084 50 35
-get player4444 1950 6016 0 35
-get player2222 12499 6028 634 33
-get player3333 1935 8000 0 35
-get player5555 1366 4000 634 32
-get player7777 4252 8000 0 35
-get player6666 784 8000 634 32
-get total2052
-time: 16517.0,54800.0
-  activeIncludingSelf 3 wager -13 maxWager 435 prevWager 634 prob 0.3188699817518248
-
-timeout: 200
-action: call 
-
-get turn
-turn card: HEARTS-2
-get inquire
-get player1111 989 6095 100 35
-get player8888 1950 6084 50 35
-get player4444 1950 6016 0 35
-get player2222 12499 6028 634 31
-get player3333 1935 8000 0 35
-get player5555 1366 4000 634 35
-get player7777 4252 8000 0 35
-get player6666 784 8000 634 31
-get total2052
-time: 29834.0,71740.0
-  activeIncludingSelf 2 wager -98 maxWager 435 prevWager 634 prob 0.4217042096459437
-
-timeout: 200
-action: call 
-
-get river
-river card: DIAMONDS-Q
-get inquire
-get player1111 989 6095 100 35
-get player8888 1950 6084 50 35
-get player4444 1950 6016 0 35
-get player2222 12499 6028 634 31
-get player3333 1935 8000 0 35
-get player5555 1366 4000 634 35
-get player7777 4252 8000 0 35
-get player6666 784 8000 634 31
-get total2052
-time: 31423.0,90890.0
-  activeIncludingSelf 2 wager -192 maxWager 435 prevWager 634 prob 0.3463798767741226
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 989 6095 100 35
-get player8888 1950 6084 50 35
-get player4444 1950 6016 0 35
-get player2222 12499 6028 634 31
-get player3333 1935 8000 0 35
-get player5555 1366 4000 634 35
-get player7777 4252 8000 0 35
-get player6666 784 8000 634 31
-get total2052
-get showdown
-1: 6666 SPADES 8 DIAMONDS 8 ONE_PAIR 
-2: 2222 HEARTS 10 DIAMONDS 6 HIGH_CARD 
-get pot-win
-6666: 2052 
-start to seat 54
-button 8888,1950,6084
-small 1111,989,6095
-big 6666,2836,8000
-normal  7777,4252,8000
-normal  5555,1366,4000
-normal  3333,1935,8000
-normal  2222,12499,6028
-normal  4444,1950,6016
-start to blind
-1111 is small blind:50
-6666 is big blind:100
-get hold
-base card: SPADES-3
-base card: CLUBS-K
-base card: 135427,134253349
-get inquire
-get player1111 939 6095 50 35
-get player8888 1950 6084 0 35
-get player4444 1950 6016 0 35
-get player2222 11797 6028 702 33
-get player3333 1935 8000 0 35
-get player5555 1366 4000 0 35
-get player7777 4252 8000 0 35
-get player6666 2736 8000 100 30
-get total852
-time: 24007.0,70210.0
-  activeIncludingSelf 2 wager -504 maxWager 1520 prevWager 100 prob 0.38470581113801455
-
-timeout: 200
-action: fold 
-
-get notify
-get player1111 939 6095 50 35
-get player8888 1950 6084 0 35
-get player4444 1950 6016 0 35
-get player2222 11797 6028 702 33
-get player3333 1935 8000 0 35
-get player5555 1366 4000 0 35
-get player7777 4252 8000 0 35
-get player6666 2736 8000 100 35
-get total852
-get pot-win
-2222: 852 
-start to seat 55
-button 1111,939,6095
-small 6666,2736,8000
-big 7777,4252,8000
-normal  5555,1366,4000
-normal  3333,1935,8000
-normal  2222,12649,6028
-normal  4444,1950,6016
-normal  8888,1950,6084
-start to blind
-6666 is small blind:50
-7777 is big blind:100
-get hold
-base card: HEARTS-4
-base card: HEARTS-J
-base card: 270853,33564957
-get inquire
-get player1111 939 6095 0 35
-get player8888 1950 6084 0 35
-get player4444 1950 6016 0 35
-get player2222 11948 6028 701 33
-get player3333 1935 8000 0 35
-get player5555 1266 4000 100 32
-get player7777 4152 8000 100 30
-get player6666 2686 8000 50 30
-get total951
-time: 10412.0,47310.0
-  activeIncludingSelf 4 wager 59 maxWager 1492 prevWager 50 prob 0.27077510040160646
-
-timeout: 200
-action: fold 
-
-get notify
-get player1111 939 6095 0 35
-get player8888 1950 6084 0 35
-get player4444 1950 6016 0 35
-get player2222 11948 6028 701 33
-get player3333 1935 8000 0 35
-get player5555 1266 4000 100 35
-get player7777 4152 8000 100 35
-get player6666 2686 8000 50 35
-get total951
-get pot-win
-2222: 951 
-start to seat 56
-button 6666,2686,8000
-small 7777,4152,8000
-big 5555,1266,4000
-normal  3333,1935,8000
-normal  2222,12899,6028
-normal  4444,1950,6016
-normal  8888,1950,6084
-normal  1111,939,6095
-start to blind
-7777 is small blind:50
-5555 is big blind:100
-get hold
-base card: CLUBS-7
-base card: CLUBS-4
-base card: 2131213,295429
-get inquire
-get player1111 939 6095 0 35
-get player8888 1750 6084 200 32
-get player4444 1750 6016 200 33
-get player2222 12799 6028 100 32
-get player3333 1935 8000 0 35
-get player5555 1166 4000 100 30
-get player7777 4102 8000 50 30
-get total650
-time: 6018.0,36860.0
-  activeIncludingSelf 6 wager 131 maxWager 1492 prevWager 0 prob 0.21765409658166032
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 939 6095 0 35
-get player8888 1750 6084 200 35
-get player4444 1750 6016 200 35
-get player2222 12234 6028 665 33
-get player3333 1935 8000 0 35
-get player5555 1166 4000 100 35
-get player7777 4102 8000 50 35
-get player6666 2486 8000 200 32
-get total1415
-time: 19281.0,62900.0
-  activeIncludingSelf 2 wager -590 maxWager 1381 prevWager 200 prob 0.3516094594594595
-
-timeout: 200
-action: fold 
-
-get notify
-get player1111 939 6095 0 35
-get player8888 1750 6084 200 35
-get player4444 1750 6016 200 35
-get player2222 12234 6028 665 33
-get player3333 1935 8000 0 35
-get player5555 1166 4000 100 35
-get player7777 4102 8000 50 35
-get player6666 2486 8000 200 35
-get total1415
-get pot-win
-2222: 1415 
-start to seat 57
-button 7777,4102,8000
-small 5555,1166,4000
-big 3333,1935,8000
-normal  2222,13649,6028
-normal  4444,1750,6016
-normal  8888,1750,6084
-normal  1111,939,6095
-normal  6666,2486,8000
-start to blind
-5555 is small blind:50
-3333 is big blind:100
-get hold
-base card: DIAMONDS-Q
-base card: HEARTS-J
-base card: 67127839,33564957
-get inquire
-get player1111 939 6095 0 35
-get player8888 1750 6084 0 35
-get player4444 1750 6016 0 35
-get player2222 13111 6028 538 33
-get player3333 1835 8000 100 30
-get player5555 1116 4000 50 30
-get total688
-time: 7792.0,31040.0
-  activeIncludingSelf 5 wager 247 maxWager 1381 prevWager 0 prob 0.2997139175257732
-
-timeout: 200
-action: call 
-
-get flop
-flop card: CLUBS-9
-flop card: DIAMONDS-3
-flop card: HEARTS-4
-get inquire
-get player1111 939 6095 0 35
-get player8888 1750 6084 0 35
-get player4444 1750 6016 0 35
-get player2222 13111 6028 538 31
-get player3333 1835 8000 100 35
-get player5555 1116 4000 50 35
-get player7777 4102 8000 0 35
-get player6666 1948 8000 538 32
-get total1226
-time: 17014.0,62270.0
-  activeIncludingSelf 2 wager -650 maxWager 1082 prevWager 538 prob 0.2913987473903966
-
-timeout: 200
-action: call 
-
-get turn
-turn card: HEARTS-K
-get inquire
-get player1111 939 6095 0 35
-get player8888 1750 6084 0 35
-get player4444 1750 6016 0 35
-get player2222 13111 6028 538 31
-get player3333 1835 8000 100 35
-get player5555 1116 4000 50 35
-get player7777 4102 8000 0 35
-get player6666 1948 8000 538 31
-get total1226
-time: 21118.0,78550.0
-  activeIncludingSelf 2 wager -697 maxWager 1082 prevWager 538 prob 0.27615938892425207
-
-timeout: 200
-action: call 
-
-get river
-river card: HEARTS-8
-get inquire
-get player1111 939 6095 0 35
-get player8888 1750 6084 0 35
-get player4444 1750 6016 0 35
-get player2222 13111 6028 538 31
-get player3333 1835 8000 100 35
-get player5555 1116 4000 50 35
-get player7777 4102 8000 0 35
-get player6666 1948 8000 538 31
-get total1226
-time: 10471.0,99530.0
-  activeIncludingSelf 2 wager -1227 maxWager 1082 prevWager 538 prob 0.10609925650557621
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 939 6095 0 35
-get player8888 1750 6084 0 35
-get player4444 1750 6016 0 35
-get player2222 13111 6028 538 31
-get player3333 1835 8000 100 35
-get player5555 1116 4000 50 35
-get player7777 4102 8000 0 35
-get player6666 1948 8000 538 31
-get total1226
-get showdown
-2: 2222 HEARTS 10 CLUBS 5 HIGH_CARD 
-1: 6666 DIAMONDS Q HEARTS J HIGH_CARD 
-get pot-win
-6666: 1226 
-start to seat 58
-button 5555,1116,4000
-small 3333,1835,8000
-big 2222,13111,6028
-normal  4444,1750,6016
-normal  8888,1750,6084
-normal  1111,939,6095
-normal  6666,3174,8000
-normal  7777,4102,8000
-start to blind
-3333 is small blind:50
-2222 is big blind:100
-get hold
-base card: SPADES-3
-base card: SPADES-9
-base card: 135427,8394515
-get inquire
-get player1111 939 6095 0 35
-get player8888 1512 6084 238 33
-get player4444 1650 6016 100 32
-get player2222 13011 6028 100 30
-get player3333 1785 8000 50 30
-get total488
-time: 4309.0,31530.0
-  activeIncludingSelf 7 wager 147 maxWager 1763 prevWager 0 prob 0.19278036790358388
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 939 6095 0 35
-get player8888 1512 6084 238 35
-get player4444 1650 6016 100 35
-get player2222 12273 6028 838 32
-get player3333 997 8000 838 33
-get player5555 878 4000 238 32
-get player7777 4102 8000 0 35
-get player6666 2936 8000 238 32
-get total2490
-time: 9097.0,46030.0
-  activeIncludingSelf 4 wager 0 maxWager 1631 prevWager 238 prob 0.2497859004996741
-
-timeout: 200
-action: fold 
-
-get flop
-flop card: CLUBS-6
-flop card: HEARTS-8
-flop card: DIAMONDS-7
-get turn
-turn card: SPADES-8
-get river
-river card: HEARTS-K
-get notify
-get player1111 939 6095 0 35
-get player8888 1512 6084 238 35
-get player4444 1650 6016 100 35
-get player2222 11973 6028 1138 31
-get player3333 697 8000 1138 31
-get player5555 878 4000 238 35
-get player7777 4102 8000 0 35
-get player6666 2936 8000 238 35
-get total3090
-get showdown
-2: 3333 HEARTS 10 SPADES J ONE_PAIR 
-1: 2222 CLUBS A CLUBS 4 ONE_PAIR 
-get pot-win
-2222: 3090 
-start to seat 59
-button 3333,697,8000
-small 2222,15063,6028
-big 4444,1650,6016
-normal  8888,1512,6084
-normal  1111,939,6095
-normal  6666,2936,8000
-normal  7777,4102,8000
-normal  5555,878,4000
-start to blind
-2222 is small blind:50
-4444 is big blind:100
-get hold
-base card: SPADES-A
-base card: DIAMONDS-Q
-base card: 268442665,67127839
-get inquire
-get player1111 716 6095 223 33
-get player8888 1512 6084 0 35
-get player4444 1550 6016 100 30
-get player2222 15013 6028 50 30
-get total373
-time: 7191.0,32140.0
-  activeIncludingSelf 7 wager 359 maxWager 1631 prevWager 0 prob 0.27419679527069074
-
-timeout: 200
-action: raise 359 
-
-get flop
-flop card: HEARTS-5
-flop card: DIAMONDS-J
-flop card: DIAMONDS-5
-get inquire
-get player1111 716 6095 223 35
-get player8888 1512 6084 0 35
-get player4444 1068 6016 582 31
-get player2222 14481 6028 582 31
-get player3333 697 8000 0 35
-get player5555 878 4000 0 35
-get player7777 4102 8000 0 35
-get player6666 2354 8000 582 33
-get total1969
-time: 13827.0,45100.0
-  activeIncludingSelf 3 wager -26 maxWager 1307 prevWager 582 prob 0.32392073170731706
-
-timeout: 200
-action: call 
-
-get turn
-turn card: DIAMONDS-4
-get inquire
-get player1111 716 6095 223 35
-get player8888 1512 6084 0 35
-get player4444 1068 6016 582 31
-get player2222 14481 6028 582 31
-get player3333 697 8000 0 35
-get player5555 878 4000 0 35
-get player7777 4102 8000 0 35
-get player6666 2354 8000 582 31
-get total1969
-time: 15405.0,49560.0
-  activeIncludingSelf 3 wager -44 maxWager 1307 prevWager 582 prob 0.3177269975786925
-
-timeout: 200
-action: call 
-
-get river
-river card: CLUBS-Q
-get inquire
-get player1111 716 6095 223 35
-get player8888 1512 6084 0 35
-get player4444 1068 6016 582 31
-get player2222 14481 6028 582 31
-get player3333 697 8000 0 35
-get player5555 878 4000 0 35
-get player7777 4102 8000 0 35
-get player6666 2354 8000 582 31
-get total1969
-time: 33288.0,54280.0
-  activeIncludingSelf 3 wager 791 maxWager 1307 prevWager 582 prob 0.6136512896094326
-
-timeout: 200
-action: raise 209 
-
-get notify
-get player1111 716 6095 223 35
-get player8888 1512 6084 0 35
-get player4444 1068 6016 582 35
-get player2222 14272 6028 791 32
-get player3333 697 8000 0 35
-get player5555 878 4000 0 35
-get player7777 4102 8000 0 35
-get player6666 2145 8000 791 33
-get total2387
-get showdown
-2: 2222 CLUBS 4 CLUBS 3 TWO_PAIR 
-1: 6666 SPADES A DIAMONDS Q TWO_PAIR 
-get pot-win
-6666: 2387 
-start to seat 60
-button 2222,14272,6028
-small 4444,1068,6016
-big 8888,1512,6084
-normal  1111,716,6095
-normal  6666,4532,8000
-normal  7777,4102,8000
-normal  5555,878,4000
-normal  3333,697,8000
-start to blind
-4444 is small blind:50
-8888 is big blind:100
-get hold
-base card: CLUBS-9
-base card: CLUBS-6
-base card: 8423187,1082379
-get inquire
-get player1111 716 6095 0 35
-get player8888 1412 6084 100 30
-get player4444 1018 6016 50 30
-get total150
-time: 5292.0,32170.0
-  activeIncludingSelf 7 wager 321 maxWager 2517 prevWager 0 prob 0.2188085172520982
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 716 6095 0 35
-get player8888 1412 6084 100 35
-get player4444 1018 6016 50 35
-get player2222 13394 6028 878 33
-get player3333 697 8000 0 35
-get player5555 678 4000 200 33
-get player7777 4102 8000 0 35
-get player6666 4432 8000 100 32
-get total1328
-time: 15378.0,56820.0
-  activeIncludingSelf 3 wager -81 maxWager 2462 prevWager 100 prob 0.31805227032734956
-
-timeout: 200
-action: fold 
 
 get flop
 flop card: SPADES-5
-flop card: HEARTS-6
-flop card: HEARTS-8
-get turn
-turn card: DIAMONDS-K
-get river
-river card: CLUBS-K
-get notify
-get player1111 716 6095 0 35
-get player8888 1412 6084 100 35
-get player4444 1018 6016 50 35
-get player2222 13394 6028 878 33
-get player3333 697 8000 0 35
-get player5555 0 4000 878 34
-get player7777 4102 8000 0 35
-get player6666 4432 8000 100 35
-get total2006
-get showdown
-1: 5555 SPADES A CLUBS A TWO_PAIR 
-2: 2222 SPADES 10 DIAMONDS 8 TWO_PAIR 
-get pot-win
-5555: 2006 
-start to seat 61
-button 4444,1018,6016
-small 8888,1412,6084
-big 1111,716,6095
-normal  6666,4432,8000
-normal  7777,4102,8000
-normal  5555,2006,4000
-normal  3333,697,8000
-normal  2222,13394,6028
-start to blind
-8888 is small blind:50
-1111 is big blind:100
-get hold
-base card: HEARTS-2
-base card: SPADES-6
-base card: 73730,1053707
+flop card: HEARTS-J
+flop card: HEARTS-9
 get inquire
-get player1111 616 6095 100 30
-get player8888 1362 6084 50 30
-get total150
-time: 2757.0,29120.0
-  activeIncludingSelf 8 wager 115 maxWager 2462 prevWager 0 prob 0.15352317994505493
-
-timeout: 200
-action: call 
-
-get flop
-flop card: HEARTS-K
-flop card: SPADES-10
-flop card: CLUBS-7
-get inquire
-get player1111 616 6095 100 35
-get player8888 1212 6084 200 33
-get player4444 918 6016 100 32
-get player2222 13294 6028 100 32
-get player3333 697 8000 0 35
-get player5555 2006 4000 0 35
-get player7777 4102 8000 0 35
-get player6666 4332 8000 100 32
-get total600
-time: 2316.0,38450.0
-  activeIncludingSelf 4 wager -768 maxWager 2406 prevWager 100 prob 0.08372821846553966
-
-timeout: 200
-action: fold 
-
-get turn
-turn card: CLUBS-3
-get notify
-get player1111 616 6095 100 35
-get player8888 1212 6084 200 31
-get player4444 818 6016 200 32
-get player2222 13294 6028 100 35
-get player3333 697 8000 0 35
-get player5555 2006 4000 0 35
-get player7777 4102 8000 0 35
-get player6666 4332 8000 100 35
-get total700
-get river
-river card: DIAMONDS-9
-get notify
-get player1111 616 6095 100 35
-get player8888 1212 6084 200 31
-get player4444 818 6016 200 31
-get player2222 13294 6028 100 35
-get player3333 697 8000 0 35
-get player5555 2006 4000 0 35
-get player7777 4102 8000 0 35
-get player6666 4332 8000 100 35
-get total700
-get notify
-get player1111 616 6095 100 35
-get player8888 1212 6084 200 31
-get player4444 818 6016 200 31
-get player2222 13294 6028 100 35
-get player3333 697 8000 0 35
-get player5555 2006 4000 0 35
-get player7777 4102 8000 0 35
-get player6666 4332 8000 100 35
-get total700
-get showdown
-2: 8888 SPADES 8 HEARTS 9 ONE_PAIR 
-1: 4444 DIAMONDS Q CLUBS 9 ONE_PAIR 
-get pot-win
-4444: 700 
-start to seat 62
-button 8888,1212,6084
-small 1111,616,6095
-big 6666,4332,8000
-normal  7777,4102,8000
-normal  5555,2006,4000
-normal  3333,697,8000
-normal  2222,13294,6028
-normal  4444,1518,6016
-start to blind
-1111 is small blind:50
-6666 is big blind:100
-get hold
-base card: CLUBS-8
-base card: HEARTS-9
-base card: 4228625,8398611
-get inquire
-get player1111 566 6095 50 35
-get player8888 1212 6084 0 35
-get player4444 1518 6016 0 35
-get player2222 12916 6028 378 33
-get player3333 697 8000 0 35
-get player5555 2006 4000 0 35
-get player7777 4102 8000 0 35
-get player6666 4232 8000 100 30
-get total528
-time: 24913.0,70310.0
-  activeIncludingSelf 2 wager -702 maxWager 2351 prevWager 100 prob 0.3962993173090599
-
-timeout: 200
-action: call 
-
-get flop
-flop card: SPADES-8
-flop card: DIAMONDS-Q
-flop card: CLUBS-3
-get inquire
-get player1111 566 6095 50 35
-get player8888 1212 6084 0 35
-get player4444 1518 6016 0 35
-get player2222 12916 6028 378 33
-get player3333 697 8000 0 35
-get player5555 2006 4000 0 35
-get player7777 4102 8000 0 35
-get player6666 3954 8000 378 32
-get total806
-time: 34468.0,62710.0
-  activeIncludingSelf 2 wager 385 maxWager 2196 prevWager 378 prob 0.5609001754106203
+get player5555 3742 8000 0 35
+get player8888 327 8000 100 31
+get player4444 506 8000 100 31
+get player7777 1850 8000 0 35
+get player3333 4225 8000 0 35
+get player2222 912 8000 100 32
+get player1111 1897 8000 0 35
+get player6666 2141 8000 100 32
+get total400
+time: 10960.0,46830.0
+  activeIncludingSelf 4 wager 7 maxWager 1189 prevWager 100 prob 0.2531870595771941
 
 timeout: 200
 action: call 
@@ -4932,1509 +463,486 @@ action: call
 get turn
 turn card: SPADES-3
 get inquire
-get player1111 566 6095 50 35
-get player8888 1212 6084 0 35
-get player4444 1518 6016 0 35
-get player2222 12916 6028 378 31
-get player3333 697 8000 0 35
-get player5555 2006 4000 0 35
-get player7777 4102 8000 0 35
-get player6666 3954 8000 378 31
-get total806
-time: 23875.0,50140.0
-  activeIncludingSelf 2 wager -117 maxWager 2196 prevWager 378 prob 0.481405065815716
+get player5555 3742 8000 0 35
+get player8888 327 8000 100 31
+get player4444 506 8000 100 31
+get player7777 1850 8000 0 35
+get player3333 4225 8000 0 35
+get player2222 912 8000 100 31
+get player1111 1897 8000 0 35
+get player6666 2141 8000 100 31
+get total400
+time: 9005.0,46450.0
+  activeIncludingSelf 4 wager -109 maxWager 1189 prevWager 100 prob 0.20192572658772873
 
 timeout: 200
 action: call 
 
 get river
-river card: HEARTS-2
+river card: DIAMONDS-5
 get inquire
-get player1111 566 6095 50 35
-get player8888 1212 6084 0 35
-get player4444 1518 6016 0 35
-get player2222 12916 6028 378 31
-get player3333 697 8000 0 35
-get player5555 2006 4000 0 35
-get player7777 4102 8000 0 35
-get player6666 3954 8000 378 31
-get total806
-time: 28122.0,56000.0
-  activeIncludingSelf 2 wager 16 maxWager 2196 prevWager 378 prob 0.5026763928571429
+get player5555 3742 8000 0 35
+get player8888 327 8000 100 31
+get player4444 506 8000 100 31
+get player7777 1850 8000 0 35
+get player3333 4225 8000 0 35
+get player2222 912 8000 100 31
+get player1111 1897 8000 0 35
+get player6666 2141 8000 100 31
+get total400
+time: 38160.0,43430.0
+  activeIncludingSelf 4 wager 1189 maxWager 1189 prevWager 100 prob 0.8787766520838131
 
 timeout: 200
-action: call 
+action: raise 1089 
 
 get notify
-get player1111 566 6095 50 35
-get player8888 1212 6084 0 35
-get player4444 1518 6016 0 35
-get player2222 12916 6028 378 31
-get player3333 697 8000 0 35
-get player5555 2006 4000 0 35
-get player7777 4102 8000 0 35
-get player6666 3954 8000 378 31
-get total806
-get showdown
-2: 6666 CLUBS 8 HEARTS 9 TWO_PAIR 
-1: 2222 SPADES Q DIAMONDS 6 TWO_PAIR 
+get player5555 3742 8000 0 35
+get player8888 327 8000 100 35
+get player4444 506 8000 100 35
+get player7777 1850 8000 0 35
+get player3333 4225 8000 0 35
+get player2222 912 8000 100 35
+get player1111 1897 8000 0 35
+get player6666 1052 8000 1189 33
+get total1489
 get pot-win
-2222: 806 
-start to seat 63
-button 1111,566,6095
-small 6666,3954,8000
-big 7777,4102,8000
-normal  5555,2006,4000
-normal  3333,697,8000
-normal  2222,13722,6028
-normal  4444,1518,6016
-normal  8888,1212,6084
-start to blind
-6666 is small blind:50
-7777 is big blind:100
-get hold
-base card: DIAMONDS-A
-base card: HEARTS-4
-base card: 268454953,270853
-get inquire
-get player1111 566 6095 0 35
-get player8888 1212 6084 0 35
-get player4444 1518 6016 0 35
-get player2222 12118 6028 1604 33
-get player3333 0 8000 697 34
-get player5555 1906 4000 100 32
-get player7777 4002 8000 100 30
-get player6666 3904 8000 50 30
-get total2551
-time: 8097.0,41600.0
-  activeIncludingSelf 5 wager 183 maxWager 2168 prevWager 50 prob 0.2469878605769231
-
-timeout: 200
-action: fold 
-
-get flop
-flop card: CLUBS-Q
-flop card: HEARTS-3
-flop card: SPADES-4
-get turn
-turn card: CLUBS-7
-get river
-river card: DIAMONDS-J
-get notify
-get player1111 566 6095 0 35
-get player8888 1212 6084 0 35
-get player4444 1518 6016 0 35
-get player2222 12118 6028 1604 33
-get player3333 0 8000 697 34
-get player5555 1906 4000 100 35
-get player7777 4002 8000 100 35
-get player6666 3904 8000 50 35
-get total2551
-get showdown
-1: 3333 HEARTS A CLUBS A ONE_PAIR 
-2: 2222 HEARTS 8 DIAMONDS 9 HIGH_CARD 
-get pot-win
-3333: 1644 
-2222: 907 
-start to seat 64
-button 6666,3904,8000
-small 7777,4002,8000
-big 5555,1906,4000
-normal  3333,1644,8000
-normal  2222,13025,6028
-normal  4444,1518,6016
-normal  8888,1212,6084
-normal  1111,566,6095
-start to blind
-7777 is small blind:50
-5555 is big blind:100
-get hold
-base card: CLUBS-6
-base card: SPADES-Q
-base card: 1082379,67115551
-get inquire
-get player1111 566 6095 0 35
-get player8888 1212 6084 0 35
-get player4444 1518 6016 0 35
-get player2222 12467 6028 558 33
-get player3333 1644 8000 0 35
-get player5555 1806 4000 100 30
-get player7777 3952 8000 50 30
-get total708
-time: 9677.0,47800.0
-  activeIncludingSelf 4 wager 17 maxWager 2168 prevWager 0 prob 0.2542885983263598
-
-timeout: 200
-action: fold 
-
-get flop
-flop card: SPADES-J
-flop card: DIAMONDS-9
-flop card: SPADES-A
-get turn
-turn card: HEARTS-K
-get river
-river card: HEARTS-J
-get notify
-get player1111 566 6095 0 35
-get player8888 1212 6084 0 35
-get player4444 1518 6016 0 35
-get player2222 12167 6028 858 32
-get player3333 1644 8000 0 35
-get player5555 1048 4000 858 33
-get player7777 3952 8000 50 35
-get player6666 3904 8000 0 35
-get total1766
-get showdown
-1: 5555 CLUBS 10 DIAMONDS K TWO_PAIR 
-1: 2222 HEARTS 2 CLUBS K TWO_PAIR 
-get pot-win
-5555: 883 
-2222: 883 
-start to seat 65
-button 7777,3952,8000
-small 5555,1931,4000
-big 3333,1644,8000
-normal  2222,13050,6028
-normal  4444,1518,6016
-normal  8888,1212,6084
-normal  1111,566,6095
-normal  6666,3904,8000
-start to blind
-5555 is small blind:50
-3333 is big blind:100
-get hold
-base card: DIAMONDS-2
-base card: DIAMONDS-A
-base card: 81922,268454953
-get inquire
-get player1111 566 6095 0 35
-get player8888 1212 6084 0 35
-get player4444 1518 6016 0 35
-get player2222 12644 6028 406 33
-get player3333 1544 8000 100 30
-get player5555 1881 4000 50 30
-get total556
-time: 9084.0,38900.0
-  activeIncludingSelf 5 wager 325 maxWager 2168 prevWager 0 prob 0.28334293059125965
-
-timeout: 200
-action: call 
-
-get flop
-flop card: HEARTS-2
-flop card: CLUBS-Q
-flop card: SPADES-Q
-get inquire
-get player1111 566 6095 0 35
-get player8888 1212 6084 0 35
-get player4444 1518 6016 0 35
-get player2222 12644 6028 406 31
-get player3333 1238 8000 406 31
-get player5555 1881 4000 50 35
-get player7777 3952 8000 0 35
-get player6666 3498 8000 406 32
-get total1268
-time: 14704.0,45020.0
-  activeIncludingSelf 3 wager 42 maxWager 1943 prevWager 406 prob 0.3434451354953354
-
-timeout: 200
-action: call 
-
-get turn
-turn card: HEARTS-K
-get inquire
-get player1111 566 6095 0 35
-get player8888 1212 6084 0 35
-get player4444 1518 6016 0 35
-get player2222 12644 6028 406 35
-get player3333 638 8000 1006 33
-get player5555 1881 4000 50 35
-get player7777 3952 8000 0 35
-get player6666 3498 8000 406 31
-get total1868
-time: 24904.0,57260.0
-  activeIncludingSelf 2 wager -332 maxWager 1943 prevWager 406 prob 0.44057911281872164
-
-timeout: 200
-action: call 
-
-get river
-river card: HEARTS-9
-get inquire
-get player1111 566 6095 0 35
-get player8888 1212 6084 0 35
-get player4444 1518 6016 0 35
-get player2222 12644 6028 406 35
-get player3333 38 8000 1606 33
-get player5555 1881 4000 50 35
-get player7777 3952 8000 0 35
-get player6666 2898 8000 1006 32
-get total3068
-time: 23304.0,68300.0
-  activeIncludingSelf 2 wager -733 maxWager 1610 prevWager 1006 prob 0.3418593850658858
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 566 6095 0 35
-get player8888 1212 6084 0 35
-get player4444 1518 6016 0 35
-get player2222 12644 6028 406 35
-get player3333 38 8000 1606 33
-get player5555 1881 4000 50 35
-get player7777 3952 8000 0 35
-get player6666 2298 8000 1606 32
-get total3668
-get showdown
-1: 3333 CLUBS K HEARTS 10 TWO_PAIR 
-2: 6666 DIAMONDS 2 DIAMONDS A TWO_PAIR 
-get pot-win
-3333: 3668 
-start to seat 66
-button 5555,1881,4000
-small 3333,3706,8000
-big 2222,12644,6028
-normal  4444,1518,6016
-normal  8888,1212,6084
-normal  1111,566,6095
-normal  6666,2298,8000
-normal  7777,3952,8000
-start to blind
-3333 is small blind:50
-2222 is big blind:100
-get hold
-base card: CLUBS-A
-base card: SPADES-A
-base card: 268471337,268442665
-get inquire
-get player1111 566 6095 0 35
-get player8888 1112 6084 100 32
-get player4444 1418 6016 100 32
-get player2222 12544 6028 100 30
-get player3333 3656 8000 50 30
-get total350
-time: 11646.0,28180.0
-  activeIncludingSelf 7 wager 661 maxWager 1276 prevWager 0 prob 0.45140915542938254
-
-timeout: 200
-action: raise 661 
-
-get flop
-flop card: CLUBS-9
-flop card: HEARTS-8
-flop card: DIAMONDS-3
-get inquire
-get player1111 566 6095 0 35
-get player8888 1112 6084 100 35
-get player4444 1418 6016 100 35
-get player2222 11883 6028 761 31
-get player3333 3656 8000 50 35
-get player5555 1881 4000 0 35
-get player7777 3952 8000 0 35
-get player6666 1537 8000 761 33
-get total1772
-time: 47172.0,65040.0
-  activeIncludingSelf 2 wager 570 maxWager 853 prevWager 761 prob 0.7321448339483395
-
-timeout: 200
-action: call 
-
-get turn
-turn card: HEARTS-4
-get inquire
-get player1111 566 6095 0 35
-get player8888 1112 6084 100 35
-get player4444 1418 6016 100 35
-get player2222 11883 6028 761 31
-get player3333 3656 8000 50 35
-get player5555 1881 4000 0 35
-get player7777 3952 8000 0 35
-get player6666 1537 8000 761 31
-get total1772
-time: 48685.0,64040.0
-  activeIncludingSelf 2 wager 645 maxWager 853 prevWager 761 prob 0.7626257026858214
-
-timeout: 200
-action: call 
-
-get river
-river card: SPADES-10
-get inquire
-get player1111 566 6095 0 35
-get player8888 1112 6084 100 35
-get player4444 1418 6016 100 35
-get player2222 11883 6028 761 31
-get player3333 3656 8000 50 35
-get player5555 1881 4000 0 35
-get player7777 3952 8000 0 35
-get player6666 1537 8000 761 31
-get total1772
-time: 52943.0,73200.0
-  activeIncludingSelf 2 wager 549 maxWager 853 prevWager 761 prob 0.7235417622950819
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 566 6095 0 35
-get player8888 1112 6084 100 35
-get player4444 1418 6016 100 35
-get player2222 11883 6028 761 31
-get player3333 3656 8000 50 35
-get player5555 1881 4000 0 35
-get player7777 3952 8000 0 35
-get player6666 1537 8000 761 31
-get total1772
-get showdown
-2: 2222 DIAMONDS 6 CLUBS J HIGH_CARD 
-1: 6666 CLUBS A SPADES A ONE_PAIR 
-get pot-win
-6666: 1772 
-start to seat 67
-button 3333,3656,8000
-small 2222,11883,6028
-big 4444,1418,6016
-normal  8888,1112,6084
-normal  1111,566,6095
-normal  6666,3309,8000
-normal  7777,3952,8000
-normal  5555,1881,4000
-start to blind
-2222 is small blind:50
-4444 is big blind:100
-get hold
-base card: CLUBS-6
-base card: DIAMONDS-Q
-base card: 1082379,67127839
-get inquire
-get player1111 466 6095 100 32
-get player8888 1012 6084 100 32
-get player4444 1318 6016 100 30
-get player2222 11833 6028 50 30
-get total350
-time: 2972.0,26210.0
-  activeIncludingSelf 8 wager 139 maxWager 1838 prevWager 0 prob 0.17102136589088135
-
-timeout: 200
-action: raise 139 
-
-get inquire
-get player1111 466 6095 100 35
-get player8888 1012 6084 100 35
-get player4444 1318 6016 100 35
-get player2222 11381 6028 502 33
-get player3333 3656 8000 0 35
-get player5555 1881 4000 0 35
-get player7777 3952 8000 0 35
-get player6666 3070 8000 239 33
-get total1041
-time: 23796.0,69310.0
-  activeIncludingSelf 2 wager -559 maxWager 1705 prevWager 239 prob 0.38601082094935796
-
-timeout: 200
-action: call 
-
-get flop
-flop card: HEARTS-6
-flop card: SPADES-Q
-flop card: DIAMONDS-8
-get inquire
-get player1111 466 6095 100 35
-get player8888 1012 6084 100 35
-get player4444 1318 6016 100 35
-get player2222 11381 6028 502 31
-get player3333 3656 8000 0 35
-get player5555 1881 4000 0 35
-get player7777 3952 8000 0 35
-get player6666 2807 8000 502 32
-get total1304
-time: 38757.0,48500.0
-  activeIncludingSelf 2 wager 1365 maxWager 1559 prevWager 502 prob 0.8041355670103093
-
-timeout: 200
-action: call 
-
-get turn
-turn card: SPADES-8
-get inquire
-get player1111 466 6095 100 35
-get player8888 1012 6084 100 35
-get player4444 1318 6016 100 35
-get player2222 11381 6028 502 31
-get player3333 3656 8000 0 35
-get player5555 1881 4000 0 35
-get player7777 3952 8000 0 35
-get player6666 2807 8000 502 31
-get total1304
-time: 37161.0,57520.0
-  activeIncludingSelf 2 wager 671 maxWager 1559 prevWager 502 prob 0.6495930111265646
-
-timeout: 200
-action: call 
-
-get river
-river card: SPADES-9
-get inquire
-get player1111 466 6095 100 35
-get player8888 1012 6084 100 35
-get player4444 1318 6016 100 35
-get player2222 11381 6028 502 31
-get player3333 3656 8000 0 35
-get player5555 1881 4000 0 35
-get player7777 3952 8000 0 35
-get player6666 2807 8000 502 31
-get total1304
-time: 37200.0,67220.0
-  activeIncludingSelf 2 wager 241 maxWager 1559 prevWager 502 prob 0.5538533174650402
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 466 6095 100 35
-get player8888 1012 6084 100 35
-get player4444 1318 6016 100 35
-get player2222 11381 6028 502 31
-get player3333 3656 8000 0 35
-get player5555 1881 4000 0 35
-get player7777 3952 8000 0 35
-get player6666 2807 8000 502 31
-get total1304
-get showdown
-2: 2222 DIAMONDS 4 DIAMONDS 9 TWO_PAIR 
-1: 6666 CLUBS 6 DIAMONDS Q TWO_PAIR 
-get pot-win
-6666: 1304 
-start to seat 68
-button 2222,11381,6028
-small 4444,1318,6016
-big 8888,1012,6084
-normal  1111,466,6095
-normal  6666,4111,8000
-normal  7777,3952,8000
-normal  5555,1881,4000
-normal  3333,3656,8000
-start to blind
-4444 is small blind:50
-8888 is big blind:100
-get hold
-base card: DIAMONDS-Q
-base card: SPADES-K
-base card: 67127839,134224677
-get inquire
-get player1111 466 6095 0 35
-get player8888 912 6084 100 30
-get player4444 1268 6016 50 30
-get total150
-time: 7124.0,32700.0
-  activeIncludingSelf 7 wager 482 maxWager 2283 prevWager 0 prob 0.26869847094801225
-
-timeout: 201
-action: raise 482 
-
-get flop
-flop card: CLUBS-J
-flop card: SPADES-A
-flop card: SPADES-7
-get inquire
-get player1111 466 6095 0 35
-get player8888 912 6084 100 35
-get player4444 1268 6016 50 35
-get player2222 10799 6028 582 32
-get player3333 3656 8000 0 35
-get player5555 1299 4000 582 32
-get player7777 3952 8000 0 35
-get player6666 3529 8000 582 33
-get total1896
-time: 17840.0,50760.0
-  activeIncludingSelf 3 wager 145 maxWager 1960 prevWager 582 prob 0.36767139479905436
-
-timeout: 200
-action: call 
-
-get turn
-turn card: SPADES-4
-get inquire
-get player1111 466 6095 0 35
-get player8888 912 6084 100 35
-get player4444 1268 6016 50 35
-get player2222 10799 6028 582 31
-get player3333 3656 8000 0 35
-get player5555 1299 4000 582 35
-get player7777 3952 8000 0 35
-get player6666 3529 8000 582 31
-get total1896
-time: 32745.0,74180.0
-  activeIncludingSelf 2 wager -299 maxWager 1960 prevWager 582 prob 0.44701199784308443
-
-timeout: 200
-action: call 
-
-get river
-river card: HEARTS-9
-get inquire
-get player1111 466 6095 0 35
-get player8888 912 6084 100 35
-get player4444 1268 6016 50 35
-get player2222 10799 6028 582 31
-get player3333 3656 8000 0 35
-get player5555 1299 4000 582 35
-get player7777 3952 8000 0 35
-get player6666 3529 8000 582 31
-get total1896
-time: 14861.0,97450.0
-  activeIncludingSelf 2 wager -1957 maxWager 1960 prevWager 582 prob 0.15334621857362749
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 466 6095 0 35
-get player8888 912 6084 100 35
-get player4444 1268 6016 50 35
-get player2222 10799 6028 582 31
-get player3333 3656 8000 0 35
-get player5555 1299 4000 582 35
-get player7777 3952 8000 0 35
-get player6666 3529 8000 582 31
-get total1896
-get showdown
-2: 6666 DIAMONDS Q SPADES K HIGH_CARD 
-1: 2222 SPADES Q SPADES 6 FLUSH 
-get pot-win
-2222: 1896 
-start to seat 69
-button 4444,1268,6016
-small 8888,912,6084
-big 1111,466,6095
-normal  6666,3529,8000
-normal  7777,3952,8000
-normal  5555,1299,4000
-normal  3333,3656,8000
-normal  2222,12695,6028
+6666: 1489 
+start to seat 6
+button 4444,506,8000
+small 8888,327,8000
+big 5555,3742,8000
+normal  6666,2541,8000
+normal  1111,1897,8000
+normal  2222,912,8000
+normal  3333,4225,8000
+normal  7777,1850,8000
 start to blind
 8888 is small blind:50
-1111 is big blind:100
-get hold
-base card: DIAMONDS-4
-base card: SPADES-K
-base card: 279045,134224677
-get inquire
-get player1111 366 6095 100 30
-get player8888 862 6084 50 30
-get total150
-time: 3528.0,30070.0
-  activeIncludingSelf 8 wager 160 maxWager 1960 prevWager 0 prob 0.17470003325573663
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 366 6095 100 35
-get player8888 862 6084 50 35
-get player4444 1268 6016 0 35
-get player2222 12028 6028 667 33
-get player3333 3656 8000 0 35
-get player5555 1085 4000 214 33
-get player7777 3952 8000 0 35
-get player6666 3429 8000 100 32
-get total1131
-time: 14429.0,56330.0
-  activeIncludingSelf 3 wager -118 maxWager 1905 prevWager 100 prob 0.3045014202023788
-
-timeout: 200
-action: fold 
-
-get flop
-flop card: HEARTS-K
-flop card: CLUBS-4
-flop card: CLUBS-5
-get notify
-get player1111 366 6095 100 35
-get player8888 862 6084 50 35
-get player4444 1268 6016 0 35
-get player2222 11575 6028 1120 32
-get player3333 3656 8000 0 35
-get player5555 179 4000 1120 33
-get player7777 3952 8000 0 35
-get player6666 3429 8000 100 35
-get total2490
-get turn
-turn card: CLUBS-10
-get notify
-get player1111 366 6095 100 35
-get player8888 862 6084 50 35
-get player4444 1268 6016 0 35
-get player2222 11461 6028 1234 32
-get player3333 3656 8000 0 35
-get player5555 65 4000 1234 33
-get player7777 3952 8000 0 35
-get player6666 3429 8000 100 35
-get total2718
-get river
-river card: CLUBS-Q
-get notify
-get player1111 366 6095 100 35
-get player8888 862 6084 50 35
-get player4444 1268 6016 0 35
-get player2222 11396 6028 1299 32
-get player3333 3656 8000 0 35
-get player5555 0 4000 1299 34
-get player7777 3952 8000 0 35
-get player6666 3429 8000 100 35
-get total2848
-get showdown
-2: 5555 DIAMONDS A DIAMONDS K ONE_PAIR 
-1: 2222 CLUBS J DIAMONDS 7 FLUSH 
-get pot-win
-2222: 2848 
-start to seat 70
-button 8888,862,6084
-small 1111,366,6095
-big 6666,3429,8000
-normal  7777,3952,8000
-normal  5555,2000,2000
-normal  3333,3656,8000
-normal  2222,14244,6028
-normal  4444,1268,6016
-start to blind
-1111 is small blind:50
-6666 is big blind:100
-get hold
-base card: SPADES-2
-base card: HEARTS-8
-base card: 69634,4204049
-get inquire
-get player1111 266 6095 100 32
-get player8888 762 6084 100 32
-get player4444 1268 6016 0 35
-get player2222 14144 6028 100 32
-get player3333 3656 8000 0 35
-get player5555 1900 2000 100 32
-get player7777 3952 8000 0 35
-get player6666 3329 8000 100 30
-get total500
-time: 5137.0,42190.0
-  activeIncludingSelf 5 wager -70 maxWager 1849 prevWager 100 prob 0.1788443944062574
-
-timeout: 200
-action: call 
-
-get flop
-flop card: HEARTS-6
-flop card: HEARTS-7
-flop card: CLUBS-10
-get inquire
-get player1111 266 6095 100 31
-get player8888 762 6084 100 32
-get player4444 1268 6016 0 35
-get player2222 14144 6028 100 32
-get player3333 3656 8000 0 35
-get player5555 1900 2000 100 32
-get player7777 3952 8000 0 35
-get player6666 3329 8000 100 31
-get total500
-time: 5898.0,44330.0
-  activeIncludingSelf 5 wager -150 maxWager 1849 prevWager 100 prob 0.15472140762463343
-
-timeout: 200
-action: call 
-
-get turn
-turn card: DIAMONDS-K
-get inquire
-get player1111 266 6095 100 31
-get player8888 762 6084 100 31
-get player4444 1268 6016 0 35
-get player2222 14144 6028 100 31
-get player3333 3656 8000 0 35
-get player5555 1900 2000 100 31
-get player7777 3952 8000 0 35
-get player6666 3329 8000 100 31
-get total500
-time: 3898.0,48280.0
-  activeIncludingSelf 5 wager -366 maxWager 1849 prevWager 100 prob 0.08992999171499585
-
-timeout: 200
-action: call 
-
-get river
-river card: DIAMONDS-6
-get inquire
-get player1111 266 6095 100 31
-get player8888 762 6084 100 31
-get player4444 1268 6016 0 35
-get player2222 14144 6028 100 31
-get player3333 3656 8000 0 35
-get player5555 1900 2000 100 35
-get player7777 3952 8000 0 35
-get player6666 3329 8000 100 31
-get total500
-time: 1937.0,48190.0
-  activeIncludingSelf 4 wager -741 maxWager 1849 prevWager 100 prob 0.041154866154803904
-
-timeout: 200
-action: call 
-
-get notify
-get player1111 266 6095 100 31
-get player8888 762 6084 100 31
-get player4444 1268 6016 0 35
-get player2222 14144 6028 100 31
-get player3333 3656 8000 0 35
-get player5555 1900 2000 100 35
-get player7777 3952 8000 0 35
-get player6666 3329 8000 100 31
-get total500
-get showdown
-2: 1111 DIAMONDS 2 SPADES J ONE_PAIR 
-4: 6666 SPADES 2 HEARTS 8 ONE_PAIR 
-3: 2222 SPADES 9 CLUBS 2 ONE_PAIR 
-1: 8888 HEARTS Q CLUBS 8 ONE_PAIR 
-get pot-win
-8888: 500 
-start to seat 71
-button 1111,266,6095
-small 6666,3329,8000
-big 7777,3952,8000
-normal  5555,1900,2000
-normal  3333,3656,8000
-normal  2222,14144,6028
-normal  4444,1268,6016
-normal  8888,1262,6084
-start to blind
-6666 is small blind:50
-7777 is big blind:100
-get hold
-base card: DIAMONDS-3
-base card: DIAMONDS-2
-base card: 147715,81922
-get inquire
-get player1111 266 6095 0 35
-get player8888 1262 6084 0 35
-get player4444 1268 6016 0 35
-get player2222 12643 6028 1501 33
-get player3333 3656 8000 0 35
-get player5555 1800 2000 100 32
-get player7777 3852 8000 100 30
-get player6666 3279 8000 50 30
-get total1751
-time: 7013.0,38880.0
-  activeIncludingSelf 4 wager -57 maxWager 1821 prevWager 50 prob 0.23365110596707822
-
-timeout: 200
-action: fold 
-
-get flop
-flop card: SPADES-6
-flop card: SPADES-2
-flop card: CLUBS-9
-get notify
-get player1111 266 6095 0 35
-get player8888 1262 6084 0 35
-get player4444 1268 6016 0 35
-get player2222 12643 6028 1501 33
-get player3333 3656 8000 0 35
-get player5555 399 2000 1501 32
-get player7777 3852 8000 100 35
-get player6666 3279 8000 50 35
-get total3152
-get notify
-get player1111 266 6095 0 35
-get player8888 1262 6084 0 35
-get player4444 1268 6016 0 35
-get player2222 12643 6028 1501 31
-get player3333 3656 8000 0 35
-get player5555 399 2000 1501 35
-get player7777 3852 8000 100 35
-get player6666 3279 8000 50 35
-get total3152
-get pot-win
-2222: 3152 
-start to seat 72
-button 6666,3279,8000
-small 7777,3852,8000
-big 5555,399,2000
-normal  3333,3656,8000
-normal  2222,15795,6028
-normal  4444,1268,6016
-normal  8888,1262,6084
-normal  1111,266,6095
-start to blind
-7777 is small blind:50
 5555 is big blind:100
 get hold
-base card: DIAMONDS-J
+base card: CLUBS-5
 base card: CLUBS-6
-base card: 33573149,1082379
 get inquire
-get player1111 266 6095 0 35
-get player8888 1262 6084 0 35
-get player4444 1268 6016 0 35
-get player2222 14966 6028 829 33
-get player3333 3656 8000 0 35
-get player5555 299 2000 100 30
-get player7777 3802 8000 50 30
-get total979
-time: 9048.0,46770.0
-  activeIncludingSelf 4 wager -14 maxWager 1821 prevWager 0 prob 0.2458826170622194
+get player5555 3642 8000 100 30
+get player8888 277 8000 50 30
+get total150
+time: 4544.0,28850.0
+  activeIncludingSelf 8 wager 202 maxWager 1411 prevWager 0 prob 0.21226655112651646
 
 timeout: 200
-action: fold 
+action: raise 202 
 
 get notify
-get player1111 266 6095 0 35
-get player8888 1262 6084 0 35
-get player4444 1268 6016 0 35
-get player2222 14966 6028 829 33
-get player3333 3656 8000 0 35
-get player5555 299 2000 100 35
-get player7777 3802 8000 50 35
-get player6666 3279 8000 0 35
-get total979
+get player5555 3642 8000 100 35
+get player8888 277 8000 50 35
+get player4444 506 8000 0 35
+get player7777 1850 8000 0 35
+get player3333 4225 8000 0 35
+get player2222 912 8000 0 35
+get player1111 1897 8000 0 35
+get player6666 2239 8000 302 33
+get total452
 get pot-win
-2222: 979 
-start to seat 73
-button 7777,3802,8000
-small 5555,299,2000
-big 3333,3656,8000
-normal  2222,15945,6028
-normal  4444,1268,6016
-normal  8888,1262,6084
-normal  1111,266,6095
-normal  6666,3279,8000
+6666: 452 
+start to seat 7
+button 8888,277,8000
+small 5555,3642,8000
+big 6666,2691,8000
+normal  1111,1897,8000
+normal  2222,912,8000
+normal  3333,4225,8000
+normal  7777,1850,8000
+normal  4444,506,8000
 start to blind
 5555 is small blind:50
-3333 is big blind:100
+6666 is big blind:100
 get hold
-base card: CLUBS-2
-base card: CLUBS-8
-base card: 98306,4228625
+base card: SPADES-A
+base card: HEARTS-7
 get inquire
-get player1111 266 6095 0 35
-get player8888 1262 6084 0 35
-get player4444 1268 6016 0 35
-get player2222 13852 6028 2093 33
-get player3333 3556 8000 100 30
-get player5555 249 2000 50 30
-get total2243
-time: 6146.0,38780.0
-  activeIncludingSelf 5 wager 43 maxWager 1821 prevWager 0 prob 0.21318231046931407
-
-timeout: 200
-action: fold 
-
-get flop
-flop card: HEARTS-5
-flop card: HEARTS-2
-flop card: DIAMONDS-10
-get turn
-turn card: DIAMONDS-J
-get river
-river card: CLUBS-7
-get notify
-get player1111 266 6095 0 35
-get player8888 1262 6084 0 35
-get player4444 1268 6016 0 35
-get player2222 13852 6028 2093 33
-get player3333 3556 8000 100 35
-get player5555 0 2000 299 34
-get player7777 3802 8000 0 35
-get player6666 3279 8000 0 35
-get total2492
-get showdown
-2: 5555 HEARTS Q HEARTS 9 HIGH_CARD 
-1: 2222 CLUBS J CLUBS Q ONE_PAIR 
-get pot-win
-2222: 2492 
-start to seat 74
-button 5555,2000,0
-small 3333,3556,8000
-big 2222,16344,6028
-normal  4444,1268,6016
-normal  8888,1262,6084
-normal  1111,266,6095
-normal  6666,3279,8000
-normal  7777,3802,8000
-start to blind
-3333 is small blind:50
-2222 is big blind:100
-get hold
-base card: HEARTS-4
-base card: DIAMONDS-Q
-base card: 270853,67127839
-get inquire
-get player1111 266 6095 0 35
-get player8888 1162 6084 100 32
-get player4444 1168 6016 100 32
-get player2222 16244 6028 100 30
-get player3333 3506 8000 50 30
-get total350
-time: 4123.0,33000.0
-  activeIncludingSelf 7 wager 119 maxWager 1821 prevWager 0 prob 0.18181833333333333
-
-timeout: 200
-action: call 
-
-get inquire
-get player1111 266 6095 0 35
-get player8888 1042 6084 220 32
-get player4444 1048 6016 220 32
-get player2222 16124 6028 220 32
-get player3333 3506 8000 50 35
-get player5555 1780 0 220 33
-get player7777 3802 8000 0 35
-get player6666 3179 8000 100 32
-get total1030
-time: 4987.0,31220.0
-  activeIncludingSelf 5 wager 45 maxWager 1766 prevWager 100 prob 0.2143544202434337
+get player5555 3434 8000 208 32
+get player8888 277 8000 0 35
+get player4444 506 8000 0 35
+get player7777 1850 8000 0 35
+get player3333 4225 8000 0 35
+get player2222 704 8000 208 33
+get player1111 1797 8000 100 32
+get player6666 2591 8000 100 30
+get total616
+time: 11733.0,47760.0
+  activeIncludingSelf 4 wager 123 maxWager 1439 prevWager 100 prob 0.2946975502512563
 
 timeout: 200
 action: call 
 
 get flop
-flop card: DIAMONDS-8
-flop card: DIAMONDS-6
-flop card: SPADES-6
+flop card: SPADES-4
+flop card: DIAMONDS-A
+flop card: DIAMONDS-9
 get inquire
-get player1111 266 6095 0 35
-get player8888 1042 6084 220 35
-get player4444 686 6016 582 33
-get player2222 16124 6028 220 31
-get player3333 3506 8000 50 35
-get player5555 1780 0 220 33
-get player7777 3802 8000 0 35
-get player6666 3059 8000 220 32
-get total1512
-time: 4775.0,37360.0
-  activeIncludingSelf 4 wager -327 maxWager 1699 prevWager 220 prob 0.1496152301927195
+get player5555 3434 8000 208 35
+get player8888 277 8000 0 35
+get player4444 506 8000 0 35
+get player7777 1850 8000 0 35
+get player3333 4225 8000 0 35
+get player2222 704 8000 208 33
+get player1111 1689 8000 208 32
+get player6666 2483 8000 208 32
+get total832
+time: 32431.0,55780.0
+  activeIncludingSelf 3 wager 770 maxWager 1379 prevWager 208 prob 0.5918738795267121
 
 timeout: 200
-action: fold 
+action: raise 562 
 
-get turn
-turn card: CLUBS-Q
 get notify
-get player1111 266 6095 0 35
-get player8888 1042 6084 220 35
-get player4444 324 6016 944 35
-get player2222 16124 6028 220 35
-get player3333 3506 8000 50 35
-get player5555 1056 0 944 33
-get player7777 3802 8000 0 35
-get player6666 3059 8000 220 35
-get total2598
-get notify
-get player1111 266 6095 0 35
-get player8888 1042 6084 220 35
-get player4444 324 6016 944 35
-get player2222 16124 6028 220 35
-get player3333 3506 8000 50 35
-get player5555 936 0 1064 33
-get player7777 3802 8000 0 35
-get player6666 3059 8000 220 35
-get total2718
+get player5555 3434 8000 208 35
+get player8888 277 8000 0 35
+get player4444 506 8000 0 35
+get player7777 1850 8000 0 35
+get player3333 4225 8000 0 35
+get player2222 704 8000 208 35
+get player1111 1689 8000 208 35
+get player6666 1921 8000 770 33
+get total1394
 get pot-win
-5555: 2718 
-start to seat 75
-button 3333,3506,8000
-small 2222,16124,6028
-big 4444,324,6016
-normal  8888,1042,6084
-normal  1111,266,6095
-normal  6666,3059,8000
-normal  7777,3802,8000
-normal  5555,3654,0
+6666: 1394 
+start to seat 8
+button 5555,3434,8000
+small 6666,3315,8000
+big 1111,1689,8000
+normal  2222,704,8000
+normal  3333,4225,8000
+normal  7777,1850,8000
+normal  4444,506,8000
+normal  8888,277,8000
 start to blind
-2222 is small blind:50
-4444 is big blind:100
+6666 is small blind:50
+1111 is big blind:100
 get hold
-base card: SPADES-K
-base card: SPADES-4
-base card: 134224677,266757
+base card: DIAMONDS-2
+base card: HEARTS-8
 get inquire
-get player1111 266 6095 0 35
-get player8888 838 6084 204 33
-get player4444 224 6016 100 30
-get player2222 16074 6028 50 30
-get total354
-time: 5521.0,32470.0
-  activeIncludingSelf 7 wager 231 maxWager 1699 prevWager 0 prob 0.22398167539267017
+get player5555 3434 8000 0 35
+get player8888 177 8000 100 32
+get player4444 506 8000 0 35
+get player7777 1850 8000 0 35
+get player3333 4225 8000 0 35
+get player2222 704 8000 0 35
+get player1111 1589 8000 100 30
+get player6666 3265 8000 50 30
+get total250
+time: 10199.0,56460.0
+  activeIncludingSelf 3 wager -389 maxWager 1813 prevWager 50 prob 0.2338994863620262
 
 timeout: 200
-action: raise 231 
+action: call 
 
 get flop
 flop card: DIAMONDS-4
-flop card: DIAMONDS-6
-flop card: DIAMONDS-10
+flop card: DIAMONDS-3
+flop card: DIAMONDS-J
 get inquire
-get player1111 266 6095 0 35
-get player8888 607 6084 435 31
-get player4444 224 6016 100 35
-get player2222 15689 6028 435 31
-get player3333 3506 8000 0 35
-get player5555 3654 0 0 35
-get player7777 3802 8000 0 35
-get player6666 2624 8000 435 33
-get total1405
-time: 11274.0,55010.0
-  activeIncludingSelf 3 wager -341 maxWager 1457 prevWager 435 prob 0.22482094164697328
+get player5555 3434 8000 0 35
+get player8888 177 8000 100 32
+get player4444 506 8000 0 35
+get player7777 1850 8000 0 35
+get player3333 4225 8000 0 35
+get player2222 704 8000 0 35
+get player1111 1589 8000 100 31
+get player6666 3215 8000 100 32
+get total300
+time: 7113.0,43710.0
+  activeIncludingSelf 3 wager -577 maxWager 1786 prevWager 100 prob 0.1836633493479753
 
 timeout: 200
 action: call 
 
 get turn
-turn card: HEARTS-Q
+turn card: SPADES-6
 get inquire
-get player1111 266 6095 0 35
-get player8888 607 6084 435 31
-get player4444 224 6016 100 35
-get player2222 15689 6028 435 31
-get player3333 3506 8000 0 35
-get player5555 3654 0 0 35
-get player7777 3802 8000 0 35
-get player6666 2624 8000 435 31
-get total1405
-time: 11091.0,60760.0
-  activeIncludingSelf 3 wager -449 maxWager 1457 prevWager 435 prob 0.19071247531270571
+get player5555 3434 8000 0 35
+get player8888 177 8000 100 31
+get player4444 506 8000 0 35
+get player7777 1850 8000 0 35
+get player3333 4225 8000 0 35
+get player2222 704 8000 0 35
+get player1111 1589 8000 100 31
+get player6666 3215 8000 100 31
+get total300
+time: 8536.0,67240.0
+  activeIncludingSelf 3 wager -762 maxWager 1786 prevWager 100 prob 0.13567876264128492
 
 timeout: 200
 action: call 
 
 get river
-river card: CLUBS-J
+river card: HEARTS-4
 get inquire
-get player1111 266 6095 0 35
-get player8888 607 6084 435 31
-get player4444 224 6016 100 35
-get player2222 15689 6028 435 31
-get player3333 3506 8000 0 35
-get player5555 3654 0 0 35
-get player7777 3802 8000 0 35
-get player6666 2624 8000 435 31
-get total1405
-time: 6845.0,65500.0
-  activeIncludingSelf 3 wager -717 maxWager 1457 prevWager 435 prob 0.10539931297709924
+get player5555 3434 8000 0 35
+get player8888 177 8000 100 31
+get player4444 506 8000 0 35
+get player7777 1850 8000 0 35
+get player3333 4225 8000 0 35
+get player2222 704 8000 0 35
+get player1111 1589 8000 100 31
+get player6666 3215 8000 100 31
+get total300
+time: 1628.0,41900.0
+  activeIncludingSelf 3 wager -1132 maxWager 1786 prevWager 100 prob 0.03981556085918854
 
-timeout: 200
+timeout: 201
 action: call 
 
 get notify
-get player1111 266 6095 0 35
-get player8888 607 6084 435 31
-get player4444 224 6016 100 35
-get player2222 15689 6028 435 31
-get player3333 3506 8000 0 35
-get player5555 3654 0 0 35
-get player7777 3802 8000 0 35
-get player6666 2624 8000 435 31
-get total1405
+get player5555 3434 8000 0 35
+get player8888 177 8000 100 31
+get player4444 506 8000 0 35
+get player7777 1850 8000 0 35
+get player3333 4225 8000 0 35
+get player2222 704 8000 0 35
+get player1111 1589 8000 100 31
+get player6666 3215 8000 100 31
+get total300
 get showdown
-2: 2222 SPADES 10 HEARTS K ONE_PAIR 
-1: 8888 SPADES 9 SPADES J ONE_PAIR 
-3: 6666 SPADES K SPADES 4 ONE_PAIR 
+3: 6666 DIAMONDS 2 HEARTS 8 ONE_PAIR 
+2: 1111 SPADES 3 SPADES Q TWO_PAIR 
+1: 8888 HEARTS 9 CLUBS 9 TWO_PAIR 
 get pot-win
-8888: 1405 
-start to seat 76
-button 2222,15689,6028
-small 4444,224,6016
-big 8888,2012,6084
-normal  1111,266,6095
-normal  6666,2624,8000
-normal  7777,3802,8000
-normal  5555,3654,0
-normal  3333,3506,8000
-start to blind
-4444 is small blind:50
-8888 is big blind:100
-get hold
-base card: SPADES-8
-base card: HEARTS-J
-base card: 4199953,33564957
-get inquire
-get player1111 266 6095 0 35
-get player8888 1912 6084 100 30
-get player4444 174 6016 50 30
-get total150
-time: 4876.0,32890.0
-  activeIncludingSelf 7 wager 148 maxWager 1457 prevWager 0 prob 0.20361538461538461
-
-timeout: 200
-action: raise 148 
-
-get inquire
-get player1111 266 6095 0 35
-get player8888 1912 6084 100 35
-get player4444 174 6016 50 35
-get player2222 13724 6028 1965 33
-get player3333 3506 8000 0 35
-get player5555 3654 0 0 35
-get player7777 3802 8000 0 35
-get player6666 2376 8000 248 33
-get total2363
-time: 25983.0,71250.0
-  activeIncludingSelf 2 wager -357 maxWager 1320 prevWager 248 prob 0.4059698947368421
-
-timeout: 200
-action: fold 
-
-get notify
-get player1111 266 6095 0 35
-get player8888 1912 6084 100 35
-get player4444 174 6016 50 35
-get player2222 13724 6028 1965 33
-get player3333 3506 8000 0 35
-get player5555 3654 0 0 35
-get player7777 3802 8000 0 35
-get player6666 2376 8000 248 35
-get total2363
-get pot-win
-2222: 2363 
-start to seat 77
-button 4444,174,6016
-small 8888,1912,6084
-big 1111,266,6095
-normal  6666,2376,8000
-normal  7777,3802,8000
-normal  5555,3654,0
-normal  3333,3506,8000
-normal  2222,16087,6028
-start to blind
-8888 is small blind:50
-1111 is big blind:100
-get hold
-base card: DIAMONDS-5
-base card: DIAMONDS-8
-base card: 541447,4212241
-get inquire
-get player1111 166 6095 100 30
-get player8888 1862 6084 50 30
-get total150
-time: 3626.0,25590.0
-  activeIncludingSelf 8 wager 157 maxWager 1320 prevWager 0 prob 0.19748573661586558
-
-timeout: 200
-action: raise 157 
-
-get inquire
-get player1111 166 6095 100 35
-get player8888 1862 6084 50 35
-get player4444 174 6016 0 35
-get player2222 15154 6028 933 33
-get player3333 3506 8000 0 35
-get player5555 3397 0 257 32
-get player7777 3802 8000 0 35
-get player6666 2119 8000 257 33
-get total1597
-time: 13080.0,50110.0
-  activeIncludingSelf 3 wager -61 maxWager 1177 prevWager 257 prob 0.309059070045899
-
-timeout: 200
-action: fold 
-
-get flop
-flop card: CLUBS-K
-flop card: CLUBS-5
-flop card: HEARTS-7
-get notify
-get player1111 166 6095 100 35
-get player8888 1862 6084 50 35
-get player4444 174 6016 0 35
-get player2222 15154 6028 933 33
-get player3333 3506 8000 0 35
-get player5555 2721 0 933 32
-get player7777 3802 8000 0 35
-get player6666 2119 8000 257 35
-get total2273
-get turn
-turn card: CLUBS-4
-get notify
-get player1111 166 6095 100 35
-get player8888 1862 6084 50 35
-get player4444 174 6016 0 35
-get player2222 15154 6028 933 31
-get player3333 3506 8000 0 35
-get player5555 2721 0 933 31
-get player7777 3802 8000 0 35
-get player6666 2119 8000 257 35
-get total2273
-get notify
-get player1111 166 6095 100 35
-get player8888 1862 6084 50 35
-get player4444 174 6016 0 35
-get player2222 15154 6028 933 31
-get player3333 3506 8000 0 35
-get player5555 2721 0 933 35
-get player7777 3802 8000 0 35
-get player6666 2119 8000 257 35
-get total2273
-get pot-win
-2222: 2273 
-start to seat 78
-button 8888,1862,6084
-small 1111,166,6095
-big 6666,2119,8000
-normal  7777,3802,8000
-normal  5555,2721,0
-normal  3333,3506,8000
-normal  2222,17427,6028
-normal  4444,174,6016
+8888: 300 
+start to seat 9
+button 6666,3215,8000
+small 1111,1589,8000
+big 2222,704,8000
+normal  3333,4225,8000
+normal  7777,1850,8000
+normal  4444,506,8000
+normal  8888,477,8000
+normal  5555,3434,8000
 start to blind
 1111 is small blind:50
-6666 is big blind:100
+2222 is big blind:100
 get hold
-base card: SPADES-9
-base card: DIAMONDS-4
-base card: 8394515,279045
+base card: CLUBS-8
+base card: CLUBS-A
 get inquire
-get player1111 116 6095 50 35
-get player8888 1862 6084 0 35
-get player4444 174 6016 0 35
-get player2222 15964 6028 1463 33
-get player3333 3506 8000 0 35
-get player5555 2721 0 0 35
-get player7777 3602 8000 200 33
-get player6666 2019 8000 100 30
-get total1813
-time: 11166.0,55900.0
-  activeIncludingSelf 3 wager -197 maxWager 1121 prevWager 100 prob 0.25176583184257606
-
-timeout: 200
-action: fold 
-
-get flop
-flop card: DIAMONDS-3
-flop card: HEARTS-A
-flop card: CLUBS-K
-get notify
-get player1111 116 6095 50 35
-get player8888 1862 6084 0 35
-get player4444 174 6016 0 35
-get player2222 14701 6028 2726 32
-get player3333 3506 8000 0 35
-get player5555 2721 0 0 35
-get player7777 1076 8000 2726 33
-get player6666 2019 8000 100 35
-get total5602
-get turn
-turn card: CLUBS-5
-get notify
-get player1111 116 6095 50 35
-get player8888 1862 6084 0 35
-get player4444 174 6016 0 35
-get player2222 14701 6028 2726 31
-get player3333 3506 8000 0 35
-get player5555 2721 0 0 35
-get player7777 1076 8000 2726 31
-get player6666 2019 8000 100 35
-get total5602
-get river
-river card: DIAMONDS-A
-get notify
-get player1111 116 6095 50 35
-get player8888 1862 6084 0 35
-get player4444 174 6016 0 35
-get player2222 14701 6028 2726 31
-get player3333 3506 8000 0 35
-get player5555 2721 0 0 35
-get player7777 1076 8000 2726 31
-get player6666 2019 8000 100 35
-get total5602
-get notify
-get player1111 116 6095 50 35
-get player8888 1862 6084 0 35
-get player4444 174 6016 0 35
-get player2222 14701 6028 2726 31
-get player3333 3506 8000 0 35
-get player5555 2721 0 0 35
-get player7777 1076 8000 2726 31
-get player6666 2019 8000 100 35
-get total5602
-get showdown
-2: 7777 DIAMONDS J DIAMONDS Q ONE_PAIR 
-1: 2222 HEARTS 5 SPADES 5 FULL_HOUSE 
-get pot-win
-2222: 5602 
-start to seat 79
-button 1111,116,6095
-small 6666,2019,8000
-big 7777,1076,8000
-normal  5555,2721,0
-normal  3333,3506,8000
-normal  2222,20303,6028
-normal  4444,174,6016
-normal  8888,1862,6084
-start to blind
-6666 is small blind:50
-7777 is big blind:100
-get hold
-base card: DIAMONDS-K
-base card: SPADES-9
-base card: 134236965,8394515
-get inquire
-get player1111 116 6095 0 35
-get player8888 1862 6084 0 35
-get player4444 174 6016 0 35
-get player2222 20203 6028 100 32
-get player3333 3506 8000 0 35
-get player5555 2721 0 0 35
-get player7777 976 8000 100 30
-get player6666 1969 8000 50 30
+get player5555 3334 8000 100 32
+get player8888 477 8000 0 35
+get player4444 506 8000 0 35
+get player7777 1850 8000 0 35
+get player3333 4225 8000 0 35
+get player2222 604 8000 100 30
+get player1111 1539 8000 50 30
 get total250
-time: 17983.0,56950.0
-  activeIncludingSelf 3 wager 63 maxWager 1093 prevWager 50 prob 0.36024328358208957
+time: 13854.0,47400.0
+  activeIncludingSelf 4 wager 302 maxWager 1786 prevWager 0 prob 0.33828037974683545
 
 timeout: 200
-action: call 
+action: raise 302 
 
 get flop
-flop card: HEARTS-A
-flop card: DIAMONDS-2
-flop card: CLUBS-10
+flop card: SPADES-8
+flop card: SPADES-A
+flop card: DIAMONDS-J
 get inquire
-get player1111 116 6095 0 35
-get player8888 1862 6084 0 35
-get player4444 174 6016 0 35
-get player2222 20203 6028 100 32
-get player3333 3506 8000 0 35
-get player5555 2721 0 0 35
-get player7777 976 8000 100 35
-get player6666 1919 8000 100 32
-get total300
-time: 15904.0,56890.0
-  activeIncludingSelf 2 wager -621 maxWager 1066 prevWager 100 prob 0.2975681139040253
+get player5555 3032 8000 402 31
+get player8888 477 8000 0 35
+get player4444 506 8000 0 35
+get player7777 1850 8000 0 35
+get player3333 4225 8000 0 35
+get player2222 604 8000 100 35
+get player1111 1539 8000 50 35
+get player6666 2813 8000 402 33
+get total954
+time: 55247.0,69200.0
+  activeIncludingSelf 2 wager 1365 maxWager 1562 prevWager 402 prob 0.8034078757225434
 
 timeout: 200
 action: call 
 
 get turn
-turn card: DIAMONDS-10
+turn card: CLUBS-9
 get inquire
-get player1111 116 6095 0 35
-get player8888 1862 6084 0 35
-get player4444 174 6016 0 35
-get player2222 20203 6028 100 31
-get player3333 3506 8000 0 35
-get player5555 2721 0 0 35
-get player7777 976 8000 100 35
-get player6666 1919 8000 100 31
-get total300
-time: 17580.0,58740.0
-  activeIncludingSelf 2 wager -594 maxWager 1066 prevWager 100 prob 0.30629213483146067
-
-timeout: 200
-action: call 
-
-get river
-river card: SPADES-K
-get inquire
-get player1111 116 6095 0 35
-get player8888 1862 6084 0 35
-get player4444 174 6016 0 35
-get player2222 20203 6028 100 31
-get player3333 3506 8000 0 35
-get player5555 2721 0 0 35
-get player7777 976 8000 100 35
-get player6666 1919 8000 100 31
-get total300
-time: 35869.0,68130.0
-  activeIncludingSelf 2 wager 82 maxWager 1066 prevWager 100 prob 0.5269523117569352
+get player5555 3032 8000 402 35
+get player8888 477 8000 0 35
+get player4444 506 8000 0 35
+get player7777 1850 8000 0 35
+get player3333 4225 8000 0 35
+get player2222 604 8000 100 35
+get player1111 1539 8000 50 35
+get player6666 2813 8000 402 31
+get total954
+time: 81601.0,93750.0
+  activeIncludingSelf 1 wager -2147483648 maxWager 1562 prevWager 402 prob 0.87170656
 
 timeout: 200
 action: call 
 
 get notify
-get player1111 116 6095 0 35
-get player8888 1862 6084 0 35
-get player4444 174 6016 0 35
-get player2222 20203 6028 100 31
-get player3333 3506 8000 0 35
-get player5555 2721 0 0 35
-get player7777 976 8000 100 35
-get player6666 1919 8000 100 31
-get total300
-get showdown
-1: 6666 DIAMONDS K SPADES 9 TWO_PAIR 
-2: 2222 DIAMONDS 7 HEARTS 4 ONE_PAIR 
+get player5555 3032 8000 402 35
+get player8888 477 8000 0 35
+get player4444 506 8000 0 35
+get player7777 1850 8000 0 35
+get player3333 4225 8000 0 35
+get player2222 604 8000 100 35
+get player1111 1539 8000 50 35
+get player6666 2813 8000 402 31
+get total954
 get pot-win
-6666: 300 
-start to seat 80
-button 6666,2219,8000
-small 7777,976,8000
-big 5555,2721,0
-normal  3333,3506,8000
-normal  2222,20203,6028
-normal  4444,174,6016
-normal  8888,1862,6084
-normal  1111,116,6095
+6666: 954 
+start to seat 10
+button 1111,1539,8000
+small 2222,604,8000
+big 3333,4225,8000
+normal  7777,1850,8000
+normal  4444,506,8000
+normal  8888,477,8000
+normal  5555,3032,8000
+normal  6666,3767,8000
 start to blind
-7777 is small blind:50
-5555 is big blind:100
-get hold
-base card: DIAMONDS-6
-base card: HEARTS-5
-base card: 1065995,533255
-get inquire
-get player1111 116 6095 0 35
-get player8888 1862 6084 0 35
-get player4444 174 6016 0 35
-get player2222 18047 6028 2156 33
-get player3333 3506 8000 0 35
-get player5555 2621 0 100 30
-get player7777 926 8000 50 30
-get total2306
-time: 8871.0,47850.0
-  activeIncludingSelf 4 wager -27 maxWager 1232 prevWager 0 prob 0.23834137931034483
-
-timeout: 200
-action: fold 
-
-get notify
-get player1111 116 6095 0 35
-get player8888 1862 6084 0 35
-get player4444 174 6016 0 35
-get player2222 18047 6028 2156 33
-get player3333 3506 8000 0 35
-get player5555 2621 0 100 35
-get player7777 926 8000 50 35
-get player6666 2219 8000 0 35
-get total2306
-get pot-win
-2222: 2306 
-start to seat 81
-button 7777,926,8000
-small 5555,2621,0
-big 3333,3506,8000
-normal  2222,20353,6028
-normal  4444,174,6016
-normal  8888,1862,6084
-normal  1111,116,6095
-normal  6666,2219,8000
-start to blind
-5555 is small blind:50
+2222 is small blind:50
 3333 is big blind:100
 get hold
-base card: CLUBS-A
-base card: SPADES-4
-base card: 268471337,266757
+base card: CLUBS-9
+base card: SPADES-J
 get inquire
-get player1111 116 6095 0 35
-get player8888 1862 6084 0 35
-get player4444 174 6016 0 35
-get player2222 19218 6028 1135 33
-get player3333 3406 8000 100 30
-get player5555 2571 0 50 30
-get total1285
-time: 7892.0,40130.0
-  activeIncludingSelf 5 wager 108 maxWager 1232 prevWager 0 prob 0.24887789683528533
+get player5555 2932 8000 100 32
+get player8888 477 8000 0 35
+get player4444 506 8000 0 35
+get player7777 1850 8000 0 35
+get player3333 4125 8000 100 30
+get player2222 554 8000 50 30
+get total250
+time: 8699.0,41230.0
+  activeIncludingSelf 5 wager 234 maxWager 2092 prevWager 0 prob 0.26227298083919476
 
 timeout: 200
-action: fold 
+action: raise 234 
 
 get flop
-flop card: HEARTS-K
-flop card: DIAMONDS-9
-flop card: HEARTS-4
+flop card: CLUBS-4
+flop card: DIAMONDS-A
+flop card: HEARTS-Q
+get inquire
+get player5555 2698 8000 334 35
+get player8888 477 8000 0 35
+get player4444 506 8000 0 35
+get player7777 1850 8000 0 35
+get player3333 4125 8000 100 35
+get player2222 554 8000 50 35
+get player1111 1205 8000 334 32
+get player6666 3433 8000 334 33
+get total1152
+time: 16819.0,72500.0
+  activeIncludingSelf 2 wager -1366 maxWager 1907 prevWager 334 prob 0.25118655172413795
+
+timeout: 200
+action: call 
+
+get turn
+turn card: CLUBS-J
+get inquire
+get player5555 2698 8000 334 35
+get player8888 477 8000 0 35
+get player4444 506 8000 0 35
+get player7777 1850 8000 0 35
+get player3333 4125 8000 100 35
+get player2222 554 8000 50 35
+get player1111 1205 8000 334 31
+get player6666 3433 8000 334 31
+get total1152
+time: 35438.0,76480.0
+  activeIncludingSelf 2 wager -171 maxWager 1907 prevWager 334 prob 0.46872934100418406
+
+timeout: 200
+action: call 
+
+get river
+river card: SPADES-6
+get inquire
+get player5555 2698 8000 334 35
+get player8888 477 8000 0 35
+get player4444 506 8000 0 35
+get player7777 1850 8000 0 35
+get player3333 4125 8000 100 35
+get player2222 554 8000 50 35
+get player1111 1205 8000 334 31
+get player6666 3433 8000 334 31
+get total1152
+time: 44545.0,94110.0
+  activeIncludingSelf 2 wager -143 maxWager 1907 prevWager 334 prob 0.4738557539050048
+
+timeout: 200
+action: call 
+
+get notify
+get player5555 2698 8000 334 35
+get player8888 477 8000 0 35
+get player4444 506 8000 0 35
+get player7777 1850 8000 0 35
+get player3333 4125 8000 100 35
+get player2222 554 8000 50 35
+get player1111 1205 8000 334 31
+get player6666 3433 8000 334 31
+get total1152
+get showdown
+2: 6666 CLUBS 9 SPADES J ONE_PAIR 
+1: 1111 CLUBS 6 CLUBS A TWO_PAIR 
+get pot-win
+1111: 1152 
+start to seat 11
+button 2222,554,8000
+small 3333,4125,8000
+big 7777,1850,8000
+normal  4444,506,8000
+normal  8888,477,8000
+normal  5555,2698,8000
+normal  6666,3433,8000
+normal  1111,2357,8000
+start to blind
+3333 is small blind:50
+7777 is big blind:100
+get hold
+base card: SPADES-5
+base card: SPADES-8
+get inquire
+get player5555 2698 8000 0 35
+get player8888 377 8000 100 32
+get player4444 506 8000 0 35
+get player7777 1750 8000 100 30
+get player3333 4075 8000 50 30
+get total250
+time: 5927.0,34750.0
+  activeIncludingSelf 6 wager 190 maxWager 1907 prevWager 0 prob 0.2244746762589928
+
+timeout: 200
+action: raise 190 
+
+get notify
+get player5555 2698 8000 0 35
+get player8888 377 8000 100 35
+get player4444 506 8000 0 35
+get player7777 1750 8000 100 35
+get player3333 4075 8000 50 35
+get player2222 554 8000 0 35
+get player1111 2357 8000 0 35
+get player6666 3143 8000 290 33
+get total540
+get pot-win
+6666: 540 
+start to seat 12
+button 3333,4075,8000
+small 7777,1750,8000
+big 4444,506,8000
+normal  8888,377,8000
+normal  5555,2698,8000
+normal  6666,3683,8000
+normal  1111,2357,8000
+normal  2222,554,8000
+start to blind
+7777 is small blind:50
+4444 is big blind:100
+get hold
+base card: SPADES-4
+base card: CLUBS-6

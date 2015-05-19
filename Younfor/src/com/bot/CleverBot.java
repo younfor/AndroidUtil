@@ -516,8 +516,8 @@ public class CleverBot implements Bot{
 	        	debug("myraisenum: "+state.myraisenum);
 	        	if(myval>aveval/base+1)
 	        	{
-	        		debug("val is small fold");
-	        		return State.fold;
+	        		debug("val is small call");
+	        		return State.call;
 	        	}
 	        	if(myval<aveval/base &&(state.myraisenum<3))
 	        	{

@@ -182,7 +182,7 @@ public class Game {
 				}
 				//debug("value:"+state.handcard[0].getValue()+state.handcard[1].getValue());
 				state.setHand(state.handcard[0].getValue(), state.handcard[1].getValue());
-				debug("base card: "+state.getHand()[0]+","+state.getHand()[1]);
+				//debug("base card: "+state.getHand()[0]+","+state.getHand()[1]);
 			}else if(s.startsWith("inquire")||s.startsWith("notify"))
 			{
 				boolean requireAction=true;
@@ -223,13 +223,23 @@ public class Game {
 						p.setLastaction(State.getAction(data[4]));
 						//bys
 						int oldbys=p.actions[state.currentState-State.baseState];
-						if(p.getLastaction()==State.fold&&oldbys<Bys.fold)
+						//debug("old bys:"+(state.currentState-State.baseState)+":"+oldbys);
+						if(p.getLastaction()==State.fold&&oldbys<=Bys.fold)
+						{
+							//debug("bys fold");
 							p.actions[state.currentState-State.baseState]=Bys.fold;//flod 0 call 1 raise 2
-						else if(oldbys<Bys.raise&&(p.getLastaction()==State.raise||p.getLastaction()==State.all_in))
+						}
+						else if(oldbys<=Bys.raise&&(p.getLastaction()==State.raise||p.getLastaction()==State.all_in))
+						{
+							//debug("bys raise or call");
 							p.actions[state.currentState-State.baseState]=Bys.raise;
-						else if(oldbys<Bys.call)
+						}
+						else if(oldbys<=Bys.call&&(p.getLastaction()==State.call||p.getLastaction()==State.check))
+						{
+							//debug("bys call");
 							p.actions[state.currentState-State.baseState]=Bys.call;
-						//debug("set "+p.getPid()+" bys actions "+(state.currentState-State.baseState)+":"+p.actions[state.currentState-State.baseState]);
+						}
+						//debug("set "+p.getPid()+" bys state/actions "+(state.currentState-State.baseState)+":"+p.actions[state.currentState-State.baseState]);
 						if(p.getLastaction()==State.raise)
 							state.raisenum++;
 						if(p.getBet()>state.getToCall())
