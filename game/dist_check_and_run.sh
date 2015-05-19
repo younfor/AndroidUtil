@@ -1,7 +1,12 @@
 #!/usr/bin/env bash
 cd `dirname $(readlink -f $0)`
 
-echo "check the size of works directory ...."
+if [[ ! -d ../run_area ]]; then 
+  echo "missing  run_area folder, please check"
+  exit 
+fi  
+
+echo "check the size of works foldery ...."
 size=$(du -m -s works | awk '{print $1}')
 if [[ $size -ge 50 ]]; then
   echo "the total size( $size M) of the works is beyoung the limit( 50 M) "
@@ -12,7 +17,7 @@ if [[ $size -ge 50 ]]; then
   exit
 fi
 
-echo "archive the works director"
+echo "archive the works folder"
 rm -rf works.tar.gz
 tar czf works.tar.gz works/
 zipsize=$(du -m -s works.tar.gz | awk '{print $1}')
@@ -49,8 +54,8 @@ do
   export "PLAYER"$i"_PORT"=600$i
   export "PLAYER"$i"_ID"=$i$i$i$i
 done
-export 
-nohup ./gameserver -gip 127.0.0.1 -seq replay -d 1 -m 10000 -b 50 -t 2000 -h 500 0</dev/null 1>/dev/null 2>/dev/null  & 
+chmod u+x gameserver
+./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 10000 -b 50 -t 2000 -h 500 0</dev/null 1>/dev/null 2>/dev/null  & 
 popd >/dev/null
 
 echo "start your program"
@@ -62,22 +67,28 @@ killall random >/dev/null 2>&1
 killall youn >/dev/null 2>&1
 killall clever >/dev/null 2>&1
 killall call >/dev/null 2>&1
+#for i in 1 2 3 4 5 6 7 8
+#do
+#chmod u+x game 
+#./game 127.0.0.1 6000 127.0.0.$i 600$i $i$i$i$i 0</dev/null 1>/dev/null 2>/dev/null &
+#done
 for i in 1
 do
-  nohup ./simple 127.0.0.1 6000 127.0.0.$i 600$i $i$i$i$i 0</dev/null 1>/dev/null 2>/dev/null &
+   ./simple 127.0.0.1 6000 127.0.0.$i 600$i $i$i$i$i 0</dev/null 1>/dev/null 2>/dev/null &
   #./game 127.0.0.1 6000 127.0.0.$i 600$i $i$i$i$i
 done
-nohup ./simple 127.0.0.1 6000 127.0.0.2 6002 2222 0</dev/null 1>/dev/null 2>/dev/null &
-#nohup ./simple 127.0.0.1 6000 127.0.0.3 6003 3333 0</dev/null 1>/dev/null 2>/dev/null &
-nohup ./gametest1 127.0.0.1 6000 127.0.0.3 6003 3333 0</dev/null 1>/dev/null 2>/dev/null &
-nohup ./simple 127.0.0.1 6000 127.0.0.4 6004 4444 0</dev/null 1>/dev/null 2>/dev/null &
-nohup ./youn 127.0.0.1 6000 127.0.0.5 6005 5555 0</dev/null 1>/dev/null 2>/dev/null &
-nohup ./simple 127.0.0.1 6000 127.0.0.6 6006 6666 0</dev/null 1>/dev/null 2>/dev/null &
-nohup ./clever 127.0.0.1 6000 127.0.0.7 6007 7777 0</dev/null 1>/dev/null 2>/dev/null &
-nohup ./simple 127.0.0.1 6000 127.0.0.8 6008 8888 0</dev/null 1>/dev/null 2>/dev/null &
+ ./simple 127.0.0.1 6000 127.0.0.2 6002 2222 0</dev/null 1>/dev/null 2>/dev/null &
+# ./simple 127.0.0.1 6000 127.0.0.3 6003 3333 0</dev/null 1>/dev/null 2>/dev/null &
+ ./gametest1 127.0.0.1 6000 127.0.0.3 6003 3333 0</dev/null 1>/dev/null 2>/dev/null &
+ ./simple 127.0.0.1 6000 127.0.0.4 6004 4444 0</dev/null 1>/dev/null 2>/dev/null &
+ ./youn 127.0.0.1 6000 127.0.0.5 6005 5555 0</dev/null 1>/dev/null 2>/dev/null &
+ ./simple 127.0.0.1 6000 127.0.0.6 6006 6666 0</dev/null 1>/dev/null 2>/dev/null &
+ ./clever 127.0.0.1 6000 127.0.0.7 6007 7777 0</dev/null 1>/dev/null 2>/dev/null &
+ ./simple 127.0.0.1 6000 127.0.0.8 6008 8888 0</dev/null 1>/dev/null 2>/dev/null &
 #./call 127.0.0.1 6000 127.0.0.8 6008 8888
- 
 popd >/dev/null
 
 popd >/dev/null
 
+
+ps t

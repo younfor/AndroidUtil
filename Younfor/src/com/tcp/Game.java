@@ -39,7 +39,7 @@ public class Game {
 	}
 	public void reg(OutputStream out) throws IOException
 	{
-		String cmd="reg: "+state.pid+" "+state.pname+" \n";
+		String cmd="reg: "+state.pid+" "+state.pname+" need_notify \n";
 		out.write(cmd.getBytes());
 		out.flush();
 		debug("start to reg");
@@ -183,11 +183,20 @@ public class Game {
 				//debug("value:"+state.handcard[0].getValue()+state.handcard[1].getValue());
 				state.setHand(state.handcard[0].getValue(), state.handcard[1].getValue());
 				debug("base card: "+state.getHand()[0]+","+state.getHand()[1]);
-			}else if(s.startsWith("inquire"))
+			}else if(s.startsWith("inquire")||s.startsWith("notify"))
 			{
-				debug("get inquire");
+				boolean requireAction=true;
+				if(s.startsWith("inquire"))
+				{
+					debug("get inquire");
+					requireAction=true;
+				}else if(s.startsWith("notify"))
+				{
+					debug("get notify");
+					requireAction=false;
+				}
 				s=in.readLine();
-				while(!s.startsWith("/inquire"))
+				while((!s.startsWith("/inquire"))&&(!s.startsWith("/notify")))
 				{
 					/*
 					inquire/ 
@@ -249,7 +258,7 @@ public class Game {
 				//Random r=new Random();
 				//int num=Math.abs(r.nextInt())%5;
 				//Log.getIns(pid).log("action num: "+num);
-				if(!state.isFold)
+				if(requireAction)
 				{
 					int len=0;
 					if(state.currentState==State.baseState)
