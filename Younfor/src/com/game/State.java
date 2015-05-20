@@ -14,6 +14,7 @@ public class State {
 	public final static int blind=30,check=31,call=32,raise=33,all_in=34,fold=35,no=36;
 	public final static int baseState=40,flopState=41,turnState=42,riverState=43;
 	public final static int LP=50,MP=51,EP=52;
+	public static boolean isRegistered=false;
 	
 	public static int getAction(String s)
 	{

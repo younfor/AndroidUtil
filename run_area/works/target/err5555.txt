@@ -1,0 +1,273 @@
+---------- party end-------------
+
+---------- party end-------------
+
+Game Num:1
+-----座次：-----
+2000
+-----盲注：-----
+7777: 50 
+2222: 100 
+-----手牌-----
+holdCards:[color:CLUBS point:K, color:HEARTS point:8]Score : 0
+preflop彩池注额：521 
+billScore : 3
+preflopAction : fold 
+
+---------- party end-------------
+
+Game Num:2
+-----座次：-----
+2000
+-----盲注：-----
+2222: 50 
+1111: 100 
+-----手牌-----
+holdCards:[color:DIAMONDS point:7, color:DIAMONDS point:9]Score : 3
+preflop彩池注额：468 
+billScore : 7
+preflopAction : call 
+
+-----翻牌-----
+flopCards:[color:CLUBS point:6, color:CLUBS point:2, color:HEARTS point:8]
+preflop彩池注额：1390 
+foprate : 0.11933395004625347
+flopAction : fold 
+
+-----转牌-----
+turnCard:color:CLUBS point:10
+-----河牌-----
+riverCard:color:DIAMONDS point:K
+-----摊牌消息-----
+---------- party end-------------
+
+Game Num:3
+-----座次：-----
+1782
+-----盲注：-----
+1111: 50 
+8888: 100 
+-----手牌-----
+holdCards:[color:HEARTS point:K, color:HEARTS point:9]Score : 7
+preflop彩池注额：366 
+billScore : 6
+preflopAction : fold 
+
+-----翻牌-----
+flopCards:[color:HEARTS point:Q, color:DIAMONDS point:5, color:CLUBS point:K]
+---------- party end-------------
+
+Game Num:4
+-----座次：-----
+1782
+-----盲注：-----
+8888: 50 
+6666: 100 
+-----手牌-----
+holdCards:[color:HEARTS point:3, color:SPADES point:3]Score : 6
+preflop彩池注额：368 
+billScore : 5
+preflopAction : fold 
+
+-----翻牌-----
+flopCards:[color:HEARTS point:J, color:SPADES point:6, color:HEARTS point:A]
+-----转牌-----
+turnCard:color:HEARTS point:2
+-----河牌-----
+riverCard:color:HEARTS point:6
+---------- party end-------------
+
+Game Num:5
+-----座次：-----
+1782
+-----盲注：-----
+6666: 50 
+3333: 100 
+-----手牌-----
+holdCards:[color:HEARTS point:A, color:DIAMONDS point:2]Score : 5
+preflop彩池注额：250 
+billScore : 5
+preflopAction : call 
+
+preflop彩池注额：1657 
+billScore : 5
+preflopAction : fold 
+
+---------- party end-------------
+
+Game Num:6
+-----座次：-----
+1682
+-----盲注：-----
+3333: 50 
+4444: 100 
+-----手牌-----
+holdCards:[color:CLUBS point:5, color:CLUBS point:6]Score : 5
+preflop彩池注额：150 
+billScore : 6
+preflopAction : call 
+
+-----翻牌-----
+flopCards:[color:DIAMONDS point:K, color:CLUBS point:A, color:HEARTS point:4]
+preflop彩池注额：500 
+foprate : 0.06753006475485661
+flopAction : check 
+
+preflop彩池注额：625 
+foprate : 0.06753006475485661
+flopAction : fold 
+
+---------- party end-------------
+
+Game Num:7
+-----座次：-----
+1582
+-----盲注：-----
+4444: 50 
+5555: 100 
+-----手牌-----
+holdCards:[color:HEARTS point:Q, color:CLUBS point:Q]Score : 6
+preflop彩池注额：477 
+billScore : 14
+preflopAction : raise 160
+
+-----翻牌-----
+flopCards:[color:HEARTS point:10, color:SPADES point:4, color:DIAMONDS point:A]
+preflop彩池注额：1211 
+foprate : 0.8556891766882516
+flopAction : call 
+
+-----转牌-----
+turnCard:color:CLUBS point:2
+preflop彩池注额：1211 
+turnrate : 0.8164251207729468
+flopAction : call 
+
+-----河牌-----
+riverCard:color:DIAMONDS point:J
+preflop彩池注额：1211 
+turnrate : 0.8164251207729468
+flopAction : call 
+
+-----摊牌消息-----
+---------- party end-------------
+
+Game Num:8
+-----座次：-----
+1195
+-----盲注：-----
+5555: 50 
+7777: 100 
+-----手牌-----
+holdCards:[color:HEARTS point:K, color:SPADES point:10]Score : 14
+preflop彩池注额：638 
+billScore : 6
+preflopAction : fold 
+
+---------- party end-------------
+
+Game Num:9
+-----座次：-----
+1145
+-----盲注：-----
+7777: 50 
+2222: 100 
+-----手牌-----
+holdCards:[color:DIAMONDS point:8, color:HEARTS point:Q]Score : 6
+preflop彩池注额：479 
+billScore : 3
+preflopAction : fold 
+
+-----翻牌-----
+flopCards:[color:SPADES point:6, color:DIAMONDS point:Q, color:HEARTS point:8]
+-----转牌-----
+turnCard:color:HEARTS point:K
+-----河牌-----
+riverCard:color:HEARTS point:9
+-----摊牌消息-----
+---------- party end-------------
+
+Game Num:10
+-----座次：-----
+1145
+-----盲注：-----
+2222: 50 
+1111: 100 
+-----手牌-----
+holdCards:[color:CLUBS point:10, color:HEARTS point:Q]Score : 3
+preflop彩池注额：450 
+billScore : 6
+preflopAction : fold 
+
+-----翻牌-----
+flopCards:[color:DIAMONDS point:8, color:CLUBS point:J, color:HEARTS point:3]
+-----转牌-----
+turnCard:color:SPADES point:3
+-----河牌-----
+riverCard:color:HEARTS point:10
+-----摊牌消息-----
+---------- party end-------------
+
+Game Num:11
+-----座次：-----
+1145
+-----盲注：-----
+1111: 50 
+8888: 100 
+-----手牌-----
+holdCards:[color:CLUBS point:Q, color:DIAMONDS point:5]Score : 6
+preflop彩池注额：250 
+billScore : 2
+preflopAction : fold 
+
+-----翻牌-----
+flopCards:[color:DIAMONDS point:A, color:HEARTS point:8, color:HEARTS point:2]
+---------- party end-------------
+
+Game Num:12
+-----座次：-----
+1145
+-----盲注：-----
+8888: 50 
+6666: 100 
+-----手牌-----
+holdCards:[color:DIAMONDS point:J, color:DIAMONDS point:5]Score : 2
+preflop彩池注额：380 
+billScore : 3
+preflopAction : fold 
+
+-----翻牌-----
+flopCards:[color:CLUBS point:8, color:DIAMONDS point:A, color:SPADES point:2]
+-----转牌-----
+turnCard:color:CLUBS point:A
+-----河牌-----
+riverCard:color:CLUBS point:7
+-----摊牌消息-----
+---------- party end-------------
+
+Game Num:13
+-----座次：-----
+1145
+-----盲注：-----
+6666: 50 
+3333: 100 
+-----手牌-----
+holdCards:[color:CLUBS point:5, color:DIAMONDS point:2]Score : 3
+preflop彩池注额：150 
+billScore : 1
+preflopAction : fold 
+
+---------- party end-------------
+
+Game Num:14
+-----座次：-----
+1145
+-----盲注：-----
+3333: 50 
+4444: 100 
+-----手牌-----
+holdCards:[color:SPADES point:A, color:CLUBS point:2]Score : 1
+preflop彩池注额：150 
+billScore : 5
+preflopAction : call 
+
