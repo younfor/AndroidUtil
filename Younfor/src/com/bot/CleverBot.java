@@ -22,6 +22,7 @@ public class CleverBot implements Bot {
 	long time;
 	Player me = null;
 	int activeplayer = 0;
+	
 
 	public int getBestAction(State state, long time) {
 
@@ -465,9 +466,11 @@ public class CleverBot implements Bot {
 				}
 			} else {
 				debug("raisecall");
-				State.raisebet = tocall - prebet;
+				if(state.currentState!=State.baseState)
+					State.raisebet = tocall - prebet;
 				if (base == 0) {
-					State.raisebet = 3 * state.bigblindbet;
+					if(state.currentState!=State.baseState)
+						State.raisebet = 3 * state.bigblindbet;
 					return State.raise;
 				}
 				debug("myval:ave  " + myval + ":" + (aveval / base));
@@ -477,7 +480,8 @@ public class CleverBot implements Bot {
 					return State.call;
 				}
 				if (myval < aveval / base && (state.myraisenum < 3)) {
-					State.raisebet =(int) ((6+(aveval/base-myval)*2) * state.bigblindbet);
+					if(state.currentState!=State.baseState)
+						State.raisebet =(int) ((6+(aveval/base-myval)*2) * state.bigblindbet);
 					return State.raise;
 				} else
 					return State.call;
