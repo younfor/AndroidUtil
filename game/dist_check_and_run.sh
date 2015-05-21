@@ -67,6 +67,7 @@ killall random >/dev/null 2>&1
 killall youn >/dev/null 2>&1
 killall clever >/dev/null 2>&1
 killall call >/dev/null 2>&1
+killall all >/dev/null 2>&1
 #for i in 1 2 3 4 5 6 7 8
 #do
 #chmod u+x game 
@@ -77,14 +78,14 @@ do
 ./simple 127.0.0.1 6000 127.0.0.$i 600$i $i$i$i$i 0</dev/null 1>/dev/null &>"err1111.txt" &
   #./game 127.0.0.1 6000 127.0.0.$i 600$i $i$i$i$i
 done
-./simple 127.0.0.1 6000 127.0.0.2 6002 2222 0</dev/null 1>/dev/null &>"err2222.txt" &
+./all 127.0.0.1 6000 127.0.0.2 6002 2222 0</dev/null 1>/dev/null &>"err2222.txt" &
 # ./simple 127.0.0.1 6000 127.0.0.3 6003 3333 0</dev/null 1>/dev/null 2>/dev/null &
 ./gametest1 127.0.0.1 6000 127.0.0.3 6003 3333 0</dev/null 1>/dev/null &>"err3333.txt" &
-./simple 127.0.0.1 6000 127.0.0.4 6004 4444 0</dev/null 1>/dev/null &>"err4444.txt" &
+./all 127.0.0.1 6000 127.0.0.4 6004 4444 0</dev/null 1>/dev/null &>"err4444.txt" &
 ./youn 127.0.0.1 6000 127.0.0.5 6005 5555 0</dev/null 1>/dev/null &>"err5555.txt" &
 ./simple 127.0.0.1 6000 127.0.0.6 6006 6666 0</dev/null 1>/dev/null &>"err6666.txt" &
 ./clever 127.0.0.1 6000 127.0.0.7 6007 7777 0</dev/null 1>/dev/null &>"err7777.txt" &
-./simple 127.0.0.1 6000 127.0.0.8 6008 8888 0</dev/null 1>/dev/null &>"err8888.txt" &
+./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888 0</dev/null 1>/dev/null &>"err8888.txt" &
 #./call 127.0.0.1 6000 127.0.0.8 6008 8888
 popd >/dev/null
 
