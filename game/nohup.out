@@ -1,0 +1,1172 @@
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+22440 pts/0    S+     0:00 python run.py
+22452 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+22474 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+22482 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+22483 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+22484 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+22485 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+22486 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+22489 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+22490 pts/0    R+     0:00 ps t
+22491 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+22440 pts/0    S+     0:00 python run.py
+27344 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+27366 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+27374 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+27375 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+27376 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+27377 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+27378 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+27381 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+27382 pts/0    R+     0:00 ps t
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+22440 pts/0    S+     0:00 python run.py
+30934 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30956 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+30964 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+30965 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+30966 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+30967 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+30968 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30971 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+30972 pts/0    R+     0:00 ps t
+30973 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+30974 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.6 6006 6666 simplebot
+30975 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 cleverbot
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 3219 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 3250 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+ 3258 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+ 3259 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+ 3260 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+ 3261 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+ 3262 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 3266 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+ 3267 pts/0    R+     0:00 ps t
+ 3270 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+ 9911 pts/0    Ss     0:00 bash
+22440 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9743 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 9765 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+ 9773 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+ 9774 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+ 9775 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+ 9776 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+ 9777 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 9780 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+ 9781 pts/0    R+     0:00 ps t
+ 9782 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+ 9911 pts/0    Ss     0:00 bash
+22440 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+16467 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+16489 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+16497 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+16498 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+16499 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+16500 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+16501 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+16504 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+16505 pts/0    R+     0:00 ps t
+16506 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+16507 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.6 6006 6666 simplebot
+22440 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+21028 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+21050 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+21058 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+21059 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+21060 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+21061 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+21062 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+21065 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+21066 pts/0    R+     0:00 ps t
+21067 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+22440 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+24694 pts/0    S+     0:00 python run.py
+24697 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+24719 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+24727 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+24728 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+24729 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+24730 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+24731 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+24734 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+24735 pts/0    R+     0:00 ps t
+24736 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+24737 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.6 6006 6666 simplebot
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+24694 pts/0    S+     0:00 python run.py
+28495 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+28517 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+28525 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+28526 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+28527 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+28528 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+28529 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+28532 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+28533 pts/0    R+     0:00 ps t
+28534 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 cleverbot
+28535 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 1474 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 1496 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+ 1504 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+ 1505 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+ 1506 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+ 1507 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+ 1508 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 1511 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+ 1512 pts/0    R+     0:00 ps t
+ 1513 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+ 9911 pts/0    Ss     0:00 bash
+24694 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 6371 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 6393 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+ 6401 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+ 6402 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+ 6403 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+ 6404 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+ 6405 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 6408 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+ 6409 pts/0    R+     0:00 ps t
+ 6410 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+ 6411 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.6 6006 6666 simplebot
+ 6412 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 cleverbot
+ 9911 pts/0    Ss     0:00 bash
+24694 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+10498 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+10520 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+10528 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+10529 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+10530 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+10531 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+10532 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+10535 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+10536 pts/0    R+     0:00 ps t
+24694 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+17227 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+17249 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+17257 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+17258 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+17259 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+17260 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+17261 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+17264 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+17265 pts/0    R+     0:00 ps t
+24694 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+22068 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+22090 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+22098 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+22099 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+22100 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+22101 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+22102 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+22105 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+22106 pts/0    R+     0:00 ps t
+22107 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+22108 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 cleverbot
+22109 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.6 6006 6666 simplebot
+24694 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+24694 pts/0    S+     0:00 python run.py
+26587 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+26609 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+26617 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+26618 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+26619 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+26620 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+26621 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+26624 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+26625 pts/0    R+     0:00 ps t
+26626 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+24694 pts/0    S+     0:00 python run.py
+32713 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+32735 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+32743 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+32744 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+32745 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+32746 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+32747 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+32750 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+32751 pts/0    R+     0:00 ps t
+32752 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 6290 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 6321 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+ 6329 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+ 6330 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+ 6331 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+ 6332 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+ 6333 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 6336 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+ 6337 pts/0    R+     0:00 ps t
+ 6338 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+ 9911 pts/0    Ss     0:00 bash
+24694 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+10297 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+10319 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+10327 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+10328 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+10329 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+10330 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+10331 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+10334 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+10335 pts/0    R+     0:00 ps t
+10336 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+10337 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.6 6006 6666 simplebot
+24694 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+16059 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+16081 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+16089 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+16090 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+16091 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+16092 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+16093 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+16096 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+16097 pts/0    R+     0:00 ps t
+16098 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 cleverbot
+16099 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.6 6006 6666 simplebot
+24694 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+20697 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+20719 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+20727 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+20728 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+20729 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+20730 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+20731 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+20734 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+20735 pts/0    R+     0:00 ps t
+20736 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+20737 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 cleverbot
+24694 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+24113 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+24144 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+24152 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+24153 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+24154 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+24155 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+24156 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+24159 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+24160 pts/0    R+     0:00 ps t
+24161 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+24162 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 cleverbot
+24694 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+24694 pts/0    S+     0:00 python run.py
+30837 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30859 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+30867 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+30868 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+30869 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+30870 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+30871 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30874 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+30875 pts/0    R+     0:00 ps t
+30876 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 1290 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 1312 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+ 1320 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+ 1321 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+ 1322 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+ 1323 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+ 1324 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 1327 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+ 1328 pts/0    R+     0:00 ps t
+ 1329 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+ 9911 pts/0    Ss     0:00 bash
+24694 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 6113 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 6135 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+ 6143 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+ 6144 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+ 6145 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+ 6146 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+ 6147 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 6150 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+ 6151 pts/0    R+     0:00 ps t
+ 6152 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+ 6153 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 cleverbot
+ 6154 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.6 6006 6666 simplebot
+ 9911 pts/0    Ss     0:00 bash
+24694 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+11548 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+11579 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+11587 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+11588 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+11589 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+11590 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+11591 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+11594 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+11595 pts/0    R+     0:00 ps t
+11596 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+11597 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.6 6006 6666 simplebot
+24694 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+15276 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+15298 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+15306 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+15307 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+15308 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+15309 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+15310 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+15313 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+15314 pts/0    R+     0:00 ps t
+15315 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 cleverbot
+15316 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+15317 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.6 6006 6666 simplebot
+24694 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+17569 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+17591 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+17599 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+17600 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+17601 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+17602 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+17603 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+17606 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+17607 pts/0    R+     0:00 ps t
+17608 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+17609 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.6 6006 6666 simplebot
+17610 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 cleverbot
+24694 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+20510 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+20532 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+20540 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+20541 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+20542 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+20543 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+20544 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+20547 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+20548 pts/0    R+     0:00 ps t
+24694 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+24694 pts/0    S+     0:00 python run.py
+26166 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+26189 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+26197 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+26198 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+26199 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+26200 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+26201 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+26204 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+26205 pts/0    R+     0:00 ps t
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+24694 pts/0    S+     0:00 python run.py
+30730 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30752 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+30769 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+30770 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+30771 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+30772 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+30773 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30776 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+30777 pts/0    R+     0:00 ps t
+30778 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 2601 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 2630 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+ 2646 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+ 2647 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+ 2648 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+ 2649 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+ 2650 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 2653 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+ 2654 pts/0    R+     0:00 ps t
+ 2655 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+ 2656 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.6 6006 6666 simplebot
+ 9911 pts/0    Ss     0:00 bash
+24694 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 6709 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 6731 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+ 6739 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+ 6740 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+ 6741 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+ 6742 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+ 6743 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 6746 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+ 6747 pts/0    R+     0:00 ps t
+ 6748 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+ 9911 pts/0    Ss     0:00 bash
+24694 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+11190 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+11212 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+11220 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+11221 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+11222 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+11223 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+11224 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+11227 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+11228 pts/0    R+     0:00 ps t
+11229 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+11230 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 cleverbot
+11231 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.6 6006 6666 simplebot
+24694 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+16704 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+16735 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+16743 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+16744 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+16745 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+16746 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+16747 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+16750 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+16751 pts/0    R+     0:00 ps t
+24694 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+20954 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+20976 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+20984 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+20985 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+20986 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+20987 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+20988 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+20991 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+20992 pts/0    R+     0:00 ps t
+20993 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+20994 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 cleverbot
+24694 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9911 pts/0    Ss     0:00 bash
+24694 pts/0    S+     0:00 python run.py
+27670 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+27692 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+27700 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+27701 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+27702 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+27703 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+27704 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+27707 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+27708 pts/0    R+     0:00 ps t
+27709 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 2435 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 2467 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+ 2482 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+ 2484 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+ 2486 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+ 2487 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+ 2488 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 2494 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+ 2495 pts/0    R+     0:00 ps t
+ 2496 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 cleverbot
+ 2497 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.5 6005 5555
+ 9911 pts/0    Ss     0:00 bash
+24694 pts/0    S+     0:00 python run.py
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 4859 pts/0    T      0:00 python
+ 9911 pts/0    Ss     0:00 bash
+27784 pts/0    S+     0:00 python run.py
+27787 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+27809 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+27817 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+27818 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+27819 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+27820 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+27821 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.5 6005 5555
+27822 pts/0    S+     0:00 ./xgame 127.0.0.1 6000 127.0.0.6 6006 6666
+27824 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+27825 pts/0    R+     0:00 ps t
+29639 pts/0    T      0:00 python
+29703 pts/0    T      0:17 /usr/bin/python /usr/bin/pip install cvs
+30394 pts/0    T      0:00 python
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 4859 pts/0    T      0:00 python
+ 9911 pts/0    Ss     0:00 bash
+27784 pts/0    S+     0:00 python run.py
+29639 pts/0    T      0:00 python
+29703 pts/0    T      0:17 /usr/bin/python /usr/bin/pip install cvs
+30120 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30142 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+30150 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+30151 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+30152 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+30153 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+30154 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.5 6005 5555
+30155 pts/0    S+     0:00 ./xgame 127.0.0.1 6000 127.0.0.6 6006 6666
+30157 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+30158 pts/0    R+     0:00 ps t
+30394 pts/0    T      0:00 python
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+  316 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+  339 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+  347 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+  348 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+  349 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+  350 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+  351 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.5 6005 5555
+  352 pts/0    S+     0:00 ./xgame 127.0.0.1 6000 127.0.0.6 6006 6666
+  354 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+  355 pts/0    R+     0:00 ps t
+  356 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 cleverbot
+ 4859 pts/0    T      0:00 python
+ 9911 pts/0    Ss     0:00 bash
+27784 pts/0    S+     0:00 python run.py
+29639 pts/0    T      0:00 python
+29703 pts/0    T      0:17 /usr/bin/python /usr/bin/pip install cvs
+30394 pts/0    T      0:00 python
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 3444 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 3466 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+ 3474 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+ 3475 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+ 3476 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+ 3477 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+ 3478 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.5 6005 5555
+ 3479 pts/0    S+     0:00 ./xgame 127.0.0.1 6000 127.0.0.6 6006 6666
+ 3481 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+ 3482 pts/0    R+     0:00 ps t
+ 3483 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 cleverbot
+ 4859 pts/0    T      0:00 python
+ 9911 pts/0    Ss     0:00 bash
+27784 pts/0    S+     0:00 python run.py
+29639 pts/0    T      0:00 python
+29703 pts/0    T      0:17 /usr/bin/python /usr/bin/pip install cvs
+30394 pts/0    T      0:00 python
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 4859 pts/0    T      0:00 python
+ 6424 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 6446 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+ 6454 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+ 6455 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+ 6456 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+ 6457 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+ 6458 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.5 6005 5555
+ 6459 pts/0    S+     0:00 ./xgame 127.0.0.1 6000 127.0.0.6 6006 6666
+ 6461 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+ 6462 pts/0    R+     0:00 ps t
+ 9911 pts/0    Ss     0:00 bash
+27784 pts/0    S+     0:00 python run.py
+29639 pts/0    T      0:00 python
+29703 pts/0    T      0:17 /usr/bin/python /usr/bin/pip install cvs
+30394 pts/0    T      0:00 python
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 4859 pts/0    T      0:00 python
+ 9619 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 9641 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+ 9649 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+ 9650 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+ 9651 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+ 9652 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+ 9653 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.5 6005 5555
+ 9654 pts/0    S+     0:00 ./xgame 127.0.0.1 6000 127.0.0.6 6006 6666
+ 9656 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+ 9657 pts/0    R+     0:00 ps t
+ 9658 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 cleverbot
+ 9911 pts/0    Ss     0:00 bash
+27784 pts/0    S+     0:00 python run.py
+29639 pts/0    T      0:00 python
+29703 pts/0    T      0:17 /usr/bin/python /usr/bin/pip install cvs
+30394 pts/0    T      0:00 python
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 4859 pts/0    T      0:00 python
+ 9911 pts/0    Ss     0:00 bash
+11863 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+11885 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+11893 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+11894 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+11895 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+11896 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+11897 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.5 6005 5555
+11898 pts/0    S+     0:00 ./xgame 127.0.0.1 6000 127.0.0.6 6006 6666
+11900 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+11901 pts/0    R+     0:00 ps t
+27784 pts/0    S+     0:00 python run.py
+29639 pts/0    T      0:00 python
+29703 pts/0    T      0:17 /usr/bin/python /usr/bin/pip install cvs
+30394 pts/0    T      0:00 python
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 4859 pts/0    T      0:00 python
+ 9911 pts/0    Ss     0:00 bash
+14876 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+14907 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+14915 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+14916 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+14917 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+14918 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+14919 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.5 6005 5555
+14920 pts/0    S+     0:00 ./xgame 127.0.0.1 6000 127.0.0.6 6006 6666
+14922 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+14923 pts/0    R+     0:00 ps t
+14924 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 cleverbot
+27784 pts/0    S+     0:00 python run.py
+29639 pts/0    T      0:00 python
+29703 pts/0    T      0:17 /usr/bin/python /usr/bin/pip install cvs
+30394 pts/0    T      0:00 python
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 4859 pts/0    T      0:00 python
+ 9911 pts/0    Ss     0:00 bash
+17717 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+17739 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+17747 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+17748 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+17749 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+17750 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+17751 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.5 6005 5555
+17752 pts/0    S+     0:00 ./xgame 127.0.0.1 6000 127.0.0.6 6006 6666
+17754 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+17755 pts/0    R+     0:00 ps t
+27784 pts/0    S+     0:00 python run.py
+29639 pts/0    T      0:00 python
+29703 pts/0    T      0:17 /usr/bin/python /usr/bin/pip install cvs
+30394 pts/0    T      0:00 python
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 4859 pts/0    T      0:00 python
+ 9911 pts/0    Ss     0:00 bash
+20333 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+20355 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+20363 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+20364 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+20365 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+20366 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+20367 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.5 6005 5555
+20368 pts/0    S+     0:00 ./xgame 127.0.0.1 6000 127.0.0.6 6006 6666
+20370 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+20371 pts/0    R+     0:00 ps t
+27784 pts/0    S+     0:00 python run.py
+29639 pts/0    T      0:00 python
+29703 pts/0    T      0:17 /usr/bin/python /usr/bin/pip install cvs
+30394 pts/0    T      0:00 python
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 4859 pts/0    T      0:00 python
+ 9911 pts/0    Ss     0:00 bash
+23912 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+23934 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+23942 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+23943 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+23944 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+23945 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+23946 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.5 6005 5555
+23947 pts/0    S+     0:00 ./xgame 127.0.0.1 6000 127.0.0.6 6006 6666
+23949 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+23950 pts/0    R+     0:00 ps t
+27784 pts/0    S+     0:00 python run.py
+29639 pts/0    T      0:00 python
+29703 pts/0    T      0:17 /usr/bin/python /usr/bin/pip install cvs
+30394 pts/0    T      0:00 python
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 4859 pts/0    T      0:00 python
+ 9911 pts/0    Ss     0:00 bash
+26791 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+26813 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+26821 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+26822 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+26823 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+26824 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+26825 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.5 6005 5555
+26826 pts/0    S+     0:00 ./xgame 127.0.0.1 6000 127.0.0.6 6006 6666
+26828 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+26829 pts/0    R+     0:00 ps t
+27784 pts/0    S+     0:00 python run.py
+29639 pts/0    T      0:00 python
+29703 pts/0    T      0:17 /usr/bin/python /usr/bin/pip install cvs
+30394 pts/0    T      0:00 python
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 4859 pts/0    T      0:00 python
+ 9911 pts/0    Ss     0:00 bash
+27784 pts/0    S+     0:00 python run.py
+29639 pts/0    T      0:00 python
+29703 pts/0    T      0:17 /usr/bin/python /usr/bin/pip install cvs
+30394 pts/0    T      0:00 python
+30597 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30628 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+30636 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+30637 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+30638 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+30639 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+30640 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.5 6005 5555
+30641 pts/0    S+     0:00 ./xgame 127.0.0.1 6000 127.0.0.6 6006 6666
+30643 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+30644 pts/0    R+     0:00 ps t
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+  671 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+  695 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+  703 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+  704 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+  705 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+  706 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+  707 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.5 6005 5555
+  708 pts/0    S+     0:00 ./xgame 127.0.0.1 6000 127.0.0.6 6006 6666
+  710 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+  711 pts/0    R+     0:00 ps t
+  712 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 cleverbot
+ 4859 pts/0    T      0:00 python
+ 9911 pts/0    Ss     0:00 bash
+27784 pts/0    S+     0:00 python run.py
+29639 pts/0    T      0:00 python
+29703 pts/0    T      0:17 /usr/bin/python /usr/bin/pip install cvs
+30394 pts/0    T      0:00 python
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 4214 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 4236 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+ 4244 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+ 4245 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+ 4246 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+ 4247 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+ 4248 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.5 6005 5555
+ 4249 pts/0    S+     0:00 ./xgame 127.0.0.1 6000 127.0.0.6 6006 6666
+ 4251 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+ 4252 pts/0    R+     0:00 ps t
+ 4859 pts/0    T      0:00 python
+ 9911 pts/0    Ss     0:00 bash
+27784 pts/0    S+     0:00 python run.py
+29639 pts/0    T      0:00 python
+29703 pts/0    T      0:17 /usr/bin/python /usr/bin/pip install cvs
+30394 pts/0    T      0:00 python
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 4859 pts/0    T      0:00 python
+ 6335 pts/0    S      0:00 bash ./dist_check_and_run.sh
+ 6357 pts/0    S      0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+ 6365 pts/0    S      0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+ 6366 pts/0    S      0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+ 6367 pts/0    S      0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+ 6368 pts/0    S      0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+ 6369 pts/0    S      0:00 ./gamel 127.0.0.1 6000 127.0.0.5 6005 5555
+ 6370 pts/0    S      0:00 ./xgame 127.0.0.1 6000 127.0.0.6 6006 6666
+ 6372 pts/0    S      0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+ 6373 pts/0    R      0:00 ps t
+ 9911 pts/0    Ss+    0:00 bash
+29639 pts/0    T      0:00 python
+29703 pts/0    T      0:17 /usr/bin/python /usr/bin/pip install cvs
+30394 pts/0    T      0:00 python
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 4859 pts/0    T      0:00 python
+ 9911 pts/0    Ss     0:00 bash
+15674 pts/0    S+     0:00 python run.py
+15686 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+15708 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 1 -m 4000 -b 20 -t 2000 -h 600
+15716 pts/0    S+     0:00 ./linmin 127.0.0.1 6000 127.0.0.1 6001 1111
+15717 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.2 6002 2222
+15718 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.3 6003 3333
+15719 pts/0    S+     0:00 ./all 127.0.0.1 6000 127.0.0.4 6004 4444
+15720 pts/0    S+     0:00 ./gamel 127.0.0.1 6000 127.0.0.5 6005 5555
+15721 pts/0    S+     0:00 ./xgame 127.0.0.1 6000 127.0.0.6 6006 6666
+15723 pts/0    S+     0:00 ./gametest1 127.0.0.1 6000 127.0.0.8 6008 8888
+15724 pts/0    R+     0:00 ps t
+15725 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 cleverbot
+29639 pts/0    T      0:00 python
+29703 pts/0    T      0:17 /usr/bin/python /usr/bin/pip install cvs
+30394 pts/0    T      0:00 python
