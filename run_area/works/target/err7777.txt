@@ -1,18 +1,60 @@
 register succeed
 java.lang.NullPointerException
-	at com.bot.CleverBot.getAction(CleverBot.java:509)
+	at com.bot.CleverBot.getAction(CleverBot.java:496)
 	at com.bot.CleverBot.getBestAction(CleverBot.java:73)
 	at com.tcp.Game.start(Game.java:312)
 	at com.tcp.TcpClient.register(TcpClient.java:42)
 	at com.tcp.TcpClient.main(TcpClient.java:68)
 java.lang.NullPointerException
-	at com.bot.CleverBot.getAction(CleverBot.java:509)
+	at com.bot.CleverBot.getAction(CleverBot.java:496)
 	at com.bot.CleverBot.getBestAction(CleverBot.java:73)
 	at com.tcp.Game.start(Game.java:312)
 	at com.tcp.TcpClient.register(TcpClient.java:42)
 	at com.tcp.TcpClient.main(TcpClient.java:68)
 java.lang.NullPointerException
-	at com.bot.CleverBot.getAction(CleverBot.java:509)
+	at com.bot.CleverBot.getAction(CleverBot.java:496)
+	at com.bot.CleverBot.getBestAction(CleverBot.java:73)
+	at com.tcp.Game.start(Game.java:312)
+	at com.tcp.TcpClient.register(TcpClient.java:42)
+	at com.tcp.TcpClient.main(TcpClient.java:68)
+java.lang.NullPointerException
+	at com.bot.CleverBot.getAction(CleverBot.java:496)
+	at com.bot.CleverBot.getBestAction(CleverBot.java:73)
+	at com.tcp.Game.start(Game.java:312)
+	at com.tcp.TcpClient.register(TcpClient.java:42)
+	at com.tcp.TcpClient.main(TcpClient.java:68)
+java.lang.NullPointerException
+	at com.bot.CleverBot.getAction(CleverBot.java:496)
+	at com.bot.CleverBot.getBestAction(CleverBot.java:73)
+	at com.tcp.Game.start(Game.java:312)
+	at com.tcp.TcpClient.register(TcpClient.java:42)
+	at com.tcp.TcpClient.main(TcpClient.java:68)
+java.lang.NullPointerException
+	at com.bot.CleverBot.getAction(CleverBot.java:496)
+	at com.bot.CleverBot.getBestAction(CleverBot.java:73)
+	at com.tcp.Game.start(Game.java:312)
+	at com.tcp.TcpClient.register(TcpClient.java:42)
+	at com.tcp.TcpClient.main(TcpClient.java:68)
+java.lang.NullPointerException
+	at com.bot.CleverBot.getAction(CleverBot.java:496)
+	at com.bot.CleverBot.getBestAction(CleverBot.java:73)
+	at com.tcp.Game.start(Game.java:312)
+	at com.tcp.TcpClient.register(TcpClient.java:42)
+	at com.tcp.TcpClient.main(TcpClient.java:68)
+java.lang.NullPointerException
+	at com.bot.CleverBot.getAction(CleverBot.java:496)
+	at com.bot.CleverBot.getBestAction(CleverBot.java:73)
+	at com.tcp.Game.start(Game.java:312)
+	at com.tcp.TcpClient.register(TcpClient.java:42)
+	at com.tcp.TcpClient.main(TcpClient.java:68)
+java.lang.NullPointerException
+	at com.bot.CleverBot.getAction(CleverBot.java:496)
+	at com.bot.CleverBot.getBestAction(CleverBot.java:73)
+	at com.tcp.Game.start(Game.java:312)
+	at com.tcp.TcpClient.register(TcpClient.java:42)
+	at com.tcp.TcpClient.main(TcpClient.java:68)
+java.lang.NullPointerException
+	at com.bot.CleverBot.getAction(CleverBot.java:496)
 	at com.bot.CleverBot.getBestAction(CleverBot.java:73)
 	at com.tcp.Game.start(Game.java:312)
 	at com.tcp.TcpClient.register(TcpClient.java:42)

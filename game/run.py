@@ -12,9 +12,9 @@ thread.start_new_thread(run, ())
 i = 1
 t = 0
 while i <= 15:
-    time.sleep(10)
-    t += 10
-    if t % 30 == 0:
+    time.sleep(20)
+    t += 20
+    if t % 20 == 0:
         print t, 's go away...'
     if os.path.exists(r'../run_area/server/data.csv'):
         print 'the ', i, ' match'

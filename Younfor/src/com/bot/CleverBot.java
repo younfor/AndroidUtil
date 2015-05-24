@@ -447,16 +447,29 @@ public class CleverBot implements Bot {
 					* activeIncludingSelf - 1))
 					/ activePlayers * 0.8);
 			int maxbet=1;
-			if(state.getInitjetton()>100*state.bigblindbet)
+			int level=0;// 0 low  1 high  
+			if(state.getInitjetton()>100*state.bigblindbet && me.getGold()>40*state.bigblindbet)
 			{
+				//  4000  2000
+				 level=1; 
+				 maxbet= (int) (state.getInitjetton() / 2.2);
+			}
+			else if(state.getInitjetton()>100*state.bigblindbet)
+			{
+				// 4000  0
 				 maxbet= (int) (state.getInitjetton() / 2.5);
+				 level=0;
 				 debug("more than 8000");
-			}else if(me.getGold()<10*state.bigblindbet)
+			}else if(me.getGold()>40*state.bigblindbet)
 			{
-				maxbet = (int) (state.getInitjetton() / 2.0);
+				//  2000 2000
+				level=1;
+				maxbet = (int) (state.getInitjetton() / 1.6);
 			}else
 			{
-				maxbet = (int) (state.getInitjetton() / 1.8);
+				// 2000 0
+				level=0;
+				maxbet = (int) (state.getInitjetton() / 2.0);
 			}
 			int prebet = 0;
 			try {
@@ -470,35 +483,9 @@ public class CleverBot implements Bot {
 					" tocall " + tocall + " maxbet " + maxbet + " prebet "
 							+ prebet + " prob " + prob + "\n");
 			Log.getIns(state.pid).log("myprobval:" + state.getMyVal());
-			
-			if (tocall < hightocall) {
-				debug("callfold");
-				if (state.getInitjetton() < hightocall)
-					hightocall = state.getInitjetton() - 1;
-				double prob1 = prob
-						* Math.log(((double) state.getInitjetton() + ((double) activePlayers * hightocall))
-								/ state.getInitjetton());
-				double prob2 = (1 - prob)
-						* Math.log((state.getInitjetton() - hightocall)
-								/ ((double) state.getInitjetton()));
-				double prob3 = Math
-						.log(((double) state.getInitjetton() - prebet)
-								/ state.getInitjetton());
-				debug("count :" + (prob1 + prob2) + "   " + prob3);
-
-				if (prob1 + prob2 >= prob3) {
-					{
-						debug("stupid call:" + (prob1 + prob2) + "   " + prob3);
-						return State.call;
-					}
-				} else {
-					debug("shaby fold");
-					return State.fold;
-				}
-			} else {
-				debug("raisecall");
-				double myval = state.getMyVal();
-				double aveval = 0, base = 0;
+			double myval = state.getMyVal();
+			double aveval = 0, base = 0;
+			try{
 				for (Player p : players) {
 					if (p.isAlive() && (!p.getPid().equals(state.pid))) {
 						int ac[] = new int[state.currentState - State.baseState + 1];
@@ -516,6 +503,38 @@ public class CleverBot implements Bot {
 						}
 					}
 				}
+			}catch(Exception e)
+			{
+				e.printStackTrace();
+				base=0;
+			}
+			if (tocall < hightocall) {
+				debug("callfold");
+				if (state.getInitjetton() < hightocall)
+					hightocall = state.getInitjetton() - 1;
+				double prob1 = prob
+						* Math.log(((double) state.getInitjetton() + ((double) activePlayers * hightocall))
+								/ state.getInitjetton());
+				double prob2 = (1 - prob)
+						* Math.log((state.getInitjetton() - hightocall)
+								/ ((double) state.getInitjetton()));
+				double prob3 = Math
+						.log(((double) state.getInitjetton() - prebet)
+								/ state.getInitjetton());
+				debug("count :" + (prob1 + prob2) + "   " + prob3);
+
+				if (prob1 + prob2 >= prob3 &&(level==1||base==0 ||myval<aveval/base+0.5)) {
+					{
+						debug("stupid call:" + (prob1 + prob2) + "   " + prob3);
+						return State.call;
+					}
+				} else {
+					debug("shaby fold");
+					return State.fold;
+				}
+			} else {
+				debug("raisecall");
+				
 				if(state.currentState!=State.baseState)
 					State.raisebet = tocall - prebet;
 				if (base == 0) {
@@ -533,7 +552,7 @@ public class CleverBot implements Bot {
 					if((state.getInitjetton()>100*state.bigblindbet||me.getGold()<10*state.bigblindbet) && myval>aveval/base)
 						return State.call;
 					if(state.currentState!=State.baseState)
-						State.raisebet =(int) (0.5*(1.5+state.callnum+(aveval/base-myval)*2.5) * state.bigblindbet+State.raisebet*0.5);
+						State.raisebet =(int) (0.3*(1.5+state.callnum+(aveval/base-myval)*2.5) * state.bigblindbet+State.raisebet*0.7);
 					return State.raise;
 				} else
 					return State.call;
