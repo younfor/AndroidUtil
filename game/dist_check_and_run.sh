@@ -80,8 +80,8 @@ do
 done
 ./all 127.0.0.1 6000 127.0.0.2 6002 2222 0</dev/null 1>/dev/null &>"err2222.txt" &
 # ./simple 127.0.0.1 6000 127.0.0.3 6003 3333 0</dev/null 1>/dev/null 2>/dev/null &
-./clever273 127.0.0.1 6000 127.0.0.3 6003 3333 0</dev/null 1>/dev/null &>"err3333.txt" &
-./youn 127.0.0.1 6000 127.0.0.4 6004 4444 0</dev/null 1>/dev/null &>"err4444.txt" &
+./lim 127.0.0.1 6000 127.0.0.3 6003 3333 0</dev/null 1>/dev/null &>"err3333.txt" &
+./xgame 127.0.0.1 6000 127.0.0.4 6004 4444 0</dev/null 1>/dev/null &>"err4444.txt" &
 ./gamel 127.0.0.1 6000 127.0.0.5 6005 5555 0</dev/null 1>/dev/null &>"err5555.txt" &
 ./xgame 127.0.0.1 6000 127.0.0.6 6006 6666 0</dev/null 1>/dev/null &>"err6666.txt" &
 ./clever 127.0.0.1 6000 127.0.0.7 6007 7777 0</dev/null 1>/dev/null &>"err7777.txt" &

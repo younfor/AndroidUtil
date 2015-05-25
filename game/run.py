@@ -42,6 +42,8 @@ while i <= 15:
             'cp ../run_area/server/replay.txt  logdata/replaytxt/' + str(i) + '.txt')
         os.system(
             'cp ../run_area/works/target/log7777.txt  logdata/outtxt/' + str(i) + '.txt')
+        os.system(
+            'cp ../run_area/works/target/err7777.txt  logdata/outtxt/err' + str(i) + '.txt')
         # del
         os.system('rm ../run_area/server/data.csv')
         print 'finish ', i, ' match at ', time.strftime('%Y-%m-%d %H:%M:%S')

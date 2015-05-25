@@ -1,13 +1,12 @@
 
 
 ===VERSION 1.24===
----GAME START @ 2015-5-25-17-14-53---
+---GAME START @ 2015-5-26-0-28-55---
 
 wait registration for 30 seconds
 reg: 2222 new 
-reg: 5555 DSB  reg: 6666 DSB  reg: 8888 DSB  reg: 1111 Young need_notify  
-reg: 3333 cleverbot need_notify 
-reg: 4444 Young need_notify  
+reg: 4444 DSB  reg: 6666 DSB  reg:3333 tnt
+reg: 5555 DSB  reg: 8888 DSB  reg: 1111 Young need_notify  
 reg: 7777 cleverbot need_notify 
 close registration
 
@@ -15,2649 +14,411 @@ close registration
 
 ----- clean player data in socket -----
 seat/ 
-button: 2222 2000 2000 
-small blind: 1111 2000 2000 
+button: 7777 2000 2000 
+small blind: 8888 2000 2000 
 big blind: 6666 2000 2000 
-5555 2000 2000 
-8888 2000 2000 
-7777 2000 2000 
+1111 2000 2000 
+2222 2000 2000 
 3333 2000 2000 
 4444 2000 2000 
+5555 2000 2000 
 /seat 
 blind/ 
-1111: 20 
+8888: 20 
 6666: 40 
 /blind 
-player 1111:hold/ 
-SPADES 9 
-CLUBS 2 
+player 8888:hold/ 
+SPADES K 
+HEARTS J 
 /hold 
 player 6666:hold/ 
-SPADES K 
-SPADES 4 
-/hold 
-player 5555:hold/ 
-HEARTS 4 
-CLUBS 5 
-/hold 
-player 8888:hold/ 
-CLUBS A 
-CLUBS K 
-/hold 
-player 7777:hold/ 
-SPADES 10 
 DIAMONDS 10 
+CLUBS A 
 /hold 
-player 3333:hold/ 
-HEARTS 7 
-SPADES Q 
-/hold 
-player 4444:hold/ 
+player 1111:hold/ 
 DIAMONDS 8 
-HEARTS A 
+DIAMONDS 6 
 /hold 
 player 2222:hold/ 
+SPADES 9 
+CLUBS K 
+/hold 
+player 3333:hold/ 
+HEARTS 3 
+CLUBS 8 
+/hold 
+player 4444:hold/ 
+SPADES 5 
+CLUBS 5 
+/hold 
+player 5555:hold/ 
+SPADES 4 
 HEARTS K 
-HEARTS 2 
+/hold 
+player 7777:hold/ 
+SPADES A 
+DIAMONDS 2 
 /hold 
 
 ---pre flop round bet---
 valid player: 8, all in player: 0, fold player: 0
-send inquire msg to player 5555 
+send inquire msg to player 1111 
 inquire/ 
 6666 1960 2000 40 blind 
-1111 1980 2000 20 blind 
+8888 1980 2000 20 blind 
 total pot: 60 
 /inquire 
-recv from player 5555: call 
-send inquire msg to player 8888 
+recv from player 1111: fold 
+
+send inquire msg to player 2222 
 inquire/ 
-5555 1960 2000 40 call 
+1111 2000 2000 0 fold 
 6666 1960 2000 40 blind 
-1111 1980 2000 20 blind 
+8888 1980 2000 20 blind 
+total pot: 60 
+/inquire 
+recv from player 2222: fold 
+
+send inquire msg to player 3333 
+inquire/ 
+2222 2000 2000 0 fold 
+1111 2000 2000 0 fold 
+6666 1960 2000 40 blind 
+8888 1980 2000 20 blind 
+total pot: 60 
+/inquire 
+recv from player 3333: fold
+send inquire msg to player 4444 
+inquire/ 
+3333 2000 2000 0 fold 
+2222 2000 2000 0 fold 
+1111 2000 2000 0 fold 
+6666 1960 2000 40 blind 
+8888 1980 2000 20 blind 
+total pot: 60 
+/inquire 
+recv from player 4444: call 
+send inquire msg to player 5555 
+inquire/ 
+4444 1960 2000 40 call 
+3333 2000 2000 0 fold 
+2222 2000 2000 0 fold 
+1111 2000 2000 0 fold 
+6666 1960 2000 40 blind 
+8888 1980 2000 20 blind 
 total pot: 100 
 /inquire 
-recv from player 8888: call 
+recv from player 5555: call 
 send inquire msg to player 7777 
 inquire/ 
-8888 1960 2000 40 call 
 5555 1960 2000 40 call 
+4444 1960 2000 40 call 
+3333 2000 2000 0 fold 
+2222 2000 2000 0 fold 
+1111 2000 2000 0 fold 
 6666 1960 2000 40 blind 
-1111 1980 2000 20 blind 
+8888 1980 2000 20 blind 
 total pot: 140 
 /inquire 
 recv from player 7777: fold 
 
-send inquire msg to player 3333 
+send inquire msg to player 8888 
 inquire/ 
 7777 2000 2000 0 fold 
-8888 1960 2000 40 call 
 5555 1960 2000 40 call 
-6666 1960 2000 40 blind 
-1111 1980 2000 20 blind 
-total pot: 140 
-/inquire 
-recv from player 3333: fold 
-
-send inquire msg to player 4444 
-inquire/ 
-3333 2000 2000 0 fold 
-7777 2000 2000 0 fold 
-8888 1960 2000 40 call 
-5555 1960 2000 40 call 
-6666 1960 2000 40 blind 
-1111 1980 2000 20 blind 
-total pot: 140 
-/inquire 
-recv from player 4444: call 
-
-send inquire msg to player 2222 
-inquire/ 
 4444 1960 2000 40 call 
 3333 2000 2000 0 fold 
-7777 2000 2000 0 fold 
-8888 1960 2000 40 call 
-5555 1960 2000 40 call 
-6666 1960 2000 40 blind 
-1111 1980 2000 20 blind 
-total pot: 180 
-/inquire 
-recv from player 2222: fold 
-
-send inquire msg to player 1111 
-inquire/ 
 2222 2000 2000 0 fold 
-4444 1960 2000 40 call 
-3333 2000 2000 0 fold 
-7777 2000 2000 0 fold 
-8888 1960 2000 40 call 
-5555 1960 2000 40 call 
+1111 2000 2000 0 fold 
 6666 1960 2000 40 blind 
-1111 1980 2000 20 blind 
-total pot: 180 
+8888 1980 2000 20 blind 
+total pot: 140 
 /inquire 
-recv from player 1111: fold 
-
+recv from player 8888: call 
 send inquire msg to player 6666 
 inquire/ 
-1111 1980 2000 20 fold 
-2222 2000 2000 0 fold 
+8888 1960 2000 40 call 
+7777 2000 2000 0 fold 
+5555 1960 2000 40 call 
 4444 1960 2000 40 call 
 3333 2000 2000 0 fold 
-7777 2000 2000 0 fold 
-8888 1960 2000 40 call 
-5555 1960 2000 40 call 
+2222 2000 2000 0 fold 
+1111 2000 2000 0 fold 
 6666 1960 2000 40 blind 
-total pot: 180 
+total pot: 160 
 /inquire 
 recv from player 6666: call 
 flop/ 
-DIAMONDS K 
-DIAMONDS 3 
-DIAMONDS Q 
+HEARTS 8 
+SPADES Q 
+HEARTS 4 
 /flop 
 
 ---flop round bet---
 valid player: 8, all in player: 0, fold player: 4
-send notify msg to player 1111 
-notify/ 
-2222 2000 2000 0 fold 
-4444 1960 2000 40 call 
-3333 2000 2000 0 fold 
-7777 2000 2000 0 fold 
-8888 1960 2000 40 call 
-5555 1960 2000 40 call 
-6666 1960 2000 40 check 
-1111 1980 2000 20 fold 
-total pot: 180 
-/notify 
-send inquire msg to player 6666 
-inquire/ 
-1111 1980 2000 20 fold 
-2222 2000 2000 0 fold 
-4444 1960 2000 40 call 
-3333 2000 2000 0 fold 
-7777 2000 2000 0 fold 
-8888 1960 2000 40 call 
-5555 1960 2000 40 call 
-6666 1960 2000 40 check 
-total pot: 180 
-/inquire 
-recv from player 6666: raise 200 
-send inquire msg to player 5555 
-inquire/ 
-6666 1760 2000 240 raise 
-1111 1980 2000 20 fold 
-2222 2000 2000 0 fold 
-4444 1960 2000 40 call 
-3333 2000 2000 0 fold 
-7777 2000 2000 0 fold 
-8888 1960 2000 40 call 
-5555 1960 2000 40 call 
-total pot: 380 
-/inquire 
-recv from player 5555: fold 
 send inquire msg to player 8888 
 inquire/ 
-5555 1960 2000 40 fold 
-6666 1760 2000 240 raise 
-1111 1980 2000 20 fold 
-2222 2000 2000 0 fold 
+7777 2000 2000 0 fold 
+5555 1960 2000 40 call 
 4444 1960 2000 40 call 
 3333 2000 2000 0 fold 
-7777 2000 2000 0 fold 
+2222 2000 2000 0 fold 
+1111 2000 2000 0 fold 
+6666 1960 2000 40 check 
 8888 1960 2000 40 call 
-total pot: 380 
+total pot: 160 
 /inquire 
-recv from player 8888: call 
-send notify msg to player 7777 
-notify/ 
-8888 1760 2000 240 call 
-5555 1960 2000 40 fold 
-6666 1760 2000 240 raise 
-1111 1980 2000 20 fold 
-2222 2000 2000 0 fold 
+recv from player 8888: fold 
+send inquire msg to player 6666 
+inquire/ 
+8888 1960 2000 40 fold 
+7777 2000 2000 0 fold 
+5555 1960 2000 40 call 
 4444 1960 2000 40 call 
 3333 2000 2000 0 fold 
-7777 2000 2000 0 fold 
-total pot: 580 
-/notify 
-send notify msg to player 3333 
-notify/ 
-7777 2000 2000 0 fold 
-8888 1760 2000 240 call 
-5555 1960 2000 40 fold 
-6666 1760 2000 240 raise 
-1111 1980 2000 20 fold 
 2222 2000 2000 0 fold 
+1111 2000 2000 0 fold 
+6666 1960 2000 40 check 
+total pot: 160 
+/inquire 
+recv from player 6666: raise 200 
+send notify msg to player 1111 
+notify/ 
+6666 1760 2000 240 raise 
+8888 1960 2000 40 fold 
+7777 2000 2000 0 fold 
+5555 1960 2000 40 call 
 4444 1960 2000 40 call 
 3333 2000 2000 0 fold 
-total pot: 580 
+2222 2000 2000 0 fold 
+1111 2000 2000 0 fold 
+total pot: 360 
 /notify 
 send inquire msg to player 4444 
 inquire/ 
 3333 2000 2000 0 fold 
-7777 2000 2000 0 fold 
-8888 1760 2000 240 call 
-5555 1960 2000 40 fold 
-6666 1760 2000 240 raise 
-1111 1980 2000 20 fold 
 2222 2000 2000 0 fold 
+1111 2000 2000 0 fold 
+6666 1760 2000 240 raise 
+8888 1960 2000 40 fold 
+7777 2000 2000 0 fold 
+5555 1960 2000 40 call 
 4444 1960 2000 40 call 
-total pot: 580 
+total pot: 360 
 /inquire 
-recv from player 4444: fold 
-
+recv from player 4444: call 
+send inquire msg to player 5555 
+inquire/ 
+4444 1760 2000 240 call 
+3333 2000 2000 0 fold 
+2222 2000 2000 0 fold 
+1111 2000 2000 0 fold 
+6666 1760 2000 240 raise 
+8888 1960 2000 40 fold 
+7777 2000 2000 0 fold 
+5555 1960 2000 40 call 
+total pot: 560 
+/inquire 
+recv from player 5555: call 
 turn/ 
-HEARTS 3 
+HEARTS 6 
 /turn 
 
 ---turn round bet---
-valid player: 8, all in player: 0, fold player: 6
-send notify msg to player 1111 
-notify/ 
-2222 2000 2000 0 fold 
-4444 1960 2000 40 fold 
-3333 2000 2000 0 fold 
-7777 2000 2000 0 fold 
-8888 1760 2000 240 call 
-5555 1960 2000 40 fold 
-6666 1760 2000 240 raise 
-1111 1980 2000 20 fold 
-total pot: 580 
-/notify 
+valid player: 8, all in player: 0, fold player: 5
 send inquire msg to player 6666 
 inquire/ 
-1111 1980 2000 20 fold 
-2222 2000 2000 0 fold 
-4444 1960 2000 40 fold 
-3333 2000 2000 0 fold 
+8888 1960 2000 40 fold 
 7777 2000 2000 0 fold 
-8888 1760 2000 240 call 
-5555 1960 2000 40 fold 
+5555 1760 2000 240 call 
+4444 1760 2000 240 call 
+3333 2000 2000 0 fold 
+2222 2000 2000 0 fold 
+1111 2000 2000 0 fold 
 6666 1760 2000 240 raise 
-total pot: 580 
+total pot: 760 
 /inquire 
-recv from player 6666: call 
-send inquire msg to player 8888 
-inquire/ 
-5555 1960 2000 40 fold 
-6666 1760 2000 240 check 
-1111 1980 2000 20 fold 
-2222 2000 2000 0 fold 
-4444 1960 2000 40 fold 
-3333 2000 2000 0 fold 
+recv from player 6666: fold 
+send notify msg to player 1111 
+notify/ 
+6666 1760 2000 240 fold 
+8888 1960 2000 40 fold 
 7777 2000 2000 0 fold 
-8888 1760 2000 240 call 
-total pot: 580 
+5555 1760 2000 240 call 
+4444 1760 2000 240 call 
+3333 2000 2000 0 fold 
+2222 2000 2000 0 fold 
+1111 2000 2000 0 fold 
+total pot: 760 
+/notify 
+send inquire msg to player 4444 
+inquire/ 
+3333 2000 2000 0 fold 
+2222 2000 2000 0 fold 
+1111 2000 2000 0 fold 
+6666 1760 2000 240 fold 
+8888 1960 2000 40 fold 
+7777 2000 2000 0 fold 
+5555 1760 2000 240 call 
+4444 1760 2000 240 call 
+total pot: 760 
 /inquire 
-recv from player 8888: call 
-river/ 
-SPADES J 
-/river 
+recv from player 4444: fold 
+send inquire msg to player 5555 
+inquire/ 
+4444 1760 2000 240 fold 
+3333 2000 2000 0 fold 
+2222 2000 2000 0 fold 
+1111 2000 2000 0 fold 
+6666 1760 2000 240 fold 
+8888 1960 2000 40 fold 
+7777 2000 2000 0 fold 
+5555 1760 2000 240 call 
+total pot: 760 
+/inquire 
+recv from player 5555: call 
 
 ---river round bet---
-valid player: 8, all in player: 0, fold player: 6
-send notify msg to player 1111 
-notify/ 
-2222 2000 2000 0 fold 
-4444 1960 2000 40 fold 
-3333 2000 2000 0 fold 
-7777 2000 2000 0 fold 
-8888 1760 2000 240 check 
-5555 1960 2000 40 fold 
-6666 1760 2000 240 check 
-1111 1980 2000 20 fold 
-total pot: 580 
-/notify 
-send inquire msg to player 6666 
-inquire/ 
-1111 1980 2000 20 fold 
-2222 2000 2000 0 fold 
-4444 1960 2000 40 fold 
-3333 2000 2000 0 fold 
-7777 2000 2000 0 fold 
-8888 1760 2000 240 check 
-5555 1960 2000 40 fold 
-6666 1760 2000 240 check 
-total pot: 580 
-/inquire 
-recv from player 6666: check 
-send inquire msg to player 8888 
-inquire/ 
-5555 1960 2000 40 fold 
-6666 1760 2000 240 check 
-1111 1980 2000 20 fold 
-2222 2000 2000 0 fold 
-4444 1960 2000 40 fold 
-3333 2000 2000 0 fold 
-7777 2000 2000 0 fold 
-8888 1760 2000 240 check 
-total pot: 580 
-/inquire 
-recv from player 8888: check 
+valid player: 8, all in player: 0, fold player: 7
 
 ----- notify msg last round -----
 send notify msg to player 7777 
 notify/ 
-8888 1760 2000 240 check 
-5555 1960 2000 40 fold 
-6666 1760 2000 240 check 
-1111 1980 2000 20 fold 
-2222 2000 2000 0 fold 
-4444 1960 2000 40 fold 
+5555 1760 2000 240 check 
+4444 1760 2000 240 fold 
 3333 2000 2000 0 fold 
-7777 2000 2000 0 fold 
-total pot: 580 
-/notify 
-send notify msg to player 3333 
-notify/ 
-7777 2000 2000 0 fold 
-8888 1760 2000 240 check 
-5555 1960 2000 40 fold 
-6666 1760 2000 240 check 
-1111 1980 2000 20 fold 
 2222 2000 2000 0 fold 
-4444 1960 2000 40 fold 
-3333 2000 2000 0 fold 
-total pot: 580 
-/notify 
-send notify msg to player 4444 
-notify/ 
-3333 2000 2000 0 fold 
+1111 2000 2000 0 fold 
+6666 1760 2000 240 fold 
+8888 1960 2000 40 fold 
 7777 2000 2000 0 fold 
-8888 1760 2000 240 check 
-5555 1960 2000 40 fold 
-6666 1760 2000 240 check 
-1111 1980 2000 20 fold 
-2222 2000 2000 0 fold 
-4444 1960 2000 40 fold 
-total pot: 580 
+total pot: 760 
 /notify 
 send notify msg to player 1111 
 notify/ 
-2222 2000 2000 0 fold 
-4444 1960 2000 40 fold 
-3333 2000 2000 0 fold 
+6666 1760 2000 240 fold 
+8888 1960 2000 40 fold 
 7777 2000 2000 0 fold 
-8888 1760 2000 240 check 
-5555 1960 2000 40 fold 
-6666 1760 2000 240 check 
-1111 1980 2000 20 fold 
-total pot: 580 
+5555 1760 2000 240 check 
+4444 1760 2000 240 fold 
+3333 2000 2000 0 fold 
+2222 2000 2000 0 fold 
+1111 2000 2000 0 fold 
+total pot: 760 
 /notify 
 
----show down---
-showdown/ 
-common/ 
-DIAMONDS K 
-DIAMONDS 3 
-DIAMONDS Q 
-HEARTS 3 
-SPADES J 
-/common 
-2: 6666 SPADES K SPADES 4 TWO_PAIR 
-1: 8888 CLUBS A CLUBS K TWO_PAIR 
-/showdown 
+--- 1 players not fold, don't need show down---
 
 ---Allocate pot---
+Only player at seat 6 not fold, win all the pot 760
 pot-win/ 
-8888: 580 
+5555: 760 
 /pot-win 
-it is player 1111's turn to be button
+it is player 8888's turn to be button
 
 -----2 Hand-----
 
 ----- clean player data in socket -----
 seat/ 
-button: 1111 1980 2000 
+button: 8888 1960 2000 
 small blind: 6666 1760 2000 
-big blind: 5555 1960 2000 
-8888 2340 2000 
-7777 2000 2000 
-3333 2000 2000 
-4444 1960 2000 
+big blind: 1111 2000 2000 
 2222 2000 2000 
+3333 2000 2000 
+4444 1760 2000 
+5555 2520 2000 
+7777 2000 2000 
 /seat 
 blind/ 
 6666: 20 
-5555: 40 
+1111: 40 
 /blind 
 player 6666:hold/ 
-DIAMONDS Q 
-CLUBS 2 
-/hold 
-player 5555:hold/ 
-CLUBS 7 
-DIAMONDS 5 
-/hold 
-player 8888:hold/ 
-SPADES 10 
-DIAMONDS 6 
-/hold 
-player 7777:hold/ 
-SPADES K 
-HEARTS A 
-/hold 
-player 3333:hold/ 
-DIAMONDS 2 
-DIAMONDS 8 
-/hold 
-player 4444:hold/ 
 HEARTS 4 
-CLUBS 4 
-/hold 
-player 2222:hold/ 
-DIAMONDS K 
-CLUBS J 
-/hold 
-player 1111:hold/ 
-DIAMONDS A 
-SPADES 4 
-/hold 
-
----pre flop round bet---
-valid player: 8, all in player: 0, fold player: 0
-send inquire msg to player 8888 
-inquire/ 
-5555 1920 2000 40 blind 
-6666 1740 2000 20 blind 
-total pot: 60 
-/inquire 
-recv from player 8888: call 
-send inquire msg to player 7777 
-inquire/ 
-8888 2300 2000 40 call 
-5555 1920 2000 40 blind 
-6666 1740 2000 20 blind 
-total pot: 100 
-/inquire 
-recv from player 7777: call 
-
-send inquire msg to player 3333 
-inquire/ 
-7777 1960 2000 40 call 
-8888 2300 2000 40 call 
-5555 1920 2000 40 blind 
-6666 1740 2000 20 blind 
-total pot: 140 
-/inquire 
-recv from player 3333: fold 
-
-send inquire msg to player 4444 
-inquire/ 
-3333 2000 2000 0 fold 
-7777 1960 2000 40 call 
-8888 2300 2000 40 call 
-5555 1920 2000 40 blind 
-6666 1740 2000 20 blind 
-total pot: 140 
-/inquire 
-recv from player 4444: fold 
-
-send inquire msg to player 2222 
-inquire/ 
-4444 1960 2000 0 fold 
-3333 2000 2000 0 fold 
-7777 1960 2000 40 call 
-8888 2300 2000 40 call 
-5555 1920 2000 40 blind 
-6666 1740 2000 20 blind 
-total pot: 140 
-/inquire 
-recv from player 2222: fold 
-
-send inquire msg to player 1111 
-inquire/ 
-2222 2000 2000 0 fold 
-4444 1960 2000 0 fold 
-3333 2000 2000 0 fold 
-7777 1960 2000 40 call 
-8888 2300 2000 40 call 
-5555 1920 2000 40 blind 
-6666 1740 2000 20 blind 
-total pot: 140 
-/inquire 
-recv from player 1111: call 
-
-send inquire msg to player 6666 
-inquire/ 
-1111 1940 2000 40 call 
-2222 2000 2000 0 fold 
-4444 1960 2000 0 fold 
-3333 2000 2000 0 fold 
-7777 1960 2000 40 call 
-8888 2300 2000 40 call 
-5555 1920 2000 40 blind 
-6666 1740 2000 20 blind 
-total pot: 180 
-/inquire 
-recv from player 6666: call 
-send inquire msg to player 5555 
-inquire/ 
-6666 1720 2000 40 call 
-1111 1940 2000 40 call 
-2222 2000 2000 0 fold 
-4444 1960 2000 0 fold 
-3333 2000 2000 0 fold 
-7777 1960 2000 40 call 
-8888 2300 2000 40 call 
-5555 1920 2000 40 blind 
-total pot: 200 
-/inquire 
-recv from player 5555: call 
-flop/ 
-CLUBS Q 
-HEARTS 3 
-DIAMONDS 4 
-/flop 
-
----flop round bet---
-valid player: 8, all in player: 0, fold player: 3
-send inquire msg to player 6666 
-inquire/ 
-1111 1940 2000 40 call 
-2222 2000 2000 0 fold 
-4444 1960 2000 0 fold 
-3333 2000 2000 0 fold 
-7777 1960 2000 40 call 
-8888 2300 2000 40 call 
-5555 1920 2000 40 check 
-6666 1720 2000 40 call 
-total pot: 200 
-/inquire 
-recv from player 6666: call 
-send inquire msg to player 5555 
-inquire/ 
-6666 1720 2000 40 check 
-1111 1940 2000 40 call 
-2222 2000 2000 0 fold 
-4444 1960 2000 0 fold 
-3333 2000 2000 0 fold 
-7777 1960 2000 40 call 
-8888 2300 2000 40 call 
-5555 1920 2000 40 check 
-total pot: 200 
-/inquire 
-recv from player 5555: check 
-send inquire msg to player 8888 
-inquire/ 
-5555 1920 2000 40 check 
-6666 1720 2000 40 check 
-1111 1940 2000 40 call 
-2222 2000 2000 0 fold 
-4444 1960 2000 0 fold 
-3333 2000 2000 0 fold 
-7777 1960 2000 40 call 
-8888 2300 2000 40 call 
-total pot: 200 
-/inquire 
-recv from player 8888: fold 
-send inquire msg to player 7777 
-inquire/ 
-8888 2300 2000 40 fold 
-5555 1920 2000 40 check 
-6666 1720 2000 40 check 
-1111 1940 2000 40 call 
-2222 2000 2000 0 fold 
-4444 1960 2000 0 fold 
-3333 2000 2000 0 fold 
-7777 1960 2000 40 call 
-total pot: 200 
-/inquire 
-recv from player 7777: call 
-
-send notify msg to player 3333 
-notify/ 
-7777 1960 2000 40 check 
-8888 2300 2000 40 fold 
-5555 1920 2000 40 check 
-6666 1720 2000 40 check 
-1111 1940 2000 40 call 
-2222 2000 2000 0 fold 
-4444 1960 2000 0 fold 
-3333 2000 2000 0 fold 
-total pot: 200 
-/notify 
-send notify msg to player 4444 
-notify/ 
-3333 2000 2000 0 fold 
-7777 1960 2000 40 check 
-8888 2300 2000 40 fold 
-5555 1920 2000 40 check 
-6666 1720 2000 40 check 
-1111 1940 2000 40 call 
-2222 2000 2000 0 fold 
-4444 1960 2000 0 fold 
-total pot: 200 
-/notify 
-send inquire msg to player 1111 
-inquire/ 
-2222 2000 2000 0 fold 
-4444 1960 2000 0 fold 
-3333 2000 2000 0 fold 
-7777 1960 2000 40 check 
-8888 2300 2000 40 fold 
-5555 1920 2000 40 check 
-6666 1720 2000 40 check 
-1111 1940 2000 40 call 
-total pot: 200 
-/inquire 
-recv from player 1111: call 
-
-turn/ 
-SPADES Q 
-/turn 
-
----turn round bet---
-valid player: 8, all in player: 0, fold player: 4
-send inquire msg to player 6666 
-inquire/ 
-1111 1940 2000 40 check 
-2222 2000 2000 0 fold 
-4444 1960 2000 0 fold 
-3333 2000 2000 0 fold 
-7777 1960 2000 40 check 
-8888 2300 2000 40 fold 
-5555 1920 2000 40 check 
-6666 1720 2000 40 check 
-total pot: 200 
-/inquire 
-recv from player 6666: raise 500 
-send inquire msg to player 5555 
-inquire/ 
-6666 1220 2000 540 raise 
-1111 1940 2000 40 check 
-2222 2000 2000 0 fold 
-4444 1960 2000 0 fold 
-3333 2000 2000 0 fold 
-7777 1960 2000 40 check 
-8888 2300 2000 40 fold 
-5555 1920 2000 40 check 
-total pot: 700 
-/inquire 
-recv from player 5555: fold 
-send inquire msg to player 7777 
-inquire/ 
-8888 2300 2000 40 fold 
-5555 1920 2000 40 fold 
-6666 1220 2000 540 raise 
-1111 1940 2000 40 check 
-2222 2000 2000 0 fold 
-4444 1960 2000 0 fold 
-3333 2000 2000 0 fold 
-7777 1960 2000 40 check 
-total pot: 700 
-/inquire 
-recv from player 7777: fold 
-
-send notify msg to player 3333 
-notify/ 
-7777 1960 2000 40 fold 
-8888 2300 2000 40 fold 
-5555 1920 2000 40 fold 
-6666 1220 2000 540 raise 
-1111 1940 2000 40 check 
-2222 2000 2000 0 fold 
-4444 1960 2000 0 fold 
-3333 2000 2000 0 fold 
-total pot: 700 
-/notify 
-send notify msg to player 4444 
-notify/ 
-3333 2000 2000 0 fold 
-7777 1960 2000 40 fold 
-8888 2300 2000 40 fold 
-5555 1920 2000 40 fold 
-6666 1220 2000 540 raise 
-1111 1940 2000 40 check 
-2222 2000 2000 0 fold 
-4444 1960 2000 0 fold 
-total pot: 700 
-/notify 
-send inquire msg to player 1111 
-inquire/ 
-2222 2000 2000 0 fold 
-4444 1960 2000 0 fold 
-3333 2000 2000 0 fold 
-7777 1960 2000 40 fold 
-8888 2300 2000 40 fold 
-5555 1920 2000 40 fold 
-6666 1220 2000 540 raise 
-1111 1940 2000 40 check 
-total pot: 700 
-/inquire 
-recv from player 1111: fold 
-
-
----river round bet---
-valid player: 8, all in player: 0, fold player: 7
-
------ notify msg last round -----
-send notify msg to player 7777 
-notify/ 
-8888 2300 2000 40 fold 
-5555 1920 2000 40 fold 
-6666 1220 2000 540 raise 
-1111 1940 2000 40 fold 
-2222 2000 2000 0 fold 
-4444 1960 2000 0 fold 
-3333 2000 2000 0 fold 
-7777 1960 2000 40 fold 
-total pot: 700 
-/notify 
-send notify msg to player 3333 
-notify/ 
-7777 1960 2000 40 fold 
-8888 2300 2000 40 fold 
-5555 1920 2000 40 fold 
-6666 1220 2000 540 raise 
-1111 1940 2000 40 fold 
-2222 2000 2000 0 fold 
-4444 1960 2000 0 fold 
-3333 2000 2000 0 fold 
-total pot: 700 
-/notify 
-send notify msg to player 4444 
-notify/ 
-3333 2000 2000 0 fold 
-7777 1960 2000 40 fold 
-8888 2300 2000 40 fold 
-5555 1920 2000 40 fold 
-6666 1220 2000 540 raise 
-1111 1940 2000 40 fold 
-2222 2000 2000 0 fold 
-4444 1960 2000 0 fold 
-total pot: 700 
-/notify 
-send notify msg to player 1111 
-notify/ 
-2222 2000 2000 0 fold 
-4444 1960 2000 0 fold 
-3333 2000 2000 0 fold 
-7777 1960 2000 40 fold 
-8888 2300 2000 40 fold 
-5555 1920 2000 40 fold 
-6666 1220 2000 540 raise 
-1111 1940 2000 40 fold 
-total pot: 700 
-/notify 
-
---- 1 players not fold, don't need show down---
-
----Allocate pot---
-Only player at seat 0 not fold, win all the pot 700
-pot-win/ 
-6666: 700 
-/pot-win 
-it is player 6666's turn to be button
-
------3 Hand-----
-
------ clean player data in socket -----
-seat/ 
-button: 6666 1920 2000 
-small blind: 5555 1920 2000 
-big blind: 8888 2300 2000 
-7777 1960 2000 
-3333 2000 2000 
-4444 1960 2000 
-2222 2000 2000 
-1111 1940 2000 
-/seat 
-blind/ 
-5555: 20 
-8888: 40 
-/blind 
-player 5555:hold/ 
-CLUBS 6 
 HEARTS 7 
 /hold 
-player 8888:hold/ 
-SPADES 7 
-DIAMONDS 5 
+player 1111:hold/ 
+HEARTS Q 
+HEARTS 2 
 /hold 
-player 7777:hold/ 
+player 2222:hold/ 
+CLUBS 7 
+SPADES 8 
+/hold 
+player 3333:hold/ 
 SPADES 6 
-SPADES 5 
-/hold 
-player 3333:hold/ 
-CLUBS J 
-SPADES J 
-/hold 
-player 4444:hold/ 
-HEARTS J 
-HEARTS 9 
-/hold 
-player 2222:hold/ 
-CLUBS 9 
-HEARTS K 
-/hold 
-player 1111:hold/ 
-CLUBS 8 
-DIAMONDS 6 
-/hold 
-player 6666:hold/ 
-CLUBS 3 
-SPADES 2 
-/hold 
-
----pre flop round bet---
-valid player: 8, all in player: 0, fold player: 0
-send inquire msg to player 7777 
-inquire/ 
-8888 2260 2000 40 blind 
-5555 1900 2000 20 blind 
-total pot: 60 
-/inquire 
-recv from player 7777: fold 
-
-send inquire msg to player 3333 
-inquire/ 
-7777 1960 2000 0 fold 
-8888 2260 2000 40 blind 
-5555 1900 2000 20 blind 
-total pot: 60 
-/inquire 
-recv from player 3333: raise 40 
-
-send inquire msg to player 4444 
-inquire/ 
-3333 1920 2000 80 raise 
-7777 1960 2000 0 fold 
-8888 2260 2000 40 blind 
-5555 1900 2000 20 blind 
-total pot: 140 
-/inquire 
-recv from player 4444: call 
-
-send inquire msg to player 2222 
-inquire/ 
-4444 1880 2000 80 call 
-3333 1920 2000 80 raise 
-7777 1960 2000 0 fold 
-8888 2260 2000 40 blind 
-5555 1900 2000 20 blind 
-total pot: 220 
-/inquire 
-recv from player 2222: fold 
-
-send inquire msg to player 1111 
-inquire/ 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 call 
-3333 1920 2000 80 raise 
-7777 1960 2000 0 fold 
-8888 2260 2000 40 blind 
-5555 1900 2000 20 blind 
-total pot: 220 
-/inquire 
-recv from player 1111: fold 
-
-send inquire msg to player 6666 
-inquire/ 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 call 
-3333 1920 2000 80 raise 
-7777 1960 2000 0 fold 
-8888 2260 2000 40 blind 
-5555 1900 2000 20 blind 
-total pot: 220 
-/inquire 
-recv from player 6666: fold 
-send inquire msg to player 5555 
-inquire/ 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 call 
-3333 1920 2000 80 raise 
-7777 1960 2000 0 fold 
-8888 2260 2000 40 blind 
-5555 1900 2000 20 blind 
-total pot: 220 
-/inquire 
-recv from player 5555: call 
-send inquire msg to player 8888 
-inquire/ 
-5555 1840 2000 80 call 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 call 
-3333 1920 2000 80 raise 
-7777 1960 2000 0 fold 
-8888 2260 2000 40 blind 
-total pot: 280 
-/inquire 
-recv from player 8888: call 
-flop/ 
-DIAMONDS 9 
-CLUBS 5 
-DIAMONDS 10 
-/flop 
-
----flop round bet---
-valid player: 8, all in player: 0, fold player: 4
-send inquire msg to player 5555 
-inquire/ 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 call 
-3333 1920 2000 80 raise 
-7777 1960 2000 0 fold 
-8888 2220 2000 80 call 
-5555 1840 2000 80 call 
-total pot: 320 
-/inquire 
-recv from player 5555: fold 
-send inquire msg to player 8888 
-inquire/ 
-5555 1840 2000 80 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 call 
-3333 1920 2000 80 raise 
-7777 1960 2000 0 fold 
-8888 2220 2000 80 call 
-total pot: 320 
-/inquire 
-recv from player 8888: call 
-send notify msg to player 7777 
-notify/ 
-8888 2220 2000 80 check 
-5555 1840 2000 80 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 call 
-3333 1920 2000 80 raise 
-7777 1960 2000 0 fold 
-total pot: 320 
-/notify 
-send inquire msg to player 3333 
-inquire/ 
-7777 1960 2000 0 fold 
-8888 2220 2000 80 check 
-5555 1840 2000 80 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 call 
-3333 1920 2000 80 raise 
-total pot: 320 
-/inquire 
-recv from player 3333: raise 264 
-
-send inquire msg to player 4444 
-inquire/ 
-3333 1656 2000 344 raise 
-7777 1960 2000 0 fold 
-8888 2220 2000 80 check 
-5555 1840 2000 80 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 call 
-total pot: 584 
-/inquire 
-recv from player 4444: fold 
-
-send notify msg to player 1111 
-notify/ 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 fold 
-3333 1656 2000 344 raise 
-7777 1960 2000 0 fold 
-8888 2220 2000 80 check 
-5555 1840 2000 80 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-total pot: 584 
-/notify 
-send inquire msg to player 8888 
-inquire/ 
-5555 1840 2000 80 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 fold 
-3333 1656 2000 344 raise 
-7777 1960 2000 0 fold 
-8888 2220 2000 80 check 
-total pot: 584 
-/inquire 
-recv from player 8888: call 
-turn/ 
-HEARTS 6 
-/turn 
-
----turn round bet---
-valid player: 8, all in player: 0, fold player: 6
-send inquire msg to player 8888 
-inquire/ 
-5555 1840 2000 80 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 fold 
-3333 1656 2000 344 raise 
-7777 1960 2000 0 fold 
-8888 1956 2000 344 call 
-total pot: 848 
-/inquire 
-recv from player 8888: call 
-send notify msg to player 7777 
-notify/ 
-8888 1956 2000 344 check 
-5555 1840 2000 80 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 fold 
-3333 1656 2000 344 raise 
-7777 1960 2000 0 fold 
-total pot: 848 
-/notify 
-send inquire msg to player 3333 
-inquire/ 
-7777 1960 2000 0 fold 
-8888 1956 2000 344 check 
-5555 1840 2000 80 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 fold 
-3333 1656 2000 344 raise 
-total pot: 848 
-/inquire 
-recv from player 3333: raise 115 
-
-send notify msg to player 4444 
-notify/ 
-3333 1541 2000 459 raise 
-7777 1960 2000 0 fold 
-8888 1956 2000 344 check 
-5555 1840 2000 80 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 fold 
-total pot: 963 
-/notify 
-send notify msg to player 1111 
-notify/ 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 fold 
-3333 1541 2000 459 raise 
-7777 1960 2000 0 fold 
-8888 1956 2000 344 check 
-5555 1840 2000 80 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-total pot: 963 
-/notify 
-send inquire msg to player 8888 
-inquire/ 
-5555 1840 2000 80 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 fold 
-3333 1541 2000 459 raise 
-7777 1960 2000 0 fold 
-8888 1956 2000 344 check 
-total pot: 963 
-/inquire 
-recv from player 8888: call 
-river/ 
-SPADES 9 
-/river 
-
----river round bet---
-valid player: 8, all in player: 0, fold player: 6
-send inquire msg to player 8888 
-inquire/ 
-5555 1840 2000 80 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 fold 
-3333 1541 2000 459 raise 
-7777 1960 2000 0 fold 
-8888 1841 2000 459 call 
-total pot: 1078 
-/inquire 
-recv from player 8888: fold 
-send notify msg to player 7777 
-notify/ 
-8888 1841 2000 459 fold 
-5555 1840 2000 80 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 fold 
-3333 1541 2000 459 raise 
-7777 1960 2000 0 fold 
-total pot: 1078 
-/notify 
-send inquire msg to player 3333 
-inquire/ 
-7777 1960 2000 0 fold 
-8888 1841 2000 459 fold 
-5555 1840 2000 80 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 fold 
-3333 1541 2000 459 raise 
-total pot: 1078 
-/inquire 
-recv from player 3333: call 
-
-
------ notify msg last round -----
-send notify msg to player 4444 
-notify/ 
-3333 1541 2000 459 check 
-7777 1960 2000 0 fold 
-8888 1841 2000 459 fold 
-5555 1840 2000 80 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 fold 
-total pot: 1078 
-/notify 
-send notify msg to player 1111 
-notify/ 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 fold 
-3333 1541 2000 459 check 
-7777 1960 2000 0 fold 
-8888 1841 2000 459 fold 
-5555 1840 2000 80 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-total pot: 1078 
-/notify 
-send notify msg to player 7777 
-notify/ 
-8888 1841 2000 459 fold 
-5555 1840 2000 80 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 fold 
-3333 1541 2000 459 check 
-7777 1960 2000 0 fold 
-total pot: 1078 
-/notify 
-send notify msg to player 3333 
-notify/ 
-7777 1960 2000 0 fold 
-8888 1841 2000 459 fold 
-5555 1840 2000 80 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 80 fold 
-3333 1541 2000 459 check 
-total pot: 1078 
-/notify 
-
---- 1 players not fold, don't need show down---
-
----Allocate pot---
-Only player at seat 3 not fold, win all the pot 1078
-pot-win/ 
-3333: 1078 
-/pot-win 
-it is player 5555's turn to be button
-
------4 Hand-----
-
------ clean player data in socket -----
-seat/ 
-button: 5555 1840 2000 
-small blind: 8888 1841 2000 
-big blind: 7777 1960 2000 
-3333 2619 2000 
-4444 1880 2000 
-2222 2000 2000 
-1111 1940 2000 
-6666 1920 2000 
-/seat 
-blind/ 
-8888: 20 
-7777: 40 
-/blind 
-player 8888:hold/ 
-HEARTS 6 
-SPADES 3 
-/hold 
-player 7777:hold/ 
-HEARTS 8 
-CLUBS 10 
-/hold 
-player 3333:hold/ 
-SPADES Q 
-HEARTS K 
-/hold 
-player 4444:hold/ 
-CLUBS 4 
-DIAMONDS K 
-/hold 
-player 2222:hold/ 
-DIAMONDS 5 
-DIAMONDS 3 
-/hold 
-player 1111:hold/ 
-HEARTS 5 
-CLUBS 5 
-/hold 
-player 6666:hold/ 
-SPADES 5 
 HEARTS 10 
 /hold 
-player 5555:hold/ 
-CLUBS 9 
-HEARTS 9 
-/hold 
-
----pre flop round bet---
-valid player: 8, all in player: 0, fold player: 0
-send inquire msg to player 3333 
-inquire/ 
-7777 1920 2000 40 blind 
-8888 1821 2000 20 blind 
-total pot: 60 
-/inquire 
-recv from player 3333: fold 
-
-send inquire msg to player 4444 
-inquire/ 
-3333 2619 2000 0 fold 
-7777 1920 2000 40 blind 
-8888 1821 2000 20 blind 
-total pot: 60 
-/inquire 
-recv from player 4444: fold 
-
-send inquire msg to player 2222 
-inquire/ 
-4444 1880 2000 0 fold 
-3333 2619 2000 0 fold 
-7777 1920 2000 40 blind 
-8888 1821 2000 20 blind 
-total pot: 60 
-/inquire 
-recv from player 2222: fold 
-
-send inquire msg to player 1111 
-inquire/ 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2619 2000 0 fold 
-7777 1920 2000 40 blind 
-8888 1821 2000 20 blind 
-total pot: 60 
-/inquire 
-recv from player 1111: fold 
-
-send inquire msg to player 6666 
-inquire/ 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2619 2000 0 fold 
-7777 1920 2000 40 blind 
-8888 1821 2000 20 blind 
-total pot: 60 
-/inquire 
-recv from player 6666: fold 
-send inquire msg to player 5555 
-inquire/ 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2619 2000 0 fold 
-7777 1920 2000 40 blind 
-8888 1821 2000 20 blind 
-total pot: 60 
-/inquire 
-recv from player 5555: call 
-send inquire msg to player 8888 
-inquire/ 
-5555 1800 2000 40 call 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2619 2000 0 fold 
-7777 1920 2000 40 blind 
-8888 1821 2000 20 blind 
-total pot: 100 
-/inquire 
-recv from player 8888: call 
-send inquire msg to player 7777 
-inquire/ 
-8888 1801 2000 40 call 
-5555 1800 2000 40 call 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2619 2000 0 fold 
-7777 1920 2000 40 blind 
-total pot: 120 
-/inquire 
-recv from player 7777: check 
-
-flop/ 
-DIAMONDS A 
-HEARTS 4 
-SPADES 10 
-/flop 
-
----flop round bet---
-valid player: 8, all in player: 0, fold player: 5
-send inquire msg to player 8888 
-inquire/ 
-5555 1800 2000 40 call 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2619 2000 0 fold 
-7777 1920 2000 40 check 
-8888 1801 2000 40 call 
-total pot: 120 
-/inquire 
-recv from player 8888: fold 
-send inquire msg to player 7777 
-inquire/ 
-8888 1801 2000 40 fold 
-5555 1800 2000 40 call 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2619 2000 0 fold 
-7777 1920 2000 40 check 
-total pot: 120 
-/inquire 
-recv from player 7777: raise 54 
-
-send notify msg to player 3333 
-notify/ 
-7777 1866 2000 94 raise 
-8888 1801 2000 40 fold 
-5555 1800 2000 40 call 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2619 2000 0 fold 
-total pot: 174 
-/notify 
-send notify msg to player 4444 
-notify/ 
-3333 2619 2000 0 fold 
-7777 1866 2000 94 raise 
-8888 1801 2000 40 fold 
-5555 1800 2000 40 call 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-total pot: 174 
-/notify 
-send notify msg to player 1111 
-notify/ 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2619 2000 0 fold 
-7777 1866 2000 94 raise 
-8888 1801 2000 40 fold 
-5555 1800 2000 40 call 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-total pot: 174 
-/notify 
-send inquire msg to player 5555 
-inquire/ 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2619 2000 0 fold 
-7777 1866 2000 94 raise 
-8888 1801 2000 40 fold 
-5555 1800 2000 40 call 
-total pot: 174 
-/inquire 
-recv from player 5555: call 
-turn/ 
-DIAMONDS 2 
-/turn 
-
----turn round bet---
-valid player: 8, all in player: 0, fold player: 6
-send inquire msg to player 7777 
-inquire/ 
-8888 1801 2000 40 fold 
-5555 1746 2000 94 call 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2619 2000 0 fold 
-7777 1866 2000 94 raise 
-total pot: 228 
-/inquire 
-recv from player 7777: call 
-
-send notify msg to player 3333 
-notify/ 
-7777 1866 2000 94 check 
-8888 1801 2000 40 fold 
-5555 1746 2000 94 call 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2619 2000 0 fold 
-total pot: 228 
-/notify 
-send notify msg to player 4444 
-notify/ 
-3333 2619 2000 0 fold 
-7777 1866 2000 94 check 
-8888 1801 2000 40 fold 
-5555 1746 2000 94 call 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-total pot: 228 
-/notify 
-send notify msg to player 1111 
-notify/ 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2619 2000 0 fold 
-7777 1866 2000 94 check 
-8888 1801 2000 40 fold 
-5555 1746 2000 94 call 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-total pot: 228 
-/notify 
-send inquire msg to player 5555 
-inquire/ 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2619 2000 0 fold 
-7777 1866 2000 94 check 
-8888 1801 2000 40 fold 
-5555 1746 2000 94 call 
-total pot: 228 
-/inquire 
-recv from player 5555: call 
-river/ 
-SPADES A 
-/river 
-
----river round bet---
-valid player: 8, all in player: 0, fold player: 6
-send inquire msg to player 7777 
-inquire/ 
-8888 1801 2000 40 fold 
-5555 1746 2000 94 check 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2619 2000 0 fold 
-7777 1866 2000 94 check 
-total pot: 228 
-/inquire 
-recv from player 7777: raise 192 
-
-send notify msg to player 3333 
-notify/ 
-7777 1674 2000 286 raise 
-8888 1801 2000 40 fold 
-5555 1746 2000 94 check 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2619 2000 0 fold 
-total pot: 420 
-/notify 
-send notify msg to player 4444 
-notify/ 
-3333 2619 2000 0 fold 
-7777 1674 2000 286 raise 
-8888 1801 2000 40 fold 
-5555 1746 2000 94 check 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-total pot: 420 
-/notify 
-send notify msg to player 1111 
-notify/ 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2619 2000 0 fold 
-7777 1674 2000 286 raise 
-8888 1801 2000 40 fold 
-5555 1746 2000 94 check 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-total pot: 420 
-/notify 
-send inquire msg to player 5555 
-inquire/ 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2619 2000 0 fold 
-7777 1674 2000 286 raise 
-8888 1801 2000 40 fold 
-5555 1746 2000 94 check 
-total pot: 420 
-/inquire 
-recv from player 5555: fold 
-
------ notify msg last round -----
-send notify msg to player 7777 
-notify/ 
-8888 1801 2000 40 fold 
-5555 1746 2000 94 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2619 2000 0 fold 
-7777 1674 2000 286 raise 
-total pot: 420 
-/notify 
-send notify msg to player 3333 
-notify/ 
-7777 1674 2000 286 raise 
-8888 1801 2000 40 fold 
-5555 1746 2000 94 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2619 2000 0 fold 
-total pot: 420 
-/notify 
-send notify msg to player 4444 
-notify/ 
-3333 2619 2000 0 fold 
-7777 1674 2000 286 raise 
-8888 1801 2000 40 fold 
-5555 1746 2000 94 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-total pot: 420 
-/notify 
-send notify msg to player 1111 
-notify/ 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2619 2000 0 fold 
-7777 1674 2000 286 raise 
-8888 1801 2000 40 fold 
-5555 1746 2000 94 fold 
-6666 1920 2000 0 fold 
-1111 1940 2000 0 fold 
-total pot: 420 
-/notify 
-
---- 1 players not fold, don't need show down---
-
----Allocate pot---
-Only player at seat 1 not fold, win all the pot 420
-pot-win/ 
-7777: 420 
-/pot-win 
-it is player 8888's turn to be button
-
------5 Hand-----
-
------ clean player data in socket -----
-seat/ 
-button: 8888 1801 2000 
-small blind: 7777 2094 2000 
-big blind: 3333 2619 2000 
-4444 1880 2000 
-2222 2000 2000 
-1111 1940 2000 
-6666 1920 2000 
-5555 1746 2000 
-/seat 
-blind/ 
-7777: 20 
-3333: 40 
-/blind 
-player 7777:hold/ 
-DIAMONDS 7 
-HEARTS A 
-/hold 
-player 3333:hold/ 
-SPADES 10 
-DIAMONDS 6 
-/hold 
 player 4444:hold/ 
-SPADES 2 
+DIAMONDS J 
 SPADES 7 
 /hold 
-player 2222:hold/ 
-HEARTS 7 
-CLUBS A 
-/hold 
-player 1111:hold/ 
-DIAMONDS 10 
-SPADES A 
-/hold 
-player 6666:hold/ 
-DIAMONDS J 
-DIAMONDS 5 
-/hold 
 player 5555:hold/ 
-DIAMONDS Q 
-HEARTS 5 
-/hold 
-player 8888:hold/ 
-DIAMONDS K 
-HEARTS 9 
-/hold 
-
----pre flop round bet---
-valid player: 8, all in player: 0, fold player: 0
-send inquire msg to player 4444 
-inquire/ 
-3333 2579 2000 40 blind 
-7777 2074 2000 20 blind 
-total pot: 60 
-/inquire 
-recv from player 4444: fold 
-
-send inquire msg to player 2222 
-inquire/ 
-4444 1880 2000 0 fold 
-3333 2579 2000 40 blind 
-7777 2074 2000 20 blind 
-total pot: 60 
-/inquire 
-recv from player 2222: fold 
-
-send inquire msg to player 1111 
-inquire/ 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2579 2000 40 blind 
-7777 2074 2000 20 blind 
-total pot: 60 
-/inquire 
-recv from player 1111: call 
-
-send inquire msg to player 6666 
-inquire/ 
-1111 1900 2000 40 call 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2579 2000 40 blind 
-7777 2074 2000 20 blind 
-total pot: 100 
-/inquire 
-recv from player 6666: fold 
-send inquire msg to player 5555 
-inquire/ 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 call 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2579 2000 40 blind 
-7777 2074 2000 20 blind 
-total pot: 100 
-/inquire 
-recv from player 5555: call 
-send inquire msg to player 8888 
-inquire/ 
-5555 1706 2000 40 call 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 call 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2579 2000 40 blind 
-7777 2074 2000 20 blind 
-total pot: 140 
-/inquire 
-recv from player 8888: call 
-send inquire msg to player 7777 
-inquire/ 
-8888 1761 2000 40 call 
-5555 1706 2000 40 call 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 call 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2579 2000 40 blind 
-7777 2074 2000 20 blind 
-total pot: 180 
-/inquire 
-recv from player 7777: fold 
-
-send inquire msg to player 3333 
-inquire/ 
-7777 2074 2000 20 fold 
-8888 1761 2000 40 call 
-5555 1706 2000 40 call 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 call 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2579 2000 40 blind 
-total pot: 180 
-/inquire 
-recv from player 3333: fold 
-
-flop/ 
-CLUBS 5 
-SPADES Q 
-SPADES 8 
-/flop 
-
----flop round bet---
-valid player: 8, all in player: 0, fold player: 5
-send notify msg to player 7777 
-notify/ 
-8888 1761 2000 40 call 
-5555 1706 2000 40 call 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 call 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2579 2000 40 fold 
-7777 2074 2000 20 fold 
-total pot: 180 
-/notify 
-send notify msg to player 3333 
-notify/ 
-7777 2074 2000 20 fold 
-8888 1761 2000 40 call 
-5555 1706 2000 40 call 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 call 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2579 2000 40 fold 
-total pot: 180 
-/notify 
-send notify msg to player 4444 
-notify/ 
-3333 2579 2000 40 fold 
-7777 2074 2000 20 fold 
-8888 1761 2000 40 call 
-5555 1706 2000 40 call 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 call 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-total pot: 180 
-/notify 
-send inquire msg to player 1111 
-inquire/ 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2579 2000 40 fold 
-7777 2074 2000 20 fold 
-8888 1761 2000 40 call 
-5555 1706 2000 40 call 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 call 
-total pot: 180 
-/inquire 
-recv from player 1111: check 
-
-send inquire msg to player 5555 
-inquire/ 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 check 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2579 2000 40 fold 
-7777 2074 2000 20 fold 
-8888 1761 2000 40 call 
-5555 1706 2000 40 call 
-total pot: 180 
-/inquire 
-recv from player 5555: call 
-send inquire msg to player 8888 
-inquire/ 
-5555 1706 2000 40 check 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 check 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2579 2000 40 fold 
-7777 2074 2000 20 fold 
-8888 1761 2000 40 call 
-total pot: 180 
-/inquire 
-recv from player 8888: fold 
-turn/ 
-SPADES J 
-/turn 
-
----turn round bet---
-valid player: 8, all in player: 0, fold player: 6
-send notify msg to player 7777 
-notify/ 
-8888 1761 2000 40 fold 
-5555 1706 2000 40 check 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 check 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2579 2000 40 fold 
-7777 2074 2000 20 fold 
-total pot: 180 
-/notify 
-send notify msg to player 3333 
-notify/ 
-7777 2074 2000 20 fold 
-8888 1761 2000 40 fold 
-5555 1706 2000 40 check 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 check 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2579 2000 40 fold 
-total pot: 180 
-/notify 
-send notify msg to player 4444 
-notify/ 
-3333 2579 2000 40 fold 
-7777 2074 2000 20 fold 
-8888 1761 2000 40 fold 
-5555 1706 2000 40 check 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 check 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-total pot: 180 
-/notify 
-send inquire msg to player 1111 
-inquire/ 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2579 2000 40 fold 
-7777 2074 2000 20 fold 
-8888 1761 2000 40 fold 
-5555 1706 2000 40 check 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 check 
-total pot: 180 
-/inquire 
-recv from player 1111: check 
-
-send inquire msg to player 5555 
-inquire/ 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 check 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2579 2000 40 fold 
-7777 2074 2000 20 fold 
-8888 1761 2000 40 fold 
-5555 1706 2000 40 check 
-total pot: 180 
-/inquire 
-recv from player 5555: raise 500 
-send notify msg to player 7777 
-notify/ 
-8888 1761 2000 40 fold 
-5555 1206 2000 540 raise 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 check 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2579 2000 40 fold 
-7777 2074 2000 20 fold 
-total pot: 680 
-/notify 
-send notify msg to player 3333 
-notify/ 
-7777 2074 2000 20 fold 
-8888 1761 2000 40 fold 
-5555 1206 2000 540 raise 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 check 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2579 2000 40 fold 
-total pot: 680 
-/notify 
-send notify msg to player 4444 
-notify/ 
-3333 2579 2000 40 fold 
-7777 2074 2000 20 fold 
-8888 1761 2000 40 fold 
-5555 1206 2000 540 raise 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 check 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-total pot: 680 
-/notify 
-send inquire msg to player 1111 
-inquire/ 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2579 2000 40 fold 
-7777 2074 2000 20 fold 
-8888 1761 2000 40 fold 
-5555 1206 2000 540 raise 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 check 
-total pot: 680 
-/inquire 
-recv from player 1111: fold 
-
-
----river round bet---
-valid player: 8, all in player: 0, fold player: 7
-
------ notify msg last round -----
-send notify msg to player 7777 
-notify/ 
-8888 1761 2000 40 fold 
-5555 1206 2000 540 raise 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2579 2000 40 fold 
-7777 2074 2000 20 fold 
-total pot: 680 
-/notify 
-send notify msg to player 3333 
-notify/ 
-7777 2074 2000 20 fold 
-8888 1761 2000 40 fold 
-5555 1206 2000 540 raise 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2579 2000 40 fold 
-total pot: 680 
-/notify 
-send notify msg to player 4444 
-notify/ 
-3333 2579 2000 40 fold 
-7777 2074 2000 20 fold 
-8888 1761 2000 40 fold 
-5555 1206 2000 540 raise 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 fold 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-total pot: 680 
-/notify 
-send notify msg to player 1111 
-notify/ 
-2222 2000 2000 0 fold 
-4444 1880 2000 0 fold 
-3333 2579 2000 40 fold 
-7777 2074 2000 20 fold 
-8888 1761 2000 40 fold 
-5555 1206 2000 540 raise 
-6666 1920 2000 0 fold 
-1111 1900 2000 40 fold 
-total pot: 680 
-/notify 
-
---- 1 players not fold, don't need show down---
-
----Allocate pot---
-Only player at seat 6 not fold, win all the pot 680
-pot-win/ 
-5555: 680 
-/pot-win 
-it is player 7777's turn to be button
-
------6 Hand-----
-
------ clean player data in socket -----
-seat/ 
-button: 7777 2074 2000 
-small blind: 3333 2579 2000 
-big blind: 4444 1880 2000 
-2222 2000 2000 
-1111 1900 2000 
-6666 1920 2000 
-5555 1886 2000 
-8888 1761 2000 
-/seat 
-blind/ 
-3333: 20 
-4444: 40 
-/blind 
-player 3333:hold/ 
-HEARTS 8 
-CLUBS 3 
-/hold 
-player 4444:hold/ 
-SPADES 10 
-DIAMONDS 9 
-/hold 
-player 2222:hold/ 
+HEARTS 3 
 DIAMONDS 6 
-DIAMONDS J 
-/hold 
-player 1111:hold/ 
-SPADES 5 
-HEARTS Q 
-/hold 
-player 6666:hold/ 
-DIAMONDS 2 
-DIAMONDS A 
-/hold 
-player 5555:hold/ 
-SPADES A 
-DIAMONDS K 
-/hold 
-player 8888:hold/ 
-SPADES 9 
-CLUBS 7 
 /hold 
 player 7777:hold/ 
-SPADES 3 
-SPADES 6 
+CLUBS 8 
+DIAMONDS 2 
+/hold 
+player 8888:hold/ 
+DIAMONDS 5 
+DIAMONDS K 
 /hold 
 
 ---pre flop round bet---
 valid player: 8, all in player: 0, fold player: 0
 send inquire msg to player 2222 
 inquire/ 
-4444 1840 2000 40 blind 
-3333 2559 2000 20 blind 
+1111 1960 2000 40 blind 
+6666 1740 2000 20 blind 
 total pot: 60 
 /inquire 
-recv from player 2222: fold 
-
-send inquire msg to player 1111 
-inquire/ 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 blind 
-3333 2559 2000 20 blind 
-total pot: 60 
-/inquire 
-recv from player 1111: fold 
-
-send inquire msg to player 6666 
-inquire/ 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 blind 
-3333 2559 2000 20 blind 
-total pot: 60 
-/inquire 
-recv from player 6666: call 
-send inquire msg to player 5555 
-inquire/ 
-6666 1880 2000 40 call 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 blind 
-3333 2559 2000 20 blind 
-total pot: 100 
-/inquire 
-recv from player 5555: call 
-send inquire msg to player 8888 
-inquire/ 
-5555 1846 2000 40 call 
-6666 1880 2000 40 call 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 blind 
-3333 2559 2000 20 blind 
-total pot: 140 
-/inquire 
-recv from player 8888: call 
-send inquire msg to player 7777 
-inquire/ 
-8888 1721 2000 40 call 
-5555 1846 2000 40 call 
-6666 1880 2000 40 call 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 blind 
-3333 2559 2000 20 blind 
-total pot: 180 
-/inquire 
-recv from player 7777: fold 
+recv from player 2222: call 
 
 send inquire msg to player 3333 
 inquire/ 
-7777 2074 2000 0 fold 
-8888 1721 2000 40 call 
-5555 1846 2000 40 call 
-6666 1880 2000 40 call 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 blind 
-3333 2559 2000 20 blind 
-total pot: 180 
+2222 1960 2000 40 call 
+1111 1960 2000 40 blind 
+6666 1740 2000 20 blind 
+total pot: 100 
 /inquire 
-recv from player 3333: fold 
-
+recv from player 3333: fold
 send inquire msg to player 4444 
 inquire/ 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-8888 1721 2000 40 call 
-5555 1846 2000 40 call 
-6666 1880 2000 40 call 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 blind 
-total pot: 180 
+3333 2000 2000 0 fold 
+2222 1960 2000 40 call 
+1111 1960 2000 40 blind 
+6666 1740 2000 20 blind 
+total pot: 100 
 /inquire 
 recv from player 4444: call 
-
-flop/ 
-DIAMONDS 7 
-DIAMONDS Q 
-SPADES Q 
-/flop 
-
----flop round bet---
-valid player: 8, all in player: 0, fold player: 4
-send notify msg to player 3333 
-notify/ 
-7777 2074 2000 0 fold 
-8888 1721 2000 40 call 
-5555 1846 2000 40 call 
-6666 1880 2000 40 call 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 check 
-3333 2559 2000 20 fold 
-total pot: 180 
-/notify 
-send inquire msg to player 4444 
-inquire/ 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-8888 1721 2000 40 call 
-5555 1846 2000 40 call 
-6666 1880 2000 40 call 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 check 
-total pot: 180 
-/inquire 
-recv from player 4444: check 
-
-send notify msg to player 1111 
-notify/ 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 check 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-8888 1721 2000 40 call 
-5555 1846 2000 40 call 
-6666 1880 2000 40 call 
-1111 1900 2000 0 fold 
-total pot: 180 
-/notify 
-send inquire msg to player 6666 
-inquire/ 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 check 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-8888 1721 2000 40 call 
-5555 1846 2000 40 call 
-6666 1880 2000 40 call 
-total pot: 180 
-/inquire 
-recv from player 6666: call 
 send inquire msg to player 5555 
 inquire/ 
-6666 1880 2000 40 check 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 check 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-8888 1721 2000 40 call 
-5555 1846 2000 40 call 
-total pot: 180 
-/inquire 
-recv from player 5555: call 
-send inquire msg to player 8888 
-inquire/ 
-5555 1846 2000 40 check 
-6666 1880 2000 40 check 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 check 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-8888 1721 2000 40 call 
-total pot: 180 
-/inquire 
-recv from player 8888: call 
-turn/ 
-CLUBS Q 
-/turn 
-
----turn round bet---
-valid player: 8, all in player: 0, fold player: 4
-send notify msg to player 3333 
-notify/ 
-7777 2074 2000 0 fold 
-8888 1721 2000 40 check 
-5555 1846 2000 40 check 
-6666 1880 2000 40 check 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 check 
-3333 2559 2000 20 fold 
-total pot: 180 
-/notify 
-send inquire msg to player 4444 
-inquire/ 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-8888 1721 2000 40 check 
-5555 1846 2000 40 check 
-6666 1880 2000 40 check 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 check 
-total pot: 180 
-/inquire 
-recv from player 4444: check 
-
-send notify msg to player 1111 
-notify/ 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 check 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-8888 1721 2000 40 check 
-5555 1846 2000 40 check 
-6666 1880 2000 40 check 
-1111 1900 2000 0 fold 
-total pot: 180 
-/notify 
-send inquire msg to player 6666 
-inquire/ 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 check 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-8888 1721 2000 40 check 
-5555 1846 2000 40 check 
-6666 1880 2000 40 check 
-total pot: 180 
-/inquire 
-recv from player 6666: check 
-send inquire msg to player 5555 
-inquire/ 
-6666 1880 2000 40 check 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 check 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-8888 1721 2000 40 check 
-5555 1846 2000 40 check 
-total pot: 180 
-/inquire 
-recv from player 5555: check 
-send inquire msg to player 8888 
-inquire/ 
-5555 1846 2000 40 check 
-6666 1880 2000 40 check 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 check 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-8888 1721 2000 40 check 
-total pot: 180 
-/inquire 
-recv from player 8888: raise 500 
-send notify msg to player 7777 
-notify/ 
-8888 1221 2000 540 raise 
-5555 1846 2000 40 check 
-6666 1880 2000 40 check 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 check 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-total pot: 680 
-/notify 
-send notify msg to player 3333 
-notify/ 
-7777 2074 2000 0 fold 
-8888 1221 2000 540 raise 
-5555 1846 2000 40 check 
-6666 1880 2000 40 check 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 check 
-3333 2559 2000 20 fold 
-total pot: 680 
-/notify 
-send inquire msg to player 4444 
-inquire/ 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-8888 1221 2000 540 raise 
-5555 1846 2000 40 check 
-6666 1880 2000 40 check 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 check 
-total pot: 680 
-/inquire 
-recv from player 4444: fold 
-
-send notify msg to player 1111 
-notify/ 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 fold 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-8888 1221 2000 540 raise 
-5555 1846 2000 40 check 
-6666 1880 2000 40 check 
-1111 1900 2000 0 fold 
-total pot: 680 
-/notify 
-send inquire msg to player 6666 
-inquire/ 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 fold 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-8888 1221 2000 540 raise 
-5555 1846 2000 40 check 
-6666 1880 2000 40 check 
-total pot: 680 
-/inquire 
-recv from player 6666: call 
-send inquire msg to player 5555 
-inquire/ 
-6666 1380 2000 540 call 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 fold 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-8888 1221 2000 540 raise 
-5555 1846 2000 40 check 
-total pot: 1180 
-/inquire 
-recv from player 5555: call 
-river/ 
-HEARTS 5 
-/river 
-
----river round bet---
-valid player: 8, all in player: 0, fold player: 5
-send notify msg to player 3333 
-notify/ 
-7777 2074 2000 0 fold 
-8888 1221 2000 540 raise 
-5555 1346 2000 540 call 
-6666 1380 2000 540 call 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 fold 
-3333 2559 2000 20 fold 
-total pot: 1680 
-/notify 
-send notify msg to player 4444 
-notify/ 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-8888 1221 2000 540 raise 
-5555 1346 2000 540 call 
-6666 1380 2000 540 call 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 fold 
-total pot: 1680 
-/notify 
-send notify msg to player 1111 
-notify/ 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 fold 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-8888 1221 2000 540 raise 
-5555 1346 2000 540 call 
-6666 1380 2000 540 call 
-1111 1900 2000 0 fold 
-total pot: 1680 
-/notify 
-send inquire msg to player 6666 
-inquire/ 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 fold 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-8888 1221 2000 540 raise 
-5555 1346 2000 540 call 
-6666 1380 2000 540 call 
-total pot: 1680 
-/inquire 
-recv from player 6666: fold 
-send inquire msg to player 5555 
-inquire/ 
-6666 1380 2000 540 fold 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 fold 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-8888 1221 2000 540 raise 
-5555 1346 2000 540 call 
-total pot: 1680 
-/inquire 
-recv from player 5555: fold 
-send inquire msg to player 8888 
-inquire/ 
-5555 1346 2000 540 fold 
-6666 1380 2000 540 fold 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 fold 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-8888 1221 2000 540 raise 
-total pot: 1680 
-/inquire 
-recv from player 8888: raise 1000 
-
------ notify msg last round -----
-send notify msg to player 7777 
-notify/ 
-8888 221 2000 1540 raise 
-5555 1346 2000 540 fold 
-6666 1380 2000 540 fold 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 fold 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-total pot: 2680 
-/notify 
-send notify msg to player 3333 
-notify/ 
-7777 2074 2000 0 fold 
-8888 221 2000 1540 raise 
-5555 1346 2000 540 fold 
-6666 1380 2000 540 fold 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 fold 
-3333 2559 2000 20 fold 
-total pot: 2680 
-/notify 
-send notify msg to player 4444 
-notify/ 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-8888 221 2000 1540 raise 
-5555 1346 2000 540 fold 
-6666 1380 2000 540 fold 
-1111 1900 2000 0 fold 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 fold 
-total pot: 2680 
-/notify 
-send notify msg to player 1111 
-notify/ 
-2222 2000 2000 0 fold 
-4444 1840 2000 40 fold 
-3333 2559 2000 20 fold 
-7777 2074 2000 0 fold 
-8888 221 2000 1540 raise 
-5555 1346 2000 540 fold 
-6666 1380 2000 540 fold 
-1111 1900 2000 0 fold 
-total pot: 2680 
-/notify 
-
---- 1 players not fold, don't need show down---
-
----Allocate pot---
-Only player at seat 6 not fold, win all the pot 2680
-pot-win/ 
-8888: 2680 
-/pot-win 
-it is player 3333's turn to be button
-
------7 Hand-----
-
------ clean player data in socket -----
-seat/ 
-button: 3333 2559 2000 
-small blind: 4444 1840 2000 
-big blind: 2222 2000 2000 
-1111 1900 2000 
-6666 1380 2000 
-5555 1346 2000 
-8888 2901 2000 
-7777 2074 2000 
-/seat 
-blind/ 
-4444: 20 
-2222: 40 
-/blind 
-player 4444:hold/ 
-DIAMONDS A 
-DIAMONDS Q 
-/hold 
-player 2222:hold/ 
-HEARTS 5 
-CLUBS 6 
-/hold 
-player 1111:hold/ 
-HEARTS K 
-CLUBS 5 
-/hold 
-player 6666:hold/ 
-CLUBS 7 
-HEARTS 9 
-/hold 
-player 5555:hold/ 
-DIAMONDS 8 
-SPADES 9 
-/hold 
-player 8888:hold/ 
-SPADES 10 
-DIAMONDS 4 
-/hold 
-player 7777:hold/ 
-DIAMONDS 10 
-SPADES 5 
-/hold 
-player 3333:hold/ 
-HEARTS 8 
-SPADES 6 
-/hold 
-
----pre flop round bet---
-valid player: 8, all in player: 0, fold player: 0
-send inquire msg to player 1111 
-inquire/ 
-2222 1960 2000 40 blind 
-4444 1820 2000 20 blind 
-total pot: 60 
-/inquire 
-recv from player 1111: fold 
-
-send inquire msg to player 6666 
-inquire/ 
-1111 1900 2000 0 fold 
-2222 1960 2000 40 blind 
-4444 1820 2000 20 blind 
-total pot: 60 
-/inquire 
-recv from player 6666: call 
-send inquire msg to player 5555 
-inquire/ 
-6666 1340 2000 40 call 
-1111 1900 2000 0 fold 
-2222 1960 2000 40 blind 
-4444 1820 2000 20 blind 
-total pot: 100 
-/inquire 
-recv from player 5555: call 
-send inquire msg to player 8888 
-inquire/ 
-5555 1306 2000 40 call 
-6666 1340 2000 40 call 
-1111 1900 2000 0 fold 
-2222 1960 2000 40 blind 
-4444 1820 2000 20 blind 
+4444 1720 2000 40 call 
+3333 2000 2000 0 fold 
+2222 1960 2000 40 call 
+1111 1960 2000 40 blind 
+6666 1740 2000 20 blind 
 total pot: 140 
 /inquire 
-recv from player 8888: call 
+recv from player 5555: call 
 send inquire msg to player 7777 
 inquire/ 
-8888 2861 2000
+5555 2480 2000 40 call 
+4444 1720 2000 40 call 
+3333 2000 2000 0 fold 
+2222 1960 2000 40 call 
+1111 1960 2000 40 blind 
+6666 1740 2000 20 blind 
+total pot: 180 
+/inquire 
+recv from player 7777: fold 
+
+send inquire msg to player 8888 
+inquire/ 
+7777 2000 2000 0 fold 
+5555 2480 2000 40 call 
+4444 1720 2000 40 call 
+3333 2000 2000 0 fold 
+2222
