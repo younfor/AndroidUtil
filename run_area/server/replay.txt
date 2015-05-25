@@ -2,139 +2,139 @@
 -0>
 game start(id=replay)
 -1>
-reg: player id=1111 name=tnt money=4000
+reg: player id=1111 name=Young money=4000
 -2>
 reg: player id=2222 name=new money=4000
 -3>
-reg: player id=3333 name=DSB money=4000
+reg: player id=3333 name=cleverbot money=4000
 -4>
-reg: player id=4444 name=DSB money=4000
+reg: player id=4444 name=Young money=4000
 -5>
 reg: player id=5555 name=DSB money=4000
 -6>
-reg: player id=6666 name=Ty_lxx money=4000
+reg: player id=6666 name=DSB money=4000
 -7>
 reg: player id=7777 name=cleverbot money=4000
 -8>
-reg: player id=8888 name=Ty_lxx money=4000
+reg: player id=8888 name=DSB money=4000
 -9>
 game(id=replay) new hand 1 start...
 -10>
 seat/ 
 button: 2222 2000 2000 
-small blind: 7777 2000 2000 
-big blind: 8888 2000 2000 
-1111 2000 2000 
+small blind: 1111 2000 2000 
+big blind: 6666 2000 2000 
 5555 2000 2000 
-4444 2000 2000 
+8888 2000 2000 
+7777 2000 2000 
 3333 2000 2000 
-6666 2000 2000 
+4444 2000 2000 
 /seat 
 
 -11>
-score of 7777: 1 2000 2000 0
--12>
-score of 8888: 1 2000 2000 0
--13>
 score of 1111: 1 2000 2000 0
--14>
+-12>
+score of 6666: 1 2000 2000 0
+-13>
 score of 5555: 1 2000 2000 0
+-14>
+score of 8888: 1 2000 2000 0
 -15>
-score of 4444: 1 2000 2000 0
+score of 7777: 1 2000 2000 0
 -16>
 score of 3333: 1 2000 2000 0
 -17>
-score of 6666: 1 2000 2000 0
+score of 4444: 1 2000 2000 0
 -18>
 score of 2222: 1 2000 2000 0
 -19>
-player 7777 action blind
+player 1111 action blind
 -20>
-player 7777 bet 20 rest 1980
+player 1111 bet 20 rest 1980
 -21>
 pot num 20 current bet 20 least raise 40
 -22>
-player 8888 action blind
+player 6666 action blind
 -23>
-player 8888 bet 40 rest 1960
+player 6666 bet 40 rest 1960
 -24>
 pot num 60 current bet 40 least raise 40
 -25>
-player 7777:hold/ 
-HEARTS K 
-DIAMONDS 2 
+player 1111:hold/ 
+SPADES 9 
+CLUBS 2 
 /hold 
 
 -26>
-player 8888:hold/ 
-CLUBS 5 
-SPADES 7 
+player 6666:hold/ 
+SPADES K 
+SPADES 4 
 /hold 
 
 -27>
-player 1111:hold/ 
-HEARTS 9 
-SPADES A 
+player 5555:hold/ 
+HEARTS 4 
+CLUBS 5 
 /hold 
 
 -28>
-player 5555:hold/ 
-CLUBS 9 
-SPADES 3 
+player 8888:hold/ 
+CLUBS A 
+CLUBS K 
 /hold 
 
 -29>
-player 4444:hold/ 
-SPADES 6 
-CLUBS K 
+player 7777:hold/ 
+SPADES 10 
+DIAMONDS 10 
 /hold 
 
 -30>
 player 3333:hold/ 
-DIAMONDS J 
-SPADES K 
+HEARTS 7 
+SPADES Q 
 /hold 
 
 -31>
-player 6666:hold/ 
-CLUBS 3 
-DIAMONDS 4 
+player 4444:hold/ 
+DIAMONDS 8 
+HEARTS A 
 /hold 
 
 -32>
 player 2222:hold/ 
-SPADES Q 
-HEARTS 4 
+HEARTS K 
+HEARTS 2 
 /hold 
 
 -33>
-player 1111 action call
+player 5555 action call
 -34>
-player 1111 bet 40 rest 1960
+player 5555 bet 40 rest 1960
 -35>
 pot num 100 current bet 40 least raise 40
 -36>
-player 5555 action call
+player 8888 action call
 -37>
-player 5555 bet 40 rest 1960
+player 8888 bet 40 rest 1960
 -38>
 pot num 140 current bet 40 least raise 40
 -39>
-player 4444 action fold
+player 7777 action fold
 -40>
-player 4444 bet 0 rest 2000
+player 7777 bet 0 rest 2000
 -41>
 pot num 140 current bet 40 least raise 40
 -42>
-player 3333 action call
+player 3333 action fold
 -43>
-player 3333 bet 40 rest 1960
+player 3333 bet 0 rest 2000
 -44>
-pot num 180 current bet 40 least raise 40
+pot num 140 current bet 40 least raise 40
 -45>
-player 6666 action fold
+player 4444 action call
 -46>
-player 6666 bet 0 rest 2000
+player 4444 bet 40 rest 1960
 -47>
 pot num 180 current bet 40 least raise 40
 -48>
@@ -144,2704 +144,1175 @@ player 2222 bet 0 rest 2000
 -50>
 pot num 180 current bet 40 least raise 40
 -51>
-player 7777 action fold
+player 1111 action fold
 -52>
-player 7777 bet 20 rest 1980
+player 1111 bet 20 rest 1980
 -53>
 pot num 180 current bet 40 least raise 40
 -54>
-player 8888 action check
+player 6666 action check
 -55>
-player 8888 bet 40 rest 1960
+player 6666 bet 40 rest 1960
 -56>
 pot num 180 current bet 40 least raise 40
 -57>
 flop/ 
-HEARTS J 
-HEARTS 8 
-CLUBS Q 
+DIAMONDS K 
+DIAMONDS 3 
+DIAMONDS Q 
 /flop 
 
 -58>
-player 8888 action check
+player 6666 action raise
 -59>
-player 8888 bet 40 rest 1960
+player 6666 bet 240 rest 1760
 -60>
-pot num 180 current bet 40 least raise 40
+pot num 380 current bet 240 least raise 200
 -61>
-player 1111 action fold
--62>
-player 1111 bet 40 rest 1960
--63>
-pot num 180 current bet 40 least raise 40
--64>
 player 5555 action fold
--65>
+-62>
 player 5555 bet 40 rest 1960
+-63>
+pot num 380 current bet 240 least raise 200
+-64>
+player 8888 action call
+-65>
+player 8888 bet 240 rest 1760
 -66>
-pot num 180 current bet 40 least raise 40
+pot num 580 current bet 240 least raise 200
 -67>
-player 3333 action check
+player 4444 action fold
 -68>
-player 3333 bet 40 rest 1960
+player 4444 bet 40 rest 1960
 -69>
-pot num 180 current bet 40 least raise 40
+pot num 580 current bet 240 least raise 200
 -70>
 turn/ 
-CLUBS A 
+HEARTS 3 
 /turn 
 
 -71>
-player 8888 action check
+player 6666 action check
 -72>
-player 8888 bet 40 rest 1960
+player 6666 bet 240 rest 1760
 -73>
-pot num 180 current bet 40 least raise 40
+pot num 580 current bet 240 least raise 40
 -74>
-player 3333 action check
+player 8888 action check
 -75>
-player 3333 bet 40 rest 1960
+player 8888 bet 240 rest 1760
 -76>
-pot num 180 current bet 40 least raise 40
+pot num 580 current bet 240 least raise 40
 -77>
 river/ 
-CLUBS 8 
+SPADES J 
 /river 
 
 -78>
-player 8888 action check
+player 6666 action check
 -79>
-player 8888 bet 40 rest 1960
+player 6666 bet 240 rest 1760
 -80>
-pot num 180 current bet 40 least raise 40
+pot num 580 current bet 240 least raise 40
 -81>
-player 3333 action check
+player 8888 action check
 -82>
-player 3333 bet 40 rest 1960
+player 8888 bet 240 rest 1760
 -83>
-pot num 180 current bet 40 least raise 40
+pot num 580 current bet 240 least raise 40
 -84>
-player 8888 show down: ONE_PAIR [CLUBS 5] [SPADES 7]
+player 6666 show down: TWO_PAIR [SPADES K] [SPADES 4]
 -85>
-player 3333 show down: TWO_PAIR [DIAMONDS J] [SPADES K]
+player 8888 show down: TWO_PAIR [CLUBS A] [CLUBS K]
 -86>
-player 3333 win pot: 180
+player 8888 win pot: 580
 -87>
-score of 7777: 1 2000 1980 0
+score of 1111: 1 2000 1980 0
 -88>
-score of 8888: 1 2000 1960 0
+score of 6666: 1 2000 1760 0
 -89>
-score of 1111: 1 2000 1960 0
--90>
 score of 5555: 1 2000 1960 0
+-90>
+score of 8888: 1 2000 2340 0
 -91>
-score of 4444: 1 2000 2000 0
+score of 7777: 1 2000 2000 0
 -92>
-score of 3333: 1 2000 2140 0
+score of 3333: 1 2000 2000 0
 -93>
-score of 6666: 1 2000 2000 0
+score of 4444: 1 2000 1960 0
 -94>
 score of 2222: 1 2000 2000 0
 -95>
 game(id=replay) new hand 2 start...
 -96>
 seat/ 
-button: 7777 1980 2000 
-small blind: 8888 1960 2000 
-big blind: 1111 1960 2000 
-5555 1960 2000 
-4444 2000 2000 
-3333 2140 2000 
-6666 2000 2000 
+button: 1111 1980 2000 
+small blind: 6666 1760 2000 
+big blind: 5555 1960 2000 
+8888 2340 2000 
+7777 2000 2000 
+3333 2000 2000 
+4444 1960 2000 
 2222 2000 2000 
 /seat 
 
 -97>
-score of 8888: 2 2000 1960 0
+score of 6666: 2 2000 1760 0
 -98>
-score of 1111: 2 2000 1960 0
--99>
 score of 5555: 2 2000 1960 0
+-99>
+score of 8888: 2 2000 2340 0
 -100>
-score of 4444: 2 2000 2000 0
+score of 7777: 2 2000 2000 0
 -101>
-score of 3333: 2 2000 2140 0
+score of 3333: 2 2000 2000 0
 -102>
-score of 6666: 2 2000 2000 0
+score of 4444: 2 2000 1960 0
 -103>
 score of 2222: 2 2000 2000 0
 -104>
-score of 7777: 2 2000 1980 0
+score of 1111: 2 2000 1980 0
 -105>
-player 8888 action blind
+player 6666 action blind
 -106>
-player 8888 bet 20 rest 1940
+player 6666 bet 20 rest 1740
 -107>
 pot num 20 current bet 20 least raise 40
 -108>
-player 1111 action blind
+player 5555 action blind
 -109>
-player 1111 bet 40 rest 1920
+player 5555 bet 40 rest 1920
 -110>
 pot num 60 current bet 40 least raise 40
 -111>
-player 8888:hold/ 
-SPADES J 
-HEARTS 6 
+player 6666:hold/ 
+DIAMONDS Q 
+CLUBS 2 
 /hold 
 
 -112>
-player 1111:hold/ 
-SPADES 3 
-DIAMONDS 6 
+player 5555:hold/ 
+CLUBS 7 
+DIAMONDS 5 
 /hold 
 
 -113>
-player 5555:hold/ 
-CLUBS 9 
-CLUBS K 
+player 8888:hold/ 
+SPADES 10 
+DIAMONDS 6 
 /hold 
 
 -114>
-player 4444:hold/ 
-HEARTS 2 
-DIAMONDS 10 
+player 7777:hold/ 
+SPADES K 
+HEARTS A 
 /hold 
 
 -115>
 player 3333:hold/ 
-DIAMONDS 7 
-DIAMONDS 5 
+DIAMONDS 2 
+DIAMONDS 8 
 /hold 
 
 -116>
-player 6666:hold/ 
-SPADES 10 
-SPADES 8 
+player 4444:hold/ 
+HEARTS 4 
+CLUBS 4 
 /hold 
 
 -117>
 player 2222:hold/ 
-SPADES 7 
-SPADES 6 
+DIAMONDS K 
+CLUBS J 
 /hold 
 
 -118>
-player 7777:hold/ 
-SPADES A 
-DIAMONDS 9 
+player 1111:hold/ 
+DIAMONDS A 
+SPADES 4 
 /hold 
 
 -119>
-player 5555 action call
+player 8888 action call
 -120>
-player 5555 bet 40 rest 1920
+player 8888 bet 40 rest 2300
 -121>
 pot num 100 current bet 40 least raise 40
 -122>
-player 4444 action fold
+player 7777 action call
 -123>
-player 4444 bet 0 rest 2000
+player 7777 bet 40 rest 1960
 -124>
-pot num 100 current bet 40 least raise 40
+pot num 140 current bet 40 least raise 40
 -125>
-player 3333 action call
+player 3333 action fold
 -126>
-player 3333 bet 40 rest 2100
+player 3333 bet 0 rest 2000
 -127>
 pot num 140 current bet 40 least raise 40
 -128>
-player 6666 action fold
+player 4444 action fold
 -129>
-player 6666 bet 0 rest 2000
+player 4444 bet 0 rest 1960
 -130>
 pot num 140 current bet 40 least raise 40
 -131>
-player 2222 action call
+player 2222 action fold
 -132>
-player 2222 bet 40 rest 1960
+player 2222 bet 0 rest 2000
 -133>
-pot num 180 current bet 40 least raise 40
+pot num 140 current bet 40 least raise 40
 -134>
-player 7777 action fold
+player 1111 action call
 -135>
-player 7777 bet 0 rest 1980
+player 1111 bet 40 rest 1940
 -136>
 pot num 180 current bet 40 least raise 40
 -137>
-player 8888 action raise
+player 6666 action call
 -138>
-player 8888 bet 280 rest 1680
+player 6666 bet 40 rest 1720
 -139>
-pot num 440 current bet 280 least raise 240
+pot num 200 current bet 40 least raise 40
 -140>
-player 1111 action fold
+player 5555 action check
 -141>
-player 1111 bet 40 rest 1920
--142>
-pot num 440 current bet 280 least raise 240
--143>
-player 5555 action fold
--144>
 player 5555 bet 40 rest 1920
+-142>
+pot num 200 current bet 40 least raise 40
+-143>
+flop/ 
+CLUBS Q 
+HEARTS 3 
+DIAMONDS 4 
+/flop 
+
+-144>
+player 6666 action check
 -145>
-pot num 440 current bet 280 least raise 240
+player 6666 bet 40 rest 1720
 -146>
-player 3333 action fold
+pot num 200 current bet 40 least raise 40
 -147>
-player 3333 bet 40 rest 2100
+player 5555 action check
 -148>
-pot num 440 current bet 280 least raise 240
+player 5555 bet 40 rest 1920
 -149>
-player 2222 action fold
+pot num 200 current bet 40 least raise 40
 -150>
-player 2222 bet 40 rest 1960
+player 8888 action fold
 -151>
-pot num 440 current bet 280 least raise 240
+player 8888 bet 40 rest 2300
 -152>
-player 8888 win pot: 440
+pot num 200 current bet 40 least raise 40
 -153>
-score of 8888: 2 2000 2120 0
+player 7777 action check
 -154>
-score of 1111: 2 2000 1920 0
+player 7777 bet 40 rest 1960
 -155>
-score of 5555: 2 2000 1920 0
+pot num 200 current bet 40 least raise 40
 -156>
-score of 4444: 2 2000 2000 0
+player 1111 action check
 -157>
-score of 3333: 2 2000 2100 0
+player 1111 bet 40 rest 1940
 -158>
-score of 6666: 2 2000 2000 0
+pot num 200 current bet 40 least raise 40
 -159>
-score of 2222: 2 2000 1960 0
+turn/ 
+SPADES Q 
+/turn 
+
 -160>
-score of 7777: 2 2000 1980 0
+player 6666 action raise
 -161>
-game(id=replay) new hand 3 start...
+player 6666 bet 540 rest 1220
 -162>
+pot num 700 current bet 540 least raise 500
+-163>
+player 5555 action fold
+-164>
+player 5555 bet 40 rest 1920
+-165>
+pot num 700 current bet 540 least raise 500
+-166>
+player 7777 action fold
+-167>
+player 7777 bet 40 rest 1960
+-168>
+pot num 700 current bet 540 least raise 500
+-169>
+player 1111 action fold
+-170>
+player 1111 bet 40 rest 1940
+-171>
+pot num 700 current bet 540 least raise 500
+-172>
+player 6666 win pot: 700
+-173>
+score of 6666: 2 2000 1920 0
+-174>
+score of 5555: 2 2000 1920 0
+-175>
+score of 8888: 2 2000 2300 0
+-176>
+score of 7777: 2 2000 1960 0
+-177>
+score of 3333: 2 2000 2000 0
+-178>
+score of 4444: 2 2000 1960 0
+-179>
+score of 2222: 2 2000 2000 0
+-180>
+score of 1111: 2 2000 1940 0
+-181>
+game(id=replay) new hand 3 start...
+-182>
 seat/ 
-button: 8888 2120 2000 
-small blind: 1111 1920 2000 
-big blind: 5555 1920 2000 
-4444 2000 2000 
-3333 2100 2000 
-6666 2000 2000 
-2222 1960 2000 
-7777 1980 2000 
+button: 6666 1920 2000 
+small blind: 5555 1920 2000 
+big blind: 8888 2300 2000 
+7777 1960 2000 
+3333 2000 2000 
+4444 1960 2000 
+2222 2000 2000 
+1111 1940 2000 
 /seat 
 
--163>
-score of 1111: 3 2000 1920 0
--164>
-score of 5555: 3 2000 1920 0
--165>
-score of 4444: 3 2000 2000 0
--166>
-score of 3333: 3 2000 2100 0
--167>
-score of 6666: 3 2000 2000 0
--168>
-score of 2222: 3 2000 1960 0
--169>
-score of 7777: 3 2000 1980 0
--170>
-score of 8888: 3 2000 2120 0
--171>
-player 1111 action blind
--172>
-player 1111 bet 20 rest 1900
--173>
-pot num 20 current bet 20 least raise 40
--174>
-player 5555 action blind
--175>
-player 5555 bet 40 rest 1880
--176>
-pot num 60 current bet 40 least raise 40
--177>
-player 1111:hold/ 
-SPADES 4 
-HEARTS 10 
-/hold 
-
--178>
-player 5555:hold/ 
-CLUBS 7 
-SPADES A 
-/hold 
-
--179>
-player 4444:hold/ 
-CLUBS 2 
-SPADES Q 
-/hold 
-
--180>
-player 3333:hold/ 
-CLUBS 9 
-HEARTS 8 
-/hold 
-
--181>
-player 6666:hold/ 
-CLUBS 5 
-HEARTS Q 
-/hold 
-
--182>
-player 2222:hold/ 
-SPADES 10 
-HEARTS 9 
-/hold 
-
 -183>
-player 7777:hold/ 
-DIAMONDS 7 
+score of 5555: 3 2000 1920 0
+-184>
+score of 8888: 3 2000 2300 0
+-185>
+score of 7777: 3 2000 1960 0
+-186>
+score of 3333: 3 2000 2000 0
+-187>
+score of 4444: 3 2000 1960 0
+-188>
+score of 2222: 3 2000 2000 0
+-189>
+score of 1111: 3 2000 1940 0
+-190>
+score of 6666: 3 2000 1920 0
+-191>
+player 5555 action blind
+-192>
+player 5555 bet 20 rest 1900
+-193>
+pot num 20 current bet 20 least raise 40
+-194>
+player 8888 action blind
+-195>
+player 8888 bet 40 rest 2260
+-196>
+pot num 60 current bet 40 least raise 40
+-197>
+player 5555:hold/ 
+CLUBS 6 
 HEARTS 7 
 /hold 
 
--184>
+-198>
 player 8888:hold/ 
-CLUBS A 
-HEARTS 5 
+SPADES 7 
+DIAMONDS 5 
 /hold 
 
--185>
-player 4444 action fold
--186>
-player 4444 bet 0 rest 2000
--187>
-pot num 60 current bet 40 least raise 40
--188>
-player 3333 action call
--189>
-player 3333 bet 40 rest 2060
--190>
-pot num 100 current bet 40 least raise 40
--191>
-player 6666 action fold
--192>
-player 6666 bet 0 rest 2000
--193>
-pot num 100 current bet 40 least raise 40
--194>
-player 2222 action call
--195>
-player 2222 bet 40 rest 1920
--196>
-pot num 140 current bet 40 least raise 40
--197>
-player 7777 action call
--198>
-player 7777 bet 40 rest 1940
 -199>
-pot num 180 current bet 40 least raise 40
+player 7777:hold/ 
+SPADES 6 
+SPADES 5 
+/hold 
+
 -200>
-player 8888 action fold
+player 3333:hold/ 
+CLUBS J 
+SPADES J 
+/hold 
+
 -201>
-player 8888 bet 0 rest 2120
--202>
-pot num 180 current bet 40 least raise 40
--203>
-player 1111 action fold
--204>
-player 1111 bet 20 rest 1900
--205>
-pot num 180 current bet 40 least raise 40
--206>
-player 5555 action check
--207>
-player 5555 bet 40 rest 1880
--208>
-pot num 180 current bet 40 least raise 40
--209>
-flop/ 
-DIAMONDS A 
-SPADES K 
+player 4444:hold/ 
 HEARTS J 
-/flop 
+HEARTS 9 
+/hold 
 
--210>
-player 5555 action raise
--211>
-player 5555 bet 240 rest 1680
--212>
-pot num 380 current bet 240 least raise 200
--213>
-player 3333 action fold
--214>
-player 3333 bet 40 rest 2060
--215>
-pot num 380 current bet 240 least raise 200
--216>
-player 2222 action fold
--217>
-player 2222 bet 40 rest 1920
--218>
-pot num 380 current bet 240 least raise 200
--219>
-player 7777 action fold
--220>
-player 7777 bet 40 rest 1940
--221>
-pot num 380 current bet 240 least raise 200
--222>
-player 5555 win pot: 380
--223>
-score of 1111: 3 2000 1900 0
--224>
-score of 5555: 3 2000 2060 0
--225>
-score of 4444: 3 2000 2000 0
--226>
-score of 3333: 3 2000 2060 0
--227>
-score of 6666: 3 2000 2000 0
--228>
-score of 2222: 3 2000 1920 0
--229>
-score of 7777: 3 2000 1940 0
--230>
-score of 8888: 3 2000 2120 0
--231>
-game(id=replay) new hand 4 start...
--232>
-seat/ 
-button: 1111 1900 2000 
-small blind: 5555 2060 2000 
-big blind: 4444 2000 2000 
-3333 2060 2000 
-6666 2000 2000 
-2222 1920 2000 
-7777 1940 2000 
-8888 2120 2000 
-/seat 
+-202>
+player 2222:hold/ 
+CLUBS 9 
+HEARTS K 
+/hold 
 
--233>
-score of 5555: 4 2000 2060 0
--234>
-score of 4444: 4 2000 2000 0
--235>
-score of 3333: 4 2000 2060 0
--236>
-score of 6666: 4 2000 2000 0
--237>
-score of 2222: 4 2000 1920 0
--238>
-score of 7777: 4 2000 1940 0
--239>
-score of 8888: 4 2000 2120 0
--240>
-score of 1111: 4 2000 1900 0
--241>
-player 5555 action blind
--242>
-player 5555 bet 20 rest 2040
--243>
-pot num 20 current bet 20 least raise 40
--244>
-player 4444 action blind
--245>
-player 4444 bet 40 rest 1960
--246>
-pot num 60 current bet 40 least raise 40
--247>
-player 5555:hold/ 
-CLUBS Q 
+-203>
+player 1111:hold/ 
+CLUBS 8 
 DIAMONDS 6 
 /hold 
 
+-204>
+player 6666:hold/ 
+CLUBS 3 
+SPADES 2 
+/hold 
+
+-205>
+player 7777 action fold
+-206>
+player 7777 bet 0 rest 1960
+-207>
+pot num 60 current bet 40 least raise 40
+-208>
+player 3333 action raise
+-209>
+player 3333 bet 80 rest 1920
+-210>
+pot num 140 current bet 80 least raise 40
+-211>
+player 4444 action call
+-212>
+player 4444 bet 80 rest 1880
+-213>
+pot num 220 current bet 80 least raise 40
+-214>
+player 2222 action fold
+-215>
+player 2222 bet 0 rest 2000
+-216>
+pot num 220 current bet 80 least raise 40
+-217>
+player 1111 action fold
+-218>
+player 1111 bet 0 rest 1940
+-219>
+pot num 220 current bet 80 least raise 40
+-220>
+player 6666 action fold
+-221>
+player 6666 bet 0 rest 1920
+-222>
+pot num 220 current bet 80 least raise 40
+-223>
+player 5555 action call
+-224>
+player 5555 bet 80 rest 1840
+-225>
+pot num 280 current bet 80 least raise 40
+-226>
+player 8888 action call
+-227>
+player 8888 bet 80 rest 2220
+-228>
+pot num 320 current bet 80 least raise 40
+-229>
+flop/ 
+DIAMONDS 9 
+CLUBS 5 
+DIAMONDS 10 
+/flop 
+
+-230>
+player 5555 action fold
+-231>
+player 5555 bet 80 rest 1840
+-232>
+pot num 320 current bet 80 least raise 40
+-233>
+player 8888 action check
+-234>
+player 8888 bet 80 rest 2220
+-235>
+pot num 320 current bet 80 least raise 40
+-236>
+player 3333 action raise
+-237>
+player 3333 bet 344 rest 1656
+-238>
+pot num 584 current bet 344 least raise 264
+-239>
+player 4444 action fold
+-240>
+player 4444 bet 80 rest 1880
+-241>
+pot num 584 current bet 344 least raise 264
+-242>
+player 8888 action call
+-243>
+player 8888 bet 344 rest 1956
+-244>
+pot num 848 current bet 344 least raise 264
+-245>
+turn/ 
+HEARTS 6 
+/turn 
+
+-246>
+player 8888 action check
+-247>
+player 8888 bet 344 rest 1956
 -248>
+pot num 848 current bet 344 least raise 40
+-249>
+player 3333 action raise
+-250>
+player 3333 bet 459 rest 1541
+-251>
+pot num 963 current bet 459 least raise 115
+-252>
+player 8888 action call
+-253>
+player 8888 bet 459 rest 1841
+-254>
+pot num 1078 current bet 459 least raise 115
+-255>
+river/ 
+SPADES 9 
+/river 
+
+-256>
+player 8888 action fold
+-257>
+player 8888 bet 459 rest 1841
+-258>
+pot num 1078 current bet 459 least raise 40
+-259>
+player 3333 action check
+-260>
+player 3333 bet 459 rest 1541
+-261>
+pot num 1078 current bet 459 least raise 40
+-262>
+player 3333 win pot: 1078
+-263>
+score of 5555: 3 2000 1840 0
+-264>
+score of 8888: 3 2000 1841 0
+-265>
+score of 7777: 3 2000 1960 0
+-266>
+score of 3333: 3 2000 2619 0
+-267>
+score of 4444: 3 2000 1880 0
+-268>
+score of 2222: 3 2000 2000 0
+-269>
+score of 1111: 3 2000 1940 0
+-270>
+score of 6666: 3 2000 1920 0
+-271>
+game(id=replay) new hand 4 start...
+-272>
+seat/ 
+button: 5555 1840 2000 
+small blind: 8888 1841 2000 
+big blind: 7777 1960 2000 
+3333 2619 2000 
+4444 1880 2000 
+2222 2000 2000 
+1111 1940 2000 
+6666 1920 2000 
+/seat 
+
+-273>
+score of 8888: 4 2000 1841 0
+-274>
+score of 7777: 4 2000 1960 0
+-275>
+score of 3333: 4 2000 2619 0
+-276>
+score of 4444: 4 2000 1880 0
+-277>
+score of 2222: 4 2000 2000 0
+-278>
+score of 1111: 4 2000 1940 0
+-279>
+score of 6666: 4 2000 1920 0
+-280>
+score of 5555: 4 2000 1840 0
+-281>
+player 8888 action blind
+-282>
+player 8888 bet 20 rest 1821
+-283>
+pot num 20 current bet 20 least raise 40
+-284>
+player 7777 action blind
+-285>
+player 7777 bet 40 rest 1920
+-286>
+pot num 60 current bet 40 least raise 40
+-287>
+player 8888:hold/ 
+HEARTS 6 
+SPADES 3 
+/hold 
+
+-288>
+player 7777:hold/ 
+HEARTS 8 
+CLUBS 10 
+/hold 
+
+-289>
+player 3333:hold/ 
+SPADES Q 
+HEARTS K 
+/hold 
+
+-290>
 player 4444:hold/ 
 CLUBS 4 
-HEARTS 9 
+DIAMONDS K 
 /hold 
 
--249>
-player 3333:hold/ 
-CLUBS J 
-HEARTS 5 
-/hold 
-
--250>
-player 6666:hold/ 
-DIAMONDS 3 
-HEARTS 3 
-/hold 
-
--251>
+-291>
 player 2222:hold/ 
-SPADES 5 
-DIAMONDS J 
+DIAMONDS 5 
+DIAMONDS 3 
 /hold 
 
--252>
-player 7777:hold/ 
-HEARTS K 
-SPADES K 
-/hold 
-
--253>
-player 8888:hold/ 
-DIAMONDS 2 
-HEARTS 7 
-/hold 
-
--254>
+-292>
 player 1111:hold/ 
-DIAMONDS 9 
+HEARTS 5 
 CLUBS 5 
 /hold 
 
--255>
-player 3333 action call
--256>
-player 3333 bet 40 rest 2020
--257>
-pot num 100 current bet 40 least raise 40
--258>
-player 6666 action fold
--259>
-player 6666 bet 0 rest 2000
--260>
-pot num 100 current bet 40 least raise 40
--261>
-player 2222 action fold
--262>
-player 2222 bet 0 rest 1920
--263>
-pot num 100 current bet 40 least raise 40
--264>
-player 7777 action raise
--265>
-player 7777 bet 160 rest 1780
--266>
-pot num 260 current bet 160 least raise 120
--267>
-player 8888 action fold
--268>
-player 8888 bet 0 rest 2120
--269>
-pot num 260 current bet 160 least raise 120
--270>
-player 1111 action fold
--271>
-player 1111 bet 0 rest 1900
--272>
-pot num 260 current bet 160 least raise 120
--273>
-player 5555 action fold
--274>
-player 5555 bet 20 rest 2040
--275>
-pot num 260 current bet 160 least raise 120
--276>
-player 4444 action fold
--277>
-player 4444 bet 40 rest 1960
--278>
-pot num 260 current bet 160 least raise 120
--279>
-player 3333 action fold
--280>
-player 3333 bet 40 rest 2020
--281>
-pot num 260 current bet 160 least raise 120
--282>
-player 7777 win pot: 260
--283>
-score of 5555: 4 2000 2040 0
--284>
-score of 4444: 4 2000 1960 0
--285>
-score of 3333: 4 2000 2020 0
--286>
-score of 6666: 4 2000 2000 0
--287>
-score of 2222: 4 2000 1920 0
--288>
-score of 7777: 4 2000 2040 0
--289>
-score of 8888: 4 2000 2120 0
--290>
-score of 1111: 4 2000 1900 0
--291>
-game(id=replay) new hand 5 start...
--292>
-seat/ 
-button: 5555 2040 2000 
-small blind: 4444 1960 2000 
-big blind: 3333 2020 2000 
-6666 2000 2000 
-2222 1920 2000 
-7777 2040 2000 
-8888 2120 2000 
-1111 1900 2000 
-/seat 
-
 -293>
-score of 4444: 5 2000 1960 0
+player 6666:hold/ 
+SPADES 5 
+HEARTS 10 
+/hold 
+
 -294>
-score of 3333: 5 2000 2020 0
+player 5555:hold/ 
+CLUBS 9 
+HEARTS 9 
+/hold 
+
 -295>
-score of 6666: 5 2000 2000 0
+player 3333 action fold
 -296>
-score of 2222: 5 2000 1920 0
+player 3333 bet 0 rest 2619
 -297>
-score of 7777: 5 2000 2040 0
+pot num 60 current bet 40 least raise 40
 -298>
-score of 8888: 5 2000 2120 0
+player 4444 action fold
 -299>
-score of 1111: 5 2000 1900 0
+player 4444 bet 0 rest 1880
 -300>
-score of 5555: 5 2000 2040 0
+pot num 60 current bet 40 least raise 40
 -301>
-player 4444 action blind
+player 2222 action fold
 -302>
-player 4444 bet 20 rest 1940
+player 2222 bet 0 rest 2000
 -303>
-pot num 20 current bet 20 least raise 40
+pot num 60 current bet 40 least raise 40
 -304>
-player 3333 action blind
+player 1111 action fold
 -305>
-player 3333 bet 40 rest 1980
+player 1111 bet 0 rest 1940
 -306>
 pot num 60 current bet 40 least raise 40
 -307>
-player 4444:hold/ 
-DIAMONDS 10 
-CLUBS K 
-/hold 
-
--308>
-player 3333:hold/ 
-DIAMONDS J 
-DIAMONDS 4 
-/hold 
-
--309>
-player 6666:hold/ 
-SPADES Q 
-SPADES 5 
-/hold 
-
--310>
-player 2222:hold/ 
-CLUBS 9 
-CLUBS 2 
-/hold 
-
--311>
-player 7777:hold/ 
-DIAMONDS 7 
-SPADES 8 
-/hold 
-
--312>
-player 8888:hold/ 
-DIAMONDS K 
-SPADES 9 
-/hold 
-
--313>
-player 1111:hold/ 
-CLUBS 7 
-DIAMONDS A 
-/hold 
-
--314>
-player 5555:hold/ 
-DIAMONDS 6 
-CLUBS 5 
-/hold 
-
--315>
 player 6666 action fold
--316>
-player 6666 bet 0 rest 2000
--317>
+-308>
+player 6666 bet 0 rest 1920
+-309>
 pot num 60 current bet 40 least raise 40
--318>
-player 2222 action fold
--319>
-player 2222 bet 0 rest 1920
--320>
-pot num 60 current bet 40 least raise 40
--321>
-player 7777 action fold
--322>
-player 7777 bet 0 rest 2040
--323>
-pot num 60 current bet 40 least raise 40
--324>
-player 8888 action fold
--325>
-player 8888 bet 0 rest 2120
--326>
-pot num 60 current bet 40 least raise 40
--327>
-player 1111 action call
--328>
-player 1111 bet 40 rest 1860
--329>
-pot num 100 current bet 40 least raise 40
--330>
+-310>
 player 5555 action call
--331>
-player 5555 bet 40 rest 2000
--332>
-pot num 140 current bet 40 least raise 40
--333>
-player 4444 action call
--334>
-player 4444 bet 40 rest 1920
--335>
-pot num 160 current bet 40 least raise 40
--336>
-player 3333 action check
--337>
-player 3333 bet 40 rest 1980
--338>
-pot num 160 current bet 40 least raise 40
--339>
+-311>
+player 5555 bet 40 rest 1800
+-312>
+pot num 100 current bet 40 least raise 40
+-313>
+player 8888 action call
+-314>
+player 8888 bet 40 rest 1801
+-315>
+pot num 120 current bet 40 least raise 40
+-316>
+player 7777 action check
+-317>
+player 7777 bet 40 rest 1920
+-318>
+pot num 120 current bet 40 least raise 40
+-319>
 flop/ 
-CLUBS A 
-SPADES K 
-HEARTS 9 
+DIAMONDS A 
+HEARTS 4 
+SPADES 10 
 /flop 
 
--340>
-player 4444 action check
--341>
-player 4444 bet 40 rest 1920
--342>
-pot num 160 current bet 40 least raise 40
--343>
-player 3333 action check
--344>
-player 3333 bet 40 rest 1980
--345>
-pot num 160 current bet 40 least raise 40
--346>
-player 1111 action raise
--347>
-player 1111 bet 80 rest 1820
--348>
-pot num 200 current bet 80 least raise 40
--349>
-player 5555 action fold
--350>
-player 5555 bet 40 rest 2000
--351>
-pot num 200 current bet 80 least raise 40
--352>
-player 4444 action call
--353>
-player 4444 bet 80 rest 1880
--354>
-pot num 240 current bet 80 least raise 40
--355>
-player 3333 action fold
--356>
-player 3333 bet 40 rest 1980
--357>
-pot num 240 current bet 80 least raise 40
--358>
+-320>
+player 8888 action fold
+-321>
+player 8888 bet 40 rest 1801
+-322>
+pot num 120 current bet 40 least raise 40
+-323>
+player 7777 action raise
+-324>
+player 7777 bet 94 rest 1866
+-325>
+pot num 174 current bet 94 least raise 54
+-326>
+player 5555 action call
+-327>
+player 5555 bet 94 rest 1746
+-328>
+pot num 228 current bet 94 least raise 54
+-329>
 turn/ 
-CLUBS 10 
+DIAMONDS 2 
 /turn 
 
--359>
-player 4444 action check
--360>
-player 4444 bet 80 rest 1880
--361>
-pot num 240 current bet 80 least raise 40
--362>
-player 1111 action raise
--363>
-player 1111 bet 280 rest 1620
--364>
-pot num 440 current bet 280 least raise 200
--365>
-player 4444 action call
--366>
-player 4444 bet 280 rest 1680
--367>
-pot num 640 current bet 280 least raise 200
--368>
+-330>
+player 7777 action check
+-331>
+player 7777 bet 94 rest 1866
+-332>
+pot num 228 current bet 94 least raise 40
+-333>
+player 5555 action check
+-334>
+player 5555 bet 94 rest 1746
+-335>
+pot num 228 current bet 94 least raise 40
+-336>
 river/ 
 SPADES A 
 /river 
 
--369>
-player 4444 action check
--370>
-player 4444 bet 280 rest 1680
--371>
-pot num 640 current bet 280 least raise 40
--372>
-player 1111 action raise
--373>
-player 1111 bet 680 rest 1220
--374>
-pot num 1040 current bet 680 least raise 400
--375>
-player 4444 action call
--376>
-player 4444 bet 680 rest 1280
--377>
-pot num 1440 current bet 680 least raise 400
--378>
-player 4444 show down: TWO_PAIR [DIAMONDS 10] [CLUBS K]
--379>
-player 1111 show down: THREE_OF_A_KIND [CLUBS 7] [DIAMONDS A]
--380>
-player 1111 win pot: 1440
--381>
-score of 4444: 5 2000 1280 0
--382>
-score of 3333: 5 2000 1980 0
--383>
-score of 6666: 5 2000 2000 0
--384>
-score of 2222: 5 2000 1920 0
--385>
-score of 7777: 5 2000 2040 0
--386>
-score of 8888: 5 2000 2120 0
--387>
-score of 1111: 5 2000 2660 0
--388>
-score of 5555: 5 2000 2000 0
--389>
-game(id=replay) new hand 6 start...
--390>
+-337>
+player 7777 action raise
+-338>
+player 7777 bet 286 rest 1674
+-339>
+pot num 420 current bet 286 least raise 192
+-340>
+player 5555 action fold
+-341>
+player 5555 bet 94 rest 1746
+-342>
+pot num 420 current bet 286 least raise 192
+-343>
+player 7777 win pot: 420
+-344>
+score of 8888: 4 2000 1801 0
+-345>
+score of 7777: 4 2000 2094 0
+-346>
+score of 3333: 4 2000 2619 0
+-347>
+score of 4444: 4 2000 1880 0
+-348>
+score of 2222: 4 2000 2000 0
+-349>
+score of 1111: 4 2000 1940 0
+-350>
+score of 6666: 4 2000 1920 0
+-351>
+score of 5555: 4 2000 1746 0
+-352>
+game(id=replay) new hand 5 start...
+-353>
 seat/ 
-button: 4444 1280 2000 
-small blind: 3333 1980 2000 
-big blind: 6666 2000 2000 
-2222 1920 2000 
-7777 2040 2000 
-8888 2120 2000 
-1111 2660 2000 
-5555 2000 2000 
+button: 8888 1801 2000 
+small blind: 7777 2094 2000 
+big blind: 3333 2619 2000 
+4444 1880 2000 
+2222 2000 2000 
+1111 1940 2000 
+6666 1920 2000 
+5555 1746 2000 
 /seat 
 
--391>
-score of 3333: 6 2000 1980 0
--392>
-score of 6666: 6 2000 2000 0
--393>
-score of 2222: 6 2000 1920 0
--394>
-score of 7777: 6 2000 2040 0
--395>
-score of 8888: 6 2000 2120 0
--396>
-score of 1111: 6 2000 2660 0
--397>
-score of 5555: 6 2000 2000 0
--398>
-score of 4444: 6 2000 1280 0
--399>
-player 3333 action blind
--400>
-player 3333 bet 20 rest 1960
--401>
+-354>
+score of 7777: 5 2000 2094 0
+-355>
+score of 3333: 5 2000 2619 0
+-356>
+score of 4444: 5 2000 1880 0
+-357>
+score of 2222: 5 2000 2000 0
+-358>
+score of 1111: 5 2000 1940 0
+-359>
+score of 6666: 5 2000 1920 0
+-360>
+score of 5555: 5 2000 1746 0
+-361>
+score of 8888: 5 2000 1801 0
+-362>
+player 7777 action blind
+-363>
+player 7777 bet 20 rest 2074
+-364>
 pot num 20 current bet 20 least raise 40
--402>
-player 6666 action blind
--403>
-player 6666 bet 40 rest 1960
--404>
+-365>
+player 3333 action blind
+-366>
+player 3333 bet 40 rest 2579
+-367>
 pot num 60 current bet 40 least raise 40
--405>
-player 3333:hold/ 
-CLUBS A 
-SPADES 10 
-/hold 
-
--406>
-player 6666:hold/ 
-SPADES J 
-HEARTS J 
-/hold 
-
--407>
-player 2222:hold/ 
-HEARTS 3 
-SPADES Q 
-/hold 
-
--408>
+-368>
 player 7777:hold/ 
-CLUBS 7 
-SPADES 7 
+DIAMONDS 7 
+HEARTS A 
 /hold 
 
--409>
-player 8888:hold/ 
-CLUBS 9 
+-369>
+player 3333:hold/ 
+SPADES 10 
 DIAMONDS 6 
 /hold 
 
--410>
-player 1111:hold/ 
-DIAMONDS 8 
-HEARTS 10 
+-370>
+player 4444:hold/ 
+SPADES 2 
+SPADES 7 
 /hold 
+
+-371>
+player 2222:hold/ 
+HEARTS 7 
+CLUBS A 
+/hold 
+
+-372>
+player 1111:hold/ 
+DIAMONDS 10 
+SPADES A 
+/hold 
+
+-373>
+player 6666:hold/ 
+DIAMONDS J 
+DIAMONDS 5 
+/hold 
+
+-374>
+player 5555:hold/ 
+DIAMONDS Q 
+HEARTS 5 
+/hold 
+
+-375>
+player 8888:hold/ 
+DIAMONDS K 
+HEARTS 9 
+/hold 
+
+-376>
+player 4444 action fold
+-377>
+player 4444 bet 0 rest 1880
+-378>
+pot num 60 current bet 40 least raise 40
+-379>
+player 2222 action fold
+-380>
+player 2222 bet 0 rest 2000
+-381>
+pot num 60 current bet 40 least raise 40
+-382>
+player 1111 action call
+-383>
+player 1111 bet 40 rest 1900
+-384>
+pot num 100 current bet 40 least raise 40
+-385>
+player 6666 action fold
+-386>
+player 6666 bet 0 rest 1920
+-387>
+pot num 100 current bet 40 least raise 40
+-388>
+player 5555 action call
+-389>
+player 5555 bet 40 rest 1706
+-390>
+pot num 140 current bet 40 least raise 40
+-391>
+player 8888 action call
+-392>
+player 8888 bet 40 rest 1761
+-393>
+pot num 180 current bet 40 least raise 40
+-394>
+player 7777 action fold
+-395>
+player 7777 bet 20 rest 2074
+-396>
+pot num 180 current bet 40 least raise 40
+-397>
+player 3333 action fold
+-398>
+player 3333 bet 40 rest 2579
+-399>
+pot num 180 current bet 40 least raise 40
+-400>
+flop/ 
+CLUBS 5 
+SPADES Q 
+SPADES 8 
+/flop 
+
+-401>
+player 1111 action check
+-402>
+player 1111 bet 40 rest 1900
+-403>
+pot num 180 current bet 40 least raise 40
+-404>
+player 5555 action check
+-405>
+player 5555 bet 40 rest 1706
+-406>
+pot num 180 current bet 40 least raise 40
+-407>
+player 8888 action fold
+-408>
+player 8888 bet 40 rest 1761
+-409>
+pot num 180 current bet 40 least raise 40
+-410>
+turn/ 
+SPADES J 
+/turn 
 
 -411>
-player 5555:hold/ 
-DIAMONDS A 
-DIAMONDS 9 
-/hold 
-
+player 1111 action check
 -412>
-player 4444:hold/ 
-DIAMONDS J 
-SPADES 5 
-/hold 
-
+player 1111 bet 40 rest 1900
 -413>
-player 2222 action fold
--414>
-player 2222 bet 0 rest 1920
--415>
-pot num 60 current bet 40 least raise 40
--416>
-player 7777 action fold
--417>
-player 7777 bet 0 rest 2040
--418>
-pot num 60 current bet 40 least raise 40
--419>
-player 8888 action fold
--420>
-player 8888 bet 0 rest 2120
--421>
-pot num 60 current bet 40 least raise 40
--422>
-player 1111 action call
--423>
-player 1111 bet 40 rest 2620
--424>
-pot num 100 current bet 40 least raise 40
--425>
-player 5555 action call
--426>
-player 5555 bet 40 rest 1960
--427>
-pot num 140 current bet 40 least raise 40
--428>
-player 4444 action call
--429>
-player 4444 bet 40 rest 1240
--430>
 pot num 180 current bet 40 least raise 40
--431>
-player 3333 action call
--432>
-player 3333 bet 40 rest 1940
--433>
-pot num 200 current bet 40 least raise 40
--434>
-player 6666 action raise
--435>
-player 6666 bet 280 rest 1720
--436>
-pot num 440 current bet 280 least raise 240
--437>
+-414>
+player 5555 action raise
+-415>
+player 5555 bet 540 rest 1206
+-416>
+pot num 680 current bet 540 least raise 500
+-417>
 player 1111 action fold
--438>
-player 1111 bet 40 rest 2620
--439>
-pot num 440 current bet 280 least raise 240
--440>
-player 5555 action fold
--441>
-player 5555 bet 40 rest 1960
--442>
-pot num 440 current bet 280 least raise 240
--443>
-player 4444 action fold
--444>
-player 4444 bet 40 rest 1240
--445>
-pot num 440 current bet 280 least raise 240
--446>
-player 3333 action fold
--447>
-player 3333 bet 40 rest 1940
--448>
-pot num 440 current bet 280 least raise 240
--449>
-player 6666 win pot: 440
--450>
-score of 3333: 6 2000 1940 0
--451>
-score of 6666: 6 2000 2160 0
--452>
-score of 2222: 6 2000 1920 0
--453>
-score of 7777: 6 2000 2040 0
--454>
-score of 8888: 6 2000 2120 0
--455>
-score of 1111: 6 2000 2620 0
--456>
-score of 5555: 6 2000 1960 0
--457>
-score of 4444: 6 2000 1240 0
--458>
-game(id=replay) new hand 7 start...
--459>
+-418>
+player 1111 bet 40 rest 1900
+-419>
+pot num 680 current bet 540 least raise 500
+-420>
+player 5555 win pot: 680
+-421>
+score of 7777: 5 2000 2074 0
+-422>
+score of 3333: 5 2000 2579 0
+-423>
+score of 4444: 5 2000 1880 0
+-424>
+score of 2222: 5 2000 2000 0
+-425>
+score of 1111: 5 2000 1900 0
+-426>
+score of 6666: 5 2000 1920 0
+-427>
+score of 5555: 5 2000 1886 0
+-428>
+score of 8888: 5 2000 1761 0
+-429>
+game(id=replay) new hand 6 start...
+-430>
 seat/ 
-button: 3333 1940 2000 
-small blind: 6666 2160 2000 
-big blind: 2222 1920 2000 
-7777 2040 2000 
-8888 2120 2000 
-1111 2620 2000 
-5555 1960 2000 
-4444 1240 2000 
+button: 7777 2074 2000 
+small blind: 3333 2579 2000 
+big blind: 4444 1880 2000 
+2222 2000 2000 
+1111 1900 2000 
+6666 1920 2000 
+5555 1886 2000 
+8888 1761 2000 
 /seat 
 
--460>
-score of 6666: 7 2000 2160 0
--461>
-score of 2222: 7 2000 1920 0
--462>
-score of 7777: 7 2000 2040 0
--463>
-score of 8888: 7 2000 2120 0
--464>
-score of 1111: 7 2000 2620 0
--465>
-score of 5555: 7 2000 1960 0
--466>
-score of 4444: 7 2000 1240 0
--467>
-score of 3333: 7 2000 1940 0
--468>
-player 6666 action blind
--469>
-player 6666 bet 20 rest 2140
--470>
+-431>
+score of 3333: 6 2000 2579 0
+-432>
+score of 4444: 6 2000 1880 0
+-433>
+score of 2222: 6 2000 2000 0
+-434>
+score of 1111: 6 2000 1900 0
+-435>
+score of 6666: 6 2000 1920 0
+-436>
+score of 5555: 6 2000 1886 0
+-437>
+score of 8888: 6 2000 1761 0
+-438>
+score of 7777: 6 2000 2074 0
+-439>
+player 3333 action blind
+-440>
+player 3333 bet 20 rest 2559
+-441>
 pot num 20 current bet 20 least raise 40
--471>
-player 2222 action blind
--472>
-player 2222 bet 40 rest 1880
--473>
+-442>
+player 4444 action blind
+-443>
+player 4444 bet 40 rest 1840
+-444>
 pot num 60 current bet 40 least raise 40
--474>
-player 6666:hold/ 
-HEARTS Q 
-HEARTS 7 
-/hold 
-
--475>
-player 2222:hold/ 
-CLUBS 9 
-CLUBS 2 
-/hold 
-
--476>
-player 7777:hold/ 
-CLUBS A 
-CLUBS 5 
-/hold 
-
--477>
-player 8888:hold/ 
-DIAMONDS J 
-CLUBS 4 
-/hold 
-
--478>
-player 1111:hold/ 
-SPADES 10 
+-445>
+player 3333:hold/ 
+HEARTS 8 
 CLUBS 3 
 /hold 
 
--479>
-player 5555:hold/ 
-DIAMONDS 10 
-HEARTS K 
-/hold 
-
--480>
+-446>
 player 4444:hold/ 
-HEARTS 2 
+SPADES 10 
 DIAMONDS 9 
 /hold 
 
--481>
-player 3333:hold/ 
-CLUBS 7 
-DIAMONDS 3 
+-447>
+player 2222:hold/ 
+DIAMONDS 6 
+DIAMONDS J 
 /hold 
 
--482>
-player 7777 action call
--483>
-player 7777 bet 40 rest 2000
--484>
-pot num 100 current bet 40 least raise 40
--485>
-player 8888 action fold
--486>
-player 8888 bet 0 rest 2120
--487>
-pot num 100 current bet 40 least raise 40
--488>
+-448>
+player 1111:hold/ 
+SPADES 5 
+HEARTS Q 
+/hold 
+
+-449>
+player 6666:hold/ 
+DIAMONDS 2 
+DIAMONDS A 
+/hold 
+
+-450>
+player 5555:hold/ 
+SPADES A 
+DIAMONDS K 
+/hold 
+
+-451>
+player 8888:hold/ 
+SPADES 9 
+CLUBS 7 
+/hold 
+
+-452>
+player 7777:hold/ 
+SPADES 3 
+SPADES 6 
+/hold 
+
+-453>
+player 2222 action fold
+-454>
+player 2222 bet 0 rest 2000
+-455>
+pot num 60 current bet 40 least raise 40
+-456>
 player 1111 action fold
--489>
-player 1111 bet 0 rest 2620
--490>
+-457>
+player 1111 bet 0 rest 1900
+-458>
+pot num 60 current bet 40 least raise 40
+-459>
+player 6666 action call
+-460>
+player 6666 bet 40 rest 1880
+-461>
 pot num 100 current bet 40 least raise 40
--491>
+-462>
 player 5555 action call
--492>
-player 5555 bet 40 rest 1920
--493>
+-463>
+player 5555 bet 40 rest 1846
+-464>
 pot num 140 current bet 40 least raise 40
+-465>
+player 8888 action call
+-466>
+player 8888 bet 40 rest 1721
+-467>
+pot num 180 current bet 40 least raise 40
+-468>
+player 7777 action fold
+-469>
+player 7777 bet 0 rest 2074
+-470>
+pot num 180 current bet 40 least raise 40
+-471>
+player 3333 action fold
+-472>
+player 3333 bet 20 rest 2559
+-473>
+pot num 180 current bet 40 least raise 40
+-474>
+player 4444 action check
+-475>
+player 4444 bet 40 rest 1840
+-476>
+pot num 180 current bet 40 least raise 40
+-477>
+flop/ 
+DIAMONDS 7 
+DIAMONDS Q 
+SPADES Q 
+/flop 
+
+-478>
+player 4444 action check
+-479>
+player 4444 bet 40 rest 1840
+-480>
+pot num 180 current bet 40 least raise 40
+-481>
+player 6666 action check
+-482>
+player 6666 bet 40 rest 1880
+-483>
+pot num 180 current bet 40 least raise 40
+-484>
+player 5555 action check
+-485>
+player 5555 bet 40 rest 1846
+-486>
+pot num 180 current bet 40 least raise 40
+-487>
+player 8888 action check
+-488>
+player 8888 bet 40 rest 1721
+-489>
+pot num 180 current bet 40 least raise 40
+-490>
+turn/ 
+CLUBS Q 
+/turn 
+
+-491>
+player 4444 action check
+-492>
+player 4444 bet 40 rest 1840
+-493>
+pot num 180 current bet 40 least raise 40
 -494>
-player 4444 action call
+player 6666 action check
 -495>
-player 4444 bet 40 rest 1200
+player 6666 bet 40 rest 1880
 -496>
 pot num 180 current bet 40 least raise 40
 -497>
-player 3333 action call
+player 5555 action check
 -498>
-player 3333 bet 40 rest 1900
+player 5555 bet 40 rest 1846
 -499>
-pot num 220 current bet 40 least raise 40
+pot num 180 current bet 40 least raise 40
 -500>
-player 6666 action raise
+player 8888 action raise
 -501>
-player 6666 bet 280 rest 1880
+player 8888 bet 540 rest 1221
 -502>
-pot num 480 current bet 280 least raise 240
+pot num 680 current bet 540 least raise 500
 -503>
-player 2222 action fold
--504>
-player 2222 bet 40 rest 1880
--505>
-pot num 480 current bet 280 least raise 240
--506>
-player 7777 action call
--507>
-player 7777 bet 280 rest 1760
--508>
-pot num 720 current bet 280 least raise 240
--509>
-player 5555 action fold
--510>
-player 5555 bet 40 rest 1920
--511>
-pot num 720 current bet 280 least raise 240
--512>
-player 4444 action fold
--513>
-player 4444 bet 40 rest 1200
--514>
-pot num 720 current bet 280 least raise 240
--515>
-player 3333 action fold
--516>
-player 3333 bet 40 rest 1900
--517>
-pot num 720 current bet 280 least raise 240
--518>
-flop/ 
-CLUBS 6 
-SPADES 4 
-DIAMONDS Q 
-/flop 
-
--519>
-player 6666 action raise
--520>
-player 6666 bet 520 rest 1640
--521>
-pot num 960 current bet 520 least raise 240
--522>
-player 7777 action call
--523>
-player 7777 bet 520 rest 1520
--524>
-pot num 1200 current bet 520 least raise 240
--525>
-turn/ 
-DIAMONDS 6 
-/turn 
-
--526>
-player 6666 action raise
--527>
-player 6666 bet 760 rest 1400
--528>
-pot num 1440 current bet 760 least raise 240
--529>
-player 7777 action call
--530>
-player 7777 bet 760 rest 1280
--531>
-pot num 1680 current bet 760 least raise 240
--532>
-river/ 
-SPADES 8 
-/river 
-
--533>
-player 6666 action raise
--534>
-player 6666 bet 1000 rest 1160
--535>
-pot num 1920 current bet 1000 least raise 240
--536>
-player 7777 action call
--537>
-player 7777 bet 1000 rest 1040
--538>
-pot num 2160 current bet 1000 least raise 240
--539>
-player 6666 show down: TWO_PAIR [HEARTS Q] [HEARTS 7]
--540>
-player 7777 show down: ONE_PAIR [CLUBS A] [CLUBS 5]
--541>
-player 6666 win pot: 2160
--542>
-score of 6666: 7 2000 3320 0
--543>
-score of 2222: 7 2000 1880 0
--544>
-score of 7777: 7 2000 1040 0
--545>
-score of 8888: 7 2000 2120 0
--546>
-score of 1111: 7 2000 2620 0
--547>
-score of 5555: 7 2000 1920 0
--548>
-score of 4444: 7 2000 1200 0
--549>
-score of 3333: 7 2000 1900 0
--550>
-game(id=replay) new hand 8 start...
--551>
-seat/ 
-button: 6666 3320 2000 
-small blind: 2222 1880 2000 
-big blind: 7777 1040 2000 
-8888 2120 2000 
-1111 2620 2000 
-5555 1920 2000 
-4444 1200 2000 
-3333 1900 2000 
-/seat 
-
--552>
-score of 2222: 8 2000 1880 0
--553>
-score of 7777: 8 2000 1040 0
--554>
-score of 8888: 8 2000 2120 0
--555>
-score of 1111: 8 2000 2620 0
--556>
-score of 5555: 8 2000 1920 0
--557>
-score of 4444: 8 2000 1200 0
--558>
-score of 3333: 8 2000 1900 0
--559>
-score of 6666: 8 2000 3320 0
--560>
-player 2222 action blind
--561>
-player 2222 bet 20 rest 1860
--562>
-pot num 20 current bet 20 least raise 40
--563>
-player 7777 action blind
--564>
-player 7777 bet 40 rest 1000
--565>
-pot num 60 current bet 40 least raise 40
--566>
-player 2222:hold/ 
-DIAMONDS 9 
-HEARTS 6 
-/hold 
-
--567>
-player 7777:hold/ 
-HEARTS 4 
-DIAMONDS 4 
-/hold 
-
--568>
-player 8888:hold/ 
-HEARTS K 
-DIAMONDS 2 
-/hold 
-
--569>
-player 1111:hold/ 
-HEARTS 2 
-CLUBS 9 
-/hold 
-
--570>
-player 5555:hold/ 
-CLUBS A 
-SPADES A 
-/hold 
-
--571>
-player 4444:hold/ 
-HEARTS A 
-SPADES J 
-/hold 
-
--572>
-player 3333:hold/ 
-SPADES 3 
-CLUBS K 
-/hold 
-
--573>
-player 6666:hold/ 
-HEARTS 3 
-HEARTS 10 
-/hold 
-
--574>
-player 8888 action fold
--575>
-player 8888 bet 0 rest 2120
--576>
-pot num 60 current bet 40 least raise 40
--577>
-player 1111 action fold
--578>
-player 1111 bet 0 rest 2620
--579>
-pot num 60 current bet 40 least raise 40
--580>
-player 5555 action call
--581>
-player 5555 bet 40 rest 1880
--582>
-pot num 100 current bet 40 least raise 40
--583>
-player 4444 action call
--584>
-player 4444 bet 40 rest 1160
--585>
-pot num 140 current bet 40 least raise 40
--586>
-player 3333 action call
--587>
-player 3333 bet 40 rest 1860
--588>
-pot num 180 current bet 40 least raise 40
--589>
-player 6666 action fold
--590>
-player 6666 bet 0 rest 3320
--591>
-pot num 180 current bet 40 least raise 40
--592>
-player 2222 action call
--593>
-player 2222 bet 40 rest 1840
--594>
-pot num 200 current bet 40 least raise 40
--595>
-player 7777 action check
--596>
-player 7777 bet 40 rest 1000
--597>
-pot num 200 current bet 40 least raise 40
--598>
-flop/ 
-DIAMONDS A 
-CLUBS 5 
-SPADES 2 
-/flop 
-
--599>
-player 2222 action check
--600>
-player 2222 bet 40 rest 1840
--601>
-pot num 200 current bet 40 least raise 40
--602>
-player 7777 action check
--603>
-player 7777 bet 40 rest 1000
--604>
-pot num 200 current bet 40 least raise 40
--605>
-player 5555 action check
--606>
-player 5555 bet 40 rest 1880
--607>
-pot num 200 current bet 40 least raise 40
--608>
-player 4444 action check
--609>
-player 4444 bet 40 rest 1160
--610>
-pot num 200 current bet 40 least raise 40
--611>
-player 3333 action fold
--612>
-player 3333 bet 40 rest 1860
--613>
-pot num 200 current bet 40 least raise 40
--614>
-turn/ 
-SPADES K 
-/turn 
-
--615>
-player 2222 action check
--616>
-player 2222 bet 40 rest 1840
--617>
-pot num 200 current bet 40 least raise 40
--618>
-player 7777 action check
--619>
-player 7777 bet 40 rest 1000
--620>
-pot num 200 current bet 40 least raise 40
--621>
-player 5555 action raise
--622>
-player 5555 bet 540 rest 1380
--623>
-pot num 700 current bet 540 least raise 500
--624>
-player 4444 action call
--625>
-player 4444 bet 540 rest 660
--626>
-pot num 1200 current bet 540 least raise 500
--627>
-player 2222 action fold
--628>
-player 2222 bet 40 rest 1840
--629>
-pot num 1200 current bet 540 least raise 500
--630>
-player 7777 action fold
--631>
-player 7777 bet 40 rest 1000
--632>
-pot num 1200 current bet 540 least raise 500
--633>
-river/ 
-DIAMONDS K 
-/river 
-
--634>
-player 5555 action raise
--635>
-player 5555 bet 1540 rest 380
--636>
-pot num 2200 current bet 1540 least raise 1000
--637>
-player 4444 action all_in
--638>
-player 4444 bet 1200 rest 0
--639>
-pot num 2860 current bet 1540 least raise 1000
--640>
-player 5555 show down: FULL_HOUSE [CLUBS A] [SPADES A]
--641>
-player 4444 show down: TWO_PAIR [HEARTS A] [SPADES J]
--642>
-player 5555 win pot: 2860
--643>
-score of 2222: 8 2000 1840 0
--644>
-score of 7777: 8 2000 1000 0
--645>
-score of 8888: 8 2000 2120 0
--646>
-score of 1111: 8 2000 2620 0
--647>
-score of 5555: 8 2000 3240 0
--648>
-score of 4444: 8 2000 0 0
--649>
-score of 3333: 8 2000 1860 0
--650>
-score of 6666: 8 2000 3320 0
--651>
-game(id=replay) new hand 9 start...
--652>
-seat/ 
-button: 2222 1840 2000 
-small blind: 7777 1000 2000 
-big blind: 8888 2120 2000 
-1111 2620 2000 
-5555 3240 2000 
-4444 2000 0 
-3333 1860 2000 
-6666 3320 2000 
-/seat 
-
--653>
-score of 7777: 9 2000 1000 0
--654>
-score of 8888: 9 2000 2120 0
--655>
-score of 1111: 9 2000 2620 0
--656>
-score of 5555: 9 2000 3240 0
--657>
-score of 4444: 9 0 2000 0
--658>
-score of 3333: 9 2000 1860 0
--659>
-score of 6666: 9 2000 3320 0
--660>
-score of 2222: 9 2000 1840 0
--661>
-player 7777 action blind
--662>
-player 7777 bet 20 rest 980
--663>
-pot num 20 current bet 20 least raise 40
--664>
-player 8888 action blind
--665>
-player 8888 bet 40 rest 2080
--666>
-pot num 60 current bet 40 least raise 40
--667>
-player 7777:hold/ 
-DIAMONDS 4 
-CLUBS 2 
-/hold 
-
--668>
-player 8888:hold/ 
-HEARTS A 
-CLUBS 8 
-/hold 
-
--669>
-player 1111:hold/ 
-DIAMONDS J 
-CLUBS A 
-/hold 
-
--670>
-player 5555:hold/ 
-SPADES 3 
-CLUBS 7 
-/hold 
-
--671>
-player 4444:hold/ 
-SPADES 7 
-SPADES 6 
-/hold 
-
--672>
-player 3333:hold/ 
-SPADES K 
-CLUBS 3 
-/hold 
-
--673>
-player 6666:hold/ 
-SPADES A 
-HEARTS 3 
-/hold 
-
--674>
-player 2222:hold/ 
-HEARTS 10 
-DIAMONDS 3 
-/hold 
-
--675>
-player 1111 action raise
--676>
-player 1111 bet 80 rest 2540
--677>
-pot num 140 current bet 80 least raise 40
--678>
-player 5555 action call
--679>
-player 5555 bet 80 rest 3160
--680>
-pot num 220 current bet 80 least raise 40
--681>
-player 4444 action fold
--682>
-player 4444 bet 0 rest 2000
--683>
-pot num 220 current bet 80 least raise 40
--684>
-player 3333 action call
--685>
-player 3333 bet 80 rest 1780
--686>
-pot num 300 current bet 80 least raise 40
--687>
-player 6666 action fold
--688>
-player 6666 bet 0 rest 3320
--689>
-pot num 300 current bet 80 least raise 40
--690>
-player 2222 action fold
--691>
-player 2222 bet 0 rest 1840
--692>
-pot num 300 current bet 80 least raise 40
--693>
-player 7777 action fold
--694>
-player 7777 bet 20 rest 980
--695>
-pot num 300 current bet 80 least raise 40
--696>
-player 8888 action call
--697>
-player 8888 bet 80 rest 2040
--698>
-pot num 340 current bet 80 least raise 40
--699>
-flop/ 
-HEARTS 7 
-CLUBS 6 
-SPADES J 
-/flop 
-
--700>
-player 8888 action check
--701>
-player 8888 bet 80 rest 2040
--702>
-pot num 340 current bet 80 least raise 40
--703>
-player 1111 action check
--704>
-player 1111 bet 80 rest 2540
--705>
-pot num 340 current bet 80 least raise 40
--706>
-player 5555 action check
--707>
-player 5555 bet 80 rest 3160
--708>
-pot num 340 current bet 80 least raise 40
--709>
-player 3333 action fold
--710>
-player 3333 bet 80 rest 1780
--711>
-pot num 340 current bet 80 least raise 40
--712>
-turn/ 
-DIAMONDS A 
-/turn 
-
--713>
-player 8888 action check
--714>
-player 8888 bet 80 rest 2040
--715>
-pot num 340 current bet 80 least raise 40
--716>
-player 1111 action raise
--717>
-player 1111 bet 160 rest 2460
--718>
-pot num 420 current bet 160 least raise 80
--719>
-player 5555 action call
--720>
-player 5555 bet 160 rest 3080
--721>
-pot num 500 current bet 160 least raise 80
--722>
-player 8888 action call
--723>
-player 8888 bet 160 rest 1960
--724>
-pot num 580 current bet 160 least raise 80
--725>
-river/ 
-HEARTS J 
-/river 
-
--726>
-player 8888 action check
--727>
-player 8888 bet 160 rest 1960
--728>
-pot num 580 current bet 160 least raise 40
--729>
-player 1111 action raise
--730>
-player 1111 bet 760 rest 1860
--731>
-pot num 1180 current bet 760 least raise 600
--732>
-player 5555 action fold
--733>
-player 5555 bet 160 rest 3080
--734>
-pot num 1180 current bet 760 least raise 600
--735>
-player 8888 action call
--736>
-player 8888 bet 760 rest 1360
--737>
-pot num 1780 current bet 760 least raise 600
--738>
-player 8888 show down: TWO_PAIR [HEARTS A] [CLUBS 8]
--739>
-player 1111 show down: FULL_HOUSE [DIAMONDS J] [CLUBS A]
--740>
-player 1111 win pot: 1780
--741>
-score of 7777: 9 2000 980 0
--742>
-score of 8888: 9 2000 1360 0
--743>
-score of 1111: 9 2000 3640 0
--744>
-score of 5555: 9 2000 3080 0
--745>
-score of 4444: 9 0 2000 0
--746>
-score of 3333: 9 2000 1780 0
--747>
-score of 6666: 9 2000 3320 0
--748>
-score of 2222: 9 2000 1840 0
--749>
-game(id=replay) new hand 10 start...
--750>
-seat/ 
-button: 7777 980 2000 
-small blind: 8888 1360 2000 
-big blind: 1111 3640 2000 
-5555 3080 2000 
-4444 2000 0 
-3333 1780 2000 
-6666 3320 2000 
-2222 1840 2000 
-/seat 
-
--751>
-score of 8888: 10 2000 1360 0
--752>
-score of 1111: 10 2000 3640 0
--753>
-score of 5555: 10 2000 3080 0
--754>
-score of 4444: 10 0 2000 0
--755>
-score of 3333: 10 2000 1780 0
--756>
-score of 6666: 10 2000 3320 0
--757>
-score of 2222: 10 2000 1840 0
--758>
-score of 7777: 10 2000 980 0
--759>
-player 8888 action blind
--760>
-player 8888 bet 20 rest 1340
--761>
-pot num 20 current bet 20 least raise 40
--762>
-player 1111 action blind
--763>
-player 1111 bet 40 rest 3600
--764>
-pot num 60 current bet 40 least raise 40
--765>
-player 8888:hold/ 
-HEARTS 3 
-SPADES 4 
-/hold 
-
--766>
-player 1111:hold/ 
-CLUBS 10 
-CLUBS J 
-/hold 
-
--767>
-player 5555:hold/ 
-DIAMONDS J 
-HEARTS J 
-/hold 
-
--768>
-player 4444:hold/ 
-CLUBS K 
-SPADES 3 
-/hold 
-
--769>
-player 3333:hold/ 
-CLUBS 4 
-HEARTS A 
-/hold 
-
--770>
-player 6666:hold/ 
-HEARTS 10 
-CLUBS 7 
-/hold 
-
--771>
-player 2222:hold/ 
-DIAMONDS 4 
-SPADES 5 
-/hold 
-
--772>
-player 7777:hold/ 
-DIAMONDS 7 
-DIAMONDS 8 
-/hold 
-
--773>
-player 5555 action call
--774>
-player 5555 bet 40 rest 3040
--775>
-pot num 100 current bet 40 least raise 40
--776>
-player 4444 action fold
--777>
-player 4444 bet 0 rest 2000
--778>
-pot num 100 current bet 40 least raise 40
--779>
-player 3333 action call
--780>
-player 3333 bet 40 rest 1740
--781>
-pot num 140 current bet 40 least raise 40
--782>
-player 6666 action fold
--783>
-player 6666 bet 0 rest 3320
--784>
-pot num 140 current bet 40 least raise 40
--785>
-player 2222 action call
--786>
-player 2222 bet 40 rest 1800
--787>
-pot num 180 current bet 40 least raise 40
--788>
-player 7777 action call
--789>
-player 7777 bet 40 rest 940
--790>
-pot num 220 current bet 40 least raise 40
--791>
-player 8888 action call
--792>
-player 8888 bet 40 rest 1320
--793>
-pot num 240 current bet 40 least raise 40
--794>
-player 1111 action check
--795>
-player 1111 bet 40 rest 3600
--796>
-pot num 240 current bet 40 least raise 40
--797>
-flop/ 
-SPADES K 
-HEARTS 2 
-SPADES 9 
-/flop 
-
--798>
-player 8888 action check
--799>
-player 8888 bet 40 rest 1320
--800>
-pot num 240 current bet 40 least raise 40
--801>
-player 1111 action fold
--802>
-player 1111 bet 40 rest 3600
--803>
-pot num 240 current bet 40 least raise 40
--804>
-player 5555 action check
--805>
-player 5555 bet 40 rest 3040
--806>
-pot num 240 current bet 40 least raise 40
--807>
-player 3333 action check
--808>
-player 3333 bet 40 rest 1740
--809>
-pot num 240 current bet 40 least raise 40
--810>
-player 2222 action check
--811>
-player 2222 bet 40 rest 1800
--812>
-pot num 240 current bet 40 least raise 40
--813>
-player 7777 action check
--814>
-player 7777 bet 40 rest 940
--815>
-pot num 240 current bet 40 least raise 40
--816>
-turn/ 
-SPADES 6 
-/turn 
-
--817>
-player 8888 action check
--818>
-player 8888 bet 40 rest 1320
--819>
-pot num 240 current bet 40 least raise 40
--820>
-player 5555 action check
--821>
-player 5555 bet 40 rest 3040
--822>
-pot num 240 current bet 40 least raise 40
--823>
-player 3333 action check
--824>
-player 3333 bet 40 rest 1740
--825>
-pot num 240 current bet 40 least raise 40
--826>
-player 2222 action check
--827>
-player 2222 bet 40 rest 1800
--828>
-pot num 240 current bet 40 least raise 40
--829>
-player 7777 action check
--830>
-player 7777 bet 40 rest 940
--831>
-pot num 240 current bet 40 least raise 40
--832>
-river/ 
-SPADES 10 
-/river 
-
--833>
-player 8888 action raise
--834>
-player 8888 bet 280 rest 1080
--835>
-pot num 480 current bet 280 least raise 240
--836>
-player 5555 action fold
--837>
-player 5555 bet 40 rest 3040
--838>
-pot num 480 current bet 280 least raise 240
--839>
-player 3333 action fold
--840>
-player 3333 bet 40 rest 1740
--841>
-pot num 480 current bet 280 least raise 240
--842>
-player 2222 action raise
--843>
-player 2222 bet 520 rest 1320
--844>
-pot num 960 current bet 520 least raise 240
--845>
-player 7777 action fold
--846>
-player 7777 bet 40 rest 940
--847>
-pot num 960 current bet 520 least raise 240
--848>
-player 8888 action raise
--849>
-player 8888 bet 760 rest 600
--850>
-pot num 1440 current bet 760 least raise 240
--851>
-player 2222 action raise
--852>
-player 2222 bet 1000 rest 840
--853>
-pot num 1920 current bet 1000 least raise 240
--854>
-player 8888 action raise
--855>
-player 8888 bet 1240 rest 120
--856>
-pot num 2400 current bet 1240 least raise 240
--857>
-player 2222 action raise
--858>
-player 2222 bet 1480 rest 360
--859>
-pot num 2880 current bet 1480 least raise 240
--860>
-player 8888 action all_in
--861>
-player 8888 bet 1360 rest 0
--862>
-pot num 3000 current bet 1480 least raise 240
--863>
-player 8888 show down: FLUSH [HEARTS 3] [SPADES 4]
--864>
-player 2222 show down: FLUSH [DIAMONDS 4] [SPADES 5]
--865>
-player 2222 win pot: 3000
--866>
-score of 8888: 10 2000 0 0
--867>
-score of 1111: 10 2000 3600 0
--868>
-score of 5555: 10 2000 3040 0
--869>
-score of 4444: 10 0 2000 0
--870>
-score of 3333: 10 2000 1740 0
--871>
-score of 6666: 10 2000 3320 0
--872>
-score of 2222: 10 2000 3360 0
--873>
-score of 7777: 10 2000 940 0
--874>
-game(id=replay) new hand 11 start...
--875>
-seat/ 
-button: 8888 2000 0 
-small blind: 1111 3600 2000 
-big blind: 5555 3040 2000 
-4444 2000 0 
-3333 1740 2000 
-6666 3320 2000 
-2222 3360 2000 
-7777 940 2000 
-/seat 
-
--876>
-score of 1111: 11 2000 3600 0
--877>
-score of 5555: 11 2000 3040 0
--878>
-score of 4444: 11 0 2000 0
--879>
-score of 3333: 11 2000 1740 0
--880>
-score of 6666: 11 2000 3320 0
--881>
-score of 2222: 11 2000 3360 0
--882>
-score of 7777: 11 2000 940 0
--883>
-score of 8888: 11 0 2000 0
--884>
-player 1111 action blind
--885>
-player 1111 bet 20 rest 3580
--886>
-pot num 20 current bet 20 least raise 40
--887>
-player 5555 action blind
--888>
-player 5555 bet 40 rest 3000
--889>
-pot num 60 current bet 40 least raise 40
--890>
-player 1111:hold/ 
-CLUBS 3 
-HEARTS A 
-/hold 
-
--891>
-player 5555:hold/ 
-CLUBS J 
-CLUBS 6 
-/hold 
-
--892>
-player 4444:hold/ 
-DIAMONDS 6 
-CLUBS 7 
-/hold 
-
--893>
-player 3333:hold/ 
-DIAMONDS 7 
-CLUBS 2 
-/hold 
-
--894>
-player 6666:hold/ 
-CLUBS 9 
-CLUBS 8 
-/hold 
-
--895>
-player 2222:hold/ 
-CLUBS K 
-DIAMONDS K 
-/hold 
-
--896>
-player 7777:hold/ 
-HEARTS 6 
-DIAMONDS J 
-/hold 
-
--897>
-player 8888:hold/ 
-SPADES 6 
-SPADES 9 
-/hold 
-
--898>
-player 4444 action fold
--899>
-player 4444 bet 0 rest 2000
--900>
-pot num 60 current bet 40 least raise 40
--901>
-player 3333 action call
--902>
-player 3333 bet 40 rest 1700
--903>
-pot num 100 current bet 40 least raise 40
--904>
-player 6666 action fold
--905>
-player 6666 bet 0 rest 3320
--906>
-pot num 100 current bet 40 least raise 40
--907>
-player 2222 action raise
--908>
-player 2222 bet 120 rest 3240
--909>
-pot num 220 current bet 120 least raise 80
--910>
-player 7777 action fold
--911>
-player 7777 bet 0 rest 940
--912>
-pot num 220 current bet 120 least raise 80
--913>
-player 8888 action fold
--914>
-player 8888 bet 0 rest 2000
--915>
-pot num 220 current bet 120 least raise 80
--916>
-player 1111 action call
--917>
-player 1111 bet 120 rest 3480
--918>
-pot num 320 current bet 120 least raise 80
--919>
-player 5555 action fold
--920>
-player 5555 bet 40 rest 3000
--921>
-pot num 320 current bet 120 least raise 80
--922>
-player 3333 action fold
--923>
-player 3333 bet 40 rest 1700
--924>
-pot num 320 current bet 120 least raise 80
--925>
-flop/ 
-SPADES 4 
-CLUBS 10 
-HEARTS J 
-/flop 
-
--926>
-player 1111 action fold
--927>
-player 1111 bet 120 rest 3480
--928>
-pot num 320 current bet 120 least raise 40
--929>
-player 2222 action raise
--930>
-player 2222 bet 160 rest 3200
--931>
-pot num 360 current bet 160 least raise 40
--932>
-player 2222 win pot: 360
--933>
-score of 1111: 11 2000 3480 0
--934>
-score of 5555: 11 2000 3000 0
--935>
-score of 4444: 11 0 2000 0
--936>
-score of 3333: 11 2000 1700 0
--937>
-score of 6666: 11 2000 3320 0
--938>
-score of 2222: 11 2000 3560 0
--939>
-score of 7777: 11 2000 940 0
--940>
-score of 8888: 11 0 2000 0
--941>
-game(id=replay) new hand 12 start...
--942>
-seat/ 
-button: 1111 3480 2000 
-small blind: 5555 3000 2000 
-big blind: 4444 2000 0 
-3333 1700 2000 
-6666 3320 2000 
-2222 3560 2000 
-7777 940 2000 
-8888 2000 0 
-/seat 
-
--943>
-score of 5555: 12 2000 3000 0
--944>
-score of 4444: 12 0 2000 0
--945>
-score of 3333: 12 2000 1700 0
--946>
-score of 6666: 12 2000 3320 0
--947>
-score of 2222: 12 2000 3560 0
--948>
-score of 7777: 12 2000 940 0
--949>
-score of 8888: 12 0 2000 0
--950>
-score of 1111: 12 2000 3480 0
--951>
-player 5555 action blind
--952>
-player 5555 bet 20 rest 2980
--953>
-pot num 20 current bet 20 least raise 40
--954>
-player 4444 action blind
--955>
-player 4444 bet 40 rest 1960
--956>
-pot num 60 current bet 40 least raise 40
--957>
-player 5555:hold/ 
-HEARTS J 
-SPADES 8 
-/hold 
-
--958>
-player 4444:hold/ 
-HEARTS 2 
-SPADES 4 
-/hold 
-
--959>
-player 3333:hold/ 
-CLUBS 7 
-DIAMONDS 6 
-/hold 
-
--960>
-player 6666:hold/ 
-SPADES 2 
-CLUBS 2 
-/hold 
-
--961>
-player 2222:hold/ 
-HEARTS 4 
-HEARTS Q 
-/hold 
-
--962>
-player 7777:hold/ 
-HEARTS 7 
-CLUBS K 
-/hold 
-
--963>
-player 8888:hold/ 
-CLUBS 4 
-SPADES 6 
-/hold 
-
--964>
-player 1111:hold/ 
-SPADES 7 
-DIAMONDS 7 
-/hold 
-
--965>
-player 3333 action call
--966>
-player 3333 bet 40 rest 1660
--967>
-pot num 100 current bet 40 least raise 40
--968>
-player 6666 action fold
--969>
-player 6666 bet 0 rest 3320
--970>
-pot num 100 current bet 40 least raise 40
--971>
-player 2222 action fold
--972>
-player 2222 bet 0 rest 3560
--973>
-pot num 100 current bet 40 least raise 40
--974>
-player 7777 action fold
--975>
-player 7777 bet 0 rest 940
--976>
-pot num 100 current bet 40 least raise 40
--977>
-player 8888 action fold
--978>
-player 8888 bet 0 rest 2000
--979>
-pot num 100 current bet 40 least raise 40
--980>
-player 1111 action call
--981>
-player 1111 bet 40 rest 3440
--982>
-pot num 140 current bet 40 least raise 40
--983>
-player 5555 action call
--984>
-player 5555 bet 40 rest 2960
--985>
-pot num 160 current bet 40 least raise 40
--986>
-player 4444 action fold
--987>
-player 4444 bet 40 rest 1960
--988>
-pot num 160 current bet 40 least raise 40
--989>
-flop/ 
-SPADES 5 
-DIAMONDS 4 
-DIAMONDS 2 
-/flop 
-
--990>
-player 5555 action fold
--991>
-player 5555 bet 40 rest 2960
--992>
-pot num 160 current bet 40 least raise 40
--993>
-player 3333 action check
--994>
-player 3333 bet 40 rest 1660
--995>
-pot num 160 current bet 40 least raise 40
--996>
-player 1111 action fold
--997>
-player 1111 bet 40 rest 3440
--998>
-pot num 160 current bet 40 least raise 40
--999>
-player 3333 win pot: 160
--1000>
-score of 5555: 12 2000 2960 0
--1001>
-score of 4444: 12 0 1960 0
--1002>
-score of 3333: 12 2000 1820 0
--1003>
-score of 6666: 12 2000 3320 0
--1004>
-score of 2222: 12 2000 3560 0
--1005>
-score of 7777: 12 2000 940 0
--1006>
-score of 8888: 12 0 2000 0
--1007>
-score of 1111: 12 2000 3440 0
--1008>
-game(id=replay) new hand 13 start...
--1009>
-seat/ 
-button: 5555 2960 2000 
-small blind: 4444 1960 0 
-big blind: 3333 1820 2000 
-6666 3320 2000 
-2222 3560 2000 
-7777 940 2000 
-8888 2000 0 
-1111 3440 2000 
-/seat 
-
--1010>
-score of 4444: 13 0 1960 0
--1011>
-score of 3333: 13 2000 1820 0
--1012>
-score of 6666: 13 2000 3320 0
--1013>
-score of 2222: 13 2000 3560 0
--1014>
-score of 7777: 13 2000 940 0
--1015>
-score of 8888: 13 0 2000 0
--1016>
-score of 1111: 13 2000 3440 0
--1017>
-score of 5555: 13 2000 2960 0
--1018>
-player 4444 action blind
--1019>
-player 4444 bet 20 rest 1940
--1020>
-pot num 20 current bet 20 least raise 40
--1021>
-player 3333 action blind
--1022>
-player 3333 bet 40 rest 1780
--1023>
-pot num 60 current bet 40 least raise 40
--1024>
-player 4444:hold/ 
-DIAMONDS 3 
-DIAMONDS Q 
-/hold 
-
--1025>
-player 3333:hold/ 
-SPADES 9 
-CLUBS 5 
-/hold 
-
--1026>
-player 6666:hold/ 
-DIAMONDS 2 
-HEARTS J 
-/hold 
-
--1027>
-player 2222:hold/ 
-DIAMONDS 8 
-DIAMONDS K 
-/hold 
-
--1028>
-player 7777:hold/ 
-HEARTS K 
-DIAMONDS 6 
-/hold 
-
--1029>
-player 8888:hold/ 
-SPADES 8 
-CLUBS K 
-/hold 
-
--1030>
-player 1111:hold/ 
-SPADES 7 
-DIAMONDS 4 
-/hold 
-
--1031>
-player 5555:hold/ 
-HEARTS 8 
-HEARTS 9 
-/hold 
-
--1032>
-player 6666 action fold
--1033>
-player 6666 bet 0 rest 3320
--1034>
-pot num 60 current bet 40 least raise 40
--1035>
-player 2222 action fold
--1036>
-player 2222 bet 0 rest 3560
--1037>
-pot num 60 current bet 40 least raise 40
--1038>
-player 7777 action fold
--1039>
-player 7777 bet 0 rest 940
--1040>
-pot num 60 current bet 40 least raise 40
--1041>
-player 8888 action fold
--1042>
-player 8888 bet 0 rest 2000
--1043>
-pot num 60 current bet 40 least raise 40
--1044>
-player 1111 action fold
--1045>
-player 1111 bet 0 rest 3440
--1046>
-pot num 60 current bet 40 least raise 40
--1047>
-player 5555 action call
--1048>
-player 5555 bet 40 rest 2920
--1049>
-pot num 100 current bet 40 least raise 40
--1050>
-player 4444 action fold
--1051>
-player 4444 bet 20 rest 1940
--1052>
-pot num 100 current bet 40 least raise 40
--1053>
-player 3333 action check
--1054>
-player 3333 bet 40 rest 1780
--1055>
-pot num 100 current bet 40 least raise 40
--1056>
-flop/ 
-HEARTS A 
-SPADES A 
-SPADES 3 
-/flop 
-
--1057>
-player 3333 action check
--1058>
-player 3333 bet 40 rest 1780
--1059>
-pot num 100 current bet 40 least raise 40
--1060>
-player 5555 action check
--1061>
-player 5555 bet 40 rest 2920
--1062>
-pot num 100 current bet 40 least raise 40
--1063>
-turn/ 
-CLUBS 9 
-/turn 
-
--1064>
-player 3333 action raise
--1065>
-player 3333 bet 540 rest 1280
--1066>
-pot num 600 current bet 540 least raise 500
--1067>
-player 5555 action call
--1068>
-player 5555 bet 540 rest 2420
--1069>
-pot num 1100 current bet 540 least raise 500
--1070>
-river/ 
-CLUBS 2 
-/river 
-
--1071>
-player 3333 action check
--1072>
-player 3333 bet 540 rest 1280
--1073>
-pot num 1100 current bet 540 least raise 40
--1074>
-player 5555 action check
--1075>
-player 5555 bet 540 rest 2420
--1076>
-pot num 1100 current bet 540 least raise 40
--1077>
-player 3333 show down: TWO_PAIR [SPADES 9] [CLUBS 5]
--1078>
-player 5555 show down: TWO_PAIR [HEARTS 8] [HEARTS 9]
--1079>
-player 5555 win pot: 1100
--1080>
-score of 4444: 13 0 1940 0
--1081>
-score of 3333: 13 2000 1280 0
--1082>
-score of 6666: 13 2000 3320 0
--1083>
-score of 2222: 13 2000 3560 0
--1084>
-score of 7777: 13 2000 940 0
--1085>
-score of 8888: 13 0 2000 0
--1086>
-score of 1111: 13 2000 3440 0
--1087>
-score of 5555: 13 2000 3520 0
--1088>
-game(id=replay) new hand 14 start...
--1089>
-seat/ 
-button: 4444 1940 0 
-small blind: 3333 1280 2000 
-big blind: 6666 3320 2000 
-2222 3560 2000 
-7777 940 2000 
-8888 2000 0 
-1111 3440 2000 
-5555 3520 2000 
-/seat 
-
--1090>
-score of 3333: 14 2000 1280 0
--1091>
-score of 6666: 14 2000 3320 0
--1092>
-score of 2222: 14 2000 3560 0
--1093>
-score of 7777: 14 2000 940 0
--1094>
-score of 8888: 14 0 2000 0
--1095>
-score of 1111: 14 2000 3440 0
--1096>
-score of 5555: 14 2000 3520 0
--1097>
-score of 4444: 14 0 1940 0
--1098>
-player 3
+player 4444 

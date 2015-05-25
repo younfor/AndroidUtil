@@ -9,6 +9,7 @@ def run():
     os.system('nohup ./dist_check_and_run.sh &')
 thread.start_new_thread(run, ())
 # start floop
+os.system('rm -rf logdata')
 i = 1
 t = 0
 while i <= 15:
