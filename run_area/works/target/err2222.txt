@@ -1,3 +1,0 @@
-reg: 2222 new 
-EXIT:receive_msg()
-game over!!!

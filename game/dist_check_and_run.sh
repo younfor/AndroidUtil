@@ -61,6 +61,7 @@ popd >/dev/null
 echo "start your program"
 pushd . >/dev/null
 cd works/target
+killall gameo >/dev/null 2>&1
 killall gametest1 >/dev/null 2>&1
 killall simple >/dev/null 2>&1
 killall random >/dev/null 2>&1
@@ -68,6 +69,7 @@ killall youn >/dev/null 2>&1
 killall clever >/dev/null 2>&1
 killall call >/dev/null 2>&1
 killall all >/dev/null 2>&1
+killall gamew >/dev/null 2>&1
 #for i in 1 2 3 4 5 6 7 8
 #do
 #chmod u+x game 
@@ -80,10 +82,10 @@ do
 done
 ./all 127.0.0.1 6000 127.0.0.2 6002 2222 0</dev/null 1>/dev/null &>"err2222.txt" &
 # ./simple 127.0.0.1 6000 127.0.0.3 6003 3333 0</dev/null 1>/dev/null 2>/dev/null &
-./lim 127.0.0.1 6000 127.0.0.3 6003 3333 0</dev/null 1>/dev/null &>"err3333.txt" &
+./gameo 127.0.0.1 6000 127.0.0.3 6003 3333 0</dev/null 1>/dev/null &>"err3333.txt" &
 ./xgame 127.0.0.1 6000 127.0.0.4 6004 4444 0</dev/null 1>/dev/null &>"err4444.txt" &
 ./gamel 127.0.0.1 6000 127.0.0.5 6005 5555 0</dev/null 1>/dev/null &>"err5555.txt" &
-./xgame 127.0.0.1 6000 127.0.0.6 6006 6666 0</dev/null 1>/dev/null &>"err6666.txt" &
+./gamew 127.0.0.1 6000 127.0.0.6 6006 6666 0</dev/null 1>/dev/null &>"err6666.txt" &
 ./clever 127.0.0.1 6000 127.0.0.7 6007 7777 0</dev/null 1>/dev/null &>"err7777.txt" &
 ./gamel 127.0.0.1 6000 127.0.0.8 6008 8888 0</dev/null 1>/dev/null &>"err8888.txt" &
 #./call 127.0.0.1 6000 127.0.0.8 6008 8888

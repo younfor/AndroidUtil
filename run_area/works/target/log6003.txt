@@ -1,0 +1,2274 @@
+spent time: 37
+spent time: 6
+DIAMONDS 9 
+
+color:3 point:9 
+HEARTS 3 
+
+color:1 point:3 
+spent time: 45
+parser :myshape 8
+fold 
+
+spent time: 168
+**********flop**********
+SPADES 7 
+
+color:0 point:7 
+SPADES 8 
+
+color:0 point:8 
+SPADES 9 
+
+color:0 point:9 
+**********flop**********
+spent time: 68
+**********turn**********
+DIAMONDS 8 
+
+color:3 point:8 
+**********turn**********
+spent time: 42
+**********river**********
+DIAMONDS J 
+
+color:3 point:11 
+**********river**********
+spent time: 55
+showdown/ 
+common/ 
+SPADES 7 
+SPADES 8 
+SPADES 9 
+DIAMONDS 8 
+DIAMONDS J 
+/common 
+2: 8888 SPADES K HEARTS 6 ONE_PAIR 
+1: 5555 SPADES 2 CLUBS 7 TWO_PAIR 
+/showdown 
+spent time: 44
+spent time: 2
+spent time: 44
+spent time: 8
+HEARTS 8 
+
+color:1 point:8 
+CLUBS 9 
+
+color:2 point:9 
+spent time: 51
+parser :myshape 8
+fold 
+
+spent time: 71
+spent time: 2
+spent time: 64
+spent time: 10
+CLUBS Q 
+
+color:2 point:12 
+SPADES K 
+
+color:0 point:13 
+spent time: 32
+parser :myshape 8
+fold 
+
+spent time: 81
+**********flop**********
+CLUBS 2 
+
+color:2 point:2 
+DIAMONDS 8 
+
+color:3 point:8 
+CLUBS 6 
+
+color:2 point:6 
+**********flop**********
+spent time: 71
+**********turn**********
+SPADES 9 
+
+color:0 point:9 
+**********turn**********
+spent time: 53
+**********river**********
+SPADES 5 
+
+color:0 point:5 
+**********river**********
+spent time: 45
+showdown/ 
+common/ 
+CLUBS 2 
+DIAMONDS 8 
+CLUBS 6 
+SPADES 9 
+SPADES 5 
+/common 
+1: 5555 CLUBS 7 CLUBS K STRAIGHT 
+1: 2222 HEARTS 7 SPADES 8 STRAIGHT 
+/showdown 
+spent time: 149
+spent time: 2
+spent time: 37
+spent time: 7
+CLUBS 2 
+
+color:2 point:2 
+DIAMONDS J 
+
+color:3 point:11 
+spent time: 79
+parser :myshape 8
+check 
+
+spent time: 129
+**********flop**********
+DIAMONDS A 
+
+color:3 point:14 
+CLUBS 4 
+
+color:2 point:4 
+DIAMONDS 7 
+
+color:3 point:7 
+**********flop**********
+spent time: 114
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.037436 except=5.241040 pot depth=140
+check 
+
+spent time: 80
+**********turn**********
+CLUBS A 
+
+color:2 point:14 
+**********turn**********
+spent time: 96
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.065000 except=9.100000 pot depth=140
+check 
+
+spent time: 192
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.065000 except=74.100000 pot depth=640
+fold 
+
+spent time: 108
+spent time: 2
+spent time: 32
+spent time: 5
+HEARTS 3 
+
+color:1 point:3 
+HEARTS 10 
+
+color:1 point:10 
+spent time: 15
+parser :myshape 8
+check 
+
+spent time: 49
+**********flop**********
+CLUBS 9 
+
+color:2 point:9 
+HEARTS A 
+
+color:1 point:14 
+DIAMONDS 7 
+
+color:3 point:7 
+**********flop**********
+spent time: 62
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.037436 except=5.989760 pot depth=160
+check 
+
+spent time: 118
+**********turn**********
+CLUBS 7 
+
+color:2 point:7 
+**********turn**********
+spent time: 48
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.065000 except=10.400000 pot depth=160
+check 
+
+spent time: 154
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.065000 except=49.400000 pot depth=560
+fold 
+
+spent time: 194
+**********river**********
+CLUBS K 
+
+color:2 point:13 
+**********river**********
+spent time: 107
+showdown/ 
+common/ 
+CLUBS 9 
+HEARTS A 
+DIAMONDS 7 
+CLUBS 7 
+CLUBS K 
+/common 
+2: 2222 CLUBS 2 DIAMONDS 2 TWO_PAIR 
+1: 8888 DIAMONDS 10 SPADES A TWO_PAIR 
+/showdown 
+spent time: 25
+spent time: 2
+spent time: 43
+spent time: 7
+CLUBS K 
+
+color:2 point:13 
+SPADES 10 
+
+color:0 point:10 
+spent time: 58
+parser :myshape 8
+check 
+
+spent time: 112
+**********flop**********
+DIAMONDS Q 
+
+color:3 point:12 
+HEARTS Q 
+
+color:1 point:12 
+SPADES 4 
+
+color:0 point:4 
+**********flop**********
+spent time: 58
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.106151 except=33.968320 pot depth=280
+check 
+
+spent time: 159
+**********turn**********
+DIAMONDS J 
+
+color:3 point:11 
+**********turn**********
+spent time: 42
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.065000 except=77.025000 pot depth=910
+fold 
+
+spent time: 176
+**********river**********
+SPADES 7 
+
+color:0 point:7 
+**********river**********
+spent time: 58
+showdown/ 
+common/ 
+DIAMONDS Q 
+HEARTS Q 
+SPADES 4 
+DIAMONDS J 
+SPADES 7 
+/common 
+2: 5555 SPADES J SPADES 8 TWO_PAIR 
+1: 7777 SPADES Q HEARTS 3 THREE_OF_A_KIND 
+/showdown 
+spent time: 22
+spent time: 2
+spent time: 41
+spent time: 6
+CLUBS 9 
+
+color:2 point:9 
+SPADES 2 
+
+color:0 point:2 
+spent time: 58
+parser :myshape 8
+fold 
+
+spent time: 90
+**********flop**********
+CLUBS J 
+
+color:2 point:11 
+DIAMONDS 3 
+
+color:3 point:3 
+CLUBS 2 
+
+color:2 point:2 
+**********flop**********
+spent time: 57
+**********turn**********
+HEARTS 6 
+
+color:1 point:6 
+**********turn**********
+spent time: 59
+**********river**********
+HEARTS J 
+
+color:1 point:11 
+**********river**********
+spent time: 57
+spent time: 3
+spent time: 39
+spent time: 7
+CLUBS 9 
+
+color:2 point:9 
+HEARTS 10 
+
+color:1 point:10 
+spent time: 80
+parser :myshape 8
+fold 
+
+spent time: 123
+spent time: 2
+spent time: 60
+spent time: 8
+HEARTS 5 
+
+color:1 point:5 
+SPADES 7 
+
+color:0 point:7 
+spent time: 26
+parser :myshape 8
+fold 
+
+spent time: 92
+spent time: 2
+spent time: 89
+spent time: 6
+HEARTS 4 
+
+color:1 point:4 
+CLUBS 4 
+
+color:2 point:4 
+spent time: 19
+parser :myshape 7
+fold 
+
+spent time: 106
+**********flop**********
+HEARTS 7 
+
+color:1 point:7 
+SPADES 2 
+
+color:0 point:2 
+DIAMONDS 4 
+
+color:3 point:4 
+**********flop**********
+spent time: 74
+spent time: 2
+spent time: 39
+spent time: 6
+CLUBS 7 
+
+color:2 point:7 
+SPADES 5 
+
+color:0 point:5 
+spent time: 35
+parser :myshape 8
+fold 
+
+spent time: 92
+**********flop**********
+HEARTS J 
+
+color:1 point:11 
+CLUBS A 
+
+color:2 point:14 
+DIAMONDS 7 
+
+color:3 point:7 
+**********flop**********
+spent time: 89
+**********turn**********
+CLUBS 4 
+
+color:2 point:4 
+**********turn**********
+spent time: 55
+spent time: 2
+spent time: 88
+spent time: 7
+DIAMONDS K 
+
+color:3 point:13 
+HEARTS 5 
+
+color:1 point:5 
+spent time: 65
+parser :myshape 8
+check 
+
+spent time: 145
+**********flop**********
+CLUBS 6 
+
+color:2 point:6 
+CLUBS 10 
+
+color:2 point:10 
+HEARTS 10 
+
+color:1 point:10 
+**********flop**********
+spent time: 66
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.106151 except=12.738120 pot depth=120
+check 
+
+spent time: 180
+**********turn**********
+CLUBS 4 
+
+color:2 point:4 
+**********turn**********
+spent time: 60
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.065000 except=72.800000 pot depth=620
+fold 
+
+spent time: 166
+**********river**********
+HEARTS 4 
+
+color:1 point:4 
+**********river**********
+spent time: 78
+spent time: 3
+spent time: 46
+spent time: 7
+SPADES A 
+
+color:0 point:14 
+SPADES 3 
+
+color:0 point:3 
+spent time: 30
+parser :myshape 8
+check 
+
+spent time: 143
+**********flop**********
+DIAMONDS J 
+
+color:3 point:11 
+HEARTS 8 
+
+color:1 point:8 
+SPADES 8 
+
+color:0 point:8 
+**********flop**********
+spent time: 125
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.143587 except=28.717400 pot depth=200
+check 
+
+spent time: 121
+**********turn**********
+DIAMONDS K 
+
+color:3 point:13 
+**********turn**********
+spent time: 80
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.065000 except=13.000000 pot depth=200
+check 
+
+spent time: 185
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.065000 except=78.000000 pot depth=700
+fold 
+
+spent time: 212
+spent time: 2
+spent time: 72
+spent time: 6
+HEARTS 6 
+
+color:1 point:6 
+SPADES 8 
+
+color:0 point:8 
+spent time: 19
+parser :myshape 8
+check 
+
+spent time: 97
+**********flop**********
+CLUBS 3 
+
+color:2 point:3 
+SPADES A 
+
+color:0 point:14 
+DIAMONDS A 
+
+color:3 point:14 
+**********flop**********
+spent time: 58
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.106151 except=284.060076 pot depth=1648
+fold 
+
+spent time: 112
+**********turn**********
+SPADES K 
+
+color:0 point:13 
+**********turn**********
+spent time: 77
+**********river**********
+HEARTS 2 
+
+color:1 point:2 
+**********river**********
+spent time: 58
+showdown/ 
+common/ 
+CLUBS 3 
+SPADES A 
+DIAMONDS A 
+SPADES K 
+HEARTS 2 
+/common 
+1: 2222 SPADES 4 HEARTS 4 TWO_PAIR 
+2: 4444 CLUBS Q HEARTS 3 TWO_PAIR 
+/showdown 
+spent time: 38
+spent time: 2
+spent time: 55
+spent time: 7
+DIAMONDS 10 
+
+color:3 point:10 
+SPADES 8 
+
+color:0 point:8 
+spent time: 35
+parser :myshape 8
+fold 
+
+spent time: 133
+**********flop**********
+DIAMONDS 3 
+
+color:3 point:3 
+DIAMONDS 9 
+
+color:3 point:9 
+CLUBS K 
+
+color:2 point:13 
+**********flop**********
+spent time: 60
+spent time: 2
+spent time: 51
+spent time: 11
+SPADES A 
+
+color:0 point:14 
+SPADES 7 
+
+color:0 point:7 
+spent time: 45
+parser :myshape 8
+fold 
+
+spent time: 62
+**********flop**********
+HEARTS 5 
+
+color:1 point:5 
+HEARTS 6 
+
+color:1 point:6 
+CLUBS 6 
+
+color:2 point:6 
+**********flop**********
+spent time: 66
+**********turn**********
+SPADES 6 
+
+color:0 point:6 
+**********turn**********
+spent time: 43
+**********river**********
+DIAMONDS 9 
+
+color:3 point:9 
+**********river**********
+spent time: 56
+showdown/ 
+common/ 
+HEARTS 5 
+HEARTS 6 
+CLUBS 6 
+SPADES 6 
+DIAMONDS 9 
+/common 
+2: 2222 CLUBS 5 CLUBS 8 FULL_HOUSE 
+1: 8888 SPADES K CLUBS K FULL_HOUSE 
+2: 4444 SPADES 5 SPADES 4 FULL_HOUSE 
+/showdown 
+spent time: 26
+spent time: 1
+spent time: 86
+spent time: 8
+DIAMONDS J 
+
+color:3 point:11 
+DIAMONDS Q 
+
+color:3 point:12 
+spent time: 45
+parser :myshape 8
+check 
+
+spent time: 89
+**********flop**********
+SPADES A 
+
+color:0 point:14 
+HEARTS 5 
+
+color:1 point:5 
+CLUBS 4 
+
+color:2 point:4 
+**********flop**********
+spent time: 64
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.000000 except=0.000000 pot depth=140
+check 
+
+spent time: 120
+**********turn**********
+DIAMONDS 3 
+
+color:3 point:3 
+**********turn**********
+spent time: 28
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.000000 except=0.000000 pot depth=640
+fold 
+
+spent time: 130
+spent time: 2
+spent time: 58
+spent time: 10
+SPADES 2 
+
+color:0 point:2 
+HEARTS A 
+
+color:1 point:14 
+spent time: 29
+parser :myshape 8
+fold 
+
+spent time: 78
+**********flop**********
+DIAMONDS 9 
+
+color:3 point:9 
+DIAMONDS 2 
+
+color:3 point:2 
+SPADES 8 
+
+color:0 point:8 
+**********flop**********
+spent time: 56
+spent time: 2
+spent time: 46
+spent time: 9
+HEARTS 3 
+
+color:1 point:3 
+HEARTS K 
+
+color:1 point:13 
+spent time: 65
+parser :myshape 8
+fold 
+
+spent time: 92
+**********flop**********
+CLUBS 3 
+
+color:2 point:3 
+DIAMONDS 7 
+
+color:3 point:7 
+HEARTS 7 
+
+color:1 point:7 
+**********flop**********
+spent time: 117
+**********turn**********
+CLUBS Q 
+
+color:2 point:12 
+**********turn**********
+spent time: 62
+spent time: 2
+spent time: 46
+spent time: 7
+DIAMONDS 9 
+
+color:3 point:9 
+HEARTS A 
+
+color:1 point:14 
+spent time: 25
+parser :myshape 8
+check 
+
+spent time: 105
+**********flop**********
+CLUBS Q 
+
+color:2 point:12 
+CLUBS 5 
+
+color:2 point:5 
+CLUBS 6 
+
+color:2 point:6 
+**********flop**********
+spent time: 78
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.037436 except=5.989760 pot depth=160
+check 
+
+spent time: 144
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.037436 except=8.984640 pot depth=200
+check 
+
+spent time: 197
+**********turn**********
+SPADES J 
+
+color:0 point:11 
+**********turn**********
+spent time: 64
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.000000 except=0.000000 pot depth=280
+check 
+
+spent time: 128
+**********river**********
+SPADES K 
+
+color:0 point:13 
+**********river**********
+spent time: 75
+parser :myshape 8
+myshape 8
+case default
+river :p =0.000000 except=0.000000 pot depth=280
+check 
+
+spent time: 159
+showdown/ 
+common/ 
+CLUBS Q 
+CLUBS 5 
+CLUBS 6 
+SPADES J 
+SPADES K 
+/common 
+2: 3333 DIAMONDS 9 HEARTS A HIGH_CARD 
+1: 1111 CLUBS 9 SPADES Q ONE_PAIR 
+/showdown 
+spent time: 19
+spent time: 2
+spent time: 40
+spent time: 7
+SPADES 7 
+
+color:0 point:7 
+CLUBS 5 
+
+color:2 point:5 
+spent time: 19
+parser :myshape 8
+check 
+
+spent time: 139
+**********flop**********
+DIAMONDS Q 
+
+color:3 point:12 
+SPADES Q 
+
+color:0 point:12 
+HEARTS 6 
+
+color:1 point:6 
+**********flop**********
+spent time: 125
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.106151 except=16.984160 pot depth=160
+check 
+
+spent time: 146
+**********turn**********
+HEARTS 4 
+
+color:1 point:4 
+**********turn**********
+spent time: 54
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.065000 except=10.400000 pot depth=160
+check 
+
+spent time: 195
+**********river**********
+CLUBS 2 
+
+color:2 point:2 
+**********river**********
+spent time: 79
+parser :myshape 7
+myshape 7
+case 7
+river :p =0.000000 except=0.000000 pot depth=160
+check 
+
+spent time: 113
+showdown/ 
+common/ 
+DIAMONDS Q 
+SPADES Q 
+HEARTS 6 
+HEARTS 4 
+CLUBS 2 
+/common 
+2: 3333 SPADES 7 CLUBS 5 ONE_PAIR 
+1: 8888 HEARTS J DIAMONDS 2 TWO_PAIR 
+/showdown 
+spent time: 43
+spent time: 2
+spent time: 43
+spent time: 7
+SPADES J 
+
+color:0 point:11 
+CLUBS 8 
+
+color:2 point:8 
+spent time: 22
+parser :myshape 8
+check 
+
+spent time: 76
+**********flop**********
+HEARTS 10 
+
+color:1 point:10 
+HEARTS 5 
+
+color:1 point:5 
+HEARTS 4 
+
+color:1 point:4 
+**********flop**********
+spent time: 63
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.037436 except=8.235920 pot depth=220
+check 
+
+spent time: 103
+**********turn**********
+SPADES 6 
+
+color:0 point:6 
+**********turn**********
+spent time: 24
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.000000 except=0.000000 pot depth=804
+fold 
+
+spent time: 143
+**********river**********
+CLUBS 6 
+
+color:2 point:6 
+**********river**********
+spent time: 35
+showdown/ 
+common/ 
+HEARTS 10 
+HEARTS 5 
+HEARTS 4 
+SPADES 6 
+CLUBS 6 
+/common 
+1: 8888 HEARTS 2 DIAMONDS 3 STRAIGHT 
+2: 4444 HEARTS 9 DIAMONDS 10 TWO_PAIR 
+/showdown 
+spent time: 54
+spent time: 2
+spent time: 87
+spent time: 15
+HEARTS 8 
+
+color:1 point:8 
+HEARTS 9 
+
+color:1 point:9 
+spent time: 43
+parser :myshape 8
+fold 
+
+spent time: 107
+**********flop**********
+DIAMONDS 8 
+
+color:3 point:8 
+CLUBS 10 
+
+color:2 point:10 
+DIAMONDS 6 
+
+color:3 point:6 
+**********flop**********
+spent time: 61
+spent time: 1
+spent time: 43
+spent time: 6
+CLUBS 8 
+
+color:2 point:8 
+DIAMONDS K 
+
+color:3 point:13 
+spent time: 65
+parser :myshape 8
+fold 
+
+spent time: 117
+**********flop**********
+SPADES 6 
+
+color:0 point:6 
+DIAMONDS 2 
+
+color:3 point:2 
+DIAMONDS 9 
+
+color:3 point:9 
+**********flop**********
+spent time: 64
+**********turn**********
+CLUBS 3 
+
+color:2 point:3 
+**********turn**********
+spent time: 48
+spent time: 2
+spent time: 51
+spent time: 6
+CLUBS 7 
+
+color:2 point:7 
+CLUBS K 
+
+color:2 point:13 
+spent time: 72
+parser :myshape 8
+fold 
+
+spent time: 80
+**********flop**********
+DIAMONDS K 
+
+color:3 point:13 
+HEARTS 8 
+
+color:1 point:8 
+CLUBS 6 
+
+color:2 point:6 
+**********flop**********
+spent time: 72
+**********turn**********
+CLUBS 10 
+
+color:2 point:10 
+**********turn**********
+spent time: 36
+**********river**********
+HEARTS 7 
+
+color:1 point:7 
+**********river**********
+spent time: 70
+showdown/ 
+common/ 
+DIAMONDS K 
+HEARTS 8 
+CLUBS 6 
+CLUBS 10 
+HEARTS 7 
+/common 
+2: 8888 HEARTS 4 HEARTS 2 HIGH_CARD 
+1: 2222 SPADES A CLUBS 2 HIGH_CARD 
+/showdown 
+spent time: 22
+spent time: 1
+spent time: 87
+spent time: 7
+SPADES 7 
+
+color:0 point:7 
+HEARTS 8 
+
+color:1 point:8 
+spent time: 62
+parser :myshape 8
+fold 
+
+spent time: 110
+**********flop**********
+DIAMONDS 10 
+
+color:3 point:10 
+SPADES 8 
+
+color:0 point:8 
+HEARTS A 
+
+color:1 point:14 
+**********flop**********
+spent time: 96
+spent time: 2
+spent time: 44
+spent time: 6
+SPADES 7 
+
+color:0 point:7 
+DIAMONDS 10 
+
+color:3 point:10 
+spent time: 24
+parser :myshape 8
+fold 
+
+spent time: 144
+spent time: 2
+spent time: 45
+spent time: 6
+CLUBS 4 
+
+color:2 point:4 
+HEARTS J 
+
+color:1 point:11 
+spent time: 19
+parser :myshape 8
+check 
+
+spent time: 84
+**********flop**********
+HEARTS K 
+
+color:1 point:13 
+SPADES Q 
+
+color:0 point:12 
+SPADES 2 
+
+color:0 point:2 
+**********flop**********
+spent time: 39
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.000000 except=0.000000 pot depth=140
+check 
+
+spent time: 135
+**********turn**********
+CLUBS 3 
+
+color:2 point:3 
+**********turn**********
+spent time: 60
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.000000 except=0.000000 pot depth=140
+check 
+
+spent time: 145
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.000000 except=0.000000 pot depth=640
+fold 
+
+spent time: 124
+spent time: 2
+spent time: 57
+spent time: 10
+CLUBS A 
+
+color:2 point:14 
+HEARTS Q 
+
+color:1 point:12 
+spent time: 29
+parser :myshape 8
+check 
+
+spent time: 127
+**********flop**********
+CLUBS 10 
+
+color:2 point:10 
+CLUBS J 
+
+color:2 point:11 
+HEARTS 6 
+
+color:1 point:6 
+**********flop**********
+spent time: 132
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.037436 except=5.989760 pot depth=160
+check 
+
+spent time: 131
+**********turn**********
+DIAMONDS K 
+
+color:3 point:13 
+**********turn**********
+spent time: 49
+parser :myshape 4
+FourTwoRule :Flush!
+myshape 4
+case 4
+p =0.003217 except=0.514795 pot depth=160
+check 
+
+spent time: 137
+parser :myshape 4
+FourTwoRule :Flush!
+myshape 4
+case 4
+p =0.003217 except=0.797932 pot depth=204
+check 
+
+spent time: 179
+**********river**********
+DIAMONDS 5 
+
+color:3 point:5 
+**********river**********
+spent time: 51
+parser :myshape 4
+myshape 4
+case 4
+river :p =0.019757 except=5.769159 pot depth=292
+check 
+
+spent time: 125
+showdown/ 
+common/ 
+CLUBS 10 
+CLUBS J 
+HEARTS 6 
+DIAMONDS K 
+DIAMONDS 5 
+/common 
+1: 3333 CLUBS A HEARTS Q STRAIGHT 
+2: 1111 HEARTS A SPADES K ONE_PAIR 
+/showdown 
+spent time: 25
+spent time: 2
+spent time: 46
+spent time: 6
+HEARTS J 
+
+color:1 point:11 
+SPADES 4 
+
+color:0 point:4 
+spent time: 17
+parser :myshape 8
+check 
+
+spent time: 99
+**********flop**********
+HEARTS 3 
+
+color:1 point:3 
+CLUBS 8 
+
+color:2 point:8 
+DIAMONDS J 
+
+color:3 point:11 
+**********flop**********
+spent time: 49
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.341865 except=47.861142 pot depth=140
+check 
+
+spent time: 105
+spent time: 2
+spent time: 58
+spent time: 11
+DIAMONDS 3 
+
+color:3 point:3 
+CLUBS 4 
+
+color:2 point:4 
+spent time: 32
+parser :myshape 8
+fold 
+
+spent time: 90
+**********flop**********
+SPADES 10 
+
+color:0 point:10 
+HEARTS J 
+
+color:1 point:11 
+DIAMONDS J 
+
+color:3 point:11 
+**********flop**********
+spent time: 85
+**********turn**********
+HEARTS 10 
+
+color:1 point:10 
+**********turn**********
+spent time: 39
+**********river**********
+HEARTS 2 
+
+color:1 point:2 
+**********river**********
+spent time: 45
+showdown/ 
+common/ 
+SPADES 10 
+HEARTS J 
+DIAMONDS J 
+HEARTS 10 
+HEARTS 2 
+/common 
+2: 2222 HEARTS 4 DIAMONDS 8 TWO_PAIR 
+1: 8888 SPADES 3 SPADES A TWO_PAIR 
+1: 1111 DIAMONDS 6 DIAMONDS A TWO_PAIR 
+/showdown 
+spent time: 23
+spent time: 2
+spent time: 40
+spent time: 6
+CLUBS 3 
+
+color:2 point:3 
+SPADES A 
+
+color:0 point:14 
+spent time: 65
+parser :myshape 8
+fold 
+
+spent time: 70
+**********flop**********
+SPADES 7 
+
+color:0 point:7 
+HEARTS 4 
+
+color:1 point:4 
+DIAMONDS J 
+
+color:3 point:11 
+**********flop**********
+spent time: 97
+**********turn**********
+SPADES 3 
+
+color:0 point:3 
+**********turn**********
+spent time: 37
+spent time: 3
+spent time: 80
+spent time: 16
+HEARTS 5 
+
+color:1 point:5 
+CLUBS 5 
+
+color:2 point:5 
+spent time: 66
+parser :myshape 7
+fold 
+
+spent time: 105
+**********flop**********
+CLUBS 3 
+
+color:2 point:3 
+SPADES 4 
+
+color:0 point:4 
+HEARTS 9 
+
+color:1 point:9 
+**********flop**********
+spent time: 56
+**********turn**********
+SPADES 7 
+
+color:0 point:7 
+**********turn**********
+spent time: 38
+**********river**********
+DIAMONDS 9 
+
+color:3 point:9 
+**********river**********
+spent time: 43
+spent time: 2
+spent time: 39
+spent time: 7
+SPADES 10 
+
+color:0 point:10 
+CLUBS Q 
+
+color:2 point:12 
+spent time: 43
+parser :myshape 8
+fold 
+
+spent time: 105
+**********flop**********
+DIAMONDS K 
+
+color:3 point:13 
+SPADES A 
+
+color:0 point:14 
+SPADES 5 
+
+color:0 point:5 
+**********flop**********
+spent time: 55
+**********turn**********
+HEARTS A 
+
+color:1 point:14 
+**********turn**********
+spent time: 37
+**********river**********
+DIAMONDS A 
+
+color:3 point:14 
+**********river**********
+spent time: 41
+showdown/ 
+common/ 
+DIAMONDS K 
+SPADES A 
+SPADES 5 
+HEARTS A 
+DIAMONDS A 
+/common 
+1: 8888 CLUBS 9 SPADES Q THREE_OF_A_KIND 
+1: 1111 SPADES 4 DIAMONDS Q THREE_OF_A_KIND 
+/showdown 
+spent time: 28
+spent time: 2
+spent time: 58
+spent time: 15
+SPADES Q 
+
+color:0 point:12 
+CLUBS 5 
+
+color:2 point:5 
+spent time: 51
+parser :myshape 8
+fold 
+
+spent time: 112
+spent time: 2
+spent time: 81
+spent time: 15
+CLUBS K 
+
+color:2 point:13 
+DIAMONDS 5 
+
+color:3 point:5 
+spent time: 48
+parser :myshape 8
+check 
+
+spent time: 124
+**********flop**********
+SPADES 6 
+
+color:0 point:6 
+SPADES 8 
+
+color:0 point:8 
+CLUBS 9 
+
+color:2 point:9 
+**********flop**********
+spent time: 93
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.000000 except=0.000000 pot depth=140
+check 
+
+spent time: 116
+**********turn**********
+SPADES 4 
+
+color:0 point:4 
+**********turn**********
+spent time: 77
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.000000 except=0.000000 pot depth=140
+check 
+
+spent time: 159
+**********river**********
+HEARTS Q 
+
+color:1 point:12 
+**********river**********
+spent time: 79
+parser :myshape 8
+myshape 8
+case default
+river :p =0.000000 except=0.000000 pot depth=140
+check 
+
+spent time: 146
+showdown/ 
+common/ 
+SPADES 6 
+SPADES 8 
+CLUBS 9 
+SPADES 4 
+HEARTS Q 
+/common 
+2: 3333 CLUBS K DIAMONDS 5 HIGH_CARD 
+1: 1111 CLUBS 10 DIAMONDS 8 ONE_PAIR 
+/showdown 
+spent time: 27
+spent time: 3
+spent time: 91
+spent time: 15
+DIAMONDS 2 
+
+color:3 point:2 
+HEARTS 3 
+
+color:1 point:3 
+spent time: 46
+parser :myshape 8
+check 
+
+spent time: 180
+**********flop**********
+SPADES 3 
+
+color:0 point:3 
+SPADES J 
+
+color:0 point:11 
+HEARTS 7 
+
+color:1 point:7 
+**********flop**********
+spent time: 117
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.170437 except=20.452406 pot depth=120
+check 
+
+spent time: 104
+spent time: 2
+spent time: 46
+spent time: 5
+DIAMONDS 10 
+
+color:3 point:10 
+SPADES 6 
+
+color:0 point:6 
+spent time: 14
+parser :myshape 8
+check 
+
+spent time: 49
+parser :myshape 8
+fold 
+
+spent time: 136
+**********flop**********
+SPADES K 
+
+color:0 point:13 
+CLUBS 8 
+
+color:2 point:8 
+DIAMONDS A 
+
+color:3 point:14 
+**********flop**********
+spent time: 101
+**********turn**********
+SPADES 10 
+
+color:0 point:10 
+**********turn**********
+spent time: 67
+**********river**********
+SPADES 2 
+
+color:0 point:2 
+**********river**********
+spent time: 49
+spent time: 2
+spent time: 28
+spent time: 4
+DIAMONDS 4 
+
+color:3 point:4 
+DIAMONDS Q 
+
+color:3 point:12 
+spent time: 62
+parser :myshape 8
+fold 
+
+spent time: 120
+**********flop**********
+DIAMONDS 10 
+
+color:3 point:10 
+CLUBS 2 
+
+color:2 point:2 
+DIAMONDS A 
+
+color:3 point:14 
+**********flop**********
+spent time: 55
+spent time: 1
+spent time: 37
+spent time: 7
+DIAMONDS 3 
+
+color:3 point:3 
+CLUBS 5 
+
+color:2 point:5 
+spent time: 71
+parser :myshape 8
+fold 
+
+spent time: 79
+**********flop**********
+CLUBS 8 
+
+color:2 point:8 
+HEARTS 8 
+
+color:1 point:8 
+SPADES 10 
+
+color:0 point:10 
+**********flop**********
+spent time: 72
+spent time: 4
+spent time: 46
+spent time: 7
+CLUBS A 
+
+color:2 point:14 
+CLUBS 6 
+
+color:2 point:6 
+spent time: 40
+parser :myshape 8
+fold 
+
+spent time: 120
+**********flop**********
+DIAMONDS 2 
+
+color:3 point:2 
+DIAMONDS 3 
+
+color:3 point:3 
+CLUBS 9 
+
+color:2 point:9 
+**********flop**********
+spent time: 59
+**********turn**********
+DIAMONDS K 
+
+color:3 point:13 
+**********turn**********
+spent time: 47
+**********river**********
+HEARTS 8 
+
+color:1 point:8 
+**********river**********
+spent time: 47
+spent time: 3
+spent time: 58
+spent time: 9
+HEARTS 8 
+
+color:1 point:8 
+DIAMONDS 8 
+
+color:3 point:8 
+spent time: 70
+parser :myshape 7
+fold 
+
+spent time: 106
+**********flop**********
+HEARTS J 
+
+color:1 point:11 
+CLUBS 8 
+
+color:2 point:8 
+HEARTS 6 
+
+color:1 point:6 
+**********flop**********
+spent time: 110
+**********turn**********
+DIAMONDS 2 
+
+color:3 point:2 
+**********turn**********
+spent time: 43
+**********river**********
+DIAMONDS 3 
+
+color:3 point:3 
+**********river**********
+spent time: 36
+spent time: 2
+spent time: 31
+spent time: 15
+DIAMONDS 9 
+
+color:3 point:9 
+DIAMONDS Q 
+
+color:3 point:12 
+spent time: 87
+parser :myshape 8
+fold 
+
+spent time: 48
+**********flop**********
+SPADES 3 
+
+color:0 point:3 
+CLUBS Q 
+
+color:2 point:12 
+CLUBS J 
+
+color:2 point:11 
+**********flop**********
+spent time: 96
+spent time: 2
+spent time: 78
+spent time: 7
+CLUBS 6 
+
+color:2 point:6 
+CLUBS 3 
+
+color:2 point:3 
+spent time: 72
+parser :myshape 8
+check 
+
+spent time: 137
+**********flop**********
+CLUBS Q 
+
+color:2 point:12 
+DIAMONDS 9 
+
+color:3 point:9 
+HEARTS 5 
+
+color:1 point:5 
+**********flop**********
+spent time: 100
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.037436 except=5.241040 pot depth=140
+check 
+
+spent time: 141
+**********turn**********
+SPADES A 
+
+color:0 point:14 
+**********turn**********
+spent time: 35
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.000000 except=0.000000 pot depth=140
+check 
+
+spent time: 192
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.000000 except=0.000000 pot depth=188
+check 
+
+spent time: 171
+**********river**********
+CLUBS 10 
+
+color:2 point:10 
+**********river**********
+spent time: 63
+parser :myshape 8
+myshape 8
+case default
+river :p =0.000000 except=0.000000 pot depth=236
+check 
+
+spent time: 136
+showdown/ 
+common/ 
+CLUBS Q 
+DIAMONDS 9 
+HEARTS 5 
+SPADES A 
+CLUBS 10 
+/common 
+2: 3333 CLUBS 6 CLUBS 3 HIGH_CARD 
+1: 1111 HEARTS J DIAMONDS A ONE_PAIR 
+/showdown 
+spent time: 25
+spent time: 2
+spent time: 50
+spent time: 7
+CLUBS 2 
+
+color:2 point:2 
+HEARTS 7 
+
+color:1 point:7 
+spent time: 22
+parser :myshape 8
+check 
+
+spent time: 112
+**********flop**********
+CLUBS A 
+
+color:2 point:14 
+DIAMONDS 6 
+
+color:3 point:6 
+CLUBS Q 
+
+color:2 point:12 
+**********flop**********
+spent time: 106
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.037436 except=5.989760 pot depth=160
+check 
+
+spent time: 103
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.037436 except=28.451360 pot depth=560
+fold 
+
+spent time: 126
+**********turn**********
+SPADES 7 
+
+color:0 point:7 
+**********turn**********
+spent time: 27
+spent time: 2
+spent time: 73
+spent time: 15
+CLUBS 3 
+
+color:2 point:3 
+CLUBS 6 
+
+color:2 point:6 
+spent time: 68
+parser :myshape 8
+check 
+
+spent time: 64
+**********flop**********
+SPADES 7 
+
+color:0 point:7 
+SPADES K 
+
+color:0 point:13 
+SPADES 6 
+
+color:0 point:6 
+**********flop**********
+spent time: 46
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.272158 except=92.533868 pot depth=300
+check 
+
+spent time: 144
+**********turn**********
+SPADES Q 
+
+color:0 point:12 
+**********turn**********
+spent time: 54
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.384571 except=130.754288 pot depth=340
+check 
+
+spent time: 151
+**********river**********
+DIAMONDS 6 
+
+color:3 point:6 
+**********river**********
+spent time: 50
+parser :myshape 5
+myshape 5
+case 5
+river :p =0.730066 except=248.222528 pot depth=340
+raise 122
+
+spent time: 193
+spent time: 2
+spent time: 83
+spent time: 12
+SPADES 5 
+
+color:0 point:5 
+DIAMONDS 8 
+
+color:3 point:8 
+spent time: 50
+parser :myshape 8
+fold 
+
+spent time: 121
+**********flop**********
+CLUBS J 
+
+color:2 point:11 
+HEARTS 9 
+
+color:1 point:9 
+CLUBS K 
+
+color:2 point:13 
+**********flop**********
+spent time: 66
+**********turn**********
+DIAMONDS 2 
+
+color:3 point:2 
+**********turn**********
+spent time: 52
+spent time: 2
+spent time: 42
+spent time: 7
+SPADES 7 
+
+color:0 point:7 
+CLUBS 10 
+
+color:2 point:10 
+spent time: 68
+parser :myshape 8
+fold 
+
+spent time: 79
+**********flop**********
+SPADES 9 
+
+color:0 point:9 
+CLUBS 5 
+
+color:2 point:5 
+CLUBS Q 
+
+color:2 point:12 
+**********flop**********
+spent time: 40
+**********turn**********
+CLUBS 4 
+
+color:2 point:4 
+**********turn**********
+spent time: 52
+**********river**********
+HEARTS 3 
+
+color:1 point:3 
+**********river**********
+spent time: 50
+spent time: 2
+spent time: 44
+spent time: 11
+CLUBS 10 
+
+color:2 point:10 
+SPADES J 
+
+color:0 point:11 
+spent time: 59
+parser :myshape 8
+fold 
+
+spent time: 76
+**********flop**********
+HEARTS A 
+
+color:1 point:14 
+SPADES 3 
+
+color:0 point:3 
+DIAMONDS 4 
+
+color:3 point:4 
+**********flop**********
+spent time: 71
+**********turn**********
+CLUBS 4 
+
+color:2 point:4 
+**********turn**********
+spent time: 46
+**********river**********
+CLUBS Q 
+
+color:2 point:12 
+**********river**********
+spent time: 48
+showdown/ 
+common/ 
+HEARTS A 
+SPADES 3 
+DIAMONDS 4 
+CLUBS 4 
+CLUBS Q 
+/common 
+2: 8888 DIAMONDS 6 CLUBS 9 ONE_PAIR 
+1: 1111 SPADES K HEARTS K TWO_PAIR 
+3: 2222 HEARTS 7 HEARTS 6 ONE_PAIR 
+/showdown 
+spent time: 27
+spent time: 2
+spent time: 39
+spent time: 15
+CLUBS 7 
+
+color:2 point:7 
+HEARTS 10 
+
+color:1 point:10 
+spent time: 69
+parser :myshape 8
+fold 
+
+spent time: 110
+**********flop**********
+DIAMONDS 7 
+
+color:3 point:7 
+DIAMONDS 4 
+
+color:3 point:4 
+SPADES 2 
+
+color:0 point:2 
+**********flop**********
+spent time: 51
+**********turn**********
+HEARTS J 
+
+color:1 point:11 
+**********turn**********
+spent time: 79
+**********river**********
+HEARTS 6 
+
+color:1 point:6 
+**********river**********
+spent time: 66
+showdown/ 
+common/ 
+DIAMONDS 7 
+DIAMONDS 4 
+SPADES 2 
+HEARTS J 
+HEARTS 6 
+/common 
+1: 1111 HEARTS A CLUBS 4 ONE_PAIR 
+2: 2222 SPADES Q SPADES K HIGH_CARD 
+/showdown 
+spent time: 26
+spent time: 2
+spent time: 44
+spent time: 8
+DIAMONDS 9 
+
+color:3 point:9 
+DIAMONDS 10 
+
+color:3 point:10 
+spent time: 53
+parser :myshape 8
+fold 
+
+spent time: 106
+spent time: 2
+spent time: 46
+spent time: 7
+DIAMONDS 9 
+
+color:3 point:9 
+DIAMONDS Q 
+
+color:3 point:12 
+spent time: 18
+parser :myshape 8
+check 
+
+spent time: 99
+**********flop**********
+HEARTS 5 
+
+color:1 point:5 
+DIAMONDS 2 
+
+color:3 point:2 
+DIAMONDS 5 
+
+color:3 point:5 
+**********flop**********
+spent time: 38
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.451670 except=63.233800 pot depth=140
+check 
+
+spent time: 125
+**********turn**********
+CLUBS A 
+
+color:2 point:14 
+**********turn**********
+spent time: 48
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.256000 except=35.840000 pot depth=140
+check 
+
+spent time: 111
