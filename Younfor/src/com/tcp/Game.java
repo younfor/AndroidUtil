@@ -20,13 +20,14 @@ import com.util.Log;
 public class Game {
 	
 	State state=new State();
-	Bot bot=new SimpleBot();
+	Bot bot=new CleverBot();
 	int lastJetton=0,lastGold=0;
 	long totaltime=0;
 	public Game(String id,String name)
 	{
 		state.pid=id;
 		state.pname=name;
+		/*
 		if(name.equals("simplebot"))
 			bot=new SimpleBot();
 		else if(name.equals("randombot"))
@@ -37,6 +38,7 @@ public class Game {
 			bot=new CleverBot();
 		else if(name.equals("raisecallbot"))
 			bot=new RaiseCallBot();
+			*/
 		
 	}
 	public void reg(OutputStream out) throws IOException
@@ -309,7 +311,7 @@ public class Game {
 						len=5;
 					state.setComm(len);
 					long times=System.currentTimeMillis();
-					int ans=bot.getBestAction(state, 100);
+					int ans=bot.getBestAction(state, 168);
 					debug("timeout: "+(System.currentTimeMillis()-times));
 					String action="fold";
 					if(ans==State.fold)
