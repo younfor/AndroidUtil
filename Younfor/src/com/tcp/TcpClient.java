@@ -31,7 +31,7 @@ public class TcpClient {
 			socket.setReuseAddress(true);
 			socket.bind(hostaddress);
 			socket.connect(serveraddress);
-			System.out.println("register succeed");
+			//System.out.println("register succeed");
 			State.isRegistered=true;
 			in=socket.getInputStream();
 			read=new BufferedReader(new InputStreamReader(in));
@@ -43,7 +43,7 @@ public class TcpClient {
 			//finish
 			socket.close();
 		} catch (IOException e) {
-			System.out.println("IO wrong");
+			//System.out.println("IO wrong");
 			if(in!=null)
 				in.close();
 			if(out!=null)
@@ -52,7 +52,7 @@ public class TcpClient {
 				socket.close();
 			e.printStackTrace();
 		}finally{
-			System.out.println("close");
+			//System.out.println("close");
 			if(in!=null)
 				in.close();
 			if(out!=null)

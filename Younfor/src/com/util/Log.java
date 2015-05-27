@@ -6,7 +6,7 @@ import java.io.IOException;
 public class Log {
 			public static Log log=null;
 			public static String id;
-			public static boolean debug=true;
+			public static boolean debug=false;
 			public static Log getIns(String id)
 			{
 				if(log==null)

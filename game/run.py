@@ -2,6 +2,7 @@ import os
 import time
 import thread
 import time
+import sys
 
 
 def run():
@@ -12,7 +13,10 @@ thread.start_new_thread(run, ())
 os.system('rm -rf logdata')
 i = 1
 t = 0
-while i <= 15:
+
+num = (int)(sys.argv[1])
+print 'total:',num
+while i <= num:
     time.sleep(20)
     t += 20
     if t % 20 == 0:
@@ -53,4 +57,4 @@ while i <= 15:
         t = 0
 
 print 'count the scores:'
-os.system('python count.py')
+os.system('python count.py ' + str(num))

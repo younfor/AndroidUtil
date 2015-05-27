@@ -2,16 +2,21 @@ import os
 import time
 import thread
 import time
+import sys
 
 
 def run():
     print 'start runing'
-    os.system('nohup ./dist_check_and_run2.sh &')
+    os.system('nohup ./dist_check_and_run.sh &')
 thread.start_new_thread(run, ())
 # start floop
+os.system('rm -rf logdata')
 i = 1
 t = 0
-while i <= 15:
+
+num = (int)sys.argv[1]
+print 'total:',num
+while i <= num:
     time.sleep(20)
     t += 20
     if t % 20 == 0:
@@ -41,6 +46,8 @@ while i <= 15:
             'cp ../run_area/server/replay.txt  logdata/replaytxt/' + str(i) + '.txt')
         os.system(
             'cp ../run_area/works/target/log7777.txt  logdata/outtxt/' + str(i) + '.txt')
+        os.system(
+            'cp ../run_area/works/target/err7777.txt  logdata/outtxt/err' + str(i) + '.txt')
         # del
         os.system('rm ../run_area/server/data.csv')
         print 'finish ', i, ' match at ', time.strftime('%Y-%m-%d %H:%M:%S')
@@ -50,4 +57,4 @@ while i <= 15:
         t = 0
 
 print 'count the scores:'
-os.system('python count.py')
+os.system('python count.py ' + str(num))
