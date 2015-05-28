@@ -1,7 +1,0 @@
-Hello,welcome to client !
-s_addr = 127.0.0.1
-c_add = 127.0.0.5
-
-
-came out
-
