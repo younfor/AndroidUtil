@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-java -cp bin/ com.tcp.TcpClient $1 $2 $3 $4 $5 CQchappie &
+java -cp ../../../Younfor/bin/ com.tcp.TcpClient $1 $2 $3 $4 $5 CQchappie &

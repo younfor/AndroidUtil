@@ -14,10 +14,10 @@ os.system('rm -rf logdata')
 i = 1
 t = 0
 
-num = (int)sys.argv[1]
+num = (int)(sys.argv[1])
 print 'total:',num
 while i <= num:
-    time.sleep(20)
+    time.sleep(5)
     t += 20
     if t % 20 == 0:
         print t, 's go away...'
