@@ -21,7 +21,15 @@ for i in range(1, size + 1):
         # print line[6]
     csvfile.close()
 for key, user in score.items():
-    ans = 0.0
+    ans = 0
+    i=0
+    total=0.0
+    result=[]
     for s in user:
         ans += s
-    print key, '\'s ave  : %.2f' % (ans / len(user)), ' data :', user
+        total+=s
+        i+=1
+        if i%3==0:
+            result.append(ans)
+            ans=0
+    print key, '\'s ave  : %.2f' % (total / len(user)), ' data :', user,'rank: ',result
