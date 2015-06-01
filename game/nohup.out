@@ -46459,3 +46459,2544 @@ start your program
  5064 pts/0    Sl     0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
  5065 pts/0    Sl     0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
  5984 pts/0    Ss+    0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+21440 pts/0    Ss     0:00 bash
+25551 pts/0    S+     0:00 python run.py 8
+25556 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+25598 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+25601 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+25602 pts/0    S+     0:00 bash ./chappie2 127.0.0.1 6000 127.0.0.2 6002 2222
+25603 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+25604 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+25605 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+25606 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+25607 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+25608 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+25609 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+25610 pts/0    R+     0:00 ps t
+25611 pts/0    Sl+    0:00 java -cp ../../../Younfor2/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.2 6002 2222 CQchappie
+25612 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+21440 pts/0    Ss     0:00 bash
+25551 pts/0    S+     0:00 python run.py 8
+27078 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+27120 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+27123 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+27124 pts/0    S+     0:00 bash ./chappie2 127.0.0.1 6000 127.0.0.2 6002 2222
+27125 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+27126 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+27127 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+27128 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+27129 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+27130 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+27131 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+27132 pts/0    R+     0:00 ps t
+27133 pts/0    Sl+    0:00 java -cp ../../../Younfor2/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.2 6002 2222 CQchappie
+27135 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+27136 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+21440 pts/0    Ss     0:00 bash
+25551 pts/0    S+     0:00 python run.py 8
+28655 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+28697 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+28700 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+28701 pts/0    S+     0:00 bash ./chappie2 127.0.0.1 6000 127.0.0.2 6002 2222
+28702 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+28703 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+28704 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+28705 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+28706 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+28707 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+28708 pts/0    R+     0:00 ps t
+28709 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+28710 pts/0    Sl+    0:00 java -cp ../../../Younfor2/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.2 6002 2222 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+21440 pts/0    Ss     0:00 bash
+25551 pts/0    S+     0:00 python run.py 8
+30682 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30724 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+30727 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30728 pts/0    S+     0:00 bash ./chappie2 127.0.0.1 6000 127.0.0.2 6002 2222
+30729 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+30730 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+30731 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+30732 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+30733 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+30734 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+30735 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+30736 pts/0    R+     0:00 ps t
+30737 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+30738 pts/0    Sl+    0:00 java -cp ../../../Younfor2/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.2 6002 2222 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+21440 pts/0    Ss     0:00 bash
+25551 pts/0    S+     0:00 python run.py 8
+32418 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+32460 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+32463 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+32464 pts/0    S+     0:00 bash ./chappie2 127.0.0.1 6000 127.0.0.2 6002 2222
+32465 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+32466 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+32467 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+32468 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+32469 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+32470 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+32471 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+32472 pts/0    R+     0:00 ps t
+32473 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 1877 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 1933 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 1937 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 1938 pts/0    S+     0:00 bash ./chappie2 127.0.0.1 6000 127.0.0.2 6002 2222
+ 1939 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 1941 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+ 1944 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 1947 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 1951 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 1956 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 1960 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 1962 pts/0    R+     0:00 ps t
+ 1963 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+ 1964 pts/0    Sl+    0:00 java -cp ../../../Younfor2/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.2 6002 2222 CQchappie
+ 1966 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+21440 pts/0    Ss     0:00 bash
+25551 pts/0    S+     0:00 python run.py 8
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 3735 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 3777 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 3780 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 3781 pts/0    S+     0:00 bash ./chappie2 127.0.0.1 6000 127.0.0.2 6002 2222
+ 3782 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 3783 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+ 3784 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 3785 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 3786 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 3787 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 3788 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 3789 pts/0    R+     0:00 ps t
+ 3790 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+21440 pts/0    Ss     0:00 bash
+25551 pts/0    S+     0:00 python run.py 8
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 5667 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 5718 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 5721 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 5722 pts/0    S+     0:00 bash ./chappie2 127.0.0.1 6000 127.0.0.2 6002 2222
+ 5723 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 5724 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+ 5725 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 5726 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 5727 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 5728 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 5729 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 5730 pts/0    R+     0:00 ps t
+21440 pts/0    Ss     0:00 bash
+25551 pts/0    S+     0:00 python run.py 8
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 7644 pts/0    S      0:00 bash ./dist_check_and_run.sh
+ 7696 pts/0    S      0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 7699 pts/0    S      0:00 bash ./dist_check_and_run.sh
+ 7700 pts/0    S      0:00 bash ./chappie2 127.0.0.1 6000 127.0.0.2 6002 2222
+ 7701 pts/0    S      0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 7702 pts/0    S      0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+ 7703 pts/0    S      0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 7704 pts/0    S      0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 7705 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 7706 pts/0    S      0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 7707 pts/0    S      0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 7708 pts/0    R      0:00 ps t
+ 7709 pts/0    Sl     0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+ 7710 pts/0    Sl     0:00 java -cp ../../../Younfor2/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.2 6002 2222 CQchappie
+ 7713 pts/0    Sl     0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+21440 pts/0    Ss+    0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9759 pts/0    S+     0:00 python run.py 9
+ 9764 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 9806 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 9809 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 9810 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 9811 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 9812 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 9813 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+ 9814 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+ 9815 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 9816 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 9817 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 9818 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 9819 pts/0    R+     0:00 ps t
+ 9822 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+21440 pts/0    Ss     0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9759 pts/0    S+     0:00 python run.py 9
+11523 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+11565 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+11568 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+11569 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+11570 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+11571 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+11572 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+11573 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+11574 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+11575 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+11576 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+11577 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+11578 pts/0    R+     0:00 ps t
+11579 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+11580 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+21440 pts/0    Ss     0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9759 pts/0    S+     0:00 python run.py 9
+13216 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+13258 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+13261 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+13262 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+13263 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+13264 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+13265 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+13266 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+13267 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+13268 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+13269 pts/0    R+     0:00 ps t
+13270 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+13271 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+21440 pts/0    Ss     0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9759 pts/0    S+     0:00 python run.py 9
+14635 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+14677 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+14680 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+14681 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+14682 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+14683 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+14684 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+14685 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+14686 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+14687 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+14688 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+14689 pts/0    R+     0:00 ps t
+14690 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+14691 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+21440 pts/0    Ss     0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9759 pts/0    S+     0:00 python run.py 9
+16131 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+16173 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+16176 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+16177 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+16178 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+16179 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+16180 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+16181 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+16182 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+16183 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+16184 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+16185 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+16186 pts/0    R+     0:00 ps t
+16187 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+16190 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+21440 pts/0    Ss     0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9759 pts/0    S+     0:00 python run.py 9
+17547 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+17589 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+17592 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+17593 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+17594 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+17595 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+17596 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+17597 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+17598 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+17599 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+17600 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+17601 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+17602 pts/0    R+     0:00 ps t
+17603 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+17604 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+21440 pts/0    Ss     0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9759 pts/0    S+     0:00 python run.py 9
+19067 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+19118 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+19121 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+19122 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+19123 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+19124 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+19125 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+19126 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+19127 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+19128 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+19129 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+19130 pts/0    R+     0:00 ps t
+19131 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+19132 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+21440 pts/0    Ss     0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9759 pts/0    S+     0:00 python run.py 9
+21241 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+21292 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+21295 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+21296 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+21297 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+21298 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+21299 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+21300 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+21301 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+21302 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+21303 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+21304 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+21305 pts/0    R+     0:00 ps t
+21308 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+21309 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+21440 pts/0    Ss     0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9759 pts/0    S+     0:00 python run.py 9
+21440 pts/0    Ss     0:00 bash
+22851 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+22902 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+22905 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+22906 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+22907 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+22908 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+22909 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+22910 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+22911 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+22912 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+22913 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+22914 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+22915 pts/0    R+     0:00 ps t
+22916 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+21440 pts/0    Ss+    0:00 bash
+24527 pts/0    S      0:00 bash ./dist_check_and_run.sh
+24569 pts/0    S      0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+24572 pts/0    S      0:00 bash ./dist_check_and_run.sh
+24573 pts/0    S      0:00 bash ./dist_check_and_run.sh
+24574 pts/0    S      0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+24575 pts/0    S      0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+24576 pts/0    S      0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+24577 pts/0    S      0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+24578 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+24579 pts/0    S      0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+24580 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+24581 pts/0    S      0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+24582 pts/0    R      0:00 ps t
+24583 pts/0    Sl     0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+24585 pts/0    Sl     0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+21440 pts/0    Ss     0:00 bash
+26616 pts/0    S+     0:00 python run.py 9
+26621 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+26672 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+26675 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+26676 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+26677 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+26678 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+26679 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+26680 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+26681 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+26682 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+26683 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+26684 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+26685 pts/0    R+     0:00 ps t
+26686 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+26687 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+21440 pts/0    Ss     0:00 bash
+26616 pts/0    S+     0:00 python run.py 9
+28427 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+28478 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+28481 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+28482 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+28483 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+28484 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+28485 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+28486 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+28487 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+28488 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+28489 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+28490 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+28491 pts/0    R+     0:00 ps t
+28492 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+21440 pts/0    Ss     0:00 bash
+26616 pts/0    S+     0:00 python run.py 9
+29946 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+29997 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+30000 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30001 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30002 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+30003 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+30004 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+30005 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+30006 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+30007 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+30008 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+30009 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+30010 pts/0    R+     0:00 ps t
+30011 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+30013 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+21440 pts/0    Ss     0:00 bash
+26616 pts/0    S+     0:00 python run.py 9
+31559 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+31611 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+31614 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+31615 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+31616 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+31617 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+31618 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+31619 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+31620 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+31621 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+31622 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+31623 pts/0    R+     0:00 ps t
+31624 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+31626 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+31627 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+  591 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+  637 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+  640 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+  641 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+  642 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+  643 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+  644 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+  645 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+  646 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+  647 pts/0    R+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+  648 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+  649 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+  650 pts/0    R+     0:00 ps t
+  651 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+21440 pts/0    Ss     0:00 bash
+26616 pts/0    S+     0:00 python run.py 9
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 2188 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 2253 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 2256 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 2257 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 2258 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 2259 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+ 2260 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 2261 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 2262 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+ 2263 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 2264 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 2265 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 2266 pts/0    R+     0:00 ps t
+ 2267 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+ 2268 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+21440 pts/0    Ss     0:00 bash
+26616 pts/0    S+     0:00 python run.py 9
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 3995 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 4037 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 4040 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 4041 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 4042 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 4043 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+ 4044 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 4045 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 4046 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 4047 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 4048 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+ 4049 pts/0    R+     0:00 ps t
+ 4050 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 4052 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+21440 pts/0    Ss     0:00 bash
+26616 pts/0    S+     0:00 python run.py 9
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 5743 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 5785 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 5788 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 5789 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 5790 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 5791 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+ 5792 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 5793 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 5794 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 5795 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+ 5796 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 5797 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 5798 pts/0    R+     0:00 ps t
+ 5799 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+ 5801 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+21440 pts/0    Ss     0:00 bash
+26616 pts/0    S+     0:00 python run.py 9
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 7065 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 7107 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 7110 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 7111 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 7112 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 7113 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+ 7114 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 7115 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 7116 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 7117 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 7118 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+ 7119 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 7120 pts/0    R+     0:00 ps t
+ 7121 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+21440 pts/0    Ss     0:00 bash
+26616 pts/0    S+     0:00 python run.py 9
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 8729 pts/0    S      0:00 bash ./dist_check_and_run.sh
+ 8771 pts/0    S      0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 8774 pts/0    S      0:00 bash ./dist_check_and_run.sh
+ 8775 pts/0    S      0:00 bash ./dist_check_and_run.sh
+ 8776 pts/0    S      0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 8777 pts/0    S      0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+ 8778 pts/0    S      0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 8779 pts/0    S      0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 8780 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 8781 pts/0    S      0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 8782 pts/0    S      0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 8783 pts/0    R      0:00 ps t
+ 8784 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+ 8785 pts/0    Sl     0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+21440 pts/0    Ss+    0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+11200 pts/0    S+     0:00 python run.py 9
+11205 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+11247 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+11250 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+11251 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+11252 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+11253 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+11254 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+11255 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+11256 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+11257 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+11258 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+11259 pts/0    R+     0:00 ps t
+11260 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+21440 pts/0    Ss     0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+11200 pts/0    S+     0:00 python run.py 9
+12806 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+12848 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+12851 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+12852 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+12853 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+12854 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+12855 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+12856 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+12857 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+12858 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+12859 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+12860 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+12861 pts/0    R+     0:00 ps t
+12864 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+12865 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+21440 pts/0    Ss     0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+11200 pts/0    S+     0:00 python run.py 9
+14223 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+14265 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+14268 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+14269 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+14270 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+14271 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+14272 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+14273 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+14274 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+14275 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+14276 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+14277 pts/0    R+     0:00 ps t
+21440 pts/0    Ss     0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+11200 pts/0    S+     0:00 python run.py 9
+16094 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+16136 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+16139 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+16140 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+16141 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+16142 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+16143 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+16144 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+16145 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+16146 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+16147 pts/0    R+     0:00 ps t
+16148 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+16149 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+16150 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+21440 pts/0    Ss     0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+11200 pts/0    S+     0:00 python run.py 9
+17813 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+17855 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+17858 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+17859 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+17860 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+17861 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+17862 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+17863 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+17864 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+17865 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+17866 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+17867 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+17868 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+17869 pts/0    R+     0:00 ps t
+17871 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+21440 pts/0    Ss     0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+11200 pts/0    S+     0:00 python run.py 9
+19535 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+19577 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+19580 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+19581 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+19582 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+19583 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+19584 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+19585 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+19586 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+19587 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+19588 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+19589 pts/0    R+     0:00 ps t
+19590 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+19591 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+19593 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+21440 pts/0    Ss     0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+11200 pts/0    S+     0:00 python run.py 9
+21311 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+21353 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+21356 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+21357 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+21358 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+21359 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+21360 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+21361 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+21362 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+21363 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+21364 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+21365 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+21366 pts/0    R+     0:00 ps t
+21368 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+21440 pts/0    Ss     0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+11200 pts/0    S+     0:00 python run.py 9
+21440 pts/0    Ss     0:00 bash
+22512 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+22554 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+22557 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+22558 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+22559 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+22560 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+22561 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+22562 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+22563 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+22564 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+22565 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+22566 pts/0    R+     0:00 ps t
+22567 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+22568 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+22569 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+11200 pts/0    S+     0:00 python run.py 9
+21440 pts/0    Ss     0:00 bash
+23981 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+24023 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+24026 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+24027 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+24028 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+24029 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+24030 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+24031 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+24032 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+24033 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+24034 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+24035 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+24036 pts/0    R+     0:00 ps t
+24037 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+24038 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+21440 pts/0    Ss+    0:00 bash
+25540 pts/0    S      0:00 bash ./dist_check_and_run.sh
+25583 pts/0    S      0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+25586 pts/0    S      0:00 bash ./dist_check_and_run.sh
+25587 pts/0    S      0:00 bash ./dist_check_and_run.sh
+25588 pts/0    S      0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+25589 pts/0    S      0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+25590 pts/0    S      0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+25591 pts/0    S      0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+25592 pts/0    S      0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+25593 pts/0    S      0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+25594 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+25595 pts/0    R      0:00 ps t
+25596 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+25597 pts/0    Sl     0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+21440 pts/0    Ss     0:00 bash
+28406 pts/0    S+     0:00 python run.py 9
+28410 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+28453 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+28456 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+28457 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+28458 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+28459 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+28460 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+28461 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+28462 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+28463 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+28464 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+28465 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+28466 pts/0    R+     0:00 ps t
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+21440 pts/0    Ss     0:00 bash
+28406 pts/0    S+     0:00 python run.py 9
+30015 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30057 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+30060 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30061 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30062 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+30063 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+30064 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+30065 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+30066 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+30067 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+30068 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+30069 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+30070 pts/0    R+     0:00 ps t
+30072 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+30074 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+21440 pts/0    Ss     0:00 bash
+28406 pts/0    S+     0:00 python run.py 9
+31612 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+31654 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+31657 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+31658 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+31659 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+31660 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+31661 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+31662 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+31663 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+31664 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+31665 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+31666 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+31667 pts/0    R+     0:00 ps t
+31668 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+  898 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+  946 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+  949 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+  950 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+  951 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+  952 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+  953 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+  954 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+  955 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+  956 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+  957 pts/0    R+     0:00 ps t
+  958 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+  959 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+  960 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+  961 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+21440 pts/0    Ss     0:00 bash
+28406 pts/0    S+     0:00 python run.py 9
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 2859 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 2901 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 2904 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 2905 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 2906 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 2907 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+ 2908 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 2909 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 2910 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 2911 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 2912 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 2913 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+ 2914 pts/0    R+     0:00 ps t
+ 2915 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+21440 pts/0    Ss     0:00 bash
+28406 pts/0    S+     0:00 python run.py 9
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 4651 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 4693 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 4696 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 4697 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 4698 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 4699 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+ 4700 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 4701 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 4702 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 4703 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 4704 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 4705 pts/0    R+     0:00 ps t
+ 4706 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+ 4707 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+ 4709 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+21440 pts/0    Ss     0:00 bash
+28406 pts/0    S+     0:00 python run.py 9
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 5989 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 6031 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 6034 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 6035 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 6036 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 6037 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+ 6038 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 6039 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 6040 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 6041 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 6042 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+ 6043 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 6044 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+ 6045 pts/0    R+     0:00 ps t
+ 6046 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+21440 pts/0    Ss     0:00 bash
+28406 pts/0    S+     0:00 python run.py 9
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 7707 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 7758 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 7761 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 7762 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 7763 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 7764 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+ 7765 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 7766 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 7767 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 7768 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 7769 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+ 7770 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 7771 pts/0    R+     0:00 ps t
+ 7772 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+ 7773 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+21440 pts/0    Ss     0:00 bash
+28406 pts/0    S+     0:00 python run.py 9
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9532 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 9583 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 9586 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 9587 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 9588 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 9589 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+ 9590 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 9591 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 9592 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 9593 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+ 9594 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 9595 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 9596 pts/0    R+     0:00 ps t
+ 9597 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+21440 pts/0    Ss     0:00 bash
+28406 pts/0    S+     0:00 python run.py 9
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+11239 pts/0    S      0:00 bash ./dist_check_and_run.sh
+11290 pts/0    S      0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+11293 pts/0    S      0:00 bash ./dist_check_and_run.sh
+11294 pts/0    S      0:00 bash ./dist_check_and_run.sh
+11295 pts/0    S      0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+11296 pts/0    S      0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+11297 pts/0    S      0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+11298 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+11299 pts/0    S      0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+11300 pts/0    S      0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+11301 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+11302 pts/0    S      0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+11303 pts/0    R      0:00 ps t
+11304 pts/0    Sl     0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+11307 pts/0    Sl     0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+21440 pts/0    Ss+    0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+ 9272 pts/0    S+     0:00 python run.py 6
+ 9283 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 9335 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 9338 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 9339 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 9340 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 9341 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+ 9342 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 9343 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 9344 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 9345 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 9346 pts/0    R+     0:00 ps t
+ 9347 pts/0    D+     0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+ 9348 pts/0    D+     0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+ 9349 pts/0    D+     0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 9350 pts/0    D+     0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+ 9272 pts/0    S+     0:00 python run.py 6
+10852 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+10895 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+10898 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+10899 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+10900 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+10901 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+10902 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+10903 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+10904 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+10905 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+10906 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+10907 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+10908 pts/0    R+     0:00 ps t
+10909 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+10910 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+ 9272 pts/0    S+     0:00 python run.py 6
+12780 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+12822 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+12825 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+12826 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+12827 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+12828 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+12829 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+12830 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+12831 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+12832 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+12833 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+12834 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+12835 pts/0    R+     0:00 ps t
+12836 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+12838 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+ 9272 pts/0    S+     0:00 python run.py 6
+14114 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+14156 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+14159 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+14160 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+14161 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+14162 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+14163 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+14164 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+14165 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+14166 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+14167 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+14168 pts/0    R+     0:00 ps t
+14169 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+ 9272 pts/0    S+     0:00 python run.py 6
+15733 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+15775 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+15778 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+15779 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+15780 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+15781 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+15782 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+15783 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+15784 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+15785 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+15786 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+15787 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+15788 pts/0    R+     0:00 ps t
+15789 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+15793 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+ 9272 pts/0    S+     0:00 python run.py 6
+16898 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+16940 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+16943 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+16944 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+16945 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+16946 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+16947 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+16948 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+16949 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+16950 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+16951 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+16952 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+16953 pts/0    R+     0:00 ps t
+16954 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+16955 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss+    0:00 bash
+18672 pts/0    S      0:00 bash ./dist_check_and_run.sh
+18714 pts/0    S      0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+18717 pts/0    S      0:00 bash ./dist_check_and_run.sh
+18718 pts/0    S      0:00 bash ./dist_check_and_run.sh
+18719 pts/0    S      0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+18720 pts/0    S      0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+18721 pts/0    S      0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+18722 pts/0    S      0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+18723 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+18724 pts/0    S      0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+18725 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+18726 pts/0    S      0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+18727 pts/0    R      0:00 ps t
+18728 pts/0    Sl     0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+18730 pts/0    Sl     0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+29259 pts/0    S+     0:00 python run.py 6
+29264 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+29306 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+29309 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+29310 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+29311 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+29312 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+29313 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+29314 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+29315 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+29316 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+29317 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+29318 pts/0    R+     0:00 ps t
+29319 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+29320 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+29321 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+29259 pts/0    S+     0:00 python run.py 6
+30909 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30951 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+30954 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30955 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30956 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+30957 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+30958 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+30959 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+30960 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+30961 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+30962 pts/0    R+     0:00 ps t
+30963 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+30964 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+30965 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+30966 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+29259 pts/0    S+     0:00 python run.py 6
+32310 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+32352 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+32355 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+32356 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+32357 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+32358 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+32359 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+32360 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+32361 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+32362 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+32363 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+32364 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+32365 pts/0    R+     0:00 ps t
+32366 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+32368 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 1583 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 1629 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 1632 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 1633 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 1634 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 1635 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+ 1636 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 1637 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 1638 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 1639 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+ 1640 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 1641 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 1642 pts/0    R+     0:00 ps t
+ 1644 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+ 9168 pts/0    Ss     0:00 bash
+29259 pts/0    S+     0:00 python run.py 6
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 3589 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 3638 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 3641 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 3642 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 3643 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 3644 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+ 3645 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 3646 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 3647 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 3648 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 3649 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+ 3650 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 3651 pts/0    R+     0:00 ps t
+ 3652 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+ 9168 pts/0    Ss     0:00 bash
+29259 pts/0    S+     0:00 python run.py 6
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 5563 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 5605 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 5608 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 5609 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 5610 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 5611 pts/0    S+     0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+ 5612 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 5613 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 5614 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 5615 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 5616 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+ 5617 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 5618 pts/0    R+     0:00 ps t
+ 5619 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+ 5622 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+ 9168 pts/0    Ss     0:00 bash
+29259 pts/0    S+     0:00 python run.py 6
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 7378 pts/0    S      0:00 bash ./dist_check_and_run.sh
+ 7421 pts/0    S      0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 7424 pts/0    S      0:00 bash ./dist_check_and_run.sh
+ 7425 pts/0    S      0:00 bash ./dist_check_and_run.sh
+ 7426 pts/0    S      0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 7427 pts/0    S      0:00 ./game5 127.0.0.1 6000 127.0.0.4 6004 4444
+ 7428 pts/0    S      0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 7429 pts/0    S      0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 7430 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 7431 pts/0    S      0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 7432 pts/0    S      0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 7433 pts/0    R      0:00 ps t
+ 7434 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+ 7435 pts/0    Sl     0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+ 7438 pts/0    Sl     0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+ 9168 pts/0    Ss+    0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+ 9228 pts/0    S+     0:00 python run.py 6
+ 9233 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 9276 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 9279 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 9280 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 9281 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 9282 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+ 9283 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 9284 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 9285 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 9286 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 9287 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+ 9288 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 9289 pts/0    R+     0:00 ps t
+ 9290 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+ 9292 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+ 9228 pts/0    S+     0:00 python run.py 6
+11198 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+11240 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+11243 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+11244 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+11245 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+11246 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+11247 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+11248 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+11249 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+11250 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+11251 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+11252 pts/0    R+     0:00 ps t
+11253 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+11254 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+ 9228 pts/0    S+     0:00 python run.py 6
+13001 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+13043 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+13046 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+13047 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+13048 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+13049 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+13050 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+13051 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+13052 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+13053 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+13054 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+13055 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+13056 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+13057 pts/0    R+     0:00 ps t
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+ 9228 pts/0    S+     0:00 python run.py 6
+14855 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+14897 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+14900 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+14901 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+14902 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+14903 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+14904 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+14905 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+14906 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+14907 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+14908 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+14909 pts/0    R+     0:00 ps t
+14910 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+14911 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+14912 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+ 9228 pts/0    S+     0:00 python run.py 6
+16643 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+16685 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+16688 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+16689 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+16690 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+16691 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+16692 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+16693 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+16694 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+16695 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+16696 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+16697 pts/0    R+     0:00 ps t
+16698 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+16699 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+16702 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+ 9228 pts/0    S+     0:00 python run.py 6
+18399 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+18441 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+18444 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+18445 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+18446 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+18447 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+18448 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+18449 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+18450 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+18451 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+18452 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+18453 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+18454 pts/0    R+     0:00 ps t
+18455 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+18457 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss+    0:00 bash
+20365 pts/0    S      0:00 bash ./dist_check_and_run.sh
+20407 pts/0    S      0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+20410 pts/0    S      0:00 bash ./dist_check_and_run.sh
+20411 pts/0    S      0:00 bash ./dist_check_and_run.sh
+20412 pts/0    S      0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+20413 pts/0    S      0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+20414 pts/0    S      0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+20415 pts/0    S      0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+20416 pts/0    S      0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+20417 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+20418 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+20419 pts/0    S      0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+20420 pts/0    R      0:00 ps t
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+22263 pts/0    S+     0:00 python run.py 6
+22267 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+22310 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+22313 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+22314 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+22315 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+22316 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+22317 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+22318 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+22319 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+22320 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+22321 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+22322 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+22323 pts/0    R+     0:00 ps t
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+22263 pts/0    S+     0:00 python run.py 6
+24194 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+24236 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+24239 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+24240 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+24241 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+24242 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+24243 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+24244 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+24245 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+24246 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+24247 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+24248 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+24249 pts/0    R+     0:00 ps t
+24250 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+22263 pts/0    S+     0:00 python run.py 6
+26250 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+26292 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+26295 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+26296 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+26297 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+26298 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+26299 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+26300 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+26301 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+26302 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+26303 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+26304 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+26305 pts/0    R+     0:00 ps t
+26306 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+22263 pts/0    S+     0:00 python run.py 6
+27632 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+27674 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+27677 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+27678 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+27679 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+27680 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+27681 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+27682 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+27683 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+27684 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+27685 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+27686 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+27687 pts/0    R+     0:00 ps t
+27688 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+22263 pts/0    S+     0:00 python run.py 6
+29929 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+29971 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+29974 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+29975 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+29976 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+29977 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+29978 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+29979 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+29980 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+29981 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+29982 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+29983 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+29984 pts/0    R+     0:00 ps t
+29985 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+29986 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+22263 pts/0    S+     0:00 python run.py 6
+30472 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30514 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+30517 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30518 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30519 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+30520 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+30521 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+30522 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+30523 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+30524 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+30525 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+30526 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+30527 pts/0    R+     0:00 ps t
+30528 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+30530 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss+    0:00 bash
+30989 pts/0    S      0:00 bash ./dist_check_and_run.sh
+31031 pts/0    S      0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+31034 pts/0    S      0:00 bash ./dist_check_and_run.sh
+31035 pts/0    S      0:00 bash ./dist_check_and_run.sh
+31036 pts/0    S      0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+31037 pts/0    S      0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+31038 pts/0    S      0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+31039 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+31040 pts/0    S      0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+31041 pts/0    S      0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+31042 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+31043 pts/0    S      0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+31044 pts/0    R      0:00 ps t
+31045 pts/0    Sl     0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 4070 pts/0    S+     0:00 python run.py 6
+ 4075 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 4121 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 4124 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 4125 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 4126 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 4127 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+ 4128 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 4129 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 4130 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 4131 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 4132 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 4133 pts/0    R+     0:00 ps t
+ 4134 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+ 9168 pts/0    Ss     0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 4070 pts/0    S+     0:00 python run.py 6
+ 6196 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 6238 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 6241 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 6242 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 6243 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 6244 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+ 6245 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 6246 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 6247 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 6248 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 6249 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+ 6250 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 6251 pts/0    R+     0:00 ps t
+ 6252 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+ 9168 pts/0    Ss     0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 4070 pts/0    S+     0:00 python run.py 6
+ 8196 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 8238 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 8241 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 8242 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 8243 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 8244 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+ 8245 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 8246 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 8247 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 8248 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 8249 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+ 8250 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+ 8251 pts/0    R+     0:00 ps t
+ 8252 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+ 9168 pts/0    Ss     0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 4070 pts/0    S+     0:00 python run.py 6
+ 9168 pts/0    Ss     0:00 bash
+10125 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+10167 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+10170 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+10171 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+10172 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+10173 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+10174 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+10175 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+10176 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+10177 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+10178 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+10179 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+10180 pts/0    R+     0:00 ps t
+10181 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 4070 pts/0    S+     0:00 python run.py 6
+ 9168 pts/0    Ss     0:00 bash
+12161 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+12203 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+12206 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+12207 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+12208 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+12209 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+12211 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+12212 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+12213 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+12214 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+12215 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+12216 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+12217 pts/0    R+     0:00 ps t
+12218 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+12219 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 4070 pts/0    S+     0:00 python run.py 6
+ 9168 pts/0    Ss     0:00 bash
+13846 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+13888 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+13891 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+13892 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+13893 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+13894 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+13895 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+13896 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+13897 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+13898 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+13899 pts/0    R+     0:00 ps t
+13900 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+13902 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+13903 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+13904 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss+    0:00 bash
+15529 pts/0    S      0:00 bash ./dist_check_and_run.sh
+15580 pts/0    S      0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+15583 pts/0    S      0:00 bash ./dist_check_and_run.sh
+15584 pts/0    S      0:00 bash ./dist_check_and_run.sh
+15585 pts/0    S      0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+15586 pts/0    S      0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+15587 pts/0    S      0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+15588 pts/0    S      0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+15589 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+15590 pts/0    S      0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+15591 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+15592 pts/0    S      0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+15593 pts/0    R      0:00 ps t
+15594 pts/0    Sl     0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+18452 pts/0    S+     0:00 python run.py 6
+18457 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+18499 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+18502 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+18503 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+18504 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+18505 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+18506 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+18507 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+18508 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+18509 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+18510 pts/0    R+     0:00 ps t
+18511 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+18512 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+18513 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+18514 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+18452 pts/0    S+     0:00 python run.py 6
+19926 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+19968 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+19971 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+19972 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+19973 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+19974 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+19975 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+19976 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+19977 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+19978 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+19979 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+19980 pts/0    R+     0:00 ps t
+19981 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+19982 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+18452 pts/0    S+     0:00 python run.py 6
+21548 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+21590 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+21593 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+21594 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+21595 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+21596 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+21597 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+21598 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+21599 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+21600 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+21601 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+21602 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+21603 pts/0    R+     0:00 ps t
+21604 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+18452 pts/0    S+     0:00 python run.py 6
+23780 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+23831 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+23834 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+23835 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+23836 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+23837 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+23838 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+23839 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+23840 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+23841 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+23842 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+23843 pts/0    S+     0:00 ./dsb 127.0.0.1 6000 127.0.0.8 6008 8888
+23844 pts/0    R+     0:00 ps t
+23845 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+18452 pts/0    S+     0:00 python run.py 6
+25916 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+25967 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+25970 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+25971 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+25972 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+25973 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+25974 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+25975 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+25976 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+25977 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+25978 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+25979 pts/0    S+     0:00 ./gametest 127.0.0.1 6000 127.0.0.8 6008 8888
+25980 pts/0    R+     0:00 ps t
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+26352 pts/0    S+     0:00 python run.py 6
+26361 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+26432 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+26435 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+26436 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+26437 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+26438 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+26439 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+26440 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+26441 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+26442 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+26443 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+26444 pts/0    S+     0:00 ./gametest 127.0.0.1 6000 127.0.0.8 6008 8888
+26445 pts/0    R+     0:00 ps t
+26446 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+26447 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+26352 pts/0    S+     0:00 python run.py 6
+27994 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+28036 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+28039 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+28040 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+28041 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+28042 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+28043 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+28044 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+28045 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+28046 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+28047 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+28048 pts/0    S+     0:00 ./gametest 127.0.0.1 6000 127.0.0.8 6008 8888
+28049 pts/0    R+     0:00 ps t
+28050 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+28052 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+26352 pts/0    S+     0:00 python run.py 6
+29416 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+29458 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+29461 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+29462 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+29463 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+29464 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+29465 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+29466 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+29467 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+29468 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+29469 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+29470 pts/0    S+     0:00 ./gametest 127.0.0.1 6000 127.0.0.8 6008 8888
+29471 pts/0    R+     0:00 ps t
+29472 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss     0:00 bash
+26352 pts/0    S+     0:00 python run.py 6
+31264 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+31306 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+31309 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+31310 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+31311 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+31312 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+31313 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+31314 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+31315 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+31316 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+31317 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+31318 pts/0    S+     0:00 ./gametest 127.0.0.1 6000 127.0.0.8 6008 8888
+31319 pts/0    R+     0:00 ps t
+31320 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+  509 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+  553 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+  557 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+  559 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+  560 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+  561 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+  562 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+  563 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+  566 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+  567 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+  568 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+  569 pts/0    S+     0:00 ./gametest 127.0.0.1 6000 127.0.0.8 6008 8888
+  570 pts/0    R+     0:00 ps t
+  572 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+  574 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+ 9168 pts/0    Ss     0:00 bash
+26352 pts/0    S+     0:00 python run.py 6
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 2558 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 2610 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 2613 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 2614 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 2615 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 2616 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+ 2617 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 2618 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 2619 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 2620 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 2621 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+ 2622 pts/0    S+     0:00 ./gametest 127.0.0.1 6000 127.0.0.8 6008 8888
+ 2623 pts/0    R+     0:00 ps t
+ 2624 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+ 2625 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+ 9168 pts/0    Ss     0:00 bash
+26352 pts/0    S+     0:00 python run.py 6
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 4520 pts/0    S      0:00 bash ./dist_check_and_run.sh
+ 4571 pts/0    S      0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 4574 pts/0    S      0:00 bash ./dist_check_and_run.sh
+ 4575 pts/0    S      0:00 bash ./dist_check_and_run.sh
+ 4576 pts/0    S      0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 4577 pts/0    S      0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+ 4578 pts/0    S      0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 4579 pts/0    S      0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 4580 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 4581 pts/0    S      0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 4582 pts/0    S      0:00 ./gametest 127.0.0.1 6000 127.0.0.8 6008 8888
+ 4583 pts/0    R      0:00 ps t
+ 4584 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+ 4585 pts/0    Sl     0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+ 9168 pts/0    Ss+    0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 8286 pts/0    S+     0:00 python run.py 6
+ 8291 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 8333 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+ 8336 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 8337 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+ 8338 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+ 8339 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+ 8340 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+ 8341 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+ 8342 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+ 8343 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+ 8344 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+ 8345 pts/0    S+     0:00 ./gametest 127.0.0.1 6000 127.0.0.8 6008 8888
+ 8346 pts/0    R+     0:00 ps t
+ 8347 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+ 9168 pts/0    Ss     0:00 bash
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 8286 pts/0    S+     0:00 python run.py 6
+ 9168 pts/0    Ss     0:00 bash
+ 9989 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+10032 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+10035 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+10036 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+10037 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+10038 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+10039 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+10040 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+10041 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+10042 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+10043 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+10044 pts/0    S+     0:00 ./gametest 127.0.0.1 6000 127.0.0.8 6008 8888
+10045 pts/0    R+     0:00 ps t
+10046 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+10049 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 8286 pts/0    S+     0:00 python run.py 6
+ 9168 pts/0    Ss     0:00 bash
+11426 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+11472 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+11475 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+11476 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+11477 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+11478 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+11479 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+11480 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+11481 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+11482 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+11483 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+11484 pts/0    S+     0:00 ./gametest 127.0.0.1 6000 127.0.0.8 6008 8888
+11485 pts/0    R+     0:00 ps t
+11486 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+11487 pts/0    Sl+    0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 8286 pts/0    S+     0:00 python run.py 6
+ 9168 pts/0    Ss     0:00 bash
+13112 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+13154 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+13157 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+13158 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+13159 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+13160 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+13161 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+13162 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+13163 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+13164 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+13165 pts/0    S+     0:00 ./gametest 127.0.0.1 6000 127.0.0.8 6008 8888
+13166 pts/0    R+     0:00 ps t
+13167 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+13168 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 8286 pts/0    S+     0:00 python run.py 6
+ 9168 pts/0    Ss     0:00 bash
+14865 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+14907 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+14910 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+14911 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+14912 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+14913 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+14914 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+14915 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+14916 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+14917 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+14918 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+14919 pts/0    S+     0:00 ./gametest 127.0.0.1 6000 127.0.0.8 6008 8888
+14920 pts/0    R+     0:00 ps t
+14921 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 8286 pts/0    S+     0:00 python run.py 6
+ 9168 pts/0    Ss     0:00 bash
+16730 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+16772 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+16775 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+16776 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+16777 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+16778 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+16779 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+16780 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+16781 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+16782 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+16783 pts/0    S+     0:00 ./gametest 127.0.0.1 6000 127.0.0.8 6008 8888
+16784 pts/0    R+     0:00 ps t
+16785 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+ 9168 pts/0    Ss+    0:00 bash
+18556 pts/0    S      0:00 bash ./dist_check_and_run.sh
+18598 pts/0    S      0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+18601 pts/0    S      0:00 bash ./dist_check_and_run.sh
+18602 pts/0    S      0:00 bash ./dist_check_and_run.sh
+18603 pts/0    S      0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+18604 pts/0    S      0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+18605 pts/0    S      0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+18606 pts/0    S      0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+18607 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+18608 pts/0    S      0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+18609 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+18610 pts/0    S      0:00 ./gametest 127.0.0.1 6000 127.0.0.8 6008 8888
+18611 pts/0    R      0:00 ps t
+18612 pts/0    Sl     0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555
+18613 pts/0    Sl     0:00 java -cp ../../../Younfor/bin/ com.tcp.TcpClient 127.0.0.1 6000 127.0.0.7 6007 7777 CQchappie
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+21802 pts/0    Ss+    0:00 bash
+30715 pts/0    S      0:00 bash ./dist_check_and_run.sh
+30758 pts/0    S      0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+30761 pts/0    S      0:00 bash ./dist_check_and_run.sh
+30762 pts/0    S      0:00 bash ./dist_check_and_run.sh
+30763 pts/0    S      0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+30764 pts/0    S      0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+30765 pts/0    S      0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+30766 pts/0    S      0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+30767 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+30768 pts/0    S      0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+30769 pts/0    Sl     0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+30770 pts/0    S      0:00 ./gametest 127.0.0.1 6000 127.0.0.8 6008 8888
+30771 pts/0    R      0:00 ps t
+check the size of works foldery ....
+archive the works folder
+you can use works.tar.gz for submit
+
+prepare for test..
+start server
+start your program
+  PID TTY      STAT   TIME COMMAND
+21802 pts/0    Ss     0:00 bash
+30839 pts/0    S+     0:00 python run.py 6
+30844 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30886 pts/0    S+     0:00 ./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500
+30889 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30890 pts/0    S+     0:00 bash ./dist_check_and_run.sh
+30891 pts/0    S+     0:00 ./game_jltx30 127.0.0.1 6000 127.0.0.3 6003 3333
+30892 pts/0    S+     0:00 ./gamedog2 127.0.0.1 6000 127.0.0.4 6004 4444
+30893 pts/0    S+     0:00 /bin/sh ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555
+30894 pts/0    S+     0:00 ./gamedog 127.0.0.1 6000 127.0.0.6 6006 6666
+30895 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.1 6001 1111
+30896 pts/0    S+     0:00 bash ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777
+30897 pts/0    Sl+    0:00 java game.Player 127.0.0.1 6000 127.0.0.2 6002 2222
+30898 pts/0    S+     0:00 ./gametest 127.0.0.1 6000 127.0.0.8 6008 8888
+30899 pts/0    R+     0:00 ps t
+30900 pts/0    Sl+    0:00 java -cp south/ Game 127.0.0.1 6000 127.0.0.5 6005 5555

@@ -1,0 +1,1267 @@
+------ActionCount------
+billScore : 4
+------ActionCount------
+3333:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:check 80]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:call 40->call 40, 0:check 40, 0:raise 80, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, 0:fold 20]
+billScore : 4
+------ActionCount------
+3333:[0:blind 20->fold 20, null, null, null]
+1111:[0:fold 0->fold 0, null, null, null]
+2222:[0:fold 0, null, null, null]
+5555:[0:fold 0->fold 0, null, null, null]
+4444:[0:call 40, null, null, null]
+6666:[0:blind 40->fold 40, null, null, null]
+7777:[0:raise 120, null, null, null]
+8888:[0:fold 0, null, null, null]
+billScore : 7
+nofold :3
+flopRate : 0.8242368177613321
+nofold :3
+turnRate : 1.0
+------ActionCount------
+3333:[0:fold 0, 0:fold 0, 0:fold 0, null]
+1111:[0:blind 40, 0:check 40, 0:check 40->fold 40, null]
+2222:[0:call 40, 0:check 40, 0:all_in 2000, null]
+5555:[0:fold 0, 0:fold 0, 0:fold 0->fold 0, null]
+4444:[0:call 40, 0:check 40, 0:fold 40, null]
+6666:[0:blind 20, 0:fold 20, 0:fold 20->fold 20, null]
+7777:[0:fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 4
+------ActionCount------
+1111:[0:blind 20->call 40, 0:check 40, 0:check 40, 0:check 40]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:check 40]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 4
+nofold :3
+flopRate : 0.4301572617946346
+nofold :3
+flopRate : 0.4301572617946346
+------ActionCount------
+1111:[0:fold 0->fold 0, 0:fold 0, null, null]
+2222:[0:blind 40->check 40, 0:check 40, null, null]
+3333:[0:fold 0->fold 0, 0:fold 0, null, null]
+5555:[0:fold 20, 0:fold 20->fold 20, null, null]
+4444:[0:call 40->call 40, 0:raise 80, null, null]
+7777:[0:fold 0->fold 0, 0:fold 0, null, null]
+6666:[0:fold 0->fold 0, 0:fold 0, null, null]
+8888:[0:fold 0->fold 0, 0:fold 0, null, null]
+billScore : 1
+------ActionCount------
+2222:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, null]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+1111:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+4444:[0:blind 40->check 40, 0:check 40, 0:check 40, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 10
+nofold :3
+flopRate : 0.5633672525439408
+nofold :3
+turnRate : 0.4570048309178744
+nofold :3
+riverRate : 0.34040404040404043
+------ActionCount------
+2222:[0:call 40, 0:check 40, 0:check 40, null]
+3333:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+1111:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:blind 20, 0:check 40, 0:check 40, 0:check 40]
+5555:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+7777:[0:blind 40, 0:check 40, 0:check 40, 0:check 40]
+6666:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+billScore : 0
+------ActionCount------
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+7777:[0:blind 20->call 40, 0:check 40, 0:check 40, 0:check 40]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:check 40]
+billScore : 9
+nofold :3
+flopRate : 0.5892691951896393
+------ActionCount------
+3333:[0:blind 40, 0:raise 97, 0:raise 149, 0:check 149]
+1111:[0:call 40, 0:fold 40, 0:fold 40, 0:fold 40]
+2222:[0:call 40, 0:fold 40, 0:fold 40, null]
+5555:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:call 40, 0:call 97, 0:call 149, null]
+7777:[0:fold 0, 0:fold 0, 0:fold 0, null]
+6666:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:blind 20, 0:fold 20, 0:fold 20, 0:fold 20]
+billScore : 5
+nofold :5
+flopRate : 0.5226641998149861
+nofold :5
+turnRate : 0.39903381642512076
+nofold :5
+riverRate : 0.30808080808080807
+------ActionCount------
+3333:[0:blind 20, 0:check 40, 0:check 40, 0:check 40->call 80]
+1111:[0:call 40, 0:check 40, 0:check 40, 0:fold 40->fold 40]
+2222:[0:call 40, 0:check 40, 0:check 40, 0:fold 40]
+5555:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0->fold 0]
+4444:[0:call 40, 0:check 40, 0:check 40, 0:call 80]
+6666:[0:blind 40, 0:check 40, 0:check 40, 0:raise 80->raise 80]
+7777:[0:call 40, 0:check 40, 0:check 40, 0:fold 40]
+8888:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+billScore : 5
+------ActionCount------
+3333:[0:call 40->call 40, null, null, null]
+1111:[0:blind 40->check 40, 0:fold 40, null, null]
+2222:[0:fold 0->fold 0, null, null, null]
+5555:[0:fold 0->fold 0, 0:fold 0, null, null]
+4444:[0:call 40->call 40, null, null, null]
+6666:[0:blind 20->call 40, 0:raise 134, null, null]
+7777:[0:call 40->call 40, null, null, null]
+8888:[0:fold 0->fold 0, null, null, null]
+billScore : 4
+------ActionCount------
+1111:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, null]
+2222:[0:fold 0->fold 0, 0:fold 0, null, null]
+3333:[0:fold 0->fold 0, 0:fold 0, null, null]
+5555:[0:blind 40->check 40, 0:raise 90, 0:raise 190, null]
+4444:[0:call 40->call 40, 0:call 90, null, null]
+6666:[0:fold 0->fold 0, 0:fold 0, null, null]
+7777:[0:fold 0->fold 0, 0:fold 0, null, null]
+8888:[0:fold 0->fold 0, 0:fold 0, null, null]
+billScore : 5
+nofold :3
+flopRate : 0.45235892691951896
+nofold :3
+flopRate : 0.45235892691951896
+------ActionCount------
+1111:[0:fold 0->fold 0, 0:fold 0, null, null]
+2222:[0:blind 40->check 40, 0:check 40, null, null]
+3333:[0:fold 0->fold 0, 0:fold 0, null, null]
+5555:[0:fold 20, 0:fold 20->fold 20, null, null]
+4444:[0:call 40->call 40, 0:raise 80, null, null]
+7777:[0:fold 0->fold 0, 0:fold 0, null, null]
+6666:[0:fold 0->fold 0, 0:fold 0, null, null]
+8888:[0:fold 0->fold 0, 0:fold 0, null, null]
+billScore : 7
+nofold :3
+flopRate : 0.8371877890841813
+nofold :3
+turnRate : 0.8154589371980676
+nofold :3
+riverRate : 0.7424242424242424
+------ActionCount------
+2222:[0:blind 20->call 40, 0:check 40, 0:check 40, null]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+1111:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+4444:[0:blind 40->check 40, 0:check 40, 0:check 40, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 0
+------ActionCount------
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:blind 20->call 40, 0:check 40, 0:check 40, 0:raise 80]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+7777:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:fold 40]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+billScore : 7
+nofold :3
+flopRate : 0.7280296022201665
+nofold :3
+turnRate : 0.7101449275362319
+nofold :3
+riverRate : 0.7515151515151515
+------ActionCount------
+3333:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+1111:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+2222:[0:call 40, 0:check 40, 0:check 40, null]
+4444:[0:call 40, 0:check 40, 0:check 40, null]
+5555:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+7777:[0:blind 20, 0:fold 20, 0:fold 20, 0:fold 20]
+6666:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:blind 40, 0:check 40, 0:check 40, 0:check 40]
+billScore : 0
+------ActionCount------
+3333:[0:blind 40->check 40, 0:check 40, 0:check 80, 0:check 124]
+1111:[0:call 40->call 40, 0:raise 80, 0:raise 124, 0:check 124]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:call 40->call 40, 0:call 80, 0:call 124, null]
+7777:[0:call 40->call 40, 0:fold 40, 0:fold 40, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:blind 20->call 40, 0:check 40, 0:fold 40, 0:fold 40]
+billScore : 8
+nofold :4
+flopRate : 0.9592969472710453
+nofold :4
+turnRate : 0.9806763285024155
+nofold :3
+turnRate : 0.9806763285024155
+nofold :3
+riverRate : 1.0
+------ActionCount------
+3333:[0:blind 20, 0:check 40, 0:check 80->fold 80, 0:fold 80->fold 80]
+1111:[0:fold 0, 0:fold 0, 0:fold 0->fold 0, 0:fold 0->fold 0]
+2222:[0:call 40, 0:raise 80, 0:raise 168->raise 376, 0:all_in 1920]
+5555:[0:fold 0, 0:fold 0, 0:fold 0->fold 0, 0:fold 0->fold 0]
+4444:[0:call 40, 0:call 80, 0:raise 256->call 376, 0:fold 376]
+6666:[0:blind 40, 0:check 40, 0:check 80->fold 80, 0:fold 80->fold 80]
+7777:[0:fold 0, 0:fold 0, 0:fold 0->fold 0, 0:fold 0]
+8888:[0:fold 0, 0:fold 0, 0:fold 0->fold 0, 0:fold 0]
+billScore : 4
+------ActionCount------
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+1111:[0:blind 40->check 40, 0:check 40, 0:raise 113, 0:raise 165]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:call 40->call 40, 0:check 40, 0:call 113, null]
+6666:[0:blind 20->call 40, 0:check 40, 0:check 40, 0:check 113]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 4
+------ActionCount------
+1111:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, 0:fold 20]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:check 40]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 3
+nofold :4
+flopRate : 0.938945420906568
+nofold :4
+turnRate : 0.8869565217391304
+nofold :4
+riverRate : 0.8424242424242424
+nofold :4
+riverRate : 0.8424242424242424
+------ActionCount------
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+2222:[0:blind 40->check 40, 0:raise 80, 0:check 80, 0:check 80]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+5555:[0:fold 20, 0:fold 20, 0:fold 20, 0:fold 20->fold 20]
+4444:[0:call 40->call 40, 0:call 80, 0:check 80, 0:check 80]
+7777:[0:call 40->call 40, 0:call 80, 0:check 80, 0:check 80]
+6666:[0:call 40->call 40, 0:call 80, 0:check 80, 0:raise 164]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+billScore : 6
+nofold :3
+flopRate : 0.8011100832562442
+nofold :3
+flopRate : 0.8011100832562442
+nofold :3
+turnRate : 0.6628019323671498
+nofold :3
+riverRate : 0.5141414141414141
+------ActionCount------
+2222:[0:blind 20->call 40, 0:check 40->call 80, 0:check 80, null]
+3333:[0:fold 0->fold 0, 0:fold 0->fold 0, 0:fold 0, null]
+1111:[0:fold 0->fold 0, 0:fold 0->fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0->fold 0, 0:fold 0, null]
+4444:[0:blind 40->check 40, 0:raise 80->raise 80, 0:check 80, null]
+7777:[0:call 40->call 40, 0:fold 40->fold 40, 0:fold 40, null]
+6666:[0:fold 0->fold 0, 0:fold 0->fold 0, 0:fold 0, null]
+8888:[0:fold 0->fold 0, 0:fold 0->fold 0, 0:fold 0, null]
+billScore : 5
+------ActionCount------
+2222:[0:fold 0->fold 0, 0:fold 0, null, null]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+1111:[0:call 40->call 40, 0:check 40, 0:all_in 2406, null]
+4444:[0:blind 20->call 40, 0:check 40, 0:check 40, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+7777:[0:blind 40->check 40, 0:check 40, 0:raise 80, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 4
+------ActionCount------
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+1111:[0:call 40->call 40, 0:check 40, 0:check 40, 0:check 40]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+7777:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, 0:fold 20]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:check 40]
+billScore : 4
+------ActionCount------
+3333:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:check 40]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, 0:fold 20]
+billScore : 16
+nofold :4
+flopRate : 1.0
+------ActionCount------
+3333:[0:blind 20, 0:check 40->fold 40, null, null]
+1111:[0:fold 0, 0:fold 0->fold 0, null, null]
+2222:[0:call 40, 0:all_in 2296, null, null]
+5555:[0:fold 0, 0:fold 0->fold 0, null, null]
+4444:[0:call 40, 0:fold 40, null, null]
+6666:[0:blind 40, 0:check 40->fold 40, null, null]
+7777:[0:fold 0, 0:fold 0, null, null]
+8888:[0:fold 0, 0:fold 0, null, null]
+billScore : 1
+------ActionCount------
+3333:[0:fold 0, null, null, null]
+1111:[0:blind 40->fold 40, null, null, null]
+2222:[0:fold 0, null, null, null]
+5555:[0:fold 0->fold 0, null, null, null]
+4444:[0:call 40, null, null, null]
+6666:[0:blind 20->fold 20, null, null, null]
+7777:[0:raise 120, null, null, null]
+8888:[0:fold 0, null, null, null]
+billScore : 5
+nofold :3
+flopRate : 0.5337650323774283
+nofold :3
+turnRate : 0.4106280193236715
+nofold :3
+turnRate : 0.4106280193236715
+------ActionCount------
+1111:[0:blind 20, 0:fold 20, 0:fold 20->fold 20, null]
+2222:[0:call 40, 0:check 40, 0:check 40, null]
+3333:[0:fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:blind 40, 0:check 40, 0:check 40->fold 40, null]
+4444:[0:call 40, 0:check 40, 0:raise 120, null]
+6666:[0:fold 0, 0:fold 0, 0:fold 0, null]
+7777:[0:fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 1
+------ActionCount------
+1111:[0:fold 0->fold 0, null, null, null]
+2222:[0:blind 40->fold 40, null, null, null]
+3333:[0:fold 0->fold 0, null, null, null]
+5555:[0:raise 170->raise 170, null, null, null]
+4444:[0:call 40->fold 40, null, null, null]
+7777:[0:fold 0->fold 0, null, null, null]
+6666:[0:fold 0->fold 0, null, null, null]
+8888:[0:fold 0->fold 0, null, null, null]
+billScore : 7
+nofold :3
+flopRate : 0.6854764107308048
+nofold :3
+flopRate : 0.6854764107308048
+------ActionCount------
+2222:[0:blind 20->call 40, 0:check 40->fold 40, null, null]
+3333:[0:fold 0->fold 0, 0:fold 0->fold 0, null, null]
+1111:[0:call 40->call 40, 0:call 120->call 120, null, null]
+5555:[0:fold 0->fold 0, 0:fold 0->fold 0, null, null]
+4444:[0:blind 40->check 40, 0:raise 120->raise 120, null, null]
+7777:[0:fold 0->fold 0, 0:fold 0->fold 0, null, null]
+6666:[0:fold 0->fold 0, 0:fold 0->fold 0, null, null]
+8888:[0:fold 0->fold 0, 0:fold 0->fold 0, null, null]
+billScore : 2
+------ActionCount------
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+1111:[0:call 40->call 40, 0:check 40, 0:check 40, 0:check 40]
+4444:[0:blind 20->call 40, 0:check 40, 0:check 40, 0:check 40]
+5555:[0:call 40->call 40, 0:check 40, 0:check 40, 0:check 40]
+7777:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:check 40]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+billScore : 7
+nofold :4
+flopRate : 0.8704902867715079
+nofold :4
+turnRate : 0.8888888888888888
+nofold :4
+riverRate : 0.8373737373737373
+------ActionCount------
+3333:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+1111:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+2222:[0:call 40, 0:check 40, 0:check 40, null]
+4444:[0:call 40, 0:check 40, 0:check 40, null]
+5555:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+7777:[0:blind 20, 0:check 40, 0:check 40, 0:check 40]
+6666:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:blind 40, 0:check 40, 0:check 40, 0:check 40]
+billScore : 1
+------ActionCount------
+3333:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:check 40]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, 0:fold 20]
+billScore : 2
+------ActionCount------
+3333:[0:blind 20->call 40, 0:check 40, 0:check 40, 0:check 40]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+6666:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:check 40]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+billScore : 5
+nofold :3
+flopRate : 0.11933395004625347
+nofold :3
+turnRate : 0.05507246376811594
+nofold :3
+riverRate : 0.05757575757575758
+------ActionCount------
+3333:[0:fold 0, 0:fold 0, 0:fold 0, null]
+1111:[0:blind 40, 0:check 40, 0:check 40, 0:check 40]
+2222:[0:call 40, 0:check 40, 0:check 40, null]
+5555:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:call 40, 0:check 40, 0:check 40, null]
+6666:[0:blind 20, 0:fold 20, 0:fold 20, 0:fold 20]
+7777:[0:fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 0
+------ActionCount------
+1111:[0:blind 20->call 40, 0:check 40, 0:check 40, 0:check 40]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:raise 100]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 2
+nofold :3
+flopRate : 0.33024976873265494
+nofold :3
+turnRate : 0.2560386473429952
+nofold :3
+riverRate : 0.2676767676767677
+------ActionCount------
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+2222:[0:blind 40->check 40, 0:check 40, 0:check 40, null]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 20, 0:fold 20, 0:fold 20, 0:fold 20]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 1
+------ActionCount------
+2222:[0:blind 20->fold 20, null, null, null]
+3333:[0:fold 0->fold 0, null, null, null]
+1111:[0:fold 0->fold 0, null, null, null]
+5555:[0:fold 0->fold 0, null, null, null]
+4444:[0:blind 40->check 40, null, null, null]
+7777:[0:fold 0->fold 0, null, null, null]
+6666:[0:fold 0->fold 0, null, null, null]
+8888:[0:fold 0->fold 0, null, null, null]
+billScore : 2
+------ActionCount------
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+1111:[0:call 40->call 40, 0:check 40, 0:check 40, 0:check 40]
+4444:[0:blind 20->call 40, 0:check 40, 0:check 40, 0:check 40]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+7777:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:check 40]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+billScore : 6
+------ActionCount------
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+7777:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, 0:fold 20]
+6666:[0:call 40->call 40, 0:check 40, 0:check 40, 0:check 40]
+8888:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:check 40]
+billScore : 3
+------ActionCount------
+3333:[0:blind 40->check 40, 0:check 40, 0:check 80, 0:fold 80]
+1111:[0:call 40->call 40, 0:raise 80, 0:raise 124, 0:check 124]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:call 40->call 40, 0:call 80, 0:call 124, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:blind 20->call 40, 0:check 40, 0:fold 40, 0:fold 40]
+billScore : 5
+------ActionCount------
+3333:[0:blind 20->call 40, 0:check 40, 0:check 40, 0:check 40]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+6666:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:raise 80]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+billScore : 6
+nofold :3
+flopRate : 0.7076780758556892
+nofold :3
+turnRate : 0.6270531400966184
+------ActionCount------
+3333:[0:fold 0, 0:fold 0, null, null]
+1111:[0:blind 40, 0:check 40, 0:raise 84, null]
+2222:[0:call 40, 0:check 40, null, null]
+5555:[0:fold 0, 0:fold 0, 0:fold 0, null]
+4444:[0:fold 0, 0:fold 0, null, null]
+6666:[0:blind 20, 0:fold 20, 0:fold 20, null]
+7777:[0:fold 0, 0:fold 0, null, null]
+8888:[0:fold 0, 0:fold 0, null, null]
+billScore : 5
+------ActionCount------
+1111:[0:blind 20->fold 20, null, null, null]
+2222:[0:fold 0, null, null, null]
+3333:[0:fold 0, null, null, null]
+5555:[0:blind 40->check 40, null, null, null]
+4444:[0:fold 0, null, null, null]
+6666:[0:fold 0, null, null, null]
+7777:[0:fold 0, null, null, null]
+8888:[0:fold 0, null, null, null]
+billScore : 0
+------ActionCount------
+1111:[0:fold 0, null, null, null]
+2222:[0:blind 40, null, null, null]
+3333:[0:fold 0, null, null, null]
+5555:[0:fold 20, null, null, null]
+4444:[0:fold 0, null, null, null]
+7777:[0:fold 0, null, null, null]
+6666:[0:fold 0, null, null, null]
+8888:[0:fold 0, null, null, null]
+billScore : 10
+nofold :3
+flopRate : 0.6003700277520814
+nofold :3
+turnRate : 0.41739130434782606
+nofold :3
+riverRate : 0.8151515151515152
+------ActionCount------
+2222:[0:blind 20->call 40, 0:check 40, 0:check 40, null]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+4444:[0:blind 40->check 40, 0:check 40, 0:check 40, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 5
+nofold :3
+flopRate : 0.17483811285846437
+nofold :3
+turnRate : 0.1826086956521739
+nofold :3
+riverRate : 0.19090909090909092
+------ActionCount------
+2222:[0:call 40, 0:check 40, 0:check 40, null]
+3333:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+1111:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:blind 20, 0:check 40, 0:check 40, 0:raise 80]
+5555:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+7777:[0:blind 40, 0:check 40, 0:check 40, 0:fold 40]
+6666:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+billScore : 10
+nofold :4
+flopRate : 0.9953746530989824
+nofold :3
+flopRate : 0.9953746530989824
+nofold :3
+turnRate : 0.9922705314009662
+nofold :3
+turnRate : 0.9922705314009662
+------ActionCount------
+3333:[0:fold 0, 0:fold 0->fold 0, 0:fold 0->fold 0, null]
+1111:[0:call 40, 0:check 40->fold 40, 0:fold 40->fold 40, null]
+2222:[0:call 40, 0:raise 131->raise 313, 0:raise 427, null]
+4444:[0:call 40, 0:raise 222->call 313, 0:all_in 432, null]
+5555:[0:fold 0, 0:fold 0->fold 0, 0:fold 0->fold 0, null]
+7777:[0:blind 20, 0:fold 20->fold 20, 0:fold 20->fold 20, null]
+6666:[0:fold 0, 0:fold 0->fold 0, 0:fold 0->fold 0, null]
+8888:[0:blind 40, 0:check 40->fold 40, 0:fold 40->fold 40, null]
+billScore : 3
+------ActionCount------
+3333:[0:blind 40->fold 40, 0:fold 40, 0:fold 40, 0:fold 40]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:call 40->call 80, 0:check 80, 0:check 80, null]
+7777:[0:raise 80->raise 80, 0:check 80, 0:check 80, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:blind 20->call 80, 0:check 80, 0:check 80, 0:check 80]
+billScore : 3
+------ActionCount------
+3333:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, 0:fold 20]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:call 40->call 80, 0:call 120, 0:call 200, null]
+6666:[0:blind 40->fold 40, 0:fold 40, 0:fold 40, 0:fold 40]
+7777:[0:raise 80->raise 80, 0:raise 120, 0:raise 200, null]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 7
+nofold :3
+flopRate : 0.6003700277520814
+nofold :3
+turnRate : 0.4956521739130435
+nofold :3
+riverRate : 0.3525252525252525
+------ActionCount------
+3333:[0:fold 0, 0:fold 0, 0:fold 0, null]
+1111:[0:blind 40, 0:check 40, 0:check 40, 0:check 40]
+2222:[0:call 40, 0:check 40, 0:check 40, null]
+5555:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:call 40, 0:check 40, 0:check 40, null]
+6666:[0:blind 20, 0:fold 20, 0:fold 20, 0:fold 20]
+7777:[0:fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 1
+------ActionCount------
+1111:[0:blind 20->call 40, 0:check 40, 0:fold 40, null]
+2222:[0:fold 0->fold 0, 0:fold 0, null, null]
+3333:[0:fold 0->fold 0, 0:fold 0, null, null]
+5555:[0:blind 40->check 40, 0:raise 100, 0:raise 220, null]
+4444:[0:call 40->call 40, 0:call 100, null, null]
+6666:[0:fold 0->fold 0, 0:fold 0, null, null]
+7777:[0:fold 0->fold 0, 0:fold 0, null, null]
+8888:[0:fold 0->fold 0, 0:fold 0, null, null]
+billScore : 8
+nofold :4
+flopRate : 0.8279370952821462
+nofold :4
+flopRate : 0.8279370952821462
+------ActionCount------
+1111:[0:fold 0->fold 0, 0:fold 0->fold 0, null, null]
+2222:[0:blind 40->check 40, 0:check 40->fold 40, null, null]
+3333:[0:fold 0->fold 0, 0:fold 0->fold 0, null, null]
+5555:[0:fold 20, 0:fold 20->fold 20->fold 20, null, null]
+4444:[0:call 40->call 40, 0:check 40->fold 40, null, null]
+7777:[0:call 40->call 40, 0:check 40->fold 40, null, null]
+6666:[0:call 40->call 40, 0:raise 131->raise 131, null, null]
+8888:[0:fold 0->fold 0, 0:fold 0->fold 0, null, null]
+billScore : 5
+------ActionCount------
+2222:[0:blind 20->fold 20, null, null, null]
+3333:[0:fold 0->fold 0, null, null, null]
+1111:[0:fold 0->fold 0, null, null, null]
+5555:[0:raise 150->raise 150, null, null, null]
+4444:[0:blind 40->fold 40, null, null, null]
+7777:[0:fold 0->fold 0, null, null, null]
+6666:[0:fold 0->fold 0, null, null, null]
+8888:[0:fold 0->fold 0, null, null, null]
+billScore : 9
+nofold :3
+flopRate : 0.5633672525439408
+nofold :3
+turnRate : 0.7710144927536232
+nofold :3
+riverRate : 0.8282828282828283
+------ActionCount------
+2222:[0:call 40, 0:check 40, 0:check 40, null]
+3333:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+1111:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:blind 20, 0:check 40, 0:check 40, 0:check 40]
+5555:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+7777:[0:blind 40, 0:check 40, 0:check 40, 0:check 40]
+6666:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+billScore : 3
+------ActionCount------
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+7777:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, 0:fold 20]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:check 40]
+billScore : 6
+------ActionCount------
+3333:[0:blind 40->fold 40, null, null, null]
+1111:[0:call 40->fold 40, null, null, null]
+2222:[0:fold 0, null, null, null]
+5555:[0:fold 0->fold 0, null, null, null]
+4444:[0:call 40, null, null, null]
+7777:[0:raise 160, null, null, null]
+6666:[0:fold 0->fold 0, null, null, null]
+8888:[0:blind 20->fold 20, null, null, null]
+billScore : 0
+------ActionCount------
+3333:[0:blind 20->call 40, 0:check 40, 0:check 40, 0:check 130]
+1111:[0:call 40->call 40, 0:check 40, 0:raise 130, 0:raise 336]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:call 40->call 40, 0:check 40, 0:fold 40, null]
+6666:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:raise 233]
+7777:[0:call 40->call 40, 0:check 40, 0:fold 40, null]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 5
+------ActionCount------
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+1111:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:raise 88]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+6666:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, 0:fold 20]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+billScore : 6
+------ActionCount------
+1111:[0:blind 20->call 40, 0:check 40, 0:check 40, 0:check 40]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:raise 80]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 0
+nofold :3
+flopRate : 0.6827012025901943
+nofold :3
+turnRate : 0.5429951690821256
+nofold :3
+riverRate : 0.8646464646464647
+nofold :3
+riverRate : 0.8646464646464647
+------ActionCount------
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+2222:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:check 40]
+3333:[0:call 40->call 40, 0:check 40, 0:check 40, 0:raise 120]
+5555:[0:fold 20, 0:fold 20, 0:fold 20, 0:fold 20->fold 20]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, 0:check 40]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+billScore : 9
+nofold :3
+flopRate : 0.46345975948196116
+nofold :3
+turnRate : 0.48405797101449277
+nofold :3
+riverRate : 0.8656565656565657
+------ActionCount------
+2222:[0:blind 20->call 40, 0:check 40, 0:check 40, null]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+4444:[0:blind 40->check 40, 0:check 40, 0:check 40, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 5
+------ActionCount------
+2222:[0:fold 0, null, null, null]
+3333:[0:fold 0->fold 0, null, null, null]
+1111:[0:fold 0->fold 0, null, null, null]
+4444:[0:blind 20->fold 20, null, null, null]
+5555:[0:raise 150->raise 150, null, null, null]
+7777:[0:blind 40->fold 40, null, null, null]
+6666:[0:fold 0->fold 0, null, null, null]
+8888:[0:fold 0->fold 0, null, null, null]
+billScore : 4
+------ActionCount------
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+7777:[0:blind 20->call 40, 0:check 40, 0:check 40, 0:check 40]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:check 40]
+billScore : 7
+------ActionCount------
+3333:[0:blind 40->fold 40, null, null, null]
+1111:[0:fold 0->fold 0, null, null, null]
+2222:[0:fold 0, null, null, null]
+5555:[0:fold 0->fold 0, null, null, null]
+4444:[0:fold 0, null, null, null]
+7777:[0:fold 0, null, null, null]
+6666:[0:raise 161->raise 161, null, null, null]
+8888:[0:blind 20->fold 20, null, null, null]
+billScore : 0
+------ActionCount------
+3333:[0:blind 20->call 40, 0:check 40, 0:check 80, 0:check 120]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:call 40->call 40, 0:raise 80, 0:raise 120, null]
+6666:[0:blind 40->check 40, 0:check 40, 0:check 80, 0:check 120]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:call 40->call 40, 0:fold 40, 0:fold 40, null]
+billScore : 5
+nofold :3
+flopRate : 0.25624421831637373
+nofold :3
+turnRate : 0.17391304347826086
+nofold :3
+riverRate : 0.7878787878787878
+nofold :3
+riverRate : 0.7878787878787878
+------ActionCount------
+3333:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+1111:[0:blind 40, 0:check 40, 0:check 40, 0:check 40->fold 40]
+2222:[0:call 40, 0:check 40, 0:check 40, 0:check 40]
+5555:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0->fold 0]
+4444:[0:call 40, 0:check 40, 0:check 40, 0:raise 440]
+6666:[0:blind 20, 0:fold 20, 0:fold 20, 0:fold 20->fold 20]
+7777:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+billScore : 3
+------ActionCount------
+1111:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, 0:fold 20]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:check 40]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+6666:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 1
+nofold :3
+flopRate : 0.8103607770582794
+nofold :3
+turnRate : 0.9690821256038648
+------ActionCount------
+1111:[0:fold 0->fold 0, 0:fold 0, null, null]
+2222:[0:blind 40->check 40, 0:check 40, null, null]
+3333:[0:fold 0->fold 0, 0:fold 0, null, null]
+5555:[0:fold 20, 0:fold 20, 0:fold 20, null]
+4444:[0:call 40->call 40, 0:check 40, null, null]
+7777:[0:fold 0->fold 0, 0:fold 0, null, null]
+6666:[0:fold 0->fold 0, 0:fold 0, null, null]
+8888:[0:fold 0->fold 0, 0:fold 0, null, null]
+billScore : 6
+------ActionCount------
+2222:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, null]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+1111:[0:call 40->call 40, 0:check 40, 0:raise 84, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+4444:[0:blind 40->check 40, 0:check 40, 0:call 84, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 6
+nofold :3
+flopRate : 0.782608695652174
+nofold :3
+turnRate : 0.7246376811594203
+nofold :3
+riverRate : 0.6656565656565656
+------ActionCount------
+2222:[0:call 40, 0:check 40, 0:check 40, null]
+3333:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+1111:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:blind 20, 0:check 40, 0:check 40, 0:check 40]
+5555:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+7777:[0:blind 40, 0:check 40, 0:check 40, 0:check 40]
+6666:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+billScore : 4
+------ActionCount------
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+7777:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, 0:fold 20]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:check 40]
+billScore : 6
+------ActionCount------
+3333:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:raise 120]
+1111:[0:call 40->call 40, 0:check 40, 0:check 40, 0:fold 40]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:blind 20->call 40, 0:check 40, 0:check 40, 0:check 40]
+billScore : 4
+------ActionCount------
+3333:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, null]
+1111:[0:call 40->call 160, 0:check 160, 0:check 280, null]
+2222:[0:fold 0->fold 0, 0:fold 0, null, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+4444:[0:call 40->fold 40, 0:fold 40, null, null]
+6666:[0:blind 40->fold 40, 0:fold 40, 0:fold 40, null]
+7777:[0:raise 160->raise 160, 0:raise 280, null, null]
+8888:[0:fold 0->fold 0, 0:fold 0, null, null]
+billScore : 5
+nofold :3
+flopRate : 0.9296947271045328
+nofold :3
+turnRate : 0.9082125603864735
+nofold :3
+riverRate : 0.8636363636363636
+------ActionCount------
+3333:[0:fold 0, 0:fold 0, 0:fold 0, null]
+1111:[0:blind 40, 0:check 40, 0:fold 40, 0:fold 40]
+2222:[0:call 40, 0:raise 80, 0:raise 124, null]
+5555:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:call 40, 0:call 80, 0:call 124, null]
+6666:[0:blind 20, 0:fold 20, 0:fold 20, 0:fold 20]
+7777:[0:fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 4
+------ActionCount------
+1111:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, 0:fold 20]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:check 40]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 5
+------ActionCount------
+1111:[0:fold 0->fold 0, null, null, null]
+2222:[0:blind 40->fold 40, null, null, null]
+3333:[0:raise 140->raise 140, null, null, null]
+5555:[0:fold 20->fold 20, null, null, null]
+4444:[0:call 40->fold 40, null, null, null]
+7777:[0:fold 0->fold 0, null, null, null]
+6666:[0:fold 0->fold 0, null, null, null]
+8888:[0:fold 0->fold 0, null, null, null]
+billScore : 0
+------ActionCount------
+2222:[0:blind 20->fold 20, null, null, null]
+3333:[0:fold 0->fold 0, null, null, null]
+1111:[0:fold 0->fold 0, null, null, null]
+5555:[0:fold 0->fold 0, null, null, null]
+4444:[0:blind 40->check 40, null, null, null]
+7777:[0:fold 0->fold 0, null, null, null]
+6666:[0:fold 0->fold 0, null, null, null]
+8888:[0:fold 0->fold 0, null, null, null]
+billScore : 7
+billScore : 7
+nofold :3
+flopRate : 0.9481961147086031
+nofold :3
+turnRate : 0.8338164251207729
+------ActionCount------
+2222:[0:call 40->call 120, 0:call 345, 0:fold 345->fold 345, null]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0->fold 0, 0:fold 0]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0->fold 0, 0:fold 0]
+4444:[0:blind 20->raise 120, 0:raise 160, 0:raise 425->call 895, 0:all_in 1244]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0->fold 0, 0:fold 0]
+7777:[0:blind 40->fold 40, 0:fold 40, 0:fold 40->fold 40, 0:fold 40]
+6666:[0:call 40->call 120, 0:raise 345, 0:raise 895->raise 895, 0:all_in 1415]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0->fold 0, 0:fold 0]
+billScore : 0
+------ActionCount------
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+2222:[0:fold 0->fold 0, 0:fold 0, null, null]
+4444:[0:call 40->call 40, 0:check 40, null, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+7777:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:blind 40->check 40, 0:check 40, 0:raise 134, null]
+billScore : 0
+------ActionCount------
+3333:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:check 40]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:blind 20->call 40, 0:check 40, 0:check 40, 0:check 40]
+billScore : 3
+------ActionCount------
+3333:[0:blind 20->call 40, 0:check 40, 0:fold 40, null]
+1111:[0:call 40->call 40, 0:fold 40, 0:fold 40, null]
+2222:[0:fold 0->fold 0, 0:fold 0, null, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+4444:[0:call 40->call 40, 0:call 84, null, null]
+6666:[0:blind 40->check 40, 0:raise 84, 0:all_in 171, null]
+7777:[0:fold 0->fold 0, 0:fold 0, null, null]
+8888:[0:fold 0->fold 0, 0:fold 0, null, null]
+billScore : 7
+nofold :3
+flopRate : 0.4745605920444033
+nofold :3
+turnRate : 0.37971014492753624
+nofold :3
+riverRate : 0.396969696969697
+------ActionCount------
+3333:[0:fold 0, 0:fold 0, 0:fold 0, null]
+1111:[0:blind 40, 0:check 40, 0:check 40, 0:check 40]
+2222:[0:call 40, 0:check 40, 0:check 40, null]
+5555:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:call 40, 0:check 40, 0:check 40, null]
+6666:[0:blind 20, 0:fold 20, 0:fold 20, 0:fold 20]
+7777:[0:fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 2
+------ActionCount------
+1111:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, 0:fold 20]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:blind 40->check 40, 0:check 40, 0:raise 90, 0:check 90]
+4444:[0:call 40->call 40, 0:check 40, 0:call 90, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 0
+nofold :3
+flopRate : 1.0
+------ActionCount------
+1111:[0:fold 0->fold 0, 0:fold 0, null, null]
+2222:[0:blind 40->check 40, 0:all_in 2547, null, null]
+3333:[0:fold 0->fold 0, 0:fold 0, null, null]
+5555:[0:fold 20, 0:fold 20->fold 20, null, null]
+4444:[0:call 40->call 40, 0:fold 40, null, null]
+7777:[0:fold 0->fold 0, 0:fold 0, null, null]
+6666:[0:fold 0->fold 0, 0:fold 0, null, null]
+8888:[0:fold 0->fold 0, 0:fold 0, null, null]
+billScore : 8
+nofold :3
+flopRate : 0.5522664199814986
+nofold :3
+turnRate : 0.4454106280193237
+nofold :3
+riverRate : 0.9434343434343434
+------ActionCount------
+2222:[0:blind 20->call 40, 0:check 40, 0:check 40, null]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+4444:[0:blind 40->check 40, 0:check 40, 0:check 40, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 8
+nofold :3
+flopRate : 0.9472710453283997
+nofold :3
+turnRate : 0.8154589371980676
+------ActionCount------
+2222:[0:call 40, 0:raise 80, 0:fold 80, null]
+3333:[0:fold 0, 0:fold 0, 0:fold 0->fold 0, null]
+1111:[0:fold 0, 0:fold 0, 0:fold 0->fold 0, null]
+4444:[0:blind 20, 0:check 40, 0:check 80->fold 80, null]
+5555:[0:fold 0, 0:fold 0, 0:fold 0->fold 0, null]
+7777:[0:blind 40, 0:check 40, 0:raise 320->raise 320, null]
+6666:[0:fold 0, 0:fold 0, 0:fold 0->fold 0, null]
+8888:[0:fold 0, 0:fold 0, 0:fold 0->fold 0, null]
+billScore : 5
+------ActionCount------
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+1111:[0:call 40->call 40, 0:raise 80, 0:raise 124, 0:check 124]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+4444:[0:call 40->call 40, 0:call 80, 0:call 124, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+7777:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, 0:fold 20]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:blind 40->check 40, 0:check 40, 0:check 80, 0:check 124]
+billScore : 0
+------ActionCount------
+3333:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:check 40]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, 0:fold 20]
+billScore : 6
+nofold :4
+flopRate : 0.5781683626271971
+nofold :4
+turnRate : 0.6038647342995169
+nofold :4
+riverRate : 0.6101010101010101
+nofold :3
+riverRate : 0.6101010101010101
+------ActionCount------
+3333:[0:blind 20, 0:check 40, 0:check 40, 0:check 40->fold 40]
+1111:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0->fold 0]
+2222:[0:call 40, 0:check 40, 0:check 40, 0:check 40]
+5555:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0->fold 0]
+4444:[0:call 40, 0:check 40, 0:check 40, 0:raise 440]
+6666:[0:blind 40, 0:check 40, 0:check 40, 0:check 40->fold 40]
+7777:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+billScore : 3
+------ActionCount------
+3333:[0:fold 0, null, null, null]
+1111:[0:blind 40->raise 84, null, null, null]
+2222:[0:fold 0, null, null, null]
+5555:[0:fold 0->fold 0, null, null, null]
+4444:[0:call 40, null, null, null]
+6666:[0:blind 20->fold 20, null, null, null]
+7777:[0:fold 0, null, null, null]
+8888:[0:fold 0, null, null, null]
+billScore : 8
+nofold :5
+flopRate : 0.820536540240518
+------ActionCount------
+1111:[0:blind 20, 0:check 40->fold 40, null, null]
+2222:[0:call 40, 0:fold 40, null, null]
+3333:[0:call 40, 0:fold 40, null, null]
+5555:[0:blind 40, 0:raise 106->fold 106, null, null]
+4444:[0:call 40, 0:raise 172, null, null]
+6666:[0:fold 0, 0:fold 0, null, null]
+7777:[0:fold 0, 0:fold 0, null, null]
+8888:[0:fold 0, 0:fold 0, null, null]
+billScore : 5
+nofold :3
+flopRate : 0.6743755781683626
+nofold :3
+turnRate : 0.5690821256038647
+nofold :3
+riverRate : 0.6747474747474748
+------ActionCount------
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+2222:[0:blind 40->check 40, 0:check 40, 0:check 40, null]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 20, 0:fold 20, 0:fold 20, 0:fold 20]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 7
+nofold :3
+flopRate : 0.9333950046253469
+nofold :3
+turnRate : 0.9120772946859903
+nofold :3
+riverRate : 0.8393939393939394
+------ActionCount------
+2222:[0:blind 20->call 40, 0:raise 80, 0:raise 124, null]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+4444:[0:blind 40->check 40, 0:call 80, 0:call 124, null]
+7777:[0:call 40->call 40, 0:call 80, 0:call 124, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 6
+------ActionCount------
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:blind 20->call 40, 0:check 40, 0:check 40, 0:check 40]
+5555:[0:call 40->call 40, 0:check 40, 0:check 40, 0:check 40]
+7777:[0:blind 40->check 40, 0:fold 40, 0:fold 40, 0:fold 40]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+billScore : 4
+------ActionCount------
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+7777:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, 0:fold 20]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:check 40]
+billScore : 0
+------ActionCount------
+3333:[0:blind 40->check 40, 0:check 40, 0:raise 114, 0:raise 194]
+1111:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:call 40->call 40, 0:check 40, 0:call 114, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+8888:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, 0:fold 20]
+billScore : 0
+------ActionCount------
+3333:[0:blind 20->fold 20, null, null, null]
+1111:[0:fold 0->fold 0, null, null, null]
+2222:[0:fold 0, null, null, null]
+5555:[0:fold 0->fold 0, null, null, null]
+4444:[0:call 40, null, null, null]
+6666:[0:blind 40->fold 40, null, null, null]
+7777:[0:fold 0, null, null, null]
+8888:[0:raise 386, null, null, null]
+billScore : 2
+------ActionCount------
+3333:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+1111:[0:blind 40->check 40, 0:check 40, 0:check 40, 0:check 40]
+2222:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+5555:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, 0:fold 0]
+4444:[0:call 40->call 40, 0:check 40, 0:check 40, null]
+6666:[0:blind 20->fold 20, 0:fold 20, 0:fold 20, 0:fold 20]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 8
+nofold :3
+flopRate : 0.9592969472710453
+nofold :3
+flopRate : 0.9592969472710453
+nofold :3
+turnRate : 0.927536231884058
+------ActionCount------
+1111:[0:blind 20, 0:fold 20->fold 20, 0:fold 20->fold 20, null]
+2222:[0:call 40, 0:raise 195->call 280, 0:fold 280, null]
+3333:[0:fold 0, 0:fold 0->fold 0, 0:fold 0, null]
+5555:[0:blind 40, 0:raise 110->call 280, 0:raise 710->raise 710, null]
+4444:[0:call 40, 0:raise 280->raise 280, 0:fold 280, null]
+6666:[0:fold 0, 0:fold 0->fold 0, 0:fold 0, null]
+7777:[0:fold 0, 0:fold 0->fold 0, 0:fold 0, null]
+8888:[0:fold 0, 0:fold 0->fold 0, 0:fold 0, null]
+billScore : 16
+nofold :4
+flopRate : 0.9463459759481961
+nofold :3
+turnRate : 0.8222222222222222
+nofold :3
+riverRate : 0.7707070707070707
+------ActionCount------
+1111:[0:call 40->call 84, 0:fold 84, 0:fold 84, null]
+2222:[0:blind 40->raise 84, 0:raise 124, 0:check 124, null]
+3333:[0:call 40->call 84, 0:call 124, 0:check 124, null]
+5555:[0:fold 20, 0:fold 20, 0:fold 20, 0:fold 20]
+4444:[0:call 40->call 84, 0:call 124, 0:check 124, null]
+7777:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+6666:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+8888:[0:fold 0->fold 0, 0:fold 0, 0:fold 0, null]
+billScore : 5
+nofold :4
+flopRate : 0.7160037002775208
+nofold :3
+flopRate : 0.7160037002775208
+nofold :3
+turnRate : 0.6695652173913044
+nofold :3
+riverRate : 0.593939393939394
+------ActionCount------
+2222:[0:blind 20->call 40, 0:check 40->call 80, 0:check 80, null]
+3333:[0:fold 0->fold 0, 0:fold 0->fold 0, 0:fold 0, null]
+1111:[0:call 40->call 40, 0:raise 80->raise 80, 0:check 80, null]
+5555:[0:call 40->call 40, 0:fold 40->fold 40, 0:fold 40, null]
+4444:[0:blind 40->check 40, 0:check 40->call 80, 0:check 80, null]
+7777:[0:fold 0->fold 0, 0:fold 0->fold 0, 0:fold 0, null]
+6666:[0:fold 0->fold 0, 0:fold 0->fold 0, 0:fold 0, null]
+8888:[0:fold 0->fold 0, 0:fold 0->fold 0, 0:fold 0, null]
+billScore : 3
+------ActionCount------
+2222:[0:fold 0->fold 0, null, null, null]
+3333:[0:fold 0->fold 0, 0:fold 0, null, null]
+1111:[0:call 40->call 100, 0:fold 100, null, null]
+4444:[0:blind 20->call 40, 0:fold 40, null, null]
+5555:[0:fold 0->fold 0, 0:fold 0, null, null]
+7777:[0:blind 40->raise 100, 0:raise 180, null, null]
+6666:[0:fold 0->fold 0, 0:fold 0, null, null]
+8888:[0:fold 0->fold 0, 0:fold 0, null, null]
+billScore : 3
