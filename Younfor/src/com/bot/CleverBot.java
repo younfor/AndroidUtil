@@ -5,6 +5,8 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.*;
 
+import javax.swing.plaf.metal.MetalIconFactory.FolderIcon16;
+
 import com.ai.Bys;
 import com.ai.MCT;
 import com.bot.Bot;
@@ -21,7 +23,8 @@ public class CleverBot implements Bot {
 	Player me = null;
 	int activeplayer = 0;
 	double oppojetton=0;
-	
+	double aveval = 0, base = 0,minval=10,maxprob=0,maxaverbet=0;
+	boolean raisemuch=false,raisefold=false;
 	public int getBestAction(State state, long time) {
 
 		this.state = state;
@@ -30,7 +33,7 @@ public class CleverBot implements Bot {
 		int action = State.no;
 		int prePlayerActon = State.no;
 		activeplayer = 0;
-		double hightocall=0;
+		double hightocall=0,enterprob=0;
 		for (Player p : state.players) {
 			if (p.getLastaction() != State.fold && prePlayerActon == State.no)
 				prePlayerActon = p.getLastaction();
@@ -40,27 +43,110 @@ public class CleverBot implements Bot {
 			if ((!p.getPid().equals(state.pid)) && p.isAlive())
 			{
 				debug("jetton:"+p.getJetton()+":"+p.getLastaction());
+				if(state.bys2.get(p.getPid())!=null&&state.bys2.get(p.getPid()).enterpotnum/State.seatnum>enterprob)
+					enterprob=state.bys2.get(p.getPid()).enterpotnum/State.seatnum;
+				//debug("enter prob:"+enterprob);
 				if(oppojetton<p.getJetton())
 					oppojetton=p.getJetton();
 				debug("oppojetton:"+oppojetton);
 				activeplayer++;
 			}
+			State.enterprob=enterprob;
+			debug("enterprob: "+enterprob);
 			//debug(p.getPid()+":"+p.getBet());
 			hightocall = Math.max(p.getBet(), hightocall);
 		}
 		debug("active player: " + activeplayer);
+		aveval = 0;
+		base = 0;
+		minval=10;
+		maxprob=0;
+		maxaverbet=0;
+		raisemuch=false;
+		raisefold=false;
+		try{
+			for (Player p : state.players) {
+				if (p.isAlive() && (!p.getPid().equals(state.pid))) {
+					int ac[] = new int[state.currentState - State.baseState + 1];
+					int ac2[] = new int[state.currentState - State.baseState + 1];
+					for (int j = 0; j < ac.length; j++) {
+						ac[j] = p.actions[j];
+						ac2[j] = p.actions2[j];
+					}
+					if(state.bys2.get(p.getPid())!=null)
+					{
+						double pro=(state.bys2.get(p.getPid()).getVal(ac2));
+						debug(p.getPid()+": pro b "+(state.bys2.get(p.getPid()).getVal(ac2)));
+						double averaisebet=0,maxraisebet=0;
+						if(pro>maxprob)
+							maxprob=pro;
+						if(state.currentState==State.baseState)
+						{
+							averaisebet=state.bys2.get(p.getPid()).preflopbet/state.bys2.get(p.getPid()).preflopnum;
+							maxraisebet=state.bys2.get(p.getPid()).maxpreflopbet;
+							if((averaisebet+maxraisebet)/2.0<(p.getBet()-state.getPrebet()))
+								raisefold=true;
+							if(averaisebet*1.04<(p.getBet()-state.getPrebet()))
+								raisemuch=true;
+							
+						}
+						if(state.currentState==State.flopState)
+						{
+							maxraisebet=state.bys2.get(p.getPid()).maxflopbet;
+							averaisebet=state.bys2.get(p.getPid()).flopbet/state.bys2.get(p.getPid()).flopnum;
+							if((averaisebet+maxraisebet)/2.0<(p.getBet()-state.getPrebet()))
+								raisefold=true;
+							if(averaisebet<(p.getBet()-state.getPrebet()))
+								raisemuch=true;
+						}
+						if(state.currentState==State.turnState)
+						{
+							maxraisebet=state.bys2.get(p.getPid()).maxturnbet;
+							averaisebet=state.bys2.get(p.getPid()).turnbet/state.bys2.get(p.getPid()).turnnum;
+							if((averaisebet+maxraisebet)/2.0<(p.getBet()-state.getPrebet()))
+								raisefold=true;
+							if(averaisebet<(p.getBet()-state.getPrebet()))
+									raisemuch=true;
+						}
+						if(state.currentState==State.riverState)
+						{
+							maxraisebet=state.bys2.get(p.getPid()).maxriverbet;
+							averaisebet=state.bys2.get(p.getPid()).riverbet/state.bys2.get(p.getPid()).rivernum;
+							if((averaisebet+maxraisebet)/2.0<(p.getBet()-state.getPrebet()))
+								raisefold=true;
+							if(averaisebet<(p.getBet()-state.getPrebet()))
+								raisemuch=true;
+						}
+						if(averaisebet>maxaverbet)
+							maxaverbet=averaisebet;
+						debug("raisefold: "+raisefold+" raisemuch:"+raisemuch+"averraise:"+averaisebet+",raise:"+(p.getBet()-state.getPrebet()));
+						debug("maxraisebet:"+maxraisebet);
+					}
+					if (ac[ac.length - 1] != Bys.fold) {
+						double oppoval = 0;
+						if(state.bys.get(p.getPid())!=null)
+							oppoval=state.bys.get(p.getPid()).getVal(ac);
+						Log.getIns(state.pid).log(
+								"val" + p.getPid() + ":" + oppoval);
+						if (oppoval > 0 && oppoval < 10) {
+							if(oppoval<minval)
+								minval=oppoval;
+							aveval += oppoval;
+							base++;
+						}
+					}
+				}
+			}
+		}catch(Exception e)
+		{
+			debug("exception");
+			e.printStackTrace();
+			base=0;
+		}
 		// previous-flop
 		if (state.currentState == State.baseState) {
-			if(hightocall-state.getPrebet()>15*state.bigblindbet&&state.getJetton()<150*state.bigblindbet)
-			{
-				debug("too big handcards");
+			if(raisefold&&hightocall>state.getInitjetton()/8)
 				return State.fold;
-			}
-			if(hightocall-state.getPrebet()>8*state.bigblindbet&&state.getJetton()<40*state.bigblindbet)
-			{
-				debug("too big handcards");
-				return State.fold;
-			}
 			// EP
 			if ((action = getEP()) != State.no ) {
 				if (action == State.raise && (state.myraisenum >= 1||hightocall>3*state.bigblindbet))
@@ -95,29 +181,44 @@ public class CleverBot implements Bot {
 		if (state.myloc == State.bigblind) {
 			debug("big  blind");
 			if (level1()) {
-				State.raisebet = (2+state.callnum)*state.bigblindbet ;
+				if(!raisemuch)
+					State.raisebet = (int)(2.5*state.bigblindbet) ;
+				else
+					return State.call;
+				
 				return State.raise;
+				
 			}
 			if (level2()) {
 				if(isFoldAll()||isCall1()||isCall2())
 				{
-					State.raisebet=(1+state.callnum)*state.bigblindbet;
+					State.raisebet=state.bigblindbet;
 					return State.raise;
 				}
 				if(isRaise1Call0())
 				{
-					State.raisebet=state.bigblindbet;
+					if(!raisemuch)
+						State.raisebet =(int)(2.5*state.bigblindbet) ;
+					else
+						return State.call;
 					return State.raise;
 				}
 				if(isRaise1Call1())
 				{
-					return State.call;
+					if(!raisemuch)
+						State.raisebet = (int)(2.5*state.bigblindbet) ;
+					else
+						return State.call;
+					return State.raise;
 				}
 			}
 			if (level3()) {
 				if(isFoldAll()||isCall1()||isCall2())
 				{
-					State.raisebet=(1+state.callnum)*state.bigblindbet/2;
+					if(!raisemuch)
+						State.raisebet = state.bigblindbet ;
+					else
+						return State.call;
 					return State.raise;
 				}
 				if(isRaise1Call0())
@@ -145,7 +246,9 @@ public class CleverBot implements Bot {
 				}
 				if(isCall1()||isCall2())
 				{
-					return State.check;
+					State.raisebet=(int)(2.5*state.bigblindbet) ;
+					return State.raise;
+					//return State.check;
 				}
 			}
 			if (level5()) {
@@ -158,9 +261,18 @@ public class CleverBot implements Bot {
 				{
 					return State.check;
 				}
+				if(!raisemuch)
+				{
+					return State.call;
+				}
+				else
+					return State.fold;
+				
 			}
 			if(isFoldAll()||isCall1()||isCall2())
+			{
 				return State.check;
+			}
 		}
 		return State.no;
 	}
@@ -169,14 +281,14 @@ public class CleverBot implements Bot {
 		if (state.myloc == State.EP) {
 			debug("EP");
 			if (level1()) {
-				State.raisebet = (1+state.callnum)* state.bigblindbet/2;
-				return State.raise;
+					State.raisebet = 2*state.bigblindbet;
+					return State.raise;
 			}
 			if (level2()) {
 				if(isFoldAll()||isCall1()||isCall2())
 				{
 					debug("foldall call1 call2");
-					State.raisebet=(state.callnum)*state.bigblindbet/2;
+					State.raisebet=state.bigblindbet;
 					return State.raise;
 				}
 				if(isRaise1Call0())
@@ -190,17 +302,25 @@ public class CleverBot implements Bot {
 			}
 			if (level3()) {
 				if(isFoldAll()||isCall1()||isCall2()||isRaise1Call0())
-					return State.fold;
+					{
+						return State.fold;
+					}
 				if(isRaise1Call1()&&isSameSuit()&&is(13,12))
 					return State.call;
 			}
 			if (level4()) {
 				if(isFoldAll()||isCall1()||isRaise1Call0())
+				{
 					return State.fold;
+				}
 				if(isCall2()||isRaise1Call1())
 					return State.call;
 			}
 			if (level5()) {
+				if(isRaise1Call0()||isRaise1Call1())
+				{
+					return State.fold;
+				}
 				return State.call;
 			}
 		}
@@ -211,19 +331,18 @@ public class CleverBot implements Bot {
 		if (state.myloc == State.MP) {
 			debug("MP");
 			if (level1()) {
-				State.raisebet = (1+state.callnum) * state.bigblindbet;
-				return State.raise;
+					State.raisebet = 2* state.bigblindbet;
+					return State.raise;
 			}
 			if (level2()) {
 				if(isFoldAll()||isCall1()||isCall2())
 				{
-					State.raisebet=(int)(0.5+state.callnum)*state.bigblindbet;
+					State.raisebet=state.bigblindbet;
 					return State.raise;
 				}
 				if(isRaise1Call0())
 				{
-					State.raisebet=state.bigblindbet;
-					return State.raise;
+					return State.call;
 				}
 				if(isRaise1Call1())
 				{
@@ -233,21 +352,29 @@ public class CleverBot implements Bot {
 			if (level3()) {
 				if(isFoldAll()||isCall1()||isCall2())
 				{
-					State.raisebet=(1+state.callnum)*state.bigblindbet/2;
+					State.raisebet=state.bigblindbet;
 					return State.raise;
 				}
 				if(isRaise1Call0())
+				{
 					return State.fold;
+				}
 				if(isRaise1Call1()&&isSameSuit()&&is(13,12))
 					return State.call;
 			}
 			if (level4()) {
 				if(isFoldAll()||isCall1()||isRaise1Call0())
+				{
 					return State.fold;
+				}
 				if(isCall2()||isRaise1Call1())
 					return State.call;
 			}
 			if ( level5()) {
+				if(isRaise1Call0()||isRaise1Call1())
+				{
+					return State.fold;
+				}
 				return State.call;
 			}
 		}
@@ -258,67 +385,81 @@ public class CleverBot implements Bot {
 		if (state.myloc == State.LP) {
 			debug("LP");
 			if (level1()) {
-				State.raisebet = (int)(1.5+state.callnum) * state.bigblindbet;
-				return State.raise;
+					return State.call;
 			}
 			if (level2()) {
 				if(isFoldAll()||isCall1()||isCall2())
 				{
 					debug("foldall call1 call2");
-					State.raisebet=(1+state.callnum)*state.bigblindbet;
+					State.raisebet=(int)(2.5*state.bigblindbet);
 					return State.raise;
 				}
-				if(isRaise1Call0())
+				if(isRaise1Call0()||isRaise1Call1())
 				{
 					debug("foldall call1 call2");
-					State.raisebet=state.bigblindbet;
+					if(!raisemuch)
+						State.raisebet=4*state.bigblindbet;
+					else
+						return State.call;
 					return State.raise;
-				}
-				if(isRaise1Call1())
-				{
-					return State.call;
 				}
 			}
 			if (level3()) {
 				if(isFoldAll()||isCall1()||isCall2())
 				{
-					State.raisebet=(state.callnum)*state.bigblindbet/2;
+					debug("foldall call1 call2");
+					State.raisebet=(int)(2.5*state.bigblindbet);
 					return State.raise;
 				}
-				if(isRaise1Call0())
+				if(isRaise1Call0()||isRaise1Call1())
 				{
-					return State.fold;
-				}
-				if(isRaise1Call1()&&isSameSuit()&&is(13,12))
-				{
-					return State.call;
+					debug("foldall call1 call2");
+					if(!raisemuch)
+						State.raisebet=4*state.bigblindbet;
+					else
+						return State.call;
+					return State.raise;
 				}
 			}
 			if (level4()) {
-				if(isFoldAll())
+				if(isFoldAll()||isCall1()||isCall2())
 				{
-					State.raisebet=state.bigblindbet;
+					debug("foldall call1 call2");
+					State.raisebet=(int)(2.5*state.bigblindbet);
 					return State.raise;
 				}
-				if(isRaise1Call0())
+				if(isRaise1Call0()||isRaise1Call1())
 				{
-					return State.fold;
-				}
-				if(isCall1()||isCall2()||isRaise1Call1())
-				{
-					return State.call;
+					debug("foldall call1 call2");
+					if(!raisemuch)
+						State.raisebet=4*state.bigblindbet;
+					else
+						return State.call;
+					return State.raise;
 				}
 			}
 			if (level5()) {
 				if(isFoldAll())
 				{
-					State.raisebet=state.bigblindbet;
+					debug("testnew");
+					State.raisebet=3*state.bigblindbet;
 					return State.raise;
 				}
 				if(isCall1()||isCall2())
 				{
 					return State.call;
 				}
+				if(!raisemuch)
+					return State.call;
+				else
+					return State.fold;
+			}
+			if(isCall1()||isFoldAll()||isCall2()&&state.getInitjetton()>80*state.bigblindbet)
+			{
+				debug("xiahu");
+				State.xiahu=true;
+				State.raisebet=(int)(2.2*state.bigblindbet);
+				return State.raise;
 			}
 		}
 		return State.no;
@@ -367,6 +508,11 @@ public class CleverBot implements Bot {
 	}
 	public boolean level5() {
 		
+		if(state.getInitjetton()<25*state.bigblindbet)
+		{
+			debug("level 5 but less than 1000");
+			return false;
+		}
 		if (isSameSuit()) {
 			if ( is(13,9)||is(9,8)||is(8,7)||is(14, 9) || is(14, 8) || is(14, 7) || is(14, 6)
 					|| is(14, 5)||is(14,4)||is(14,3)||is(14,2)) {
@@ -385,11 +531,16 @@ public class CleverBot implements Bot {
 	{
 		if(isSameSuit())
 		{
-			if(is(10,8))
+			if(is(10,8)||is(10,9)||is(9,8)||is(8,7))
 			{
 				debug("level 6");
 				return true;
 			}
+		}
+		if ( is(13,9)||is(14, 9) || is(14, 8) || is(14, 7) || is(14, 6)
+				|| is(14, 5)||is(14,4)||is(14,3)||is(14,2)) {
+			debug("level 6");
+			return true;
 		}
 		return false;
 	}
@@ -477,13 +628,13 @@ public class CleverBot implements Bot {
 				threads.awaitTermination(1, TimeUnit.MINUTES);
 			} catch (Exception e) {
 			}
-			double add = 0.057;
+			double add = 0.064;
 			if (comm.length >= 5)
 				add = 0.001;
 			else if (comm.length >= 4)
-				add = 0.011;
+				add = 0.012;
 			else if (comm.length >= 3)
-				add = 0.023;
+				add = 0.025;
 			double prob = won.doubleValue() / total.doubleValue();
 			double deficit = 1.0 - prob;
 			prob += deficit * add;
@@ -502,114 +653,21 @@ public class CleverBot implements Bot {
 			int activeIncludingSelf = activePlayers + 1;
 			int tocall = (int) ((state.getInitjetton() * (prob
 					* activeIncludingSelf - 1))
-					/ activePlayers * 0.68);
+					/ activePlayers * 0.8);
 			int maxbet=1;
-			int level=0;// 0 low  1 high
-			if(state.getInitjetton()>100*state.bigblindbet && me.getGold()>40*state.bigblindbet)
-			{
-				//  4000  2000
-				 level=2; 
-				 maxbet= (int) (state.getInitjetton() / 2.2);
-			}
-			else if(state.getInitjetton()>100*state.bigblindbet)
-			{
-				// 4000  0
-				 maxbet= (int) (state.getInitjetton() / 2.2);
-				 level=2;
-				 debug("more than 8000");
-			}else if(me.getGold()>40*state.bigblindbet)
-			{
-				//  2000 2000
-				level=1;
-				maxbet = (int) (state.getInitjetton() / 1.8);
-			}else
-			{
-				// 2000 0
-				level=1;
-				maxbet = (int) (state.getInitjetton() / 1.8);
-			}
+			maxbet= (int) (state.getInitjetton() / 1.8);
 			int prebet = 0;
 			try {
 				prebet = state.getPrebet();
 			} catch (Exception e) {
 				prebet = 0;
 			}
-			
-			
 			if (tocall > maxbet)
 				tocall = maxbet;
 			Log.getIns(state.pid).log("hightocall: "+hightocall+" "+
 					" tocall " + tocall + " maxbet " + maxbet + " prebet "
 							+ prebet + " prob " + prob + "\n");
-			Log.getIns(state.pid).log("myprobval:" + state.getMyVal());
-			double myval = state.getMyVal();
-			double aveval = 0, base = 0,minval=10,maxprob=0;
-			boolean raisemuch=false;
-			try{
-				for (Player p : players) {
-					if (p.isAlive() && (!p.getPid().equals(state.pid))) {
-						int ac[] = new int[state.currentState - State.baseState + 1];
-						int ac2[] = new int[state.currentState - State.baseState + 1];
-						for (int j = 0; j < ac.length; j++) {
-							ac[j] = p.actions[j];
-							ac2[j] = p.actions2[j];
-						}
-						if(state.bys2.get(p.getPid())!=null)
-						{
-							double pro=(state.bys2.get(p.getPid()).getVal(ac2));
-							debug(p.getPid()+": pro b "+(state.bys2.get(p.getPid()).getVal(ac2)));
-							double averaisebet=0;
-							if(pro>maxprob)
-								maxprob=pro;
-							if(state.currentState==State.baseState)
-							{
-								averaisebet=state.bys2.get(p.getPid()).preflopbet/state.bys2.get(p.getPid()).preflopnum;
-								if(averaisebet*1.04<(p.getBet()-state.getPrebet()))
-										raisemuch=true;
-							}
-							if(state.currentState==State.flopState)
-							{
-								averaisebet=state.bys2.get(p.getPid()).flopbet/state.bys2.get(p.getPid()).flopnum;
-								if(averaisebet*1.05<(p.getBet()-state.getPrebet()))
-										raisemuch=true;
-							}
-							if(state.currentState==State.turnState)
-							{
-								averaisebet=state.bys2.get(p.getPid()).turnbet/state.bys2.get(p.getPid()).turnnum;
-								if(averaisebet*1.06<(p.getBet()-state.getPrebet()))
-										raisemuch=true;
-							}
-							if(state.currentState==State.riverState)
-							{
-								averaisebet=state.bys2.get(p.getPid()).riverbet/state.bys2.get(p.getPid()).rivernum;
-								if(averaisebet*1.07<(p.getBet()-state.getPrebet()))
-										raisemuch=true;
-							}
-							debug("raisemuch:"+raisemuch+"averraise:"+averaisebet+",raise:"+(p.getBet()-state.getPrebet()));
-						}
-						if (ac[ac.length - 1] != Bys.fold) {
-							double oppoval = 0;
-							if(state.bys.get(p.getPid())!=null)
-								oppoval=state.bys.get(p.getPid()).getVal(ac);
-							Log.getIns(state.pid).log(
-									"val" + p.getPid() + ":" + oppoval);
-							if (oppoval > 0 && oppoval < 10) {
-								if(oppoval<minval)
-									minval=oppoval;
-								aveval += oppoval;
-								base++;
-							}
-						}
-					}
-				}
-			}catch(Exception e)
-			{
-				debug("exception");
-				e.printStackTrace();
-				base=0;
-			}
 			double highbet=hightocall;
-			
 			if (tocall < hightocall) {
 				debug("callfold");
 				
@@ -625,246 +683,40 @@ public class CleverBot implements Bot {
 						.log(((double) state.getInitjetton() - prebet)
 								/ state.getInitjetton());
 				debug("count :" + (prob1 + prob2) + "   " + prob3);
-				if(base!=0)
-					debug("level:"+level+",base="+base+", ave/base:"+(aveval/base));
-				else
-					debug("base=0");
 				debug("h-p:"+(highbet-prebet)+",15BB:"+(15*state.bigblindbet));
-				//must fold
-				if(highbet-prebet>0&&raisemuch&&(isRaise1Call0()||isRaise1Call1())&&maxprob>0.8&&State.flopState==state.currentState&&prob<maxprob-0.1)
+				if (prob1 + prob2 >= prob3) 
 				{
-					debug("must fold");
-					return State.fold;
-				}
-				//scare
-				if(highbet-prebet<=state.bigblindbet&&state.raisenum<=1&&(maxprob<0.6&&maxprob!=0)&&prob>0.27&&prob<0.50&&State.flopState==state.currentState)
-				{
-						debug("just a test");
-						State.raisebet=state.bigblindbet;
-						return State.raise;
-				}
-				//protect
-				if(raisemuch&&State.flopState==state.currentState&&(isRaise1Call0()||isRaise1Call1())&&prob<0.27&&highbet-prebet>2*state.bigblindbet&&maxprob>0.6)
-				{
-					debug("protect fold");
-					return State.fold;
-				}
-				if((isCall1()||isCall2())&&maxprob<0.6&&prob>0.4&&state.raisenum==0&&state.currentState==State.flopState)
-				{
-					debug("protect raise");
-					State.raisebet=state.bigblindbet;
-					return State.raise;
-				}
-				if (prob1 + prob2 >= prob3 && (base==0 ||myval<aveval/base+1||level==2||prob>maxprob)) {
-					{
-						//by 6-2 12:57
-						if(level!=2&&raisemuch&&(prob<maxprob||maxprob==0)&&highbet-prebet>2*state.bigblindbet&&State.riverState!=state.currentState)
-						{
-							debug("avoid huluwa");
-							return State.fold;
-						}
-						if(((highbet-prebet)>5*state.bigblindbet)&&(prob<0.85)&&state.getInitjetton()<25*state.bigblindbet&&me.getGold()<5*state.bigblindbet)
-						{
-							debug("big oppoent less than 1000");
-							return State.fold;
-						}
-						if((highbet-prebet>20*state.bigblindbet)&&level!=2&&(prob<maxprob||maxprob==0||raisemuch)&&prob<0.62)
-						{
-							debug("d fold");
-							return State.fold;
-						}
-						else if((prob<0.4)&&highbet-prebet>5*state.bigblindbet&&(maxprob-0.5>prob))
-						{
-							debug("doubi fold");
-							return State.fold;
-						}
-						else if((highbet-prebet>15*state.bigblindbet)&&(prob<0.8)&&(maxprob==0||maxprob>prob||raisemuch))
-						{
-							if(maxprob<0.6&&level>=2)
-							{
-								debug("big call");
-								return State.call;
-							}
-							debug("big oppoent");
-							return State.fold;
-						}
-		
-						
-						debug("stupid call:" + (prob1 + prob2) + "   " + prob3);
-						return State.call;
-					}
-				} else if(state.raisenum>0&&highbet-prebet>0) {
-					debug("shaby fold");
-					return State.fold;
-				}else 
+					if(raisefold&&highbet>state.getInitjetton()/5&&prob<maxprob+0.1)
+						return State.fold;
+					return State.call;
+				}else if((state.raisenum==0&&highbet-prebet==0))
 				{
 					debug("shaby call");
 					return State.call;
 				}
+				else if(prob>maxprob&&(!raisemuch))
+					return State.call;
+				else
+				{
+					return State.fold;
+				}
 			} else {
 				debug("raisecall");
-				State.raisebet=(int)((state.getJetton()*1.0*state.totalpot/(state.totalpot+state.getJetton()))*prob*prob/(maxprob*(activeIncludingSelf+state.raisenum)));
+				double size=1,scale=state.getInitjetton()/(50.0*state.bigblindbet);
+				size=Math.sqrt(scale);
+				debug("size:"+size);
+				State.raisebet=(int)(size*tocall/(1+maxprob));
 				//test
 				if(state.currentState==State.flopState||state.currentState==State.turnState||state.currentState==State.riverState)
 				{
-					if(prob>0.93)
+					if(highbet-prebet==0)
 					{
-						debug("test skill");
-						if(highbet-prebet>16*state.bigblindbet&&prebet>=10*state.bigblindbet)
-						{
-							debug("0.93 call");
-							return State.call;
-						}
-						else if(state.raisenum==1&&maxprob<prob)
-						{
-							debug("0.93 total");
-							if(raisemuch)
-								return State.call;
-							//State.raisebet=(int)(state.totalpot*prob*prob);
-							return State.raise;
-						}
-						else if(state.raisenum==0)
-						{
-							debug("0.93 raise");
-							//State.raisebet=(int)(state.totalpot*prob*prob);
-							return State.raise;
-						}
-						
-					}
-					if(prob>0.8)
-					{
-						debug("test skill");
-						if(highbet-prebet>25*state.bigblindbet&&(myval>aveval/base||base==0)&&maxprob>prob&&prob<0.9&&level==1)
-						{
-							if(state.raisenum>0&&prob<maxprob&&raisemuch)
-							{
-								debug("raisemuch");
-								return State.fold;
-							}
-							debug("0.8 fold");
-							return State.fold;
-						}
-						else if(highbet-prebet>16*state.bigblindbet)
-						{
-							if(state.currentState==State.flopState&&prob<maxprob&&raisemuch)
-							{
-								debug("raisemuch 0.8");
-								return State.fold;
-							}
-							debug("0.8 call");
-							return State.call;
-						}
-						else if(state.raisenum==1&&maxprob<prob)
-						{
-							debug("0.8 total");
-							if(raisemuch)
-								return State.call;
-							//State.raisebet=(int)(state.totalpot*prob*prob);
-							return State.raise;
-						}
-						else if(state.raisenum==0)
-							State.raisebet=(int)(state.totalpot*prob*prob);
+						State.raisebet=(int)(maxaverbet*prob/(0.6+maxprob));
 						return State.raise;
-					}
-					if(prob>0.7)
-					{
-						debug("test skill");
-						if(highbet-prebet>16*state.bigblindbet&&(myval>aveval/base||base==0)&&maxprob>prob&&prob<0.8&&level==1)
-						{
-							if(state.raisenum>0&&prob<maxprob&&raisemuch)
-							{
-								debug("raisemuch");
-								return State.fold;
-							}
-							debug("0.7 fold");
-							return State.fold;
-						}
-						else if(highbet-prebet>12*state.bigblindbet)
-						{
-							if(state.currentState==State.flopState&&prob<maxprob&&raisemuch)
-							{
-								debug("raisemuch 0.7");
-								return State.fold;
-							}
-							debug("0.7 call");
+					}else if(highbet-prebet>0&&(isRaise1Call0()||isRaise1Call1())&&(!raisemuch)&&(!raisefold))
+							return State.raise;
+						else if(raisemuch)
 							return State.call;
-						}
-						else if(state.raisenum==1&&maxprob<prob)
-						{
-							debug("0.7 toall");
-							if(raisemuch)
-								return State.call;
-							//State.raisebet=(int)(state.totalpot*prob*prob);
-							return State.raise;
-						}
-						else if(state.raisenum==0)
-						{
-							debug("0.7 raise");
-							//State.raisebet=(int)(state.totalpot*prob*prob);
-							return State.raise;
-						}
-					}
-					if(prob>0.6)
-					{
-						debug("big bet");
-						if(highbet-prebet>10*state.bigblindbet&&(myval>aveval/base||base==0)&&maxprob>prob&&prob<0.7&&level==1)
-						{
-							if(state.raisenum>0&&prob<maxprob&&raisemuch)
-							{
-								debug("raisemuch");
-								return State.fold;
-							}
-							debug("0.6 fold");
-							return State.fold;
-						}
-						else if(highbet-prebet>6*state.bigblindbet)
-						{
-							if(state.currentState==State.flopState&&prob<maxprob&&raisemuch)
-							{
-								debug("raisemuch 0.6");
-								return State.fold;
-							}
-							debug("0.6 call");
-							return State.call;
-						}
-						else if(state.raisenum==1&&maxprob<prob)
-						{
-							debug("0.6 raise");
-							if(raisemuch)
-								return State.call;
-							//State.raisebet=(int)(state.totalpot*prob*prob);
-							return State.raise;
-						}
-						else if(state.raisenum==0)
-						{
-							debug("0.6 raise");
-							//State.raisebet=(int)(state.totalpot*prob*prob);
-							return State.raise;
-						}
-					}
-					if(prob<0.46&&(myval>aveval/base||base==0)&&highbet-prebet>6*state.bigblindbet&&maxprob>prob&&level==1&&state.currentState==State.flopState)
-					{
-						debug("0.6 fold");
-						if(state.raisenum>0&&prob<maxprob&&raisemuch)
-						{
-							debug("raisemuch");
-							return State.fold;
-						}
-						return State.fold;
-					}
-					if(state.raisenum>0&&prob<maxprob&&raisemuch)
-					{
-						debug("raisemuch");
-						return State.fold;
-					}
-					if(prob>0.5&&state.raisenum==0&&maxprob<0.8)
-					{
-						debug("0.5 raise");
-						if(raisemuch)
-							return State.call;
-						//State.raisebet=(int)(state.totalpot*prob*prob);
-						return State.raise;
-					}
 				}
 		
 				return State.call;
