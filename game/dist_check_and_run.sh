@@ -89,12 +89,12 @@ killall game* >/dev/null 2>&1
   #./game 127.0.0.1 6000 127.0.0.$i 600$i $i$i$i$i
 #./chappie 127.0.0.1 6000 127.0.0.$i 600$i $i$i$i$i 0</dev/null 1>/dev/null &>"err$i$i$i$i.txt" &
 #done
-./youn 127.0.0.1 6000 127.0.0.1 6001 1111 0</dev/null 1>/dev/null &>"err1111.txt" &
-./gameyjk 127.0.0.1 6000 127.0.0.2 6002 2222 0</dev/null 1>/dev/null &>"err2222.txt" &
-./gamemitu 127.0.0.1 6000 127.0.0.3 6003 3333 0</dev/null 1>/dev/null 2>/dev/null &
+./game_hc0610 127.0.0.1 6000 127.0.0.1 6001 1111 0</dev/null 1>/dev/null &>"err1111.txt" &
+./youn 127.0.0.1 6000 127.0.0.2 6002 2222 0</dev/null 1>/dev/null &>"err2222.txt" &
+./game_jltx43 127.0.0.1 6000 127.0.0.3 6003 3333 0</dev/null 1>/dev/null 2>/dev/null &
 #./gameo 127.0.0.1 6000 127.0.0.3 6003 3333 0</dev/null 1>/dev/null &>"err3333.txt" &
-./gamesouth 127.0.0.1 6000 127.0.0.4 6004 4444 0</dev/null 1>/dev/null &>"err4444.txt" &
-./game_jltx35 127.0.0.1 6000 127.0.0.5 6005 5555 0</dev/null 1>/dev/null &>"err5555.txt" &
+./youn 127.0.0.1 6000 127.0.0.4 6004 4444 0</dev/null 1>/dev/null &>"err4444.txt" &
+./gamedsb 127.0.0.1 6000 127.0.0.5 6005 5555 0</dev/null 1>/dev/null &>"err5555.txt" &
 ./gamesouth 127.0.0.1 6000 127.0.0.6 6006 6666 0</dev/null 1>/dev/null &>"err6666.txt" &
 ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777 0</dev/null 1>/dev/null &>"err7777.txt" &
 ./gamesouth 127.0.0.1 6000 127.0.0.8 6008 8888 0</dev/null 1>/dev/null &>"err8888.txt" &

@@ -310,6 +310,54 @@ public class Game {
 							}
 						}
 						//debug("set "+p.getPid()+" bys state/actions "+(state.currentState-State.baseState)+":"+p.actions[state.currentState-State.baseState]);
+						if(!state.bys2.containsKey(p.getPid()))
+						{
+							state.bys2.put(p.getPid(), new Bys2());
+						}
+						if(state.currentState==State.flopState&&state.bys2.get(p.getPid()).prevaction!=State.fold)
+						{
+							if(!state.bys2.containsKey(p.getPid()))
+							{
+								state.bys2.put(p.getPid(), new Bys2());
+							}
+							if(p.getLastaction()==State.call||p.getLastaction()==State.check)
+								state.bys2.get(p.getPid()).flopaction[1]++;
+							if(p.getLastaction()==State.fold)
+								state.bys2.get(p.getPid()).flopaction[0]++;
+							if(p.getLastaction()==State.raise||p.getLastaction()==State.all_in)
+								state.bys2.get(p.getPid()).flopaction[2]++;
+							
+						}
+						if(state.currentState==State.turnState&&state.bys2.get(p.getPid()).prevaction!=State.fold)
+						{
+							if(!state.bys2.containsKey(p.getPid()))
+							{
+								state.bys2.put(p.getPid(), new Bys2());
+							}
+							if(p.getLastaction()==State.call||p.getLastaction()==State.check)
+								state.bys2.get(p.getPid()).turnaction[1]++;
+							if(p.getLastaction()==State.fold)
+								state.bys2.get(p.getPid()).turnaction[0]++;
+							if(p.getLastaction()==State.raise||p.getLastaction()==State.all_in)
+								state.bys2.get(p.getPid()).turnaction[2]++;
+							
+						}
+						if(state.currentState==State.riverState&&state.bys2.get(p.getPid()).prevaction!=State.fold)
+						{
+							if(!state.bys2.containsKey(p.getPid()))
+							{
+								state.bys2.put(p.getPid(), new Bys2());
+							}
+							if(p.getLastaction()==State.call||p.getLastaction()==State.check)
+								state.bys2.get(p.getPid()).riveraction[1]++;
+							if(p.getLastaction()==State.fold)
+								state.bys2.get(p.getPid()).riveraction[0]++;
+							if(p.getLastaction()==State.raise||p.getLastaction()==State.all_in)
+								state.bys2.get(p.getPid()).riveraction[2]++;
+							
+						}
+						//prevaction
+						state.bys2.get(p.getPid()).prevaction=p.getLastaction();
 						if(p.getLastaction()==State.raise||p.getLastaction()==State.all_in)
 						{
 							if(!p.getPid().equals(state.pid))
@@ -323,24 +371,29 @@ public class Game {
 								{
 									state.bys2.get(p.getPid()).preflopbet+=p.getBet()-state.getPrebet();
 									state.bys2.get(p.getPid()).maxpreflopbet=Math.max(state.bys2.get(p.getPid()).maxpreflopbet, p.getBet()-state.getPrebet());
+									state.bys2.get(p.getPid()).minpreflopbet=Math.min(state.bys2.get(p.getPid()).minpreflopbet, p.getBet()-state.getPrebet());
 									state.bys2.get(p.getPid()).preflopnum++;
 								}
 								if(state.currentState==State.flopState)
 								{
 									state.bys2.get(p.getPid()).flopbet+=p.getBet()-state.getPrebet();
 									state.bys2.get(p.getPid()).maxflopbet=Math.max(state.bys2.get(p.getPid()).maxflopbet, p.getBet()-state.getPrebet());
+									state.bys2.get(p.getPid()).minflopbet=Math.min(state.bys2.get(p.getPid()).minflopbet, p.getBet()-state.getPrebet());
 									state.bys2.get(p.getPid()).flopnum++;
 								}
 								if(state.currentState==State.turnState)
 								{
 									state.bys2.get(p.getPid()).turnbet+=p.getBet()-state.getPrebet();
 									state.bys2.get(p.getPid()).maxturnbet=Math.max(state.bys2.get(p.getPid()).maxturnbet, p.getBet()-state.getPrebet());
+									state.bys2.get(p.getPid()).minturnbet=Math.min(state.bys2.get(p.getPid()).minturnbet, p.getBet()-state.getPrebet());
+									
 									state.bys2.get(p.getPid()).turnnum++;
 								}
 								if(state.currentState==State.riverState)
 								{
 									state.bys2.get(p.getPid()).riverbet+=p.getBet()-state.getPrebet();
 									state.bys2.get(p.getPid()).maxriverbet=Math.max(state.bys2.get(p.getPid()).maxriverbet, p.getBet()-state.getPrebet());
+									state.bys2.get(p.getPid()).minriverbet=Math.min(state.bys2.get(p.getPid()).minriverbet, p.getBet()-state.getPrebet());
 									
 									state.bys2.get(p.getPid()).rivernum++;
 								}

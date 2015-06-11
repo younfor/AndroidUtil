@@ -2,6 +2,7 @@ package com.ai;
 
 import java.io.IOException;
 
+import com.game.State;
 import com.util.Log;
 
 public class Bys2 {
@@ -10,8 +11,13 @@ public class Bys2 {
 	int p[][][][][]=new int[5][5][5][5][2];
 	public double flopbet=0,preflopbet=0,turnbet=0,riverbet=0;
 	public double maxflopbet=0,maxpreflopbet=0,maxturnbet=0,maxriverbet=0;
+	public double minflopbet=0,minpreflopbet=0,minturnbet=0,minriverbet=0;
+	public double flopaction[]=new double[]{0,0,0};//fold call raise
+	public double turnaction[]=new double[]{0,0,0};//fold call raise
+	public double riveraction[]=new double[]{0,0,0};//fold call raise
 	public double flopnum=0.1,preflopnum=0.1,turnnum=0.1,rivernum=0.1;
 	public double enterpotnum=0;
+	public int prevaction=State.call;
 	public void addBys(int []ac,int win) throws IOException
 	{
 		int stat[]=new int[]{fold,fold,fold,fold};
