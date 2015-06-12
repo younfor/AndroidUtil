@@ -747,11 +747,15 @@ public class CleverBot implements Bot {
 				debug("h-p:"+(highbet-prebet)+",15BB:"+(15*state.bigblindbet));
 				//test
 				debug("test a");
-				foldmuch=true;
-				if(highbet-prebet<=state.bigblindbet&&foldmuch&&(isFoldAll()||isCall1()||isCall2() ) )
+				double size=Math.sqrt(me.getJetton()/(50.0*state.bigblindbet));
+				if(highbet-prebet<=2.5*size*state.bigblindbet&&(isRaise1Call0()||isRaise1Call1())&&state.raisenum<3&&me.getJetton()>25*state.bigblindbet)
+				{
+					State.raisebet=(int)(2.1*size*state.bigblindbet);
+				}
+				if(isFoldAll()||isCall1()||isCall2()  )
 				{
 					debug("folmuch0 2.2");
-					State.raisebet=(int)(2.2*state.bigblindbet);
+					State.raisebet=(int)(2.1*size*state.bigblindbet);
 					return State.raise;
 				}
 				if (prob1 + prob2 >= prob3) 
