@@ -1,0 +1,3041 @@
+buffer is seat/ 
+button: 5555 2000 2000 
+small blind: 2222 2000 2000 
+big blind: 6666 2000 2000 
+8888 2000 2000 
+3333 2000 2000 
+1111 2000 2000 
+7777 2000 2000 
+4444 2000 2000 
+/seat 
+
+jushu is 1
+player is 5555 ,2222 ,6666 ,8888 ,3333 ,1111 ,7777 ,4444 
+buffer is blind/ 
+2222: 20 
+6666: 40 
+/blind 
+
+buffer is hold/ 
+HEARTS 2 
+HEARTS 6 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+HEARTS  2
+HEARTS  6
+main  qualityf is 0.135,fpcs is 1
+buffer is inquire/ 
+5555 2000 2000 0 fold 
+4444 2000 2000 0 fold 
+7777 2000 2000 0 fold 
+1111 2000 2000 0 fold 
+3333 2000 2000 0 fold 
+8888 2000 2000 0 fold 
+6666 1960 2000 40 blind 
+2222 1980 2000 20 blind 
+total pot: 60 
+/inquire 
+
+game qualityf is 0.135,fpcs is 1
+player 5555 ,action is ,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 2222 ,action is ,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is ,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 1111 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 1,lunshu is 1
+checkgailv is 0.333
+,raisegailv is 0.667
+,max is 40
+,mybet is 20
+,mymoney is 4000
+game qualitys is 4
+main  rr is 4
+buffer is pot-win/ 
+6666: 60 
+/pot-win 
+
+buffer is seat/ 
+button: 2222 1980 2000 
+small blind: 6666 2020 2000 
+big blind: 8888 2000 2000 
+3333 2000 2000 
+1111 2000 2000 
+7777 2000 2000 
+4444 2000 2000 
+5555 2000 2000 
+/seat 
+blind/ 
+6666: 20 
+8888: 40 
+/blind 
+
+jushu is 2
+buffer is hold/ 
+CLUBS 9 
+HEARTS 4 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+CLUBS  9
+HEARTS  4
+main  qualityf is 0.088,fpcs is 1
+buffer is inquire/ 
+5555 1816 2000 184 raise 
+4444 2000 2000 0 fold 
+7777 2000 2000 0 fold 
+1111 2000 2000 0 fold 
+3333 1917 2000 83 raise 
+8888 1960 2000 40 blind 
+6666 2000 2000 20 blind 
+total pot: 327 
+/inquire 
+
+game qualityf is 0.088,fpcs is 1
+player 5555 ,action is raise,fold1 is 0.000000,raise1 is 1.000000,leixing1 is 0.500
+player 2222 ,action is ,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is ,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is raise,fold1 is 1.000000,raise1 is 1.000000,leixing1 is 0.500
+player 1111 ,action is fold,fold1 is 2.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 2.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 2.000000,raise1 is 0.000000,leixing1 is 0.000
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 2,lunshu is 1
+checkgailv is 0.502
+,raisegailv is 1.003
+,max is 184
+,mybet is 20
+,mymoney is 4000
+game qualitys is 4
+main  rr is 4
+buffer is pot-win/ 
+5555: 327 
+/pot-win 
+seat/ 
+button: 6666 2000 2000 
+small blind: 8888 1960 2000 
+big blind: 3333 1917 2000 
+1111 2000 2000 
+7777 2000 2000 
+4444 2000 2000 
+5555 2143 2000 
+2222 1980 2000 
+/seat 
+
+buffer is blind/ 
+8888: 20 
+3333: 40 
+/blind 
+
+buffer is hold/ 
+DIAMONDS 6 
+SPADES 6 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+DIAMONDS  6
+SPADES  6
+main  qualityf is 0.444,fpcs is 1
+buffer is inquire/ 
+5555 2143 2000 0 fold 
+4444 1850 2000 150 raise 
+7777 2000 2000 0 fold 
+1111 2000 2000 0 fold 
+3333 1877 2000 40 blind 
+8888 1940 2000 20 blind 
+total pot: 210 
+/inquire 
+
+game qualityf is 0.444,fpcs is 1
+player 5555 ,action is fold,fold1 is 1.000000,raise1 is 1.000000,leixing1 is 0.500
+player 2222 ,action is ,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is ,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is raise,fold1 is 1.000000,raise1 is 1.000000,leixing1 is 0.500
+player 1111 ,action is fold,fold1 is 3.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 3.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is raise,fold1 is 2.000000,raise1 is 1.000000,leixing1 is 0.500
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 2,lunshu is 1
+checkgailv is 0.619
+,raisegailv is 1.238
+,max is 150
+,mybet is 20
+,mymoney is 4000
+game qualitys is 4
+main  rr is 4
+buffer is pot-win/ 
+4444: 210 
+/pot-win 
+seat/ 
+button: 8888 1940 2000 
+small blind: 3333 1877 2000 
+big blind: 1111 2000 2000 
+7777 2000 2000 
+4444 2060 2000 
+5555 2143 2000 
+2222 1980 2000 
+6666 2000 2000 
+/seat 
+blind/ 
+3333: 20 
+1111: 40 
+/blind 
+
+buffer is hold/ 
+DIAMONDS 4 
+DIAMONDS 6 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+DIAMONDS  4
+DIAMONDS  6
+main  qualityf is 0.138,fpcs is 1
+buffer is inquire/ 
+5555 2143 2000 0 fold 
+4444 2060 2000 0 fold 
+7777 2000 2000 0 fold 
+1111 1960 2000 40 blind 
+3333 1857 2000 20 blind 
+total pot: 60 
+/inquire 
+
+game qualityf is 0.138,fpcs is 1
+player 5555 ,action is fold,fold1 is 2.000000,raise1 is 1.000000,leixing1 is 0.500
+player 2222 ,action is ,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is ,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is raise,fold1 is 1.000000,raise1 is 1.000000,leixing1 is 0.500
+player 1111 ,action is fold,fold1 is 3.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 4.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 3.000000,raise1 is 1.000000,leixing1 is 0.500
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 2,lunshu is 1
+checkgailv is 0.333
+,raisegailv is 0.667
+,max is 40
+,mybet is 20
+,mymoney is 4000
+game qualitys is 4
+main  rr is 4
+buffer is pot-win/ 
+3333: 163 
+/pot-win 
+
+buffer is seat/ 
+button: 3333 1917 2000 
+small blind: 1111 1960 2000 
+big blind: 7777 2000 2000 
+4444 2060 2000 
+5555 2143 2000 
+2222 1980 2000 
+6666 2000 2000 
+8888 1940 2000 
+/seat 
+
+jushu is 3
+buffer is blind/ 
+1111: 20 
+7777: 40 
+/blind 
+
+buffer is hold/ 
+SPADES J 
+SPADES 10 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+SPADES  ;
+SPADES  :
+main  qualityf is 0.777,fpcs is 1
+buffer is inquire/ 
+5555 2061 2000 82 raise 
+4444 2060 2000 0 fold 
+7777 1960 2000 40 blind 
+1111 1940 2000 20 blind 
+total pot: 142 
+/inquire 
+
+game qualityf is 0.777,fpcs is 1
+player 5555 ,action is raise,fold1 is 2.000000,raise1 is 2.000000,leixing1 is 0.667
+player 2222 ,action is ,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is ,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is raise,fold1 is 1.000000,raise1 is 1.000000,leixing1 is 0.333
+player 1111 ,action is fold,fold1 is 3.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 4.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 4.000000,raise1 is 1.000000,leixing1 is 0.333
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 3,lunshu is 1
+checkgailv is 0.437
+,raisegailv is 0.873
+,max is 82
+,mybet is 20
+,mymoney is 4000
+game qualitys is 110
+main  rr is 110
+buffer is inquire/ 
+5555 1715 2000 428 raise 
+4444 2060 2000 0 fold 
+7777 1960 2000 40 fold 
+1111 1940 2000 20 fold 
+3333 1917 2000 0 fold 
+8888 1940 2000 0 fold 
+6666 2000 2000 0 fold 
+2222 1788 2000 192 raise 
+total pot: 680 
+/inquire 
+
+game qualityf is 0.777,fpcs is 1
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 3,lunshu is 2
+checkgailv is 0.347
+,raisegailv is 0.694
+,max is 428
+,mybet is 192
+,mymoney is 3788
+game qualitys is 528
+main  rr is 528
+buffer is flop/ 
+CLUBS 7 
+SPADES 9 
+CLUBS 8 
+/flop 
+inquire/ 
+5555 1187 2000 956 check 
+4444 2060 2000 0 fold 
+7777 1960 2000 40 fold 
+1111 1940 2000 20 fold 
+3333 1917 2000 0 fold 
+8888 1940 2000 0 fold 
+6666 2000 2000 0 fold 
+2222 1024 2000 956 raise 
+total pot: 1972 
+/inquire 
+
+panduan  fpcs 2
+
+diercipanduan
+CLUBS  7
+SPADES  9
+CLUBS  8
+三张都不相等
+大小值都在范围内
+main  qualityf is 0.999,fpcs is 2
+buffer is pot-win/ 
+5555: 1972 
+/pot-win 
+
+buffer is seat/ 
+button: 1111 1940 2000 
+small blind: 7777 1960 2000 
+big blind: 4444 2060 2000 
+5555 3159 2000 
+2222 1024 2000 
+6666 2000 2000 
+8888 1940 2000 
+3333 1917 2000 
+/seat 
+
+jushu is 4
+buffer is blind/ 
+7777: 20 
+4444: 40 
+/blind 
+
+buffer is hold/ 
+SPADES Q 
+HEARTS 6 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+SPADES  <
+HEARTS  6
+main  qualityf is 0.088,fpcs is 1
+buffer is inquire/ 
+5555 3159 2000 0 fold 
+4444 2020 2000 40 blind 
+7777 1940 2000 20 blind 
+total pot: 60 
+/inquire 
+
+game qualityf is 0.088,fpcs is 1
+player 5555 ,action is fold,fold1 is 3.000000,raise1 is 2.000000,leixing1 is 0.500
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 1.000000,raise1 is 1.000000,leixing1 is 0.250
+player 1111 ,action is fold,fold1 is 3.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 4.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 4.000000,raise1 is 1.000000,leixing1 is 0.250
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 4,lunshu is 1
+checkgailv is 0.333
+,raisegailv is 0.667
+,max is 40
+,mybet is 20
+,mymoney is 3788
+game qualitys is 4
+main  rr is 4
+buffer is flop/ 
+SPADES 6 
+CLUBS 8 
+DIAMONDS 3 
+/flop 
+
+panduan  fpcs 2
+
+diercipanduan
+SPADES  6
+CLUBS  8
+DIAMONDS  3
+三张都不相等
+最大值在范围内
+main  qualityf is 0.355,fpcs is 2
+buffer is pot-win/ 
+1111: 517 
+/pot-win 
+
+buffer is seat/ 
+button: 7777 1940 2000 
+small blind: 4444 2020 2000 
+big blind: 5555 3159 2000 
+2222 1024 2000 
+6666 1872 2000 
+8888 1940 2000 
+3333 1917 2000 
+1111 2128 2000 
+/seat 
+blind/ 
+4444: 20 
+5555: 40 
+/blind 
+hold/ 
+SPADES K 
+DIAMONDS 7 
+/hold 
+
+jushu is 5
+buffer is inquire/ 
+5555 3119 2000 40 blind 
+4444 2000 2000 20 blind 
+total pot: 60 
+/inquire 
+
+game qualityf is 0.355,fpcs is 2
+player 5555 ,action is fold,fold2 is 0.000000,raise2 is 0.000000,leixing1 is 0.000
+player 2222 ,action is raise,fold2 is 0.000000,raise2 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold2 is 0.000000,raise2 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold2 is 0.000000,raise2 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold2 is 0.000000,raise2 is 0.000000,leixing1 is 0.000
+player 1111 ,action is fold,fold2 is 0.000000,raise2 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold2 is 0.000000,raise2 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold2 is 0.000000,raise2 is 0.000000,leixing1 is 0.000
+baoshou is 0,baojiao is 0
+fpcs is 2,jushu is 5,lunshu is 1
+checkgailv is 0.333
+,raisegailv is 0.667
+,max is 40
+,mybet is 20
+,mymoney is 3788
+game qualitys is 3
+main  rr is 3
+buffer is inquire/ 
+5555 3119 2000 40 fold 
+4444 2000 2000 20 fold 
+7777 1940 2000 0 fold 
+1111 2128 2000 0 fold 
+3333 1774 2000 143 raise 
+8888 1940 2000 0 fold 
+6666 1832 2000 40 call 
+2222 984 2000 40 call 
+total pot: 283 
+/inquire 
+
+game qualityf is 0.355,fpcs is 2
+baoshou is 0,baojiao is 0
+fpcs is 2,jushu is 5,lunshu is 2
+checkgailv is 0.364
+,raisegailv is 0.728
+,max is 143
+,mybet is 40
+,mymoney is 2984
+game qualitys is 4
+main  rr is 4
+buffer is flop/ 
+HEARTS 6 
+CLUBS J 
+CLUBS 9 
+/flop 
+
+panduan  fpcs 2
+
+diercipanduan
+HEARTS  6
+CLUBS  ;
+CLUBS  9
+三张都不相等
+最大值在范围内
+main  qualityf is 0.102,fpcs is 2
+buffer is pot-win/ 
+3333: 469 
+/pot-win 
+
+buffer is seat/ 
+button: 4444 2000 2000 
+small blind: 5555 3119 2000 
+big blind: 2222 984 2000 
+6666 1729 2000 
+8888 1940 2000 
+3333 2160 2000 
+1111 2128 2000 
+7777 1940 2000 
+/seat 
+
+jushu is 6
+buffer is blind/ 
+5555: 20 
+2222: 40 
+/blind 
+
+buffer is hold/ 
+HEARTS 4 
+SPADES J 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+HEARTS  4
+SPADES  ;
+main  qualityf is 0.088,fpcs is 1
+buffer is inquire/ 
+5555 3099 2000 20 fold 
+4444 2000 2000 0 fold 
+7777 1940 2000 0 fold 
+1111 2128 2000 0 fold 
+3333 2160 2000 0 fold 
+8888 1900 2000 40 call 
+6666 1729 2000 0 fold 
+2222 944 2000 40 blind 
+total pot: 100 
+/inquire 
+
+game qualityf is 0.088,fpcs is 1
+player 5555 ,action is fold,fold1 is 3.000000,raise1 is 2.000000,leixing1 is 0.333
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 2.000000,raise1 is 1.000000,leixing1 is 0.167
+player 1111 ,action is fold,fold1 is 4.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 5.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 5.000000,raise1 is 1.000000,leixing1 is 0.167
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 6,lunshu is 1
+checkgailv is 0.000
+,raisegailv is 0.400
+,max is 40
+,mybet is 40
+,mymoney is 2984
+game qualitys is 3
+main  rr is 3
+buffer is flop/ 
+HEARTS 8 
+DIAMONDS 10 
+HEARTS 9 
+/flop 
+
+panduan  fpcs 2
+
+diercipanduan
+HEARTS  8
+DIAMONDS  :
+HEARTS  9
+三张都不相等
+大小值都在范围内
+main  qualityf is 0.178,fpcs is 2
+buffer is inquire/ 
+5555 3099 2000 20 fold 
+4444 2000 2000 0 fold 
+7777 1940 2000 0 fold 
+1111 2128 2000 0 fold 
+3333 2160 2000 0 fold 
+8888 1900 2000 40 call 
+6666 1729 2000 0 fold 
+2222 944 2000 40 check 
+total pot: 100 
+/inquire 
+
+game qualityf is 0.178,fpcs is 2
+player 5555 ,action is fold,fold2 is 0.000000,raise2 is 0.000000,leixing1 is 0.000
+player 2222 ,action is raise,fold2 is 0.000000,raise2 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold2 is 1.000000,raise2 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold2 is 0.000000,raise2 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold2 is 1.000000,raise2 is 0.000000,leixing1 is 0.000
+player 1111 ,action is fold,fold2 is 1.000000,raise2 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold2 is 1.000000,raise2 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold2 is 1.000000,raise2 is 0.000000,leixing1 is 0.000
+baoshou is 0,baojiao is 0
+fpcs is 2,jushu is 6,lunshu is 1
+checkgailv is 0.000
+,raisegailv is 0.400
+,max is 40
+,mybet is 40
+,mymoney is 2984
+game qualitys is 3
+main  rr is 3
+buffer is turn/ 
+HEARTS 10 
+/turn 
+
+panduan  fpcs 3
+HEARTS  :
+
+disancipanduan
+main  qualityf is -5486124068793688683255936251187209270074392635932332070112001988456197381759672947165175699536362793613284725337872111744958183862744647903224103718245670299614498700710006264535590197791934024641512541262359795191593953928908168990292758500391456212260452596575509589842140073806143686060649302051520512.000,fpcs is 3
+buffer is inquire/ 
+5555 3099 2000 20 fold 
+4444 2000 2000 0 fold 
+7777 1940 2000 0 fold 
+1111 2128 2000 0 fold 
+3333 2160 2000 0 fold 
+8888 1900 2000 40 check 
+6666 1729 2000 0 fold 
+2222 944 2000 40 check 
+total pot: 100 
+/inquire 
+
+game qualityf is -5486124068793688683255936251187209270074392635932332070112001988456197381759672947165175699536362793613284725337872111744958183862744647903224103718245670299614498700710006264535590197791934024641512541262359795191593953928908168990292758500391456212260452596575509589842140073806143686060649302051520512.000,fpcs is 3
+baoshou is 0,baojiao is 0
+fpcs is 3,jushu is 6,lunshu is 1
+checkgailv is 0.000
+,raisegailv is 0.400
+,max is 40
+,mybet is 40
+,mymoney is 2984
+game qualitys is 4
+main  rr is 4
+buffer is pot-win/ 
+8888: 100 
+/pot-win 
+
+buffer is seat/ 
+button: 5555 3099 2000 
+small blind: 2222 944 2000 
+big blind: 6666 1729 2000 
+8888 2000 2000 
+3333 2160 2000 
+1111 2128 2000 
+7777 1940 2000 
+4444 2000 2000 
+/seat 
+blind/ 
+2222: 20 
+6666: 40 
+/blind 
+hold/ 
+HEARTS K 
+CLUBS 4 
+/hold 
+
+jushu is 7
+buffer is inquire/ 
+5555 3099 2000 0 fold 
+4444 2000 2000 0 fold 
+7777 1940 2000 0 fold 
+1111 1993 2000 135 raise 
+3333 2160 2000 0 fold 
+8888 2000 2000 0 fold 
+6666 1689 2000 40 blind 
+2222 924 2000 20 blind 
+total pot: 195 
+/inquire 
+
+game qualityf is -5486124068793688683255936251187209270074392635932332070112001988456197381759672947165175699536362793613284725337872111744958183862744647903224103718245670299614498700710006264535590197791934024641512541262359795191593953928908168990292758500391456212260452596575509589842140073806143686060649302051520512.000,fpcs is 3
+baoshou is 0,baojiao is 0
+fpcs is 3,jushu is 7,lunshu is 2
+checkgailv is 0.590
+,raisegailv is 1.179
+,max is 135
+,mybet is 20
+,mymoney is 2924
+game qualitys is 4
+main  rr is 4
+buffer is pot-win/ 
+1111: 195 
+/pot-win 
+
+buffer is seat/ 
+button: 2222 924 2000 
+small blind: 6666 1689 2000 
+big blind: 8888 2000 2000 
+3333 2160 2000 
+1111 2188 2000 
+7777 1940 2000 
+4444 2000 2000 
+5555 3099 2000 
+/seat 
+blind/ 
+6666: 20 
+8888: 40 
+/blind 
+
+jushu is 8
+buffer is hold/ 
+DIAMONDS 4 
+DIAMONDS 2 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+DIAMONDS  4
+DIAMONDS  2
+main  qualityf is 0.138,fpcs is 1
+buffer is inquire/ 
+5555 3017 2000 82 raise 
+4444 2000 2000 0 fold 
+7777 1940 2000 0 fold 
+1111 2188 2000 0 fold 
+3333 2160 2000 0 fold 
+8888 1960 2000 40 blind 
+6666 1669 2000 20 blind 
+total pot: 142 
+/inquire 
+
+game qualityf is 0.138,fpcs is 1
+player 5555 ,action is raise,fold1 is 3.000000,raise1 is 3.000000,leixing1 is 0.375
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 3.000000,raise1 is 1.000000,leixing1 is 0.125
+player 1111 ,action is fold,fold1 is 5.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 6.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 6.000000,raise1 is 1.000000,leixing1 is 0.125
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 8,lunshu is 1
+checkgailv is 0.437
+,raisegailv is 0.873
+,max is 82
+,mybet is 20
+,mymoney is 2924
+game qualitys is 4
+main  rr is 4
+buffer is flop/ 
+HEARTS 2 
+CLUBS K 
+CLUBS 2 
+/flop 
+
+panduan  fpcs 2
+
+diercipanduan
+HEARTS  2
+CLUBS  =
+CLUBS  2
+main  qualityf is 0.756,fpcs is 2
+buffer is turn/ 
+CLUBS 4 
+/turn 
+
+panduan  fpcs 3
+CLUBS  4
+
+disancipanduan
+三张都不相等
+最小值在范围内
+main  qualityf is 0.785,fpcs is 3
+buffer is pot-win/ 
+5555: 224 
+/pot-win 
+
+buffer is seat/ 
+button: 6666 1669 2000 
+small blind: 8888 1918 2000 
+big blind: 3333 2160 2000 
+1111 2188 2000 
+7777 1940 2000 
+4444 2000 2000 
+5555 3201 2000 
+2222 924 2000 
+/seat 
+
+jushu is 9
+buffer is blind/ 
+8888: 20 
+3333: 40 
+/blind 
+
+buffer is hold/ 
+HEARTS K 
+HEARTS Q 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+HEARTS  =
+HEARTS  <
+main  qualityf is 0.777,fpcs is 1
+buffer is inquire/ 
+5555 3201 2000 0 fold 
+4444 2000 2000 0 fold 
+7777 1940 2000 0 fold 
+1111 2148 2000 40 call 
+3333 2120 2000 40 blind 
+8888 1898 2000 20 blind 
+total pot: 100 
+/inquire 
+
+game qualityf is 0.777,fpcs is 1
+player 5555 ,action is fold,fold1 is 4.000000,raise1 is 3.000000,leixing1 is 0.333
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 3.000000,raise1 is 1.000000,leixing1 is 0.111
+player 1111 ,action is fold,fold1 is 5.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 7.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 7.000000,raise1 is 1.000000,leixing1 is 0.111
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 9,lunshu is 1
+checkgailv is 0.200
+,raisegailv is 0.400
+,max is 40
+,mybet is 20
+,mymoney is 2924
+game qualitys is 77
+main  rr is 77
+buffer is flop/ 
+HEARTS 3 
+DIAMONDS 3 
+DIAMONDS A 
+/flop 
+
+panduan  fpcs 2
+
+diercipanduan
+HEARTS  3
+DIAMONDS  3
+DIAMONDS  >
+main  qualityf is 0.092,fpcs is 2
+buffer is inquire/ 
+5555 3201 2000 0 fold 
+4444 2000 2000 0 fold 
+7777 1940 2000 0 fold 
+1111 2071 2000 117 check 
+3333 2120 2000 40 fold 
+8888 1898 2000 20 fold 
+6666 1669 2000 0 fold 
+2222 807 2000 117 raise 
+total pot: 294 
+/inquire 
+
+game qualityf is 0.092,fpcs is 2
+player 5555 ,action is fold,fold2 is 0.000000,raise2 is 0.000000,leixing1 is 0.000
+player 2222 ,action is raise,fold2 is 0.000000,raise2 is 1.000000,leixing1 is 0.111
+player 6666 ,action is fold,fold2 is 2.000000,raise2 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold2 is 1.000000,raise2 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold2 is 2.000000,raise2 is 0.000000,leixing1 is 0.000
+player 1111 ,action is fold,fold2 is 1.000000,raise2 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold2 is 2.000000,raise2 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold2 is 2.000000,raise2 is 0.000000,leixing1 is 0.000
+baoshou is 0,baojiao is 0
+fpcs is 2,jushu is 9,lunshu is 1
+checkgailv is 0.000
+,raisegailv is 0.136
+,max is 117
+,mybet is 117
+,mymoney is 2924
+game qualitys is 3
+main  rr is 3
+buffer is turn/ 
+SPADES 5 
+/turn 
+
+panduan  fpcs 3
+SPADES  5
+
+disancipanduan
+三张都不相等
+最小值在范围内
+main  qualityf is 0.225,fpcs is 3
+buffer is inquire/ 
+5555 3201 2000 0 fold 
+4444 2000 2000 0 fold 
+7777 1940 2000 0 fold 
+1111 1870 2000 318 raise 
+3333 2120 2000 40 fold 
+8888 1898 2000 20 fold 
+6666 1669 2000 0 fold 
+2222 807 2000 117 check 
+total pot: 495 
+/inquire 
+
+game qualityf is 0.225,fpcs is 3
+baoshou is 0,baojiao is 0
+fpcs is 3,jushu is 9,lunshu is 1
+checkgailv is 0.406
+,raisegailv is 0.812
+,max is 318
+,mybet is 117
+,mymoney is 2924
+game qualitys is 4
+main  rr is 4
+buffer is pot-win/ 
+1111: 495 
+/pot-win 
+
+buffer is seat/ 
+button: 8888 1898 2000 
+small blind: 3333 2120 2000 
+big blind: 1111 2365 2000 
+7777 1940 2000 
+4444 2000 2000 
+5555 3201 2000 
+2222 807 2000 
+6666 1669 2000 
+/seat 
+
+jushu is 10
+buffer is blind/ 
+3333: 20 
+1111: 40 
+/blind 
+
+buffer is hold/ 
+HEARTS 8 
+SPADES 10 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+HEARTS  8
+SPADES  :
+main  qualityf is 0.338,fpcs is 1
+buffer is inquire/ 
+5555 3201 2000 0 fold 
+4444 2000 2000 0 fold 
+7777 1940 2000 0 fold 
+1111 2325 2000 40 blind 
+3333 2100 2000 20 blind 
+total pot: 60 
+/inquire 
+
+game qualityf is 0.338,fpcs is 1
+player 5555 ,action is fold,fold1 is 5.000000,raise1 is 3.000000,leixing1 is 0.300
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 3.000000,raise1 is 1.000000,leixing1 is 0.100
+player 1111 ,action is raise,fold1 is 5.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 8.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 8.000000,raise1 is 1.000000,leixing1 is 0.100
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 10,lunshu is 1
+checkgailv is 0.333
+,raisegailv is 0.667
+,max is 40
+,mybet is 20
+,mymoney is 2924
+game qualitys is 3
+main  rr is 3
+buffer is inquire/ 
+5555 3201 2000 0 fold 
+4444 2000 2000 0 fold 
+7777 1940 2000 0 fold 
+1111 2325 2000 40 fold 
+3333 2100 2000 20 fold 
+8888 1898 2000 0 fold 
+6666 1564 2000 105 raise 
+2222 767 2000 40 call 
+total pot: 205 
+/inquire 
+
+game qualityf is 0.338,fpcs is 1
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 10,lunshu is 2
+checkgailv is 0.317
+,raisegailv is 0.634
+,max is 105
+,mybet is 40
+,mymoney is 2767
+game qualitys is 3
+main  rr is 3
+buffer is flop/ 
+SPADES 7 
+CLUBS 5 
+CLUBS 9 
+/flop 
+
+panduan  fpcs 2
+
+diercipanduan
+SPADES  7
+CLUBS  5
+CLUBS  9
+三张都不相等
+大小值都在范围内
+main  qualityf is 0.205,fpcs is 2
+buffer is inquire/ 
+5555 3201 2000 0 fold 
+4444 2000 2000 0 fold 
+7777 1940 2000 0 fold 
+1111 2325 2000 40 fold 
+3333 2100 2000 20 fold 
+8888 1898 2000 0 fold 
+6666 1564 2000 105 raise 
+2222 702 2000 105 call 
+total pot: 270 
+/inquire 
+
+game qualityf is 0.205,fpcs is 2
+player 5555 ,action is fold,fold2 is 0.000000,raise2 is 0.000000,leixing1 is 0.000
+player 2222 ,action is raise,fold2 is 0.000000,raise2 is 1.000000,leixing1 is 0.100
+player 6666 ,action is raise,fold2 is 2.000000,raise2 is 1.000000,leixing1 is 0.100
+player 8888 ,action is fold,fold2 is 2.000000,raise2 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold2 is 3.000000,raise2 is 0.000000,leixing1 is 0.000
+player 1111 ,action is fold,fold2 is 2.000000,raise2 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold2 is 3.000000,raise2 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold2 is 3.000000,raise2 is 0.000000,leixing1 is 0.000
+baoshou is 0,baojiao is 0
+fpcs is 2,jushu is 10,lunshu is 1
+checkgailv is 0.000
+,raisegailv is 0.148
+,max is 105
+,mybet is 105
+,mymoney is 2767
+game qualitys is 2
+main  rr is 2
+buffer is turn/ 
+HEARTS 2 
+/turn 
+inquire/ 
+5555 3201 2000 0 fold 
+4444 2000 2000 0 fold 
+7777 1940 2000 0 fold 
+1111 2325 2000 40 fold 
+3333 2100 2000 20 fold 
+8888 1898 2000 0 fold 
+6666 1524 2000 145 call 
+2222 662 2000 145 raise 
+total pot: 350 
+/inquire 
+
+panduan  fpcs 3
+HEARTS  2
+
+disancipanduan
+三张都不相等
+大小值都在范围内
+main  qualityf is 0.205,fpcs is 3
+buffer is pot-win/ 
+6666: 350 
+/pot-win 
+
+buffer is seat/ 
+button: 3333 2100 2000 
+small blind: 1111 2325 2000 
+big blind: 7777 1940 2000 
+4444 2000 2000 
+5555 3201 2000 
+2222 662 2000 
+6666 1874 2000 
+8888 1898 2000 
+/seat 
+
+jushu is 11
+buffer is blind/ 
+1111: 20 
+7777: 40 
+/blind 
+
+buffer is hold/ 
+HEARTS Q 
+HEARTS J 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+HEARTS  <
+HEARTS  ;
+main  qualityf is 0.777,fpcs is 1
+buffer is inquire/ 
+5555 3201 2000 0 fold 
+4444 2000 2000 0 fold 
+7777 1900 2000 40 blind 
+1111 2305 2000 20 blind 
+total pot: 60 
+/inquire 
+
+game qualityf is 0.777,fpcs is 1
+player 5555 ,action is fold,fold1 is 6.000000,raise1 is 3.000000,leixing1 is 0.273
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is raise,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 3.000000,raise1 is 1.000000,leixing1 is 0.091
+player 1111 ,action is fold,fold1 is 5.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 8.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 9.000000,raise1 is 1.000000,leixing1 is 0.091
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 11,lunshu is 1
+checkgailv is 0.333
+,raisegailv is 0.667
+,max is 40
+,mybet is 20
+,mymoney is 2767
+game qualitys is 46
+main  rr is 46
+buffer is flop/ 
+CLUBS 2 
+DIAMONDS 7 
+SPADES 7 
+/flop 
+
+panduan  fpcs 2
+
+diercipanduan
+CLUBS  2
+DIAMONDS  7
+SPADES  7
+main  qualityf is 0.089,fpcs is 2
+buffer is inquire/ 
+5555 3201 2000 0 fold 
+4444 2000 2000 0 fold 
+7777 1900 2000 40 fold 
+1111 2305 2000 20 fold 
+3333 2100 2000 0 fold 
+8888 1898 2000 0 fold 
+6666 1788 2000 86 call 
+2222 576 2000 86 raise 
+total pot: 232 
+/inquire 
+
+game qualityf is 0.089,fpcs is 2
+player 5555 ,action is fold,fold2 is 0.000000,raise2 is 0.000000,leixing1 is 0.000
+player 2222 ,action is raise,fold2 is 0.000000,raise2 is 2.000000,leixing1 is 0.182
+player 6666 ,action is raise,fold2 is 2.000000,raise2 is 1.000000,leixing1 is 0.091
+player 8888 ,action is fold,fold2 is 3.000000,raise2 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold2 is 4.000000,raise2 is 0.000000,leixing1 is 0.000
+player 1111 ,action is fold,fold2 is 3.000000,raise2 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold2 is 4.000000,raise2 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold2 is 4.000000,raise2 is 0.000000,leixing1 is 0.000
+baoshou is 0,baojiao is 0
+fpcs is 2,jushu is 11,lunshu is 1
+checkgailv is 0.000
+,raisegailv is 0.172
+,max is 86
+,mybet is 86
+,mymoney is 2767
+game qualitys is 3
+main  rr is 3
+buffer is turn/ 
+HEARTS 4 
+/turn 
+
+panduan  fpcs 3
+HEARTS  4
+
+disancipanduan
+main  qualityf is -5486124068793688683255936251187209270074392635932332070112001988456197381759672947165175699536362793613284725337872111744958183862744647903224103718245670299614498700710006264535590197791934024641512541262359795191593953928908168990292758500391456212260452596575509589842140073806143686060649302051520512.000,fpcs is 3
+buffer is inquire/ 
+5555 3201 2000 0 fold 
+4444 2000 2000 0 fold 
+7777 1900 2000 40 fold 
+1111 2305 2000 20 fold 
+3333 2100 2000 0 fold 
+8888 1898 2000 0 fold 
+6666 1788 2000 86 check 
+2222 576 2000 86 check 
+total pot: 232 
+/inquire 
+
+game qualityf is -5486124068793688683255936251187209270074392635932332070112001988456197381759672947165175699536362793613284725337872111744958183862744647903224103718245670299614498700710006264535590197791934024641512541262359795191593953928908168990292758500391456212260452596575509589842140073806143686060649302051520512.000,fpcs is 3
+baoshou is 0,baojiao is 0
+fpcs is 3,jushu is 11,lunshu is 1
+checkgailv is 0.000
+,raisegailv is 0.172
+,max is 86
+,mybet is 86
+,mymoney is 2767
+game qualitys is 4
+main  rr is 4
+buffer is pot-win/ 
+6666: 232 
+/pot-win 
+
+buffer is seat/ 
+button: 1111 2305 2000 
+small blind: 7777 1900 2000 
+big blind: 4444 2000 2000 
+5555 3201 2000 
+2222 576 2000 
+6666 2020 2000 
+8888 1898 2000 
+3333 2100 2000 
+/seat 
+
+jushu is 12
+buffer is blind/ 
+7777: 20 
+4444: 40 
+/blind 
+
+buffer is hold/ 
+HEARTS 7 
+HEARTS J 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+HEARTS  7
+HEARTS  ;
+main  qualityf is 0.546,fpcs is 1
+buffer is inquire/ 
+5555 3201 2000 0 fold 
+4444 1960 2000 40 blind 
+7777 1880 2000 20 blind 
+total pot: 60 
+/inquire 
+
+game qualityf is 0.546,fpcs is 1
+player 5555 ,action is fold,fold1 is 7.000000,raise1 is 3.000000,leixing1 is 0.250
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is raise,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 3.000000,raise1 is 1.000000,leixing1 is 0.083
+player 1111 ,action is fold,fold1 is 5.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 8.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 9.000000,raise1 is 1.000000,leixing1 is 0.083
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 12,lunshu is 1
+checkgailv is 0.333
+,raisegailv is 0.667
+,max is 40
+,mybet is 20
+,mymoney is 2767
+game qualitys is 3
+main  rr is 3
+buffer is inquire/ 
+5555 3201 2000 0 fold 
+4444 1960 2000 40 fold 
+7777 1880 2000 20 fold 
+1111 2204 2000 101 raise 
+3333 2100 2000 0 fold 
+8888 1898 2000 0 fold 
+6666 2020 2000 0 fold 
+2222 536 2000 40 call 
+total pot: 201 
+/inquire 
+
+game qualityf is 0.546,fpcs is 1
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 12,lunshu is 2
+checkgailv is 0.303
+,raisegailv is 0.607
+,max is 101
+,mybet is 40
+,mymoney is 2536
+game qualitys is 3
+main  rr is 3
+buffer is flop/ 
+CLUBS J 
+HEARTS 3 
+CLUBS 6 
+/flop 
+
+panduan  fpcs 2
+
+diercipanduan
+CLUBS  ;
+HEARTS  3
+CLUBS  6
+三张都不相等
+大小值都不在范围内
+main  qualityf is 0.466,fpcs is 2
+buffer is inquire/ 
+5555 3201 2000 0 fold 
+4444 1960 2000 40 fold 
+7777 1880 2000 20 fold 
+1111 2204 2000 101 raise 
+3333 2100 2000 0 fold 
+8888 1898 2000 0 fold 
+6666 2020 2000 0 fold 
+2222 475 2000 101 call 
+total pot: 262 
+/inquire 
+
+game qualityf is 0.466,fpcs is 2
+player 5555 ,action is fold,fold2 is 0.000000,raise2 is 0.000000,leixing1 is 0.000
+player 2222 ,action is raise,fold2 is 0.000000,raise2 is 2.000000,leixing1 is 0.167
+player 6666 ,action is fold,fold2 is 3.000000,raise2 is 1.000000,leixing1 is 0.083
+player 8888 ,action is fold,fold2 is 4.000000,raise2 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold2 is 5.000000,raise2 is 0.000000,leixing1 is 0.000
+player 1111 ,action is raise,fold2 is 3.000000,raise2 is 1.000000,leixing1 is 0.083
+player 7777 ,action is fold,fold2 is 5.000000,raise2 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold2 is 5.000000,raise2 is 0.000000,leixing1 is 0.000
+baoshou is 0,baojiao is 0
+fpcs is 2,jushu is 12,lunshu is 1
+checkgailv is 0.000
+,raisegailv is 0.153
+,max is 101
+,mybet is 101
+,mymoney is 2536
+game qualitys is 2
+main  rr is 2
+buffer is inquire/ 
+5555 3201 2000 0 fold 
+4444 1960 2000 40 fold 
+7777 1880 2000 20 fold 
+1111 1924 2000 381 raise 
+3333 2100 2000 0 fold 
+8888 1898 2000 0 fold 
+6666 2020 2000 0 fold 
+2222 435 2000 141 raise 
+total pot: 582 
+/inquire 
+
+game qualityf is 0.466,fpcs is 2
+baoshou is 0,baojiao is 0
+fpcs is 2,jushu is 12,lunshu is 2
+checkgailv is 0.412
+,raisegailv is 0.825
+,max is 381
+,mybet is 141
+,mymoney is 2435
+game qualitys is 3
+main  rr is 3
+buffer is turn/ 
+SPADES 2 
+/turn 
+
+panduan  fpcs 3
+SPADES  2
+
+disancipanduan
+三张都不相等
+大小值都不在范围内
+main  qualityf is 0.432,fpcs is 3
+buffer is inquire/ 
+5555 3201 2000 0 fold 
+4444 1960 2000 40 fold 
+7777 1880 2000 20 fold 
+1111 1924 2000 381 raise 
+3333 2100 2000 0 fold 
+8888 1898 2000 0 fold 
+6666 2020 2000 0 fold 
+2222 195 2000 381 call 
+total pot: 822 
+/inquire 
+
+game qualityf is 0.432,fpcs is 3
+baoshou is 0,baojiao is 0
+fpcs is 3,jushu is 12,lunshu is 1
+checkgailv is 0.000
+,raisegailv is 0.049
+,max is 381
+,mybet is 381
+,mymoney is 2435
+game qualitys is 2
+main  rr is 2
+buffer is inquire/ 
+5555 3201 2000 0 fold 
+4444 1960 2000 40 fold 
+7777 1880 2000 20 fold 
+1111 1615 2000 690 raise 
+3333 2100 2000 0 fold 
+8888 1898 2000 0 fold 
+6666 2020 2000 0 fold 
+2222 155 2000 421 raise 
+total pot: 1171 
+/inquire 
+
+game qualityf is 0.432,fpcs is 3
+baoshou is 0,baojiao is 0
+fpcs is 3,jushu is 12,lunshu is 2
+checkgailv is 0.230
+,raisegailv is 0.459
+,max is 690
+,mybet is 421
+,mymoney is 2155
+game qualitys is 3
+main  rr is 3
+buffer is river/ 
+HEARTS 5 
+/river 
+
+panduan  fpcs 4
+HEARTS  5
+
+disicipanduan
+main  qualityf is 0.332,fpcs is 4
+buffer is showdown/ 
+common/ 
+CLUBS J 
+HEARTS 3 
+CLUBS 6 
+SPADES 2 
+HEARTS 5 
+/common 
+2: 2222 HEARTS 7 HEARTS J ONE_PAIR 
+1: 1111 SPADES 6 DIAMONDS J TWO_PAIR 
+/showdown 
+
+buffer is pot-win/ 
+1111: 1326 
+/pot-win 
+
+buffer is seat/ 
+button: 7777 1880 2000 
+small blind: 4444 1960 2000 
+big blind: 5555 3201 2000 
+2222 2000 0 
+6666 2020 2000 
+8888 1898 2000 
+3333 2100 2000 
+1111 2941 2000 
+/seat 
+
+jushu is 13
+buffer is blind/ 
+4444: 20 
+5555: 40 
+/blind 
+
+buffer is hold/ 
+SPADES 5 
+DIAMONDS 7 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+SPADES  5
+DIAMONDS  7
+main  qualityf is 0.125,fpcs is 1
+buffer is inquire/ 
+5555 3161 2000 40 blind 
+4444 1940 2000 20 blind 
+total pot: 60 
+/inquire 
+
+game qualityf is 0.125,fpcs is 1
+player 5555 ,action is fold,fold1 is 7.000000,raise1 is 3.000000,leixing1 is 0.231
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 3.000000,raise1 is 1.000000,leixing1 is 0.077
+player 1111 ,action is raise,fold1 is 5.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 8.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 9.000000,raise1 is 1.000000,leixing1 is 0.077
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 13,lunshu is 1
+checkgailv is 0.333
+,raisegailv is 0.667
+,max is 40
+,mybet is 20
+,mymoney is 2155
+game qualitys is 4
+main  rr is 4
+buffer is flop/ 
+CLUBS Q 
+HEARTS 6 
+DIAMONDS 4 
+/flop 
+
+panduan  fpcs 2
+
+diercipanduan
+CLUBS  <
+HEARTS  6
+DIAMONDS  4
+三张都不相等
+最小值在范围内
+main  qualityf is 0.205,fpcs is 2
+buffer is turn/ 
+HEARTS 2 
+/turn 
+
+panduan  fpcs 3
+HEARTS  2
+
+disancipanduan
+三张都不相等
+最小值在范围内
+main  qualityf is 0.195,fpcs is 3
+buffer is pot-win/ 
+4444: 3202 
+/pot-win 
+seat/ 
+button: 4444 3202 2000 
+small blind: 5555 3161 2000 
+big blind: 2222 2000 0 
+6666 2020 2000 
+8888 1898 2000 
+3333 2100 2000 
+1111 2837 2000 
+7777 782 2000 
+/seat 
+blind/ 
+5555: 20 
+2222: 40 
+/blind 
+hold/ 
+DIAMONDS Q 
+CLUBS Q 
+/hold 
+
+buffer is inquire/ 
+5555 3141 2000 20 fold 
+4444 3202 2000 0 fold 
+7777 782 2000 0 fold 
+1111 2714 2000 123 raise 
+3333 2100 2000 0 fold 
+8888 1858 2000 40 call 
+6666 2020 2000 0 fold 
+2222 1960 0 40 blind 
+total pot: 223 
+/inquire 
+
+game qualityf is 0.195,fpcs is 3
+baoshou is 0,baojiao is 0
+fpcs is 3,jushu is 13,lunshu is 1
+checkgailv is 0.372
+,raisegailv is 0.744
+,max is 123
+,mybet is 40
+,mymoney is 2155
+game qualitys is 4
+main  rr is 4
+buffer is flop/ 
+HEARTS 5 
+HEARTS 3 
+CLUBS 3 
+/flop 
+
+panduan  fpcs 2
+
+diercipanduan
+HEARTS  5
+HEARTS  3
+CLUBS  3
+main  qualityf is 0.295,fpcs is 2
+buffer is pot-win/ 
+1111: 491 
+/pot-win 
+
+buffer is seat/ 
+button: 5555 3141 2000 
+small blind: 2222 1960 0 
+big blind: 6666 2020 2000 
+8888 1775 2000 
+3333 2100 2000 
+1111 3020 2000 
+7777 782 2000 
+4444 3202 2000 
+/seat 
+
+jushu is 14
+buffer is blind/ 
+2222: 20 
+6666: 40 
+/blind 
+hold/ 
+HEARTS A 
+HEARTS J 
+/hold 
+
+buffer is inquire/ 
+5555 3141 2000 0 fold 
+4444 3202 2000 0 fold 
+7777 782 2000 0 fold 
+1111 2886 2000 134 raise 
+3333 2100 2000 0 fold 
+8888 1775 2000 0 fold 
+6666 1980 2000 40 blind 
+2222 1940 0 20 blind 
+total pot: 194 
+/inquire 
+
+game qualityf is 0.295,fpcs is 2
+player 5555 ,action is fold,fold2 is 0.000000,raise2 is 0.000000,leixing1 is 0.000
+player 2222 ,action is raise,fold2 is 0.000000,raise2 is 2.000000,leixing1 is 0.143
+player 6666 ,action is fold,fold2 is 3.000000,raise2 is 1.000000,leixing1 is 0.071
+player 8888 ,action is fold,fold2 is 5.000000,raise2 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold2 is 6.000000,raise2 is 0.000000,leixing1 is 0.000
+player 1111 ,action is raise,fold2 is 3.000000,raise2 is 2.000000,leixing1 is 0.143
+player 7777 ,action is fold,fold2 is 6.000000,raise2 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold2 is 6.000000,raise2 is 0.000000,leixing1 is 0.000
+baoshou is 0,baojiao is 0
+fpcs is 2,jushu is 14,lunshu is 1
+checkgailv is 0.588
+,raisegailv is 1.175
+,max is 134
+,mybet is 20
+,mymoney is 2155
+game qualitys is 4
+main  rr is 4
+buffer is pot-win/ 
+1111: 194 
+/pot-win 
+
+buffer is seat/ 
+button: 2222 1940 0 
+small blind: 6666 1980 2000 
+big blind: 8888 1775 2000 
+3333 2100 2000 
+1111 3080 2000 
+7777 782 2000 
+4444 3202 2000 
+5555 3141 2000 
+/seat 
+
+jushu is 15
+buffer is blind/ 
+6666: 20 
+8888: 40 
+/blind 
+
+buffer is hold/ 
+DIAMONDS 4 
+DIAMONDS A 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+DIAMONDS  4
+DIAMONDS  >
+main  qualityf is 0.135,fpcs is 1
+buffer is inquire/ 
+5555 3061 2000 80 raise 
+4444 3202 2000 0 fold 
+7777 782 2000 0 fold 
+1111 3080 2000 0 fold 
+3333 2100 2000 0 fold 
+8888 1735 2000 40 blind 
+6666 1960 2000 20 blind 
+total pot: 140 
+/inquire 
+
+game qualityf is 0.135,fpcs is 1
+player 5555 ,action is raise,fold1 is 7.000000,raise1 is 4.000000,leixing1 is 0.267
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 4.000000,raise1 is 1.000000,leixing1 is 0.067
+player 1111 ,action is fold,fold1 is 6.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 9.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 10.000000,raise1 is 1.000000,leixing1 is 0.067
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 15,lunshu is 1
+checkgailv is 0.429
+,raisegailv is 0.857
+,max is 80
+,mybet is 20
+,mymoney is 2155
+game qualitys is 4
+main  rr is 4
+buffer is pot-win/ 
+5555: 140 
+/pot-win 
+
+buffer is seat/ 
+button: 6666 1960 2000 
+small blind: 8888 1735 2000 
+big blind: 3333 2100 2000 
+1111 3080 2000 
+7777 782 2000 
+4444 3202 2000 
+5555 3201 2000 
+2222 1940 0 
+/seat 
+
+jushu is 16
+buffer is blind/ 
+8888: 20 
+3333: 40 
+/blind 
+
+buffer is hold/ 
+SPADES 2 
+CLUBS 5 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+SPADES  2
+CLUBS  5
+main  qualityf is 0.088,fpcs is 1
+buffer is inquire/ 
+5555 3201 2000 0 fold 
+4444 3202 2000 0 fold 
+7777 782 2000 0 fold 
+1111 3080 2000 0 fold 
+3333 2060 2000 40 blind 
+8888 1715 2000 20 blind 
+total pot: 60 
+/inquire 
+
+game qualityf is 0.088,fpcs is 1
+player 5555 ,action is fold,fold1 is 8.000000,raise1 is 4.000000,leixing1 is 0.250
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 4.000000,raise1 is 1.000000,leixing1 is 0.062
+player 1111 ,action is fold,fold1 is 7.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 10.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 11.000000,raise1 is 1.000000,leixing1 is 0.062
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 16,lunshu is 1
+checkgailv is 0.333
+,raisegailv is 0.667
+,max is 40
+,mybet is 20
+,mymoney is 2155
+game qualitys is 4
+main  rr is 4
+buffer is pot-win/ 
+3333: 60 
+/pot-win 
+
+buffer is seat/ 
+button: 8888 1715 2000 
+small blind: 3333 2120 2000 
+big blind: 1111 3080 2000 
+7777 782 2000 
+4444 3202 2000 
+5555 3201 2000 
+2222 1940 0 
+6666 1960 2000 
+/seat 
+
+jushu is 17
+buffer is blind/ 
+3333: 20 
+1111: 40 
+/blind 
+
+buffer is hold/ 
+SPADES 4 
+DIAMONDS 3 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+SPADES  4
+DIAMONDS  3
+main  qualityf is 0.125,fpcs is 1
+buffer is inquire/ 
+5555 3108 2000 93 raise 
+4444 3202 2000 0 fold 
+7777 782 2000 0 fold 
+1111 3040 2000 40 blind 
+3333 2100 2000 20 blind 
+total pot: 153 
+/inquire 
+
+game qualityf is 0.125,fpcs is 1
+player 5555 ,action is raise,fold1 is 8.000000,raise1 is 5.000000,leixing1 is 0.294
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 4.000000,raise1 is 1.000000,leixing1 is 0.059
+player 1111 ,action is fold,fold1 is 7.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 11.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 12.000000,raise1 is 1.000000,leixing1 is 0.059
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 17,lunshu is 1
+checkgailv is 0.477
+,raisegailv is 0.954
+,max is 93
+,mybet is 20
+,mymoney is 2155
+game qualitys is 4
+main  rr is 4
+buffer is pot-win/ 
+5555: 153 
+/pot-win 
+
+buffer is seat/ 
+button: 3333 2100 2000 
+small blind: 1111 3040 2000 
+big blind: 7777 782 2000 
+4444 3202 2000 
+5555 3261 2000 
+2222 1940 0 
+6666 1960 2000 
+8888 1715 2000 
+/seat 
+
+jushu is 18
+buffer is blind/ 
+1111: 20 
+7777: 40 
+/blind 
+
+buffer is hold/ 
+HEARTS 4 
+DIAMONDS 10 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+HEARTS  4
+DIAMONDS  :
+main  qualityf is 0.088,fpcs is 1
+buffer is inquire/ 
+5555 3221 2000 40 call 
+4444 3202 2000 0 fold 
+7777 742 2000 40 blind 
+1111 3020 2000 20 blind 
+total pot: 100 
+/inquire 
+
+game qualityf is 0.088,fpcs is 1
+player 5555 ,action is raise,fold1 is 8.000000,raise1 is 5.000000,leixing1 is 0.278
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 4.000000,raise1 is 1.000000,leixing1 is 0.056
+player 1111 ,action is fold,fold1 is 7.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 11.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 13.000000,raise1 is 1.000000,leixing1 is 0.056
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 18,lunshu is 1
+checkgailv is 0.200
+,raisegailv is 0.400
+,max is 40
+,mybet is 20
+,mymoney is 2155
+game qualitys is 4
+main  rr is 4
+buffer is flop/ 
+DIAMONDS K 
+DIAMONDS 9 
+DIAMONDS 6 
+/flop 
+turn/ 
+SPADES 9 
+/turn 
+pot-win/ 
+3333: 469 
+/pot-win 
+seat/ 
+button: 1111 3020 2000 
+small blind: 7777 742 2000 
+big blind: 4444 3202 2000 
+5555 3098 2000 
+2222 1940 0 
+6666 1960 2000 
+8888 1715 2000 
+3333 2323 2000 
+/seat 
+blind/ 
+7777: 20 
+4444: 40 
+/blind 
+hold/ 
+SPADES Q 
+CLUBS 10 
+/hold 
+
+panduan  fpcs 2
+
+diercipanduan
+DIAMONDS  =
+DIAMONDS  9
+DIAMONDS  6
+三张都不相等
+大小值都不在范围内
+main  qualityf is 0.019,fpcs is 2
+buffer is inquire/ 
+5555 3098 2000 0 fold 
+4444 3162 2000 40 blind 
+7777 722 2000 20 blind 
+total pot: 60 
+/inquire 
+
+game qualityf is 0.019,fpcs is 2
+player 5555 ,action is fold,fold2 is 1.000000,raise2 is 0.000000,leixing1 is 0.000
+player 2222 ,action is raise,fold2 is 0.000000,raise2 is 2.000000,leixing1 is 0.111
+player 6666 ,action is fold,fold2 is 3.000000,raise2 is 1.000000,leixing1 is 0.056
+player 8888 ,action is fold,fold2 is 5.000000,raise2 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold2 is 6.000000,raise2 is 0.000000,leixing1 is 0.000
+player 1111 ,action is fold,fold2 is 3.000000,raise2 is 2.000000,leixing1 is 0.111
+player 7777 ,action is fold,fold2 is 6.000000,raise2 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold2 is 6.000000,raise2 is 0.000000,leixing1 is 0.000
+baoshou is 0,baojiao is 0
+fpcs is 2,jushu is 18,lunshu is 1
+checkgailv is 0.333
+,raisegailv is 0.667
+,max is 40
+,mybet is 20
+,mymoney is 2155
+game qualitys is 4
+main  rr is 4
+buffer is flop/ 
+HEARTS 2 
+HEARTS K 
+DIAMONDS 5 
+/flop 
+
+panduan  fpcs 2
+
+diercipanduan
+HEARTS  2
+HEARTS  =
+DIAMONDS  5
+三张都不相等
+大小值都不在范围内
+main  qualityf is 0.019,fpcs is 2
+buffer is turn/ 
+HEARTS 3 
+/turn 
+
+panduan  fpcs 3
+HEARTS  3
+
+disancipanduan
+三张都不相等
+最小值在范围内
+main  qualityf is 0.195,fpcs is 3
+buffer is river/ 
+DIAMONDS 7 
+/river 
+
+panduan  fpcs 4
+DIAMONDS  7
+
+disicipanduan
+main  qualityf is 0.055,fpcs is 4
+buffer is pot-win/ 
+1111: 1208 
+/pot-win 
+
+buffer is seat/ 
+button: 7777 368 2000 
+small blind: 4444 3162 2000 
+big blind: 5555 3098 2000 
+2222 1940 0 
+6666 1827 2000 
+8888 1715 2000 
+3333 2323 2000 
+1111 3567 2000 
+/seat 
+
+jushu is 19
+buffer is blind/ 
+4444: 20 
+5555: 40 
+/blind 
+
+buffer is hold/ 
+SPADES 5 
+HEARTS A 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+SPADES  5
+HEARTS  >
+main  qualityf is 0.295,fpcs is 1
+buffer is inquire/ 
+5555 3058 2000 40 blind 
+4444 3142 2000 20 blind 
+total pot: 60 
+/inquire 
+
+game qualityf is 0.295,fpcs is 1
+player 5555 ,action is fold,fold1 is 8.000000,raise1 is 5.000000,leixing1 is 0.263
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 1.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 4.000000,raise1 is 1.000000,leixing1 is 0.053
+player 1111 ,action is fold,fold1 is 7.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 11.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 13.000000,raise1 is 1.000000,leixing1 is 0.053
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 19,lunshu is 1
+checkgailv is 0.333
+,raisegailv is 0.667
+,max is 40
+,mybet is 20
+,mymoney is 2155
+game qualitys is 4
+main  rr is 4
+buffer is flop/ 
+SPADES 4 
+CLUBS Q 
+DIAMONDS 7 
+/flop 
+
+panduan  fpcs 2
+
+diercipanduan
+SPADES  4
+CLUBS  <
+DIAMONDS  7
+三张都不相等
+大小值都不在范围内
+main  qualityf is 0.019,fpcs is 2
+buffer is turn/ 
+HEARTS 4 
+/turn 
+
+panduan  fpcs 3
+HEARTS  4
+
+disancipanduan
+三张都不相等
+大小值都不在范围内
+main  qualityf is 0.019,fpcs is 3
+buffer is river/ 
+DIAMONDS 8 
+/river 
+
+panduan  fpcs 4
+DIAMONDS  8
+
+disicipanduan
+main  qualityf is 0.055,fpcs is 4
+buffer is showdown/ 
+common/ 
+SPADES 4 
+CLUBS Q 
+DIAMONDS 7 
+HEARTS 4 
+DIAMONDS 8 
+/common 
+2: 5555 DIAMONDS A DIAMONDS Q TWO_PAIR 
+1: 8888 SPADES K CLUBS K TWO_PAIR 
+/showdown 
+pot-win/ 
+8888: 960 
+/pot-win 
+
+buffer is seat/ 
+button: 4444 3142 2000 
+small blind: 5555 2628 2000 
+big blind: 2222 1940 0 
+6666 1827 2000 
+8888 2205 2000 
+3333 2323 2000 
+1111 3567 2000 
+7777 368 2000 
+/seat 
+
+jushu is 20
+buffer is blind/ 
+5555: 20 
+2222: 40 
+/blind 
+
+buffer is hold/ 
+CLUBS Q 
+CLUBS K 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+CLUBS  <
+CLUBS  =
+main  qualityf is 0.777,fpcs is 1
+buffer is inquire/ 
+5555 2608 2000 20 fold 
+4444 3142 2000 0 fold 
+7777 368 2000 0 fold 
+1111 3567 2000 0 fold 
+3333 2323 2000 0 fold 
+8888 2205 2000 0 fold 
+6666 1827 2000 0 fold 
+2222 1900 0 40 blind 
+total pot: 60 
+/inquire 
+
+game qualityf is 0.777,fpcs is 1
+player 5555 ,action is fold,fold1 is 8.000000,raise1 is 5.000000,leixing1 is 0.250
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold1 is 2.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 2.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 5.000000,raise1 is 1.000000,leixing1 is 0.050
+player 1111 ,action is fold,fold1 is 8.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 12.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 14.000000,raise1 is 1.000000,leixing1 is 0.050
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 20,lunshu is 1
+checkgailv is 0.000
+,raisegailv is 0.667
+,max is 40
+,mybet is 40
+,mymoney is 2155
+game qualitys is 46
+main  rr is 46
+buffer is pot-win/ 
+2222: 106 
+/pot-win 
+
+buffer is seat/ 
+button: 5555 2608 2000 
+small blind: 2222 1960 0 
+big blind: 6666 1827 2000 
+8888 2205 2000 
+3333 2323 2000 
+1111 3567 2000 
+7777 368 2000 
+4444 3142 2000 
+/seat 
+
+jushu is 21
+buffer is blind/ 
+2222: 20 
+6666: 40 
+/blind 
+
+buffer is hold/ 
+CLUBS 6 
+SPADES K 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+CLUBS  6
+SPADES  =
+main  qualityf is 0.295,fpcs is 1
+buffer is inquire/ 
+5555 2470 2000 138 raise 
+4444 3142 2000 0 fold 
+7777 368 2000 0 fold 
+1111 3527 2000 40 call 
+3333 2323 2000 0 fold 
+8888 2165 2000 40 call 
+6666 1787 2000 40 blind 
+2222 1940 0 20 blind 
+total pot: 278 
+/inquire 
+
+game qualityf is 0.295,fpcs is 1
+player 5555 ,action is fold,fold1 is 8.000000,raise1 is 5.000000,leixing1 is 0.238
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold1 is 2.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 2.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 6.000000,raise1 is 1.000000,leixing1 is 0.048
+player 1111 ,action is fold,fold1 is 8.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 13.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 15.000000,raise1 is 1.000000,leixing1 is 0.048
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 21,lunshu is 1
+checkgailv is 0.424
+,raisegailv is 0.849
+,max is 138
+,mybet is 20
+,mymoney is 2155
+game qualitys is 4
+main  rr is 4
+buffer is flop/ 
+DIAMONDS 6 
+CLUBS A 
+SPADES 3 
+/flop 
+
+panduan  fpcs 2
+
+diercipanduan
+DIAMONDS  6
+CLUBS  >
+SPADES  3
+三张都不相等
+大小值都不在范围内
+main  qualityf is 0.252,fpcs is 2
+buffer is turn/ 
+DIAMONDS 9 
+/turn 
+
+panduan  fpcs 3
+DIAMONDS  9
+
+disancipanduan
+三张都不相等
+大小值都不在范围内
+main  qualityf is 0.112,fpcs is 3
+buffer is river/ 
+CLUBS 10 
+/river 
+
+panduan  fpcs 4
+CLUBS  :
+
+disicipanduan
+main  qualityf is 0.012,fpcs is 4
+buffer is showdown/ 
+common/ 
+DIAMONDS 6 
+CLUBS A 
+SPADES 3 
+DIAMONDS 9 
+CLUBS 10 
+/common 
+2: 1111 SPADES A SPADES 8 ONE_PAIR 
+1: 5555 HEARTS A DIAMONDS Q ONE_PAIR 
+/showdown 
+
+buffer is pot-win/ 
+5555: 1272 
+/pot-win 
+
+buffer is seat/ 
+button: 2222 1940 0 
+small blind: 6666 1787 2000 
+big blind: 8888 2067 2000 
+3333 2323 2000 
+1111 3030 2000 
+7777 368 2000 
+4444 3142 2000 
+5555 3343 2000 
+/seat 
+
+jushu is 22
+buffer is blind/ 
+6666: 20 
+8888: 40 
+/blind 
+
+buffer is hold/ 
+CLUBS 2 
+CLUBS A 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+CLUBS  2
+CLUBS  >
+main  qualityf is 0.135,fpcs is 1
+buffer is inquire/ 
+5555 3343 2000 0 fold 
+4444 3142 2000 0 fold 
+7777 368 2000 0 fold 
+1111 3030 2000 0 fold 
+3333 2323 2000 0 fold 
+8888 2027 2000 40 blind 
+6666 1767 2000 20 blind 
+total pot: 60 
+/inquire 
+
+game qualityf is 0.135,fpcs is 1
+player 5555 ,action is fold,fold1 is 9.000000,raise1 is 5.000000,leixing1 is 0.227
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold1 is 2.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 2.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 7.000000,raise1 is 1.000000,leixing1 is 0.045
+player 1111 ,action is fold,fold1 is 9.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 14.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 16.000000,raise1 is 1.000000,leixing1 is 0.045
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 22,lunshu is 1
+checkgailv is 0.333
+,raisegailv is 0.667
+,max is 40
+,mybet is 20
+,mymoney is 2155
+game qualitys is 4
+main  rr is 4
+buffer is pot-win/ 
+8888: 60 
+/pot-win 
+
+buffer is seat/ 
+button: 6666 1767 2000 
+small blind: 8888 2087 2000 
+big blind: 3333 2323 2000 
+1111 3030 2000 
+7777 368 2000 
+4444 3142 2000 
+5555 3343 2000 
+2222 1940 0 
+/seat 
+
+jushu is 23
+buffer is blind/ 
+8888: 20 
+3333: 40 
+/blind 
+
+buffer is hold/ 
+DIAMONDS 10 
+DIAMONDS A 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+DIAMONDS  :
+DIAMONDS  >
+main  qualityf is 0.777,fpcs is 1
+buffer is inquire/ 
+5555 3343 2000 0 fold 
+4444 3142 2000 0 fold 
+7777 368 2000 0 fold 
+1111 3030 2000 0 fold 
+3333 2283 2000 40 blind 
+8888 2067 2000 20 blind 
+total pot: 60 
+/inquire 
+
+game qualityf is 0.777,fpcs is 1
+player 5555 ,action is fold,fold1 is 10.000000,raise1 is 5.000000,leixing1 is 0.217
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold1 is 2.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 2.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 7.000000,raise1 is 1.000000,leixing1 is 0.043
+player 1111 ,action is fold,fold1 is 10.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 15.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 17.000000,raise1 is 1.000000,leixing1 is 0.043
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 23,lunshu is 1
+checkgailv is 0.333
+,raisegailv is 0.667
+,max is 40
+,mybet is 20
+,mymoney is 2155
+game qualitys is 46
+main  rr is 46
+buffer is pot-win/ 
+2222: 146 
+/pot-win 
+
+buffer is seat/ 
+button: 8888 2067 2000 
+small blind: 3333 2283 2000 
+big blind: 1111 3030 2000 
+7777 368 2000 
+4444 3142 2000 
+5555 3343 2000 
+2222 2000 0 
+6666 1767 2000 
+/seat 
+
+jushu is 24
+buffer is blind/ 
+3333: 20 
+1111: 40 
+/blind 
+
+buffer is hold/ 
+CLUBS 2 
+CLUBS 9 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+CLUBS  2
+CLUBS  9
+main  qualityf is 0.135,fpcs is 1
+buffer is inquire/ 
+5555 3343 2000 0 fold 
+4444 3142 2000 0 fold 
+7777 368 2000 0 fold 
+1111 2990 2000 40 blind 
+3333 2263 2000 20 blind 
+total pot: 60 
+/inquire 
+
+game qualityf is 0.135,fpcs is 1
+player 5555 ,action is fold,fold1 is 11.000000,raise1 is 5.000000,leixing1 is 0.208
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold1 is 2.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 2.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 7.000000,raise1 is 1.000000,leixing1 is 0.042
+player 1111 ,action is fold,fold1 is 10.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 16.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 18.000000,raise1 is 1.000000,leixing1 is 0.042
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 24,lunshu is 1
+checkgailv is 0.333
+,raisegailv is 0.667
+,max is 40
+,mybet is 20
+,mymoney is 2155
+game qualitys is 4
+main  rr is 4
+buffer is pot-win/ 
+3333: 163 
+/pot-win 
+
+buffer is seat/ 
+button: 3333 2323 2000 
+small blind: 1111 2990 2000 
+big blind: 7777 368 2000 
+4444 3142 2000 
+5555 3343 2000 
+2222 2000 0 
+6666 1767 2000 
+8888 2067 2000 
+/seat 
+
+jushu is 25
+buffer is blind/ 
+1111: 20 
+7777: 40 
+/blind 
+
+buffer is hold/ 
+SPADES 2 
+SPADES K 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+SPADES  2
+SPADES  =
+main  qualityf is 0.135,fpcs is 1
+buffer is inquire/ 
+5555 3261 2000 82 raise 
+4444 3142 2000 0 fold 
+7777 328 2000 40 blind 
+1111 2970 2000 20 blind 
+total pot: 142 
+/inquire 
+
+game qualityf is 0.135,fpcs is 1
+player 5555 ,action is raise,fold1 is 11.000000,raise1 is 6.000000,leixing1 is 0.240
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold1 is 2.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 2.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 7.000000,raise1 is 1.000000,leixing1 is 0.040
+player 1111 ,action is fold,fold1 is 10.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 16.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 19.000000,raise1 is 1.000000,leixing1 is 0.040
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 25,lunshu is 1
+checkgailv is 0.437
+,raisegailv is 0.873
+,max is 82
+,mybet is 20
+,mymoney is 2155
+game qualitys is 4
+main  rr is 4
+buffer is flop/ 
+CLUBS 5 
+HEARTS 7 
+SPADES 9 
+/flop 
+
+panduan  fpcs 2
+
+diercipanduan
+CLUBS  5
+HEARTS  7
+SPADES  9
+三张都不相等
+大小值都在范围内
+44444444
+main  qualityf is 0.035,fpcs is 2
+buffer is turn/ 
+DIAMONDS 8 
+/turn 
+
+panduan  fpcs 3
+DIAMONDS  8
+
+disancipanduan
+三张都不相等
+大小值都在范围内
+44444444
+main  qualityf is 0.095,fpcs is 3
+buffer is pot-win/ 
+1111: 405 
+/pot-win 
+
+buffer is seat/ 
+button: 1111 3112 2000 
+small blind: 7777 328 2000 
+big blind: 4444 3142 2000 
+5555 3261 2000 
+2222 2000 0 
+6666 1767 2000 
+8888 2067 2000 
+3333 2323 2000 
+/seat 
+
+jushu is 26
+buffer is blind/ 
+7777: 20 
+4444: 40 
+/blind 
+
+buffer is hold/ 
+HEARTS 3 
+CLUBS K 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+HEARTS  3
+CLUBS  =
+main  qualityf is 0.295,fpcs is 1
+buffer is inquire/ 
+5555 3261 2000 0 fold 
+4444 3102 2000 40 blind 
+7777 308 2000 20 blind 
+total pot: 60 
+/inquire 
+
+game qualityf is 0.295,fpcs is 1
+player 5555 ,action is fold,fold1 is 12.000000,raise1 is 6.000000,leixing1 is 0.231
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold1 is 2.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 2.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 7.000000,raise1 is 1.000000,leixing1 is 0.038
+player 1111 ,action is fold,fold1 is 10.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 16.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 19.000000,raise1 is 1.000000,leixing1 is 0.038
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 26,lunshu is 1
+checkgailv is 0.333
+,raisegailv is 0.667
+,max is 40
+,mybet is 20
+,mymoney is 2155
+game qualitys is 4
+main  rr is 4
+buffer is pot-win/ 
+1111: 193 
+/pot-win 
+
+buffer is seat/ 
+button: 7777 308 2000 
+small blind: 4444 3102 2000 
+big blind: 5555 3261 2000 
+2222 2000 0 
+6666 1767 2000 
+8888 2067 2000 
+3333 2323 2000 
+1111 3172 2000 
+/seat 
+
+jushu is 27
+buffer is blind/ 
+4444: 20 
+5555: 40 
+/blind 
+
+buffer is hold/ 
+CLUBS 5 
+SPADES Q 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+CLUBS  5
+SPADES  <
+main  qualityf is 0.088,fpcs is 1
+buffer is inquire/ 
+5555 3221 2000 40 blind 
+4444 3082 2000 20 blind 
+total pot: 60 
+/inquire 
+
+game qualityf is 0.088,fpcs is 1
+player 5555 ,action is fold,fold1 is 12.000000,raise1 is 6.000000,leixing1 is 0.222
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold1 is 2.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 2.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 7.000000,raise1 is 1.000000,leixing1 is 0.037
+player 1111 ,action is fold,fold1 is 10.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 16.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 19.000000,raise1 is 1.000000,leixing1 is 0.037
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 27,lunshu is 1
+checkgailv is 0.333
+,raisegailv is 0.667
+,max is 40
+,mybet is 20
+,mymoney is 2155
+game qualitys is 4
+main  rr is 4
+buffer is pot-win/ 
+1111: 172 
+/pot-win 
+
+buffer is seat/ 
+button: 4444 3082 2000 
+small blind: 5555 3221 2000 
+big blind: 2222 2000 0 
+6666 1767 2000 
+8888 2067 2000 
+3333 2323 2000 
+1111 3232 2000 
+7777 308 2000 
+/seat 
+
+jushu is 28
+buffer is blind/ 
+5555: 20 
+2222: 40 
+/blind 
+
+buffer is hold/ 
+DIAMONDS 3 
+HEARTS A 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+DIAMONDS  3
+HEARTS  >
+main  qualityf is 0.295,fpcs is 1
+buffer is inquire/ 
+5555 3201 2000 20 fold 
+4444 3082 2000 0 fold 
+7777 308 2000 0 fold 
+1111 3232 2000 0 fold 
+3333 2323 2000 0 fold 
+8888 2067 2000 0 fold 
+6666 1767 2000 0 fold 
+2222 1960 0 40 blind 
+total pot: 60 
+/inquire 
+
+game qualityf is 0.295,fpcs is 1
+player 5555 ,action is fold,fold1 is 12.000000,raise1 is 6.000000,leixing1 is 0.214
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold1 is 3.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 3.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 8.000000,raise1 is 1.000000,leixing1 is 0.036
+player 1111 ,action is fold,fold1 is 11.000000,raise1 is 0.000000,leixing1 is 0.000
+player 7777 ,action is fold,fold1 is 17.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 20.000000,raise1 is 1.000000,leixing1 is 0.036
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 28,lunshu is 1
+checkgailv is 0.000
+,raisegailv is 0.667
+,max is 40
+,mybet is 40
+,mymoney is 2155
+game qualitys is 3
+main  rr is 3
+buffer is pot-win/ 
+2222: 60 
+/pot-win 
+
+buffer is seat/ 
+button: 5555 3201 2000 
+small blind: 2222 2020 0 
+big blind: 6666 1767 2000 
+8888 2067 2000 
+3333 2323 2000 
+1111 3232 2000 
+7777 308 2000 
+4444 3082 2000 
+/seat 
+
+jushu is 29
+buffer is blind/ 
+2222: 20 
+6666: 40 
+/blind 
+
+buffer is hold/ 
+DIAMONDS A 
+CLUBS 5 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+DIAMONDS  >
+CLUBS  5
+main  qualityf is 0.295,fpcs is 1
+buffer is inquire/ 
+5555 3201 2000 0 fold 
+4444 3082 2000 0 fold 
+7777 308 2000 0 fold 
+1111 3108 2000 124 raise 
+3333 2323 2000 0 fold 
+8888 2067 2000 0 fold 
+6666 1727 2000 40 blind 
+2222 2000 0 20 blind 
+total pot: 184 
+/inquire 
+
+game qualityf is 0.295,fpcs is 1
+player 5555 ,action is fold,fold1 is 12.000000,raise1 is 6.000000,leixing1 is 0.207
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold1 is 3.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 4.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 9.000000,raise1 is 1.000000,leixing1 is 0.034
+player 1111 ,action is raise,fold1 is 11.000000,raise1 is 1.000000,leixing1 is 0.034
+player 7777 ,action is fold,fold1 is 18.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 21.000000,raise1 is 1.000000,leixing1 is 0.034
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 29,lunshu is 1
+checkgailv is 0.565
+,raisegailv is 1.130
+,max is 124
+,mybet is 20
+,mymoney is 2155
+game qualitys is 4
+main  rr is 4
+buffer is flop/ 
+CLUBS 8 
+DIAMONDS 8 
+HEARTS 6 
+/flop 
+
+panduan  fpcs 2
+
+diercipanduan
+CLUBS  8
+DIAMONDS  8
+HEARTS  6
+main  qualityf is 0.089,fpcs is 2
+buffer is pot-win/ 
+1111: 457 
+/pot-win 
+
+buffer is seat/ 
+button: 2222 2000 0 
+small blind: 6666 1643 2000 
+big blind: 8888 2067 2000 
+3333 2323 2000 
+1111 3376 2000 
+7777 308 2000 
+4444 3082 2000 
+5555 3201 2000 
+/seat 
+
+jushu is 30
+buffer is blind/ 
+6666: 20 
+8888: 40 
+/blind 
+
+buffer is hold/ 
+HEARTS 7 
+HEARTS J 
+/hold 
+
+panduan  fpcs 1
+
+diyicipanduan
+HEARTS  7
+HEARTS  ;
+main  qualityf is 0.546,fpcs is 1
+buffer is inquire/ 
+5555 3161 2000 40 call 
+4444 3082 2000 0 fold 
+7777 308 2000 0 fold 
+1111 3336 2000 40 call 
+3333 2323 2000 0 fold 
+8888 2027 2000 40 blind 
+6666 1623 2000 20 blind 
+total pot: 140 
+/inquire 
+
+game qualityf is 0.546,fpcs is 1
+player 5555 ,action is fold,fold1 is 12.000000,raise1 is 6.000000,leixing1 is 0.200
+player 2222 ,action is raise,fold1 is 0.000000,raise1 is 0.000000,leixing1 is 0.000
+player 6666 ,action is fold,fold1 is 3.000000,raise1 is 0.000000,leixing1 is 0.000
+player 8888 ,action is fold,fold1 is 4.000000,raise1 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold1 is 10.000000,raise1 is 1.000000,leixing1 is 0.033
+player 1111 ,action is raise,fold1 is 11.000000,raise1 is 1.000000,leixing1 is 0.033
+player 7777 ,action is fold,fold1 is 19.000000,raise1 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold1 is 22.000000,raise1 is 1.000000,leixing1 is 0.033
+baoshou is 0,baojiao is 0
+fpcs is 1,jushu is 30,lunshu is 1
+checkgailv is 0.143
+,raisegailv is 0.286
+,max is 40
+,mybet is 20
+,mymoney is 2155
+game qualitys is 2
+main  rr is 2
+buffer is flop/ 
+CLUBS 7 
+CLUBS A 
+CLUBS 3 
+/flop 
+
+panduan  fpcs 2
+
+diercipanduan
+CLUBS  7
+CLUBS  >
+CLUBS  3
+三张都不相等
+大小值都不在范围内
+main  qualityf is 0.252,fpcs is 2
+buffer is inquire/ 
+5555 3081 2000 120 raise 
+4444 3082 2000 0 fold 
+7777 308 2000 0 fold 
+1111 3296 2000 80 check 
+3333 2323 2000 0 fold 
+8888 2027 2000 40 fold 
+6666 1623 2000 20 fold 
+2222 1920 0 80 raise 
+total pot: 340 
+/inquire 
+
+game qualityf is 0.252,fpcs is 2
+player 5555 ,action is fold,fold2 is 1.000000,raise2 is 0.000000,leixing1 is 0.000
+player 2222 ,action is raise,fold2 is 0.000000,raise2 is 3.000000,leixing1 is 0.100
+player 6666 ,action is fold,fold2 is 4.000000,raise2 is 1.000000,leixing1 is 0.033
+player 8888 ,action is fold,fold2 is 6.000000,raise2 is 0.000000,leixing1 is 0.000
+player 3333 ,action is fold,fold2 is 7.000000,raise2 is 0.000000,leixing1 is 0.000
+player 1111 ,action is raise,fold2 is 3.000000,raise2 is 2.000000,leixing1 is 0.067
+player 7777 ,action is fold,fold2 is 7.000000,raise2 is 0.000000,leixing1 is 0.000
+player 4444 ,action is fold,fold2 is 7.000000,raise2 is 0.000000,leixing1 is 0.000
+baoshou is 0,baojiao is 0
+fpcs is 2,jushu is 30,lunshu is 1
+checkgailv is 0.118
+,raisegailv is 0.235
+,max is 120
+,mybet is 80
+,mymoney is 2155
+game qualitys is 2
+main  rr is 2
+buffer is inquire/ 
+5555 3001 2000 200 raise 
+4444 3082 2000 0 fold 
+7777 308 2000 0 fold 
+1111 3296 2000 80 fold 
+3333 2323 2000 0 fold 
+8888 2027 2000 40 fold 
+6666 1623 2000 20 fold 
+2222 1840 0 160 raise 
+total pot: 500 
+/inquire 
+
+game qualityf is 0.252,fpcs is 2
+baoshou is 0,baojiao is 0
+fpcs is 2,jushu is 30,lunshu is 2
+checkgailv is 0.080
+,raisegailv is 0.160
+,max is 200
+,mybet is 160
+,mymoney is 1840
+game qualitys is 2
+main  rr is 2
+buffer is inquire/ 
+5555 2921 2000 280 raise 
+4444 3082 2000 0 fold 
+7777 308 2000 0 fold 
+1111 3296 2000 80 fold 
+3333 2323 2000 0 fold 
+8888 2027 2000 40 fold 
+6666 1623 2000 20 fold 
+2222 1760 0 240 raise 
+total pot: 660 
+/inquire 
+
+game qualityf is 0.252,fpcs is 2
+baoshou is 0,baojiao is 0
+fpcs is 2,jushu is 30,lunshu is 3
+checkgailv is 0.061
+,raisegailv is 0.121
+,max is 280
+,mybet is 240
+,mymoney is 1760
+game qualitys is 2
+main  rr is 2
+buffer is inquire/ 
+5555 2841 2000 360 raise 
+4444 3082 2000 0 fold 
+7777 308 2000 0 fold 
+1111 3296 2000 80 fold 
+3333 2323 2000 0 fold 
+8888 2027 2000 40 fold 
+6666 1623 2000 20 fold 
+2222 1680 0 320 raise 
+total pot: 820 
+/inquire 
+
+game qualityf is 0.252,fpcs is 2
+baoshou is 0,baojiao is 0
+fpcs is 2,jushu is 30,lunshu is 4
+checkgailv is 0.049
+,raisegailv is 0.098
+,max is 360
+,mybet is 320
+,mymoney is 1680
+game qualitys is 2
+main  rr is 2
+buffer is inquire/ 
+5555 2761 2000 440 raise 
+4444 3082 2000 0 fold 
+7777 308 2000 0 fold 
+1111 3296 2000 80 fold 
+3333 2323 2000 0 fold 
+8888 2027 2000 40 fold 
+6666 1623 2000 20 fold 
+2222 1600 0 400 raise 
+total pot: 980 
+/inquire 
+
+game qualityf is 0.252,fpcs is 2
+baoshou is 0,baojiao is 0
+fpcs is 2,jushu is 30,lunshu is 5
+checkgailv is 0.041
+,raisegailv is 0.082
+,max is 440
+,mybet is 400
+,mymoney is 1600
+game qualitys is 2
+main  rr is 2
+buffer is inquire/ 
+5555 2681 2000 520 raise 
+4444 3082 2000 0 fold 
+7777 308 2000 0 fold 
+1111 3296 2000 80 fold 
+3333 2323 2000 0 fold 
+8888 2027 2000 40 fold 
+6666 1623 2000 20 fold 
+2222 1520 0 480 raise 
+total pot: 1140 
+/inquire 
+
+game qualityf is 0.252,fpcs is 2
+baoshou is 0,baojiao is 0
+fpcs is 2,jushu is 30,lunshu is 6
+checkgailv is 0.035
+,raisegailv is 0.070
+,max is 520
+,mybet is 480
+,mymoney is 1520
+game qualitys is 2
+main  rr is 2
+buffer is inquire/ 
+5555 2601 2000 600 raise 
+4444 3082 2000 0 fold 
+7777 308 2000 0 fold 
+1111 3296 2000 80 fold 
+3333 2323 2000 0 fold 
+8888 2027 2000 40 fold 
+6666 1623 2000 20 fold 
+2222 1440 0 560 raise 
+total pot: 1300 
+/inquire 
+
+game qualityf is 0.252,fpcs is 2
+baoshou is 0,baojiao is 0
+fpcs is 2,jushu is 30,lunshu is 7
+checkgailv is 0.031
+,raisegailv is 0.062
+,max is 600
+,mybet is 560
+,mymoney is 1440
+game qualitys is 2
+main  rr is 2
+buffer is turn/ 
+CLUBS K 
+/turn 
+
+panduan  fpcs 3
+CLUBS  =
+
+disancipanduan
+三张都不相等
+最大值在范围内
+main  qualityf is 0.334,fpcs is 3
+buffer is inquire/ 
+5555 1461 2000 1740 raise 
+4444 3082 2000 0 fold 
+7777 308 2000 0 fold 
+1111 3296 2000 80 fold 
+3333 2323 2000 0 fold 
+8888 2027 2000 40 fold 
+6666 1623 2000 20 fold 
+2222 1360 0 640 raise 
+total pot: 2520 
+/inquire 
+
+game qualityf is 0.334,fpcs is 3
+baoshou is 0,baojiao is 0
+fpcs is 3,jushu is 30,lunshu is 1
+checkgailv is 0.437
+,raisegailv is 0.873
+,max is 1740
+,mybet is 640
+,mymoney is 1440
+game qualitys is 3
+main  rr is 3
+buffer is river/ 
+SPADES 6 
+/river 
+
+panduan  fpcs 4
+SPADES  6
+
+disicipanduan
+main  qualityf is 0.352,fpcs is 4
+buffer is inquire/ 
+5555 0 2000 3201 all_in 
+4444 3082 2000 0 fold 
+7777 308 2000 0 fold 
+1111 3296 2000 80 fold 
+3333 2323 2000 0 fold 
+8888 2027 2000 40 fold 
+6666 1623 2000 20 fold 
+2222 260 0 1740 call 
+total pot: 5081 
+/inquire 
+
+game qualityf is 0.352,fpcs is 4
+baoshou is 0,baojiao is 0
+fpcs is 4,jushu is 30,lunshu is 1
+checkgailv is 0.288
+,raisegailv is 0.575
+,max is 3201
+,mybet is 1740
+,mymoney is 1440
+game qualitys is 3
+main  rr is 3
+buffer is showdown/ 
+common/ 
+CLUBS 7 
+CLUBS A 
+CLUBS 3 
+CLUBS K 
+SPADES 6 
+/common 
+1: 5555 DIAMONDS 7 HEARTS A TWO_PAIR 
+2: 2222 HEARTS 7 HEARTS J ONE_PAIR 
+/showdown 
+
+buffer is pot-win/ 
+5555: 5341 
+/pot-win 
+
+jieshuchengxu
