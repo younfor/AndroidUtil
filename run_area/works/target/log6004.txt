@@ -1,0 +1,6478 @@
+spent time: 80
+spent time: 17
+DIAMONDS 10 
+
+color:3 point:10 
+HEARTS 7 
+
+color:1 point:7 
+spent time: 48
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 175
+**********flop**********
+SPADES 6 
+
+color:0 point:6 
+HEARTS 8 
+
+color:1 point:8 
+CLUBS 8 
+
+color:2 point:8 
+**********flop**********
+spent time: 119
+spent time: 1
+spent time: 38
+spent time: 7
+HEARTS 7 
+
+color:1 point:7 
+HEARTS Q 
+
+color:1 point:12 
+spent time: 21
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 49
+**********flop**********
+CLUBS 4 
+
+color:2 point:4 
+HEARTS 8 
+
+color:1 point:8 
+DIAMONDS Q 
+
+color:3 point:12 
+**********flop**********
+spent time: 89
+**********turn**********
+SPADES 2 
+
+color:0 point:2 
+**********turn**********
+spent time: 35
+**********river**********
+SPADES A 
+
+color:0 point:14 
+**********river**********
+spent time: 41
+spent time: 1
+spent time: 40
+spent time: 7
+DIAMONDS 6 
+
+color:3 point:6 
+SPADES K 
+
+color:0 point:13 
+spent time: 28
+****inquiry test****
+mybet 40  bet 104 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 134
+spent time: 2
+spent time: 51
+spent time: 11
+DIAMONDS 9 
+
+color:3 point:9 
+SPADES 9 
+
+color:0 point:9 
+spent time: 41
+****inquiry test****
+mybet 20  bet 160 
+****inquiry test****
+parser :myshape 7
+check 
+
+spent time: 155
+**********flop**********
+DIAMONDS 5 
+
+color:3 point:5 
+CLUBS 2 
+
+color:2 point:2 
+CLUBS 6 
+
+color:2 point:6 
+**********flop**********
+spent time: 72
+****inquiry test****
+mybet 160  bet 160 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.427580 except=153.928644 pot depth=360
+check 
+
+spent time: 135
+****inquiry test****
+mybet 160  bet 248 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.427580 except=229.182648 pot depth=448
+fold 
+
+spent time: 165
+spent time: 1
+spent time: 30
+spent time: 6
+SPADES K 
+
+color:0 point:13 
+DIAMONDS 9 
+
+color:3 point:9 
+spent time: 31
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 88
+spent time: 1
+spent time: 32
+spent time: 7
+HEARTS 6 
+
+color:1 point:6 
+SPADES J 
+
+color:0 point:11 
+spent time: 28
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 111
+spent time: 0
+spent time: 31
+spent time: 6
+DIAMONDS 5 
+
+color:3 point:5 
+HEARTS 9 
+
+color:1 point:9 
+spent time: 25
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 103
+spent time: 1
+spent time: 32
+spent time: 6
+CLUBS 2 
+
+color:2 point:2 
+DIAMONDS Q 
+
+color:3 point:12 
+spent time: 31
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 110
+spent time: 1
+spent time: 35
+spent time: 7
+SPADES K 
+
+color:0 point:13 
+HEARTS 2 
+
+color:1 point:2 
+spent time: 29
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 68
+**********flop**********
+HEARTS 5 
+
+color:1 point:5 
+DIAMONDS A 
+
+color:3 point:14 
+SPADES A 
+
+color:0 point:14 
+**********flop**********
+spent time: 53
+spent time: 2
+spent time: 41
+spent time: 7
+CLUBS 7 
+
+color:2 point:7 
+CLUBS 5 
+
+color:2 point:5 
+spent time: 29
+****inquiry test****
+mybet 40  bet 82 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 112
+**********flop**********
+DIAMONDS Q 
+
+color:3 point:12 
+CLUBS 8 
+
+color:2 point:8 
+HEARTS 2 
+
+color:1 point:2 
+**********flop**********
+spent time: 34
+spent time: 2
+spent time: 40
+spent time: 8
+HEARTS K 
+
+color:1 point:13 
+HEARTS 10 
+
+color:1 point:10 
+spent time: 18
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+check 
+
+spent time: 66
+**********flop**********
+DIAMONDS A 
+
+color:3 point:14 
+SPADES 9 
+
+color:0 point:9 
+SPADES 6 
+
+color:0 point:6 
+**********flop**********
+spent time: 60
+****inquiry test****
+mybet 128  bet 128 
+****inquiry test****
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.000000 except=0.000000 pot depth=296
+check 
+
+spent time: 69
+****inquiry test****
+mybet 128  bet 216 
+****inquiry test****
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.000000 except=0.000000 pot depth=384
+fold 
+
+spent time: 181
+spent time: 2
+spent time: 38
+spent time: 7
+CLUBS A 
+
+color:2 point:14 
+DIAMONDS 8 
+
+color:3 point:8 
+spent time: 29
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 77
+spent time: 1
+spent time: 68
+spent time: 8
+CLUBS 8 
+
+color:2 point:8 
+HEARTS 8 
+
+color:1 point:8 
+spent time: 29
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 7
+fold 
+
+spent time: 153
+spent time: 1
+spent time: 41
+spent time: 9
+DIAMONDS 2 
+
+color:3 point:2 
+SPADES J 
+
+color:0 point:11 
+spent time: 34
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 170
+spent time: 1
+spent time: 45
+spent time: 8
+CLUBS 7 
+
+color:2 point:7 
+SPADES 2 
+
+color:0 point:2 
+spent time: 38
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 109
+spent time: 1
+spent time: 37
+spent time: 8
+HEARTS 10 
+
+color:1 point:10 
+SPADES 5 
+
+color:0 point:5 
+spent time: 27
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 73
+spent time: 1
+spent time: 26
+spent time: 6
+CLUBS 10 
+
+color:2 point:10 
+CLUBS 2 
+
+color:2 point:2 
+spent time: 19
+****inquiry test****
+mybet 40  bet 124 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 58
+**********flop**********
+CLUBS 5 
+
+color:2 point:5 
+SPADES 6 
+
+color:0 point:6 
+SPADES 2 
+
+color:0 point:2 
+**********flop**********
+spent time: 48
+spent time: 2
+spent time: 45
+spent time: 8
+DIAMONDS 7 
+
+color:3 point:7 
+HEARTS A 
+
+color:1 point:14 
+spent time: 26
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 71
+**********flop**********
+CLUBS K 
+
+color:2 point:13 
+CLUBS Q 
+
+color:2 point:12 
+DIAMONDS 4 
+
+color:3 point:4 
+**********flop**********
+spent time: 60
+spent time: 2
+spent time: 27
+spent time: 4
+CLUBS K 
+
+color:2 point:13 
+CLUBS 5 
+
+color:2 point:5 
+spent time: 13
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 96
+spent time: 1
+spent time: 34
+spent time: 5
+DIAMONDS Q 
+
+color:3 point:12 
+DIAMONDS 7 
+
+color:3 point:7 
+spent time: 26
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 75
+**********flop**********
+SPADES 10 
+
+color:0 point:10 
+CLUBS 7 
+
+color:2 point:7 
+HEARTS 8 
+
+color:1 point:8 
+**********flop**********
+spent time: 57
+**********turn**********
+SPADES 6 
+
+color:0 point:6 
+**********turn**********
+spent time: 37
+**********river**********
+CLUBS 5 
+
+color:2 point:5 
+**********river**********
+spent time: 32
+spent time: 1
+spent time: 34
+spent time: 7
+CLUBS 6 
+
+color:2 point:6 
+CLUBS 4 
+
+color:2 point:4 
+spent time: 30
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 57
+spent time: 1
+spent time: 30
+spent time: 9
+HEARTS 4 
+
+color:1 point:4 
+DIAMONDS 8 
+
+color:3 point:8 
+spent time: 27
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 174
+**********flop**********
+CLUBS 9 
+
+color:2 point:9 
+DIAMONDS J 
+
+color:3 point:11 
+HEARTS K 
+
+color:1 point:13 
+**********flop**********
+spent time: 57
+spent time: 2
+spent time: 41
+spent time: 19
+HEARTS 5 
+
+color:1 point:5 
+DIAMONDS 10 
+
+color:3 point:10 
+spent time: 33
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 62
+spent time: 2
+spent time: 39
+spent time: 9
+SPADES 8 
+
+color:0 point:8 
+HEARTS 8 
+
+color:1 point:8 
+spent time: 34
+****inquiry test****
+mybet 40  bet 132 
+****inquiry test****
+parser :myshape 7
+fold 
+
+spent time: 82
+spent time: 1
+spent time: 39
+spent time: 9
+SPADES 4 
+
+color:0 point:4 
+SPADES 10 
+
+color:0 point:10 
+spent time: 26
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 93
+spent time: 1
+spent time: 31
+spent time: 6
+DIAMONDS 7 
+
+color:3 point:7 
+SPADES J 
+
+color:0 point:11 
+spent time: 22
+****inquiry test****
+mybet 0  bet 120 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 81
+spent time: 1
+spent time: 32
+spent time: 7
+DIAMONDS 2 
+
+color:3 point:2 
+HEARTS 9 
+
+color:1 point:9 
+spent time: 27
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 62
+**********flop**********
+DIAMONDS 9 
+
+color:3 point:9 
+CLUBS 4 
+
+color:2 point:4 
+CLUBS 8 
+
+color:2 point:8 
+**********flop**********
+spent time: 35
+**********turn**********
+HEARTS 6 
+
+color:1 point:6 
+**********turn**********
+spent time: 23
+**********river**********
+DIAMONDS Q 
+
+color:3 point:12 
+**********river**********
+spent time: 26
+showdown/ 
+common/ 
+DIAMONDS 9 
+CLUBS 4 
+CLUBS 8 
+HEARTS 6 
+DIAMONDS Q 
+/common 
+1: 6666 SPADES A HEARTS Q ONE_PAIR 
+2: 3333 SPADES 6 CLUBS 5 ONE_PAIR 
+/showdown 
+spent time: 13
+spent time: 1
+spent time: 38
+spent time: 7
+DIAMONDS 6 
+
+color:3 point:6 
+CLUBS 2 
+
+color:2 point:2 
+spent time: 23
+****inquiry test****
+mybet 0  bet 124 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 155
+spent time: 1
+spent time: 39
+spent time: 8
+CLUBS Q 
+
+color:2 point:12 
+HEARTS 6 
+
+color:1 point:6 
+spent time: 35
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 140
+spent time: 1
+spent time: 45
+spent time: 9
+CLUBS J 
+
+color:2 point:11 
+DIAMONDS 9 
+
+color:3 point:9 
+spent time: 36
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 78
+spent time: 2
+spent time: 56
+spent time: 13
+CLUBS 9 
+
+color:2 point:9 
+SPADES 9 
+
+color:0 point:9 
+spent time: 41
+****inquiry test****
+mybet 40  bet 123 
+****inquiry test****
+parser :myshape 7
+check 
+
+spent time: 92
+**********flop**********
+HEARTS J 
+
+color:1 point:11 
+DIAMONDS 3 
+
+color:3 point:3 
+HEARTS 5 
+
+color:1 point:5 
+**********flop**********
+spent time: 42
+****inquiry test****
+mybet 123  bet 123 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.427580 except=113.736165 pot depth=266
+check 
+
+spent time: 101
+****inquiry test****
+mybet 123  bet 206 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.427580 except=184.714373 pot depth=349
+fold 
+
+spent time: 103
+spent time: 1
+spent time: 33
+spent time: 7
+CLUBS A 
+
+color:2 point:14 
+HEARTS 9 
+
+color:1 point:9 
+spent time: 24
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 84
+spent time: 1
+spent time: 29
+spent time: 6
+HEARTS J 
+
+color:1 point:11 
+SPADES A 
+
+color:0 point:14 
+spent time: 30
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 89
+spent time: 1
+spent time: 35
+spent time: 13
+SPADES 5 
+
+color:0 point:5 
+SPADES A 
+
+color:0 point:14 
+spent time: 36
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 130
+spent time: 1
+spent time: 29
+spent time: 7
+HEARTS 9 
+
+color:1 point:9 
+CLUBS 6 
+
+color:2 point:6 
+spent time: 19
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 70
+spent time: 1
+spent time: 54
+spent time: 12
+HEARTS 8 
+
+color:1 point:8 
+CLUBS 8 
+
+color:2 point:8 
+spent time: 38
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 7
+fold 
+
+spent time: 419
+spent time: 1
+spent time: 49
+spent time: 11
+DIAMONDS 9 
+
+color:3 point:9 
+CLUBS Q 
+
+color:2 point:12 
+spent time: 45
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 107
+spent time: 1
+spent time: 55
+spent time: 11
+HEARTS 10 
+
+color:1 point:10 
+DIAMONDS 4 
+
+color:3 point:4 
+spent time: 35
+****inquiry test****
+mybet 40  bet 101 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 91
+**********flop**********
+SPADES 2 
+
+color:0 point:2 
+SPADES 6 
+
+color:0 point:6 
+CLUBS A 
+
+color:2 point:14 
+**********flop**********
+spent time: 136
+**********turn**********
+SPADES 5 
+
+color:0 point:5 
+**********turn**********
+spent time: 33
+**********river**********
+DIAMONDS 8 
+
+color:3 point:8 
+**********river**********
+spent time: 50
+showdown/ 
+common/ 
+SPADES 2 
+SPADES 6 
+CLUBS A 
+SPADES 5 
+DIAMONDS 8 
+/common 
+1: 6666 HEARTS Q SPADES A ONE_PAIR 
+2: 2222 SPADES J HEARTS J ONE_PAIR 
+/showdown 
+spent time: 11
+spent time: 1
+spent time: 71
+spent time: 6
+HEARTS 10 
+
+color:1 point:10 
+DIAMONDS A 
+
+color:3 point:14 
+spent time: 22
+****inquiry test****
+mybet 20  bet 133 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 66
+spent time: 2
+spent time: 32
+spent time: 6
+CLUBS 2 
+
+color:2 point:2 
+SPADES 6 
+
+color:0 point:6 
+spent time: 24
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 98
+spent time: 1
+spent time: 31
+spent time: 7
+CLUBS 4 
+
+color:2 point:4 
+HEARTS 9 
+
+color:1 point:9 
+spent time: 27
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 127
+spent time: 1
+spent time: 30
+spent time: 6
+HEARTS K 
+
+color:1 point:13 
+DIAMONDS 5 
+
+color:3 point:5 
+spent time: 22
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 61
+spent time: 0
+spent time: 30
+spent time: 6
+SPADES 3 
+
+color:0 point:3 
+DIAMONDS 6 
+
+color:3 point:6 
+spent time: 20
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 60
+spent time: 0
+spent time: 30
+spent time: 11
+CLUBS 10 
+
+color:2 point:10 
+DIAMONDS 3 
+
+color:3 point:3 
+spent time: 21
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 59
+**********flop**********
+DIAMONDS 10 
+
+color:3 point:10 
+HEARTS J 
+
+color:1 point:11 
+DIAMONDS 5 
+
+color:3 point:5 
+**********flop**********
+spent time: 33
+spent time: 1
+spent time: 34
+spent time: 6
+DIAMONDS 6 
+
+color:3 point:6 
+SPADES 2 
+
+color:0 point:2 
+spent time: 17
+****inquiry test****
+mybet 40  bet 132 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 66
+**********flop**********
+HEARTS 3 
+
+color:1 point:3 
+HEARTS 5 
+
+color:1 point:5 
+CLUBS 7 
+
+color:2 point:7 
+**********flop**********
+spent time: 41
+spent time: 2
+spent time: 39
+spent time: 7
+HEARTS J 
+
+color:1 point:11 
+CLUBS 2 
+
+color:2 point:2 
+spent time: 25
+****inquiry test****
+mybet 20  bet 180 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 64
+spent time: 1
+spent time: 30
+spent time: 6
+DIAMONDS 4 
+
+color:3 point:4 
+SPADES 7 
+
+color:0 point:7 
+spent time: 22
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 72
+**********flop**********
+HEARTS 9 
+
+color:1 point:9 
+HEARTS 10 
+
+color:1 point:10 
+DIAMONDS Q 
+
+color:3 point:12 
+**********flop**********
+spent time: 33
+**********turn**********
+DIAMONDS 8 
+
+color:3 point:8 
+**********turn**********
+spent time: 28
+**********river**********
+CLUBS 10 
+
+color:2 point:10 
+**********river**********
+spent time: 31
+showdown/ 
+common/ 
+HEARTS 9 
+HEARTS 10 
+DIAMONDS Q 
+DIAMONDS 8 
+CLUBS 10 
+/common 
+1: 3333 DIAMONDS 2 DIAMONDS J STRAIGHT 
+1: 1111 CLUBS J CLUBS Q STRAIGHT 
+/showdown 
+spent time: 14
+spent time: 2
+spent time: 30
+spent time: 6
+HEARTS Q 
+
+color:1 point:12 
+HEARTS J 
+
+color:1 point:11 
+spent time: 19
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+check 
+
+spent time: 76
+****inquiry test****
+mybet 40  bet 123 
+****inquiry test****
+parser :myshape 8
+check 
+
+spent time: 78
+**********flop**********
+SPADES 3 
+
+color:0 point:3 
+SPADES J 
+
+color:0 point:11 
+DIAMONDS J 
+
+color:3 point:11 
+**********flop**********
+spent time: 29
+****inquiry test****
+mybet 123  bet 123 
+****inquiry test****
+parser :myshape 5
+FourTwoRule :Four!
+FourTwoRule :FullHouse!
+FourTwoRule :Flush!
+myshape 5
+case 5
+p =0.874538 except=267.608538 pot depth=306
+****smoothraise****
+bet 123  target 158
+****smoothraise****
+raise 158
+
+spent time: 91
+spent time: 1
+spent time: 31
+spent time: 6
+HEARTS K 
+
+color:1 point:13 
+HEARTS 6 
+
+color:1 point:6 
+spent time: 22
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 58
+spent time: 0
+spent time: 32
+spent time: 5
+SPADES 4 
+
+color:0 point:4 
+SPADES K 
+
+color:0 point:13 
+spent time: 22
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 56
+spent time: 1
+spent time: 32
+spent time: 7
+DIAMONDS Q 
+
+color:3 point:12 
+CLUBS 3 
+
+color:2 point:3 
+spent time: 23
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 51
+spent time: 1
+spent time: 31
+spent time: 6
+CLUBS 4 
+
+color:2 point:4 
+DIAMONDS 4 
+
+color:3 point:4 
+spent time: 18
+****inquiry test****
+mybet 40  bet 124 
+****inquiry test****
+parser :myshape 7
+fold 
+
+spent time: 65
+spent time: 1
+spent time: 38
+spent time: 6
+SPADES 9 
+
+color:0 point:9 
+SPADES J 
+
+color:0 point:11 
+spent time: 18
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 74
+spent time: 1
+spent time: 34
+spent time: 6
+SPADES J 
+
+color:0 point:11 
+CLUBS 8 
+
+color:2 point:8 
+spent time: 31
+****inquiry test****
+mybet 0  bet 93 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 64
+spent time: 1
+spent time: 28
+spent time: 6
+DIAMONDS K 
+
+color:3 point:13 
+DIAMONDS 9 
+
+color:3 point:9 
+spent time: 29
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 83
+spent time: 1
+spent time: 31
+spent time: 5
+DIAMONDS 4 
+
+color:3 point:4 
+HEARTS 9 
+
+color:1 point:9 
+spent time: 22
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 96
+**********flop**********
+CLUBS 8 
+
+color:2 point:8 
+SPADES 3 
+
+color:0 point:3 
+DIAMONDS 3 
+
+color:3 point:3 
+**********flop**********
+spent time: 40
+spent time: 1
+spent time: 34
+spent time: 7
+HEARTS 3 
+
+color:1 point:3 
+CLUBS 8 
+
+color:2 point:8 
+spent time: 22
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 88
+spent time: 1
+spent time: 32
+spent time: 7
+HEARTS K 
+
+color:1 point:13 
+CLUBS 4 
+
+color:2 point:4 
+spent time: 28
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 66
+**********flop**********
+DIAMONDS 7 
+
+color:3 point:7 
+SPADES K 
+
+color:0 point:13 
+DIAMONDS 6 
+
+color:3 point:6 
+**********flop**********
+spent time: 55
+spent time: 1
+spent time: 31
+spent time: 6
+SPADES J 
+
+color:0 point:11 
+CLUBS A 
+
+color:2 point:14 
+spent time: 19
+****inquiry test****
+mybet 40  bet 104 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 97
+spent time: 1
+spent time: 31
+spent time: 5
+DIAMONDS K 
+
+color:3 point:13 
+CLUBS 4 
+
+color:2 point:4 
+spent time: 20
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 104
+**********flop**********
+SPADES K 
+
+color:0 point:13 
+CLUBS 6 
+
+color:2 point:6 
+HEARTS 8 
+
+color:1 point:8 
+**********flop**********
+spent time: 44
+**********turn**********
+HEARTS 2 
+
+color:1 point:2 
+**********turn**********
+spent time: 61
+spent time: 2
+spent time: 30
+spent time: 5
+HEARTS 7 
+
+color:1 point:7 
+DIAMONDS 3 
+
+color:3 point:3 
+spent time: 20
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 62
+spent time: 1
+spent time: 30
+spent time: 7
+CLUBS K 
+
+color:2 point:13 
+HEARTS 4 
+
+color:1 point:4 
+spent time: 36
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 65
+spent time: 1
+spent time: 33
+spent time: 9
+SPADES K 
+
+color:0 point:13 
+CLUBS 8 
+
+color:2 point:8 
+spent time: 32
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 81
+spent time: 1
+spent time: 36
+spent time: 14
+DIAMONDS 4 
+
+color:3 point:4 
+CLUBS K 
+
+color:2 point:13 
+spent time: 42
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 83
+spent time: 1
+spent time: 56
+spent time: 9
+DIAMONDS 6 
+
+color:3 point:6 
+CLUBS J 
+
+color:2 point:11 
+spent time: 36
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 66
+**********flop**********
+SPADES 10 
+
+color:0 point:10 
+HEARTS 9 
+
+color:1 point:9 
+SPADES 4 
+
+color:0 point:4 
+**********flop**********
+spent time: 55
+spent time: 1
+spent time: 35
+spent time: 7
+CLUBS Q 
+
+color:2 point:12 
+SPADES 7 
+
+color:0 point:7 
+spent time: 39
+****inquiry test****
+mybet 40  bet 109 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 81
+**********flop**********
+HEARTS Q 
+
+color:1 point:12 
+SPADES 4 
+
+color:0 point:4 
+HEARTS 5 
+
+color:1 point:5 
+**********flop**********
+spent time: 41
+spent time: 1
+spent time: 36
+spent time: 6
+SPADES 2 
+
+color:0 point:2 
+HEARTS J 
+
+color:1 point:11 
+spent time: 29
+****inquiry test****
+mybet 20  bet 135 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 61
+spent time: 1
+spent time: 30
+spent time: 7
+DIAMONDS 5 
+
+color:3 point:5 
+DIAMONDS 9 
+
+color:3 point:9 
+spent time: 17
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 58
+spent time: 2
+spent time: 30
+spent time: 6
+DIAMONDS J 
+
+color:3 point:11 
+HEARTS 2 
+
+color:1 point:2 
+spent time: 24
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 67
+spent time: 1
+spent time: 30
+spent time: 7
+DIAMONDS Q 
+
+color:3 point:12 
+DIAMONDS J 
+
+color:3 point:11 
+spent time: 20
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+check 
+
+spent time: 55
+**********flop**********
+CLUBS Q 
+
+color:2 point:12 
+HEARTS Q 
+
+color:1 point:12 
+HEARTS K 
+
+color:1 point:13 
+**********flop**********
+spent time: 31
+****inquiry test****
+mybet 40  bet 40 
+****inquiry test****
+parser :myshape 5
+FourTwoRule :Four!
+FourTwoRule :FullHouse!
+FourTwoRule :Flush!
+myshape 5
+case 5
+p =0.874538 except=87.453770 pot depth=100
+****smoothraise****
+bet 40  target 75
+****smoothraise****
+raise 75
+
+spent time: 106
+**********turn**********
+SPADES K 
+
+color:0 point:13 
+**********turn**********
+spent time: 33
+****inquiry test****
+mybet 115  bet 115 
+****inquiry test****
+parser :myshape 2
+****smoothraise****
+bet 115  target 515
+****smoothraise****
+raise 515
+
+spent time: 79
+spent time: 1
+spent time: 40
+spent time: 9
+HEARTS Q 
+
+color:1 point:12 
+SPADES 10 
+
+color:0 point:10 
+spent time: 27
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 64
+spent time: 2
+spent time: 73
+spent time: 15
+SPADES 3 
+
+color:0 point:3 
+HEARTS 10 
+
+color:1 point:10 
+spent time: 46
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 128
+spent time: 2
+spent time: 74
+spent time: 17
+SPADES Q 
+
+color:0 point:12 
+CLUBS 10 
+
+color:2 point:10 
+spent time: 47
+****inquiry test****
+mybet 40  bet 106 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 104
+**********flop**********
+HEARTS 10 
+
+color:1 point:10 
+HEARTS A 
+
+color:1 point:14 
+SPADES 2 
+
+color:0 point:2 
+**********flop**********
+spent time: 41
+spent time: 1
+spent time: 42
+spent time: 7
+CLUBS Q 
+
+color:2 point:12 
+DIAMONDS 10 
+
+color:3 point:10 
+spent time: 24
+****inquiry test****
+mybet 20  bet 82 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 61
+spent time: 3
+spent time: 32
+spent time: 5
+CLUBS 4 
+
+color:2 point:4 
+SPADES 2 
+
+color:0 point:2 
+spent time: 18
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 62
+spent time: 1
+spent time: 32
+spent time: 7
+HEARTS 3 
+
+color:1 point:3 
+DIAMONDS 10 
+
+color:3 point:10 
+spent time: 24
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 59
+spent time: 1
+spent time: 59
+spent time: 13
+DIAMONDS 6 
+
+color:3 point:6 
+CLUBS 5 
+
+color:2 point:5 
+spent time: 47
+****inquiry test****
+mybet 0  bet 81 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 109
+spent time: 1
+spent time: 62
+spent time: 13
+DIAMONDS 5 
+
+color:3 point:5 
+CLUBS 5 
+
+color:2 point:5 
+spent time: 42
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 7
+fold 
+
+spent time: 158
+**********flop**********
+SPADES K 
+
+color:0 point:13 
+SPADES 6 
+
+color:0 point:6 
+HEARTS A 
+
+color:1 point:14 
+**********flop**********
+spent time: 53
+spent time: 1
+spent time: 44
+spent time: 8
+HEARTS J 
+
+color:1 point:11 
+SPADES 7 
+
+color:0 point:7 
+spent time: 32
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 67
+**********flop**********
+CLUBS J 
+
+color:2 point:11 
+HEARTS 6 
+
+color:1 point:6 
+CLUBS 2 
+
+color:2 point:2 
+**********flop**********
+spent time: 47
+**********turn**********
+DIAMONDS 8 
+
+color:3 point:8 
+**********turn**********
+spent time: 60
+**********river**********
+DIAMONDS 9 
+
+color:3 point:9 
+**********river**********
+spent time: 42
+showdown/ 
+common/ 
+CLUBS J 
+HEARTS 6 
+CLUBS 2 
+DIAMONDS 8 
+DIAMONDS 9 
+/common 
+1: 7777 CLUBS 8 SPADES 8 THREE_OF_A_KIND 
+2: 5555 CLUBS 9 CLUBS K ONE_PAIR 
+/showdown 
+spent time: 30
+spent time: 1
+spent time: 32
+spent time: 6
+SPADES 9 
+
+color:0 point:9 
+DIAMONDS 8 
+
+color:3 point:8 
+spent time: 25
+****inquiry test****
+mybet 40  bet 129 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 94
+**********flop**********
+HEARTS Q 
+
+color:1 point:12 
+HEARTS K 
+
+color:1 point:13 
+SPADES K 
+
+color:0 point:13 
+**********flop**********
+spent time: 41
+**********turn**********
+HEARTS 8 
+
+color:1 point:8 
+**********turn**********
+spent time: 42
+**********river**********
+SPADES Q 
+
+color:0 point:12 
+**********river**********
+spent time: 48
+spent time: 1
+spent time: 33
+spent time: 7
+HEARTS 2 
+
+color:1 point:2 
+DIAMONDS 5 
+
+color:3 point:5 
+spent time: 21
+****inquiry test****
+mybet 20  bet 86 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 138
+spent time: 1
+spent time: 37
+spent time: 9
+CLUBS 10 
+
+color:2 point:10 
+HEARTS K 
+
+color:1 point:13 
+spent time: 24
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 78
+spent time: 1
+spent time: 37
+spent time: 9
+DIAMONDS J 
+
+color:3 point:11 
+DIAMONDS 9 
+
+color:3 point:9 
+spent time: 32
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 76
+spent time: 0
+spent time: 41
+spent time: 8
+CLUBS J 
+
+color:2 point:11 
+DIAMONDS 7 
+
+color:3 point:7 
+spent time: 27
+****inquiry test****
+mybet 0  bet 120 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 101
+spent time: 1
+spent time: 60
+spent time: 11
+CLUBS 6 
+
+color:2 point:6 
+CLUBS A 
+
+color:2 point:14 
+spent time: 31
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 77
+spent time: 1
+spent time: 48
+spent time: 10
+SPADES 4 
+
+color:0 point:4 
+HEARTS 3 
+
+color:1 point:3 
+spent time: 40
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 89
+spent time: 2
+spent time: 49
+spent time: 11
+HEARTS 9 
+
+color:1 point:9 
+DIAMONDS A 
+
+color:3 point:14 
+spent time: 62
+****inquiry test****
+mybet 40  bet 82 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 164
+**********flop**********
+HEARTS A 
+
+color:1 point:14 
+SPADES 9 
+
+color:0 point:9 
+HEARTS 8 
+
+color:1 point:8 
+**********flop**********
+spent time: 87
+**********turn**********
+SPADES 8 
+
+color:0 point:8 
+**********turn**********
+spent time: 46
+**********river**********
+CLUBS 7 
+
+color:2 point:7 
+**********river**********
+spent time: 46
+showdown/ 
+common/ 
+HEARTS A 
+SPADES 9 
+HEARTS 8 
+SPADES 8 
+CLUBS 7 
+/common 
+1: 5555 DIAMONDS 10 HEARTS K ONE_PAIR 
+2: 2222 DIAMONDS J DIAMONDS Q ONE_PAIR 
+/showdown 
+spent time: 19
+spent time: 1
+spent time: 72
+spent time: 16
+SPADES A 
+
+color:0 point:14 
+SPADES J 
+
+color:0 point:11 
+spent time: 32
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+check 
+
+spent time: 85
+**********flop**********
+CLUBS J 
+
+color:2 point:11 
+HEARTS 9 
+
+color:1 point:9 
+DIAMONDS 2 
+
+color:3 point:2 
+**********flop**********
+spent time: 75
+****inquiry test****
+mybet 128  bet 128 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.499008 except=147.706408 pot depth=296
+check 
+
+spent time: 139
+****inquiry test****
+mybet 128  bet 216 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.499008 except=235.531839 pot depth=384
+check 
+
+spent time: 127
+**********turn**********
+HEARTS Q 
+
+color:1 point:12 
+**********turn**********
+spent time: 28
+****inquiry test****
+mybet 216  bet 216 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.457857 except=216.108567 pot depth=472
+check 
+
+spent time: 90
+****inquiry test****
+mybet 216  bet 304 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.457857 except=296.691423 pot depth=560
+fold 
+
+spent time: 108
+spent time: 1
+spent time: 33
+spent time: 7
+HEARTS A 
+
+color:1 point:14 
+DIAMONDS 10 
+
+color:3 point:10 
+spent time: 22
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 61
+spent time: 3
+spent time: 39
+spent time: 7
+SPADES Q 
+
+color:0 point:12 
+SPADES J 
+
+color:0 point:11 
+spent time: 33
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+check 
+
+spent time: 54
+****inquiry test****
+mybet 40  bet 123 
+****inquiry test****
+parser :myshape 8
+check 
+
+spent time: 57
+**********flop**********
+DIAMONDS 5 
+
+color:3 point:5 
+CLUBS A 
+
+color:2 point:14 
+HEARTS Q 
+
+color:1 point:12 
+**********flop**********
+spent time: 45
+****inquiry test****
+mybet 123  bet 123 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.534722 except=163.625064 pot depth=306
+****smoothraise****
+bet 123  target 140
+****smoothraise****
+raise 140
+
+spent time: 81
+spent time: 0
+spent time: 28
+spent time: 8
+DIAMONDS 2 
+
+color:3 point:2 
+SPADES K 
+
+color:0 point:13 
+spent time: 28
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 57
+**********flop**********
+SPADES J 
+
+color:0 point:11 
+SPADES 5 
+
+color:0 point:5 
+HEARTS 9 
+
+color:1 point:9 
+**********flop**********
+spent time: 50
+**********turn**********
+HEARTS 10 
+
+color:1 point:10 
+**********turn**********
+spent time: 27
+**********river**********
+CLUBS Q 
+
+color:2 point:12 
+**********river**********
+spent time: 21
+spent time: 1
+spent time: 29
+spent time: 7
+DIAMONDS 5 
+
+color:3 point:5 
+CLUBS 6 
+
+color:2 point:6 
+spent time: 27
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 67
+spent time: 1
+spent time: 29
+spent time: 7
+DIAMONDS K 
+
+color:3 point:13 
+CLUBS 9 
+
+color:2 point:9 
+spent time: 24
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 47
+**********flop**********
+DIAMONDS J 
+
+color:3 point:11 
+SPADES 4 
+
+color:0 point:4 
+DIAMONDS 9 
+
+color:3 point:9 
+**********flop**********
+spent time: 43
+spent time: 1
+spent time: 42
+spent time: 5
+HEARTS A 
+
+color:1 point:14 
+SPADES K 
+
+color:0 point:13 
+spent time: 19
+****inquiry test****
+mybet 40  bet 109 
+****inquiry test****
+parser :myshape 8
+check 
+
+spent time: 55
+**********flop**********
+DIAMONDS 10 
+
+color:3 point:10 
+HEARTS 3 
+
+color:1 point:3 
+HEARTS 5 
+
+color:1 point:5 
+**********flop**********
+spent time: 62
+****inquiry test****
+mybet 109  bet 109 
+****inquiry test****
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.037436 except=8.909768 pot depth=238
+check 
+
+spent time: 70
+****inquiry test****
+mybet 109  bet 310 
+****inquiry test****
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.037436 except=23.959040 pot depth=439
+fold 
+
+spent time: 146
+spent time: 1
+spent time: 37
+spent time: 7
+HEARTS 6 
+
+color:1 point:6 
+SPADES A 
+
+color:0 point:14 
+spent time: 22
+****inquiry test****
+mybet 20  bet 82 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 85
+**********flop**********
+HEARTS 9 
+
+color:1 point:9 
+SPADES Q 
+
+color:0 point:12 
+CLUBS 2 
+
+color:2 point:2 
+**********flop**********
+spent time: 29
+**********turn**********
+HEARTS 5 
+
+color:1 point:5 
+**********turn**********
+spent time: 56
+**********river**********
+HEARTS 4 
+
+color:1 point:4 
+**********river**********
+spent time: 58
+showdown/ 
+common/ 
+HEARTS 9 
+SPADES Q 
+CLUBS 2 
+HEARTS 5 
+HEARTS 4 
+/common 
+2: 5555 SPADES J HEARTS Q ONE_PAIR 
+1: 7777 SPADES K CLUBS K ONE_PAIR 
+/showdown 
+spent time: 25
+spent time: 1
+spent time: 29
+spent time: 5
+DIAMONDS 4 
+
+color:3 point:4 
+DIAMONDS 7 
+
+color:3 point:7 
+spent time: 47
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 82
+spent time: 2
+spent time: 19
+spent time: 7
+HEARTS 8 
+
+color:1 point:8 
+DIAMONDS 3 
+
+color:3 point:3 
+spent time: 28
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 89
+spent time: 1
+spent time: 41
+spent time: 8
+HEARTS K 
+
+color:1 point:13 
+DIAMONDS A 
+
+color:3 point:14 
+spent time: 40
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+check 
+
+spent time: 73
+**********flop**********
+CLUBS J 
+
+color:2 point:11 
+CLUBS 9 
+
+color:2 point:9 
+SPADES A 
+
+color:0 point:14 
+**********flop**********
+spent time: 26
+****inquiry test****
+mybet 40  bet 99 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.606151 except=132.140918 pot depth=159
+****smoothraise****
+bet 99  target 120
+****smoothraise****
+raise 120
+
+spent time: 89
+**********turn**********
+DIAMONDS 5 
+
+color:3 point:5 
+**********turn**********
+spent time: 22
+****inquiry test****
+mybet 219  bet 453 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.565000 except=523.190000 pot depth=692
+****smoothraise****
+bet 453  target 472
+****smoothraise****
+raise 472
+
+spent time: 83
+**********river**********
+SPADES 2 
+
+color:0 point:2 
+**********river**********
+spent time: 24
+showdown/ 
+common/ 
+CLUBS J 
+CLUBS 9 
+SPADES A 
+DIAMONDS 5 
+SPADES 2 
+/common 
+2: 2222 CLUBS A CLUBS 10 ONE_PAIR 
+1: 4444 HEARTS K DIAMONDS A ONE_PAIR 
+/showdown 
+spent time: 10
+spent time: 0
+spent time: 27
+spent time: 7
+DIAMONDS 2 
+
+color:3 point:2 
+SPADES 6 
+
+color:0 point:6 
+spent time: 23
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 65
+spent time: 1
+spent time: 27
+spent time: 6
+CLUBS 7 
+
+color:2 point:7 
+CLUBS 10 
+
+color:2 point:10 
+spent time: 24
+****inquiry test****
+mybet 40  bet 133 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 149
+spent time: 3
+spent time: 63
+spent time: 15
+SPADES 5 
+
+color:0 point:5 
+CLUBS 9 
+
+color:2 point:9 
+spent time: 55
+****inquiry test****
+mybet 20  bet 140 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 127
+spent time: 2
+spent time: 61
+spent time: 13
+HEARTS 9 
+
+color:1 point:9 
+SPADES K 
+
+color:0 point:13 
+spent time: 44
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 182
+spent time: 2
+spent time: 60
+spent time: 15
+HEARTS 2 
+
+color:1 point:2 
+CLUBS A 
+
+color:2 point:14 
+spent time: 46
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 112
+spent time: 2
+spent time: 59
+spent time: 14
+HEARTS K 
+
+color:1 point:13 
+DIAMONDS 9 
+
+color:3 point:9 
+spent time: 54
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 123
+spent time: 2
+spent time: 62
+spent time: 161
+SPADES 5 
+
+color:0 point:5 
+DIAMONDS 2 
+
+color:3 point:2 
+spent time: 52
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 113
+**********flop**********
+HEARTS 8 
+
+color:1 point:8 
+CLUBS A 
+
+color:2 point:14 
+SPADES 6 
+
+color:0 point:6 
+**********flop**********
+spent time: 104
+**********turn**********
+DIAMONDS 5 
+
+color:3 point:5 
+**********turn**********
+spent time: 51
+**********river**********
+HEARTS A 
+
+color:1 point:14 
+**********river**********
+spent time: 47
+showdown/ 
+common/ 
+HEARTS 8 
+CLUBS A 
+SPADES 6 
+DIAMONDS 5 
+HEARTS A 
+/common 
+1: 1111 HEARTS K HEARTS 4 ONE_PAIR 
+2: 5555 CLUBS J HEARTS 9 ONE_PAIR 
+/showdown 
+spent time: 18
+spent time: 2
+spent time: 42
+spent time: 12
+SPADES 5 
+
+color:0 point:5 
+HEARTS 8 
+
+color:1 point:8 
+spent time: 33
+****inquiry test****
+mybet 40  bet 146 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 118
+**********flop**********
+SPADES J 
+
+color:0 point:11 
+DIAMONDS 4 
+
+color:3 point:4 
+CLUBS 6 
+
+color:2 point:6 
+**********flop**********
+spent time: 81
+**********turn**********
+HEARTS J 
+
+color:1 point:11 
+**********turn**********
+spent time: 30
+spent time: 1
+spent time: 33
+spent time: 7
+DIAMONDS 7 
+
+color:3 point:7 
+HEARTS K 
+
+color:1 point:13 
+spent time: 22
+****inquiry test****
+mybet 20  bet 140 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 57
+**********flop**********
+CLUBS 6 
+
+color:2 point:6 
+CLUBS 5 
+
+color:2 point:5 
+SPADES 6 
+
+color:0 point:6 
+**********flop**********
+spent time: 42
+spent time: 2
+spent time: 34
+spent time: 7
+DIAMONDS 9 
+
+color:3 point:9 
+CLUBS 8 
+
+color:2 point:8 
+spent time: 40
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 65
+spent time: 1
+spent time: 25
+spent time: 6
+SPADES 5 
+
+color:0 point:5 
+HEARTS K 
+
+color:1 point:13 
+spent time: 54
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 128
+spent time: 1
+spent time: 27
+spent time: 7
+SPADES 2 
+
+color:0 point:2 
+DIAMONDS 8 
+
+color:3 point:8 
+spent time: 36
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 82
+spent time: 1
+spent time: 28
+spent time: 6
+DIAMONDS 10 
+
+color:3 point:10 
+CLUBS 6 
+
+color:2 point:6 
+spent time: 28
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 47
+spent time: 1
+spent time: 27
+spent time: 7
+SPADES 3 
+
+color:0 point:3 
+HEARTS K 
+
+color:1 point:13 
+spent time: 30
+****inquiry test****
+mybet 40  bet 82 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 81
+spent time: 1
+spent time: 28
+spent time: 7
+CLUBS A 
+
+color:2 point:14 
+SPADES 8 
+
+color:0 point:8 
+spent time: 25
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 81
+spent time: 1
+spent time: 27
+spent time: 6
+CLUBS 2 
+
+color:2 point:2 
+CLUBS 4 
+
+color:2 point:4 
+spent time: 25
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 135
+**********flop**********
+DIAMONDS 10 
+
+color:3 point:10 
+DIAMONDS 3 
+
+color:3 point:3 
+SPADES K 
+
+color:0 point:13 
+**********flop**********
+spent time: 65
+spent time: 0
+spent time: 20
+spent time: 7
+HEARTS 3 
+
+color:1 point:3 
+CLUBS Q 
+
+color:2 point:12 
+spent time: 31
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 72
+spent time: 2
+spent time: 64
+spent time: 13
+SPADES 9 
+
+color:0 point:9 
+SPADES 4 
+
+color:0 point:4 
+spent time: 46
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 115
+spent time: 2
+spent time: 62
+spent time: 15
+DIAMONDS Q 
+
+color:3 point:12 
+HEARTS 5 
+
+color:1 point:5 
+spent time: 51
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 113
+**********flop**********
+CLUBS 7 
+
+color:2 point:7 
+CLUBS A 
+
+color:2 point:14 
+CLUBS Q 
+
+color:2 point:12 
+**********flop**********
+spent time: 97
+spent time: 2
+spent time: 36
+spent time: 8
+HEARTS 7 
+
+color:1 point:7 
+DIAMONDS 2 
+
+color:3 point:2 
+spent time: 21
+****inquiry test****
+mybet 40  bet 133 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 54
+spent time: 1
+spent time: 28
+spent time: 8
+DIAMONDS 2 
+
+color:3 point:2 
+CLUBS 8 
+
+color:2 point:8 
+spent time: 40
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 102
+**********flop**********
+CLUBS 10 
+
+color:2 point:10 
+SPADES 4 
+
+color:0 point:4 
+HEARTS 4 
+
+color:1 point:4 
+**********flop**********
+spent time: 47
+spent time: 1
+spent time: 30
+spent time: 7
+CLUBS 10 
+
+color:2 point:10 
+SPADES 5 
+
+color:0 point:5 
+spent time: 26
+****inquiry test****
+mybet 0  bet 120 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 156
+spent time: 2
+spent time: 63
+spent time: 14
+DIAMONDS J 
+
+color:3 point:11 
+CLUBS 3 
+
+color:2 point:3 
+spent time: 51
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 114
+spent time: 2
+spent time: 65
+spent time: 18
+SPADES 7 
+
+color:0 point:7 
+CLUBS 6 
+
+color:2 point:6 
+spent time: 41
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 121
+**********flop**********
+SPADES 4 
+
+color:0 point:4 
+HEARTS K 
+
+color:1 point:13 
+SPADES 5 
+
+color:0 point:5 
+**********flop**********
+spent time: 130
+**********turn**********
+HEARTS 8 
+
+color:1 point:8 
+**********turn**********
+spent time: 47
+spent time: 2
+spent time: 32
+spent time: 8
+HEARTS 10 
+
+color:1 point:10 
+CLUBS 7 
+
+color:2 point:7 
+spent time: 32
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 69
+**********flop**********
+HEARTS 2 
+
+color:1 point:2 
+HEARTS K 
+
+color:1 point:13 
+CLUBS K 
+
+color:2 point:13 
+**********flop**********
+spent time: 46
+**********turn**********
+HEARTS 5 
+
+color:1 point:5 
+**********turn**********
+spent time: 34
+**********river**********
+SPADES A 
+
+color:0 point:14 
+**********river**********
+spent time: 29
+showdown/ 
+common/ 
+HEARTS 2 
+HEARTS K 
+CLUBS K 
+HEARTS 5 
+SPADES A 
+/common 
+1: 7777 CLUBS 2 SPADES K FULL_HOUSE 
+2: 6666 DIAMONDS J CLUBS J TWO_PAIR 
+/showdown 
+spent time: 24
+spent time: 1
+spent time: 34
+spent time: 7
+DIAMONDS A 
+
+color:3 point:14 
+HEARTS 5 
+
+color:1 point:5 
+spent time: 30
+****inquiry test****
+mybet 40  bet 112 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 117
+**********flop**********
+CLUBS 8 
+
+color:2 point:8 
+CLUBS 6 
+
+color:2 point:6 
+DIAMONDS 6 
+
+color:3 point:6 
+**********flop**********
+spent time: 37
+spent time: 2
+spent time: 25
+spent time: 6
+HEARTS 2 
+
+color:1 point:2 
+SPADES 7 
+
+color:0 point:7 
+spent time: 20
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 55
+spent time: 1
+spent time: 28
+spent time: 7
+HEARTS 10 
+
+color:1 point:10 
+HEARTS K 
+
+color:1 point:13 
+spent time: 27
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+check 
+
+spent time: 86
+****inquiry test****
+mybet 40  bet 123 
+****inquiry test****
+parser :myshape 8
+check 
+
+spent time: 70
+**********flop**********
+DIAMONDS 5 
+
+color:3 point:5 
+CLUBS 5 
+
+color:2 point:5 
+DIAMONDS 7 
+
+color:3 point:7 
+**********flop**********
+spent time: 33
+****inquiry test****
+mybet 123  bet 206 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.106151 except=47.980252 pot depth=369
+fold 
+
+spent time: 111
+spent time: 1
+spent time: 31
+spent time: 7
+HEARTS J 
+
+color:1 point:11 
+SPADES 6 
+
+color:0 point:6 
+spent time: 33
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 94
+spent time: 1
+spent time: 32
+spent time: 16
+CLUBS J 
+
+color:2 point:11 
+SPADES J 
+
+color:0 point:11 
+spent time: 56
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 7
+check 
+
+spent time: 82
+****inquiry test****
+mybet 40  bet 132 
+****inquiry test****
+parser :myshape 7
+check 
+
+spent time: 79
+**********flop**********
+DIAMONDS A 
+
+color:3 point:14 
+SPADES 7 
+
+color:0 point:7 
+CLUBS 3 
+
+color:2 point:3 
+**********flop**********
+spent time: 52
+****inquiry test****
+mybet 132  bet 172 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.499008 except=181.638961 pot depth=324
+check 
+
+spent time: 102
+**********turn**********
+SPADES 5 
+
+color:0 point:5 
+**********turn**********
+spent time: 25
+****inquiry test****
+mybet 172  bet 212 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.457857 except=203.288568 pot depth=404
+check 
+
+spent time: 103
+**********river**********
+CLUBS 7 
+
+color:2 point:7 
+**********river**********
+spent time: 26
+****inquiry test****
+mybet 212  bet 252 
+****inquiry test****
+parser :myshape 6
+myshape 6
+case 6
+river :p =0.628571 except=329.371440 pot depth=484
+raise 48
+
+spent time: 97
+showdown/ 
+common/ 
+DIAMONDS A 
+SPADES 7 
+CLUBS 3 
+SPADES 5 
+CLUBS 7 
+/common 
+2: 1111 SPADES 9 SPADES 3 TWO_PAIR 
+1: 4444 CLUBS J SPADES J TWO_PAIR 
+/showdown 
+spent time: 22
+spent time: 1
+spent time: 36
+spent time: 7
+SPADES 5 
+
+color:0 point:5 
+DIAMONDS 7 
+
+color:3 point:7 
+spent time: 25
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 49
+spent time: 1
+spent time: 28
+spent time: 7
+DIAMONDS 7 
+
+color:3 point:7 
+CLUBS 7 
+
+color:2 point:7 
+spent time: 22
+****inquiry test****
+mybet 40  bet 127 
+****inquiry test****
+parser :myshape 7
+fold 
+
+spent time: 76
+spent time: 1
+spent time: 37
+spent time: 10
+SPADES A 
+
+color:0 point:14 
+SPADES K 
+
+color:0 point:13 
+spent time: 30
+****inquiry test****
+mybet 20  bet 40 
+****inquiry test****
+parser :myshape 8
+****smoothraise****
+bet 40  target 118
+****smoothraise****
+raise 118
+
+spent time: 83
+**********flop**********
+CLUBS 8 
+
+color:2 point:8 
+SPADES 4 
+
+color:0 point:4 
+CLUBS 9 
+
+color:2 point:9 
+**********flop**********
+spent time: 61
+****inquiry test****
+mybet 158  bet 158 
+****inquiry test****
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.037436 except=13.327216 pot depth=356
+check 
+
+spent time: 89
+****inquiry test****
+mybet 158  bet 246 
+****inquiry test****
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.037436 except=19.915952 pot depth=444
+fold 
+
+spent time: 114
+spent time: 1
+spent time: 31
+spent time: 7
+DIAMONDS 10 
+
+color:3 point:10 
+SPADES 2 
+
+color:0 point:2 
+spent time: 24
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 73
+**********flop**********
+DIAMONDS A 
+
+color:3 point:14 
+HEARTS 9 
+
+color:1 point:9 
+DIAMONDS 2 
+
+color:3 point:2 
+**********flop**********
+spent time: 35
+spent time: 1
+spent time: 19
+spent time: 7
+SPADES 5 
+
+color:0 point:5 
+DIAMONDS K 
+
+color:3 point:13 
+spent time: 20
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 51
+spent time: 1
+spent time: 30
+spent time: 7
+CLUBS 3 
+
+color:2 point:3 
+CLUBS 9 
+
+color:2 point:9 
+spent time: 19
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 62
+spent time: 1
+spent time: 32
+spent time: 10
+SPADES A 
+
+color:0 point:14 
+DIAMONDS 7 
+
+color:3 point:7 
+spent time: 32
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 64
+**********flop**********
+SPADES 7 
+
+color:0 point:7 
+CLUBS 6 
+
+color:2 point:6 
+HEARTS 2 
+
+color:1 point:2 
+**********flop**********
+spent time: 41
+**********turn**********
+HEARTS 4 
+
+color:1 point:4 
+**********turn**********
+spent time: 41
+spent time: 1
+spent time: 30
+spent time: 7
+DIAMONDS K 
+
+color:3 point:13 
+DIAMONDS 8 
+
+color:3 point:8 
+spent time: 31
+****inquiry test****
+mybet 40  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 64
+spent time: 1
+spent time: 27
+spent time: 7
+CLUBS 5 
+
+color:2 point:5 
+SPADES A 
+
+color:0 point:14 
+spent time: 25
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 112
+**********flop**********
+SPADES 10 
+
+color:0 point:10 
+DIAMONDS 9 
+
+color:3 point:9 
+SPADES 9 
+
+color:0 point:9 
+**********flop**********
+spent time: 49
+spent time: 2
+spent time: 29
+spent time: 6
+SPADES 9 
+
+color:0 point:9 
+CLUBS K 
+
+color:2 point:13 
+spent time: 55
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 127
+spent time: 0
+spent time: 27
+spent time: 7
+DIAMONDS 4 
+
+color:3 point:4 
+SPADES J 
+
+color:0 point:11 
+spent time: 18
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 51
+spent time: 1
+spent time: 34
+spent time: 9
+DIAMONDS 7 
+
+color:3 point:7 
+DIAMONDS 9 
+
+color:3 point:9 
+spent time: 25
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 63
+spent time: 2
+spent time: 57
+spent time: 15
+HEARTS 4 
+
+color:1 point:4 
+DIAMONDS 2 
+
+color:3 point:2 
+spent time: 40
+****inquiry test****
+mybet 40  bet 143 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 116
+**********flop**********
+CLUBS 8 
+
+color:2 point:8 
+HEARTS 6 
+
+color:1 point:6 
+DIAMONDS 7 
+
+color:3 point:7 
+**********flop**********
+spent time: 134
+spent time: 1
+spent time: 28
+spent time: 7
+DIAMONDS 2 
+
+color:3 point:2 
+CLUBS 5 
+
+color:2 point:5 
+spent time: 23
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 72
+spent time: 2
+spent time: 22
+spent time: 6
+DIAMONDS 2 
+
+color:3 point:2 
+HEARTS 2 
+
+color:1 point:2 
+spent time: 35
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 7
+fold 
+
+spent time: 97
+**********flop**********
+CLUBS 2 
+
+color:2 point:2 
+CLUBS 3 
+
+color:2 point:3 
+SPADES 10 
+
+color:0 point:10 
+**********flop**********
+spent time: 45
+spent time: 1
+spent time: 24
+spent time: 6
+CLUBS Q 
+
+color:2 point:12 
+SPADES 8 
+
+color:0 point:8 
+spent time: 20
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 50
+spent time: 1
+spent time: 25
+spent time: 8
+DIAMONDS 7 
+
+color:3 point:7 
+CLUBS 4 
+
+color:2 point:4 
+spent time: 36
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 56
+spent time: 1
+spent time: 28
+spent time: 8
+SPADES 4 
+
+color:0 point:4 
+CLUBS 6 
+
+color:2 point:6 
+spent time: 30
+****inquiry test****
+mybet 40  bet 143 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 70
+spent time: 2
+spent time: 29
+spent time: 8
+CLUBS K 
+
+color:2 point:13 
+DIAMONDS 9 
+
+color:3 point:9 
+spent time: 39
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 76
+spent time: 0
+spent time: 25
+spent time: 7
+DIAMONDS 7 
+
+color:3 point:7 
+DIAMONDS 10 
+
+color:3 point:10 
+spent time: 34
+****inquiry test****
+mybet 0  bet 91 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 78
+**********flop**********
+DIAMONDS 3 
+
+color:3 point:3 
+HEARTS 6 
+
+color:1 point:6 
+SPADES K 
+
+color:0 point:13 
+**********flop**********
+spent time: 42
+spent time: 1
+spent time: 27
+spent time: 6
+SPADES 2 
+
+color:0 point:2 
+DIAMONDS 5 
+
+color:3 point:5 
+spent time: 29
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 50
+spent time: 0
+spent time: 25
+spent time: 7
+HEARTS Q 
+
+color:1 point:12 
+CLUBS 6 
+
+color:2 point:6 
+spent time: 19
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 63
+spent time: 1
+spent time: 22
+spent time: 5
+HEARTS 4 
+
+color:1 point:4 
+HEARTS J 
+
+color:1 point:11 
+spent time: 40
+****inquiry test****
+mybet 40  bet 103 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 56
+spent time: 0
+spent time: 22
+spent time: 8
+CLUBS 8 
+
+color:2 point:8 
+DIAMONDS J 
+
+color:3 point:11 
+spent time: 33
+****inquiry test****
+mybet 20  bet 81 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 72
+**********flop**********
+SPADES 5 
+
+color:0 point:5 
+DIAMONDS 2 
+
+color:3 point:2 
+HEARTS J 
+
+color:1 point:11 
+**********flop**********
+spent time: 77
+spent time: 2
+spent time: 33
+spent time: 6
+DIAMONDS 8 
+
+color:3 point:8 
+DIAMONDS K 
+
+color:3 point:13 
+spent time: 32
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 72
+spent time: 1
+spent time: 31
+spent time: 9
+DIAMONDS 4 
+
+color:3 point:4 
+SPADES J 
+
+color:0 point:11 
+spent time: 33
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 81
+spent time: 3
+spent time: 32
+spent time: 9
+HEARTS 2 
+
+color:1 point:2 
+CLUBS 6 
+
+color:2 point:6 
+spent time: 34
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 70
+spent time: 1
+spent time: 34
+spent time: 9
+CLUBS 4 
+
+color:2 point:4 
+CLUBS J 
+
+color:2 point:11 
+spent time: 31
+****inquiry test****
+mybet 40  bet 103 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 86
+spent time: 7
+spent time: 31
+spent time: 8
+CLUBS 3 
+
+color:2 point:3 
+HEARTS A 
+
+color:1 point:14 
+spent time: 37
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 82
+spent time: 7
+spent time: 36
+spent time: 15
+SPADES 2 
+
+color:0 point:2 
+SPADES 10 
+
+color:0 point:10 
+spent time: 51
+****inquiry test****
+mybet 0  bet 120 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 132
+spent time: 2
+spent time: 44
+spent time: 11
+DIAMONDS 2 
+
+color:3 point:2 
+HEARTS 3 
+
+color:1 point:3 
+spent time: 42
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 119
+spent time: 1
+spent time: 105
+spent time: 13
+SPADES 7 
+
+color:0 point:7 
+DIAMONDS 4 
+
+color:3 point:4 
+spent time: 43
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 97
+spent time: 1
+spent time: 41
+spent time: 12
+DIAMONDS 6 
+
+color:3 point:6 
+CLUBS 6 
+
+color:2 point:6 
+spent time: 92
+****inquiry test****
+mybet 40  bet 107 
+****inquiry test****
+parser :myshape 7
+fold 
+
+spent time: 138
+**********flop**********
+SPADES 4 
+
+color:0 point:4 
+SPADES Q 
+
+color:0 point:12 
+HEARTS 6 
+
+color:1 point:6 
+**********flop**********
+spent time: 629
+spent time: 1
+spent time: 26
+spent time: 7
+DIAMONDS 3 
+
+color:3 point:3 
+SPADES 10 
+
+color:0 point:10 
+spent time: 23
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 59
+spent time: 1
+spent time: 23
+spent time: 6
+CLUBS 8 
+
+color:2 point:8 
+HEARTS 9 
+
+color:1 point:9 
+spent time: 19
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 55
+spent time: 1
+spent time: 22
+spent time: 5
+DIAMONDS 6 
+
+color:3 point:6 
+HEARTS J 
+
+color:1 point:11 
+spent time: 49
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 102
+spent time: 1
+spent time: 39
+spent time: 13
+CLUBS 7 
+
+color:2 point:7 
+DIAMONDS J 
+
+color:3 point:11 
+spent time: 32
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 86
+spent time: 2
+spent time: 52
+spent time: 14
+SPADES 5 
+
+color:0 point:5 
+SPADES 6 
+
+color:0 point:6 
+spent time: 40
+****inquiry test****
+mybet 40  bet 123 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 70
+**********flop**********
+CLUBS 5 
+
+color:2 point:5 
+SPADES 4 
+
+color:0 point:4 
+CLUBS 7 
+
+color:2 point:7 
+**********flop**********
+spent time: 44
+**********turn**********
+DIAMONDS 5 
+
+color:3 point:5 
+**********turn**********
+spent time: 46
+**********river**********
+DIAMONDS A 
+
+color:3 point:14 
+**********river**********
+spent time: 49
+showdown/ 
+common/ 
+CLUBS 5 
+SPADES 4 
+CLUBS 7 
+DIAMONDS 5 
+DIAMONDS A 
+/common 
+2: 7777 CLUBS A CLUBS Q TWO_PAIR 
+1: 1111 SPADES 7 HEARTS A TWO_PAIR 
+/showdown 
+spent time: 30
+spent time: 2
+spent time: 26
+spent time: 6
+DIAMONDS 10 
+
+color:3 point:10 
+CLUBS 10 
+
+color:2 point:10 
+spent time: 18
+****inquiry test****
+mybet 20  bet 140 
+****inquiry test****
+parser :myshape 7
+check 
+
+spent time: 101
+**********flop**********
+SPADES 2 
+
+color:0 point:2 
+CLUBS 6 
+
+color:2 point:6 
+HEARTS A 
+
+color:1 point:14 
+**********flop**********
+spent time: 41
+****inquiry test****
+mybet 140  bet 140 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.463294 except=148.254037 pot depth=320
+check 
+
+spent time: 108
+****inquiry test****
+mybet 140  bet 228 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.463294 except=229.793757 pot depth=408
+check 
+
+spent time: 155
+**********turn**********
+DIAMONDS J 
+
+color:3 point:11 
+**********turn**********
+spent time: 20
+****inquiry test****
+mybet 228  bet 228 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.422143 except=209.382861 pot depth=496
+check 
+
+spent time: 101
+****inquiry test****
+mybet 228  bet 316 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.422143 except=283.680006 pot depth=584
+fold 
+
+spent time: 132
+spent time: 1
+spent time: 24
+spent time: 6
+DIAMONDS 7 
+
+color:3 point:7 
+HEARTS 9 
+
+color:1 point:9 
+spent time: 20
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 56
+spent time: 1
+spent time: 25
+spent time: 5
+SPADES A 
+
+color:0 point:14 
+CLUBS 3 
+
+color:2 point:3 
+spent time: 25
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 51
+spent time: 0
+spent time: 26
+spent time: 7
+CLUBS 6 
+
+color:2 point:6 
+HEARTS 4 
+
+color:1 point:4 
+spent time: 26
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 49
+spent time: 1
+spent time: 25
+spent time: 5
+DIAMONDS 4 
+
+color:3 point:4 
+SPADES 8 
+
+color:0 point:8 
+spent time: 29
+****inquiry test****
+mybet 40  bet 123 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 73
+spent time: 1
+spent time: 24
+spent time: 6
+DIAMONDS 5 
+
+color:3 point:5 
+SPADES 4 
+
+color:0 point:4 
+spent time: 83
+****inquiry test****
+mybet 20  bet 135 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 73
+spent time: 1
+spent time: 16
+spent time: 6
+SPADES 3 
+
+color:0 point:3 
+HEARTS 6 
+
+color:1 point:6 
+spent time: 19
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 55
+spent time: 0
+spent time: 17
+spent time: 6
+CLUBS J 
+
+color:2 point:11 
+SPADES K 
+
+color:0 point:13 
+spent time: 28
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 65
+spent time: 1
+spent time: 17
+spent time: 7
+HEARTS A 
+
+color:1 point:14 
+SPADES 3 
+
+color:0 point:3 
+spent time: 38
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 48
+spent time: 1
+spent time: 20
+spent time: 7
+DIAMONDS 4 
+
+color:3 point:4 
+HEARTS A 
+
+color:1 point:14 
+spent time: 18
+****inquiry test****
+mybet 40  bet 133 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 65
+spent time: 1
+spent time: 20
+spent time: 6
+SPADES 5 
+
+color:0 point:5 
+CLUBS K 
+
+color:2 point:13 
+spent time: 18
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 57
+spent time: 1
+spent time: 17
+spent time: 6
+DIAMONDS 10 
+
+color:3 point:10 
+HEARTS 10 
+
+color:1 point:10 
+spent time: 49
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 7
+check 
+
+spent time: 56
+****inquiry test****
+mybet 40  bet 123 
+****inquiry test****
+parser :myshape 7
+check 
+
+spent time: 76
+**********flop**********
+CLUBS 7 
+
+color:2 point:7 
+CLUBS 9 
+
+color:2 point:9 
+CLUBS Q 
+
+color:2 point:12 
+**********flop**********
+spent time: 27
+****inquiry test****
+mybet 123  bet 206 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.500730 except=226.329899 pot depth=369
+****smoothraise****
+bet 206  target 217
+****smoothraise****
+raise 217
+
+spent time: 83
+spent time: 1
+spent time: 23
+spent time: 4
+HEARTS 2 
+
+color:1 point:2 
+SPADES Q 
+
+color:0 point:12 
+spent time: 52
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 128
+**********flop**********
+SPADES 9 
+
+color:0 point:9 
+SPADES J 
+
+color:0 point:11 
+DIAMONDS 2 
+
+color:3 point:2 
+**********flop**********
+spent time: 42
+spent time: 1
+spent time: 22
+spent time: 13
+CLUBS 6 
+
+color:2 point:6 
+SPADES 10 
+
+color:0 point:10 
+spent time: 47
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 41
+spent time: 1
+spent time: 23
+spent time: 13
+SPADES 10 
+
+color:0 point:10 
+CLUBS 3 
+
+color:2 point:3 
+spent time: 19
+****inquiry test****
+mybet 40  bet 108 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 690
+spent time: 1
+spent time: 26
+spent time: 6
+HEARTS 3 
+
+color:1 point:3 
+SPADES Q 
+
+color:0 point:12 
+spent time: 23
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 113
+spent time: 2
+spent time: 26
+spent time: 7
+SPADES 9 
+
+color:0 point:9 
+DIAMONDS Q 
+
+color:3 point:12 
+spent time: 18
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 65
+spent time: 1
+spent time: 22
+spent time: 7
+HEARTS Q 
+
+color:1 point:12 
+DIAMONDS K 
+
+color:3 point:13 
+spent time: 27
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 70
+spent time: 0
+spent time: 28
+spent time: 7
+CLUBS 7 
+
+color:2 point:7 
+DIAMONDS Q 
+
+color:3 point:12 
+spent time: 25
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 50
+spent time: 1
+spent time: 31
+spent time: 7
+HEARTS 4 
+
+color:1 point:4 
+CLUBS 9 
+
+color:2 point:9 
+spent time: 41
+****inquiry test****
+mybet 40  bet 114 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 82
+spent time: 2
+spent time: 27
+spent time: 8
+HEARTS K 
+
+color:1 point:13 
+CLUBS 4 
+
+color:2 point:4 
+spent time: 22
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 64
+spent time: 1
+spent time: 23
+spent time: 6
+CLUBS A 
+
+color:2 point:14 
+HEARTS 5 
+
+color:1 point:5 
+spent time: 23
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 58
+spent time: 1
+spent time: 23
+spent time: 7
+SPADES 9 
+
+color:0 point:9 
+DIAMONDS 6 
+
+color:3 point:6 
+spent time: 21
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 57
+spent time: 0
+spent time: 27
+spent time: 8
+SPADES 3 
+
+color:0 point:3 
+HEARTS K 
+
+color:1 point:13 
+spent time: 31
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 58
+**********flop**********
+CLUBS 6 
+
+color:2 point:6 
+DIAMONDS 10 
+
+color:3 point:10 
+CLUBS 7 
+
+color:2 point:7 
+**********flop**********
+spent time: 42
+spent time: 2
+spent time: 34
+spent time: 7
+HEARTS J 
+
+color:1 point:11 
+DIAMONDS J 
+
+color:3 point:11 
+spent time: 19
+****inquiry test****
+mybet 40  bet 123 
+****inquiry test****
+parser :myshape 7
+check 
+
+spent time: 49
+**********flop**********
+DIAMONDS K 
+
+color:3 point:13 
+SPADES A 
+
+color:0 point:14 
+DIAMONDS A 
+
+color:3 point:14 
+**********flop**********
+spent time: 35
+****inquiry test****
+mybet 123  bet 123 
+****inquiry test****
+parser :myshape 6
+FourTwoRule :Four!
+FourTwoRule :FullHouse!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 6
+case 6
+p =0.906362 except=241.092298 pot depth=266
+****smoothraise****
+bet 123  target 146
+****smoothraise****
+raise 146
+
+spent time: 78
+**********turn**********
+HEARTS 7 
+
+color:1 point:7 
+**********turn**********
+spent time: 28
+****inquiry test****
+mybet 269  bet 269 
+****inquiry test****
+parser :myshape 6
+FourTwoRule :Four!
+FourTwoRule :FullHouse!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 6
+case 6
+p =0.750000 except=418.500013 pot depth=558
+****smoothraise****
+bet 269  target 288
+****smoothraise****
+raise 288
+
+spent time: 104
+**********river**********
+DIAMONDS 2 
+
+color:3 point:2 
+**********river**********
+spent time: 27
+****inquiry test****
+mybet 557  bet 557 
+****inquiry test****
+parser :myshape 6
+myshape 6
+case 6
+river :p =0.600000 except=680.400027 pot depth=1134
+raise 74
+
+spent time: 72
+****inquiry test****
+mybet 631  bet 831 
+****inquiry test****
+parser :myshape 6
+myshape 6
+case 6
+river :p =0.600000 except=1009.200040 pot depth=1482
+check 
+
+spent time: 130
+showdown/ 
+common/ 
+DIAMONDS K 
+SPADES A 
+DIAMONDS A 
+HEARTS 7 
+DIAMONDS 2 
+/common 
+2: 4444 HEARTS J DIAMONDS J TWO_PAIR 
+1: 1111 CLUBS 10 SPADES K TWO_PAIR 
+/showdown 
+spent time: 14
+spent time: 1
+spent time: 27
+spent time: 8
+CLUBS 4 
+
+color:2 point:4 
+SPADES A 
+
+color:0 point:14 
+spent time: 40
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 71
+spent time: 1
+spent time: 25
+spent time: 5
+HEARTS Q 
+
+color:1 point:12 
+CLUBS Q 
+
+color:2 point:12 
+spent time: 29
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 7
+****smoothraise****
+bet 40  target 139
+****smoothraise****
+raise 139
+
+spent time: 82
+spent time: 1
+spent time: 23
+spent time: 6
+SPADES 2 
+
+color:0 point:2 
+CLUBS Q 
+
+color:2 point:12 
+spent time: 27
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 73
+spent time: 1
+spent time: 26
+spent time: 6
+HEARTS 10 
+
+color:1 point:10 
+DIAMONDS 5 
+
+color:3 point:5 
+spent time: 27
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 66
+spent time: 1
+spent time: 27
+spent time: 5
+HEARTS J 
+
+color:1 point:11 
+DIAMONDS 9 
+
+color:3 point:9 
+spent time: 28
+****inquiry test****
+mybet 40  bet 132 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 110
+spent time: 1
+spent time: 22
+spent time: 6
+HEARTS 5 
+
+color:1 point:5 
+CLUBS 8 
+
+color:2 point:8 
+spent time: 33
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 78
+spent time: 1
+spent time: 26
+spent time: 6
+CLUBS Q 
+
+color:2 point:12 
+CLUBS A 
+
+color:2 point:14 
+spent time: 20
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+****smoothraise****
+bet 40  target 139
+****smoothraise****
+raise 139
+
+spent time: 96
+**********flop**********
+HEARTS 9 
+
+color:1 point:9 
+DIAMONDS 4 
+
+color:3 point:4 
+SPADES 5 
+
+color:0 point:5 
+**********flop**********
+spent time: 38
+****inquiry test****
+mybet 179  bet 179 
+****inquiry test****
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.000000 except=0.000000 pot depth=378
+check 
+
+spent time: 67
+**********turn**********
+CLUBS 9 
+
+color:2 point:9 
+**********turn**********
+spent time: 23
+****inquiry test****
+mybet 179  bet 317 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.065000 except=42.510000 pot depth=516
+fold 
+
+spent time: 74
+spent time: 0
+spent time: 23
+spent time: 6
+DIAMONDS Q 
+
+color:3 point:12 
+SPADES J 
+
+color:0 point:11 
+spent time: 22
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 61
+spent time: 1
+spent time: 26
+spent time: 7
+SPADES 8 
+
+color:0 point:8 
+CLUBS 5 
+
+color:2 point:5 
+spent time: 21
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 51
+spent time: 1
+spent time: 27
+spent time: 7
+CLUBS 8 
+
+color:2 point:8 
+SPADES 2 
+
+color:0 point:2 
+spent time: 23
+****inquiry test****
+mybet 40  bet 113 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 63
+spent time: 1
+spent time: 30
+spent time: 7
+CLUBS 7 
+
+color:2 point:7 
+DIAMONDS 8 
+
+color:3 point:8 
+spent time: 22
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 61
+spent time: 1
+spent time: 22
+spent time: 7
+SPADES A 
+
+color:0 point:14 
+SPADES 9 
+
+color:0 point:9 
+spent time: 26
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 61
+spent time: 1
+spent time: 22
+spent time: 5
+CLUBS A 
+
+color:2 point:14 
+DIAMONDS 9 
+
+color:3 point:9 
+spent time: 19
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 56
+**********flop**********
+SPADES 10 
+
+color:0 point:10 
+HEARTS A 
+
+color:1 point:14 
+HEARTS 7 
+
+color:1 point:7 
+**********flop**********
+spent time: 43
+spent time: 1
+spent time: 26
+spent time: 6
+DIAMONDS 10 
+
+color:3 point:10 
+SPADES Q 
+
+color:0 point:12 
+spent time: 22
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 62
+spent time: 1
+spent time: 32
+spent time: 7
+SPADES 4 
+
+color:0 point:4 
+SPADES 6 
+
+color:0 point:6 
+spent time: 26
+****inquiry test****
+mybet 40  bet 133 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 73
+spent time: 1
+spent time: 28
+spent time: 6
+SPADES 7 
+
+color:0 point:7 
+SPADES Q 
+
+color:0 point:12 
+spent time: 22
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 59
+**********flop**********
+DIAMONDS 4 
+
+color:3 point:4 
+SPADES 5 
+
+color:0 point:5 
+HEARTS 9 
+
+color:1 point:9 
+**********flop**********
+spent time: 42
+**********turn**********
+DIAMONDS 10 
+
+color:3 point:10 
+**********turn**********
+spent time: 49
+spent time: 2
+spent time: 26
+spent time: 6
+CLUBS 9 
+
+color:2 point:9 
+HEARTS 10 
+
+color:1 point:10 
+spent time: 27
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 58
+**********flop**********
+HEARTS 7 
+
+color:1 point:7 
+HEARTS 8 
+
+color:1 point:8 
+SPADES A 
+
+color:0 point:14 
+**********flop**********
+spent time: 35
+**********turn**********
+HEARTS K 
+
+color:1 point:13 
+**********turn**********
+spent time: 39
+spent time: 0
+spent time: 32
+spent time: 7
+HEARTS 4 
+
+color:1 point:4 
+DIAMONDS 7 
+
+color:3 point:7 
+spent time: 29
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 70
+spent time: 1
+spent time: 17
+spent time: 7
+SPADES 8 
+
+color:0 point:8 
+CLUBS 6 
+
+color:2 point:6 
+spent time: 29
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 68
+spent time: 1
+spent time: 24
+spent time: 6
+CLUBS 7 
+
+color:2 point:7 
+HEARTS 2 
+
+color:1 point:2 
+spent time: 19
+****inquiry test****
+mybet 40  bet 83 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 95
+**********flop**********
+DIAMONDS 5 
+
+color:3 point:5 
+DIAMONDS 7 
+
+color:3 point:7 
+CLUBS J 
+
+color:2 point:11 
+**********flop**********
+spent time: 76
+spent time: 1
+spent time: 27
+spent time: 10
+HEARTS Q 
+
+color:1 point:12 
+HEARTS J 
+
+color:1 point:11 
+spent time: 42
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+check 
+
+spent time: 82
+**********flop**********
+HEARTS 9 
+
+color:1 point:9 
+HEARTS 7 
+
+color:1 point:7 
+CLUBS 8 
+
+color:2 point:8 
+**********flop**********
+spent time: 54
+****inquiry test****
+mybet 128  bet 128 
+****inquiry test****
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.345519 except=102.273624 pot depth=296
+check 
+
+spent time: 92
+****inquiry test****
+mybet 128  bet 216 
+****inquiry test****
+parser :myshape 8
+FourTwoRule :Flush!
+myshape 8
+case default
+p =0.345519 except=163.084968 pot depth=384
+fold 
+
+spent time: 117
+spent time: 1
+spent time: 24
+spent time: 7
+SPADES 6 
+
+color:0 point:6 
+SPADES 8 
+
+color:0 point:8 
+spent time: 22
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 55
+spent time: 1
+spent time: 25
+spent time: 7
+HEARTS J 
+
+color:1 point:11 
+HEARTS Q 
+
+color:1 point:12 
+spent time: 22
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+check 
+
+spent time: 52
+****inquiry test****
+mybet 40  bet 123 
+****inquiry test****
+parser :myshape 8
+check 
+
+spent time: 55
+**********flop**********
+SPADES J 
+
+color:0 point:11 
+CLUBS 9 
+
+color:2 point:9 
+HEARTS 7 
+
+color:1 point:7 
+**********flop**********
+spent time: 62
+****inquiry test****
+mybet 123  bet 123 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.536444 except=208.676768 pot depth=389
+****smoothraise****
+bet 123  target 149
+****smoothraise****
+raise 149
+
+spent time: 87
+**********turn**********
+SPADES 5 
+
+color:0 point:5 
+**********turn**********
+spent time: 27
+****inquiry test****
+mybet 272  bet 272 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.457857 except=382.768564 pot depth=836
+check 
+
+spent time: 89
+****inquiry test****
+mybet 272  bet 355 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.457857 except=496.774991 pot depth=1002
+check 
+
+spent time: 82
+**********river**********
+DIAMONDS Q 
+
+color:3 point:12 
+**********river**********
+spent time: 20
+****inquiry test****
+mybet 355  bet 595 
+****inquiry test****
+parser :myshape 6
+myshape 6
+case 6
+river :p =0.628571 except=983.714320 pot depth=1325
+raise 244
+
+spent time: 84
+****inquiry test****
+mybet 839  bet 1083 
+****inquiry test****
+parser :myshape 6
+myshape 6
+case 6
+river :p =0.628571 except=1748.057204 pot depth=2537
+check 
+
+spent time: 81
+showdown/ 
+common/ 
+SPADES J 
+CLUBS 9 
+HEARTS 7 
+SPADES 5 
+DIAMONDS Q 
+/common 
+2: 4444 HEARTS J HEARTS Q TWO_PAIR 
+1: 3333 DIAMONDS 6 CLUBS 8 STRAIGHT 
+/showdown 
+spent time: 8
+spent time: 0
+spent time: 31
+spent time: 7
+DIAMONDS 2 
+
+color:3 point:2 
+SPADES 7 
+
+color:0 point:7 
+spent time: 18
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 49
+spent time: 1
+spent time: 87
+spent time: 6
+CLUBS 2 
+
+color:2 point:2 
+SPADES 2 
+
+color:0 point:2 
+spent time: 19
+****inquiry test****
+mybet 40  bet 132 
+****inquiry test****
+parser :myshape 7
+fold 
+
+spent time: 54
+spent time: 1
+spent time: 24
+spent time: 7
+HEARTS 10 
+
+color:1 point:10 
+HEARTS 6 
+
+color:1 point:6 
+spent time: 20
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 58
+spent time: 2
+spent time: 38
+spent time: 10
+HEARTS 7 
+
+color:1 point:7 
+HEARTS 10 
+
+color:1 point:10 
+spent time: 33
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 90
+spent time: 2
+spent time: 39
+spent time: 10
+HEARTS 6 
+
+color:1 point:6 
+HEARTS 4 
+
+color:1 point:4 
+spent time: 32
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 79
+spent time: 1
+spent time: 86
+spent time: 7
+SPADES 2 
+
+color:0 point:2 
+DIAMONDS 7 
+
+color:3 point:7 
+spent time: 22
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 61
+**********flop**********
+SPADES 8 
+
+color:0 point:8 
+CLUBS 3 
+
+color:2 point:3 
+HEARTS 3 
+
+color:1 point:3 
+**********flop**********
+spent time: 54
+spent time: 2
+spent time: 34
+spent time: 8
+HEARTS J 
+
+color:1 point:11 
+HEARTS K 
+
+color:1 point:13 
+spent time: 64
+****inquiry test****
+mybet 40  bet 133 
+****inquiry test****
+parser :myshape 8
+check 
+
+spent time: 53
+**********flop**********
+HEARTS 9 
+
+color:1 point:9 
+SPADES J 
+
+color:0 point:11 
+CLUBS 10 
+
+color:2 point:10 
+**********flop**********
+spent time: 41
+****inquiry test****
+mybet 133  bet 133 
+****inquiry test****
+parser :myshape 7
+FourTwoRule :Four!
+FourTwoRule :Flush!
+FourTwoRule :Three!
+myshape 7
+case 7
+p =0.536444 except=153.423022 pot depth=286
+****smoothraise****
+bet 133  target 139
+****smoothraise****
+raise 139
+
+spent time: 76
+spent time: 1
+spent time: 31
+spent time: 6
+SPADES 4 
+
+color:0 point:4 
+SPADES A 
+
+color:0 point:14 
+spent time: 26
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 81
+spent time: 1
+spent time: 28
+spent time: 9
+DIAMONDS 2 
+
+color:3 point:2 
+SPADES K 
+
+color:0 point:13 
+spent time: 30
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 75
+**********flop**********
+SPADES J 
+
+color:0 point:11 
+DIAMONDS 10 
+
+color:3 point:10 
+SPADES 4 
+
+color:0 point:4 
+**********flop**********
+spent time: 33
+**********turn**********
+HEARTS 3 
+
+color:1 point:3 
+**********turn**********
+spent time: 137
+**********river**********
+HEARTS 4 
+
+color:1 point:4 
+**********river**********
+spent time: 23
+showdown/ 
+common/ 
+SPADES J 
+DIAMONDS 10 
+SPADES 4 
+HEARTS 3 
+HEARTS 4 
+/common 
+2: 3333 HEARTS 6 SPADES 3 TWO_PAIR 
+1: 1111 SPADES 10 CLUBS A TWO_PAIR 
+/showdown 
+spent time: 15
+spent time: 1
+spent time: 25
+spent time: 7
+CLUBS 9 
+
+color:2 point:9 
+HEARTS 8 
+
+color:1 point:8 
+spent time: 31
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 72
+**********flop**********
+SPADES 10 
+
+color:0 point:10 
+DIAMONDS A 
+
+color:3 point:14 
+SPADES J 
+
+color:0 point:11 
+**********flop**********
+spent time: 40
+spent time: 1
+spent time: 56
+spent time: 15
+DIAMONDS A 
+
+color:3 point:14 
+SPADES 5 
+
+color:0 point:5 
+spent time: 57
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 120
+spent time: 2
+spent time: 36
+spent time: 10
+DIAMONDS 9 
+
+color:3 point:9 
+HEARTS 7 
+
+color:1 point:7 
+spent time: 38
+****inquiry test****
+mybet 40  bet 131 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 139
+spent time: 2
+spent time: 53
+spent time: 17
+SPADES 4 
+
+color:0 point:4 
+SPADES K 
+
+color:0 point:13 
+spent time: 61
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 132
+spent time: 2
+spent time: 23
+spent time: 23
+DIAMONDS Q 
+
+color:3 point:12 
+SPADES 7 
+
+color:0 point:7 
+spent time: 38
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 113
+spent time: 1
+spent time: 36
+spent time: 9
+CLUBS 5 
+
+color:2 point:5 
+SPADES 10 
+
+color:0 point:10 
+spent time: 33
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 73
+spent time: 1
+spent time: 38
+spent time: 10
+CLUBS 8 
+
+color:2 point:8 
+SPADES K 
+
+color:0 point:13 
+spent time: 31
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 68
+spent time: 1
+spent time: 24
+spent time: 7
+SPADES 4 
+
+color:0 point:4 
+HEARTS 3 
+
+color:1 point:3 
+spent time: 20
+****inquiry test****
+mybet 40  bet 133 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 66
+spent time: 1
+spent time: 23
+spent time: 8
+HEARTS A 
+
+color:1 point:14 
+SPADES 2 
+
+color:0 point:2 
+spent time: 21
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 81
+**********flop**********
+DIAMONDS 4 
+
+color:3 point:4 
+HEARTS 3 
+
+color:1 point:3 
+DIAMONDS K 
+
+color:3 point:13 
+**********flop**********
+spent time: 46
+spent time: 2
+spent time: 25
+spent time: 8
+SPADES 5 
+
+color:0 point:5 
+HEARTS 10 
+
+color:1 point:10 
+spent time: 22
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 114
+**********flop**********
+CLUBS K 
+
+color:2 point:13 
+DIAMONDS 5 
+
+color:3 point:5 
+HEARTS 5 
+
+color:1 point:5 
+**********flop**********
+spent time: 48
+spent time: 1
+spent time: 25
+spent time: 6
+DIAMONDS 6 
+
+color:3 point:6 
+DIAMONDS J 
+
+color:3 point:11 
+spent time: 21
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 50
+**********flop**********
+HEARTS 10 
+
+color:1 point:10 
+SPADES 2 
+
+color:0 point:2 
+SPADES 10 
+
+color:0 point:10 
+**********flop**********
+spent time: 34
+spent time: 1
+spent time: 28
+spent time: 7
+SPADES K 
+
+color:0 point:13 
+DIAMONDS 3 
+
+color:3 point:3 
+spent time: 24
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 50
+spent time: 1
+spent time: 55
+spent time: 15
+CLUBS 2 
+
+color:2 point:2 
+CLUBS 7 
+
+color:2 point:7 
+spent time: 44
+****inquiry test****
+mybet 40  bet 123 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 57
+**********flop**********
+CLUBS J 
+
+color:2 point:11 
+HEARTS 6 
+
+color:1 point:6 
+DIAMONDS 2 
+
+color:3 point:2 
+**********flop**********
+spent time: 65
+spent time: 2
+spent time: 33
+spent time: 8
+SPADES 2 
+
+color:0 point:2 
+SPADES 10 
+
+color:0 point:10 
+spent time: 17
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 70
+spent time: 1
+spent time: 24
+spent time: 7
+DIAMONDS 5 
+
+color:3 point:5 
+HEARTS 3 
+
+color:1 point:3 
+spent time: 21
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 52
+spent time: 1
+spent time: 24
+spent time: 7
+CLUBS J 
+
+color:2 point:11 
+HEARTS 4 
+
+color:1 point:4 
+spent time: 22
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 66
+spent time: 1
+spent time: 26
+spent time: 7
+DIAMONDS 9 
+
+color:3 point:9 
+SPADES A 
+
+color:0 point:14 
+spent time: 21
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 48
+spent time: 1
+spent time: 25
+spent time: 6
+DIAMONDS J 
+
+color:3 point:11 
+DIAMONDS 2 
+
+color:3 point:2 
+spent time: 35
+****inquiry test****
+mybet 40  bet 101 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 57
+spent time: 1
+spent time: 20
+spent time: 4
+CLUBS 9 
+
+color:2 point:9 
+CLUBS A 
+
+color:2 point:14 
+spent time: 23
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 59
+**********flop**********
+SPADES 2 
+
+color:0 point:2 
+DIAMONDS 2 
+
+color:3 point:2 
+SPADES 4 
+
+color:0 point:4 
+**********flop**********
+spent time: 46
+spent time: 2
+spent time: 23
+spent time: 7
+CLUBS 7 
+
+color:2 point:7 
+HEARTS 5 
+
+color:1 point:5 
+spent time: 20
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 56
+spent time: 1
+spent time: 24
+spent time: 6
+HEARTS 6 
+
+color:1 point:6 
+DIAMONDS 5 
+
+color:3 point:5 
+spent time: 21
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 68
+spent time: 1
+spent time: 29
+spent time: 7
+CLUBS 5 
+
+color:2 point:5 
+CLUBS A 
+
+color:2 point:14 
+spent time: 27
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 68
+spent time: 1
+spent time: 35
+spent time: 10
+HEARTS 5 
+
+color:1 point:5 
+CLUBS K 
+
+color:2 point:13 
+spent time: 32
+****inquiry test****
+mybet 40  bet 123 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 91
+spent time: 2
+spent time: 34
+spent time: 9
+SPADES 8 
+
+color:0 point:8 
+CLUBS A 
+
+color:2 point:14 
+spent time: 36
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 88
+spent time: 2
+spent time: 23
+spent time: 8
+HEARTS 2 
+
+color:1 point:2 
+SPADES 2 
+
+color:0 point:2 
+spent time: 39
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 7
+fold 
+
+spent time: 74
+spent time: 2
+spent time: 35
+spent time: 12
+HEARTS 6 
+
+color:1 point:6 
+SPADES 9 
+
+color:0 point:9 
+spent time: 34
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 110
+spent time: 2
+spent time: 55
+spent time: 16
+DIAMONDS 6 
+
+color:3 point:6 
+HEARTS K 
+
+color:1 point:13 
+spent time: 44
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 106
+**********flop**********
+SPADES Q 
+
+color:0 point:12 
+SPADES A 
+
+color:0 point:14 
+HEARTS 9 
+
+color:1 point:9 
+**********flop**********
+spent time: 66
+spent time: 2
+spent time: 35
+spent time: 6
+DIAMONDS 8 
+
+color:3 point:8 
+HEARTS 5 
+
+color:1 point:5 
+spent time: 23
+****inquiry test****
+mybet 40  bet 83 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 58
+spent time: 1
+spent time: 23
+spent time: 7
+HEARTS 5 
+
+color:1 point:5 
+DIAMONDS 5 
+
+color:3 point:5 
+spent time: 21
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 7
+fold 
+
+spent time: 58
+**********flop**********
+DIAMONDS 4 
+
+color:3 point:4 
+SPADES 3 
+
+color:0 point:3 
+HEARTS 3 
+
+color:1 point:3 
+**********flop**********
+spent time: 44
+spent time: 1
+spent time: 27
+spent time: 6
+CLUBS Q 
+
+color:2 point:12 
+SPADES A 
+
+color:0 point:14 
+spent time: 20
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+check 
+
+spent time: 56
+****inquiry test****
+mybet 40  bet 123 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 53
+spent time: 1
+spent time: 17
+spent time: 4
+CLUBS A 
+
+color:2 point:14 
+SPADES J 
+
+color:0 point:11 
+spent time: 12
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 44
+spent time: 1
+spent time: 25
+spent time: 7
+SPADES 2 
+
+color:0 point:2 
+SPADES 8 
+
+color:0 point:8 
+spent time: 29
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 48
+spent time: 2
+spent time: 44
+spent time: 11
+DIAMONDS 9 
+
+color:3 point:9 
+CLUBS Q 
+
+color:2 point:12 
+spent time: 36
+****inquiry test****
+mybet 40  bet 106 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 92
+spent time: 1
+spent time: 31
+spent time: 8
+DIAMONDS A 
+
+color:3 point:14 
+CLUBS Q 
+
+color:2 point:12 
+spent time: 31
+****inquiry test****
+mybet 20  bet 128 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 96
+spent time: 1
+spent time: 74
+spent time: 6
+SPADES 4 
+
+color:0 point:4 
+HEARTS 10 
+
+color:1 point:10 
+spent time: 27
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 81
+spent time: 0
+spent time: 24
+spent time: 6
+SPADES 9 
+
+color:0 point:9 
+HEARTS 9 
+
+color:1 point:9 
+spent time: 25
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 7
+fold 
+
+spent time: 53
+spent time: 1
+spent time: 24
+spent time: 12
+SPADES 5 
+
+color:0 point:5 
+CLUBS 5 
+
+color:2 point:5 
+spent time: 42
+****inquiry test****
+mybet 0  bet 40 
+****inquiry test****
+parser :myshape 7
+fold 
+
+spent time: 94
+**********flop**********
+HEARTS Q 
+
+color:1 point:12 
+SPADES 10 
+
+color:0 point:10 
+HEARTS 7 
+
+color:1 point:7 
+**********flop**********
+spent time: 97
+spent time: 2
+spent time: 31
+spent time: 7
+SPADES 5 
+
+color:0 point:5 
+SPADES 8 
+
+color:0 point:8 
+spent time: 26
+****inquiry test****
+mybet 40  bet 83 
+****inquiry test****
+parser :myshape 8
+fold 
+
+spent time: 76
+**********flop**********
+HEARTS K 
+
+color:1 point:13 
+HEARTS 9 
+
+color:1 point:9 
+SPADES 7 
+
+color:0 point:7 
+**********flop**********
+spent time: 40
+**********turn**********
+SPADES 4 
+
+color:0 point:4 
+**********turn**********
+spent time: 33
+**********river**********
+SPADES 10 
+
+color:0 point:10 
+**********river**********
+spent time: 27
+spent time: 1
