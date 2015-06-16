@@ -287,6 +287,23 @@ public class PokerLib
         
         return( best );
     }
+    public static int eval_6hand(int[] hand)
+    {
+        int i, j;
+        int q, best = 9999;
+        int[] subhand = new int[5];
+        
+        for ( i = 0; i < 6; i++ )
+        {
+            for ( j = 0; j < 5; j++ )
+                subhand[j] = hand[ perm6[i][j] ];
+            q = eval_5hand( subhand );
+            if ( q < best )
+                best = q;
+        }
+        
+        return( best );
+    }
     private static int [] flushes;
     public static void inita () {int [] temp = {
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -2868,7 +2885,14 @@ public class PokerLib
      ** ace   = 41
      */
     private static final int[] primes = { 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41 };
-    
+    private static final int[][] perm6={
+    	{0,1,2,3,4},
+    	{0,1,2,3,5},
+    	{0,1,2,4,5},
+    	{0,1,3,4,5},
+    	{0,2,3,4,5},
+    	{1,2,3,4,5}
+    };
     private static final int[][] perm7 = {
     { 0, 1, 2, 3, 4 },
     { 0, 1, 2, 3, 5 },

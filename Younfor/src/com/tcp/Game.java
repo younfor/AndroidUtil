@@ -3,16 +3,10 @@ package com.tcp;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.OutputStream;
-
 import com.ai.Bys;
-import com.ai.Bys2;
 import com.ai.PokerLib;
 import com.bot.Bot;
-import com.bot.CallBot;
 import com.bot.CleverBot;
-import com.bot.RaiseCallBot;
-import com.bot.RandomBot;
-import com.bot.SimpleBot;
 import com.game.Card;
 import com.game.Player;
 import com.game.State;
@@ -28,19 +22,6 @@ public class Game {
 	{
 		state.pid=id;
 		state.pname=name;
-		/*
-		if(name.equals("simplebot"))
-			bot=new SimpleBot();
-		else if(name.equals("randombot"))
-			bot=new RandomBot();
-		else if(name.equals("callbot"))
-			bot=new CallBot();
-		else if(name.equals("cleverbot"))
-			bot=new CleverBot();
-		else if(name.equals("raisecallbot"))
-			bot=new RaiseCallBot();
-			*/
-		
 	}
 	public void reg(OutputStream out) throws IOException
 	{
@@ -249,23 +230,7 @@ public class Game {
 						p.setBet(Integer.parseInt(data[3]));
 						p.setLastaction(State.getAction(data[4]));
 						//bys
-						int oldbys=p.actions[state.currentState-State.baseState];
-						//debug("old bys:"+(state.currentState-State.baseState)+":"+oldbys);
-						if(p.getLastaction()==State.fold&&oldbys<=Bys.fold)
-						{
-							//debug("bys fold");
-							p.actions[state.currentState-State.baseState]=Bys.fold;//flod 0 call 1 raise 2
-						}
-						else if(oldbys<=Bys.raise&&(p.getLastaction()==State.raise||p.getLastaction()==State.all_in))
-						{
-							//debug("bys raise or call");
-							p.actions[state.currentState-State.baseState]=Bys.raise;
-						}
-						else if(oldbys<=Bys.call&&(p.getLastaction()==State.call||p.getLastaction()==State.check))
-						{
-							//debug("bys call");
-							p.actions[state.currentState-State.baseState]=Bys.call;
-						}
+						int oldbys=p.actions2[state.currentState-State.baseState];
 						//new bys
 						int raisetype=2;
 						if(p.getBet()>5*state.bigblindbet)
@@ -277,7 +242,7 @@ public class Game {
 						{
 							if(!state.bys2.containsKey(p.getPid()))
 							{
-								state.bys2.put(p.getPid(), new Bys2());
+								state.bys2.put(p.getPid(), new Bys());
 							}
 							state.bys2.get(p.getPid()).enterpotnum++;
 							state.newseat=false;
@@ -287,15 +252,15 @@ public class Game {
 							if(p.getLastaction()==State.fold)
 							{
 								//debug("bys fold");
-								p.actions2[state.currentState-State.baseState]=Bys2.fold;//flod 0 call 1 raise 2
+								p.actions2[state.currentState-State.baseState]=Bys.fold;//flod 0 call 1 raise 2
 								//add prob
-								if((state.currentState>State.baseState)&&(p.actions2[state.currentState-State.baseState-1]!=Bys2.fold))
+								if((state.currentState>State.baseState)&&(p.actions2[state.currentState-State.baseState-1]!=Bys.fold))
 								{
 									if(!state.bys2.containsKey(p.getPid()))
 									{
-										state.bys2.put(p.getPid(), new Bys2());
+										state.bys2.put(p.getPid(), new Bys());
 									}
-									state.bys2.get(p.getPid()).addBys(findById(p.getPid()).actions, 0);
+									state.bys2.get(p.getPid()).addBys(findById(p.getPid()).actions2, 0);
 								}
 							}
 							else if((p.getLastaction()==State.raise||p.getLastaction()==State.all_in))
@@ -306,19 +271,19 @@ public class Game {
 							else if((p.getLastaction()==State.call||p.getLastaction()==State.check))
 							{
 								//debug("bys call");
-								p.actions2[state.currentState-State.baseState]=Bys2.call;
+								p.actions2[state.currentState-State.baseState]=Bys.call;
 							}
 						}
 						//debug("set "+p.getPid()+" bys state/actions "+(state.currentState-State.baseState)+":"+p.actions[state.currentState-State.baseState]);
 						if(!state.bys2.containsKey(p.getPid()))
 						{
-							state.bys2.put(p.getPid(), new Bys2());
+							state.bys2.put(p.getPid(), new Bys());
 						}
 						if(state.currentState==State.flopState&&state.bys2.get(p.getPid()).prevaction!=State.fold)
 						{
 							if(!state.bys2.containsKey(p.getPid()))
 							{
-								state.bys2.put(p.getPid(), new Bys2());
+								state.bys2.put(p.getPid(), new Bys());
 							}
 							if(p.getLastaction()==State.call||p.getLastaction()==State.check)
 								state.bys2.get(p.getPid()).flopaction[1]++;
@@ -332,7 +297,7 @@ public class Game {
 						{
 							if(!state.bys2.containsKey(p.getPid()))
 							{
-								state.bys2.put(p.getPid(), new Bys2());
+								state.bys2.put(p.getPid(), new Bys());
 							}
 							if(p.getLastaction()==State.call||p.getLastaction()==State.check)
 								state.bys2.get(p.getPid()).turnaction[1]++;
@@ -346,7 +311,7 @@ public class Game {
 						{
 							if(!state.bys2.containsKey(p.getPid()))
 							{
-								state.bys2.put(p.getPid(), new Bys2());
+								state.bys2.put(p.getPid(), new Bys());
 							}
 							if(p.getLastaction()==State.call||p.getLastaction()==State.check)
 								state.bys2.get(p.getPid()).riveraction[1]++;
@@ -365,7 +330,7 @@ public class Game {
 								state.raisenum++;
 								if(!state.bys2.containsKey(p.getPid()))
 								{
-									state.bys2.put(p.getPid(), new Bys2());
+									state.bys2.put(p.getPid(), new Bys());
 								}
 								if(state.currentState==State.baseState)
 								{
@@ -573,19 +538,6 @@ public class Game {
 					while(!s.startsWith("/showdown"))
 					{
 						debug(s);
-						String data[]=s.split(" ");
-						String id=data[1];
-						//debug("prepare bys: "+id);
-						if(!state.bys.containsKey(id))
-						{
-							//debug("create bys: "+id);
-							state.bys.put(id, new Bys());
-						}
-						//debug("create bys: rank "+state.findRank(data[6]));
-						state.bys.get(id).addBys(findById(id).actions, state.findRank(data[6]));
-						//int a[]=state.bys.get(id).getBys(new int[]{Bys.call});
-						//for(int i=0;i<a.length;i++)
-						//	debug("bys rank["+i+"]:" +a[i]);
 						s=in.readLine();
 					}
 					
@@ -607,7 +559,7 @@ public class Game {
 					String id=data[0].substring(0, data[0].length()-1);
 					if(!state.bys2.containsKey(id))
 					{
-						state.bys2.put(id, new Bys2());
+						state.bys2.put(id, new Bys());
 					}
 					findById(id).win=true;
 					state.bys2.get(id).addBys(findById(id).actions2, 1);
@@ -622,7 +574,7 @@ public class Game {
 						String id=p.getPid();
 						if(!state.bys2.containsKey(id))
 						{
-							state.bys2.put(id, new Bys2());
+							state.bys2.put(id, new Bys());
 						}
 						state.bys2.get(p.getPid()).addBys(p.actions2, 0);
 						debug("id:"+id+",winprob:"+state.bys2.get(id).getVal(findById(id).actions2));

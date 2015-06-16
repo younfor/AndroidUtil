@@ -7,8 +7,8 @@ import java.util.concurrent.atomic.*;
 
 import javax.swing.plaf.metal.MetalIconFactory.FolderIcon16;
 
-import com.ai.Bys;
-import com.ai.MCT;
+import com.ai.ProbMCT;
+import com.ai.ProbValue;
 import com.bot.Bot;
 import com.game.Card;
 import com.game.Player;
@@ -16,7 +16,7 @@ import com.game.State;
 import com.util.Log;
 
 public class CleverBot implements Bot {
-	public static int CORES = 4;
+	public static int CORES = 1;
 	State state;
 	Card handcard[];
 	long time;
@@ -90,7 +90,6 @@ public class CleverBot implements Bot {
 					int ac[] = new int[state.currentState - State.baseState + 1];
 					int ac2[] = new int[state.currentState - State.baseState + 1];
 					for (int j = 0; j < ac.length; j++) {
-						ac[j] = p.actions[j];
 						ac2[j] = p.actions2[j];
 					}
 					if(state.bys2.get(p.getPid())!=null)
@@ -178,19 +177,7 @@ public class CleverBot implements Bot {
 						debug("maxraisebet:"+maxraisebet);
 						debug("minraisebet:"+minraisebet);
 					}
-					if (ac[ac.length - 1] != Bys.fold) {
-						double oppoval = 0;
-						if(state.bys.get(p.getPid())!=null)
-							oppoval=state.bys.get(p.getPid()).getVal(ac);
-						Log.getIns(state.pid).log(
-								"val" + p.getPid() + ":" + oppoval);
-						if (oppoval > 0 && oppoval < 10) {
-							if(oppoval<minval)
-								minval=oppoval;
-							aveval += oppoval;
-							base++;
-						}
-					}
+					
 				}
 			}
 		}catch(Exception e)
@@ -676,14 +663,17 @@ public class CleverBot implements Bot {
 
 	public int getAction() {
 		try {
-			int activenum = state.getNonFolded();
+			int activenum = state.getNonFolded()-1;
 			int[] hand = state.getHand();
 			int[] comm = state.getComm();
-			long endMS = System.currentTimeMillis() + time;
 			Log.getIns(state.pid).log("clever bot" + activenum);
-			ExecutorService threads = Executors.newFixedThreadPool(CORES);
+			ProbValue  probvalue= new ProbValue(hand, activenum, comm);
+			double prob=probvalue.getProb();
+			debug("prob: "+prob);
+			/*ExecutorService threads = Executors.newFixedThreadPool(CORES);
 			AtomicInteger won = new AtomicInteger(0);
 			AtomicInteger total = new AtomicInteger(0);
+			long endMS = System.currentTimeMillis() + time;
 			for (int i = 0; i < CORES; i++) {
 				MCT thread = new MCT(hand, activenum, comm, endMS, won, total);
 				threads.submit(thread);
@@ -692,7 +682,9 @@ public class CleverBot implements Bot {
 			try {
 				threads.awaitTermination(1, TimeUnit.MINUTES);
 			} catch (Exception e) {
-			}
+			}*/
+			//double probnew = won.doubleValue() / total.doubleValue();
+			//debug("prob2:"+probnew);
 			double add = 0.064;
 			if (comm.length >= 5)
 				add = 0.001;
@@ -700,11 +692,8 @@ public class CleverBot implements Bot {
 				add = 0.012;
 			else if (comm.length >= 3)
 				add = 0.025;
-			double prob = won.doubleValue() / total.doubleValue();
 			double deficit = 1.0 - prob;
 			prob += deficit * add;
-			Log.getIns(state.pid).log(
-					"time: " + won.doubleValue() + "," + total.doubleValue());
 			List<Player> players = state.players;
 			int activePlayers = 0;
 			int hightocall = 0;

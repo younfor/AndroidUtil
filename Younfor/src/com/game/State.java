@@ -8,7 +8,6 @@ import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import com.ai.Bys;
-import com.ai.Bys2;
 
 public class State {
 	public final static int button=10,smallblind=11,bigblind=12,normal=13;
@@ -59,8 +58,7 @@ public class State {
 	public int myloc=0;
 	public List<Player>  players=new ArrayList<Player>();//
 	//bys- save to game over !!!!!!!!
-	public Map<String,Bys> bys=new HashMap<String, Bys>();
-	public Map<String,Bys2> bys2=new HashMap<String, Bys2>();
+	public Map<String,Bys> bys2=new HashMap<String, Bys>();
 	// bys prob
     public static AtomicInteger [] ranknum=new AtomicInteger[10];
     public double getMyVal()

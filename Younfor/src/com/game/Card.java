@@ -7,14 +7,28 @@ import com.util.Log;
 
 public class Card {
 	public String color, point;
-	public static int TEN=8,TWO=0,ACE=12;
-
-
+	public static void main(String []args)
+	{
+		PokerLib.init();
+		Card c1=new Card("SPADES","A");
+		int value=c1.getValue();
+		value = value>>16;
+		for (int i = 0; i < 13; i++) {
+			if ((value&0x01)!=0) {
+				System.out.println(i+2);
+				return;
+			}
+			else {
+				value = value>>1; 
+			}
+		}
+	}
 	public Card(String color, String point) {
 		super();
 		this.color = color;
 		this.point = point;
 	}
+	
 	public int getValue()
 	{
 		//Log.getIns("1111").log("value:"+point+color.charAt(0));
