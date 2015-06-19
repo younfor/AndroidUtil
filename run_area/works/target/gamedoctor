@@ -1,0 +1,8 @@
+echo $1 $2 $3 $4 $5
+echo "game start 8888"
+java org.john.game $1 $2 $3 $4 $5
+#java game $1 $2 $3 $4 $5
+echo "game end"
+
+
+

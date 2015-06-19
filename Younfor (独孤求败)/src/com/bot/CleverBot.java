@@ -25,6 +25,16 @@ public class CleverBot implements Bot {
 	double hightobet=0,prebet=0;
 	//手牌
 	double level=0;
+	//鱼
+	int fishtight=0,fishloose=0,fishveryloose=0;
+	//翻牌前的鱼
+	int prefishtight=0;
+	public boolean isSmallJetton()
+	{
+		if(state.getInitjetton()<15*state.bigblindbet&&me.getGold()<3*state.bigblindbet)
+			return true;
+		return false;
+	}
 	public int getBestAction(State state, long time) {
 
 		//初始化
@@ -44,6 +54,31 @@ public class CleverBot implements Bot {
 		//求手牌范围
 		level=ProbValue.getPower(new int[]{handcard[0].getValue(),handcard[1].getValue()});
 		debug("level:"+level);
+		//求激进度
+		 fishtight=0;
+		 fishloose=0;
+		 fishveryloose=0;
+		 prefishtight=0;
+		for(Player p:state.players)
+		{
+			if(p.isAlive())
+			{
+				debug(p.getPid()+"pfr : "+state.opponent.get(p.getPid()).getPFR());
+				if(!p.getPid().equals(me.getPid()))
+				{
+					double fish=state.opponent.get(p.getPid()).getPFR();
+					if(fish>0.3)
+						fishveryloose++;
+					else if(fish>0.15)
+						fishloose++;
+					else{
+						if(me.position>p.position&&isSmallJetton())
+							prefishtight++;
+						fishtight++;
+					}
+				}
+			}
+		}
 		//翻牌前策略
 		if(state.currentState==State.baseState)
 			return getPreAction();

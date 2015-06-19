@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+cd ../source
+chmod u+x gamePlayer.class
+java gamePlayer $1 $2 $3 $4 $5 &

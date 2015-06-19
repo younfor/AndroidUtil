@@ -75,7 +75,7 @@ do
   export "PLAYER"$i"_ID"=$i$i$i$i
 done
 chmod u+x gameserver
-./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500 0</dev/null 1>/dev/null 2>/dev/null &>"errserver.txt" & 
+./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 2000 0</dev/null 1>/dev/null 2>/dev/null &>"errserver.txt" & 
 popd >/dev/null
 
 echo "start your program"
@@ -89,16 +89,16 @@ killall game* >/dev/null 2>&1
   #./game 127.0.0.1 6000 127.0.0.$i 600$i $i$i$i$i
 #./chappie 127.0.0.1 6000 127.0.0.$i 600$i $i$i$i$i 0</dev/null 1>/dev/null &>"err$i$i$i$i.txt" &
 #done
-#game_hc0610 game_jltx43 gameama
-./game_hc0610 127.0.0.1 6000 127.0.0.1 6001 1111 0</dev/null 1>/dev/null &>"err1111.txt" &
-./gamefly 127.0.0.1 6000 127.0.0.2 6002 2222 0</dev/null 1>/dev/null &>"err2222.txt" &
+#game_hc0610 game_jltx43 gameama gamefly gamesuper gamethree gamesouth
+./gamefly 127.0.0.1 6000 127.0.0.1 6001 1111 0</dev/null 1>/dev/null &>"err1111.txt" &
+./game_hc0610 127.0.0.1 6000 127.0.0.2 6002 2222 0</dev/null 1>/dev/null &>"err2222.txt" &
 ./game_jltx43 127.0.0.1 6000 127.0.0.3 6003 3333 0</dev/null 1>/dev/null 2>/dev/null &
 #./gameo 127.0.0.1 6000 127.0.0.3 6003 3333 0</dev/null 1>/dev/null &>"err3333.txt" &
 ./gamesouth 127.0.0.1 6000 127.0.0.4 6004 4444 0</dev/null 1>/dev/null &>"err4444.txt" &
 ./gamesouth 127.0.0.1 6000 127.0.0.5 6005 5555 0</dev/null 1>/dev/null &>"err5555.txt" &
-./gamesouth 127.0.0.1 6000 127.0.0.6 6006 6666 0</dev/null 1>/dev/null &>"err6666.txt" &
+./gamesuper 127.0.0.1 6000 127.0.0.6 6006 6666 0</dev/null 1>/dev/null &>"err6666.txt" &
 ./chappie 127.0.0.1 6000 127.0.0.7 6007 7777 0</dev/null 1>/dev/null &>"err7777.txt" &
-./gamedog 127.0.0.1 6000 127.0.0.8 6008 8888 0</dev/null 1>/dev/null &>"err8888.txt" &
+./gameama 127.0.0.1 6000 127.0.0.8 6008 8888 0</dev/null 1>/dev/null &>"err8888.txt" &
 popd >/dev/null
 
 popd >/dev/null
