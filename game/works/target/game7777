@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+java -cp bin7777/ com.tcp.TcpClient $1 $2 $3 $4 $5 CQchappie 

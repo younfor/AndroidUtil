@@ -3,12 +3,16 @@ import time
 import thread
 import time
 import sys
-
+import csv
 
 def run():
     print 'start runing'
-    os.system('nohup ./dist_check_and_run.sh &')
-thread.start_new_thread(run, ())
+    if len(sys.argv)==4:
+        print ' ./'+str(sys.argv[2])+'.sh '+str(sys.argv[3])
+        os.system('nohup ./'+str(sys.argv[2])+'.sh '+str(sys.argv[3])+' &')
+    else:
+        os.system('nohup ./dist_check_and_run.sh &')
+run()
 # start floop
 os.system('rm -rf logdata')
 i = 1
@@ -22,6 +26,10 @@ while i <= num:
     if t % 20 == 0:
         print t, 's go away...'
     if os.path.exists(r'../run_area/server/data.csv'):
+        csvfile = file('../run_area/server/data.csv', 'rb')
+        reader = csv.reader(csvfile)
+        for line in reader:
+            print line
         print 'the ', i, ' match'
         if not os.path.exists(r'logdata'):
             print 'create logdata'
@@ -61,4 +69,7 @@ while i <= num:
         t = 0
 
 print 'count the scores:'
-os.system('python count.py ' + str(num))
+if len(sys.argv)==4:
+    os.system('python count.py ' + str(num)+' '+str(sys.argv[2])+str(sys.argv[3]))
+else:
+    os.system('python count.py ' + str(num))

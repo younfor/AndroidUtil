@@ -1,0 +1,107 @@
+#!/usr/bin/env bash
+cd `dirname $(readlink -f $0)`
+
+if [[ ! -d ../run_area ]]; then 
+  echo "missing  run_area folder, please check"
+  exit 
+fi  
+
+echo "check the size of works foldery ...."
+size=$(du -m -s works | awk '{print $1}')
+if [[ $size -ge 50 ]]; then
+  echo "the total size( $size M) of the works is beyoung the limit( 50 M) "
+  echo "you can "
+  echo " 1. clean the tmp file during the build process or "
+  echo " 2. remove libarys and file those is no need any more or"
+  echo " 3. rework you code"
+  exit
+fi
+
+echo "archive the works folder"
+rm -rf works.tar.gz
+tar czf works.tar.gz works/
+zipsize=$(du -m -s works.tar.gz | awk '{print $1}')
+if [[ $zipsize -ge 10 ]]; then
+  echo "the archive ($zipsize M) of the works is beyoung the limit( 10 M) "
+  echo "you can "
+  echo " 1. clean the tmp file during the build process or "
+  echo " 2. remove libarys and file those is no need any more or"
+  echo " 3. rework you code"
+  exit
+fi
+
+echo "you can use works.tar.gz for submit"
+
+echo ""
+
+echo "prepare for test.."
+killall chappie* >/dev/null 2>&1
+killall dsb >/dev/null 2>&1
+killall game >/dev/null 2>&1
+killall all_in >/dev/null 2>&1
+killall fold >/dev/null 2>&1
+killall check >/dev/null 2>&1
+killall call >/dev/null 2>&1
+killall raise100 >/dev/null 2>&1
+killall raise1 >/dev/null 2>&1
+killall random >/dev/null 2>&1
+killall gameo >/dev/null 2>&1
+killall gamel >/dev/null 2>&1
+killall gametest1 >/dev/null 2>&1
+killall simple >/dev/null 2>&1
+killall random >/dev/null 2>&1
+killall youn >/dev/null 2>&1
+killall clever >/dev/null 2>&1
+killall call >/dev/null 2>&1
+killall all >/dev/null 2>&1
+killall gamew >/dev/null 2>&1
+killall gamez >/dev/null 2>&1
+killall gameserver >/dev/null 2>&1
+rm  -rf ../run_area/*
+cp -r server ../run_area
+cp -rf works.tar.gz ../run_area
+pushd . >/dev/null
+cd ../run_area
+rm -rf works
+tar zxf works.tar.gz  
+
+echo "start server"
+pushd . >/dev/null
+cd server
+for i in 1 2 3 4 5 6 7 8
+do 
+  export "PLAYER"$i"_IP"=127.0.0.$i
+  export "PLAYER"$i"_PORT"=600$i
+  export "PLAYER"$i"_ID"=$i$i$i$i
+done
+chmod u+x gameserver
+./gameserver -gip 127.0.0.1 -seq replay -r 30 -d 0 -m 4000 -b 20 -t 2000 -h 600 -i 500 0</dev/null 1>/dev/null 2>/dev/null &>"errserver.txt" & 
+popd >/dev/null
+
+echo "start your program"
+pushd . >/dev/null
+cd works/target
+chmod u+x game* 
+killall game* >/dev/null 2>&1
+#for i in 1 2 3 4 5 6 7 8
+#do
+#./youn 127.0.0.1 6000 127.0.0.$i 600$i $i$i$i$i 0</dev/null 1>/dev/null &>"err1111.txt" &
+  #./game 127.0.0.1 6000 127.0.0.$i 600$i $i$i$i$i
+#./chappie 127.0.0.1 6000 127.0.0.$i 600$i $i$i$i$i 0</dev/null 1>/dev/null &>"err$i$i$i$i.txt" &
+#done
+#game_hc0610 game_jltx43 gameama gamefly gamesuper gamethree gamesouth
+./game_hc0610 127.0.0.1 6000 127.0.0.1 6001 1111 0</dev/null 1>/dev/null &>"err1111.txt" &
+./game_hc0610 127.0.0.1 6000 127.0.0.2 6002 2222 0</dev/null 1>/dev/null &>"err2222.txt" &
+./game_jltx43 127.0.0.1 6000 127.0.0.3 6003 3333 0</dev/null 1>/dev/null 2>/dev/null &
+#./gameo 127.0.0.1 6000 127.0.0.3 6003 3333 0</dev/null 1>/dev/null &>"err3333.txt" &
+./gamesuper 127.0.0.1 6000 127.0.0.4 6004 4444 0</dev/null 1>/dev/null &>"err4444.txt" &
+./gamefly 127.0.0.1 6000 127.0.0.5 6005 5555 0</dev/null 1>/dev/null &>"err5555.txt" &
+./gamesouth 127.0.0.1 6000 127.0.0.6 6006 6666 0</dev/null 1>/dev/null &>"err6666.txt" &
+./game$1 127.0.0.1 6000 127.0.0.7 6007 7777 0</dev/null 1>/dev/null &>"err7777.txt" &
+./game_hc0610 127.0.0.1 6000 127.0.0.8 6008 8888 0</dev/null 1>/dev/null &>"err8888.txt" &
+popd >/dev/null
+
+popd >/dev/null
+
+
+ps t

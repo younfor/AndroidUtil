@@ -1,5 +1,5 @@
 import csv
-import sys
+import sys,os
 score = {}
 for i in range(1, 9):
     temp = []
@@ -20,16 +20,25 @@ for i in range(1, size + 1):
         j += 1
         # print line[6]
     csvfile.close()
+record = False
+if len(sys.argv)==3:
+    record = True
+    recordfile = (str)(sys.argv[2])
+    if not os.path.exists(r'result'):
+        print 'create result'
+        os.mkdir(r'result')
+    os.system('rm result/' + recordfile + '.txt')
+    output = open('result/' + recordfile + '.txt', 'w+')
 for key, user in score.items():
-    ans = 0
-    i=0
-    total=0.0
-    result=[]
+    i = 0
+    total = 0.0
     for s in user:
-        ans += s
-        total+=s
-        i+=1
-        if i%3==0:
-            result.append(ans)
-            ans=0
-    print key, '\'s ave  : %.2f' % (total / len(user)), ' data :', user,'rank: ',result
+        total += s
+        i += 1
+
+    print key, '\'s ave  : %.2f' % (total / len(user)), ' data :', user
+    a = '\'s ave  : %.2f' % (total / len(user))
+    if record == True:
+        output.write((str)(key) + (str)(a) + '  '+ (str)(user) + '\n')
+if record == True:
+    output.close()
