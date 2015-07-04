@@ -220,9 +220,9 @@ public class ProbValue {
     {
     	PokerLib.init();
     	ProbValue p=new ProbValue(new int[]{1,2},2, new int[]{1,2,3});
-    	Card c1=new Card("SPADES","K");
+    	Card c1=new Card("SPADES","9");
     	//Card c2=new Card("SPADES","8");
-    	Card c2=new Card("HEARTS","K");
+    	Card c2=new Card("HEARTS","9");
     	System.out.println(p.getPower(new int[]{c1.getValue(),c2.getValue()}));
     	c1=new Card("SPADES","6");
     	c2=new Card("SPADES","7");

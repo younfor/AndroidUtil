@@ -8,7 +8,7 @@ import com.game.Card;
 import com.game.Player;
 import com.game.State;
 import com.util.Log;
-
+//周六pk
 public class CleverBot implements Bot {
 
 	//精度
@@ -48,10 +48,60 @@ public class CleverBot implements Bot {
 		 initOpponent();
 		//翻牌前策略
 		if(state.currentState==State.baseState)
-			return getPreAction();
+		{
+			if(state.seatplayer<5&&state.getInitjetton()>50*state.bigblindbet)
+			{
+				debug("seatplayer:"+state.seatplayer);
+				return getPreAction();
+			}
+			else
+				return getPreAction0();
+		}
 		else{
 		//翻牌后策略
-			return getAction();
+			if(state.seatplayer<5&&state.getInitjetton()>50*state.bigblindbet)
+				return getAction();
+			else
+				return getAction0();
+		}
+	}
+	public int getPreAction0()
+	{
+		if(state.myloc==State.bigblind||state.myloc==State.smallblind)
+		{
+			if(isFoldAll()||isCall1())
+			{
+				State.raisebet=8*state.bigblindbet;
+				return State.raise;
+			}else if(level>8)
+				return State.call;
+		}else if(level>8)
+			return State.call;
+		return State.fold;
+	}
+	public int getAction0() 
+	{
+		try {
+			if(raise())
+			{
+				if(hightobet-prebet<state.totalpot*prob&&state.currentState==State.turnState)
+				{
+					State.raisebet=(int)Math.max((state.totalpot*prob),state.getInitjetton()/8.0);
+					return State.raise;
+				}
+				else
+					return State.call;
+			}else
+			{
+				if(ev())
+					return State.call;
+				else if(hightobet-prebet>state.totalpot/2.0&&hightobet-prebet>state.getInitjetton()/10.0)
+					return State.fold;
+				else
+					return State.call;
+			}
+		} catch (IOException e) {
+			return State.call;
 		}
 	}
 	//参数初始化
@@ -77,8 +127,9 @@ public class CleverBot implements Bot {
 		//求手牌范围
 		level=ProbValue.getPower(new int[]{handcard[0].getValue(),handcard[1].getValue()});
 		debug("level:"+level);
+		state.bigblindbet=(int)(state.initJet/50.0);
 		//资金
-		size=Math.sqrt(Math.min(8000, state.getInitjetton())/2000.0);
+		size=Math.sqrt(Math.min(4.0, state.getInitjetton()/(state.bigblindbet*50.0)));
 		debug("size:"+size);
 	}
 	//对手模型
@@ -125,7 +176,7 @@ public class CleverBot implements Bot {
 				style+=" 翻牌后凶";
 			else
 				style+=" 翻牌后弱";
-			if(loose&&(preflopscare))
+			if(loose&&p.isAlive())
 				looseplayer++;
 			debug(p.getPid()+style+" VPIP("+df.format(vpip)+")  AF("+df.format(af)+")  PRF("+df.format(prf)+")");
 		}
@@ -185,18 +236,6 @@ public class CleverBot implements Bot {
 				State.raisebet=state.bigblindbet;
 				return State.raise;
 			}
-			if((isCall1()||isFoldAll())&&(!isSmallJetton()))
-			{
-				//8
-				if(crazeplayer>0)
-				{
-					if(level>=12)
-						return State.call;
-					return State.fold;
-				}
-				State.raisebet=(int)(8*state.bigblindbet);
-				return State.raise;
-			}
 		}
 		//大盲位置
 		else if(state.myloc==State.bigblind)
@@ -225,6 +264,8 @@ public class CleverBot implements Bot {
 			}
 			if(isCall2()||(isCall1()||isFoldAll())||(isRaise1Call0()&&hightobet-prebet<=size*4*state.bigblindbet))
 			{
+				if(level<looseplayer+2)
+					return State.fold;
 				//8
 				if(crazeplayer>0)
 				{
@@ -266,6 +307,8 @@ public class CleverBot implements Bot {
 			}
 			if(isCall2()||isCall1()||isFoldAll()||(isRaise1Call0()&&hightobet-prebet<=size*4*state.bigblindbet))
 			{
+				if(level<looseplayer+3)
+					return State.fold;
 				//8
 				if(crazeplayer>0)
 				{
@@ -372,12 +415,12 @@ public class CleverBot implements Bot {
 					//8
 					if(crazeplayer==0)
 					{
-						if((state.currentState==State.flopState||state.currentState==State.turnState)&&hightobet-prebet<=size*3*state.bigblindbet)
+						if(looseplayer>0&&(state.currentState==State.flopState||state.currentState==State.turnState)&&hightobet-prebet<=size*3*state.bigblindbet)
 						{
 							State.raisebet=(int)(size*5*state.bigblindbet);
 							return State.raise;
 						}
-						if(hightobet-prebet<=state.bigblindbet &&state.myraisenum<2)//7
+						if(hightobet-prebet<=state.bigblindbet &&state.myraisenum<3)//7
 						{
 							State.raisebet=(int)(state.bigblindbet);
 							return State.raise;
@@ -390,6 +433,8 @@ public class CleverBot implements Bot {
 						
 					}else
 					{
+						if(looseplayer>0&&hightobet-prebet<state.getInitjetton()/10.0)
+							return State.call;
 						debug("fold");
 						return State.fold;
 						
@@ -506,6 +551,12 @@ public class CleverBot implements Bot {
 			debug("is raise 1,call 1");
 			return true;
 		}
+		return false;
+	}
+	public boolean isPair()
+	{
+		if(handcard[0].getRank()==handcard[1].getRank())
+			return true;
 		return false;
 	}
 	public void debug(String s) {

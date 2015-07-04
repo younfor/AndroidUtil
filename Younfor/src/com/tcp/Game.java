@@ -7,6 +7,14 @@ import java.util.Random;
 import com.ai.Opponent;
 import com.ai.PokerLib;
 import com.bot.Bot;
+import com.bot.Bot81;
+import com.bot.Bot81c;
+import com.bot.Bot82;
+import com.bot.Bot82c;
+import com.bot.Bot82d;
+import com.bot.Bot83a;
+import com.bot.Bot85;
+import com.bot.Bot85a;
 import com.bot.CleverBot;
 import com.game.Card;
 import com.game.Player;
@@ -23,6 +31,25 @@ public class Game {
 	{
 		state.pid=id;
 		state.pname=name;
+		//test
+		if(name.equals("81"))
+			bot=new Bot81();
+		else if(name.equals("81c"))
+			bot=new Bot81c();
+		else if(name.equals("82"))
+			bot=new Bot82();
+		else if(name.equals("82c"))
+			bot=new Bot82c();
+		else if(name.equals("82d"))
+			bot=new Bot82d();
+		else if(name.equals("83a"))
+			bot=new Bot83a();
+		else if(name.equals("85"))
+			bot=new Bot85();
+		else if(name.equals("85a"))
+		    bot=new Bot85a();
+		else
+			bot=new CleverBot();
 	}
 	public void reg(OutputStream out) throws IOException
 	{
@@ -400,6 +427,7 @@ public class Game {
 		 **/
 		String s;
 		State.seatnum++;
+		State.scarenum=0;
 		state.clear();
 		State.handnum++;
 		state.seatplayer=0;
@@ -450,7 +478,10 @@ public class Game {
 			if(player.getPid().equals(state.pid))
 			{
 				if(state.initGold==0)
+				{
 					state.initGold=player.getGold();
+					state.initJet=player.getJetton();
+				}
 				int losejetton=player.getJetton()+player.getGold()-lastJetton;
 				lastJetton=player.getJetton()+player.getGold();
 				if(losejetton<-5000)

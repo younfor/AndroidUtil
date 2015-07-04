@@ -21,6 +21,7 @@ public class State {
 	public static double aveenterpot=0,seatnum=0,enterprob=0;
 	public static boolean newseat=false;
 	public static boolean xiahu=false;
+	public static int scarenum=0;
 	public static double wingold=0,losegold=0;
 	public static int handnum=0;
 	public String pid,pname;//
@@ -29,10 +30,10 @@ public class State {
 	public Card handcard[]=new Card[2];//
 	public Card hostcard[]=new Card[5];//
 	public int currentState=-1;//
+	public int initGold=0,initJet=0;
 	private int[] hand;//
 	private int[] comm;//
 	private int jetton,bet,prebet,initjetton;//
-	public int initGold=0;
 	public static int raisebet=0; //show action raise
 	public int myraisenum=0;
 	public int raisenum=0,callnum=0;
